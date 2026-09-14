@@ -3,7 +3,8 @@
 Automated pipeline that pulls new articles from a curated list of marketing,
 advertising and consumer-research journals, uses Claude to write a pitchable
 digest for two audiences, fact-checks its own output against the abstracts, and
-publishes every run to a browsable dashboard.
+publishes every run to a browsable dashboard —
+**https://marketing-research-digest.vercel.app**
 
 Built on [senior-research-digest](https://github.com/Meggers1982/senior-research-digest):
 same shape, same scoring idea, same dashboard (the freelance-opps design system
@@ -38,8 +39,10 @@ asks for 07:37 UTC; GitHub queues scheduled runs, so expect it hours late
    per-topic memory file in `topic_memory/`.
 8. **Writes the run** to `outputs/` — the digest and fact check as markdown for
    people, and a `.json` run record — then rebuilds `docs/data/`.
-9. **Commits and pushes.** The push is the deploy: Vercel's Git integration
-   builds every commit on `main`, and `vercel.json` serves `docs/`.
+9. **Commits and pushes.** The push is the deploy: the Vercel project
+   `marketing-research-digest` is connected to this repo and builds every commit
+   on `main`; `vercel.json` serves `docs/` with no build step and no token in
+   the workflow.
 
 `python -m pytest tests/ -q` runs first in the same workflow. It touches no API.
 
