@@ -1,0 +1,117 @@
+{
+  "schema": 1,
+  "model": "fixture",
+  "run_date": "2026-09-14",
+  "days_back": 60,
+  "window_from": "2026-07-16",
+  "window_to": "2026-09-14",
+  "focus": "Pricing & Promotions",
+  "topic": "pricing & promotions",
+  "query": "pricing",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Think with Google",
+    "Admap"
+  ],
+  "screening": {
+    "found": 215,
+    "not_research": 5,
+    "no_abstract": 49,
+    "off_topic": 2,
+    "already_covered": 0,
+    "over_journal_cap": 21,
+    "over_cap": 98,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W9000000001",
+      "headline": "Fixture: a field experiment on free-shipping thresholds",
+      "the_study": "A field experiment with an online retailer randomly assigned 48,200 customers to one of three free-shipping thresholds over eight weeks.",
+      "why_it_matters": "Threshold design changes basket size more than the discount itself.",
+      "story_angle_primary": "Test the threshold before the discount.",
+      "story_angle_secondary": "Why you add one more thing to the cart.",
+      "caveats": "Single retailer; one country.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-09-02",
+      "doi": "10.0000/fixture.1",
+      "paper_title": "Fixture paper title one",
+      "source_id": ""
+    },
+    {
+      "work_id": "W9000000002",
+      "headline": "Fixture: a survey of loyalty-program members",
+      "the_study": "A survey of 412 respondents analyzed with structural equation modeling.",
+      "why_it_matters": "Members say points feel like money.",
+      "story_angle_primary": "Frame points as progress.",
+      "story_angle_secondary": "No real angle for general readers.",
+      "caveats": "Cross-sectional survey; stated intentions rather than behavior.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-08-10",
+      "doi": "",
+      "paper_title": "Fixture paper title two",
+      "source_id": ""
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W9000000001",
+      "headline": "Fixture: a field experiment on free-shipping thresholds",
+      "verdict": "accurate",
+      "notes": "",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W9000000002",
+      "headline": "Fixture: a survey of loyalty-program members",
+      "verdict": "minor",
+      "notes": "N rounded",
+      "issues": [
+        {
+          "label": "Sample size",
+          "severity": "Minor",
+          "as_written": "412",
+          "abstract_says": "413",
+          "problem": "Off by one.",
+          "suggested_fix": "413"
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 2,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W9000000001": {
+        "state": "unreported",
+        "outlets": [],
+        "articles": []
+      },
+      "W9000000002": {
+        "state": "lightly_reported",
+        "outlets": [
+          "Marketing Dive"
+        ],
+        "articles": [
+          {
+            "title": "t",
+            "outlet": "Marketing Dive",
+            "link": "https://example.test"
+          }
+        ]
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet -- this is the first run._",
+    "feature_pitch": "**The pattern:** Fixture pattern citing W9000000001.\n**Potential headlines:**\n- One\n- Two",
+    "pitch_ideas": "- **Fixture: a field experiment (Work ID W9000000001):** an angle, for a retail trade brief."
+  }
+}

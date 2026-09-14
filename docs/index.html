@@ -1,0 +1,1513 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Marketing Research Digest — Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+<style>
+  /* Palette, type scale and component recipes ported from freelance-opps-app by
+     way of agingwire-research-intelligence and senior-research-digest, so the
+     dashboards read as one product. --faint is the third text tier this stylesheet was missing and had
+     been faking with --muted. Score bands and editorial status use the same
+     stock palette the app's OpportunityCard and StatusPicker use. */
+  :root {
+    /* Measured from the live header on load/resize; the literal is the fallback. */
+    --header-h: 62px;
+    /* The app's reading measure. Digest prose was running the full window width. */
+    --measure: 56rem;
+
+    --bg: #f7f6f3;
+    --panel: #ffffff;
+    --border: #e3e0d9;
+    --text: #1c1b18;
+    --muted: #6b675e;
+    --faint: #918c81;
+    --accent: #1f5f4f;
+    --accent-soft: #e6efeb;
+    --accent-ink: #ffffff;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+    --shadow-lifted: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    --good: #047857;
+    --warn: #b45309;
+    --bad: #be123c;
+    --strong: #1c1b18;
+
+    /* Score bands. The stripe is read at a glance on a card; the ink has to
+       pass contrast, so they are not the same colour. */
+    --band-lead: #10b981;
+    --band-strong: #1f5f4f;
+    --band-look: #fbbf24;
+    --band-bg: #cfccc4;
+    --band-lead-ink: #047857;
+    --band-strong-ink: #1f5f4f;
+    --band-look-ink: #b45309;
+    --band-bg-ink: #918c81;
+
+    --tone-info-bd: #7dd3fc; --tone-info-bg: #f0f9ff; --tone-info-ink: #0c4a6e;
+    --tone-warn-bd: #fcd34d; --tone-warn-bg: #fffbeb; --tone-warn-ink: #78350f;
+    --tone-good-bd: #34d399; --tone-good-bg: #ecfdf5; --tone-good-ink: #064e3b;
+    --tone-bad-bd:  #fda4af; --tone-bad-bg:  #fff1f2; --tone-bad-ink:  #881337;
+  }
+  /* The app this is modelled on is light-only, so light is what "looks like it"
+     means. Dark is opt-in through the toggle rather than inherited from the OS —
+     the [data-theme] rules below were always here, but nothing ever set the
+     attribute, so the OS media query was the only reachable path. */
+  :root[data-theme="dark"] {
+    --bg: #171a19; --panel: #212524; --border: #343937; --text: #ecebe6;
+    --muted: #a3a099; --faint: #82807a;
+    --accent: #6cc0a6; --accent-soft: #1e2c28; --accent-ink: #10201b;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+    --shadow-lifted: 0 4px 14px rgba(0, 0, 0, 0.45);
+    --good: #6fcf94; --warn: #e0ac4f; --bad: #f0919b; --strong: #ffffff;
+    --band-lead: #34d399; --band-strong: #6cc0a6; --band-look: #e0ac4f; --band-bg: #55605c;
+    --band-lead-ink: #6fcf94; --band-strong-ink: #6cc0a6;
+    --band-look-ink: #e0ac4f; --band-bg-ink: #82807a;
+    --tone-info-bd: #2b5f7d; --tone-info-bg: #16242c; --tone-info-ink: #a8d8f0;
+    --tone-warn-bd: #7a5c22; --tone-warn-bg: #241f14; --tone-warn-ink: #e6c887;
+    --tone-good-bd: #2c6b52; --tone-good-bg: #16251d; --tone-good-ink: #8ddcb4;
+    --tone-bad-bd:  #7d3a44; --tone-bad-bg:  #2a1a1d; --tone-bad-ink:  #f3aab2;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Source Sans 3", ui-sans-serif, system-ui, -apple-system,
+                 BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background: var(--bg); color: var(--text); line-height: 1.5;
+  }
+
+  /* ---------- header ---------- */
+  header {
+    padding: 0.625rem 1rem; border-bottom: 1px solid var(--border);
+    background: var(--panel); position: sticky; top: 0; z-index: 10;
+    display: flex; justify-content: space-between; align-items: center; gap: 1rem;
+  }
+  @supports (backdrop-filter: blur(8px)) {
+    header {
+      background: color-mix(in srgb, var(--panel) 95%, transparent);
+      backdrop-filter: blur(8px);
+    }
+  }
+  header h1 { margin: 0; font-size: 0.95rem; font-weight: 600; letter-spacing: -0.025em; }
+  header h1 a { color: inherit; text-decoration: none; }
+  header h1 a:hover { color: var(--accent); }
+  header p { margin: 2px 0 0; color: var(--faint); font-size: 0.8125rem; line-height: 1.35; }
+
+  /* ---------- controls ---------- */
+  input[type="search"], select {
+    width: 100%; padding: 0.5rem 0.75rem; border: 1px solid var(--border);
+    border-radius: 0.5rem; background: var(--panel); color: var(--text);
+    font-family: inherit; font-size: 0.95rem;
+  }
+  input[type="search"]::placeholder { color: var(--faint); }
+  input[type="search"]:focus-visible, select:focus-visible,
+  button:focus-visible, a:focus-visible, summary:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  .export-btn, .theme-toggle {
+    background: var(--panel); border: 1px solid var(--border); color: var(--muted);
+    border-radius: 0.5rem; padding: 0.4rem 0.75rem; cursor: pointer;
+    font-family: inherit; font-size: 0.8125rem; white-space: nowrap;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+  }
+  .export-btn:hover, .theme-toggle:hover { color: var(--text); border-color: var(--faint); }
+  .export-btn:disabled { opacity: 0.5; cursor: default; }
+  .btn-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+  /* ---------- layout ---------- */
+  .layout { display: grid; grid-template-columns: 288px 1fr; align-items: start; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .sidebar {
+    border-right: 1px solid var(--border); padding: 1rem;
+    max-height: calc(100vh - var(--header-h)); overflow-y: auto;
+    position: sticky; top: var(--header-h);
+  }
+  @media (max-width: 900px) {
+    .sidebar { position: static; max-height: none; border-right: none; border-bottom: 1px solid var(--border); }
+    .sidebar .run-list { max-height: 45vh; overflow-y: auto; }
+  }
+  .controls { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.875rem; }
+  .run-list { display: flex; flex-direction: column; gap: 0.5rem; }
+  .run-card {
+    border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.625rem 0.75rem;
+    cursor: pointer; background: var(--panel); box-shadow: var(--shadow);
+    transition: border-color 120ms ease, background 120ms ease;
+  }
+  .run-card:hover { border-color: var(--faint); }
+  .run-card.active { border-color: var(--accent); background: var(--accent-soft); }
+  .run-card .rc-title { font-weight: 600; font-size: 0.875rem; margin-bottom: 2px; letter-spacing: -0.01em; }
+  .run-card .rc-meta { font-size: 0.75rem; color: var(--faint); display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+  main { padding: 1rem 1rem 5rem; min-width: 0; }
+  main > * { max-width: var(--measure); margin-left: auto; margin-right: auto; }
+
+  /* ---------- run header + stat tiles ---------- */
+  .run-header { border-bottom: 1px solid var(--border); padding-bottom: 0.875rem; margin-bottom: 1rem; }
+  .run-header-top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+  .run-header h2 { margin: 0; font-size: 1.25rem; font-weight: 600; letter-spacing: -0.025em; }
+  .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 0.5rem; margin: 0.875rem 0; }
+  .stat {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 0.5rem;
+    padding: 0.625rem 0.75rem; box-shadow: var(--shadow);
+  }
+  .stat .n {
+    font-size: 1.5rem; font-weight: 600; line-height: 1.15; color: var(--accent);
+    font-variant-numeric: tabular-nums; letter-spacing: -0.025em;
+  }
+  .stat .n small { font-size: 0.8125rem; font-weight: 500; color: var(--faint); }
+  .stat .l { font-size: 0.75rem; color: var(--faint); }
+  .stat.is-zero .n { color: var(--faint); }
+
+  /* ---------- badges ---------- */
+  .badge {
+    display: inline-block; font-size: 0.75rem; padding: 0.125rem 0.5rem; border-radius: 999px;
+    background: var(--accent-soft); color: var(--accent); border: 1px solid transparent;
+  }
+  .verdict {
+    font-size: 0.75rem; padding: 0.125rem 0.5rem; border-radius: 999px;
+    border: 1px solid currentColor;
+  }
+  .verdict.good { color: var(--good); }
+  .verdict.warn { color: var(--warn); }
+  .verdict.bad { color: var(--bad); }
+
+  /* ---------- jump links ---------- */
+  .jump-links { display: flex; gap: 0.375rem; flex-wrap: wrap; margin-top: 0.75rem; align-items: center; }
+  .jump-link {
+    font-size: 0.8125rem; padding: 0.3rem 0.7rem; border: 1px solid var(--border);
+    border-radius: 999px; color: var(--muted); text-decoration: none; background: var(--panel);
+    transition: color 120ms ease, border-color 120ms ease;
+  }
+  .jump-link:hover { border-color: var(--faint); color: var(--text); }
+  .toggle-all {
+    font-family: inherit; font-size: 0.8125rem; font-weight: 500; padding: 0.3rem 0.7rem;
+    cursor: pointer; border: 1px solid var(--accent); border-radius: 999px;
+    color: var(--accent-ink); background: var(--accent); transition: opacity 120ms ease;
+  }
+  .toggle-all:hover { opacity: 0.9; }
+
+  /* ---------- sections ---------- */
+  .section-block {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 0.5rem;
+    padding: 0.875rem; margin: 0.75rem auto; box-shadow: var(--shadow);
+    scroll-margin-top: calc(var(--header-h) + 12px);
+  }
+  .section-block h4 {
+    margin: 0 0 0.875rem; font-size: 0.8125rem; font-weight: 600; letter-spacing: 0.06em;
+    text-transform: uppercase; color: var(--text);
+    padding-bottom: 0.625rem; border-bottom: 1px solid var(--border);
+  }
+  /* The heading is the control. A real <button> keeps Enter/Space and focus
+     order for free; the h4 stays for document outline and screen readers. */
+  .section-toggle {
+    display: flex; align-items: center; gap: 0.625rem; width: 100%;
+    background: none; border: 0; margin: 0 0 -4px; cursor: pointer;
+    padding: 0.375rem 0.5rem 0.5rem; border-radius: 0.375rem;
+    font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit;
+    text-align: left; transition: background 120ms ease, color 120ms ease;
+  }
+  .section-toggle:hover { color: var(--text); background: var(--bg); }
+  /* Both of these were enlarged on purpose after the collapse control shipped
+     invisible; quieting them down to look tidier re-breaks a fixed bug. */
+  .section-caret {
+    font-size: 1.25rem; line-height: 1; flex: none; color: var(--accent);
+    transition: transform 180ms ease;
+  }
+  .section-hint {
+    margin-left: auto; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.025em;
+    color: var(--faint); border: 1px solid var(--border); border-radius: 999px;
+    padding: 0.125rem 0.5rem; opacity: 0.6;
+    transition: opacity 120ms ease, color 120ms ease, border-color 120ms ease;
+  }
+  .section-toggle:hover .section-hint, .section-toggle:focus-visible .section-hint {
+    opacity: 1; color: var(--accent); border-color: var(--faint);
+  }
+  .section-block.collapsed .section-toggle { margin-bottom: 0; }
+  .section-block.collapsed .section-caret { transform: rotate(-90deg); }
+  .section-block.collapsed h4 { margin-bottom: 0; padding-bottom: 0; border-bottom-color: transparent; }
+  .section-block.collapsed .section-body { display: none; }
+  .section-block p { margin: 0 0 0.625rem; font-size: 0.95rem; line-height: 1.625; }
+  .section-block ul { margin: 0 0 0.75rem; padding-left: 1.25rem; font-size: 0.95rem; line-height: 1.625; }
+  .section-block li { margin-bottom: 0.25rem; }
+  .section-block b, .section-block strong { color: var(--strong); font-weight: 600; }
+  .section-count { font-weight: 600; color: var(--muted); }
+
+  /* The pitch is the point of the page; it should not look like a sibling. */
+  .section-block.feature { border-left: 3px solid var(--accent); }
+  .section-block.feature h4 { color: var(--accent); }
+  .section-block.feature .section-body > p:first-of-type { font-size: 1.0625rem; line-height: 1.6; }
+
+  /* ---------- study card ---------- */
+  .study {
+    background: var(--bg); border: 1px solid var(--border); border-radius: 0.5rem;
+    padding: 0.875rem; margin-bottom: 0.5rem;
+    border-left: 3px solid var(--border);
+  }
+  .study h3 { margin: 0 0 0.25rem; font-size: 1.0625rem; line-height: 1.375; font-weight: 600; letter-spacing: -0.01em; }
+  .study-num { color: var(--faint); font-weight: 600; margin-right: 2px; }
+  /* The paper's own title, under the plain-language headline, is what a reader
+     searches for and what an editor will ask about. */
+  .paper-title { font-size: 0.8125rem; color: var(--muted); font-style: italic; margin: -0.125rem 0 0.375rem; }
+  .paper-title a { color: inherit; text-decoration: none; }
+  .paper-title a:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  .study-meta {
+    display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;
+    font-size: 0.8125rem; color: var(--muted); margin-bottom: 0.5rem;
+  }
+  .study-meta a { color: var(--accent); text-decoration: none; }
+  .study-meta a:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .field-label {
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase;
+    color: var(--faint); margin: 0.625rem 0 0.1875rem;
+  }
+  .field-body { font-size: 0.95rem; line-height: 1.625; }
+  .story-angle { font-size: 0.95rem; line-height: 1.625; margin-bottom: 0.125rem; }
+  .story-angle b { color: var(--strong); font-weight: 600; }
+  /* Tags are square-cornered so they never read as a clickable chip. */
+  .tags { display: flex; flex-wrap: wrap; gap: 0.25rem; margin-top: 0.5rem; }
+  .tag {
+    font-size: 0.75rem; padding: 0.125rem 0.375rem; border-radius: 0.25rem;
+    border: 1px solid var(--border); color: var(--muted); background: var(--panel);
+  }
+  .score-chip {
+    font-variant-numeric: tabular-nums; font-weight: 500; color: var(--accent);
+    background: var(--accent-soft); border-radius: 0.25rem; padding: 0.125rem 0.375rem;
+  }
+  .study.band-lead { border-left-color: var(--band-lead); }
+  .study.band-strong { border-left-color: var(--band-strong); }
+  .study.band-look { border-left-color: var(--band-look); }
+  .study.band-background { border-left-color: var(--band-bg); }
+  .band-chip {
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase;
+    padding: 0.125rem 0.5rem; border-radius: 999px; border: 1px solid currentColor;
+  }
+  .band-chip.band-lead { color: var(--band-lead-ink); }
+  .band-chip.band-strong { color: var(--band-strong-ink); }
+  .band-chip.band-look { color: var(--band-look-ink); }
+  .band-chip.band-background { color: var(--band-bg-ink); }
+
+  /* ---------- chips / facets ---------- */
+  .chip {
+    display: inline-flex; align-items: center; gap: 0.3rem;
+    border: 1px solid var(--border); background: var(--panel); color: var(--muted);
+    border-radius: 999px; padding: 0.4rem 0.75rem; min-height: 36px;
+    font-size: 0.825rem; line-height: 1.55; white-space: nowrap; cursor: pointer;
+    font-family: inherit;
+    transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+  }
+  .chip:hover { border-color: var(--faint); color: var(--text); }
+  .chip[data-on="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .chip .chip-n { opacity: 0.65; font-variant-numeric: tabular-nums; }
+  .facets { display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.875rem; }
+  .facet { display: flex; gap: 0.5rem; align-items: baseline; flex-wrap: wrap; }
+  .facet-legend {
+    font-size: 0.75rem; font-weight: 600; letter-spacing: 0.025em; text-transform: uppercase;
+    color: var(--faint); min-width: 74px; flex: none; padding-top: 0.625rem;
+  }
+  .facet-chips { display: flex; gap: 0.375rem; flex-wrap: wrap; }
+  .facet-bar {
+    display: flex; justify-content: space-between; align-items: center;
+    gap: 0.75rem; flex-wrap: wrap; margin-bottom: 0.75rem;
+    padding-bottom: 0.75rem; border-bottom: 1px solid var(--border);
+  }
+  .facet-count { font-size: 0.8125rem; color: var(--muted); }
+  .facet-count .faint { color: var(--faint); font-weight: 400; }
+  /* Browser default yellow is unreadable on the dark palette and belongs to
+     neither theme. The warn tone already exists for "look here". */
+  mark { background: var(--tone-warn-bg); color: var(--tone-warn-ink);
+         border-radius: 0.1875rem; padding: 0 0.125rem; }
+  :root[data-theme="dark"] mark { background: #4a3a12; color: #fde68a; }
+  .facet-count b { color: var(--text); font-weight: 600; }
+  .link-btn {
+    background: none; border: 0; padding: 0; font: inherit; font-size: 0.8125rem;
+    color: var(--accent); text-decoration: underline; text-underline-offset: 2px; cursor: pointer;
+  }
+  .link-btn:hover { opacity: 0.8; }
+
+  /* ---------- status picker ---------- */
+  .status-picker {
+    appearance: none; -webkit-appearance: none;
+    font-family: inherit; font-size: 0.8125rem; font-weight: 500;
+    width: auto; min-width: 0; min-height: 36px;
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem; border-radius: 999px;
+    border: 1px solid var(--border); background-color: var(--panel); color: var(--muted);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' d='M3 4.5 6 7.5 9 4.5'/%3E%3C/svg%3E");
+    background-repeat: no-repeat; background-position: right 0.625rem center; background-size: 12px 12px;
+    transition: color 120ms ease, border-color 120ms ease, background-color 120ms ease;
+  }
+  .status-picker[data-tone="info"] { border-color: var(--tone-info-bd); background-color: var(--tone-info-bg); color: var(--tone-info-ink); }
+  .status-picker[data-tone="warn"] { border-color: var(--tone-warn-bd); background-color: var(--tone-warn-bg); color: var(--tone-warn-ink); }
+  .status-picker[data-tone="good"] { border-color: var(--tone-good-bd); background-color: var(--tone-good-bg); color: var(--tone-good-ink); }
+  .status-picker[data-tone="bad"]  { border-color: var(--tone-bad-bd);  background-color: var(--tone-bad-bg);  color: var(--tone-bad-ink); }
+  .status-picker[data-tone="muted"] { background-color: var(--panel); color: var(--faint); }
+  .status-picker option { color: var(--text); background: var(--panel); font-weight: 400; }
+
+  /* ---------- coverage ---------- */
+  .covered-by { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.25rem; align-items: center; }
+  .outlet-chip {
+    font-size: 0.75rem; padding: 0.125rem 0.375rem; border-radius: 0.25rem;
+    border: 1px solid var(--border); background: var(--panel); color: var(--muted);
+  }
+
+  /* ---------- tables ---------- */
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; max-width: 100%; }
+  .citation-table { width: 100%; border-collapse: collapse; font-size: 0.875rem; }
+  .citation-table th, .citation-table td {
+    text-align: left; padding: 0.4rem 0.625rem; border-bottom: 1px solid var(--border);
+  }
+  .citation-table tr:last-child td { border-bottom: 0; }
+  .citation-table th {
+    color: var(--faint); font-size: 0.75rem; font-weight: 600;
+    text-transform: uppercase; letter-spacing: 0.025em;
+  }
+  .citation-table td { font-variant-numeric: tabular-nums; }
+
+  /* ---------- states ---------- */
+  .empty-state {
+    color: var(--muted); font-size: 0.95rem; text-align: center;
+    padding: 2.5rem 1rem; border: 1px dashed var(--border); border-radius: 0.5rem;
+  }
+  .limits li { margin-bottom: 0.5rem; }
+  details.raw-toggle { margin-top: 0.5rem; font-size: 0.8125rem; color: var(--muted); }
+  details.raw-toggle summary { cursor: pointer; }
+  details.raw-toggle pre {
+    white-space: pre-wrap; font-family: inherit; background: var(--bg);
+    border: 1px solid var(--border); border-radius: 0.5rem; padding: 0.75rem;
+    max-height: 60vh; overflow-y: auto;
+  }
+
+  /* ---------- back to top ---------- */
+  #scroll-top-btn {
+    position: fixed; right: 1.25rem; bottom: 1.25rem; width: 44px; height: 44px;
+    display: grid; place-items: center;
+    border-radius: 999px; border: 1px solid var(--border); background: var(--panel);
+    color: var(--muted); cursor: pointer; font-size: 1.05rem; line-height: 1;
+    opacity: 0; visibility: hidden; pointer-events: none; box-shadow: var(--shadow-lifted);
+    transition: opacity 200ms ease, visibility 200ms ease, transform 200ms ease,
+                color 120ms ease, border-color 120ms ease;
+    transform: translateY(0.5rem); z-index: 20;
+  }
+  #scroll-top-btn.visible { opacity: 1; visibility: visible; pointer-events: auto; transform: translateY(0); }
+  #scroll-top-btn:hover { border-color: var(--faint); color: var(--accent); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+  }
+</style>
+<script>
+/* Theme is resolved here, in the head, so it is settled before the first
+   paint. It used to be set at the very bottom of the body script, which gave
+   anyone who had chosen dark a white flash on every single load.
+
+   The stored value is the *choice* -- system, light or dark -- and this
+   resolves it to a concrete attribute, so the stylesheet needs no media query
+   and cannot disagree with the toggle. Defaulting to system restores OS
+   respect: the original bug was that nothing ever set data-theme, and the fix
+   for it removed the media query altogether rather than adding this. */
+(function () {
+  var choice = "system";
+  try { choice = localStorage.getItem("mrd-theme") || "system"; } catch (e) {}
+  if (choice !== "light" && choice !== "dark") choice = "system";
+  var dark = choice === "dark" || (choice === "system" &&
+    window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+  document.documentElement.dataset.theme = dark ? "dark" : "light";
+  document.documentElement.dataset.themeChoice = choice;
+})();
+</script>
+</head>
+<body>
+<header>
+  <div>
+    <h1><a href="#" id="home-link">Marketing Research Digest</a></h1>
+    <p>New research from the curated marketing, advertising and consumer journals — every run, browsable by topic and date.</p>
+  </div>
+  <button class="theme-toggle" id="theme-toggle" type="button">Theme</button>
+</header>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="controls">
+      <label class="sr-only" for="search">Search digests by headline, journal, DOI or work ID</label>
+      <input type="search" id="search" placeholder="Search headline, journal, DOI…" />
+      <label class="sr-only" for="topic-filter">Filter by topic</label>
+      <select id="topic-filter">
+        <option value="">All topics</option>
+      </select>
+    </div>
+    <div id="run-count" style="color: var(--muted); font-size: 0.78rem; margin-bottom: 8px;"></div>
+    <div class="run-list" id="run-list"></div>
+  </aside>
+  <main id="main">
+    <div class="empty-state">Loading digest history…</div>
+  </main>
+</div>
+<button id="scroll-top-btn" title="Back to top" aria-label="Back to top">&#8593;</button>
+<script id="app">
+const state = { data: null, filtered: [], activeId: null, runs: new Map(), loadSeq: 0,
+                searchIndex: null };
+
+/* The per-run search blobs were 90% of index.json and it loads on every page
+   view, so they live in their own file now and are fetched the first time
+   somebody actually searches. Until it arrives the sidebar still filters on the
+   fields the index carries, so typing is never blocked. */
+let searchIndexPromise = null;
+function ensureSearchIndex() {
+  if (!searchIndexPromise) {
+    searchIndexPromise = fetch("data/search.json")
+      .then(r => (r.ok ? r.json() : {}))
+      .catch(() => ({}))
+      .then(idx => { state.searchIndex = idx; return idx; });
+  }
+  return searchIndexPromise;
+}
+
+// Run bodies live in their own files; fetch once, then serve from the cache.
+async function loadRun(id) {
+  if (state.runs.has(id)) return state.runs.get(id);
+  const res = await fetch(`data/runs/${encodeURIComponent(id)}.json`);
+  if (!res.ok) throw new Error(`could not load run (${res.status})`);
+  const run = await res.json();
+  state.runs.set(id, run);
+  return run;
+}
+
+/* Display only. run.id, filenames and every sort key stay ISO — reformatting
+   those would break run ordering and the data/runs lookup.
+   OpenAlex dates and run dates are both ISO; the long form is kept for
+   anything typed by hand. */
+const MONTHS = {jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+function fmtDate(value) {
+  const raw = (value || "").toString().trim();
+  if (!raw) return "";
+  const iso = raw.slice(0, 10).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (iso) return `${iso[2]}/${iso[3]}/${iso[1].slice(2)}`;
+  const long = raw.match(/^([A-Za-z]{3,9})\s+(\d{1,2}),\s*(\d{4})$/);
+  if (long) {
+    const m = MONTHS[long[1].slice(0, 3).toLowerCase()];
+    if (m) return `${String(m).padStart(2, "0")}/${long[2].padStart(2, "0")}/${long[3].slice(2)}`;
+  }
+  return raw;
+}
+
+function escapeHtml(s) {
+  return (s || "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+/* Topics are stored lowercase so a rename cannot split one in two; this is
+   the display form. */
+function topicLabel(topic) {
+  if (!topic) return "Broad";
+  return topic.replace(/\b([a-z])/g, c => c.toUpperCase()).replace(/\bAi\b/, "AI").replace(/\bB2b\b/, "B2B");
+}
+
+function verdictClass(verdict) {
+  if (!verdict) return "";
+  if (verdict.includes("✅")) return "good";
+  if (verdict.includes("⚠️")) return "warn";
+  if (verdict.includes("❌")) return "bad";
+  return "";
+}
+
+function renderSidebar() {
+  const topicSelect = document.getElementById("topic-filter");
+  topicSelect.innerHTML = '<option value="">All topics</option>' +
+    state.data.topics.map(t => `<option value="${escapeHtml(t)}">${escapeHtml(topicLabel(t))}</option>`).join("");
+
+  const list = document.getElementById("run-list");
+  list.innerHTML = state.filtered.map(r => `
+    <div class="run-card ${r.id === state.activeId ? "active" : ""}" data-id="${r.id}"
+         role="button" tabindex="0" aria-current="${r.id === state.activeId ? "true" : "false"}">
+      <div class="rc-title">${escapeHtml(topicLabel(r.topic))}</div>
+      <div class="rc-meta">
+        <span>${escapeHtml(fmtDate(r.run_date) || "—")}</span>
+        <span class="badge">${r.study_count} studies</span>
+        ${r.lead_count ? `<span class="badge">${r.lead_count} lead${r.lead_count === 1 ? "" : "s"}</span>` : ""}
+      </div>
+    </div>
+  `).join("") || '<div class="empty-state">No runs match.</div>';
+
+  document.getElementById("run-count").textContent =
+    `${state.filtered.length} of ${state.data.run_count} runs`;
+
+  list.querySelectorAll(".run-card").forEach(el => {
+    const select = () => {
+      // Check before re-rendering: the rebuild below detaches el and clears activeElement.
+      const hadFocus = document.activeElement === el;
+      const id = el.dataset.id;
+      if (id !== state.activeId) clearFacets();   // a facet from one run means nothing on the next
+      state.activeId = id;
+      renderSidebar();
+      renderMain();
+      if (hadFocus) {
+        const next = document.querySelector(`.run-card[data-id="${id}"]`);
+        if (next) next.focus();
+      }
+    };
+    el.addEventListener("click", select);
+    el.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); select(); }
+    });
+  });
+}
+
+/* ---------- editorial status ----------
+   Without somewhere to record what you did about a study, every visit
+   re-presents all of them as though untouched -- the same gap freelance-opps-app
+   was built to close. "passed" and "killed" are both
+   negative and the difference is deliberate: killed is an editor saying no,
+   passed is you saying no, and only the second says anything about the score. */
+const STATUSES = {
+  "": { label: "To review", tone: "" },
+  shortlist: { label: "Shortlisted", tone: "info" },
+  drafting: { label: "Drafting", tone: "info" },
+  pitched: { label: "Pitched", tone: "warn" },
+  published: { label: "Published", tone: "good" },
+  passed: { label: "Passed", tone: "muted" },
+  killed: { label: "Killed", tone: "bad" },
+};
+const STATUS_KEY = "mrd:status:v1";
+
+function statusMap() {
+  try { return JSON.parse(localStorage.getItem(STATUS_KEY) || "{}"); }
+  catch (e) { return {}; }
+}
+function statusOf(study) {
+  if (!study.work_id) return "";
+  return statusMap()[study.work_id] || "";
+}
+function setStatus(workId, value) {
+  if (!workId) return;
+  const map = statusMap();
+  if (value) map[workId] = value; else delete map[workId];
+  try { localStorage.setItem(STATUS_KEY, JSON.stringify(map)); } catch (e) { /* private mode */ }
+}
+
+/* ---------- study facets ----------
+   Multi-select chips rather than one dropdown of mutually exclusive options,
+   because "a Lead that nobody has covered" is a question a single select cannot
+   ask. Groups compound; chips inside a group offer alternatives. */
+const facetState = { band: new Set(), coverage: new Set(), verdict: new Set(),
+                     evidence: new Set(), tag: new Set(), status: new Set() };
+
+function clearFacets() {
+  Object.values(facetState).forEach(set => set.clear());
+}
+
+function verdictBucket(v) {
+  const text = v || "";
+  if (text.indexOf("\u274c") >= 0) return "Major issues";
+  if (text.indexOf("\u26a0") >= 0) return "Minor issues";
+  if (text.indexOf("\u2705") >= 0) return "Accurate";
+  return "Not checked";
+}
+
+function facetValues(study) {
+  return {
+    band: [study.band || "Unscored"],
+    coverage: [COVERAGE_LABEL[study.coverage_state] || "Not checked"],
+    verdict: [verdictBucket(study.verdict)],
+    evidence: [study.evidence_type || "unspecified"],
+    tag: study.tags || [],
+    status: [(STATUSES[statusOf(study)] || STATUSES[""]).label],
+  };
+}
+
+/* The search reaches the studies, not only the run list -- in the sibling
+   repo typing an ID told you which digest held it and stopped there. */
+function studyBlob(study) {
+  return [study.title, study.paper_title, study.work_id, study.journal, study.doi, study.evidence_type,
+          (study.tags || []).join(" "), study.the_study, study.why_it_matters,
+          study.story_angle_primary, study.story_angle_secondary]
+    .filter(Boolean).join(" ").toLowerCase();
+}
+
+function currentQuery() {
+  const box = document.getElementById("search");
+  return box ? box.value.trim().toLowerCase() : "";
+}
+
+function matchesQuery(study, query) {
+  return !query || studyBlob(study).includes(query);
+}
+
+/* Escapes first, then marks, so a query can never inject markup. */
+function highlight(text, query) {
+  const safe = escapeHtml(text || "");
+  if (!query) return safe;
+  const needle = escapeHtml(query).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return safe.replace(new RegExp(needle, "gi"), m => `<mark>${m}</mark>`);
+}
+
+function matchesFacets(study) {
+  const values = facetValues(study);
+  return Object.keys(facetState).every(group => {
+    const chosen = facetState[group];
+    if (!chosen.size) return true;
+    return values[group].some(v => chosen.has(v));
+  });
+}
+
+const FACET_LEGENDS = { band: "Score", coverage: "Coverage", verdict: "Fact check",
+                        evidence: "Design", tag: "Topic", status: "Status" };
+
+// Groups whose values are an ordered scale rather than a set of alternatives.
+// Anything absent here is sorted by count, which is what a nominal group wants.
+const FACET_SCALES = {
+  band: ["Lead", "Strong", "Worth a look", "Background", "Unscored"],
+  coverage: ["No coverage found", "Lightly covered", "Widely covered", "Not checked"],
+  verdict: ["Accurate", "Minor issues", "Major issues", "Not checked"],
+  status: Object.values(STATUSES).map(s => s.label),
+};
+
+function renderFacets(studies, queryNote) {
+  const shown = studies.filter(matchesFacets);
+  const groups = Object.keys(FACET_LEGENDS).map(group => {
+    const counts = new Map();
+    studies.forEach(study => {
+      // Counts reflect what choosing this chip would actually leave, so a chip
+      // reading 0 is honest rather than a dead end you only discover by clicking.
+      const others = Object.keys(facetState).every(g => {
+        if (g === group) return true;
+        const chosen = facetState[g];
+        return !chosen.size || facetValues(study)[g].some(v => chosen.has(v));
+      });
+      if (!others) return;
+      facetValues(study)[group].forEach(v => counts.set(v, (counts.get(v) || 0) + 1));
+    });
+    if (counts.size <= 1) return "";
+    // Count order is right for Design and Topic, which are nominal, and wrong
+    // for the ordered scales: sorting Score by frequency printed
+    // "Lead | Worth a look | Strong", which is the band scale scrambled.
+    const scale = FACET_SCALES[group];
+    const ordered = scale
+      ? [...counts.entries()].sort((a, b) => scale.indexOf(a[0]) - scale.indexOf(b[0]))
+      : [...counts.entries()].sort((a, b) => b[1] - a[1]);
+    const chips = ordered.map(([value, n]) =>
+      `<button type="button" class="chip" data-facet="${escapeHtml(group)}" data-value="${escapeHtml(value)}"
+        data-on="${facetState[group].has(value)}">${escapeHtml(group === "tag" ? topicLabel(value) : value)} <span class="chip-n">${n}</span></button>`
+    ).join("");
+    return `<div class="facet"><span class="facet-legend">${FACET_LEGENDS[group]}</span>
+      <span class="facet-chips">${chips}</span></div>`;
+  }).join("");
+
+  const active = Object.values(facetState).some(set => set.size);
+  return `
+    <div class="facet-bar">
+      <span class="facet-count"><b>${shown.length}</b> of ${studies.length} studies${
+        queryNote ? ` <span class="faint">matching “${escapeHtml(queryNote.query)}” (of ${queryNote.total} in this run)</span>` : ""}</span>
+      ${active ? '<button type="button" class="link-btn" id="clear-facets">Clear filters</button>' : ""}
+    </div>
+    <div class="facets">${groups}</div>`;
+}
+
+const COLLAPSE_KEY = "mrd-collapsed";
+
+function collapsedSet() {
+  try {
+    const raw = localStorage.getItem(COLLAPSE_KEY);
+    return new Set(raw ? JSON.parse(raw) : []);
+  } catch (e) {
+    return new Set();
+  }
+}
+
+function persistCollapsed(set) {
+  try {
+    localStorage.setItem(COLLAPSE_KEY, JSON.stringify([...set]));
+  } catch (e) {
+    /* private browsing denies storage; collapsing still works for this view */
+  }
+}
+
+// `title` is markup written here, never data from a run, so it is not escaped --
+// that is what lets a heading carry its own count.
+function sectionBlock(id, title, body, extraClass) {
+  if (!body) return "";
+  const collapsed = collapsedSet().has(id);
+  return `
+    <section class="section-block${extraClass ? " " + extraClass : ""}${collapsed ? " collapsed" : ""}" id="${id}">
+      <h4><button type="button" class="section-toggle" aria-expanded="${!collapsed}" aria-controls="${id}-body">
+        <span class="section-caret" aria-hidden="true">&#9662;</span>${title}<span class="section-hint">${collapsed ? "SHOW" : "HIDE"}</span>
+      </button></h4>
+      <div class="section-body" id="${id}-body">${body}</div>
+    </section>`;
+}
+
+/* What the run cannot tell you, stated rather than left to be inferred from a
+   blank space. Every line here is measured off the run, not boilerplate. */
+function limitNotes(run) {
+  const notes = [];
+  const checked = run.studies.filter(s => s.coverage_state).length;
+  if (!checked) {
+    notes.push("<b>Prior press coverage was not checked for this run.</b> \"No coverage found\" "
+      + "is absent from these studies because nobody looked, not because the stories are open. "
+      + (run.coverage && run.coverage.skipped_reason
+          ? `The check was skipped: ${escapeHtml(run.coverage.skipped_reason)}.`
+          : "The check needs a SerpAPI key."));
+  } else if (checked < run.study_count) {
+    notes.push(`<b>${run.study_count - checked} of ${run.study_count} studies were not coverage-checked.</b> `
+      + "Their coverage state is unknown rather than clear.");
+  }
+  const verdicts = run.studies.filter(s => s.verdict).length;
+  if (verdicts < run.study_count) {
+    notes.push(`<b>${run.study_count - verdicts} of ${run.study_count} studies carry no fact-check verdict.</b> `
+      + "Treat their figures as unverified.");
+  }
+  notes.push("<b>Scores rank pitchability, not scientific quality.</b> They combine study design, "
+    + "prior coverage, journal, recency, sample size and the fact-check result — a careful small "
+    + "study can score below a weaker large one because more readers can be reached with it.");
+  notes.push("<b>Bands, not ranks.</b> Two studies a few points apart are not meaningfully "
+    + "different; the band is what the number supports.");
+  notes.push("<b>Only OpenAlex, only these journals.</b> The run searched "
+    + `${escapeHtml(run.journals_searched || "the curated")} journals over `
+    + `${escapeHtml(run.coverage_window || "the coverage window")}. Anything outside that list is invisible to it`
+    + ((run.journals_not_indexed || []).length
+        ? `, and so are ${run.journals_not_indexed.length} titles on the list that OpenAlex does not index `
+          + `(${escapeHtml(run.journals_not_indexed.slice(0, 4).join(", "))}${run.journals_not_indexed.length > 4 ? "…" : ""}).`
+        : "."));
+  const sc = run.screening || {};
+  if (sc.found) {
+    const dropped = [
+      sc.no_abstract ? `${sc.no_abstract} had no abstract in OpenAlex (mostly Elsevier titles, which do not share them)` : "",
+      sc.not_research ? `${sc.not_research} were editorials, errata or other front matter` : "",
+      sc.off_topic ? `${sc.off_topic} in adjacent journals were not about marketing` : "",
+      sc.already_covered ? `${sc.already_covered} had been written up by an earlier digest` : "",
+      (sc.over_cap || 0) + (sc.over_journal_cap || 0)
+        ? `${(sc.over_cap || 0) + (sc.over_journal_cap || 0)} ranked below the ${sc.sent}-article cap or their journal's limit` : "",
+    ].filter(Boolean);
+    notes.push(`<b>The model saw ${sc.sent} of ${sc.found} articles published in the window.</b> `
+      + (dropped.length ? `Of the rest, ${dropped.join("; ")}.` : ""));
+  }
+  return notes;
+}
+
+function wireFacets(root, run) {
+  root.querySelectorAll("[data-facet]").forEach(chip => chip.addEventListener("click", () => {
+    const set = facetState[chip.dataset.facet];
+    if (!set) return;
+    if (set.has(chip.dataset.value)) set.delete(chip.dataset.value);
+    else set.add(chip.dataset.value);
+    renderMain();
+  }));
+  const clear = root.querySelector("#clear-facets");
+  if (clear) clear.addEventListener("click", () => { clearFacets(); renderMain(); });
+}
+
+function wireStatusPickers(root) {
+  root.querySelectorAll("[data-status-for]").forEach(select => {
+    select.addEventListener("change", event => {
+      setStatus(event.target.dataset.statusFor, event.target.value);
+      // Re-render so the status facet counts stay honest.
+      renderMain();
+    });
+  });
+}
+
+function csvCell(value) {
+  const text = value == null ? "" : String(value);
+  return /[",\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+}
+
+/* Both exports used run.studies, so filtering to "Lead + unreported" and
+   hitting Export handed back all of them. They export the view. */
+/* Status lives in localStorage and nowhere else, so a cleared cache or a second
+   machine silently resets every study to "To review" with nothing to say it
+   happened. The .csv already carries the column out; this is the way back in.
+   Keyed on the OpenAlex work ID, which is what the store is keyed on. */
+const STATUS_BY_LABEL = Object.fromEntries(
+  Object.entries(STATUSES).map(([key, s]) => [s.label.toLowerCase(), key]));
+
+function parseCsvRows(text) {
+  const rows = [];
+  let row = [], field = "", quoted = false;
+  const src = text.replace(/^\ufeff/, "");
+  for (let i = 0; i < src.length; i++) {
+    const c = src[i];
+    if (quoted) {
+      if (c === '"' && src[i + 1] === '"') { field += '"'; i++; }
+      else if (c === '"') quoted = false;
+      else field += c;
+    } else if (c === '"') quoted = true;
+    else if (c === ",") { row.push(field); field = ""; }
+    else if (c === "\n") { row.push(field); rows.push(row); row = []; field = ""; }
+    else if (c !== "\r") field += c;
+  }
+  if (field || row.length) { row.push(field); rows.push(row); }
+  return rows.filter(cells => cells.some(v => v !== ""));
+}
+
+function importStatusCsv(text) {
+  const rows = parseCsvRows(text);
+  if (!rows.length) return 0;
+  const header = rows[0].map(h => h.trim().toLowerCase());
+  const idAt = header.indexOf("work_id");
+  const statusAt = header.indexOf("status");
+  if (idAt < 0 || statusAt < 0) throw new Error("needs work_id and status columns");
+  let applied = 0;
+  for (const row of rows.slice(1)) {
+    const workId = (row[idAt] || "").trim();
+    const label = (row[statusAt] || "").trim().toLowerCase();
+    if (!workId || !(label in STATUS_BY_LABEL)) continue;
+    setStatus(workId, STATUS_BY_LABEL[label]);
+    applied++;
+  }
+  return applied;
+}
+
+function exportedStudies(run) {
+  return run.studies.filter(matchesFacets);
+}
+
+function exportRunToCsv(run) {
+  const header = ["number", "title", "paper_title", "journal", "published", "work_id", "doi", "score",
+                  "band", "evidence_type", "sample_size", "coverage_state", "verdict",
+                  "status", "tags", "the_study", "why_it_matters",
+                  "story_angle_primary", "story_angle_secondary", "caveats"];
+  const rows = exportedStudies(run).map(s => [
+    s.number, s.title, s.paper_title, s.journal, fmtDate(s.published), s.work_id, s.doi, s.score,
+    s.band, s.evidence_type, s.sample_size, s.coverage_state, s.verdict,
+    (STATUSES[statusOf(s)] || STATUSES[""]).label, (s.tags || []).join("; "),
+    s.the_study, s.why_it_matters, s.story_angle_primary, s.story_angle_secondary, s.caveats,
+  ]);
+  const csv = [header, ...rows].map(r => r.map(csvCell).join(",")).join("\r\n");
+  const blob = new Blob(["\ufeff" + csv], { type: "text/csv;charset=utf-8" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `${(run.title || "digest").replace(/[\\/:*?"<>|]/g, "-")}.csv`;
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 1000);
+}
+
+/* The [data-theme] rules have always been here; nothing ever set the attribute,
+   so the OS media query was the only reachable path and a dark-mode browser
+   could never see the light palette. Light is the default now. */
+const THEME_CHOICES = ["system", "light", "dark"];
+const THEME_LABEL = { system: "Theme: Auto", light: "Theme: Light", dark: "Theme: Dark" };
+
+function themeChoice() {
+  const stored = document.documentElement.dataset.themeChoice;
+  return THEME_CHOICES.includes(stored) ? stored : "system";
+}
+
+function prefersDark() {
+  return !!(window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches);
+}
+
+function applyTheme(choice) {
+  const dark = choice === "dark" || (choice === "system" && prefersDark());
+  document.documentElement.dataset.theme = dark ? "dark" : "light";
+  document.documentElement.dataset.themeChoice = choice;
+  const btn = document.getElementById("theme-toggle");
+  if (btn) {
+    btn.textContent = THEME_LABEL[choice];
+    btn.setAttribute("aria-label",
+      `Theme: ${choice}. Activate to switch to ${THEME_CHOICES[(THEME_CHOICES.indexOf(choice) + 1) % 3]}.`);
+  }
+}
+
+/* Three states, not two. A binary toggle cannot express "follow the OS", which
+   is the state most people are actually in, and forcing light for everyone was
+   an overcorrection for data-theme never having been set at all. */
+function initTheme() {
+  applyTheme(themeChoice());
+  document.getElementById("theme-toggle").addEventListener("click", () => {
+    const next = THEME_CHOICES[(THEME_CHOICES.indexOf(themeChoice()) + 1) % THEME_CHOICES.length];
+    applyTheme(next);
+    try { localStorage.setItem("mrd-theme", next); } catch (e) { /* private mode */ }
+  });
+  // While on system, follow the OS as it changes rather than only at load.
+  if (window.matchMedia) {
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    const onChange = () => { if (themeChoice() === "system") applyTheme("system"); };
+    mq.addEventListener ? mq.addEventListener("change", onChange) : mq.addListener(onChange);
+  }
+}
+
+function setCollapsed(block, collapsed) {
+  block.classList.toggle("collapsed", collapsed);
+  const btn = block.querySelector(".section-toggle");
+  if (btn) {
+    btn.setAttribute("aria-expanded", String(!collapsed));
+    const hint = btn.querySelector(".section-hint");
+    if (hint) hint.textContent = collapsed ? "SHOW" : "HIDE";
+  }
+  const set = collapsedSet();
+  collapsed ? set.add(block.id) : set.delete(block.id);
+  persistCollapsed(set);
+}
+
+function refreshToggleAll(root) {
+  const btn = root.querySelector("#toggle-all-btn");
+  if (!btn) return;
+  const blocks = [...root.querySelectorAll(".section-block")];
+  if (!blocks.length) { btn.hidden = true; return; }
+  btn.hidden = false;
+  btn.textContent = blocks.some(b => !b.classList.contains("collapsed")) ? "Collapse all" : "Expand all";
+}
+
+function wireSectionToggles(root) {
+  root.querySelectorAll(".section-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const block = btn.closest(".section-block");
+      setCollapsed(block, !block.classList.contains("collapsed"));
+      refreshToggleAll(root);
+    });
+  });
+  const all = root.querySelector("#toggle-all-btn");
+  if (all) {
+    all.addEventListener("click", () => {
+      const blocks = [...root.querySelectorAll(".section-block")];
+      const collapse = blocks.some(b => !b.classList.contains("collapsed"));
+      blocks.forEach(b => setCollapsed(b, collapse));
+      refreshToggleAll(root);
+    });
+  }
+  refreshToggleAll(root);
+}
+
+function expandSection(block) {
+  if (!block || !block.classList.contains("collapsed")) return;
+  setCollapsed(block, false);
+  refreshToggleAll(document.getElementById("main") || document);
+}
+
+function renderTrendsBlock(raw) {
+  if (!raw) return "";
+  // Render **Label:** paragraphs and "- " bullet lists without a full markdown parser.
+  const lines = raw.split("\n");
+  let html = "";
+  let inList = false;
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    // A "---" rule matches neither the bullet pattern (which needs a space after
+    // the dash) nor anything else, so it used to render as literal text on the
+    // page. The section is already visually bounded; drop the rule entirely.
+    if (/^-{3,}$/.test(trimmed) || /^\*{3,}$/.test(trimmed)) {
+      if (inList) { html += "</ul>"; inList = false; }
+      continue;
+    }
+    const heading = trimmed.match(/^(#{2,4})\s+(.*)$/);
+    if (heading) {
+      if (inList) { html += "</ul>"; inList = false; }
+      html += `<div class="field-label">${inlineMd(heading[2])}</div>`;
+      continue;
+    }
+    const bullet = trimmed.match(/^-\s+(.*)$/);
+    if (bullet) {
+      if (!inList) { html += "<ul>"; inList = true; }
+      html += `<li>${inlineMd(bullet[1])}</li>`;
+    } else {
+      if (inList) { html += "</ul>"; inList = false; }
+      html += `<p>${inlineMd(trimmed)}</p>`;
+    }
+  }
+  if (inList) html += "</ul>";
+  return html;
+}
+
+/* The study cards link their work IDs; the trends and story-idea prose cites
+   the same IDs as plain text, which is where they are most often read. */
+function linkWorkIds(html) {
+  return html.replace(/\b(W\d{6,12})\b/g, (m, id) =>
+    `<a href="https://openalex.org/${id}" target="_blank" rel="noopener">${m}</a>`);
+}
+
+function doiUrl(doi) {
+  const bare = (doi || "").trim();
+  if (!bare || /^not available/i.test(bare)) return "";
+  return "https://doi.org/" + bare.replace(/^https?:\/\/(dx\.)?doi\.org\//i, "");
+}
+
+function inlineMd(text) {
+  // Bold first, so the leftover single asterisks are unambiguously emphasis.
+  // The trends prompt's "nothing to report" lines are whole-line _italics_;
+  // only a whole line is converted, so an underscore inside a DOI survives.
+  return linkWorkIds(escapeHtml(text)
+    .replace(/^_([^_].*[^_])_$/, "<i>$1</i>")
+    .replace(/\*\*([^*]+?)\*\*/g, "<b>$1</b>")
+    .replace(/\*([^*]+?)\*/g, "<i>$1</i>"));
+}
+
+const BAND_CLASS = {
+  "Lead": "band-lead", "Strong": "band-strong",
+  "Worth a look": "band-look", "Background": "band-background",
+};
+const COVERAGE_LABEL = {
+  unreported: "No coverage found",
+  lightly_reported: "Lightly covered",
+  widely_reported: "Widely covered",
+};
+
+function bandClass(study) { return BAND_CLASS[study.band] || ""; }
+
+function renderStudy(study, factCheck, query, labels) {
+  const verdict = study.verdict
+    || (factCheck && factCheck.verdicts_by_work ? factCheck.verdicts_by_work[study.work_id] : "");
+  const link = doiUrl(study.doi);
+  const cls = bandClass(study);
+  const status = statusOf(study);
+  const coverage = COVERAGE_LABEL[study.coverage_state];
+  return `
+    <div class="study ${cls}" data-work-id="${escapeHtml(study.work_id || "")}">
+      <h3><span class="study-num">${escapeHtml(String(study.number))}.</span> ${highlight(study.title, query)}</h3>
+      ${study.paper_title ? `<div class="paper-title">${link
+        ? `<a href="${escapeHtml(link)}" target="_blank" rel="noopener">${highlight(study.paper_title, query)}</a>`
+        : highlight(study.paper_title, query)}</div>` : ""}
+      <div class="study-meta">
+        ${study.band ? `<span class="band-chip ${cls}">${escapeHtml(study.band)}</span>` : ""}
+        ${study.score != null ? `<span class="score-chip">${escapeHtml(String(study.score))}</span>` : ""}
+        <span>${escapeHtml(study.journal)}</span>
+        <span>${escapeHtml(fmtDate(study.published))}</span>
+        ${link ? `<a href="${escapeHtml(link)}" target="_blank" rel="noopener">DOI</a>` : ""}
+        ${study.work_id ? `<a href="https://openalex.org/${escapeHtml(study.work_id)}" target="_blank" rel="noopener">OpenAlex</a>` : ""}
+        ${study.journal_tier && study.journal_tier !== "unrated" && study.journal_tier !== "unknown" ? `<span title="Journal rating from the list: FT50, ABDC 2025 or AJG 2021">Rated ${escapeHtml(study.journal_tier)}</span>` : ""}
+        ${study.evidence_type && study.evidence_type !== "unspecified" ? `<span>${escapeHtml(study.evidence_type)}</span>` : ""}
+        ${coverage ? `<span>${escapeHtml(coverage)}</span>` : ""}
+        ${verdict ? `<span class="verdict ${verdictClass(verdict)}">${escapeHtml(verdict)}</span>` : ""}
+        <label class="sr-only" for="st-${escapeHtml(study.work_id || String(study.number))}">Editorial status</label>
+        <select class="status-picker" id="st-${escapeHtml(study.work_id || String(study.number))}"
+                data-status-for="${escapeHtml(study.work_id || "")}"
+                data-tone="${escapeHtml((STATUSES[status] || {}).tone || "")}">
+          ${Object.entries(STATUSES).map(([k, v]) =>
+            `<option value="${escapeHtml(k)}"${status === k ? " selected" : ""}>${escapeHtml(v.label)}</option>`).join("")}
+        </select>
+      </div>
+      <div class="field-label">The study</div>
+      <div class="field-body">${escapeHtml(study.the_study) || "—"}</div>
+      <div class="field-label">Why it matters</div>
+      <div class="field-body">${escapeHtml(study.why_it_matters) || "—"}</div>
+      <div class="field-label">Story angles</div>
+      <div class="story-angle"><b>For ${escapeHtml(labels.primary)}:</b> ${escapeHtml(study.story_angle_primary) || "—"}</div>
+      <div class="story-angle"><b>For ${escapeHtml(labels.secondary)}:</b> ${escapeHtml(study.story_angle_secondary) || "—"}</div>
+      <div class="field-label">Caveats</div>
+      <div class="field-body">${escapeHtml(study.caveats) || "—"}</div>
+      ${(study.covered_by || []).length ? `<div class="covered-by"><span class="field-label" style="margin:0">Already covered by</span>${
+        study.covered_by.map(o => `<span class="outlet-chip">${escapeHtml(o)}</span>`).join("")}</div>` : ""}
+      ${(study.tags || []).length ? `<div class="tags">${
+        study.tags.map(t => `<span class="tag">${escapeHtml(topicLabel(t))}</span>`).join("")}</div>` : ""}
+    </div>
+  `;
+}
+
+async function renderMain() {
+  const main = document.getElementById("main");
+
+  const id = state.activeId;
+  if (!id) {
+    main.innerHTML = state.data && state.data.run_count
+      ? '<div class="empty-state">Select a run from the list to view its studies.</div>'
+      : '<div class="empty-state">No digests yet. The pipeline runs once a day; the first one appears here when it finishes.</div>';
+    return;
+  }
+
+  // Guards against a slow fetch for an earlier run painting over a later one.
+  const seq = ++state.loadSeq;
+  let run;
+  try {
+    if (!state.runs.has(id)) main.innerHTML = '<div class="empty-state">Loading digest…</div>';
+    run = await loadRun(id);
+  } catch (err) {
+    if (seq === state.loadSeq) {
+      main.innerHTML = `<div class="empty-state">Failed to load this digest: ${escapeHtml(err.message)}</div>`;
+    }
+    return;
+  }
+  if (seq !== state.loadSeq) return;
+
+  const leads = run.studies.filter(s => s.band === "Lead").length;
+  const gaps = run.studies.filter(s => s.coverage_state === "unreported").length;
+  const checked = run.studies.filter(s => s.coverage_state).length;
+  const statTiles = `
+    <div class="stat-row">
+      <div class="stat${run.study_count ? "" : " is-zero"}">
+        <div class="n">${run.study_count}</div><div class="l">studies selected</div></div>
+      <div class="stat${leads ? "" : " is-zero"}">
+        <div class="n">${leads}</div><div class="l">scored as leads</div></div>
+      ${checked
+        ? `<div class="stat${gaps ? "" : " is-zero"}">
+            <div class="n">${gaps}<small> / ${checked}</small></div>
+            <div class="l">no coverage found</div></div>`
+        // "0 / 0 no coverage found" reads as a result. It is the absence of
+        // one: without a SerpAPI key nothing was checked.
+        : `<div class="stat is-zero">
+            <div class="n">—</div>
+            <div class="l">coverage not checked</div></div>`}
+      <div class="stat${run.journals_searched ? "" : " is-zero"}">
+        <div class="n">${escapeHtml(run.journals_searched || "0")}</div>
+        <div class="l">journals searched</div></div>
+      <div class="stat${run.articles_screened ? "" : " is-zero"}">
+        <div class="n">${escapeHtml(run.articles_screened || "0")}${run.articles_found
+          ? `<small> / ${escapeHtml(String(run.articles_found))}</small>` : ""}</div>
+        <div class="l">articles screened</div></div>
+    </div>`;
+
+  const labels = { primary: run.primary_audience || "marketers", secondary: run.secondary_audience || "general readers" };
+  const query = currentQuery();
+  const inQuery = run.studies.filter(s => matchesQuery(s, query));
+  const queryNote = query ? { query, total: run.studies.length } : null;
+  const studiesHtml = sectionBlock("studies", `Studies <span class="section-count">${run.study_count}</span>`,
+    renderFacets(inQuery, queryNote) +
+    `<div id="study-list">${inQuery.filter(matchesFacets).map(s => renderStudy(s, run.fact_check, query, labels)).join("")
+      || `<div class="empty-state">${query ? "No study in this run matches that search." : "Nothing matches those filters."}</div>`}</div>`);
+
+  const citationHtml = run.citation_table.length ? sectionBlock("citations",
+    `Citations <span class="section-count">${run.citation_table.length}</span>`, `
+    <div class="table-scroll">
+    <table class="citation-table">
+      <thead><tr><th>Work ID</th><th>Journal</th><th>Date</th><th>DOI</th></tr></thead>
+      <tbody>
+        ${run.citation_table.map(c => `<tr><td>${linkWorkIds(escapeHtml(c.work_id))}</td><td>${escapeHtml(c.journal)}</td><td>${escapeHtml(fmtDate(c.date))}</td><td>${doiUrl(c.doi)
+          ? `<a href="${escapeHtml(doiUrl(c.doi))}" target="_blank" rel="noopener">${escapeHtml(c.doi)}</a>` : "—"}</td></tr>`).join("")}
+      </tbody>
+    </table>
+    </div>`) : "";
+
+  const limitsHtml = sectionBlock("limits", "What this run does not tell you",
+    `<ul class="limits">${limitNotes(run).map(n => `<li>${n}</li>`).join("")}</ul>`);
+
+  const trendsHtml = sectionBlock("trends", "Research Trends & Continuity",
+    run.trends_raw ? renderTrendsBlock(run.trends_raw) : "");
+
+  const pitchHtml = sectionBlock("feature-pitch", "Bigger Picture: Feature Pitch",
+    run.feature_pitch_raw ? renderTrendsBlock(run.feature_pitch_raw) : "", "feature");
+
+  const pitchIdeasHtml = sectionBlock("pitch-ideas", "Story Ideas by Study",
+    run.pitch_ideas_raw ? renderTrendsBlock(run.pitch_ideas_raw) : "");
+
+  const jumpTargets = [
+    run.feature_pitch_raw ? ["feature-pitch", "Feature Pitch"] : null,
+    run.pitch_ideas_raw ? ["pitch-ideas", "Story Ideas"] : null,
+    run.trends_raw ? ["trends", "Trends"] : null,
+    ["studies", "Studies"],
+    run.citation_table.length ? ["citations", "Citations"] : null,
+    ["limits", "Limits"],
+  ].filter(Boolean);
+  const jumpLinkHtml = jumpTargets
+    .map(([id, label]) => `<a class="jump-link" href="#${id}">${label} &#8595;</a>`).join("");
+
+  const rawFactCheckHtml = run.fact_check && run.fact_check.raw ? `
+    <details class="raw-toggle">
+      <summary>View full fact-check report</summary>
+      <pre style="white-space: pre-wrap; font-family: inherit;">${escapeHtml(run.fact_check.raw)}</pre>
+    </details>
+  ` : "";
+
+  main.innerHTML = `
+    <div class="run-header">
+      <div class="run-header-top">
+        <h2>${escapeHtml(run.title)}</h2>
+        <div class="btn-row">
+          <button id="export-docx-btn" class="export-btn">Export .docx</button>
+          <button id="export-csv-btn" class="export-btn">Export .csv</button>
+          <button id="import-status-btn" class="export-btn" title="Restore editorial statuses from a previously exported .csv">Import statuses</button>
+          <input type="file" id="import-status-file" accept=".csv,text/csv" hidden>
+        </div>
+      </div>
+      ${statTiles}
+      <div class="jump-links">${jumpLinkHtml}<button type="button" id="toggle-all-btn" class="toggle-all" hidden>Collapse all</button></div>
+    </div>
+    ${pitchHtml}
+    ${pitchIdeasHtml}
+    ${trendsHtml}
+    ${studiesHtml}
+    ${citationHtml}
+    ${limitsHtml}
+    ${rawFactCheckHtml}
+  `;
+
+  const exportBtn = document.getElementById("export-docx-btn");
+  if (exportBtn) exportBtn.addEventListener("click", () => exportRunToDocx(run));
+  const csvBtn = document.getElementById("export-csv-btn");
+  if (csvBtn) csvBtn.addEventListener("click", () => exportRunToCsv(run));
+  const importBtn = document.getElementById("import-status-btn");
+  const importFile = document.getElementById("import-status-file");
+  if (importBtn && importFile) {
+    importBtn.addEventListener("click", () => importFile.click());
+    importFile.addEventListener("change", async () => {
+      const file = importFile.files && importFile.files[0];
+      importFile.value = "";
+      if (!file) return;
+      try {
+        const n = importStatusCsv(await file.text());
+        importBtn.textContent = n ? `Imported ${n}` : "Nothing to import";
+      } catch (e) {
+        importBtn.textContent = "Import failed";
+      }
+      setTimeout(() => { importBtn.textContent = "Import statuses"; renderMain(); }, 1600);
+    });
+  }
+
+  wireFacets(main, run);
+  wireStatusPickers(main);
+
+  wireSectionToggles(main);
+  main.querySelectorAll(".jump-link").forEach(jumpLink => jumpLink.addEventListener("click", (e) => {
+    e.preventDefault();
+    const targetId = jumpLink.getAttribute("href").slice(1);
+    const target = document.getElementById(targetId);
+    if (!target) return;
+    expandSection(target.closest(".section-block") || target);
+    const header = document.querySelector("header");
+    const offset = (header ? header.getBoundingClientRect().height : 0) + 12;
+    window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset, behavior: "smooth" });
+  }));
+}
+
+function mdRuns(text) {
+  const parts = String(text || "").split(/(\*\*[^*]+?\*\*|\*[^*]+?\*)/g).filter(p => p !== "");
+  if (!parts.length) return [new docx.TextRun("")];
+  return parts.map(p => {
+    const b = p.match(/^\*\*([^*]+)\*\*$/);
+    if (b) return new docx.TextRun({ text: b[1], bold: true });
+    const i = p.match(/^\*([^*]+)\*$/);
+    if (i) return new docx.TextRun({ text: i[1], italics: true });
+    return new docx.TextRun(p);
+  });
+}
+
+function mdLiteParagraphs(raw) {
+  const paras = [];
+  for (const line of String(raw || "").split("\n")) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    const bullet = trimmed.match(/^-\s+(.*)$/);
+    paras.push(bullet
+      ? new docx.Paragraph({ children: mdRuns(bullet[1]), bullet: { level: 0 }, spacing: { after: 60 } })
+      : new docx.Paragraph({ children: mdRuns(trimmed), spacing: { after: 120 } }));
+  }
+  return paras;
+}
+
+function docxLabelBody(label, body) {
+  return [
+    new docx.Paragraph({ children: [new docx.TextRun({ text: label, bold: true })], spacing: { before: 160, after: 40 } }),
+    new docx.Paragraph({ text: body || "—", spacing: { after: 80 } }),
+  ];
+}
+
+function docxStudyMeta(study, verdict) {
+  const children = [];
+  const push = (text) => {
+    if (children.length) children.push(new docx.TextRun({ text: "   ·   ", color: "888888" }));
+    children.push(new docx.TextRun({ text, color: "555555", size: 18 }));
+  };
+  if (study.journal) push(study.journal);
+  if (study.published) push(fmtDate(study.published));
+  if (doiUrl(study.doi)) {
+    if (children.length) children.push(new docx.TextRun({ text: "   ·   ", color: "888888" }));
+    children.push(new docx.ExternalHyperlink({
+      link: doiUrl(study.doi),
+      children: [new docx.TextRun({ text: `DOI ${study.doi}`, color: "0563C1", underline: {}, size: 18 })],
+    }));
+  }
+  if (study.work_id) push(`OpenAlex ${study.work_id}`);
+  if (verdict) push(verdict);
+  return new docx.Paragraph({ children, spacing: { after: 120 } });
+}
+
+function docxStudySection(study, factCheck, labels) {
+  const verdict = factCheck && factCheck.verdicts_by_work ? factCheck.verdicts_by_work[study.work_id] : null;
+  return [
+    new docx.Paragraph({ text: `${study.number}. ${study.title}`, heading: docx.HeadingLevel.HEADING_2, spacing: { before: 280, after: 60 } }),
+    ...(study.paper_title ? [new docx.Paragraph({ children: [new docx.TextRun({ text: study.paper_title, italics: true, color: "555555" })], spacing: { after: 40 } })] : []),
+    docxStudyMeta(study, verdict),
+    ...docxLabelBody("The study", study.the_study),
+    ...docxLabelBody("Why it matters", study.why_it_matters),
+    new docx.Paragraph({ children: [new docx.TextRun({ text: "Story angles", bold: true })], spacing: { before: 160, after: 40 } }),
+    new docx.Paragraph({ children: [new docx.TextRun({ text: `For ${labels.primary}: `, bold: true }), new docx.TextRun(study.story_angle_primary || "—")], spacing: { after: 40 } }),
+    new docx.Paragraph({ children: [new docx.TextRun({ text: `For ${labels.secondary}: `, bold: true }), new docx.TextRun(study.story_angle_secondary || "—")], spacing: { after: 80 } }),
+    ...docxLabelBody("Caveats", study.caveats),
+  ];
+}
+
+function docxCitationTable(rows) {
+  if (!rows || !rows.length) return [];
+  const headerRow = new docx.TableRow({
+    children: ["Work ID", "Journal", "Date", "DOI"].map(h => new docx.TableCell({
+      shading: { fill: "EFE6D9" },
+      children: [new docx.Paragraph({ children: [new docx.TextRun({ text: h, bold: true })] })],
+    })),
+  });
+  const bodyRows = rows.map(r => new docx.TableRow({
+    children: [r.work_id, r.journal, fmtDate(r.date), r.doi].map(v => new docx.TableCell({
+      children: [new docx.Paragraph(String(v || ""))],
+    })),
+  }));
+  return [
+    new docx.Paragraph({ text: "Citations", heading: docx.HeadingLevel.HEADING_2, spacing: { before: 280, after: 80 } }),
+    new docx.Table({ width: { size: 100, type: docx.WidthType.PERCENTAGE }, rows: [headerRow, ...bodyRows] }),
+  ];
+}
+
+// 725 KB that only an export needs, so it is fetched on first use rather than
+// on every page load. Vendored locally: no CDN in the critical path.
+let docxLoader = null;
+function loadDocxLibrary() {
+  if (typeof docx !== "undefined") return Promise.resolve();
+  if (docxLoader) return docxLoader;
+  docxLoader = new Promise((resolve, reject) => {
+    const el = document.createElement("script");
+    el.src = "vendor/docx-8.5.0.umd.js";
+    el.onload = () => typeof docx === "undefined"
+      ? reject(new Error("docx library loaded but did not register"))
+      : resolve();
+    el.onerror = () => { docxLoader = null; reject(new Error("docx library failed to load")); };
+    document.head.appendChild(el);
+  });
+  return docxLoader;
+}
+
+async function exportRunToDocx(run) {
+  const btn = document.getElementById("export-docx-btn");
+  if (btn) { btn.disabled = true; btn.textContent = "Exporting…"; }
+  try {
+    await loadDocxLibrary();
+
+    const sections = [
+      new docx.Paragraph({ text: run.title, heading: docx.HeadingLevel.TITLE, spacing: { after: 120 } }),
+      new docx.Paragraph({
+        children: [
+          new docx.TextRun(`Run date: ${fmtDate(run.run_date) || "—"}`),
+          new docx.TextRun("    |    "), new docx.TextRun(`Coverage: ${run.coverage_window || "—"}`),
+          new docx.TextRun("    |    "), new docx.TextRun(`Journals searched: ${run.journals_searched || "—"}`),
+          new docx.TextRun("    |    "), new docx.TextRun(`Articles screened: ${run.articles_screened || "—"}`),
+          new docx.TextRun("    |    "), new docx.TextRun(`Studies selected: ${run.study_count}`),
+        ],
+        spacing: { after: 80 },
+      }),
+    ];
+
+    if (run.fact_check && run.fact_check.summary) {
+      const s = run.fact_check.summary;
+      sections.push(new docx.Paragraph({
+        children: [new docx.TextRun({
+          text: `Fact check: ${s.total_issues} total issues · ${s.entries_requiring_revision} entries need revision · ${s.entries_cleared} cleared`,
+          italics: true, color: "6f6759",
+        })],
+        spacing: { after: 200 },
+      }));
+    }
+
+    const labels = { primary: run.primary_audience || "marketers", secondary: run.secondary_audience || "general readers" };
+    exportedStudies(run).forEach(s => sections.push(...docxStudySection(s, run.fact_check, labels)));
+    sections.push(...docxCitationTable(run.citation_table));
+
+    if (run.trends_raw) {
+      sections.push(new docx.Paragraph({ text: "Research Trends & Continuity", heading: docx.HeadingLevel.HEADING_2, spacing: { before: 320, after: 80 } }));
+      sections.push(...mdLiteParagraphs(run.trends_raw));
+    }
+    if (run.feature_pitch_raw) {
+      sections.push(new docx.Paragraph({ text: "Bigger Picture: Feature Pitch", heading: docx.HeadingLevel.HEADING_2, spacing: { before: 320, after: 80 } }));
+      sections.push(...mdLiteParagraphs(run.feature_pitch_raw));
+    }
+    if (run.pitch_ideas_raw) {
+      sections.push(new docx.Paragraph({ text: "Story Ideas by Study", heading: docx.HeadingLevel.HEADING_2, spacing: { before: 320, after: 80 } }));
+      sections.push(...mdLiteParagraphs(run.pitch_ideas_raw));
+    }
+
+    const doc = new docx.Document({ sections: [{ properties: {}, children: sections }] });
+    const blob = await docx.Packer.toBlob(doc);
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${(run.title || "digest").replace(/[\\/:*?"<>|]/g, "-")}.docx`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+  } catch (err) {
+    alert("Failed to export .docx: " + err.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = "Export .docx"; }
+  }
+}
+
+function applyFilters() {
+  const query = document.getElementById("search").value.trim().toLowerCase();
+  const topic = document.getElementById("topic-filter").value;
+
+  if (query && state.searchIndex === null) {
+    // Filter on what the index already holds now; re-run once the blobs land.
+    ensureSearchIndex().then(applyFilters);
+  }
+
+  state.filtered = state.data.runs.filter(r => {
+    if (topic && r.topic !== topic) return false;
+    if (!query) return true;
+    const blob = state.searchIndex ? (state.searchIndex[r.id] || "") : "";
+    const shallow = `${r.topic || ""} ${r.title || ""} ${r.run_date || ""}`.toLowerCase();
+    return blob.includes(query) || shallow.includes(query);
+  });
+
+  if (!state.filtered.some(r => r.id === state.activeId)) {
+    state.activeId = state.filtered.length ? state.filtered[0].id : null;
+    clearFacets();
+  }
+
+  renderSidebar();
+  renderMain();
+}
+
+function syncHeaderHeight() {
+  const header = document.querySelector("header");
+  if (!header) return;
+  const apply = () => document.documentElement.style.setProperty(
+    "--header-h", header.getBoundingClientRect().height + "px");
+  apply();
+  if (window.ResizeObserver) new ResizeObserver(apply).observe(header);
+  else window.addEventListener("resize", apply);
+}
+
+function initScrollTopButton() {
+  const btn = document.getElementById("scroll-top-btn");
+  window.addEventListener("scroll", () => {
+    btn.classList.toggle("visible", window.scrollY > 400);
+  }, { passive: true });
+  btn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+async function init() {
+  const res = await fetch("data/index.json");
+  if (!res.ok) throw new Error(`index.json returned ${res.status}`);
+  state.data = await res.json();
+  state.filtered = state.data.runs;
+  state.activeId = state.filtered.length ? state.filtered[0].id : null;
+
+  document.getElementById("search").addEventListener("input", applyFilters);
+  document.getElementById("topic-filter").addEventListener("change", applyFilters);
+  document.getElementById("home-link").addEventListener("click", (e) => {
+    e.preventDefault();
+    document.getElementById("search").value = "";
+    document.getElementById("topic-filter").value = "";
+    applyFilters();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  initTheme();
+  initScrollTopButton();
+  syncHeaderHeight();
+
+  renderSidebar();
+  renderMain();
+}
+
+init().catch(err => {
+  document.getElementById("main").innerHTML =
+    `<div class="empty-state">Failed to load digest data: ${escapeHtml(err.message)}</div>`;
+});
+</script>
+</body>
+</html>

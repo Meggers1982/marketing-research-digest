@@ -1,0 +1,87 @@
+name: Daily Marketing Research Digest
+
+on:
+  schedule:
+    # 07:37 UTC = 2:37am CDT / 1:37am CST, so the DST switch needs no edit. The
+    # odd minute is deliberate: GitHub queues scheduled runs, the queue is worst
+    # on a round hour, and her other digests already sit on :00 slots. Expect
+    # it to start late anyway -- 2.5 to 4.5 hours is typical across her repos,
+    # 11.5 the worst seen.
+    - cron: "37 7 * * *"
+
+  workflow_dispatch:
+    inputs:
+      focus:
+        description: >
+          Topic override (blank = today's rotation). Use a name from
+          config/digest_config.json, e.g. "branding" or "pricing & promotions";
+          anything else is searched as a plain phrase.
+        required: false
+        default: ""
+
+# Two runs writing outputs/ at once would each push a commit the other has not
+# seen; queue them instead.
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    name: Generate marketing research digest
+    runs-on: ubuntu-latest
+    # A healthy run is well under 15 minutes. Cap it so a hang fails fast
+    # instead of burning GitHub's 6-hour default.
+    timeout-minutes: 35
+
+    permissions:
+      contents: write   # commit the run back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Set up Node (the dashboard render test executes the page script)
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt pytest
+
+      # Free, no API calls. The dashboard is plain JS reading JSON Python
+      # writes; the suite is the only thing that connects the two.
+      - name: Run tests
+        run: python -m pytest tests/ -q
+
+      # PYTHONUNBUFFERED so a hang's log names the stage it died in rather
+      # than dying in the buffer (senior-research-digest, 2026-09-06).
+      - name: Run digest pipeline
+        timeout-minutes: 25
+        env:
+          PYTHONUNBUFFERED: "1"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          DIGEST_FOCUS: ${{ github.event.inputs.focus }}
+        working-directory: scripts
+        run: python main.py
+
+      # The push is the deploy: Vercel's Git integration builds every commit
+      # on main (vercel.json serves docs/). No token lives in this repo.
+      - name: Commit the run
+        run: |
+          git config user.name  "marketing-digest-bot"
+          git config user.email "bot@users.noreply.github.com"
+          # `if`, not `[ -d ] &&`: under bash -e a short-circuited && on the
+          # last iteration fails the step (senior-research-digest, 2026-09-06).
+          for dir in outputs topic_memory docs state; do
+            if [ -d "$dir" ]; then git add "$dir"; fi
+          done
+          git diff --cached --quiet || git commit -m "digest: $(date -u +%Y-%m-%d)"
+          git push
