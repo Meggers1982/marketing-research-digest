@@ -76,8 +76,12 @@ jobs:
       # on main (vercel.json serves docs/). No token lives in this repo.
       - name: Commit the run
         run: |
+          # The email must resolve to Meggers1982. Vercel's Hobby plan blocks
+          # a private repo's deploy unless the commit author is on the team;
+          # bot@users.noreply.github.com is a stranger's account called "bot",
+          # so the first run's deploy came back BLOCKED (2026-09-14).
           git config user.name  "marketing-digest-bot"
-          git config user.email "bot@users.noreply.github.com"
+          git config user.email "18274731+Meggers1982@users.noreply.github.com"
           # `if`, not `[ -d ] &&`: under bash -e a short-circuited && on the
           # last iteration fails the step (senior-research-digest, 2026-09-06).
           for dir in outputs topic_memory docs state; do

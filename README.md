@@ -42,7 +42,9 @@ asks for 07:37 UTC; GitHub queues scheduled runs, so expect it hours late
 9. **Commits and pushes.** The push is the deploy: the Vercel project
    `marketing-research-digest` is connected to this repo and builds every commit
    on `main`; `vercel.json` serves `docs/` with no build step and no token in
-   the workflow.
+   the workflow. The bot commits under Meggers1982's GitHub no-reply address
+   on purpose: on Vercel's Hobby plan a private repo only deploys commits whose
+   author is on the team, and any other identity gets the deploy `BLOCKED`.
 
 `python -m pytest tests/ -q` runs first in the same workflow. It touches no API.
 
