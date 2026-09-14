@@ -1,6 +1,19 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 0,
-  "topics": [],
-  "runs": []
+  "run_count": 1,
+  "topics": [
+    "ai & marketing technology"
+  ],
+  "runs": [
+    {
+      "id": "marketing-research-digest-ai-marketing-technology-2026-09-14",
+      "title": "Marketing Research Digest — AI & Marketing Technology — 2026-09-14",
+      "topic": "ai & marketing technology",
+      "run_date": "2026-09-14",
+      "study_count": 21,
+      "total_issues": "18 (16 Minor, 2 Moderate, 0 Major)",
+      "lead_count": 19,
+      "top_score": 95
+    }
+  ]
 }
