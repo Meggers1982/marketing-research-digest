@@ -175,6 +175,12 @@ def test_the_theme_is_settled_before_the_first_paint():
     assert "mrd-theme" in head
 
 
+def test_prose_links_use_the_accent_not_browser_blue():
+    """OpenAlex IDs and DOIs are bare <a> tags in the prose and citation table.
+    With no rule they rendered #0000EE, close to unreadable on the dark panel."""
+    assert re.search(r"\n\s*a\s*\{[^}]*color:\s*var\(--accent\)", dashboard_html())
+
+
 def test_the_docx_library_is_vendored():
     assert (REPO_ROOT / "docs" / "vendor" / "docx-8.5.0.umd.js").exists()
     assert "vendor/docx-8.5.0.umd.js" in dashboard_js()

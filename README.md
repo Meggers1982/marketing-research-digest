@@ -105,6 +105,9 @@ an optional topic.
 - **Hide a bad run:** add its id to `docs/data/hidden.json` (`{"ids": [...]}`) and
   rebuild with `python scripts/build_dashboard_data.py`. Nothing is deleted.
 - **Re-score the archive:** `python scripts/build_dashboard_data.py`. No API calls.
+- **Link colors:** every link inherits `var(--accent)` from a base `a` rule, so
+  OpenAlex IDs in the prose and DOIs in the citation table stay readable in dark
+  mode. They used to fall back to browser blue (`#0000EE`). A test pins it.
 
 On this Mac, use `python3.11` (the repo needs 3.10+; the python.org 3.11 has no CA
 bundle, so live OpenAlex calls need
