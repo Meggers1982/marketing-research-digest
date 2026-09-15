@@ -1,5 +1,15 @@
 {
   "studies": {
+    "W4375826978": {
+      "checked_at": "2026-09-15T13:01:51.031005+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Freelancers who put their own money line get punished",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W4416014100": {
       "checked_at": "2026-09-14T16:55:57.165170+00:00",
       "result": {
@@ -16,6 +26,66 @@
         "articles": [],
         "outlets": [],
         "query": "rewrote health messages teens own slang nudge worked personalization barely",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7160239758": {
+      "checked_at": "2026-09-15T13:01:00.093657+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Default nudges work everyone which exactly they won close health",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7170087457": {
+      "checked_at": "2026-09-15T13:00:30.643331+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Employee discounts backfire keeping promises staff beats cutting their price",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7170171784": {
+      "checked_at": "2026-09-15T13:01:57.882834+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://www.oliveoiltimes.com/grades/italians-will-pay-more-for-olive-oil-with-health-claims/144950",
+            "outlet": "Olive Oil Times",
+            "title": "Italians Will Pay More for Olive Oil with Health Claims"
+          },
+          {
+            "link": "https://www.organicauthority.com/energetic-health/italian-extra-virgin-olive-oil-manni-oil",
+            "outlet": "Organic Authority",
+            "title": "The Italian Extra-Virgin Olive Oil We Love, Here\u2019s Why"
+          },
+          {
+            "link": "https://www.consumerlab.com/reviews/extra-virgin-olive-oil-review/evoo/",
+            "outlet": "consumerlab.com",
+            "title": "Extra Virgin Olive Oil Review & Top Picks"
+          }
+        ],
+        "outlets": [
+          "Olive Oil Times",
+          "Organic Authority",
+          "consumerlab.com"
+        ],
+        "query": "Italians will pay about extra health claim olive oil label",
+        "returned": 9,
+        "state": "widely_reported"
+      }
+    },
+    "W7170377972": {
+      "checked_at": "2026-09-15T13:00:24.469263+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Let them start today immediate activation makes subscribers stick around",
         "returned": 0,
         "state": "unreported"
       }
@@ -50,6 +120,26 @@
         "state": "unreported"
       }
     },
+    "W7172409631": {
+      "checked_at": "2026-09-15T13:01:45.756324+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Same price bigger discount travelers pick deal only looks cheaper",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7202032785": {
+      "checked_at": "2026-09-15T13:01:44.177390+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Across hotels restaurants moisturizers tablets value money feature colors all",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7202159278": {
       "checked_at": "2026-09-14T16:55:27.283126+00:00",
       "result": {
@@ -77,6 +167,56 @@
         "outlets": [],
         "query": "robot upgrade feels special unless upgrade comes someone else expense",
         "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7203703296": {
+      "checked_at": "2026-09-15T13:01:15.191919+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Bad ESG news only really hurts lot people see good",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7203715795": {
+      "checked_at": "2026-09-15T13:00:39.943870+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "000 people later paying cash really does hurt than tapping",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7203839485": {
+      "checked_at": "2026-09-15T13:02:05.961016+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "premium price drowns out positioning story",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7203899003": {
+      "checked_at": "2026-09-15T13:01:37.928291+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Half shoppers paid greener packaging sat regular shelf",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7203929361": {
+      "checked_at": "2026-09-15T13:01:03.416392+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Same game different planet publishers really price across borders Steam",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -130,6 +270,16 @@
         "state": "unreported"
       }
     },
+    "W7204248241": {
+      "checked_at": "2026-09-15T13:00:49.694362+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Best before March beats expires days date wording changes shoppers",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7204492734": {
       "checked_at": "2026-09-14T16:55:52.136747+00:00",
       "result": {
@@ -156,6 +306,26 @@
         "articles": [],
         "outlets": [],
         "query": "Giving creatives isn enough teaching them prompt moved needle",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204997399": {
+      "checked_at": "2026-09-15T13:00:20.090388+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "groceries got expensive shoppers didn just trade down they cut",
+        "returned": 5,
+        "state": "unreported"
+      }
+    },
+    "W7207565403": {
+      "checked_at": "2026-09-15T13:01:33.819807+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "hangover deep discount great past price poisons today sale",
         "returned": 0,
         "state": "unreported"
       }
@@ -190,6 +360,46 @@
         "state": "unreported"
       }
     },
+    "W7210283217": {
+      "checked_at": "2026-09-15T13:00:26.268419+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "voice gives away sure firms now hear",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7211920431": {
+      "checked_at": "2026-09-15T13:01:24.509650+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Fast food logos kids jerseys sponsorship worth under club budget",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7212055380": {
+      "checked_at": "2026-09-15T13:00:35.792746+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Pay want works stages only last stage responds social pressure",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7212124619": {
+      "checked_at": "2026-09-15T13:01:55.499766+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Steps Beltline worth real money near green space worth nothing",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7212274308": {
       "checked_at": "2026-09-14T16:55:11.355239+00:00",
       "result": {
@@ -207,6 +417,26 @@
         "outlets": [],
         "query": "luxury retail doesn sell itself only works signals exclusivity",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7212374919": {
+      "checked_at": "2026-09-15T13:00:44.253084+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Financial education payoff narrower than thought mostly teaches people compare",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7212389830": {
+      "checked_at": "2026-09-15T13:00:46.123016+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "stock market overvalues company marketing budgets safer",
+        "returned": 1,
         "state": "unreported"
       }
     }

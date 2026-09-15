@@ -1,0 +1,900 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-15",
+  "days_back": 60,
+  "window_from": "2026-07-17",
+  "window_to": "2026-09-15",
+  "focus": "Pricing & Promotions",
+  "topic": "pricing & promotions",
+  "query": "pricing OR price OR discount OR \"sales promotion\" OR \"price promotion\" OR coupon OR subscription OR \"price fairness\" OR \"dynamic pricing\" OR \"free shipping\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 158,
+    "not_research": 2,
+    "no_abstract": 43,
+    "off_topic": 2,
+    "already_covered": 0,
+    "over_journal_cap": 9,
+    "over_cap": 62,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7204997399",
+      "headline": "When groceries got expensive, shoppers didn't just trade down — they cut fruits and vegetables too",
+      "the_study": "Researchers analyzed the 2022 International Food Policy Study, a cross-sectional online survey of 20,240 adults in Australia, Canada, Mexico, the UK and the US, asking whether food had become more expensive in the past year and how people changed ten purchasing strategies and seven food categories in response. Between 78% and 85% of respondents across the five countries said food prices had risen, and the single most common response was switching to cheaper brands (34%-43%). People cut back on desserts and soft drinks, but also on core foods like fruits and vegetables — and those core-food cuts were concentrated among respondents reporting low income adequacy and household food insecurity.",
+      "why_it_matters": "It quantifies, across five markets at once, exactly which lever shoppers pull first under price pressure — brand switching — and shows that private label and value-tier growth in an inflation cycle comes with a nutritional cost borne disproportionately by the least financially secure households.",
+      "story_angle_primary": "Brand switching is the default consumer response to inflation, not basket reduction: national brands should treat price-gap management and entry-tier offerings as the first line of defense, and fresh-produce categories should recognize they are not inflation-proof. Because this is self-reported survey data, treat the rankings as a directional map of shopper intent to validate against your own scanner data.",
+      "story_angle_secondary": "Almost everyone noticed food inflation, and most people quietly changed what went in the cart — but the households with the least slack cut back on fruit and vegetables, not just treats, which is the part of a grocery budget that is hardest to see and costliest to lose.",
+      "caveats": "Cross-sectional online survey with self-reported perceptions and self-reported purchasing changes rather than observed transactions; non-probability online panel; cannot establish causation; snapshot of a single unusual inflationary year (2022).",
+      "journal": "Appetite",
+      "published": "2026-09-02",
+      "doi": "10.1016/j.appet.2026.108769",
+      "paper_title": "Adults’ perceptions of rising food price and their impact on food purchasing: findings from the 2022 international food policy study",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7170377972",
+      "headline": "Let them start today: immediate activation makes subscribers stick around longer",
+      "the_study": "Across four studies — controlled lab experiments, online experiments with diverse samples, and a randomized field experiment across multiple subscription settings — researchers tested whether starting a subscription immediately versus on a delayed date changes long-term commitment. Immediate activation consistently raised the likelihood of long-term subscription, through a chain of psychological ownership leading to higher perceived value. Onboarding cues framed around ownership softened the damage when activation had to be delayed.",
+      "why_it_matters": "Activation timing is a cheap, purely operational design lever that appears to move churn and customer lifetime value — no discounting required.",
+      "story_angle_primary": "Audit every point in your signup flow where access is deferred (start-date pickers, delivery windows, provisioning lags) and test immediate access against the delay; where you cannot remove the gap, test ownership-framed onboarding language. The field experiment gives this more weight than a typical lab finding, but effect sizes in your category still need in-market validation.",
+      "story_angle_secondary": "The sooner you actually use something you've signed up for, the more it feels like yours — and the harder it becomes to cancel. Worth knowing when a service pushes you to start right now.",
+      "caveats": "Abstract does not report sample sizes, the field experiment's setting, or effect magnitudes; mechanism evidence rests largely on lab and online-panel studies; service categories tested are unspecified.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-07-24",
+      "doi": "10.1108/ejm-09-2025-0768",
+      "paper_title": "Start now, stay longer: how immediate subscription activation drives long-term commitment",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7210283217",
+      "headline": "Your voice gives away how sure you are — and firms can now hear it",
+      "the_study": "Researchers tested two ways of inferring how uncertain a customer is from the sound of their answer, not the words: a raw-audio model and a simpler approach using vocal pitch. They validated both in a laboratory Net Promoter Score study and a field NPS study run with a full-service music store chain. The pitch-based feature approach outperformed raw audio for marketing use while preserving privacy, and the partner firm identified two applications: targeting coupon offers at customers whose vocal delivery suggests they'll actually redeem, and spotting confident advocates for testimonials.",
+      "why_it_matters": "Voice surveys and call recordings are already everywhere; this suggests the audio track carries an extra, actionable signal about how much to trust a given score — and which customers are worth spending promotional budget on.",
+      "story_angle_primary": "If you collect NPS or feedback by phone or voice assistant, there may be a usable confidence signal sitting unused in your recordings — but the privacy framing matters, and a pitch feature is both cheaper and less invasive than shipping raw audio to a model. Test whether uncertainty-weighted scores predict redemption or churn better than raw scores before rebuilding targeting around it.",
+      "story_angle_secondary": "When a company asks how likely you are to recommend them, the hesitation in your voice may now be data. It raises a fair question about what else is being inferred from recorded calls beyond the words said.",
+      "caveats": "Single partner firm in one category (music retail); sample sizes and predictive accuracy not reported in the abstract; managerial benefits described are firm-suggested applications rather than tested outcomes; industry collaboration with the retail chain.",
+      "journal": "Journal of Marketing",
+      "published": "2026-09-06",
+      "doi": "10.1177/00222429261484107",
+      "paper_title": "EXPRESS: Amplifying Insights: Harnessing Voice Technology to Decode Customer Uncertainty in Marketing",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7170087457",
+      "headline": "Employee discounts can backfire: keeping promises to staff beats cutting their price",
+      "the_study": "Three studies, including two experiments with a total of 738 respondents, examined whether employees become customers of their own employer and what drives it. Psychological contract fulfillment — the organization delivering on implicit promises around pay, training and work-life balance — predicted employer-brand patronage, mediated by employee brand identification. The experiments found that employee discounts actually weakened the effect of contract fulfillment, that fulfillment led employees to ignore competitors' discounts, and that when the psychological contract was broken, discounts only partially compensated and employees preferred competitors.",
+      "why_it_matters": "Service firms spend real money on staff discount programs on the assumption they build internal advocacy; this suggests the money may buy less loyalty than simply honoring commitments to employees, and can even crowd out the goodwill it was meant to reinforce.",
+      "story_angle_primary": "Treat the employee discount as a testable line item rather than a given: compare patronage and advocacy among staff receiving discounts versus those in units with stronger fulfillment of workplace promises, and consider reallocating discount budget toward the commitments employees actually notice. Evidence here is experimental and modest in scale, so treat it as a hypothesis worth piloting.",
+      "story_angle_secondary": "A price break at work is a weaker motivator than being treated as promised — a small illustration of how transactional incentives can crowd out the relationship they're meant to strengthen.",
+      "caveats": "Service-sector context only, not generalizable to manufacturing per the authors; total N=738 across three studies, so per-condition cells may be small; experimental scenarios rather than observed purchases; no test of how discount depth changes the result; country and sample source not stated in the abstract.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-07-22",
+      "doi": "10.1108/ejm-05-2025-0366",
+      "paper_title": "Beyond employee discounts: can psychological contract fulfilment drive employer-brand patronage? A psychological ownership perspective",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7212055380",
+      "headline": "Pay-what-you-want works in stages — and only the last stage responds to social pressure",
+      "the_study": "Four studies built and tested a three-stage model of pay-what-you-want pricing: whether consumers opt into it, what they intend to pay, and what they actually pay. Opting in was driven by consumer mindset and fairness concerns, while brand familiarity and external reference prices had no effect; willingness to pay was shaped jointly by whether the seller was for-profit or not-for-profit and by external reference prices, with high reference prices lifting willingness to pay for not-for-profit sellers; and descriptive norms raised actual payments only when payments were publicly visible. A fourth study replicated the adoption findings in a non-student sample.",
+      "why_it_matters": "It separates three things practitioners usually conflate, implying that the cues that get people to choose PWYW are different from the cues that raise what they hand over — and that social visibility, not price anchoring, is what moves the final number.",
+      "story_angle_primary": "If you run participative pricing — donation checkouts, tip prompts, name-your-price tiers — the levers differ by stage: fairness framing to drive adoption, reference prices and mission identity to shape intent, and visible norms at the moment of payment. These are largely experimental findings, so treat the staged design as an A/B testing roadmap rather than a formula.",
+      "story_angle_secondary": "What you voluntarily pay depends heavily on whether anyone can see it. The same person who would happily underpay in private pays closer to the norm when the amount is public.",
+      "caveats": "Studies appear to be online/lab experiments with at least one student sample (a separate study was needed to replicate in a non-student sample); sample sizes, country and product contexts not reported in the abstract; only Study 3 measured actual payments, the rest rely on intentions.",
+      "journal": "Marketing Intelligence & Planning",
+      "published": "2026-09-09",
+      "doi": "10.1108/mip-12-2025-0939",
+      "paper_title": "From choice to payment: a multi-stage framework of consumer behaviour in Pay-What-You-Want pricing",
+      "source_id": "S29817978"
+    },
+    {
+      "work_id": "W7203715795",
+      "headline": "32,000 people later: paying with cash really does hurt more than tapping a card",
+      "the_study": "Researchers ran the first systematic \"mega-replication\" of the classic pain-of-paying effect: 13 large-scale preregistered replications covering 32,371 participants, 65 products and 57 price points from $1.09 to $400. Cash payment was consistently more psychologically painful than card payment, even among consumers who juggle multiple cards, digital wallets and virtual currencies. The effect showed up more reliably and more strongly in how much people spent than in their stated willingness to pay, and pain of paying statistically mediated the link. The effect was moderated by individual habits: people who mostly use cards felt the difference most.",
+      "why_it_matters": "Payment friction is one of the few levers that reliably moves spending, and this is the strongest evidence yet that it survives in a tap-to-pay world rather than being a relic of pre-digital wallets.",
+      "story_angle_primary": "If pain of paying scales with payment friction, the frictionless checkout arms race (one-click, stored cards, wallets, BNPL) is effectively a spending-increase program — worth testing directly against basket size and return rates in your own channels, since these were controlled studies rather than live retail rollouts. Note too that spend amount moved more reliably than stated willingness to pay, which is a warning about relying on WTP survey questions in pricing research.",
+      "story_angle_secondary": "For anyone trying to spend less, the old advice holds up under serious scrutiny: putting cash in your hand makes the money feel real in a way that a card does not. And the more card-dependent you already are, the bigger the jolt when you switch back to notes.",
+      "caveats": "Replications rely largely on controlled experimental paradigms and panel participants rather than observed retail transactions across a full shopping trip; effects on willingness to pay were weaker and less consistent than on amount spent.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-08-14",
+      "doi": "10.1093/jcr/ucag027",
+      "paper_title": "A Mega-Replication of the Effect of Cash Versus Card Payment on Pain of Paying: Magnitude, Behavioral Outcomes, and Moderators",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7212374919",
+      "headline": "Financial education's payoff is narrower than we thought — it mostly teaches people to compare prices",
+      "the_study": "Using three waves of panel data from a baseline-representative sample of 4,389 adults in Poland, researchers tested whether financial knowledge actually causes better financial behavior across 24 specific behaviors. Simple cross-sectional models showed the familiar broad positive correlations, but those associations shrank sharply in long-difference and random-intercept cross-lagged panel models. Changes in knowledge predicted changes in only five behaviors — nearly all deliberative ones such as assessing affordability, weighing alternatives, evaluating needs and comparing prices. No individual behavior predicted later knowledge.",
+      "why_it_matters": "The much-cited link between financial literacy and good money habits appears to be largely a story about who people are rather than what they learn — and where learning does bite, it shows up as more careful, comparison-driven shopping.",
+      "story_angle_primary": "If financial knowledge mainly sharpens deliberation and price comparison, then better-informed consumer segments should be systematically harder to win on opaque pricing, bundling or urgency tactics — worth checking whether your most price-comparing customers behave differently from the rest of your base. It also suggests corporate financial-wellness and literacy programs will move comparison behavior long before they move saving or debt outcomes.",
+      "story_angle_secondary": "Learning more about money does not magically make you save more or borrow less. What it reliably changes is the moment before a purchase: asking whether you can afford it, whether you need it, and whether it's cheaper elsewhere.",
+      "caveats": "Single country (Poland); observational panel data, so causal claims rest on model specification rather than randomization; results depend strongly on which statistical model is used; self-reported behaviors rather than observed transactions.",
+      "journal": "Journal of Consumer Affairs",
+      "published": "2026-09-01",
+      "doi": "10.1111/joca.70075",
+      "paper_title": "Revisiting the Financial Knowledge–Behavior Link: Longitudinal, Bidirectional, and Item‐Level Evidence on Financial Deliberation",
+      "source_id": "S189751245"
+    },
+    {
+      "work_id": "W7212389830",
+      "headline": "When the stock market overvalues a company, marketing budgets are safer",
+      "the_study": "Analyzing 34,302 firm-year observations from 1980 to 2016, researchers tested whether stock mispricing changes how often managers resort to myopic marketing management — cutting marketing and R&D to prop up reported earnings. The effect was asymmetric: overpricing reduced the likelihood of such cuts considerably more than underpricing increased it. Equity issuance weakened the relationship, while firm growth strengthened it.",
+      "why_it_matters": "It puts a number on something CMOs suspect intuitively — that the defensibility of the marketing budget partly depends on where the share price sits relative to fundamentals, not just on marketing's own performance case.",
+      "story_angle_primary": "Marketing leaders can read the firm's valuation position as an early-warning indicator for budget pressure, and prepare the long-term-value argument before an underpricing episode or an equity issuance makes short-term earnings management tempting. The asymmetry also suggests a tactical point: the window when the market is generous is the moment to lock in multi-year brand investment, not to bank savings.",
+      "story_angle_secondary": "Little direct relevance for everyday consumers, beyond explaining why familiar brands sometimes go quiet on advertising for reasons that have nothing to do with their products.",
+      "caveats": "Archival, correlational firm-level data — mispricing is estimated, not observed, so causality is inferred; largely US-style public-company data ending in 2016, predating recent digital media and measurement shifts.",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-12",
+      "doi": "10.1016/j.jbusres.2026.116529",
+      "paper_title": "Stock mispricing and myopic marketing management",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7204248241",
+      "headline": "\"Best before March 3\" beats \"expires in 2 days\": how date wording changes what shoppers put in the cart",
+      "the_study": "Chinese researchers ran three experiments using purchase tasks, information-viewing measures and mouse-tracking to test two ways of presenting the same expiration information on discounted food: a date frame (\"use by March 3\") versus a delay frame (\"expires in 2 days\"). The date frame consistently raised willingness to buy near-expiry items, and the process data showed why: under the date frame shoppers looked at price earlier and longer, and perceived more remaining time, while the delay frame pushed attention onto the shrinking clock. The advantage shrank when discounts were already deep.",
+      "why_it_matters": "Retailers throw away enormous volumes of food that is still perfectly edible, and this suggests the wording on the markdown sticker — not just the size of the markdown — moves sell-through.",
+      "story_angle_primary": "Grocery and convenience retailers could A/B test markdown-label wording in a few stores before changing shelf-edge systems chainwide: a date frame may let you clear near-expiry stock at a shallower discount, protecting margin. Note the interaction — once the discount is steep, framing stops mattering, so the payoff is concentrated in modest markdowns.",
+      "story_angle_secondary": "If you find yourself reaching for the reduced-price yogurt when the label says a date but hesitating when it says \"2 days left,\" that is the framing working on you. Both statements describe exactly the same food; only one makes you stare at the countdown.",
+      "caveats": "Lab-style purchase tasks rather than observed store purchases; process measures (mouse-tracking) come from controlled settings; sample details and country context limited to the experiments reported; effect conditional on discount depth.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-08-26",
+      "doi": "10.1002/cb.70237",
+      "paper_title": "How Temporal Framing of Expiration Information Influences Consumer Preferences for Near‐Expiry Food?",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7160239758",
+      "headline": "Default nudges work on everyone — which is exactly why they won't close the health gap",
+      "the_study": "Two online experiments with UK participants tested whether a default nudge (healthy options pre-selected versus no nudge) in a hypothetical online supermarket worked better for people with lower socioeconomic position, as nudge advocates have long assumed. It didn't: the default reliably shifted choices toward healthier foods, but roughly equally across lower- and higher-SEP groups. Study 2 added visible price information to make the shopping task more realistic, and the nudge still worked — and still showed no SEP advantage.",
+      "why_it_matters": "A central policy justification for nudging — that it disproportionately helps disadvantaged groups and therefore narrows health inequalities — is not supported here, even though the nudge itself was effective.",
+      "story_angle_primary": "For retailers and food brands building healthier default baskets, subscription boxes or pre-filled carts, the usable news is that defaults move choices across income groups and survive the presence of price information. The cautionary news is for anyone marketing a nudge-based program on equity grounds: this evidence says it lifts all boats rather than closing the gap.",
+      "story_angle_secondary": "Whatever is pre-ticked in your online grocery cart shapes what you buy, and being price-conscious doesn't protect you from it. The default is a design choice someone made — and it's worth noticing who benefits.",
+      "caveats": "Hypothetical online supermarket, not real purchases; online panel in a single country (UK); stated choices rather than observed behavior; authors themselves call for real-world replication where money actually changes hands.",
+      "journal": "Appetite",
+      "published": "2026-08-28",
+      "doi": "10.1016/j.appet.2026.108768",
+      "paper_title": "Are nudges suitable to combat health inequalities? The efficacy of default nudges in people with lower versus higher socio-economic position",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7203929361",
+      "headline": "Same game, different planet: how publishers really price across borders on Steam",
+      "the_study": "Researchers analyzed pre-discount list prices for 7,375 PC game titles from 268 publishers across eight currencies on Valve's Steam platform, which issues regional price recommendations but lets publishers override them. Clustering revealed four distinct pricing postures: benchmark followers who take the platform's suggestion, calibrated adjusters, \"emerging-market premium seekers\" who price above platform guidance in Brazil and India while hugging the recommendation in rich countries, and high-variance portfolio strategists. Publishers tied to large game companies were overrepresented among the high-variance strategists.",
+      "why_it_matters": "It is a rare look at how firms actually resolve the standardization-versus-localization tradeoff when a platform hands them a default price — and evidence that some charge relatively more, not less, in lower-income markets.",
+      "story_angle_primary": "If you sell digital goods through a marketplace that recommends regional prices, the recommendation is an anchor, not a rule — and the data suggests deviating from it is a capability, concentrated among larger publishers with portfolio pricing muscle. Worth auditing whether your own country price grid is a deliberate strategy or just the platform default nobody revisited.",
+      "story_angle_secondary": "Regional pricing is often defended as making products affordable in poorer countries. This analysis finds a group of publishers doing something close to the opposite in Brazil and India — pricing above what the platform suggests — which is one reason gamers in those markets swap price-comparison links.",
+      "caveats": "Single platform and single category (PC games on Steam); list prices before discounts, so actual paid prices may differ; descriptive clustering rather than a causal test of why firms choose a posture.",
+      "journal": "Journal of International Marketing",
+      "published": "2026-08-21",
+      "doi": "10.1177/1069031x261480691",
+      "paper_title": "EXPRESS: Strategic Patterns of Cross-Border Platform-Mediated Pricing: Evidence from Global Game Distribution",
+      "source_id": "S119908498"
+    },
+    {
+      "work_id": "W7203703296",
+      "headline": "Bad ESG news only really hurts when a lot of people see it — and a good record only insures you at the very top of the news cycle",
+      "the_study": "An event study of U.S.-listed firms measured stock reactions to negative environmental, social and governance stories, conditioned on how far the coverage reached. A one-unit increase in media reach was associated with a 0.13 percentage point drop in cumulative abnormal returns, with the damage concentrated among low-ESG firms in controversial industries. High-ESG firms in those same industries suffered significantly milder declines — but only when the story achieved the highest-reach coverage did a strong ESG record function as insurance at all.",
+      "why_it_matters": "It reframes the \"ESG as reputational insurance\" claim: the payoff shows up in a specific and narrow situation — a widely covered scandal at a firm in a controversial sector — rather than as general protection against bad press.",
+      "story_angle_primary": "Communications and IR teams could stop treating all negative ESG coverage as equivalent and triage by reach, since low-reach stories carry little measurable valuation cost. But the flip side is a hard question for CFOs: if ESG investment is being sold internally as downside protection, this evidence says that protection only cashes in during high-visibility crises in high-risk industries.",
+      "story_angle_secondary": "Markets appear to price corporate misbehavior largely in proportion to how many people hear about it — a reminder that attention, not just conduct, is what moves a share price.",
+      "caveats": "U.S.-listed firms only; observational event study, so media reach is correlated with other story attributes; short event-window horizon; measures investor reaction, not consumer behavior.",
+      "journal": "Journal of Business Research",
+      "published": "2026-08-18",
+      "doi": "10.1016/j.jbusres.2026.116477",
+      "paper_title": "Media reach and the market reaction to negative ESG media stories: do industry affiliation and ESG performance matter?",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7211920431",
+      "headline": "Fast food logos on kids' jerseys — for sponsorship worth under 1% of the club's budget",
+      "the_study": "Researchers surveyed representatives of children's sports clubs in Ontario (no mandatory restrictions on advertising to children) and Quebec (mandatory limits on sponsorship advertising aimed at under-13s), inviting 349 and 182 clubs respectively; 16% responded. At least 45% of responding Ontario clubs and 55% of Quebec clubs had a food-related sponsor, most commonly fast food restaurants, and sponsors appeared on uniforms and awards for children aged 12 and under in both provinces. In most cases the money involved was tiny: direct funding worth 1% or less of club revenue, in-kind benefits 1.5% or less.",
+      "why_it_matters": "It suggests youth sports sponsorship buys brands prominent placement in front of children very cheaply, and that Quebec's advertising restrictions are not touching the most visible formats such as branded uniforms.",
+      "story_angle_primary": "For food and beverage brands, this documents a channel that regulators are now examining closely — and the cost-per-exposure economics that make it attractive are exactly what will make it a target. Brands relying on grassroots sports visibility should stress-test what happens if uniform and awards placements are brought under child-advertising rules.",
+      "story_angle_secondary": "Parents may assume sponsor logos on a child's jersey reflect meaningful financial support for the team. In most clubs surveyed, the sponsorship covered about 1% of the budget or less — the club is giving away more visibility than it is getting in cash.",
+      "caveats": "16% response rate raises serious nonresponse bias concerns; small effective samples (47 Ontario and 40 Quebec clubs analyzed); self-reported by club representatives; two provinces in one country; cross-sectional, so the policy comparison is not a causal test of the Quebec regulations.",
+      "journal": "Health Promotion International",
+      "published": "2026-09-01",
+      "doi": "10.1093/heapro/daag121",
+      "paper_title": "Food-related sponsorship of children’s sports clubs in two Canadian policy environments: a survey of sports club representatives",
+      "source_id": "S94746221"
+    },
+    {
+      "work_id": "W7207565403",
+      "headline": "The hangover from a deep discount: why a great past price poisons today's sale",
+      "the_study": "Across three experiments, researchers tested the classic \"inaction inertia\" idea — that people skip buying something after missing a bargain — and found the missed opportunity isn't the driver. Participants shown that a consumable good had previously been offered at an extremely low price (versus only slightly discounted) rated the product as worth less, anticipated more regret, and were less likely to buy at the current price, whether or not they had ever had the chance to buy it before. The effect softened when the earlier low price was explained as a pricing error, which restored perceived value and reduced anticipated regret.",
+      "why_it_matters": "Steep promotions don't just cost margin during the promotion — they can reset what shoppers believe the item is actually worth and suppress demand after the deal ends, even among people who never had a shot at the deal.",
+      "story_angle_primary": "Test the depth-versus-damage tradeoff: does a 50%-off event leave a longer demand hangover than two 20% events? The pricing-error finding hints that framing matters — a deep cut explained as an exceptional, non-repeatable circumstance (clearance, error, supplier one-off) may insulate the reference price. Treat this as a hypothesis to validate in live pricing tests, not a settled rule.",
+      "story_angle_secondary": "For shoppers, this is a reminder that a past price you saw — even one you couldn't have used — quietly becomes the number you judge every future price against, which is why full price suddenly feels like a rip-off.",
+      "caveats": "Experimental studies with hypothetical purchase scenarios rather than observed buying; consumable goods only; sample details and country not specified in the abstract; stated purchase likelihood rather than actual sales.",
+      "journal": "Journal of Behavioral Decision Making",
+      "published": "2026-09-02",
+      "doi": "10.1002/bdm.70092",
+      "paper_title": "From Inaction Inertia to the Postdiscount Effect: How a Lower Price Reduces Subsequent Purchase After It Expires",
+      "source_id": "S117214846"
+    },
+    {
+      "work_id": "W7203899003",
+      "headline": "Half of shoppers paid more for greener packaging — when it sat on the regular shelf",
+      "the_study": "Researchers ran a six-week in-store field experiment across three supermarkets, offering snack tomatoes in a conventional PET tray alongside three environmentally friendly alternatives (rPET, PLA and cardboard), capturing 1,470 real purchase decisions, plus an in-store intercept survey of 83 shoppers. Despite the higher price, 53% of consumers chose an environmentally friendly tray. Survey responses showed decisions were driven mainly by ordinary product cues — taste, quality, healthiness, regional origin — with packaging involvement the strongest predictor of choosing the green option, followed by attitudes, willingness to pay and younger age.",
+      "why_it_matters": "This is rare behavioral evidence, not intentions: sustainable packaging can win a majority share at a price premium, but only when the product itself meets normal expectations and the alternative is merchandised as part of the regular assortment rather than as a niche add-on.",
+      "story_angle_primary": "The actionable lesson is placement and parity: green packaging tested well when it was integrated into the main assortment and the produce inside still looked and tasted right. Brands should test whether sustainability claims can carry a premium in categories where product quality cues dominate — and resist ghettoizing eco-SKUs in a separate section. One category in one country, so replicate before rolling out.",
+      "story_angle_secondary": "Shoppers say packaging matters but act mostly on taste, freshness and origin — the green choice gets made when it doesn't require a sacrifice on any of those, and the price gap is modest.",
+      "caveats": "Single product category (snack tomatoes), three stores, one country; the accompanying survey is small (n=83) and cross-sectional; short six-week horizon; retail partner cooperation implied.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-08-21",
+      "doi": "10.1016/j.jretconser.2026.105048",
+      "paper_title": "What drives environmentally friendly packaging choices? Evidence from an in-store field study of real shopping behavior and psychological determinants",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7202032785",
+      "headline": "Across hotels, restaurants, moisturizers and tablets, \"value for money\" is the feature that colors all the others",
+      "the_study": "Researchers built a method for prioritizing product features from online reviews, tackling the fact that reviewers usually mention only a few attributes each — a missing-data problem they address by testing multiple imputation methods before identifying which individual features and which combinations of features drive evaluations. Applied to four categories (hotels, restaurants, moisturizers and tablets) under varying conditions, the analysis consistently found that consumers' value-for-money perceptions are central to how quality features are selected and judged, and that features matter in bundles rather than in isolation.",
+      "why_it_matters": "Product and pricing decisions are usually made separately, but this suggests quality attributes are evaluated jointly with price perception — improving a feature may not move satisfaction unless it registers as worth the money.",
+      "story_angle_primary": "Ask whether your voice-of-customer analytics are treating price perception as just another attribute rather than the lens through which every other attribute is judged. The practical test: model feature combinations (for example, cleanliness plus sleep quality plus value) rather than ranking attributes one by one when deciding where to invest in product improvement.",
+      "story_angle_secondary": "When you write a review, you rarely mention everything — and what you do mention is filtered through whether you felt the experience was worth what you paid. That single judgment quietly shapes how the whole product gets rated.",
+      "caveats": "Observational analysis of review text, not an experiment; results depend on imputation choices for heavily missing data; four categories only; review writers are not a representative sample of buyers.",
+      "journal": "Journal of Interactive Marketing",
+      "published": "2026-08-09",
+      "doi": "10.1177/10949968261478847",
+      "paper_title": "EXPRESS: Finding Important Interdependent Product Features: A Simultaneous Consideration of Price and Quality Features",
+      "source_id": "S92709572"
+    },
+    {
+      "work_id": "W7172409631",
+      "headline": "Same price, bigger discount: why travelers pick the deal that only looks cheaper",
+      "the_study": "Across five experiments, researchers tested how the depth of a advertised markdown shapes vacation choices when the final prices are effectively the same. When two trips cost an identical amount, travelers gravitated to the one framed as a steeper cut from a higher original price, and the effect ran through perceived price attractiveness rather than any inference that the discounted option was better quality. The preference flipped, however, when the deeply discounted option carried even a slightly higher final price than its rival.",
+      "why_it_matters": "In travel markets where dynamic pricing pushes rival offers to near-identical price points, the reference price a marketer chooses to display may do more work than the price itself — but only while the final number stays competitive.",
+      "story_angle_primary": "Test reference-price framing in your own booking funnel: these are controlled experiments, so treat \"deeper discount wins at parity\" as a hypothesis for A/B testing rather than a rule, and pay close attention to the tipping point where a slightly higher final price erases the discount's appeal.",
+      "story_angle_secondary": "A useful consumer habit: cover the strikethrough price and compare only what you would actually pay. The research suggests the \"was\" price, not the \"now\" price, is quietly steering many vacation decisions.",
+      "caveats": "Experimental studies using hypothetical vacation choices rather than observed bookings; sample details and populations not specified in the abstract; single category (travel).",
+      "journal": "Journal Of Vacation Marketing",
+      "published": "2026-08-04",
+      "doi": "10.1177/13567667261473698",
+      "paper_title": "The psychology of price discount depth: How price reductions shape vacation decision-making",
+      "source_id": "S83271458"
+    },
+    {
+      "work_id": "W4375826978",
+      "headline": "Freelancers who put their own money on the line get punished for it",
+      "the_study": "Using bid-level data from a leading freelance platform, researchers examined a voluntary \"worker-offered guarantee\" in which freelancers deposit their own money alongside a job bid — forfeited to charity, not the employer, if they fail to deliver. Mid-reputation workers adopted the guarantee most often, but employers systematically penalized bidders who used it, discounting the signal rather than ignoring it. The skepticism turned out to be well founded: guarantee-offering workers performed worse on average than those who did not.",
+      "why_it_matters": "It is a rare, clean demonstration that a well-intentioned trust mechanism can backfire, because buyers read the act of signaling itself as an admission of weakness.",
+      "story_angle_primary": "Before rolling out a new badge, guarantee or trust feature, consider how sophisticated buyers will interpret who chooses to use it — voluntary signals can become negative markers when the strongest sellers opt out; watch adoption skew by seller tier during pilots.",
+      "story_angle_secondary": "When a seller volunteers an unusual money-back promise or extra assurance, it may say more about their doubts than their confidence — and in this market, the buyers who were suspicious were statistically right.",
+      "caveats": "Single freelance platform and one specific mechanism design; observational platform data, so adoption is self-selected rather than randomized; findings may not generalize to guarantees that compensate the buyer directly.",
+      "journal": "Information Systems Research",
+      "published": "2026-09-04",
+      "doi": "10.1287/isre.2023.0246",
+      "paper_title": "When “Signals” Boomerang: Employers’ Reactions to a Novel Signaling Mechanism",
+      "source_id": "S202812398"
+    },
+    {
+      "work_id": "W7212124619",
+      "headline": "\"Steps to the Beltline\" is worth real money; \"near green space\" is worth nothing",
+      "the_study": "A mixed-methods study content-analyzed nearly 1,000 online real estate listings in Atlanta for green space language, then fed those signals into hedonic pricing models of list and sale prices. Listings naming a branded project such as the Beltline commanded significant price premiums, while generic references to parks or greenery were negatively related or unrelated to value. The author frames the pricing pattern against Atlanta's history of redlining and urban renewal, arguing that green branding functions as a status signal implicated in displacement.",
+      "why_it_matters": "It shows that the brand equity of a piece of public infrastructure — not the amenity itself — is what the market prices, a striking case of place branding converting into hard dollars.",
+      "story_angle_primary": "Place marketers and developers should recognize that naming a branded amenity is a pricing lever with distributional consequences; the finding invites scrutiny of how promotional language around green investment interacts with affordability and community backlash.",
+      "story_angle_secondary": "For home buyers and sellers, the takeaway is blunt: the words in a listing carry measurable value, and proximity to a famous trail is priced very differently from proximity to an ordinary park.",
+      "caveats": "Single city and one flagship project; observational hedonic modeling cannot isolate causation from unobserved neighborhood quality; listing language may proxy for other location attributes.",
+      "journal": "Journal of Historical Research in Marketing",
+      "published": "2026-09-10",
+      "doi": "10.1108/jhrm-04-2025-0018",
+      "paper_title": "Green spaces, new faces: place marketing and neighborhood change. A case study of the Atlanta Beltline",
+      "source_id": "S107261186"
+    },
+    {
+      "work_id": "W7170171784",
+      "headline": "Italians will pay about €1.31 extra for a health claim on olive oil — and the label-readers won't",
+      "the_study": "A nationally representative survey of 1,016 Italian consumers measured willingness to pay a premium for extra virgin olive oil carrying a health claim, analyzed with a Tobit model to handle the many zero responses. The average stated premium was €1.31, driven mainly by health attitudes and knowledge rather than demographics. Self-assessed (subjective) knowledge raised the premium steadily, while actual (objective) knowledge helped with diminishing returns — and, counterintuitively, consumers who said they pay attention to label information were willing to pay less.",
+      "why_it_matters": "It suggests health claims monetize confidence more than competence, and that the shoppers who scrutinize labels most closely are the hardest to charge a premium.",
+      "story_angle_primary": "If you are pricing a functional-food claim, segment on health beliefs and self-perceived expertise rather than age or income — and test whether flavor-forward messaging helps or hurts, since it reinforced premiums among the genuinely knowledgeable but substituted for them among the merely confident.",
+      "story_angle_secondary": "Feeling informed about food, more than actually being informed, is what opens your wallet for a health claim — a reminder to check whether a claim adds nutritional value or just reassurance.",
+      "caveats": "Stated willingness to pay in a survey, not observed purchases; single country and single category; cross-sectional design cannot establish causation.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-07-24",
+      "doi": "10.1016/j.foodqual.2026.106055",
+      "paper_title": "Willingness to pay for health claims on Italian extra virgin olive oil: the asymmetric roles of subjective and objective knowledge",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7203839485",
+      "headline": "A premium price drowns out your positioning story",
+      "the_study": "Three scenario-based between-subjects experiments with US MTurk consumers (N=359, N=356 and N=575) tested when shoppers prefer vertically farmed produce over conventionally grown. Attitudes depended on fit with the salient health goal: when hygiene was the focal concern, vertical farming was rated more favorably, mediated by perceived appropriateness. Crucially, that fit effect appeared under standard pricing but faded under premium pricing, where price itself dominated evaluation.",
+      "why_it_matters": "It is a concrete boundary condition for message-market fit: the careful positioning work that shifts preference at normal prices can be overwhelmed once the product is priced as a premium item.",
+      "story_angle_primary": "Treat price tier as a moderator of your messaging strategy — test hygiene- and cleanliness-based claims for agricultural innovations at mainstream price points, and assume you need a different, price-justifying narrative above them.",
+      "story_angle_secondary": "Shoppers apparently use price as a shortcut that crowds out other information: once something costs noticeably more, the reasons given for buying it matter less to the decision.",
+      "caveats": "US online panel (MTurk) with hypothetical scenarios and stated attitudes rather than purchases; binary rather than continuous price manipulation; single product domain.",
+      "journal": "British Food Journal",
+      "published": "2026-08-20",
+      "doi": "10.1108/bfj-04-2026-0701",
+      "paper_title": "When is vertical farming preferred? The role of health orientation and price context",
+      "source_id": "S99313352"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7204997399",
+      "headline": "When groceries got expensive, shoppers didn't just trade down — they cut fruits and vegetables too",
+      "verdict": "minor",
+      "notes": "Sample, percentages and category counts all match the abstract. Two framing stretches: brand switching is presented as replacing basket reduction when the abstract reports both, and the private-label/value-tier inference goes beyond what was measured.",
+      "issues": [
+        {
+          "label": "Brand switching framed as displacing basket reduction",
+          "severity": "Moderate",
+          "as_written": "Brand switching is the default consumer response to inflation, not basket reduction",
+          "abstract_says": "the most commonly reported food purchasing strategy was switching to cheaper brands (34% to 43%)... respondents in all countries reported reductions in purchasing of non-core foods, such as desserts and non-alcoholic beverages, but also of core foods, such as fruits and vegetables",
+          "problem": "The abstract shows respondents reported both brand switching and reductions in purchasing; brand switching was simply the most frequently reported strategy, not an alternative to cutting the basket. The digest sets the two in opposition.",
+          "suggested_fix": "Reword to: 'Switching to cheaper brands was the most commonly reported response, though respondents also reported cutting purchases of both non-core and core foods.'"
+        },
+        {
+          "label": "Private label / value-tier inference",
+          "severity": "Minor",
+          "as_written": "shows that private label and value-tier growth in an inflation cycle comes with a nutritional cost",
+          "abstract_says": "the most commonly reported food purchasing strategy was switching to cheaper brands (34% to 43%)",
+          "problem": "The survey asked about switching to cheaper brands; it did not measure private label or value-tier sales growth. 'Shows' overstates an inference.",
+          "suggested_fix": "Soften to 'suggests that the shift toward cheaper brands coincides with...' and drop the specific private-label/value-tier claim."
+        },
+        {
+          "label": "'Which lever shoppers pull first'",
+          "severity": "Minor",
+          "as_written": "exactly which lever shoppers pull first under price pressure",
+          "abstract_says": "Respondents reported whether food had become more expensive for them in the last year and whether they altered ten food purchasing strategies",
+          "problem": "The survey measured which strategies were most commonly reported, not any temporal ordering of responses.",
+          "suggested_fix": "Change to 'which response shoppers most commonly report'."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7170377972",
+      "headline": "Let them start today: immediate activation makes subscribers stick around longer",
+      "verdict": "minor",
+      "notes": "Design, four studies, serial mediation and the ownership-framing moderator are all reported accurately. Only stretch is treating churn/CLV as measured outcomes when they appear in the abstract as managerial recommendations.",
+      "issues": [
+        {
+          "label": "Churn and CLV presented as measured outcomes",
+          "severity": "Minor",
+          "as_written": "Activation timing is a cheap, purely operational design lever that appears to move churn and customer lifetime value",
+          "abstract_says": "immediate subscription activation reliably increases long-term subscription likelihood relative to delayed activation... Managers should prioritize immediate access where possible... to reduce churn and increase customer lifetime value.",
+          "problem": "The measured outcome was long-term subscription likelihood/commitment; churn and CLV are the authors' practical recommendation, not reported results.",
+          "suggested_fix": "Say the lever moves long-term subscription likelihood, with the authors suggesting churn and CLV implications."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7210283217",
+      "headline": "Your voice gives away how sure you are — and firms can now hear it",
+      "verdict": "accurate",
+      "notes": "Lab plus field NPS studies, the pitch-versus-raw-audio comparison, the privacy point and the two firm-suggested applications all match the abstract; the industry collaboration is disclosed in Caveats.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7170087457",
+      "headline": "Employee discounts can backfire: keeping promises to staff beats cutting their price",
+      "verdict": "minor",
+      "notes": "All four findings map cleanly onto the abstract, including the breach condition and the service-sector limitation. Only the phrasing of the sample total is loose.",
+      "issues": [
+        {
+          "label": "Ambiguous sample attribution",
+          "severity": "Minor",
+          "as_written": "Three studies, including two experiments with a total of 738 respondents",
+          "abstract_says": "Three separate studies, including two experiments, were conducted on a total sample of 738 respondents",
+          "problem": "As written the 738 reads as belonging to the two experiments; the abstract (and the digest's own caveat) puts it across all three studies.",
+          "suggested_fix": "Rephrase to 'Three studies, two of them experiments, with 738 respondents in total'."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7212055380",
+      "headline": "Pay-what-you-want works in stages — and only the last stage responds to social pressure",
+      "verdict": "minor",
+      "notes": "The four-study, three-stage structure and each stage's drivers are reported correctly. The 'Why it matters' line contrasts visibility with price anchoring on an outcome (actual payment) where reference prices were never tested.",
+      "issues": [
+        {
+          "label": "Untested contrast between visibility and anchoring",
+          "severity": "Moderate",
+          "as_written": "social visibility, not price anchoring, is what moves the final number",
+          "abstract_says": "Study 2 demonstrates that willingness-to-pay is jointly shaped by organisational objective and external reference price... Study 3 finds that descriptive norms increase actual payments when payments are publicly visible.",
+          "problem": "Reference prices were tested on willingness-to-pay, not on actual payments, so the abstract provides no basis for ruling out price anchoring at the payment stage.",
+          "suggested_fix": "Rewrite as 'visible descriptive norms were what moved actual payments, while reference prices shaped stated willingness to pay'."
+        },
+        {
+          "label": "Overgeneralized consumer takeaway",
+          "severity": "Minor",
+          "as_written": "The same person who would happily underpay in private pays closer to the norm when the amount is public.",
+          "abstract_says": "Study 3 finds that descriptive norms increase actual payments when payments are publicly visible.",
+          "problem": "The abstract reports a group-level effect of norms under visibility, not a within-person private-versus-public payment pattern.",
+          "suggested_fix": "Say 'on average, people paid more when a descriptive norm was shown and payments were visible to others'."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7203715795",
+      "headline": "32,000 people later: paying with cash really does hurt more than tapping a card",
+      "verdict": "minor",
+      "notes": "Scale, replication count, price range, mediation and the amount-spent-versus-WTP contrast are all exactly right. The direction assigned to the individual-difference moderator is not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Direction of moderator not in abstract",
+          "severity": "Moderate",
+          "as_written": "The effect was moderated by individual habits: people who mostly use cards felt the difference most.",
+          "abstract_says": "the mode-of-payment effect on pain of paying (and thereby on outcome variables) is moderated by individual differences, particularly the relative frequency of using cash versus card",
+          "problem": "The abstract names the moderator but not which group shows the stronger effect; the digest asserts a specific direction and repeats it in the consumer angle ('the more card-dependent you already are, the bigger the jolt'). Unverifiable from abstract only.",
+          "suggested_fix": "State only that the effect varied with how often people habitually use cash versus card, and drop the directional claim (or source it to the full text)."
+        },
+        {
+          "label": "Frictionless checkout characterization",
+          "severity": "Minor",
+          "as_written": "the frictionless checkout arms race (one-click, stored cards, wallets, BNPL) is effectively a spending-increase program",
+          "abstract_says": "we replicate the finding that paying with cash is more psychologically painful than paying with card... these direct effects of payment method on outcome variables are mediated by pain of paying",
+          "problem": "The replications compared cash versus card; one-click checkout, wallets and BNPL were not tested, so calling them a spending-increase program extrapolates.",
+          "suggested_fix": "Keep the conditional framing but label it explicitly as untested extrapolation beyond the cash/card comparison."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7212374919",
+      "headline": "Financial education's payoff is narrower than we thought — it mostly teaches people to compare prices",
+      "verdict": "minor",
+      "notes": "Sample, waves, 24 behaviors, the five deliberative behaviors and the null behavior-to-knowledge path are accurate. The headline and one story angle swap 'financial knowledge' for 'financial education/literacy programs', which the study did not examine.",
+      "issues": [
+        {
+          "label": "Knowledge conflated with education programs",
+          "severity": "Moderate",
+          "as_written": "Financial education's payoff is narrower than we thought — it mostly teaches people to compare prices",
+          "abstract_says": "This study re-examines the relationship between financial knowledge and financial behavior using three-wave panel data... Changes in financial knowledge are associated with changes in only five behaviors",
+          "problem": "The study measured individuals' financial knowledge over time, not any educational intervention. Attributing the result to 'financial education' (and, in the story angle, to corporate financial-wellness programs) implies an intervention effect the data cannot supply.",
+          "suggested_fix": "Change the headline to reference financial knowledge, and flag the education-program implication as speculation."
+        },
+        {
+          "label": "Causal phrasing for panel data",
+          "severity": "Minor",
+          "as_written": "researchers tested whether financial knowledge actually causes better financial behavior across 24 specific behaviors",
+          "abstract_says": "We estimate the relationship between financial knowledge and 24 individual financial behaviors... The results depend strongly on model specification.",
+          "problem": "The abstract describes associations under alternative model specifications, not a causal test; the digest's own caveat acknowledges this, but the body text asserts causation.",
+          "suggested_fix": "Use 'tested how robustly financial knowledge predicts later behavior'."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7212389830",
+      "headline": "When the stock market overvalues a company, marketing budgets are safer",
+      "verdict": "minor",
+      "notes": "Observation count, period, asymmetry and both moderators match. Two small overreaches: an implied effect size that is never given, and a reading of the equity-issuance moderator that the abstract does not support.",
+      "issues": [
+        {
+          "label": "Equity issuance moderator misread",
+          "severity": "Minor",
+          "as_written": "prepare the long-term-value argument before an underpricing episode or an equity issuance makes short-term earnings management tempting",
+          "abstract_says": "Equity issuance weakens this relationship, whereas firm growth strengthens it.",
+          "problem": "The abstract says equity issuance weakens the mispricing–myopia relationship; it does not say issuance itself makes earnings management more tempting.",
+          "suggested_fix": "Say that equity issuance mutes the link between mispricing and myopic cuts, rather than implying it increases them."
+        },
+        {
+          "label": "'Puts a number on' with no number",
+          "severity": "Minor",
+          "as_written": "It puts a number on something CMOs suspect intuitively",
+          "abstract_says": "we find an asymmetric effect where overpricing decreases the likelihood of myopic marketing management more than underpricing increases it",
+          "problem": "No magnitude is reported in the abstract or the digest, so the claim to have quantified the relationship is unsupported as presented.",
+          "suggested_fix": "Reword to 'It documents a pattern CMOs suspect intuitively'."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7204248241",
+      "headline": "\"Best before March 3\" beats \"expires in 2 days\": how date wording changes what shoppers put in the cart",
+      "verdict": "minor",
+      "notes": "Three experiments, the methods, the direction of the framing effect and the high-discount boundary condition are all correct. Author nationality and one attention detail are not supported by the abstract.",
+      "issues": [
+        {
+          "label": "Researcher nationality not in abstract",
+          "severity": "Minor",
+          "as_written": "Chinese researchers ran three experiments",
+          "abstract_says": "Across three experiments using purchase tasks, information-viewing measures, and mouse-tracking, the findings show that the date frame increases consumer acceptance of near-expiry food",
+          "problem": "The abstract gives no author or participant country. Unverifiable from abstract only, and it sits oddly with the digest's own caveat that country context is limited.",
+          "suggested_fix": "Drop the nationality or attribute it to the article's affiliation data rather than the findings."
+        },
+        {
+          "label": "'Earlier and longer' attention claim",
+          "severity": "Minor",
+          "as_written": "under the date frame shoppers looked at price earlier and longer",
+          "abstract_says": "under the date frame, price enters the decision process earlier than expiration time, whereas under the delay frame no significant difference is observed in the onset timing of the two attributes",
+          "problem": "The abstract reports onset timing (earlier) and attention allocation generally; it does not state that price was viewed for longer under the date frame.",
+          "suggested_fix": "Limit to 'price entered the decision process earlier under the date frame'."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7160239758",
+      "headline": "Default nudges work on everyone — which is exactly why they won't close the health gap",
+      "verdict": "minor",
+      "notes": "Two UK online experiments, the hypothetical supermarket, the price-information manipulation in Study 2 and the equity conclusion are reported faithfully; only the strength of the 'equal across SEP' phrasing goes slightly past the abstract.",
+      "issues": [
+        {
+          "label": "'Roughly equally' overstates a null moderation",
+          "severity": "Minor",
+          "as_written": "the default reliably shifted choices toward healthier foods, but roughly equally across lower- and higher-SEP groups",
+          "abstract_says": "This effect was not consistently moderated by SEP, with the effect being present among lower and higher SEP groups.",
+          "problem": "The abstract reports inconsistent moderation and presence of the effect in both groups, which is weaker than asserting the effect sizes were roughly equal.",
+          "suggested_fix": "Reword to 'the default shifted choices toward healthier foods in both lower- and higher-SEP groups, with no consistent SEP advantage'."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7203929361",
+      "headline": "Same game, different planet: how publishers really price across borders on Steam",
+      "verdict": "accurate",
+      "notes": "Sample (7,375 titles, 268 publishers, eight currencies), the four-cluster typology, and the Brazil/India premium-seeker finding all match the abstract; framing stays descriptive and the caveats correctly note single platform, list prices and non-causal clustering.",
+      "issues": []
+    },
+    {
+      "number": 12,
+      "work_id": "W7203703296",
+      "headline": "Bad ESG news only really hurts when a lot of people see it — and a good record only insures you at the very top of the news cycle",
+      "verdict": "accurate",
+      "notes": "The 0.13 percentage-point CAR figure, the concentration among low-ESG firms in controversial industries, and the highest-reach condition on the insurance effect are all reproduced correctly; the marketer angle's inference that low-reach stories carry little valuation cost is a reasonable reading of the reach gradient.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7211920431",
+      "headline": "Fast food logos on kids' jerseys — for sponsorship worth under 1% of the club's budget",
+      "verdict": "minor",
+      "notes": "Invitation counts, 16% response rate, sponsorship prevalence and the ≤1%/≤1.5% value figures are accurate, but the headline and consumer angle generalize the ≤1% figure to clubs overall when the abstract restricts it to clubs that actually received benefits.",
+      "issues": [
+        {
+          "label": "Scope of the 1% figure",
+          "severity": "Moderate",
+          "as_written": "In most clubs surveyed, the sponsorship covered about 1% of the budget or less — the club is giving away more visibility than it is getting in cash.",
+          "abstract_says": "The most common benefit received from food-related sponsors included direct funding (ON: 21% of clubs; QC: 25%) ... Among clubs who received these benefits, their value was small relative to club's total revenue (i.e. ≤1% for funding; ≤1.5% for in-kind benefits) in most cases.",
+          "problem": "The ≤1% figure applies only to the minority of clubs that reported receiving direct funding (roughly a fifth to a quarter), not to most clubs surveyed. The headline repeats the same over-generalization.",
+          "suggested_fix": "Reword to \"Among the clubs that did receive direct funding, the money was worth 1% or less of revenue in most cases\" and adjust the headline accordingly (e.g., \"...for funding worth under 1% of revenue where it was reported\")."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7207565403",
+      "headline": "The hangover from a deep discount: why a great past price poisons today's sale",
+      "verdict": "accurate",
+      "notes": "Three studies, the extremely-vs-slightly low prior price manipulation, the perceived value and anticipated regret pathway, independence from purchase history, and the pricing-error mitigation all align with the abstract; caveats appropriately flag hypothetical scenarios and unreported sample details.",
+      "issues": []
+    },
+    {
+      "number": 15,
+      "work_id": "W7203899003",
+      "headline": "Half of shoppers paid more for greener packaging — when it sat on the regular shelf",
+      "verdict": "minor",
+      "notes": "Design (six weeks, three supermarkets, 1,470 purchase decisions, n=83 intercept survey), the 53% share and the predictor ranking match the abstract; two small unsupported add-ons: the claim that the price gap was \"modest\" and the assertion of a single country, neither stated in the abstract.",
+      "issues": [
+        {
+          "label": "Unsupported price-gap characterization",
+          "severity": "Minor",
+          "as_written": "the green choice gets made when it doesn't require a sacrifice on any of those, and the price gap is modest.",
+          "abstract_says": "Across all stores, 53% of consumers chose tomatoes in an environmentally friendly tray despite the higher price and potential trade-offs.",
+          "problem": "The abstract notes only that the eco trays were more expensive; it gives no indication of how large or small the premium was, so \"modest\" is not supported.",
+          "suggested_fix": "Drop \"and the price gap is modest\" or replace with \"even though the eco trays cost more.\""
+        },
+        {
+          "label": "Country not stated",
+          "severity": "Minor",
+          "as_written": "Single product category (snack tomatoes), three stores, one country",
+          "abstract_says": "a six-week in-store field experiment in three supermarkets, involving a conventional PET tray and three environmentally friendly alternatives (rPET, PLA, and cardboard) for snack tomatoes (1470 purchase decisions)",
+          "problem": "The abstract does not name a country or state that all stores were in one country; unverifiable from abstract only.",
+          "suggested_fix": "Say \"three stores in a single retail market (country not specified in the abstract)\"."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7202032785",
+      "headline": "Across hotels, restaurants, moisturizers and tablets, \"value for money\" is the feature that colors all the others",
+      "verdict": "minor",
+      "notes": "Method, missing-data/imputation framing, the four categories and the central role of value-for-money perceptions are accurately reported; the claim that the analysis \"found\" features matter in bundles rather than in isolation states as an empirical result what the abstract presents as a methodological capability.",
+      "issues": [
+        {
+          "label": "Bundle claim stated as a finding",
+          "severity": "Minor",
+          "as_written": "the analysis consistently found that consumers' value-for-money perceptions are central to how quality features are selected and judged, and that features matter in bundles rather than in isolation.",
+          "abstract_says": "Our feature engineering approach considers not only individual features but also a mix of features in product evaluations. ... they consistently underscore the crucial role of consumers' value-for-the-money perceptions in selecting and evaluating product quality features.",
+          "problem": "Only the value-for-money result is described as a consistent empirical finding; the treatment of feature mixes is the authors' modeling approach, not a reported result that bundles beat individual features.",
+          "suggested_fix": "Reword to \"...and the method is built to identify important feature mixes rather than ranking attributes one at a time.\""
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7172409631",
+      "headline": "Same price, bigger discount: why travelers pick the deal that only looks cheaper",
+      "verdict": "accurate",
+      "notes": "Five experiments, the parity-price preference for deeper discounts, perceived price attractiveness rather than quality inference as the mechanism, and the reversal when the final price is slightly higher are all faithfully reported; caveats correctly note hypothetical choices and unreported samples.",
+      "issues": []
+    },
+    {
+      "number": 18,
+      "work_id": "W4375826978",
+      "headline": "Freelancers who put their own money on the line get punished for it",
+      "verdict": "minor",
+      "notes": "Data source, the charity-forfeit design, mid-reputation adoption, employer counter-screening and the worse average performance are all accurate, but the abstract's attenuating conditions (high-reputation workers, complex projects, experienced employers) are dropped, so the penalty reads as more universal than reported.",
+      "issues": [
+        {
+          "label": "Dropped moderators of the penalty",
+          "severity": "Moderate",
+          "as_written": "employers systematically penalized bidders who used it, discounting the signal rather than ignoring it.",
+          "abstract_says": "Contrary to the intended positive effect, employers systematically penalize workers who offer guarantees. This negative response is attenuated for high-reputation workers, complex projects, and experienced employers.",
+          "problem": "The abstract names three boundary conditions under which the penalty is weaker; omitting them makes the backfire look uniform across workers, projects and employers, which affects the practical advice.",
+          "suggested_fix": "Add that the penalty was weaker for high-reputation workers, complex projects and experienced employers."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "work_id": "W7212124619",
+      "headline": "\"Steps to the Beltline\" is worth real money; \"near green space\" is worth nothing",
+      "verdict": "accurate",
+      "notes": "Mixed-methods design, roughly 1,000 listings, hedonic models of list and sale prices, the branded-versus-generic price pattern and the historical redlining/displacement framing all match the abstract; the caveat that hedonic modeling cannot establish causation keeps the \"commanded premiums\" phrasing within bounds.",
+      "issues": []
+    },
+    {
+      "number": 20,
+      "work_id": "W7170171784",
+      "headline": "Italians will pay about €1.31 extra for a health claim on olive oil — and the label-readers won't",
+      "verdict": "minor",
+      "notes": "Sample (1,016, nationally representative), Tobit specification, €1.31 stated premium, the subjective-linear vs objective-diminishing asymmetry, the flavor interaction and the negative label-attention association are all accurate; the headline treats stated WTP as behavior and overstates the label-reader result as zero premium.",
+      "issues": [
+        {
+          "label": "Stated WTP presented as behavior in headline",
+          "severity": "Minor",
+          "as_written": "Italians will pay about €1.31 extra for a health claim on olive oil — and the label-readers won't",
+          "abstract_says": "The findings reveal that the average stated WTP premium is €1.31. ... Price orientation and, counterintuitively, attention to label information are negatively associated with willingness to pay.",
+          "problem": "\"Will pay\" implies actual purchase behavior when the figure is a stated survey premium (the body and caveats get this right), and \"won't\" overstates a negative association as a zero premium.",
+          "suggested_fix": "Reword to \"Italians say they'd pay about €1.31 extra for a health claim on olive oil — and label-readers say they'd pay less.\""
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "work_id": "W7203839485",
+      "headline": "A premium price drowns out your positioning story",
+      "verdict": "minor",
+      "notes": "Design, sample sizes and the price-context boundary condition all match the abstract. Two small issues: \"faded\"/\"drowns out\" overstates the abstract's \"attenuates,\" and the abstract's finding that conventional farming's nutrient advantage was \"less uniform across crops\" is dropped. Caveats correctly flag MTurk, stated attitudes and the binary price manipulation.",
+      "issues": [
+        {
+          "label": "Attenuation described as elimination",
+          "severity": "Minor",
+          "as_written": "Crucially, that fit effect appeared under standard pricing but faded under premium pricing, where price itself dominated evaluation.",
+          "abstract_says": "The interaction emerges under standard pricing but attenuates under premium pricing, where price becomes a dominant evaluative signal.",
+          "problem": "\"Faded\" and the headline's \"drowns out\" imply the positioning effect disappears, whereas the abstract reports only attenuation of the interaction.",
+          "suggested_fix": "Use \"weakened\" or \"attenuated\" rather than \"faded\"/\"drowns out\" — e.g., \"the fit effect weakened under premium pricing, where price became a dominant evaluative signal.\""
+        },
+        {
+          "label": "Dropped nuance on conventional farming",
+          "severity": "Minor",
+          "as_written": "Attitudes depended on fit with the salient health goal: when hygiene was the focal concern, vertical farming was rated more favorably, mediated by perceived appropriateness.",
+          "abstract_says": "When hygiene is salient, vertical farming is evaluated more favorably, mediated by perceived appropriateness; the nutrient-oriented advantage of conventional farming is less uniform across crops.",
+          "problem": "The mirror-image half of the finding — that conventional farming's nutrient-orientation advantage was not consistent across crops — is omitted, making the fit story look cleaner than the abstract reports.",
+          "suggested_fix": "Add a clause noting that the reverse advantage for conventional farming under a nutrient-focused goal was less consistent across crops."
+        },
+        {
+          "label": "Generalization from online panel to shoppers",
+          "severity": "Minor",
+          "as_written": "Shoppers apparently use price as a shortcut that crowds out other information: once something costs noticeably more, the reasons given for buying it matter less to the decision.",
+          "abstract_says": "Three between-subjects scenario-based experiments were conducted with US MTurk consumers... The studies rely on US online samples and stated-attitude measures.",
+          "problem": "Extends stated attitudes from US MTurk scenario experiments to \"shoppers\" and to \"the decision,\" i.e., actual purchase behavior.",
+          "suggested_fix": "Qualify as \"In these scenario studies, participants' attitudes shifted less with positioning once the price was premium\" and note attitudes rather than purchases."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 21,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7204997399": {
+        "query": "groceries got expensive shoppers didn just trade down they cut",
+        "returned": 5,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7170377972": {
+        "query": "Let them start today immediate activation makes subscribers stick around",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7210283217": {
+        "query": "voice gives away sure firms now hear",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7170087457": {
+        "query": "Employee discounts backfire keeping promises staff beats cutting their price",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212055380": {
+        "query": "Pay want works stages only last stage responds social pressure",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203715795": {
+        "query": "000 people later paying cash really does hurt than tapping",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212374919": {
+        "query": "Financial education payoff narrower than thought mostly teaches people compare",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212389830": {
+        "query": "stock market overvalues company marketing budgets safer",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204248241": {
+        "query": "Best before March beats expires days date wording changes shoppers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7160239758": {
+        "query": "Default nudges work everyone which exactly they won close health",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203929361": {
+        "query": "Same game different planet publishers really price across borders Steam",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203703296": {
+        "query": "Bad ESG news only really hurts lot people see good",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7211920431": {
+        "query": "Fast food logos kids jerseys sponsorship worth under club budget",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7207565403": {
+        "query": "hangover deep discount great past price poisons today sale",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203899003": {
+        "query": "Half shoppers paid greener packaging sat regular shelf",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202032785": {
+        "query": "Across hotels restaurants moisturizers tablets value money feature colors all",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7172409631": {
+        "query": "Same price bigger discount travelers pick deal only looks cheaper",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W4375826978": {
+        "query": "Freelancers who put their own money line get punished",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212124619": {
+        "query": "Steps Beltline worth real money near green space worth nothing",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7170171784": {
+        "query": "Italians will pay about extra health claim olive oil label",
+        "returned": 9,
+        "outlets": [
+          "Olive Oil Times",
+          "Organic Authority",
+          "consumerlab.com"
+        ],
+        "articles": [
+          {
+            "title": "Italians Will Pay More for Olive Oil with Health Claims",
+            "outlet": "Olive Oil Times",
+            "link": "https://www.oliveoiltimes.com/grades/italians-will-pay-more-for-olive-oil-with-health-claims/144950"
+          },
+          {
+            "title": "The Italian Extra-Virgin Olive Oil We Love, Here’s Why",
+            "outlet": "Organic Authority",
+            "link": "https://www.organicauthority.com/energetic-health/italian-extra-virgin-olive-oil-manni-oil"
+          },
+          {
+            "title": "Extra Virgin Olive Oil Review & Top Picks",
+            "outlet": "consumerlab.com",
+            "link": "https://www.consumerlab.com/reviews/extra-virgin-olive-oil-review/evoo/"
+          }
+        ],
+        "state": "widely_reported"
+      },
+      "W7203839485": {
+        "query": "premium price drowns out positioning story",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** Several studies in this batch converge on the idea that the number shoppers remember or see framed is doing more work than the number they actually pay — and that deep discounting is becoming a liability rather than a tool. A missed or even unavailable past bargain permanently lowers what people think an item is worth (\"The hangover from a deep discount,\" W7207565403); at identical final prices travelers pick the steeper-looking markdown (\"Same price, bigger discount,\" W7172409631); rewording a markdown sticker sells near-expiry food at a shallower cut, but only while the cut stays modest (\"'Best before March 3' beats 'expires in 2 days,'\" W7204248241); a premium price tag wipes out otherwise effective positioning claims (\"A premium price drowns out your positioning story,\" W7203839485); and across five countries the first thing inflation-hit shoppers did was switch to a cheaper brand (\"When groceries got expensive,\" W7204997399).\n\n**Why pitch this now:** Brands are emerging from an inflation cycle that trained consumers on a new set of reference prices and pushed record private-label share, just as dynamic and personalized pricing make displayed \"was\" prices a live regulatory and reputational question on both sides of the Atlantic.\n\n**Angle:** A feature on the hidden balance sheet of promotions — how the discounts brands used to survive inflation reset what shoppers believe things are worth, and why the smartest pricing teams are now shifting from depth to framing. Written for marketing and retail decision-makers, with a consumer-facing companion framing on how to read a markdown.\n\n**Potential headlines:**\n- The discount that keeps costing you after it ends\n- Shoppers don't want a lower price — they want a bigger markdown\n- The price you saw last year is still deciding what you'll pay today\n\n**Potential outlets:**\n- **Marketing Week** — its brand-strategy readership is actively arguing about promotional depth versus brand equity after the inflation years.\n- **Retail Dive** — the markdown-label and near-expiry findings are directly operational for grocery and convenience buyers.\n- **Marketing Brew** — a good fit for a briskly written piece on why the \"was\" price outperforms the \"now\" price.\n- **The Guardian (Money)** — runs shopper-psychology explainers and would take the consumer-defense framing on reference prices and fake-feeling sales.",
+    "pitch_ideas": "- **When groceries got expensive, shoppers didn't just trade down — they cut fruits and vegetables too (Work ID W7204997399):** Five-country evidence that inflation's first casualty is brand loyalty and its quietest casualty is fresh produce in the lowest-income households, for a general-interest cost-of-living or food-policy feature.\n- **Let them start today: immediate activation makes subscribers stick around longer (Work ID W7170377972):** A no-discount churn lever — every start-date picker and provisioning lag in a signup flow is costing lifetime value, for a CMO-audience column or subscription-economy trade piece.\n- **Your voice gives away how sure you are — and firms can now hear it (Work ID W7210283217):** Companies can read hesitation in your voice off an NPS call and target coupons at the people who sound like they'll redeem, for a consumer-privacy explainer in a general-interest outlet or a martech trade news brief.\n- **Employee discounts can backfire: keeping promises to staff beats cutting their price (Work ID W7170087457):** Staff discount programs may crowd out the goodwill they were meant to buy, for an HR/internal-brand column or a management-audience piece on incentive design.\n- **Pay-what-you-want works in stages — and only the last stage responds to social pressure (Work ID W7212055380):** Tip prompts and donation checkouts need different levers at each stage, and visibility — not anchoring — is what raises the final amount, for a retail/payments trade explainer.\n- **32,000 people later: paying with cash really does hurt more than tapping a card (Work ID W7203715795):** The frictionless checkout arms race is effectively a spending-increase program, and it hits habitual card users hardest, for a personal-finance column or a consumer-psychology piece in a general-interest outlet.\n- **Financial education's payoff is narrower than we thought (Work ID W7212374919):** Financial literacy programs mostly teach people to comparison-shop, not to save — awkward news for corporate financial-wellness marketing, for a personal-finance or policy-analysis section.\n- **When the stock market overvalues a company, marketing budgets are safer (Work ID W7212389830):** CMOs can read the share price as an early-warning system for budget raids, and should lock in multi-year brand spend while the market is generous, for a CFO/CMO-audience business column.\n- **\"Best before March 3\" beats \"expires in 2 days\" (Work ID W7204248241):** Rewording the markdown sticker clears near-expiry stock at a shallower discount — a food-waste win that also protects margin, for a grocery-retail trade explainer.\n- **Default nudges work on everyone — which is exactly why they won't close the health gap (Work ID W7160239758):** The equity case for nudging just lost its evidence base, even though the nudge itself works, for a public-health policy piece or a behavioral-science column.\n- **Same game, different planet: how publishers really price across borders on Steam (Work ID W7203929361):** A cluster of publishers prices *above* platform guidance in Brazil and India, puncturing the affordability defense of regional pricing, for a gaming or tech-business outlet, or a global-pricing piece for an international business section.\n- **Bad ESG news only really hurts when a lot of people see it (Work ID W7203703296):** \"ESG as reputational insurance\" only pays out during high-reach scandals in dirty industries — triage your crisis comms by reach, for a PR/communications trade piece or an investor-audience column.\n- **Fast food logos on kids' jerseys — for sponsorship worth under 1% of the club's budget (Work ID W7211920431):** Brands are buying prominent placement in front of under-13s for roughly 1% of a club's revenue, and Quebec's child-advertising rules aren't touching uniforms, for a parenting or public-health investigation, with a sponsorship-trade sidebar (flag the 16% response rate).\n- **The hangover from a deep discount (Work ID W7207565403):** A steep past price lowers what shoppers think a product is worth even if they never could have bought it — and calling it a pricing error repairs the damage, for a pricing-strategy column aimed at brand and revenue leaders.\n- **Half of shoppers paid more for greener packaging — when it sat on the regular shelf (Work ID W7203899003):** Real money, real stores: eco packaging took majority share at a premium, but only merchandised in the main assortment, for a retail or sustainability trade explainer on why eco-SKUs shouldn't be ghettoized.\n- **\"Value for money\" is the feature that colors all the others (Work ID W7202032785):** Voice-of-customer analytics treat price perception as one attribute among many when it's actually the lens on all of them, for a marketing-analytics or product-management audience.\n- **Same price, bigger discount: why travelers pick the deal that only looks cheaper (Work ID W7172409631):** Cover the strikethrough price before you book — and know the exact point where a slightly higher final price kills the illusion, for a travel consumer column or a travel-marketing trade brief.\n- **Freelancers who put their own money on the line get punished for it (Work ID W4375826978):** A trust mechanism that became a negative signal, because only the weaker sellers used it — and buyers were right, for a gig-economy or platform-design feature, or a product-strategy column on badges and guarantees.\n- **\"Steps to the Beltline\" is worth real money; \"near green space\" is worth nothing (Work ID W7212124619):** Listing language shows the market pays for the brand of public infrastructure, not the amenity, with displacement implications, for a real estate or urban-affairs feature.\n- **Italians will pay about €1.31 extra for a health claim on olive oil (Work ID W7170171784):** Health claims monetize self-perceived expertise, while the shoppers who actually read labels pay less, for a food-industry trade piece or a consumer-skepticism explainer.\n- **A premium price drowns out your positioning story (Work ID W7203839485):** Above a certain price point, price becomes the only message — a boundary condition every premiumization strategy should stress-test, for a brand-strategy column."
+  }
+}
