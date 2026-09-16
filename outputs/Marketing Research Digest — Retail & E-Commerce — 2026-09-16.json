@@ -1,0 +1,813 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-16",
+  "days_back": 60,
+  "window_from": "2026-07-18",
+  "window_to": "2026-09-16",
+  "focus": "Retail & E-Commerce",
+  "topic": "retail & e-commerce",
+  "query": "retail OR retailer OR \"e-commerce\" OR \"online shopping\" OR omnichannel OR marketplace OR \"private label\" OR \"store\" OR \"live streaming commerce\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 248,
+    "not_research": 2,
+    "no_abstract": 57,
+    "off_topic": 0,
+    "already_covered": 11,
+    "over_journal_cap": 34,
+    "over_cap": 104,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7203936299",
+      "headline": "Store brands pay off less on their own shelf space than at the negotiating table",
+      "the_study": "Economists exploited a natural experiment in grocery retail — a drug patent expiration that coincided with waves of private-label entry — and built a structural model of consumer demand plus bilateral bargaining between retailers and manufacturers, using rare data identifying who actually manufactures each private-label product. Private-label entry raised retailer profits, but very unevenly: gains were largest where the retailer held a strong disagreement payoff (a credible walk-away position) against its private-label supplier. Crucially, much of the profit came indirectly, via better terms extracted from national brands, and the retailer's own brand equity shaped how much the store brand earned.",
+      "why_it_matters": "It reframes private label from a margin play to a bargaining weapon, and shows the value depends on the supply contract behind the product as much as on shopper demand.",
+      "story_angle_primary": "Retail and category leaders should audit private-label sourcing through a bargaining lens: how replaceable is the contract manufacturer, and what does the store brand's mere existence buy in annual negotiations with national brands? The paper suggests the answer may matter more to profit than the private label's own sell-through.",
+      "story_angle_secondary": "When the store brand appears next to the name brand, part of its job is invisible to shoppers — it gives the supermarket leverage to squeeze a better wholesale price on the branded product you might buy instead.",
+      "caveats": "Grocery data from a single market setting built around one patent-expiration event; results come from a structural model with assumptions about how bargaining works, not from observed contract terms.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-08-21",
+      "doi": "10.1177/00222437261483522",
+      "paper_title": "EXPRESS: Private Labels and Retailer Profitability: Bilateral Bargaining in the Grocery Channel",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7212164165",
+      "headline": "Who takes the salesperson's advice? Richer shoppers, consistently",
+      "the_study": "Across five studies (plus three more in an appendix), including analysis of the World Values Survey and a range of advice contexts, researchers found that higher-socioeconomic-status consumers were consistently more likely to follow advice from marketplace agents such as salespeople and advisers. The mechanism was how trust judgments are formed: high-SES consumers relied on sources that led them to see advisers as generally more trustworthy. Two interventions narrowed the gap — supplying an external trustworthiness cue (such as third-party credentials) and redirecting attention to the shopper's own needs and preferences.",
+      "why_it_matters": "Advice is a major sales lever in categories from finance to home improvement, and it appears to land unevenly across the income spectrum — a commercial problem and a consumer-welfare problem at once.",
+      "story_angle_primary": "If advisory selling converts better with affluent customers, brands serving lower-income segments could test explicit, verifiable trust signals — certifications, reviews, transparent incentives — rather than relying on rapport, and see whether recommendation uptake moves.",
+      "story_angle_secondary": "Skepticism toward salespeople isn't irrational, but it has a cost: shoppers who tune out advice may end up with worse-fitting products. The research points to a middle path — judge the recommendation against your own needs rather than judging the person.",
+      "caveats": "Mostly online experiments alongside cross-sectional survey data; several contexts are hypothetical advice scenarios rather than observed purchases, and the World Values Survey component cannot establish causation.",
+      "journal": "Journal of Consumer Psychology",
+      "published": "2026-09-10",
+      "doi": "10.1002/jcpy.70038",
+      "paper_title": "Advice taking across social class: Why (and when) high‐ SES consumers are more likely to take advice from marketplace agents",
+      "source_id": "S163545350"
+    },
+    {
+      "work_id": "W7208768688",
+      "headline": "\"Sustainable\" beats \"green\" on the label — because it hints the product will last",
+      "the_study": "A series of experiments tested two unregulated eco-labels head to head and found that calling a product \"sustainable\" raised its choice share against an unlabeled conventional alternative more than calling it \"green\" did. The reason is semantic: \"sustainable\" carries associations of longevity, prompting consumers to infer a more careful design process and a more durable product. The advantage showed up most strongly when shoppers cared about how long the product would last.",
+      "why_it_matters": "Two words treated as interchangeable in packaging and ad copy produce measurably different consumer inferences — and one of them makes a durability promise the product may not keep.",
+      "story_angle_primary": "Brands should A/B test eco-terminology by category rather than defaulting to house style: \"sustainable\" may lift choice in durables, but it also sets a durability expectation that invites backlash if the product fails, which is where policymakers' greenwashing concerns bite.",
+      "story_angle_secondary": "The eco-words on packaging are largely unregulated, and they don't mean the same thing in your head. \"Sustainable\" quietly signals \"built to last\" — a claim about the product's lifespan that the label itself doesn't actually guarantee.",
+      "caveats": "Experimental choice tasks rather than real purchases; label effects were tested in selected product categories and the abstract does not report sample sizes or populations.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-09-04",
+      "doi": "10.1007/s11747-026-01194-w",
+      "paper_title": "The sustainable edge effect: How nuanced semantic meanings of different eco-labels influence consumer judgments",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7210266064",
+      "headline": "Hiring an ex-official to your board measurably improves government sales — except when procurement is truly competitive",
+      "the_study": "Researchers assembled multisource panel data on 1,731 publicly traded US firms selling to government between 2005 and 2021 and tracked what happened when former government officials joined their boards. These \"revolving door\" directors were associated with significantly better customer acquisition, retention and cross-selling in government markets, with effects running through both connections and expertise for acquisition, but through connections alone for retention and cross-selling. The payoff shrank when government customers preferred competitive procurement processes, and grew when those customers faced more bid protests.",
+      "why_it_matters": "It quantifies a governance choice that is usually debated in ethical terms as a concrete customer-relationship asset — and identifies the procurement conditions under which it stops working.",
+      "story_angle_primary": "B2G firms weighing board appointments now have evidence on where the return sits: relationship continuity and cross-sell rather than one-off wins, and mainly in buying environments with procurement friction. Worth pairing with a hard look at the reputational and compliance exposure.",
+      "story_angle_secondary": "This is a rare dollar-value read on the revolving door: public data suggest that former officials on corporate boards help those companies keep and expand government contracts, and that open competition is what blunts the advantage.",
+      "caveats": "Observational secondary panel data from a single country; associations may reflect which firms choose to recruit such directors rather than a causal effect of the appointment.",
+      "journal": "Journal of Marketing",
+      "published": "2026-09-06",
+      "doi": "10.1177/00222429261489543",
+      "paper_title": "EXPRESS: Effects of Revolving Door Directors on Customer Relationship Performance in Business-to-Government Markets",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7212072927",
+      "headline": "Return fraud isn't driven by lenient policies — it's driven by peer norms and money pressure",
+      "the_study": "A sequential mixed-methods study of young Indian online shoppers — a survey of 417 Gen Y and Gen Z consumers followed by 30 semi-structured interviews — tested the criminology-derived \"fraud diamond\" against opportunistic returns. Social norms, financial pressure and trait cynicism predicted opportunistic return behavior, while policy leniency and knowledge of how return systems work did not. Responsive customer service weakened the link between social norms and opportunistic returns, and marginally weakened the financial-pressure link. Interviews pointed to situational triggers: feeling monitored, digital reputation signals, product type, return fees and explicit anti-wardrobing rules.",
+      "why_it_matters": "Retailers typically fight returns abuse by tightening policy, but this evidence suggests generous policies aren't the trigger — social permission and perceived anonymity are, which implies different countermeasures.",
+      "story_angle_primary": "Before cutting return windows and risking conversion, e-commerce teams could test softer levers the study implicates: visible monitoring cues, account-level return signals, explicit anti-wardrobing language and faster, more responsive service contact.",
+      "story_angle_secondary": "\"Wardrobing\" and other free-trial-by-return habits spread mostly because people believe everyone does it. The study suggests the feeling that a retailer is paying attention does more to curb it than the fine print in the returns policy.",
+      "caveats": "Cross-sectional survey (no causal inference) plus interviews; self-reported unethical behavior is prone to underreporting; sample limited to Gen Y and Gen Z consumers in India.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-09-09",
+      "doi": "10.1108/jcm-07-2025-8088",
+      "paper_title": "Investigating unethical behaviour in e-commerce through the lens of fraud diamond theory",
+      "source_id": "S165789823"
+    },
+    {
+      "work_id": "W7203777252",
+      "headline": "Plus-size mannequins next to standard ones lifted brand attitudes — and willingness to pay",
+      "the_study": "Across seven studies, researchers tested how shoppers respond to store displays that mix traditional-size and plus-size mannequins versus displays using a single body type. Mixed-body displays produced more favorable brand attitudes and higher willingness to pay, working through two routes: a personal one (the brand feels more relevant, strengthening self-brand connection) and a social one (the brand is seen as more inclusive). The effect faded for luxury brands, was weaker among consumers with lower BMI, and reappeared when the diversity was in mannequin skin tone rather than body size.",
+      "why_it_matters": "Body-diverse merchandising is often framed as a values statement or a reputational hedge; this evidence suggests it can also move commercial metrics, including what shoppers say they will pay.",
+      "story_angle_primary": "Visual merchandising is a cheap, testable variable: retailers could run split tests of mixed-mannequin windows against single-body windows in matched stores and watch conversion and basket value, rather than assuming the lab lift transfers to the shop floor. The luxury exception is the strategic warning — inclusivity cues may sit awkwardly with exclusivity positioning.",
+      "story_angle_secondary": "The finding hints that shoppers read store fixtures as signals about who a brand is for — and that seeing a body like yours in a window changes how personally relevant the brand feels, not just how ethical it seems.",
+      "caveats": "Multi-study designs in this literature typically rely heavily on online panels and hypothetical willingness-to-pay measures rather than observed purchases; the abstract does not specify samples, sizes, or countries, and boundary conditions (luxury, BMI) mean effects are not universal.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-08-19",
+      "doi": "10.1007/s11747-026-01197-7",
+      "paper_title": "Beyond the standard: The impact of mannequin body diversity on brand perceptions and consumer behavior",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7208808437",
+      "headline": "Customers who return groceries then spend more — unless the retailer looks at fault",
+      "the_study": "Using matched consumer records from a South Korean grocery retailer, researchers examined spending after a product return. Returning something was followed by a substantial increase in spending, and the lift was larger for variety-seeking shoppers and those with smaller baskets — consistent with the return option acting as a risk reducer that encourages trying new products. But the lift shrank when the returned item was perishable and had been held at home only briefly, cases where shoppers plausibly blame the retailer for a bad product; the first return carried over, while repeated returns showed negative accumulation.",
+      "why_it_matters": "It reframes returns from pure cost center to a memory-building reassurance mechanism — but only when the return isn't evidence that the retailer sold something defective.",
+      "story_angle_primary": "Retailers weighing tighter return rules could separate two very different events in their data: discretionary returns (which appear to unlock exploration and bigger baskets) and quality-failure returns (which don't, and may signal a supply problem). Worth testing whether actively reminding shoppers the return option exists produces the same spending lift as actually using it.",
+      "story_angle_secondary": "A generous returns desk may quietly change how you shop — making you likelier to gamble on an unfamiliar product. Conversely, bringing back spoiled produce doesn't leave you reassured; it leaves you doubting the store.",
+      "caveats": "Single grocery retailer in one country; observational transaction data with matching rather than a randomized experiment, so causal claims rest on the matching design; mechanisms (risk reduction, blame attribution) are inferred rather than directly measured.",
+      "journal": "Journal of Retailing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.jretai.2026.08.008",
+      "paper_title": "Beyond the receipt: risk reduction and locus of attribution in grocery returns",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7172339845",
+      "headline": "Why some shoppers game the system: it's not greed, it's wanting to feel clever",
+      "the_study": "Nine studies (plus two supplementary) combining archival, correlational and experimental data examined why consumers take more than fair exchange warrants — grabbing extra samples, returning used items, exploiting policy loopholes. The driver the authors identify is power distance belief: consumers who accept societal hierarchy, including firms sitting above them in it, develop a need to feel smart relative to firms, which pushes them toward loophole-exploiting behavior. Higher-status consumers felt this need more strongly. Reminders of surveillance reduced opportunism, while reminders of the consumer's relationship with the brand paradoxically licensed it.",
+      "why_it_matters": "Opportunism costs retailers real money, and the study suggests the standard loyalty-and-relationship playbook may make it worse rather than better.",
+      "story_angle_primary": "Test the counterintuitive part: loyalty messaging and relationship framing at the point of a return or promotion may increase abuse, while light, non-accusatory cues that a policy is monitored may curb it. Any such test needs care — surveillance cues carry their own brand risk.",
+      "story_angle_secondary": "The psychology of the person who returns worn shoes or pockets a fistful of free samples is less about saving money than about a small win against a big company — and it's often the better-off customer doing it.",
+      "caveats": "Mix of archival and experimental evidence, but the abstract does not report sample sizes, countries, or whether experiments used online panels; many measures in this literature are scenario-based rather than observed transgressions; power distance belief effects can be culture-specific.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-08-03",
+      "doi": "10.1177/00222437261477110",
+      "paper_title": "EXPRESS: Gaming the Marketplace: Consumer Opportunism and Beliefs about Societal Hierarchy",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7207745459",
+      "headline": "AI-redesigned coffee packs won a shelf test — but only barely, and not for everyone",
+      "the_study": "In a within-subject real-shelf experiment, 64 participants (after biometric quality exclusions from 72) viewed eight physical coffee packages side by side: four actual market designs and four AI-redesigned counterparts, with positions rotated via Latin Square. Mobile eye-tracking showed the AI-redesigned packs got faster visual entry and better evaluations, and they took 55.5% of the 256 consequential take-home choices versus 44.5% for the originals. The advantage held in clustered and fixed-effects choice models, but the largest single group of participants split their picks evenly — there was no universal AI superiority.",
+      "why_it_matters": "It is one of the few tests of generative-AI design work as a point-of-purchase intervention with real products and a real take-home choice, rather than a digital mock-up and an intention rating.",
+      "story_angle_primary": "AI packaging concepts are worth shelf-testing rather than screen-testing: the mechanism here was attention capture and processing fluency, so the useful question is whether a redesign wins the first glance, not whether it looks better in a deck. A roughly 11-point choice edge in a lab shelf is a hypothesis to validate in store, not a mandate to redesign a portfolio.",
+      "story_angle_secondary": "Package design works on you before you consciously evaluate anything — the eye-tracking shows which packs got looked at first, and those were the ones more likely to come home.",
+      "caveats": "Small sample (N=64) and a single category (coffee); lab shelf rather than a real store with prices, promotions and time pressure; effect heterogeneous, with the biggest participant segment showing no preference; country and panel recruitment not specified.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-09-03",
+      "doi": "10.1108/ijrdm-06-2026-0473",
+      "paper_title": "AI-redesigned packaging and consumer choice at retail shelves",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7202034360",
+      "headline": "A bad delivery hurts less when it's not your van — but a great one only pays off if it is",
+      "the_study": "Researchers analyzed more than 35,000 online retail reviews and ran four experiments plus a single-paper meta-analysis to see how the \"moment of delivery\" shapes word of mouth. Using a third-party courier buffered retailers from the damage of a botched delivery — customers blamed the courier — but the upside of an excellent delivery accrued only to established retailers that handled the last mile themselves. Pre-emptive \"inoculation\" messages warning customers that delivery hiccups can happen also reduced the word-of-mouth damage from failed deliveries.",
+      "why_it_matters": "Last-mile delivery is often the only human touchpoint in an e-commerce journey, and this shows the in-house-versus-outsourced decision is not just a cost question but a reputation-risk trade-off.",
+      "story_angle_primary": "Retailers weighing vertical integration of delivery should consider that owning the van concentrates both the credit and the blame; the experiments suggest cheap communication fixes — setting expectations before dispatch — may be worth A/B testing against expensive fleet investment.",
+      "story_angle_secondary": "Shoppers apparently do keep score of who dropped the parcel: people are more forgiving of a retailer when a third-party courier bungles the handoff, which is partly why so many brands are happy to keep delivery at arm's length.",
+      "caveats": "Experimental studies likely used online panels with hypothetical delivery scenarios rather than real purchases; the review analysis is observational and the retailer/platform context is limited.",
+      "journal": "Journal of Service Research",
+      "published": "2026-08-09",
+      "doi": "10.1177/10946705261464334",
+      "paper_title": "The Moment of Delivery in Online Retailing: How Courier Types and Inoculation Messages Affect Reactions to the Last-Mile Experience",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7203672599",
+      "headline": "AR and VR don't sell in one way: immersion wins browsers, vividness closes sales",
+      "the_study": "A meta-analysis pooled 126 independent samples (N=36,386) on augmented and virtual reality in online retail, using meta-analytic structural equation modeling and hierarchical linear models, supplemented by three original experiments. Four AR/VR attributes mapped onto different stages of the customer journey: immersion had the strongest link to prepurchase outcomes, vividness to purchase, and presence and interactivity to post-purchase outcomes. Hedonic and utilitarian gratifications explained much of the effect, with moderators at the customer, product, retailer, interface and time level.",
+      "why_it_matters": "Retailers have poured money into AR try-on and VR showrooms without clear guidance on what to optimize; this says the right design depends on whether you're trying to attract, convert, or retain.",
+      "story_angle_primary": "Rather than buying \"an AR experience,\" brand teams could spec features against a specific funnel objective — richer sensory detail if conversion is the bottleneck, deeper immersion if discovery is — and use the moderator findings to identify which product categories justify the spend.",
+      "story_angle_secondary": "For shoppers, this explains why virtual try-on sometimes feels genuinely useful and sometimes like a gimmick: the features that make a product feel real serve different purposes, and not every category benefits.",
+      "caveats": "Meta-analysis inherits the limits of its source studies, many of which are lab or panel experiments with hypothetical purchases; effects are correlational at the meta level, though three experiments add causal support.",
+      "journal": "Journal of Retailing",
+      "published": "2026-08-01",
+      "doi": "10.1016/j.jretai.2026.08.003",
+      "paper_title": "Testing the effects of augmented and virtual reality attributes on the customer journey in online retailing: A meta-analysis",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7202042423",
+      "headline": "How a customer first shops online predicts how profitable they'll be for years",
+      "the_study": "Using transaction-level panel data from a major Brazilian pet supplies retailer, researchers tracked previously offline-only customers who moved online through four different routes — organic adoption, the COVID-19 pandemic, Black Friday promotions, and a loyalty program — and applied difference-in-differences estimation. All adopters spent more than comparable offline-only shoppers, but the pathway mattered: promotion-driven adopters showed forward-buying patterns and lower subsequent profitability, while pandemic-era adopters kept reverting to stores.",
+      "why_it_matters": "It challenges the standard assumption that a multichannel customer is simply a more valuable customer, and suggests promotion-driven channel migration can flatter acquisition metrics while destroying margin.",
+      "story_angle_primary": "Before celebrating online-adoption counts from a Black Friday push, marketers should segment lifetime-value forecasts by how each customer was acquired and re-run breakeven math on promotions designed to drive channel switching.",
+      "story_angle_secondary": "Deal-driven shoppers who stock up during a sale aren't necessarily converts — the data shows many are simply timing their purchases, and habit keeps a lot of pandemic-era online shoppers walking back into stores.",
+      "caveats": "Single retailer, single category (pet supplies) and single country (Brazil); difference-in-differences on observational data can control for many but not all selection differences between adoption pathways.",
+      "journal": "Journal of Marketing",
+      "published": "2026-08-09",
+      "doi": "10.1177/00222429261478875",
+      "paper_title": "EXPRESS: Channel Adoption Pathways and Post-Adoption Behavior",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7202124108",
+      "headline": "Rude customers don't always damage staff performance — it depends on how employees read the insult",
+      "the_study": "Researchers combined survey data from 241 frontline employees and 34 supervisors with archival performance records at a large retail banking chain. Employees who appraised customer incivility as a challenge engaged in more proactive work behavior and performed better, while those who appraised it as a hindrance engaged in more counterproductive behavior and performed worse. Empathy, grit and employee bonuses moderated how appraisals translated into behavior.",
+      "why_it_matters": "Retail and service employers currently treat customer abuse as a uniformly toxic input; this suggests the appraisal step — and the resources available to employees — is where management can actually intervene.",
+      "story_angle_primary": "Rather than only screening out difficult customers, service leaders could test training and incentive designs that build the psychological and organizational resources linked to a challenge appraisal, and track whether they show up in performance records.",
+      "story_angle_secondary": "A useful counterweight to the \"customer is always right\" reflex: the study links real performance data to how staff interpret rudeness, a reminder that abuse at the counter has measurable consequences for both workers and firms.",
+      "caveats": "Cross-sectional multisource survey data — the appraisal-to-performance links are associations, not proven causation; single firm, single sector (retail banking), and only 34 supervisors.",
+      "journal": "Journal of Retailing",
+      "published": "2026-08-01",
+      "doi": "10.1016/j.jretai.2026.08.004",
+      "paper_title": "Challenge or hindrance? How frontline employees appraise and respond to customer incivility",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7212193195",
+      "headline": "Shoppers are likelier to donate loyalty points they can't spend — unless you tell them the points are expiring",
+      "the_study": "Across three experiments, researchers tested when consumers will donate reward points at online checkout. Donation intention was higher when points were non-redeemable than redeemable, and this effect was moderated both by whether the points were about to expire and by descriptive norm information about what other customers do.",
+      "why_it_matters": "Loyalty programs sit on enormous unredeemed point liabilities, and routing them into checkout charity could generate social impact and goodwill — but only if the points are framed the right way.",
+      "story_angle_primary": "Loyalty teams could pilot point-donation prompts targeted at balances below the redemption threshold, and test whether adding expiration warnings or peer-behavior messages helps or backfires before rolling out program-wide.",
+      "story_angle_secondary": "It reveals a quirk in how people value loyalty currency: points you could actually spend feel like money, while points stranded below a redemption threshold feel like something to give away.",
+      "caveats": "Experiments measured stated donation intention rather than actual donations; likely panel samples with hypothetical checkout scenarios; sample sizes and country context not specified in the abstract.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-09-10",
+      "doi": "10.1016/j.jretconser.2026.105103",
+      "paper_title": "When loyalty points become donations: The effects of redeemability, point expiration, and descriptive norm information",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7171935030",
+      "headline": "In Web3 markets, too much positive buzz can actually depress brand value",
+      "the_study": "Researchers combined interviews with Web3 experts with econometric analysis of 13 million tweets about seven Web3-native brands and 315 million NFT transactions on OpenSea. Both the volume and the valence of electronic word of mouth independently raised awareness, desirability and marketplace prices — but their interaction turned negative: overwhelmingly positive chatter signaled hype and reduced perceived credibility.",
+      "why_it_matters": "It puts hard numbers on a marketing intuition — that relentlessly positive buzz can read as manufactured — in a market where community discourse essentially is the brand.",
+      "story_angle_primary": "For brands operating in community-driven or speculative digital markets, the finding argues against maximizing positive sentiment as a KPI; consider whether unmoderated, mixed-valence discourse is a credibility asset rather than a problem to manage.",
+      "story_angle_secondary": "A practical skepticism heuristic for consumers: when online discussion of an asset or product is uniformly glowing, that uniformity itself is information — and in this dataset it coincided with weaker credibility.",
+      "caveats": "Only seven Web3-native brands, all observed during a bull market; findings from a speculative NFT context may not generalize to conventional brands; observational data, so causal direction between buzz and price is hard to pin down.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-07-31",
+      "doi": "10.1108/ejm-10-2022-0773",
+      "paper_title": "Decentralized branding: eWOM, market dynamics and brand value in Web3",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7203672036",
+      "headline": "\"$10 off when you spend $50\" backfires with cautious shoppers",
+      "the_study": "Combining field data with experiments, researchers tracked how much consumers actually spent after committing to a minimum-purchase-requirement deal. Prevention-focused shoppers — those oriented toward avoiding losses and mistakes — consistently spent less than promotion-focused shoppers once they had opted into the deal, because they brought more persuasion knowledge and suspicion about the retailer's motives to the basket. That suspicion grew sharper when the benefit was vague, as in \"up to £100 off\" offers.",
+      "why_it_matters": "Threshold promotions are meant to inflate basket size, but the same offer can produce very different spending depending on the shopper's mindset — and vague \"up to\" framing appears to trigger the distrust that suppresses spend.",
+      "story_angle_primary": "Retailers running spend-and-save mechanics could test replacing vague \"up to X off\" language with a fixed, concrete benefit, and consider segment-level framing: reassurance and transparency for cautious, deal-skeptical customers versus aspirational framing for bargain-seekers. Treat this as a hypothesis worth A/B testing on live promotions, not a settled rule.",
+      "story_angle_secondary": "If you've ever added a random item to your cart to hit a free-shipping or discount threshold and then felt vaguely manipulated, that instinct is measurable — and people who feel it most spend the least. Vague offers like \"save up to £100\" are exactly the ones that put shoppers on guard.",
+      "caveats": "Mix of field and lab studies; regulatory focus is often measured or primed in experimental settings rather than observed naturally, and the abstract gives no sample sizes or country detail beyond a British-currency example.",
+      "journal": "Journal of Business Research",
+      "published": "2026-08-19",
+      "doi": "10.1016/j.jbusres.2026.116486",
+      "paper_title": "How regulatory focus shapes consumer spending under threshold promotions",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7203930195",
+      "headline": "The same food looks healthier under one nutrition label than another — and a retailer's endorsement can hurt",
+      "the_study": "Five randomized between-subjects experiments with 731 adults recruited via Prolific in Poland, Spain, Italy, Portugal and Greece tested how front-of-pack nutrition labels shape product judgments. Nutri-Score, the interpretive color-coded summary, produced higher perceived healthiness than NutrInform Battery, the nutrient-by-nutrient format — and that healthiness inference carried through to brand attitude and purchase intention for both private label and national brands. But retailer-authored \"health commitment\" framing did not amplify the effect, and an explicit retailer endorsement actually lowered perceived healthiness while raising brand attitude, with no net gain in purchase intention.",
+      "why_it_matters": "In voluntary-labeling markets, the choice of label format is effectively a marketing decision with brand-equity consequences, not just a compliance question — and adding a retailer's own stamp of approval can undercut the credibility the label was supposed to provide.",
+      "story_angle_primary": "Brand and private-label teams in voluntary FOPL markets should treat label format as a testable brand lever alongside packaging and claims, and be wary of layering own-brand health endorsements on top of an independent label — the study suggests the extra signal can dilute rather than reinforce perceived healthiness.",
+      "story_angle_secondary": "Shoppers read a simple color-coded grade as a verdict on healthiness, while a detailed nutrient breakdown of the identical product reads as less healthy. The label design, not just the food, is shaping what people think they're buying.",
+      "caveats": "Online panel (Prolific) with manipulated product stimuli rather than real purchases; stated purchase intention rather than observed behavior; five Southern and Eastern European markets only; total N=731 across five studies means modest cell sizes.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-08-21",
+      "doi": "10.1016/j.jretconser.2026.105057",
+      "paper_title": "Front-of-Pack Nutritional Labels as retail demand cues: Evidence from five voluntary-labeling markets",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7204047411",
+      "headline": "Eye-tracking shows busy product images make shoppers work harder — and feel less",
+      "the_study": "Researchers ran two eye-tracking experiments plus one online experiment to separate three dimensions of visual complexity in e-commerce product images: layout, element count and color. All three reduced perceptual fluency (how easily the image is processed), but only element and color complexity hurt conceptual fluency (how easily the meaning is grasped); layout complexity did not. Lower perceptual fluency was linked to reduced emotional arousal and attentional effort, an effect especially pronounced for functional products.",
+      "why_it_matters": "\"More going on\" in a product image is not automatically more engaging: the specific kind of clutter matters, and for utilitarian products, visual busyness appears to dampen both attention and emotional response.",
+      "story_angle_primary": "E-commerce teams could audit product imagery by complexity type rather than treating it as one variable — trimming element count and color variety for functional items while accepting more layout structure, then validating with click-through and dwell data on their own catalog.",
+      "story_angle_secondary": "The cluttered product photos crowding marketplace listings may be quietly working against the seller: when an image is hard to parse, browsers feel less and look less.",
+      "caveats": "Lab and online experimental settings with manipulated stimuli rather than real purchase environments; abstract reports no sample sizes, country or participant details; short exposure horizons typical of eye-tracking studies.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-08-23",
+      "doi": "10.1002/cb.70232",
+      "paper_title": "More Complex Is Better? The Impact of Product Image Visual Complexity on Consumer Responses in E‐Commerce Pages",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7202056329",
+      "headline": "Three ways brands cause cultural appropriation harm — and three ways to head it off",
+      "the_study": "Drawing on an extended qualitative study of the K-pop industry plus social theory, researchers built a framework for brands that borrow cultural elements to create novelty and distinction. They identify three distinct harms — disconnection (failing to credit the source), distortion (misrepresenting it) and dispossession (capturing the economic benefit) — and three mitigation strategies: correcting (accountability after the fact), connecting (learning from and collaborating with source cultures up front) and championing (funding initiatives that address marketplace inequality).",
+      "why_it_matters": "Most brands still handle appropriation controversies reactively, in crisis mode; this offers a diagnostic vocabulary for identifying which specific harm a campaign risks before it launches, and what kind of response actually addresses it.",
+      "story_angle_primary": "Brand and creative leaders can use the disconnection/distortion/dispossession split as a pre-launch screen for any campaign borrowing from another culture — and note that an apology (correcting) addresses only one harm type, while attribution and revenue-sharing address others.",
+      "story_angle_secondary": "It explains why some cultural-borrowing controversies are about credit, others about caricature, and others about who gets paid — and why a brand apology so often fails to satisfy critics whose objection was really about the last one.",
+      "caveats": "Qualitative and theory-building work grounded in a single industry (K-pop); no quantitative test of whether the mitigation strategies actually change consumer response or brand outcomes.",
+      "journal": "Journal of Marketing",
+      "published": "2026-08-09",
+      "doi": "10.1177/00222429261478848",
+      "paper_title": "EXPRESS: Confronting Cultural Appropriation: Toward the Ethical Marketing of Cultural Difference",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7204166660",
+      "headline": "Two flavors of search ads on the same platform behave very differently when bad reviews pile up",
+      "the_study": "Researchers analyzed sponsored search advertising data from a single seller of internationally known hair care brands operating on Alibaba's platform, comparing ads run for Taobao (marketplace) storefronts with ads run for Tmall (brand-authorized) storefronts. Using two-way fixed effects panel regressions plus endogeneity and robustness checks, they found the two ad channels reinforced each other: spending on one lifted the sales return of the other. But their vulnerability differed sharply — Taobao-store ads lost effectiveness as negative reviews accumulated, both for that store type and for the same product sold through the other store type, while Tmall-store ads were essentially unaffected. A higher total volume of reviews helped both channels.",
+      "why_it_matters": "Brands that sell the same product through both marketplace and brand-authorized storefronts often treat search advertising as one budget; this suggests the returns on each are conditional on very different review environments, and that negative reviews can leak across storefront types.",
+      "story_angle_primary": "If you advertise the same SKU across multiple storefront formats on one platform, test whether ad returns track review sentiment differently by format — and consider shifting search spend toward the more trust-insulated storefront when negative reviews spike, rather than cutting the budget across the board. Note this is one seller in one category, so treat it as a hypothesis to test in your own account data, not a rule.",
+      "story_angle_secondary": "It is a glimpse of how the 'official store' badge does real work: shoppers appear to discount bad reviews when a listing carries a platform's authorized-brand credential, and to take them far more seriously on ordinary marketplace listings — the same product, the same complaints, different levels of doubt.",
+      "caveats": "Advertising data came from a single seller in one product category (hair care) on one Chinese platform, with data supplied by that seller; results may not generalize to other categories, platforms or markets, and observational panel data limits causal certainty despite the robustness checks.",
+      "journal": "Marketing Intelligence & Planning",
+      "published": "2026-08-25",
+      "doi": "10.1108/mip-11-2025-0869",
+      "paper_title": "Tales of two similar advertising channels: online sales performance between SSA_Taobao and SSA_Tmall",
+      "source_id": "S29817978"
+    },
+    {
+      "work_id": "W7170143274",
+      "headline": "Celebrity-founded brands on the shelf can raise how shoppers feel about the whole store — if three kinds of fit line up",
+      "the_study": "Two surveys tested how celebrity-owned brands stocked by retailers spill over onto the retailer itself: Study 1 used 154 undergraduates, Study 2 used 433 adult shoppers, analyzed with PLS structural equation modeling and multigroup comparisons. Store attractiveness rose when three kinds of fit were perceived — celebrity to product category, celebrity to store, and celebrity brand to the store's wider assortment — and attractiveness in turn linked to store equity and then store loyalty. The relative weight of the three fit judgments differed between self-identified celebrity 'worshippers' and non-worshippers.",
+      "why_it_matters": "Retailers increasingly stock celebrity lines as traffic drivers, and this suggests the borrowed halo depends less on the celebrity's fame than on whether the pairing makes sense on three separate dimensions at once.",
+      "story_angle_primary": "Before signing a celebrity line, pressure-test fit with your own shoppers on all three axes — celebrity-to-category, celebrity-to-banner, and brand-to-assortment — and segment by fan intensity, since devoted fans and casual shoppers appear to weigh those cues differently. Because this is survey evidence rather than sales data, treat it as a screening framework worth validating against actual store performance.",
+      "story_angle_secondary": "For shoppers, the finding hints at how store choice gets quietly shaped: a familiar face on a shelf can change how appealing a whole retailer feels, even though nothing about the store's prices or service has changed.",
+      "caveats": "Both studies are cross-sectional surveys measuring perceptions and stated loyalty, not purchases, so causal direction cannot be established; Study 1 relies on a student sample of 154; no sales or field data, and effects are modeled as paths in a structural model.",
+      "journal": "Journal of Product & Brand Management",
+      "published": "2026-07-23",
+      "doi": "10.1108/jpbm-10-2025-6420",
+      "paper_title": "Star power on the shelf: the spillover effects of celebrity brand – retailer relationships on consumer evaluations of retailers",
+      "source_id": "S58171247"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7203936299",
+      "headline": "Store brands pay off less on their own shelf space than at the negotiating table",
+      "verdict": "minor",
+      "notes": "Core design and mechanism match, but the headline/body assert that indirect bargaining gains outweigh direct private-label profits, which the abstract does not say; \"drug patent\" is an unverifiable embellishment.",
+      "issues": [
+        {
+          "label": "Relative size of indirect vs. direct gains",
+          "severity": "Moderate",
+          "as_written": "Crucially, much of the profit came indirectly, via better terms extracted from national brands",
+          "abstract_says": "These gains arise both through improved direct profits from the private label, and indirectly through a better bargaining outcome on national-brand products.",
+          "problem": "The abstract states that gains arise through both channels without ranking them; the digest (and the headline, \"pay off less on their own shelf space than at the negotiating table\") asserts a magnitude comparison the abstract does not support.",
+          "suggested_fix": "Reword to \"profit came through two channels — direct private-label margin and better terms extracted from national brands\" and soften the headline to \"Store brands pay off on the shelf and at the negotiating table.\""
+        },
+        {
+          "label": "\"Drug patent\" detail",
+          "severity": "Minor",
+          "as_written": "a drug patent expiration that coincided with waves of private-label entry",
+          "abstract_says": "Exploiting a novel setting in which a patent expiration concided with private-label entries",
+          "problem": "The abstract does not identify the patent as a drug patent, nor describe \"waves\" of entry.",
+          "suggested_fix": "Say \"a patent expiration that coincided with private-label entry\" or mark the drug detail as unverifiable from the abstract."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7212164165",
+      "headline": "Who takes the salesperson's advice? Richer shoppers, consistently",
+      "verdict": "minor",
+      "notes": "Design (five studies plus three appendix studies, World Values Survey), direction of effect, mechanism and both attenuating interventions are reported accurately; one illustrative example is not in the abstract.",
+      "issues": [
+        {
+          "label": "Unsupported example of the trust cue",
+          "severity": "Minor",
+          "as_written": "supplying an external trustworthiness cue (such as third-party credentials)",
+          "abstract_says": "when providing an external trustworthiness cue, differences in advice taking between low‐ and high‐SES consumers are reduced",
+          "problem": "The abstract does not specify what form the external trustworthiness cue took; \"third-party credentials\" is the digest's own illustration presented as study detail.",
+          "suggested_fix": "Drop the parenthetical or label it explicitly as an example, not something the study tested."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7208768688",
+      "headline": "\"Sustainable\" beats \"green\" on the label — because it hints the product will last",
+      "verdict": "accurate",
+      "notes": "Direction of effect, semantic longevity mechanism and the durability-concern boundary condition all match; caveats correctly note that the abstract gives no sample sizes or populations. \"A series of experiments\" and \"selected product categories\" are not specified in the abstract but are reasonable, hedged descriptions.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7210266064",
+      "headline": "Hiring an ex-official to your board measurably improves government sales — except when procurement is truly competitive",
+      "verdict": "minor",
+      "notes": "Sample (1,731 US firms, 2005–2021), three outcomes, mediation pattern and both procurement moderators are reported correctly; the \"dollar-value\" framing is not supported by the abstract.",
+      "issues": [
+        {
+          "label": "Dollar-value claim",
+          "severity": "Moderate",
+          "as_written": "This is a rare dollar-value read on the revolving door",
+          "abstract_says": "the authors find that revolving door directors exert significantly positive effects on three dimensions of customer relationship performance: customer acquisition, customer retention, and cross-selling performance",
+          "problem": "The abstract reports effects on customer relationship performance dimensions, not a monetary valuation of revolving door directors; readers are told the study quantified dollars when nothing in the abstract does.",
+          "suggested_fix": "Replace with \"a rare quantitative read on the revolving door\" or describe the outcomes as acquisition, retention and cross-selling performance."
+        },
+        {
+          "label": "Causal headline on observational panel data",
+          "severity": "Minor",
+          "as_written": "Hiring an ex-official to your board measurably improves government sales",
+          "abstract_says": "By analyzing multisource, secondary panel data of 1,731 publicly traded U.S. firms in the B2G market between 2005 and 2021, the authors find that revolving door directors exert significantly positive effects",
+          "problem": "The headline states a causal effect of a hiring decision from secondary panel data; the body and caveats correctly hedge to association, so the headline is out of step.",
+          "suggested_fix": "Soften to \"is linked to better government sales\" to match the body text and caveats."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7212072927",
+      "headline": "Return fraud isn't driven by lenient policies — it's driven by peer norms and money pressure",
+      "verdict": "minor",
+      "notes": "Mixed-method design, N=417 survey plus 30 interviews, the significant and null predictors, and the moderation pattern all match the abstract; framing is slightly more causal than cross-sectional data allow and one mechanism word is added.",
+      "issues": [
+        {
+          "label": "Causal framing of survey findings",
+          "severity": "Minor",
+          "as_written": "Return fraud isn't driven by lenient policies — it's driven by peer norms and money pressure",
+          "abstract_says": "Study 1 shows that social norms, financial pressure (pressure) and trait cynicism (rationalisation) have a significant impact on opportunistic return behaviour, while policy leniency (opportunity) and policy knowledge (capability) do not have a significant impact.",
+          "problem": "\"Driven by\" implies causation from a cross-sectional survey; the caveats acknowledge this but the headline and \"Why it matters\" do not.",
+          "suggested_fix": "Use \"is associated with\" / \"predicted by\" in the headline and Why it matters."
+        },
+        {
+          "label": "\"Perceived anonymity\" added as a driver",
+          "severity": "Minor",
+          "as_written": "generous policies aren't the trigger — social permission and perceived anonymity are",
+          "abstract_says": "situational factors like feeling of being monitored, digital reputation signals, type of product, return fee structure and anti-wardrobing rules are the key factors",
+          "problem": "The abstract names \"feeling of being monitored\" as a situational factor from the interviews; \"perceived anonymity\" is the digest's inversion and was not measured as a driver.",
+          "suggested_fix": "Rewrite as \"social permission and the absence of a sense of being monitored.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7203777252",
+      "headline": "Plus-size mannequins next to standard ones lifted brand attitudes — and willingness to pay",
+      "verdict": "minor",
+      "notes": "Seven studies, both outcomes, both mechanisms and the luxury and skin-tone findings match; the BMI moderator is described more broadly than the abstract states.",
+      "issues": [
+        {
+          "label": "BMI moderator scope",
+          "severity": "Minor",
+          "as_written": "was weaker among consumers with lower BMI",
+          "abstract_says": "The identity-based pathway through self-brand connection is moderated by consumers' body mass index, with weaker effects at lower BMI levels.",
+          "problem": "The abstract limits the BMI moderation to the self-brand connection (identity) pathway, not the overall effect on brand attitudes and willingness to pay.",
+          "suggested_fix": "Specify that the personal-relevance pathway was weaker at lower BMI levels."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7208808437",
+      "headline": "Customers who return groceries then spend more — unless the retailer looks at fault",
+      "verdict": "accurate",
+      "notes": "Setting (matched consumers, South Korean grocery retailer), the post-return lift, both moderators, the perishable/holding-time attenuation and the first-return carry-over versus negative accumulation for repeat returns all match. The body correctly says the lift \"shrank\" rather than disappeared, and the caveats flag the inferred mechanisms and non-experimental design.",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "work_id": "W7172339845",
+      "headline": "Why some shoppers game the system: it's not greed, it's wanting to feel clever",
+      "verdict": "minor",
+      "notes": "Study count (nine plus two supplementary), data types, the power distance belief antecedent, the need to feel clever, the status moderation and both interventions match; the \"not greed\" contrast is the digest's own framing.",
+      "issues": [
+        {
+          "label": "Greed contrast not tested",
+          "severity": "Minor",
+          "as_written": "it's not greed, it's wanting to feel clever",
+          "abstract_says": "this belief evokes a need to feel clever (i.e., to feel smart and knowledgeable vis-à-vis firms), which, in turn, promotes opportunistic behaviors",
+          "problem": "The abstract identifies a novel antecedent but does not report testing or ruling out financial motives, so the \"not greed\" contrast goes beyond the evidence.",
+          "suggested_fix": "Rephrase as \"a need to feel clever, not just a chance to save money\" or drop the greed comparison."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7207745459",
+      "headline": "AI-redesigned coffee packs won a shelf test — but only barely, and not for everyone",
+      "verdict": "minor",
+      "notes": "Sample (72 recorded, 64 analyzed), shelf design, Latin Square rotation, the 55.5%/44.5% split of 256 selections, model robustness and the non-universal heterogeneity all match; one measure is attributed to the wrong instrument.",
+      "issues": [
+        {
+          "label": "Evaluations attributed to eye-tracking",
+          "severity": "Minor",
+          "as_written": "Mobile eye-tracking showed the AI-redesigned packs got faster visual entry and better evaluations",
+          "abstract_says": "Mobile eye-tracking, complementary frontal-response indicators, self-report evaluations and a consequential take-home product-selection task were analysed",
+          "problem": "Evaluations were self-reported, not an eye-tracking output; the digest bundles them under the eye-tracking measure.",
+          "suggested_fix": "Split the sentence: eye-tracking showed faster visual entry, and self-report measures showed stronger evaluations."
+        },
+        {
+          "label": "\"Only barely\" vs. \"moderate\"",
+          "severity": "Minor",
+          "as_written": "won a shelf test — but only barely, and not for everyone",
+          "abstract_says": "AI-redesigned packages showed faster visual entry, stronger evaluation profiles and a moderate behavioural advantage.",
+          "problem": "The authors characterize the advantage as moderate and statistically reliable across two model specifications; \"only barely\" understates it.",
+          "suggested_fix": "Use \"a moderate, uneven edge\" to match the authors' own description."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7202034360",
+      "headline": "A bad delivery hurts less when it's not your van — but a great one only pays off if it is",
+      "verdict": "minor",
+      "notes": "Review count (over 35,000), four experiments, the single-paper meta-analysis, the courier-type asymmetry and the inoculation effect all match; the blame mechanism and an industry motive are added by the digest.",
+      "issues": [
+        {
+          "label": "Blame mechanism not in abstract",
+          "severity": "Minor",
+          "as_written": "Using a third-party courier buffered retailers from the damage of a botched delivery — customers blamed the courier",
+          "abstract_says": "A single-paper meta-analysis affirms that third-party couriers buffer the detrimental effects of negative MoD experiences, but positive MoD experiences benefit only established retailers handling last-mile delivery themselves.",
+          "problem": "The abstract reports the buffering effect but does not state that attribution of blame to the courier is the tested mechanism.",
+          "suggested_fix": "Present the blame explanation as a plausible interpretation (\"presumably because blame shifts to the courier\") or drop it."
+        },
+        {
+          "label": "Inferred industry motive",
+          "severity": "Minor",
+          "as_written": "which is partly why so many brands are happy to keep delivery at arm's length",
+          "abstract_says": "To regain control, retailers might adopt vertical integration or inoculation.",
+          "problem": "The study says nothing about why retailers currently outsource delivery; this is speculation presented as a takeaway from the research.",
+          "suggested_fix": "Cut the clause or flag it clearly as commentary rather than a study finding."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7203672599",
+      "headline": "AR and VR don't sell in one way: immersion wins browsers, vividness closes sales",
+      "verdict": "minor",
+      "notes": "Design, sample counts and the attribute-to-journey-stage mapping all match; one small overstatement of the mediation result.",
+      "issues": [
+        {
+          "label": "Mediation strength overstated",
+          "severity": "Minor",
+          "as_written": "Hedonic and utilitarian gratifications explained much of the effect, with moderators at the customer, product, retailer, interface and time level.",
+          "abstract_says": "Hedonic and utilitarian gratifications help explain how AR/VR attributes are linked to customer journey outcomes.",
+          "problem": "\"Explained much of the effect\" implies a quantified share of variance that the abstract does not report; the abstract only says the gratifications help explain the links.",
+          "suggested_fix": "Change to \"Hedonic and utilitarian gratifications help explain how the attributes link to outcomes...\""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7202042423",
+      "headline": "How a customer first shops online predicts how profitable they'll be for years",
+      "verdict": "minor",
+      "notes": "Data source, four pathways, DiD method and core results are accurate; two small hardenings of hedged abstract language.",
+      "issues": [
+        {
+          "label": "\"Destroying margin\" overstates the profitability result",
+          "severity": "Minor",
+          "as_written": "suggests promotion-driven channel migration can flatter acquisition metrics while destroying margin",
+          "abstract_says": "Promotion-driven adopters exhibit patterns consistent with forward buying and lower subsequent profitability",
+          "problem": "The abstract reports lower subsequent profitability relative to other adopters, not margin destruction; the phrasing escalates a relative difference into a loss.",
+          "suggested_fix": "Use \"while delivering lower subsequent profitability\"."
+        },
+        {
+          "label": "Hedged pattern stated as established fact",
+          "severity": "Minor",
+          "as_written": "the data shows many are simply timing their purchases",
+          "abstract_says": "Promotion-driven adopters exhibit patterns consistent with forward buying",
+          "problem": "The abstract carefully says \"patterns consistent with\" forward buying; the digest asserts the mechanism as demonstrated.",
+          "suggested_fix": "Write \"the data show spending patterns consistent with forward buying\"."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7202124108",
+      "headline": "Rude customers don't always damage staff performance — it depends on how employees read the insult",
+      "verdict": "accurate",
+      "notes": "Sample composition (241 FLEs, 34 supervisors, archival records, retail banking chain), the challenge/hindrance results and the empathy/grit/bonus moderators all match the abstract; caveats appropriately avoid causal language.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7212193195",
+      "headline": "Shoppers are likelier to donate loyalty points they can't spend — unless you tell them the points are expiring",
+      "verdict": "minor",
+      "notes": "Three studies and the redeemability main effect plus both moderators are correctly reported; the headline asserts a direction for the expiration moderator that the abstract does not specify.",
+      "issues": [
+        {
+          "label": "Direction of the expiration moderation not in the abstract",
+          "severity": "Moderate",
+          "as_written": "Shoppers are likelier to donate loyalty points they can't spend — unless you tell them the points are expiring",
+          "abstract_says": "Study 2 demonstrates that the interaction between point redeemability and point expiration significantly influences donation intention",
+          "problem": "The abstract reports only that the interaction is significant, not which way expiration shifts donation intention. Unverifiable from abstract only, and a reader could take away a specific tactical instruction (don't mention expiry) that the abstract does not support.",
+          "suggested_fix": "Reword the headline to \"...and whether the points are expiring changes the picture\", or state that the direction of the expiration interaction is not reported in the abstract."
+        },
+        {
+          "label": "\"Experiments\" vs \"studies\"",
+          "severity": "Minor",
+          "as_written": "Across three experiments, researchers tested when consumers will donate reward points at online checkout.",
+          "abstract_says": "the present research examines, across three studies, the effect of point redeemability on consumers’ donation intention",
+          "problem": "The abstract calls them studies and does not confirm they were all experiments. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"Across three studies\"."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7171935030",
+      "headline": "In Web3 markets, too much positive buzz can actually depress brand value",
+      "verdict": "accurate",
+      "notes": "Interview plus econometric design, 13 million tweets, seven Web3-native brands and 315 million OpenSea transactions all match; the bull-market and generalizability limits from the abstract are carried into Caveats.",
+      "issues": []
+    },
+    {
+      "number": 16,
+      "work_id": "W7203672036",
+      "headline": "\"$10 off when you spend $50\" backfires with cautious shoppers",
+      "verdict": "minor",
+      "notes": "Field-plus-experiment design, the regulatory-focus spending gap, the persuasion-knowledge mechanism and the \"up to £100 off\" boundary are all reported correctly; the headline's \"backfires\" reads as an absolute effect.",
+      "issues": [
+        {
+          "label": "\"Backfires\" overstates a relative difference",
+          "severity": "Minor",
+          "as_written": "\"$10 off when you spend $50\" backfires with cautious shoppers",
+          "abstract_says": "prevention-focused consumers consistently spend less than promotion-focused consumers after committing to a minimum purchase requirement deal",
+          "problem": "The abstract reports prevention-focused consumers spending less than promotion-focused consumers, not that the promotion reduces spending below a no-promotion baseline; \"backfires\" implies the latter.",
+          "suggested_fix": "Reword to \"'$10 off when you spend $50' works less well on cautious shoppers\"."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7203930195",
+      "headline": "The same food looks healthier under one nutrition label than another — and a retailer's endorsement can hurt",
+      "verdict": "minor",
+      "notes": "Five randomized between-subjects experiments, N=731, Prolific recruitment in the five named markets, and the Nutri-Score/NutrInform and endorsement results are all reported accurately; one mediation-flavored phrase goes slightly beyond \"associated with\".",
+      "issues": [
+        {
+          "label": "Association phrased as a causal chain",
+          "severity": "Minor",
+          "as_written": "that healthiness inference carried through to brand attitude and purchase intention for both private label and national brands",
+          "abstract_says": "This healthiness inference was associated with brand attitude and purchase intention across private-label and national-brand contexts.",
+          "problem": "\"Carried through to\" reads as a demonstrated mediation pathway; the abstract states only an association.",
+          "suggested_fix": "Write \"that healthiness inference was associated with brand attitude and purchase intention...\""
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "work_id": "W7204047411",
+      "headline": "Eye-tracking shows busy product images make shoppers work harder — and feel less",
+      "verdict": "significant",
+      "notes": "Design and the complexity-to-fluency results are correct, but the digest reverses the direction of the perceptual-fluency association, so the headline, the mechanism sentence, \"Why it matters\" and the consumer angle all point the wrong way.",
+      "issues": [
+        {
+          "label": "Direction of perceptual fluency effect reversed",
+          "severity": "Major",
+          "as_written": "Lower perceptual fluency was linked to reduced emotional arousal and attentional effort, an effect especially pronounced for functional products.",
+          "abstract_says": "perceptual fluency shows a negative association with both emotional arousal and attentional effort, especially for functional products",
+          "problem": "A negative association means that lower perceptual fluency goes with HIGHER emotional arousal and attentional effort. The digest states the opposite, and this reversal contradicts the digest's own headline (\"make shoppers work harder\").",
+          "suggested_fix": "Rewrite as \"Perceptual fluency was negatively associated with emotional arousal and attentional effort — harder-to-process images went with more arousal and more effort, especially for functional products.\""
+        },
+        {
+          "label": "\"Why it matters\" built on the reversed direction",
+          "severity": "Major",
+          "as_written": "for utilitarian products, visual busyness appears to dampen both attention and emotional response",
+          "abstract_says": "perceptual fluency shows a negative association with both emotional arousal and attentional effort, especially for functional products",
+          "problem": "Because the underlying direction is reversed, the managerial takeaway is backwards: the abstract implies busier images draw more attentional effort and arousal via reduced fluency, not less.",
+          "suggested_fix": "Recast the takeaway around what the abstract supports: complexity lowers processing fluency, which is associated with greater attentional effort and arousal, while element and colour complexity also impair conceptual fluency."
+        },
+        {
+          "label": "Consumer angle repeats the reversal",
+          "severity": "Major",
+          "as_written": "when an image is hard to parse, browsers feel less and look less",
+          "abstract_says": "perceptual fluency shows a negative association with both emotional arousal and attentional effort",
+          "problem": "Hard-to-parse images correspond to low perceptual fluency, which the abstract associates with more arousal and more attentional effort, not less of either.",
+          "suggested_fix": "Replace with a statement that hard-to-parse images make people work harder to process them, and drop the \"feel less\" claim."
+        },
+        {
+          "label": "Conceptual fluency result omitted",
+          "severity": "Minor",
+          "as_written": "All three reduced perceptual fluency (how easily the image is processed), but only element and color complexity hurt conceptual fluency (how easily the meaning is grasped); layout complexity did not.",
+          "abstract_says": "conceptual fluency positively influences attentional effort but does not significantly affect emotional arousal",
+          "problem": "The digest reports which dimensions affect conceptual fluency but drops what conceptual fluency then does, which is part of the dual-route story.",
+          "suggested_fix": "Add that conceptual fluency was positively related to attentional effort but not to emotional arousal."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "work_id": "W7202056329",
+      "headline": "Three ways brands cause cultural appropriation harm — and three ways to head it off",
+      "verdict": "accurate",
+      "notes": "The three harms (disconnection, distortion, dispossession) and three strategies (correcting, connecting, championing) are rendered faithfully, and the Caveats correctly note the qualitative, single-industry basis and absence of quantitative testing.",
+      "issues": []
+    },
+    {
+      "number": 20,
+      "work_id": "W7204166660",
+      "headline": "Two flavors of search ads on the same platform behave very differently when bad reviews pile up",
+      "verdict": "minor",
+      "notes": "Data source, method, the positive interaction between the two ad channels, the asymmetric sensitivity to negative reviews and the total-review effect all match; the consumer angle infers a shopper-level mechanism the study did not measure.",
+      "issues": [
+        {
+          "label": "Shopper-level mechanism inferred from ad performance data",
+          "severity": "Moderate",
+          "as_written": "shoppers appear to discount bad reviews when a listing carries a platform's authorized-brand credential, and to take them far more seriously on ordinary marketplace listings",
+          "abstract_says": "while SSA_Taobao's performance is sensitive to negative reviews (both intra- and inter-channel), SSA_Tmall remains ro-bust against such feedback",
+          "problem": "The study analyses seller-level sponsored-search sales performance; it does not measure how individual shoppers weigh reviews, so attributing the pattern to shopper discounting is an untested interpretation.",
+          "suggested_fix": "Frame it as one possible explanation, e.g. \"ad returns on Tmall storefronts held up as negative reviews accumulated, while marketplace-store ads did not — one possible reading is that the authorised-brand badge buffers doubt.\""
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "work_id": "W7170143274",
+      "headline": "Celebrity-founded brands on the shelf can raise how shoppers feel about the whole store — if three kinds of fit line up",
+      "verdict": "minor",
+      "notes": "Design, Ns and journal all match the abstract; framing appropriately hedged. Minor wording issues: 'celebrity-founded' is not supported (abstract says 'celebrity brands'), and the abstract does not describe the worshipper/non-worshipper split as self-identified.",
+      "issues": [
+        {
+          "label": "Worshipper grouping described as self-identified",
+          "severity": "Minor",
+          "as_written": "The relative weight of the three fit judgments differed between self-identified celebrity 'worshippers' and non-worshippers.",
+          "abstract_says": "Study 2 reveals that the effects of the three fit constructs on store attractiveness vary across celebrity worshippers versus non-worshippers",
+          "problem": "The abstract does not say how worshipper status was determined; calling it 'self-identified' adds a methodological detail that cannot be verified from the abstract.",
+          "suggested_fix": "Drop 'self-identified' and simply refer to 'celebrity worshippers versus non-worshippers' as the abstract does."
+        },
+        {
+          "label": "'Celebrity-founded' vs 'celebrity brands'",
+          "severity": "Minor",
+          "as_written": "Celebrity-founded brands on the shelf can raise how shoppers feel about the whole store",
+          "abstract_says": "In recent years, celebrity brands have become widely available in major retailers.",
+          "problem": "The abstract uses 'celebrity brands' (and the digest body says 'celebrity-owned brands'); 'celebrity-founded' implies a specific ownership/origin claim the abstract does not make.",
+          "suggested_fix": "Use 'celebrity brands' in the headline to match the abstract's terminology."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 9,
+    "cached": 0,
+    "skipped": 12,
+    "skipped_reason": "",
+    "partial_reason": "coverage stopped after 240s; 12 study(ies) unchecked",
+    "by_work": {
+      "W7203936299": {
+        "query": "Store brands pay off their own shelf space than negotiating",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212164165": {
+        "query": "Who takes salesperson advice Richer shoppers consistently",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7208768688": {
+        "query": "Sustainable beats green label because hints product will last",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7210266064": {
+        "query": "Hiring official board measurably improves government sales except procurement truly",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212072927": {
+        "query": "Return fraud isn driven lenient policies driven peer norms money",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203777252": {
+        "query": "Plus size mannequins next standard ones lifted brand attitudes willingness",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7208808437": {
+        "query": "Customers who return groceries then spend unless retailer looks fault",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7172339845": {
+        "query": "some shoppers game system not greed wanting feel clever",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7207745459": {
+        "query": "redesigned coffee packs won shelf test but only barely not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** Across this batch, the binding constraint on retail persuasion is no longer attention or price — it is consumer suspicion, and brands' own attempts at reassurance keep backfiring. A retailer's health endorsement stamped on top of an independent nutrition label *lowered* perceived healthiness (W7203930195); uniformly positive buzz *reduced* brand credibility and marketplace value in Web3 markets (W7171935030); vague \"up to £100 off\" framing triggered persuasion knowledge and suppressed spend among cautious shoppers (W7203672036); and relationship-and-loyalty framing paradoxically *licensed* customer opportunism (W7172339845). What works instead is third-party or structural credibility: external trustworthiness cues closed the socioeconomic gap in who takes a salesperson's advice (W7212164165), and a platform's authorized-brand badge insulated ad returns from accumulating bad reviews while ordinary marketplace listings bled effectiveness (W7204166660).\n\n**Why pitch this now:** Greenwashing and drip-pricing enforcement is tightening on exactly the vague, self-issued claims these studies show don't work, while retail media and marketplace consolidation are pushing more brands into storefronts where a platform badge — not the brand's own voice — carries the trust.\n\n**Angle:** A feature on the collapse of self-issued credibility in retail: why the marketing industry's instinct to add another reassuring signal now subtracts value, and why the trust that converts is increasingly rented from third parties, platforms, and even unmoderated criticism. Pitch to a CMO/strategy readership, with a consumer-facing variant for readers who suspect they're being handled and, per the evidence, are right.\n\n**Potential headlines:**\n- The evidence against saying you're trustworthy\n- Glowing reviews made a brand worth less\n- Every reassurance on the label is costing you a sale\n  \n**Potential outlets:**\n- **Marketing Week** — its strategy readership argues constantly about brand trust metrics; this reframes \"positive sentiment\" as a KPI that can invert.\n- **MIT Sloan Management Review** — suits the governance-level argument that credibility must be sourced externally, with multi-study evidence rather than case anecdotes.\n- **Digiday** — the marketplace/retail-media half of the story (authorized-storefront badges, review spillover across store types) is squarely its beat.\n- **The Atlantic** — runs consumer-psychology essays; \"your suspicion of marketing is now measurable, and it changes what you buy\" fits its money-and-behavior register.",
+    "pitch_ideas": "- **Store brands pay off less on their own shelf space than at the negotiating table (Work ID W7203936299):** Private label as a bargaining weapon, not a margin play — the store brand's real job is extracting cheaper wholesale terms from the national brand next to it, for a grocery-trade analysis piece or a business-desk explainer on supermarket pricing power.\n- **Who takes the salesperson's advice? Richer shoppers, consistently (Work ID W7212164165):** Advisory selling works best on people who least need protecting — an advice gap with consumer-welfare stakes in finance and home improvement, for a personal-finance column or consumer-affairs section.\n- **\"Sustainable\" beats \"green\" on the label — because it hints the product will last (Work ID W7208768688):** One unregulated eco-word quietly promises durability the label can't guarantee — a greenwashing story with a specific, testable claim, for a marketing-trade news brief or a sustainability/regulation desk.\n- **Hiring an ex-official to your board measurably improves government sales (Work ID W7210266064):** A dollar-value read on the revolving door, with the finding that competitive procurement is what neutralizes it, for a business-investigations or public-policy feature rather than a marketing outlet.\n- **Return fraud isn't driven by lenient policies — it's driven by peer norms and money pressure (Work ID W7212072927):** Retailers tightening return windows may be fixing the wrong thing; monitoring cues and responsive service beat fine print, for a retail trade explainer or e-commerce operations column.\n- **Plus-size mannequins next to standard ones lifted brand attitudes — and willingness to pay (Work ID W7203777252):** Inclusive merchandising with a commercial number attached, plus a luxury exception that complicates the story, for a retail-trade or fashion-business piece.\n- **Customers who return groceries then spend more — unless the retailer looks at fault (Work ID W7208808437):** Returns as a risk-reducer that unlocks trial, with quality-failure returns as the exception retailers should isolate in their data, for a retail trade or supply-chain-adjacent analysis.\n- **Why some shoppers game the system: it's not greed, it's wanting to feel clever (Work ID W7172339845):** Loyalty and relationship messaging may license abuse while a light monitoring cue curbs it — the counterintuitive item of the batch, for a consumer-psychology explainer in a general-interest outlet.\n- **AI-redesigned coffee packs won a shelf test — but only barely (Work ID W7207745459):** A rare real-shelf, real-take-home test of generative-AI design work, and a deliberately deflationary one, for a design/CPG trade brief or an AI-in-marketing column.\n- **A bad delivery hurts less when it's not your van (Work ID W7202034360):** Owning the last mile concentrates both credit and blame — and a cheap pre-dispatch warning message buys much of the protection, for a logistics or e-commerce trade piece.\n- **AR and VR don't sell in one way: immersion wins browsers, vividness closes sales (Work ID W7203672599):** A spec sheet for AR spend by funnel stage, drawn from 126 samples, for a CMO-audience column or a digital-retail trade explainer.\n- **How a customer first shops online predicts how profitable they'll be for years (Work ID W7202042423):** Black Friday-acquired online adopters are forward-buyers, not converts — a warning on channel-migration metrics, for a CMO/growth column or a retail-finance piece ahead of peak season.\n- **Rude customers don't always damage staff performance (Work ID W7202124108):** Customer abuse mediated by how staff read it, with real performance records attached — for a workplace/HR desk or a retail-management column.\n- **Shoppers are likelier to donate loyalty points they can't spend (Work ID W7212193195):** Stranded points feel like something to give away, spendable ones feel like money — a loyalty-liability story for a loyalty/CRM trade brief.\n- **In Web3 markets, too much positive buzz can actually depress brand value (Work ID W7171935030):** 13 million tweets and 315 million NFT transactions showing uniform praise reads as hype, for a digital-marketing trade piece or a crypto/business analysis section.\n- **\"$10 off when you spend $50\" backfires with cautious shoppers (Work ID W7203672036):** The shoppers who feel most manipulated by threshold deals spend the least, and \"up to X off\" is what triggers it — for a personal-finance column and, separately, a promotions-strategy trade brief.\n- **The same food looks healthier under one nutrition label than another (Work ID W7203930195):** Nutri-Score versus NutrInform as a brand-equity decision, plus the retailer endorsement that backfired, for a food-industry trade explainer or health-policy coverage.\n- **Eye-tracking shows busy product images make shoppers work harder — and feel less (Work ID W7204047411):** Clutter is not one variable — element count and color hurt, layout doesn't — for an e-commerce/CRO practitioner piece.\n- **Three ways brands cause cultural appropriation harm (Work ID W7202056329):** A pre-launch diagnostic that explains why apologies so often fail when the real objection was about who got paid, for a brand-strategy or PR trade column.\n- **Two flavors of search ads on the same platform behave very differently when bad reviews pile up (Work ID W7204166660):** Bad reviews leak across storefront types, but the authorized-brand badge absorbs them — for a marketplace/retail-media trade analysis.\n- **Celebrity-founded brands on the shelf can raise how shoppers feel about the whole store (Work ID W7170143274):** A three-axis fit screen for retailers stocking celebrity lines as traffic drivers, for a retail-buying trade brief."
+  }
+}
