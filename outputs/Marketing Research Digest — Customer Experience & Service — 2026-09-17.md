@@ -1,0 +1,418 @@
+# Marketing Research Digest
+**Run date:** 2026-09-17 | **Coverage window:** Last 60 days
+**Journals searched:** 177 | **Articles screened:** 40 (of 124 published)
+**Focus:** Customer Experience & Service
+**Primary audience:** marketers and brand leaders | **Secondary audience:** general readers and consumers
+
+---
+
+### 1. Customers at a fork in the road are the ones worth marketing to
+
+**Journal:** *Journal of the Academy of Marketing Science* | **Published:** 2026-09-07
+**Work ID:** W7211878886 | **DOI:** 10.1007/s11747-026-01193-x
+
+**The study:** Researchers built a "dual-LSTM" machine learning model — two neural networks that jointly forecast a customer's future behavior and the firm's own future marketing actions — and calibrated it on nine years of individual-level records from 21,939 donors. Instead of predicting a single expected customer lifetime value, the model produces a full distribution of possible futures, and it beat six benchmarks (including the standard Pareto/NBD and hierarchical Bayesian and deep-learning alternatives) on 19 of 24 metrics. Targeting by the right tail of the CLV distribution rather than by average CLV raised targeting lift by up to 8.3%, and "bimodal" customers — those whose futures split into two very different paths — responded dramatically better to solicitations (+77% ROI versus -50% for otherwise identical customers).
+
+**Why it matters:** Most CRM systems rank customers by a single expected-value score, which the paper shows can send money to people whose trajectory is already settled while ignoring those genuinely persuadable at that moment.
+
+**Story angles:**
+- **For marketers and brand leaders:** A prompt to audit how your CLV scores are used: if two customers with the same predicted value have very different ranges of possible outcomes, the uncertain one may be the better target. Worth testing on your own data before rebuilding a targeting stack, since the model was calibrated in a single donation setting.
+- **For general readers and consumers:** It helps explain why you suddenly get courted by a company you were drifting away from — increasingly, firms are trying to spot the moment your loyalty is genuinely up for grabs, not just how much you are worth on average.
+
+**Caveats:** Single organization and category (donors to a nonprofit); results are model-based predictions plus simulation rather than a randomized field test of the new targeting rule; the 79% consultant statistic comes from a small convenience survey at one strategy firm.
+
+---
+### 2. Replying to every bad review may be the wrong strategy
+
+**Journal:** *Journal of Service Research* | **Published:** 2026-09-02
+**Work ID:** W7207820376 | **DOI:** 10.1177/10946705261477467
+
+**The study:** Researchers text-mined 371,878 complaint–response exchanges from hotel and restaurant reviews on Tripadvisor and Yelp, coding how closely each management reply addressed the specific issues raised, whether it contained procedural or distributive justice cues (a process fix or compensation), and whether the business replied to all negative reviews or only some. Responses that demonstrably engaged with the specific service aspects in the complaint were associated with more subsequent positive reviews, and that link strengthened when justice cues were present. Notably, selective responding to negative reviews was associated with more subsequent positive review volume than blanket responding to every one.
+
+**Why it matters:** Webcare is usually run as a coverage target — respond to everything, fast — but this large-scale evidence suggests content and selectivity matter more than volume, which changes how service teams should allocate scarce reply time.
+
+**Story angles:**
+- **For marketers and brand leaders:** Test replacing "respond to 100% of negative reviews" KPIs with quality standards: does the reply name the specific failure and offer a concrete remedy or process change? Selectivity beat blanket responding here, but it is correlational — a controlled rollout in one region or property group would show whether it holds for your brand.
+- **For general readers and consumers:** When you read management replies before booking, the tell is specificity: a reply that addresses the exact complaint and offers a fix signals a business that actually fixes things, while identical boilerplate under every bad review signals the opposite.
+
+**Caveats:** Observational platform data — associations, not proven causation; hospitality categories only (hotels and restaurants) on two review platforms; unobserved factors such as overall service improvements could drive both better replies and better later reviews.
+
+---
+### 3. Your new tech fails because two people have to adopt it, not one
+
+**Journal:** *Journal of Service Research* | **Published:** 2026-08-18
+**Work ID:** W7168115520 | **DOI:** 10.1177/10946705261471938
+
+**The study:** The authors argue that standard technology acceptance models miss a common frontline reality: customer adoption of a firm's technology is often gated by an employee's adoption of it first. They propose a Dual Adoption Model in which the costs and benefits for both the first user (frontline staff) and the second user (the customer) must be weighed together, and test it in a field study of an e-commerce platform rollout where salespeople had to bring customers onto the system. The framework is used to diagnose where rollouts stall — for example, when staff bear the effort but customers capture the benefit.
+
+**Why it matters:** It reframes disappointing returns on digital service investments as an incentive and sequencing problem rather than a customer-resistance or training problem.
+
+**Story angles:**
+- **For marketers and brand leaders:** Before the next platform rollout, map who pays the cost and who gets the benefit at each step, and ask whether frontline staff have any reason to push customers onto a channel that may reduce their own role or commission. Test incentive fixes on the mediating user first.
+- **For general readers and consumers:** If a store employee shrugs when you ask about the company's app or online ordering, it may be because the system makes their job harder — a useful reminder that frontline enthusiasm for digital tools is not automatic.
+
+**Caveats:** Single firm and single technology rollout; limited detail on sample size and design in the abstract; substantial conceptual component alongside the field evidence.
+
+---
+### 4. Customers who crack a joke get better service
+
+**Journal:** *Asia Pacific Journal of Marketing and Logistics* | **Published:** 2026-09-14
+**Work ID:** W7212527755 | **DOI:** 10.1108/apjml-04-2026-0874
+
+**The study:** Two studies in China examined what happens when the customer, not the employee, brings the humor. A scenario-based online experiment (N=146) and a three-wave, multi-source survey of 340 frontline hospitality employees both found that customer humor was associated with more proactive service behavior from staff, with the quality of the customer–employee exchange relationship acting as the mediating mechanism. The effect was stronger among employees high in extraversion.
+
+**Why it matters:** Service quality is usually treated as something the firm produces, but this suggests part of it is co-produced by customer demeanor — relevant to how firms train staff to read and reciprocate light social cues.
+
+**Story angles:**
+- **For marketers and brand leaders:** Consider whether frontline training and scripting leave room for staff to play along with customers' humor, and whether personality fit matters in role assignment for high-contact positions. The effects here are modest-scale and culture-bound, so treat it as a hypothesis to test in your own service settings.
+- **For general readers and consumers:** A small piece of practical life advice with evidence behind it: being playful rather than transactional with a service worker appears to buy you more discretionary effort than complaining does.
+
+**Caveats:** Single country (China) and one sector (hospitality); Study 1 uses hypothetical scenarios with an online sample under 150; Study 2 is a survey and, despite three waves, cannot firmly establish causation; customer humor as reported by employees.
+
+---
+### 5. Japanese fashion retailers are turning store staff into their own influencers
+
+**Journal:** *International Journal of Retail & Distribution Management* | **Published:** 2026-09-15
+**Work ID:** W7213259568 | **DOI:** 10.1108/ijrdm-12-2025-0925
+
+**The study:** Through an exploratory study combining descriptive analysis of leading Japanese fashion retailers' websites with interviews with industry participants (analyzed via open coding and topic modeling), the authors document an "Employee as Model and Social Media Communicator" strategy in which store staff appear as models on product pages and post styling content on social media. Retailers reported gains in authenticity, customer trust and cross-channel engagement, including higher online conversion and more store visits, though implementation varied widely in how centralized it was and whether staff received incentives.
+
+**Why it matters:** It offers a low-cost, in-house alternative to paid influencer marketing that also links online browsing back to specific stores and staff — but only works with training, incentives and organizational support.
+
+**Story angles:**
+- **For marketers and brand leaders:** Worth piloting as an influencer substitute: real staff wearing real inventory can be measured against paid creator campaigns on conversion and store traffic. The open questions are incentive design, ownership of content, and whether staff view the extra role as enrichment or unpaid labor.
+- **For general readers and consumers:** That relatable person modeling the jacket you are browsing may be the employee at your local branch — a shift that makes retail imagery feel more credible while quietly expanding what shop-floor jobs involve.
+
+**Caveats:** Exploratory qualitative study in a single country and category (Japanese fashion retail); performance claims such as higher conversion rates come from company and interviewee reports rather than independent measurement; no control comparison.
+
+---
+### 6. Your AI complaint agent only works if it's allowed to issue the refund
+
+**Journal:** *Journal of Retailing and Consumer Services* | **Published:** 2026-08-18
+**Work ID:** W7203673228 | **DOI:** 10.1016/j.jretconser.2026.105042
+
+**The study:** Researchers combined a qualitative study, two pretests, two randomized experiments with an incentivized purchase choice, and two secondary-data studies of UK retailers to test what makes AI-handled complaints actually restore business. They separated who handles the recovery (generative AI versus a human agent) from whether that agent has visible authority to complete a remedy on the spot — refunds, replacements, delivery upgrades, account credits. GenAI was not inherently better or worse than a human; its advantage appeared only when it was empowered to act, which improved perceived justice, cut customer effort, restored trust, and produced the strongest repeat purchase, spending and churn outcomes in the field data. Severe failures weakened the advantage, while strong existing relationships amplified both the penalty for a powerless bot and the payoff for an empowered one.
+
+**Why it matters:** Most retailers are deploying GenAI complaint handling as a cost play while keeping decision rights with humans — this evidence says that configuration is the worst of both worlds, and that the authority architecture behind the bot matters more than whether the customer knows it's a bot.
+
+**Story angles:**
+- **For marketers and brand leaders:** Audit what your AI service agent can actually do versus merely say. The testable question for retailers: does granting the bot executable authority over routine, low-severity remedies within defined limits move repeat purchase and churn, and where should the escalation threshold to an accountable human sit?
+- **For general readers and consumers:** When you're stuck with a chatbot, the frustrating part may not be that it's a machine — it's that it can't approve anything. The research suggests customers judge service recovery by whether the person or system in front of them can fix the problem then and there.
+
+**Caveats:** UK retailing only; experiments used an incentivized purchase choice rather than natural shopping; field outcomes come from secondary data where recovery configurations were observed rather than randomly assigned.
+
+---
+### 7. An "AI-generated" label on your ad quietly lowers expectations of your service
+
+**Journal:** *Journal of Advertising* | **Published:** 2026-09-15
+**Work ID:** W7213292238 | **DOI:** 10.1080/00913367.2026.2720926
+
+**The study:** Two experiments in service contexts tested what happens when an ad carries an AI disclosure label of the kind platforms are increasingly mandating. Disclosure lowered expected service quality and, in the first study, purchase intention. The mechanism was a spillover inference: consumers assumed a firm that uses AI to make ads also uses AI to deliver the service, which hurt quality expectations — partly offset by a positive inference that the brand must have genuine AI expertise. A second study showed evaluations shifted depending on whether the company's website confirmed or contradicted the assumed AI integration in service delivery.
+
+**Why it matters:** As AI labeling becomes platform-mandated, the production-cost savings from AI-generated creative may be eaten by downgraded expectations of the actual product or service — a cost most media planning models aren't capturing.
+
+**Story angles:**
+- **For marketers and brand leaders:** If you are scaling AI-generated creative, test whether disclosure changes downstream service quality expectations, not just ad liking. The counterweight the paper points to is credible evidence of AI capability plus explicit clarification of where AI does and doesn't touch service delivery.
+- **For general readers and consumers:** People read an AI-made ad as a clue about the whole company — if the marketing is automated, they assume the customer service will be too. It's a small window into how consumers infer what's behind the curtain from a single visible cue.
+
+**Caveats:** Two experiments with hypothetical service scenarios and stated purchase intention rather than real purchases; sample details and country not specified in the abstract; no test of long-run effects as AI labels become ubiquitous and normalized.
+
+---
+### 8. When customers help build it and it fails, they praise you anyway — and that's a problem
+
+**Journal:** *European Journal of Marketing* | **Published:** 2026-07-27
+**Work ID:** W7171377067 | **DOI:** 10.1108/ejm-04-2025-0331
+
+**The study:** Four experiments with participants from the online platforms Prolific and Credamo put people into co-creation failure scenarios, varying how much they had personally participated in creating the product or service. Highly involved customers gave more positive word of mouth about the firm after a failure than low-involvement customers did — not because they were happier, but to protect their own image, a "WOM masking effect" driven by impression management motivation. When the failure was publicly visible rather than private, the masking largely disappeared.
+
+**Why it matters:** Firms running co-creation, customization or configurator programs may be reading inflated satisfaction signals: the more a customer invested in the outcome, the less their public feedback tells you about whether it actually worked.
+
+**Story angles:**
+- **For marketers and brand leaders:** Treat post-co-creation reviews as a compromised quality signal. Worth testing: private, anonymous or non-attributable feedback channels for highly involved customers, and comparing those against public reviews to see how wide the gap runs in your own categories.
+- **For general readers and consumers:** We defend the things we helped make, even to ourselves. If you designed your own sneaker or planned your own trip and it went badly, you may be more likely to tell people it went fine — which is worth remembering when reading other people's glowing reviews.
+
+**Caveats:** All four studies used online panels and hypothetical failure scenarios rather than real co-creation purchases; word of mouth was self-reported intention, not observed posting behavior; authors themselves note the need for validation with secondary data.
+
+---
+### 9. Hotel robots with child-like voices are rated as better service
+
+**Journal:** *Journal of Consumer Behaviour* | **Published:** 2026-08-20
+**Work ID:** W7203856104 | **DOI:** 10.1002/cb.70218
+
+**The study:** Using a NAO hotel reception robot, researchers ran a preliminary text analysis and three experiments manipulating the robot's vocal characteristics. A child-like voice produced higher perceived service quality than an adult voice, an effect carried by both functional value and social-relational value. The social-relational pathway was stronger for consumers with a high need for social interaction. Vocal gender — female versus male — had no significant effect on perceived service quality.
+
+**Why it matters:** Voice design for service robots and voice assistants is usually debated in terms of gender; this suggests perceived age is the variable that actually moves service quality judgments, at least in hedonic settings like hotels.
+
+**Story angles:**
+- **For marketers and brand leaders:** If you are specifying voice for robots, kiosks or voice agents, vocal age deserves a place in the test matrix alongside gender and accent. The open question is whether a child-like voice that charms in a leisure setting undermines credibility in high-stakes contexts such as banking, health or complaint handling.
+- **For general readers and consumers:** A cute voice may be doing more work on your opinion of a hotel than the check-in itself — a reminder of how much of "good service" is tone rather than substance.
+
+**Caveats:** Experimental studies in a single hedonic context (hotel reception) with one robot platform; sample sizes and country not specified in the abstract; perceived service quality is a rated judgment, not an actual service outcome or spending measure.
+
+---
+### 10. Salespeople who want to look good deliver warmer service — and weaker technical quality
+
+**Journal:** *Journal of Services Marketing* | **Published:** 2026-09-02
+**Work ID:** W7204989107 | **DOI:** 10.1108/jsm-12-2025-0880
+
+**The study:** Researchers matched dyadic data from 584 salespeople and 1,603 of their customers across 68 firms, using hierarchical linear modeling to test how employees' goal orientations relate to customer-perceived service quality. Employees driven to prove their performance scored higher on functional quality (how the service feels) but, in service industries specifically, showed a trade-off with weaker technical quality (whether the substance is right). Learning orientation improved technical quality consistently across contexts but did nothing for functional quality, and effects differed again between B2B and B2C settings.
+
+**Why it matters:** Sales incentives and coaching that push employees to demonstrate performance may be buying likability at the expense of competence in exactly the industries where competence is hardest for customers to verify.
+
+**Story angles:**
+- **For marketers and brand leaders:** Check whether your frontline scorecards reward proving over learning, and whether customer satisfaction metrics are picking up warmth while masking technical errors. The trade-off appears to be context-dependent, so service and goods divisions may need different coaching emphases.
+- **For general readers and consumers:** A salesperson who is charming and attentive isn't necessarily the one getting the details right — the two qualities can pull against each other, depending on what motivates them.
+
+**Caveats:** Cross-sectional dyadic survey data, so causal direction cannot be established; goal orientations are self-reported and service quality is customer-perceived rather than objectively measured; country and industry composition of the 68 firms not specified in the abstract.
+
+---
+### 11. When robots fail badly, giving them a human face backfires
+
+**Journal:** *Journal of Services Marketing* | **Published:** 2026-08-13
+**Work ID:** W7203488123 | **DOI:** 10.1108/jsm-02-2026-0112
+
+**The study:** Across three experiments in hospitality service settings, researchers tested how anthropomorphic design of AI service robots (human-like faces, names, voices) affected customers' intentions to keep using the robot after a service failure, with failure severity as the key moderator. For mild, recoverable failures, human-like robots helped recovery by raising perceived innovativeness and parasocial connection. For severe failures, the same human-like cues raised expectations and triggered harsher judgments of overall system competence, weakening both recovery pathways and cutting continued-usage intentions.
+
+**Why it matters:** Hospitality and retail firms are rushing to humanize service robots on the assumption that friendliness buys forgiveness; this evidence suggests the friendliness premium reverses exactly when things go badly wrong.
+
+**Story angles:**
+- **For marketers and brand leaders:** Service leaders deploying robots could test whether anthropomorphic cues should be dialed down, or paired with different recovery scripts, in high-stakes touchpoints where failures are costly, and treat the cute-robot design default as a hypothesis rather than a rule.
+- **For general readers and consumers:** People appear to hold human-like machines to a higher standard than plain ones: the more a robot acts like a person, the less slack customers cut it when it seriously messes up.
+
+**Caveats:** Experimental studies with scenario-based service failures rather than observed behavior with real robots; sample details, country and recruitment source not reported in the abstract; outcomes are stated usage intentions.
+
+---
+### 12. AI writing help makes non-native English speakers believe their complaints will actually land
+
+**Journal:** *Journal of Marketing Management* | **Published:** 2026-08-17
+**Work ID:** W7203645795 | **DOI:** 10.1080/0267257x.2026.2716336
+
+**The study:** Three experiments compared consumers who speak English as a second language with native English speakers when composing a service complaint, testing whether generative AI writing assistance changed their confidence and expectations. ESL consumers reported lower complaint self-efficacy and lower perceived likelihood that a complaint would be successfully resolved. When given GenAI assistance in drafting the complaint, ESL consumers' self-efficacy rose and, through that, so did their expectation of a successful outcome.
+
+**Why it matters:** A large share of customer dissatisfaction never reaches the firm because some customers do not feel equipped to articulate it, which means complaint data systematically under-represents linguistically diverse customers.
+
+**Story angles:**
+- **For marketers and brand leaders:** Brands could test embedding AI drafting help directly in complaint and feedback forms as a way to surface silent dissatisfaction, and should prepare for the possibility that better-written inbound complaints raise both volume and customer expectations of resolution.
+- **For general readers and consumers:** For anyone who has abandoned a complaint because writing it felt like too much work, this suggests chatbots and writing tools can meaningfully lower that barrier and change what you expect to get back.
+
+**Caveats:** Experimental studies measuring self-efficacy and perceived likelihood of success, not actual complaints filed or actual firm responses; sample size, country and recruitment source not specified in the abstract; short time horizon.
+
+---
+### 13. In VR retail displays, showing the product in use beats letting shoppers imagine it
+
+**Journal:** *Psychology and Marketing* | **Published:** 2026-07-21
+**Work ID:** W7169838255 | **DOI:** 10.1002/mar.70234
+
+**The study:** Four sets of experiments tested two kinds of virtual reality in-store displays: contextual displays that place a product in a concrete use setting versus imaginative displays that invite shoppers to picture their own scenario. The researchers measured how shoppers evaluated the experience, how intense it felt, and whether they extended the interaction. Contextual VR displays consistently produced stronger experiential responses across jeans, perfume, local-brand and foreign-brand conditions, with evaluation and intensification sequentially mediating the effect on experience extension.
+
+**Why it matters:** Retailers investing in immersive technology often assume the immersion itself is the payoff; this evidence says the design logic of what is shown matters more than the hardware.
+
+**Story angles:**
+- **For marketers and brand leaders:** Before scaling VR or AR displays, retailers could A/B test concrete, use-in-context scenes against open-ended imaginative ones, since the cheaper creative decision may drive more of the experiential lift than the technology investment.
+- **For general readers and consumers:** Shoppers appear to respond better when a product is shown being used in a recognizable situation than when they are asked to do the imagining themselves, which explains why the most effective product visuals are rarely the most abstract ones.
+
+**Caveats:** Laboratory-style experimental designs with self-reported experiential outcomes rather than purchases; sample sizes, countries and recruitment sources not specified in the abstract; limited to two product categories.
+
+---
+### 14. Rejected for a loan, but staying with the bank anyway
+
+**Journal:** *International Journal of Bank Marketing* | **Published:** 2026-09-02
+**Work ID:** W7206172982 | **DOI:** 10.1108/ijbm-02-2025-0151
+
+**The study:** A vignette-based study with 505 usable responses from South African banking customers examined what happens psychologically after a loan application is declined. Loan rejections produced moderate cognitive dissonance, which significantly reduced satisfaction with the bank. The effect on loyalty, however, was much weaker and less direct, with many customers reporting they would stay put despite the dissatisfaction.
+
+**Why it matters:** Banks routinely say no to customers and often treat the rejection as a purely operational event; the finding suggests satisfaction takes a real hit even when the relationship survives, leaving a store of latent discontent.
+
+**Story angles:**
+- **For marketers and brand leaders:** Financial services marketers could test whether clearer explanations of decline decisions and concrete alternative offers measurably reduce post-rejection dissatisfaction, rather than assuming stable account retention means the relationship is intact.
+- **For general readers and consumers:** Inertia, not contentment, may be what keeps many people at their bank after a rejection — worth knowing if you have been quietly unhappy with a lender and never acted on it.
+
+**Caveats:** Hypothetical vignette rather than real loan rejections; cross-sectional survey analyzed with structural equation modeling, so causal claims are limited; stated loyalty intentions rather than observed switching; single country and single industry.
+
+---
+### 15. Want silent customers to tell you what went wrong? Send the bot, and make it about them
+
+**Journal:** *Journal of Consumer Behaviour* | **Published:** 2026-08-11
+**Work ID:** W7202198898 | **DOI:** 10.1002/cb.70219
+
+**The study:** Across five scenario-based experiments, researchers tested how to get "noncomplaining" consumers — people who quietly absorb a bad service experience instead of speaking up — to share feedback after a failure. They varied who asked (a chatbot vs. a human agent) and what the request emphasized (a self-benefit appeal, framed around what the consumer gains, vs. an other-benefit appeal, framed around helping the firm or other customers). Chatbots paired with self-benefit appeals produced the highest willingness to disclose, with self-focus and self-presentation concerns identified as the mechanisms, and consumers' self-awareness moderating the effect.
+
+**Why it matters:** Most service failures never get reported, so firms fix what they hear about rather than what actually goes wrong; this suggests the channel and framing of the feedback request, not just its existence, determine whether silent customers open up.
+
+**Story angles:**
+- **For marketers and brand leaders:** Worth A/B testing in live service recovery flows: route post-failure feedback prompts through a chatbot rather than a human agent, and rewrite the ask from "help us improve" to "tell us so we can make this right for you." Because these are hypothetical scenarios, treat it as a hypothesis to validate against real disclosure rates before rebuilding the workflow.
+- **For general readers and consumers:** It explains a familiar feeling: people find it easier to admit a bad experience to a bot than to a person, because there is no face to save. If you have ever bitten your tongue with a service rep but typed a complaint into a chat window, this is why.
+
+**Caveats:** All five studies used hypothetical scenario experiments rather than real service failures, measuring stated willingness to disclose rather than observed feedback behavior; sample details and country context are not specified in the abstract.
+
+---
+### 16. Tech-curious B2B buyers push salespeople onto social media — until they push too hard
+
+**Journal:** *Journal of Business Research* | **Published:** 2026-08-28
+**Work ID:** W7204562935 | **DOI:** 10.1016/j.jbusres.2026.116506
+
+**The study:** Researchers surveyed B2B salespeople and matched their responses to ratings from their managers, testing how customers' interest in digital technology shapes salespeople's own social media use. The relationship was an inverted U: moderate customer enthusiasm for digital tools pulled salespeople onto social platforms, but at high levels that effect fell off, consistent with digital demands becoming a drain rather than a motivator. Salespeople with high job engagement held up better under that pressure, and social media use was associated with higher manager-rated service recovery performance.
+
+**Why it matters:** It reframes social selling as a resource problem rather than a training problem: the same customer base that motivates digital engagement can exhaust reps, and engaged reps are the ones who absorb it.
+
+**Story angles:**
+- **For marketers and brand leaders:** Before mandating more social selling, audit which accounts are creating digital pressure and whether reps have the engagement and support to carry it; the payoff shown here is in service recovery, so consider positioning social channels as a fix-it tool rather than only a prospecting tool.
+- **For general readers and consumers:** A glimpse into the hidden labor behind the salesperson who is always responsive on LinkedIn: customer expectations about digital availability create real strain, and the people who seem tireless are often the ones most invested in the job.
+
+**Caveats:** Cross-sectional survey data, so causal direction cannot be established; manager-rated performance reduces but does not eliminate self-report bias; sample size, industry and country are not specified in the abstract.
+
+---
+### 17. When frontline staff see robots as supportive coworkers, they start redesigning their own jobs
+
+**Journal:** *Journal of Hospitality Marketing & Management* | **Published:** 2026-08-20
+**Work ID:** W7203840311 | **DOI:** 10.1080/19368623.2026.2717185
+
+**The study:** A survey of 200 frontline service employees in South Korea examined how perceived support from service robots relates to job crafting — employees proactively reshaping their own tasks and roles. Employees who saw robots as socially supportive were more likely to craft their jobs, with anthropomorphism (treating the robot as human-like) as the mediating mechanism. The effect was strongest among employees with high technological self-efficacy and among those working in hospitality settings.
+
+**Why it matters:** Automation rollouts are usually justified on cost and throughput, but this suggests the human-like framing and perceived helpfulness of a robot shapes whether staff adapt around it productively or merely tolerate it.
+
+**Story angles:**
+- **For marketers and brand leaders:** Treat robot deployment as a change-management and design question: test whether giving machines supportive, human-like interaction cues, paired with technology confidence training, changes how staff reorganize their work — and watch whether that translates into service quality, which this study did not measure.
+- **For general readers and consumers:** The robot at the hotel desk or restaurant door is not only serving guests; it is quietly changing what the human staff around it choose to do all day, and staff who feel helped rather than replaced respond very differently.
+
+**Caveats:** Cross-sectional survey of 200 employees in a single country, so causation cannot be established and effects may not generalize beyond South Korea; outcomes are employee self-reports of job crafting, not observed performance or customer experience measures.
+
+---
+### 18. Let customers name the chatbot — they'll forgive it more when it fails
+
+**Journal:** *Psychology and Marketing* | **Published:** 2026-08-11
+**Work ID:** W7202216162 | **DOI:** 10.1002/mar.70250
+
+**The study:** Across four experiments plus a content analysis of the names people gave, researchers tested whether letting consumers name a service chatbot themselves changes how they react when the bot botches the job. Consumers who assigned their own name to a chatbot reported higher intention to use it again after a service failure than those given a firm-named or unnamed bot — showing it's the act of naming, not the mere presence of a name, that matters. The mechanism was felt closeness: naming made the bot feel relationally nearer. The buffering effect was stronger in hedonic service contexts and weaker in utilitarian ones.
+
+**Why it matters:** Chatbot failures are routine and expensive in reuse terms; a zero-cost onboarding tweak — inviting the user to name the assistant — may act as insurance against the inevitable breakdown.
+
+**Story angles:**
+- **For marketers and brand leaders:** A cheap, testable design change: A/B test a "what would you like to call me?" prompt at first contact against a pre-named bot, and watch post-failure reuse and abandonment rates. Note the boundary condition — the effect was weaker in utilitarian contexts, so banking or logistics bots may see less lift than entertainment or lifestyle ones.
+- **For general readers and consumers:** It's a small demonstration of how easily humans bond with machines: the simple act of christening a piece of software makes you measurably more forgiving when it lets you down — worth knowing before you name your next digital assistant.
+
+**Caveats:** Lab/online experiments with stated reuse intentions rather than observed behavior; no field data on real service interactions; effect sizes and sample details not specified in the abstract.
+
+---
+### 19. Patients want AI in the exam room — but only alongside a doctor
+
+**Journal:** *Journal of Retailing and Consumer Services* | **Published:** 2026-07-31
+**Work ID:** W7171856573 | **DOI:** 10.1016/j.jretconser.2026.105004
+
+**The study:** Two experiments tested how consumers react to healthcare service failures depending on how much AI was involved in the consultation. When AI assisted a physician, participants reported greater intention to reuse the service than after a human-only consultation that failed; when AI operated autonomously without physician oversight, reuse intention dropped. Mediation analysis pointed to trust, not blame attribution, as the driver. The benefit of AI assistance appeared only among consumers with low AI-related anxiety.
+
+**Why it matters:** Health systems and digital health firms deciding how visibly to deploy AI have a clear signal: framing AI as a physician's copilot can protect trust even when things go wrong, while autonomous AI erodes it.
+
+**Story angles:**
+- **For marketers and brand leaders:** For service designers, the takeaway to test is positioning, not capability — communicate human oversight prominently in AI-supported service flows, and segment messaging for AI-anxious customers, who got no benefit from AI assistance at all.
+- **For general readers and consumers:** When your telehealth visit goes wrong, what determines whether you come back isn't who you blame — it's whether you still trust the system. And trust survives if a human was clearly in the loop.
+
+**Caveats:** Two scenario-based experiments using hypothetical consultations and stated intentions rather than real patients or real medical outcomes; sample size and country not reported in the abstract; single service domain.
+
+---
+### 20. When a hotel robot messes up badly, send a human to apologize
+
+**Journal:** *Journal of Consumer Behaviour* | **Published:** 2026-08-07
+**Work ID:** W7201883691 | **DOI:** 10.1002/cb.70226
+
+**The study:** Four experiments examined apologies in unmanned smart hotels, crossing failure severity (high vs. low) with who delivers the apology (robot alone vs. human-robot collaboration). For minor failures, a robot-only apology produced more customer forgiveness, mediated by cognitive fit — a machine problem handled by a machine felt appropriate. For severe failures, human-robot collaboration produced more forgiveness, driven by perceived empathy. Customers' regulatory focus moderated the pattern: prevention-focused customers preferred human involvement regardless of severity.
+
+**Why it matters:** Automated hospitality operators typically staff recovery uniformly; this suggests recovery should be triaged by severity, with human staff reserved for serious failures rather than eliminated or deployed everywhere.
+
+**Story angles:**
+- **For marketers and brand leaders:** A concrete operational rule worth piloting: route low-severity complaints entirely to the automated system and escalate high-severity ones to a human-plus-robot response — then measure forgiveness, review scores and rebooking, since the evidence so far is experimental rather than from live properties.
+- **For general readers and consumers:** There's a logic to when an apology from a machine feels acceptable: for a small annoyance, a robot's apology fits the offense. For something that ruins your stay, only a person will do.
+
+**Caveats:** Scenario-based experiments rather than real hotel stays; stated forgiveness rather than observed behavior; sample sizes, nationality and recruitment method not specified in the abstract; single industry context.
+
+---
+### 21. Who gets blamed when a gig worker misbehaves? It depends on the customer's politics
+
+**Journal:** *Psychology and Marketing* | **Published:** 2026-08-10
+**Work ID:** W7202074508 | **DOI:** 10.1002/mar.70227
+
+**The study:** Three studies tested how political ideology shapes blame attribution after service failures in the sharing economy. Consumers identifying as liberal were more likely than conservatives to blame the platform organization rather than the individual gig worker, a pattern linked to liberals' weaker beliefs in personal responsibility and stronger corporate distrust. Critically, a message clearly emphasizing gig workers' independent contractor status reduced liberals' tendency to blame the platform and raised their intention to keep using the service.
+
+**Why it matters:** Platforms face reputational damage from incidents they didn't directly cause, and this identifies both a predictable segment of blame-shifting customers and a specific communication lever that reduced it.
+
+**Story angles:**
+- **For marketers and brand leaders:** Test how you frame worker independence in post-incident communications — the same disclosure that is legally routine appears to shift blame away from the brand for a specific ideological segment. But weigh that against the political risk of leaning on contractor status in a contested labor debate.
+- **For general readers and consumers:** Your instinct about whether a bad Uber ride is the driver's fault or Uber's fault tracks your broader beliefs about personal responsibility and corporations — the incident is the same, the verdict isn't.
+
+**Caveats:** Experimental studies relying on stated intentions and hypothetical transgressions rather than real incidents; political ideology findings are likely US-specific; sample details and sizes not reported in the abstract; the recommended messaging tactic was tested in the lab, not in live crisis communications.
+
+---
+## Citation Reference
+
+| # | Work ID | Journal | Date | DOI |
+|---|---------|---------|------|-----|
+| 1 | W7211878886 | Journal of the Academy of Marketing Science | 2026-09-07 | 10.1007/s11747-026-01193-x |
+| 2 | W7207820376 | Journal of Service Research | 2026-09-02 | 10.1177/10946705261477467 |
+| 3 | W7168115520 | Journal of Service Research | 2026-08-18 | 10.1177/10946705261471938 |
+| 4 | W7212527755 | Asia Pacific Journal of Marketing and Logistics | 2026-09-14 | 10.1108/apjml-04-2026-0874 |
+| 5 | W7213259568 | International Journal of Retail & Distribution Management | 2026-09-15 | 10.1108/ijrdm-12-2025-0925 |
+| 6 | W7203673228 | Journal of Retailing and Consumer Services | 2026-08-18 | 10.1016/j.jretconser.2026.105042 |
+| 7 | W7213292238 | Journal of Advertising | 2026-09-15 | 10.1080/00913367.2026.2720926 |
+| 8 | W7171377067 | European Journal of Marketing | 2026-07-27 | 10.1108/ejm-04-2025-0331 |
+| 9 | W7203856104 | Journal of Consumer Behaviour | 2026-08-20 | 10.1002/cb.70218 |
+| 10 | W7204989107 | Journal of Services Marketing | 2026-09-02 | 10.1108/jsm-12-2025-0880 |
+| 11 | W7203488123 | Journal of Services Marketing | 2026-08-13 | 10.1108/jsm-02-2026-0112 |
+| 12 | W7203645795 | Journal of Marketing Management | 2026-08-17 | 10.1080/0267257x.2026.2716336 |
+| 13 | W7169838255 | Psychology and Marketing | 2026-07-21 | 10.1002/mar.70234 |
+| 14 | W7206172982 | International Journal of Bank Marketing | 2026-09-02 | 10.1108/ijbm-02-2025-0151 |
+| 15 | W7202198898 | Journal of Consumer Behaviour | 2026-08-11 | 10.1002/cb.70219 |
+| 16 | W7204562935 | Journal of Business Research | 2026-08-28 | 10.1016/j.jbusres.2026.116506 |
+| 17 | W7203840311 | Journal of Hospitality Marketing & Management | 2026-08-20 | 10.1080/19368623.2026.2717185 |
+| 18 | W7202216162 | Psychology and Marketing | 2026-08-11 | 10.1002/mar.70250 |
+| 19 | W7171856573 | Journal of Retailing and Consumer Services | 2026-07-31 | 10.1016/j.jretconser.2026.105004 |
+| 20 | W7201883691 | Journal of Consumer Behaviour | 2026-08-07 | 10.1002/cb.70226 |
+| 21 | W7202074508 | Psychology and Marketing | 2026-08-10 | 10.1002/mar.70227 |
+
+---
+
+## Research Trends & Continuity
+
+_No prior digest on this topic to compare against yet — this is the first run._
+
+## Bigger Picture: Feature Pitch
+
+**The pattern:** Several studies in this batch converge on the same uncomfortable conclusion: the customer feedback firms collect is systematically biased toward the customers least likely to tell them the truth. Co-creation participants inflate their public word of mouth to protect their own image after a failure ("When customers help build it and it fails, they praise you anyway," W7171377067); quietly dissatisfied customers only open up when a bot asks and the ask is framed around their own benefit ("Want silent customers to tell you what went wrong?", W7202198898); non-native English speakers don't believe complaining will work until AI drafts it for them (W7203645795); rejected loan applicants stay put while their satisfaction drops ("Rejected for a loan, but staying with the bank anyway," W7206172982); and on review platforms, blanket replying to negative reviews performed worse than selective, specific replying ("Replying to every bad review may be the wrong strategy," W7207820376). Taken together, retention and satisfaction dashboards are measuring who feels able and willing to speak, not what actually went wrong.
+
+**Why pitch this now:** CX teams are simultaneously being pushed to automate feedback collection and to justify their budgets with satisfaction and retention scores — at exactly the moment generative AI is changing both who complains and how complaints read, and while NPS-style metrics are already under industry scrutiny.
+
+**Angle:** A reported feature on the blind spots inside the modern voice-of-the-customer stack — why silence, inertia and self-image make satisfaction data flatter and rosier than reality, and what the emerging research says about surfacing the complaints firms never hear. Aimed at CX, CMO and service-operations readers, with a consumer-facing version on why online reviews and "we value your feedback" surveys tell you less than you think.
+
+**Potential headlines:**
+- The complaints your customers never file
+- Your happiest customers may be the ones lying to you
+- Why staying put isn't the same as being satisfied
+
+**Potential outlets:**
+- **MIT Sloan Management Review** — takes measurement-critique pieces aimed at executives who own CX metrics and would engage the "your dashboard is biased" argument at length.
+- **Marketing Week** — strong CX and brand-measurement readership, and a natural home for a piece questioning satisfaction and review-response KPIs.
+- **Retail Dive** — retail and hospitality service teams are the ones running review-response quotas and post-purchase surveys this story challenges.
+- **The Atlantic** (Business/Technology) — the consumer-side version of the story, on inertia, self-justification and why we defend purchases and providers we're unhappy with.
+
+## Story Ideas by Study
+
+- **Customers at a fork in the road are the ones worth marketing to (Work ID W7211878886):** CRM orthodoxy flipped — ranking customers by uncertainty rather than expected value raised targeting lift, and "bimodal" customers swung from -50% to +77% ROI; for a CMO-audience column or a data/CRM trade explainer.
+- **Replying to every bad review may be the wrong strategy (Work ID W7207820376):** 371,878 complaint-reply pairs suggest the 100%-response-rate KPI is the wrong target and specificity plus a concrete remedy is what moves later reviews; for a marketing-trade news brief or a hospitality/retail operations explainer.
+- **Your new tech fails because two people have to adopt it, not one (Work ID W7168115520):** Digital service rollouts stall because staff carry the effort while customers take the benefit — a sequencing and incentive story, not a training story; for a CMO or service-operations column.
+- **Customers who crack a joke get better service (Work ID W7212527755):** Evidence that customer demeanor co-produces service quality, with a genuinely useful consumer takeaway: playfulness buys more discretionary effort than complaining; for a consumer-psychology explainer in a general-interest outlet.
+- **Japanese fashion retailers are turning store staff into their own influencers (Work ID W7213259568):** Store staff as in-house models and creators as a cheaper influencer substitute — with an unresolved question about whether it's enrichment or unpaid labor; for a retail trade feature or a creator-economy news brief.
+- **Your AI complaint agent only works if it's allowed to issue the refund (Work ID W7203673228):** The sharpest single item in the batch — customers don't punish the bot for being a bot, they punish it for having no authority, and the common "AI answers, humans decide" setup tested worst; for a marketing/retail trade news brief or a CX leadership column.
+- **An "AI-generated" label on your ad quietly lowers expectations of your service (Work ID W7213292238):** As AI disclosure becomes platform-mandated, labeled creative spills over into lower expected service quality — a hidden cost missing from media planning math; for an adtech or advertising trade news story.
+- **When customers help build it and it fails, they praise you anyway (Work ID W7171377067):** Co-creation and configurator programs may be generating flattering reviews that mask failures, and the masking vanishes when the failure is public; for a marketing-trade news brief or a consumer piece on reading reviews skeptically.
+- **Hotel robots with child-like voices are rated as better service (Work ID W7203856104):** Voice design debates fixate on gender, but perceived age moved service quality judgments while gender did nothing; for a design/technology explainer or a marketing-trade news brief.
+- **Salespeople who want to look good deliver warmer service — and weaker technical quality (Work ID W7204989107):** Incentives that reward proving performance buy likability at the cost of competence, in industries where customers can't check the substance; for a sales-management or HR-facing business column.
+- **When robots fail badly, giving them a human face backfires (Work ID W7203488123):** The cute-robot default reverses under severe failure because human-like machines get held to human standards; for a hospitality trade explainer or a consumer-technology column.
+- **AI writing help makes non-native English speakers believe their complaints will actually land (Work ID W7203645795):** A consumer-empowerment story with a corporate flip side — AI drafting lowers the barrier to complaining and raises expectations of resolution; for a general-interest consumer-rights or money column.
+- **In VR retail displays, showing the product in use beats letting shoppers imagine it (Work ID W7169838255):** The creative decision, not the headset, drives the experiential payoff — a cost-discipline message for retailers eyeing immersive spend; for a retail trade explainer.
+- **Rejected for a loan, but staying with the bank anyway (Work ID W7206172982):** Declines dent satisfaction while retention holds, meaning banks are sitting on latent discontent they can't see in churn numbers; for a personal-finance column or a banking trade brief.
+- **Want silent customers to tell you what went wrong? Send the bot, and make it about them (Work ID W7202198898):** Chatbots plus self-benefit framing unlocked disclosure from customers who normally say nothing — a concrete A/B test for service recovery flows; for a CX trade news brief or a consumer-psychology explainer on why we confess more easily to machines.
+- **Tech-curious B2B buyers push salespeople onto social media — until they push too hard (Work ID W7204562935):** Social selling as a resource-drain problem, with the payoff showing up in service recovery rather than prospecting; for a B2B sales trade column.
+- **When frontline staff see robots as supportive coworkers, they start redesigning their own jobs (Work ID W7203840311):** Automation as change management — whether staff craft their jobs around a robot depends on whether it feels like help or replacement; for a workplace/future-of-work business feature.
+- **Let customers name the chatbot — they'll forgive it more when it fails (Work ID W7202216162):** A zero-cost onboarding tweak that buys forgiveness for the inevitable breakdown, with a clear boundary condition in utilitarian services; for a product/UX design column or a marketing-trade brief.
+- **Patients want AI in the exam room — but only alongside a doctor (Work ID W7171856573):** After a failed consultation, trust survives if a human was visibly in the loop and collapses if the AI acted alone; for a digital health trade outlet or a health-and-technology section in a general-interest publication.
+- **When a hotel robot messes up badly, send a human to apologize (Work ID W7201883691):** A triage rule for automated hospitality — robot apologies fit small failures, humans are required for serious ones; for a hospitality trade explainer.
+- **Who gets blamed when a gig worker misbehaves? It depends on the customer's politics (Work ID W7202074508):** Political ideology predicts whether customers blame the platform or the worker, and contractor-status messaging shifted that blame — with obvious reputational risk in a live labor fight; for a PR/crisis-communications trade outlet or a politics-and-consumer-behavior piece in a general-interest outlet.

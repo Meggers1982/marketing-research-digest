@@ -1,12 +1,23 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 3,
+  "run_count": 4,
   "topics": [
     "ai & marketing technology",
+    "customer experience & service",
     "pricing & promotions",
     "retail & e-commerce"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-customer-experience-service-2026-09-17",
+      "title": "Marketing Research Digest — Customer Experience & Service — 2026-09-17",
+      "topic": "customer experience & service",
+      "run_date": "2026-09-17",
+      "study_count": 21,
+      "total_issues": "17 (16 Minor, 1 Moderate, 0 Major)",
+      "lead_count": 7,
+      "top_score": 95
+    },
     {
       "id": "marketing-research-digest-retail-e-commerce-2026-09-16",
       "title": "Marketing Research Digest — Retail & E-Commerce — 2026-09-16",
