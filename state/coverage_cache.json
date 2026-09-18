@@ -310,6 +310,16 @@
         "state": "unreported"
       }
     },
+    "W7204076930": {
+      "checked_at": "2026-09-18T12:29:34.551032+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers will pay sustainable beer but Fair Trade labels actually",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7204096810": {
       "checked_at": "2026-09-14T16:54:40.794333+00:00",
       "result": {
@@ -356,6 +366,26 @@
         "articles": [],
         "outlets": [],
         "query": "Chatbots use name feel sincere until they use too much",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204740815": {
+      "checked_at": "2026-09-18T12:31:31.178595+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Shoppers will buy fish nobody wants tell them caught sustainably",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204753244": {
+      "checked_at": "2026-09-18T12:30:34.527121+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "579 Vietnamese firms stacking digital tools top each other starts",
         "returned": 0,
         "state": "unreported"
       }
@@ -520,6 +550,36 @@
         "state": "unreported"
       }
     },
+    "W7211935268": {
+      "checked_at": "2026-09-18T12:28:27.633103+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Inside zero waste living exhausting self audit behind responsible consumption",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7211969452": {
+      "checked_at": "2026-09-18T12:28:36.580479+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "community helps save end trapping",
+        "returned": 11,
+        "state": "unreported"
+      }
+    },
+    "W7212036936": {
+      "checked_at": "2026-09-18T12:29:37.884118+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Does corporate social responsibility make people consume better just consume",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
     "W7212055380": {
       "checked_at": "2026-09-15T13:00:35.792746+00:00",
       "result": {
@@ -546,6 +606,16 @@
         "articles": [],
         "outlets": [],
         "query": "Steps Beltline worth real money near green space worth nothing",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7212134127": {
+      "checked_at": "2026-09-18T12:27:12.510161+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers reward brands adding green features barely notice they take",
         "returned": 0,
         "state": "unreported"
       }
@@ -610,6 +680,16 @@
         "state": "unreported"
       }
     },
+    "W7213257365": {
+      "checked_at": "2026-09-18T12:27:45.576006+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "clones famous people leave fans cold unless dialogue gets intimate",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213259568": {
       "checked_at": "2026-09-17T12:53:21.025741+00:00",
       "result": {
@@ -627,6 +707,16 @@
         "outlets": [],
         "query": "generated label quietly lowers expectations service",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213367223": {
+      "checked_at": "2026-09-18T12:28:44.970058+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Small firms trust their partners most slowest adopt",
+        "returned": 4,
         "state": "unreported"
       }
     }

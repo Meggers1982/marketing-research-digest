@@ -1,13 +1,24 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 4,
+  "run_count": 5,
   "topics": [
     "ai & marketing technology",
     "customer experience & service",
     "pricing & promotions",
-    "retail & e-commerce"
+    "retail & e-commerce",
+    "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-sustainability-ethical-consumption-2026-09-18",
+      "title": "Marketing Research Digest — Sustainability & Ethical Consumption — 2026-09-18",
+      "topic": "sustainability & ethical consumption",
+      "run_date": "2026-09-18",
+      "study_count": 18,
+      "total_issues": "20 (20 Minor, 0 Moderate, 0 Major)",
+      "lead_count": 4,
+      "top_score": 95
+    },
     {
       "id": "marketing-research-digest-customer-experience-service-2026-09-17",
       "title": "Marketing Research Digest — Customer Experience & Service — 2026-09-17",
