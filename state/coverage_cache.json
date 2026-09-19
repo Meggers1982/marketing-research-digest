@@ -130,6 +130,16 @@
         "state": "unreported"
       }
     },
+    "W7171940513": {
+      "checked_at": "2026-09-19T12:10:34.989847+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Beauty filters widen gap between look want look raise interest",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
     "W7172334002": {
       "checked_at": "2026-09-14T16:54:45.395261+00:00",
       "result": {
@@ -146,6 +156,16 @@
         "articles": [],
         "outlets": [],
         "query": "some shoppers game system not greed wanting feel clever",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7172408085": {
+      "checked_at": "2026-09-19T12:10:49.110330+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Electric delivery vans quietly pushing customers toward cheeseburgers",
         "returned": 0,
         "state": "unreported"
       }
@@ -177,6 +197,16 @@
         "outlets": [],
         "query": "dash nostalgia makes customers willing served",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7202165920": {
+      "checked_at": "2026-09-19T12:11:25.233431+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Free vegetable rich school lunches changed nothing because kids didn",
+        "returned": 2,
         "state": "unreported"
       }
     },
@@ -430,6 +460,16 @@
         "state": "unreported"
       }
     },
+    "W7206215832": {
+      "checked_at": "2026-09-19T12:12:56.360566+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "116 later alcohol awareness campaigns change minds but not drinking",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7207565403": {
       "checked_at": "2026-09-15T13:01:33.819807+00:00",
       "result": {
@@ -510,6 +550,16 @@
         "state": "unreported"
       }
     },
+    "W7208834717": {
+      "checked_at": "2026-09-19T12:08:46.337334+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "High protein doesn make shoppers think food healthier makes them",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
     "W7210266064": {
       "checked_at": "2026-09-16T12:56:56.899399+00:00",
       "result": {
@@ -537,6 +587,16 @@
         "outlets": [],
         "query": "Customers fork road ones worth marketing",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7211919306": {
+      "checked_at": "2026-09-19T12:11:17.863993+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers file cell based sausage made not",
+        "returned": 1,
         "state": "unreported"
       }
     },
@@ -640,6 +700,16 @@
         "state": "unreported"
       }
     },
+    "W7212302631": {
+      "checked_at": "2026-09-19T12:11:59.766889+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "doctor gives health advice numbers beat stories point",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
     "W7212369437": {
       "checked_at": "2026-09-14T16:55:00.842061+00:00",
       "result": {
@@ -656,6 +726,16 @@
         "articles": [],
         "outlets": [],
         "query": "Financial education payoff narrower than thought mostly teaches people compare",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7212377582": {
+      "checked_at": "2026-09-19T12:11:47.361702+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Ads run during wartime judged trustworthy lifted brands than peacetime",
         "returned": 0,
         "state": "unreported"
       }
@@ -677,6 +757,16 @@
         "outlets": [],
         "query": "Customers who crack joke get better service",
         "returned": 8,
+        "state": "unreported"
+      }
+    },
+    "W7212607085": {
+      "checked_at": "2026-09-19T12:09:30.524884+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Serve spicy food angular plate shape taste matching lifts diners",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -710,6 +800,16 @@
         "state": "unreported"
       }
     },
+    "W7213351764": {
+      "checked_at": "2026-09-19T12:11:12.266860+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "People GLP drugs show gut level preference healthy food don",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213367223": {
       "checked_at": "2026-09-18T12:28:44.970058+00:00",
       "result": {
@@ -718,6 +818,34 @@
         "query": "Small firms trust their partners most slowest adopt",
         "returned": 4,
         "state": "unreported"
+      }
+    },
+    "W7213535017": {
+      "checked_at": "2026-09-19T12:08:30.536735+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "most politically extreme customers most loyal least likely notice price",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213550700": {
+      "checked_at": "2026-09-19T12:10:27.135360+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://www.martechcube.com/radial-survey-70-of-holiday-shoppers-want-guaranteed-delivery/",
+            "outlet": "MarTech Cube",
+            "title": "Radial Survey: 70% of Holiday Shoppers Want Guaranteed Delivery"
+          }
+        ],
+        "outlets": [
+          "MarTech Cube"
+        ],
+        "query": "Year shoppers want coupons year end shoppers want discounts",
+        "returned": 20,
+        "state": "lightly_reported"
       }
     }
   }

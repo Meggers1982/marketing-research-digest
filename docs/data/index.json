@@ -1,14 +1,25 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 5,
+  "run_count": 6,
   "topics": [
     "ai & marketing technology",
     "customer experience & service",
+    "food, health & wellbeing",
     "pricing & promotions",
     "retail & e-commerce",
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-food-health-wellbeing-2026-09-19",
+      "title": "Marketing Research Digest — Food, Health & Wellbeing — 2026-09-19",
+      "topic": "food, health & wellbeing",
+      "run_date": "2026-09-19",
+      "study_count": 20,
+      "total_issues": "20 (16 Minor, 4 Moderate, 0 Major)",
+      "lead_count": 7,
+      "top_score": 90
+    },
     {
       "id": "marketing-research-digest-sustainability-ethical-consumption-2026-09-18",
       "title": "Marketing Research Digest — Sustainability & Ethical Consumption — 2026-09-18",
