@@ -1,15 +1,26 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 6,
+  "run_count": 7,
   "topics": [
     "ai & marketing technology",
     "customer experience & service",
     "food, health & wellbeing",
+    "money & spending",
     "pricing & promotions",
     "retail & e-commerce",
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-money-spending-2026-09-20",
+      "title": "Marketing Research Digest — Money & Spending — 2026-09-20",
+      "topic": "money & spending",
+      "run_date": "2026-09-20",
+      "study_count": 15,
+      "total_issues": "15 (11 Minor, 4 Moderate, 0 Major)",
+      "lead_count": 6,
+      "top_score": 90
+    },
     {
       "id": "marketing-research-digest-food-health-wellbeing-2026-09-19",
       "title": "Marketing Research Digest — Food, Health & Wellbeing — 2026-09-19",

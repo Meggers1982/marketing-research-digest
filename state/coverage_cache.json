@@ -210,6 +210,46 @@
         "state": "unreported"
       }
     },
+    "W7202221325": {
+      "checked_at": "2026-09-20T12:45:48.172740+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Financial anxiety isn one problem network literacy only cuts worst",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7202404765": {
+      "checked_at": "2026-09-20T12:45:02.410567+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "money feels tight people don cancel trip they dream harder",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7203466714": {
+      "checked_at": "2026-09-20T12:45:03.601976+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Think big gift card stops feeling like gift card money",
+        "returned": 16,
+        "state": "unreported"
+      }
+    },
+    "W7203655820": {
+      "checked_at": "2026-09-20T12:44:12.993868+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Attacking own side candidates run ads bashing their own party",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7203673228": {
       "checked_at": "2026-09-17T12:53:24.836636+00:00",
       "result": {
@@ -550,6 +590,16 @@
         "state": "unreported"
       }
     },
+    "W7208819722": {
+      "checked_at": "2026-09-20T12:42:35.522369+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Forget heaviest fifth buyers really worth about half category spending",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7208834717": {
       "checked_at": "2026-09-19T12:08:46.337334+00:00",
       "result": {
@@ -750,6 +800,16 @@
         "state": "unreported"
       }
     },
+    "W7212434558": {
+      "checked_at": "2026-09-20T12:43:50.692257+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "pop store tour cut band own online merch sales same",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7212527755": {
       "checked_at": "2026-09-17T12:53:19.229143+00:00",
       "result": {
@@ -786,6 +846,26 @@
         "articles": [],
         "outlets": [],
         "query": "Japanese fashion retailers turning store staff into their own influencers",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7213276001": {
+      "checked_at": "2026-09-20T12:43:32.064214+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "strings 400 check didn pay down debt recipients borrowed",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213285496": {
+      "checked_at": "2026-09-20T12:44:10.380155+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Ads designed screenshotted get saved liked",
         "returned": 1,
         "state": "unreported"
       }
@@ -846,6 +926,16 @@
         "query": "Year shoppers want coupons year end shoppers want discounts",
         "returned": 20,
         "state": "lightly_reported"
+      }
+    },
+    "W7213557087": {
+      "checked_at": "2026-09-20T12:44:47.147655+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Likes don pay bills but voting memberships paid interactions they",
+        "returned": 0,
+        "state": "unreported"
       }
     }
   }

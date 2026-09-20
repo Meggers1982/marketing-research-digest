@@ -1,0 +1,578 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-20",
+  "days_back": 60,
+  "window_from": "2026-07-22",
+  "window_to": "2026-09-20",
+  "focus": "Money & Spending",
+  "topic": "money & spending",
+  "query": "\"financial decision\" OR saving OR debt OR spending OR \"buy now pay later\" OR \"credit card\" OR \"financial well-being\" OR \"mental accounting\" OR cryptocurrency",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 48,
+    "not_research": 0,
+    "no_abstract": 5,
+    "off_topic": 1,
+    "already_covered": 7,
+    "over_journal_cap": 3,
+    "over_cap": 0,
+    "sent": 32
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7208819722",
+      "headline": "Forget 80/20: your heaviest fifth of buyers is really worth about half of category spending",
+      "the_study": "Researchers analyzed 16 years of the U.S. Consumer Expenditure Survey (2009–2024) to measure how concentrated household spending actually is across product categories, rather than within single brands. The top 20% of buying households accounted for roughly 50% of category spending — not 80% — and that ratio held remarkably steady year after year. They also show that consumer packaged goods, the category most often used in brand-level concentration research, are not representative of the wider spending landscape, and propose a complementary \"10/40\" ratio (top 10% of buyers, 40% of spend) as a sharper managerial yardstick.",
+      "why_it_matters": "Customer-value models, loyalty tiers and media weighting decisions are often built on an 80/20 rule of thumb that overstates how much revenue sits with heavy buyers in most categories.",
+      "story_angle_primary": "Audit whether your own customer concentration math rests on a borrowed 80/20 assumption; recompute it category by category and consider the 10/40 view before deciding how much budget to aim at heavy buyers versus light and occasional ones.",
+      "story_angle_secondary": "The \"whale customer\" story is overdone: in most everyday categories, ordinary and occasional buyers collectively supply about half of all the money spent, which is part of why mass-market brands still advertise to everyone.",
+      "caveats": "Single country (U.S.) and based on self-reported expenditure survey data rather than scanner or transaction records; category-level rather than brand-level, so brand implications are inferred.",
+      "journal": "International Journal of Research in Marketing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.ijresmar.2026.09.003",
+      "paper_title": "Is the Pareto a principle? A longitudinal exploration of inequality in category-level consumer spending",
+      "source_id": "S11810700"
+    },
+    {
+      "work_id": "W7213276001",
+      "headline": "A no-strings $1,400 check didn't pay down debt — recipients borrowed more",
+      "the_study": "Using administrative credit report data, researchers examined recipients of Johnson County, Iowa's Direct Assistance Program, an unconditional one-time $1,400 cash payment. Unlike federal stimulus studies where households mostly reduced balances, recipients here increased total debt by $2,060 on average (about 10% above the mean), driven by mortgage debt (+$1,129) and auto debt (+$435). The effects appeared immediately after checks were cashed and persisted for nine months.",
+      "why_it_matters": "It suggests unrestricted local cash acts as a down payment that unlocks big-ticket borrowing rather than as debt relief — a very different behavioral response than pandemic-era stimulus produced.",
+      "story_angle_primary": "For lenders, auto retailers and housing-adjacent brands, local guaranteed-income and cash-transfer pilots may function as demand triggers for financed purchases; watch program rollouts as leading indicators rather than assuming recipients simply deleverage.",
+      "story_angle_secondary": "A windfall often changes what people feel they can afford to commit to, not just what they can pay off — worth knowing before a tax refund or bonus turns into a car loan.",
+      "caveats": "One county and one program with a single $1,400 payment; nine-month horizon; credit report data captures debt but not consumption or welfare, so more borrowing is not necessarily a bad outcome.",
+      "journal": "Journal of Consumer Affairs",
+      "published": "2026-09-01",
+      "doi": "10.1111/joca.70076",
+      "paper_title": "Local Cash Transfers and Household Debt: Evidence From Johnson County's Direct Assistance Program",
+      "source_id": "S189751245"
+    },
+    {
+      "work_id": "W7212434558",
+      "headline": "A pop-up store on tour cut the band's own online merch sales in the same city",
+      "the_study": "Researchers used customer-level transaction data from a major band's official online shop spanning more than 100 countries and applied a difference-in-differences design comparing online spending and purchase frequency before and after concert-tour pop-up stores opened. Online purchases fell significantly among customers in host cities — a \"reverse cannibalization\" in which the physical experience substituted for digital buying — while adjacent regions showed spillover effects.",
+      "why_it_matters": "Experiential retail is usually justified as a halo that lifts e-commerce; here the physical channel pulled demand away from the brand's own online store in the local market.",
+      "story_angle_primary": "If you run pop-ups, activations or tour retail, measure channel substitution at the customer level and by geography before crediting the pop-up with incremental growth; local online declines may be misread as a demand problem.",
+      "story_angle_secondary": "Fans who can buy a shirt in person mostly stop buying it online — evidence that people aren't adding purchases across channels so much as choosing between them.",
+      "caveats": "A single brand (anonymized) in one product category; quasi-experimental rather than randomized; drivers of the spillover in nearby regions are not directly tested.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-13",
+      "doi": "10.1108/apjml-09-2025-1970",
+      "paper_title": "Channel dynamics strategy of music merchandise: the effect of offline consumer experience on online sales",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7213285496",
+      "headline": "Ads designed to be screenshotted get saved — and liked — more",
+      "the_study": "Across five studies, including controlled online experiments and a naturalistic simulated-feed experiment, researchers tested \"screenshotable\" ad designs — layouts structured to be captured and kept — against conventional ads. Screenshotable ads produced higher ad-saving intention and higher Facebook ad liking, with perceived future utility acting as the mediating mechanism. The effect was stronger when consumers anticipated a future rather than immediate need, and when the ad carried dense, substantive information worth preserving.",
+      "why_it_matters": "It reframes feed advertising as producing keepable objects rather than passing messages, and points to a concrete design lever — information density plus capture-friendly layout — for ads meant to be revisited.",
+      "story_angle_primary": "Worth A/B testing screenshot-friendly creative (self-contained details, legible layout, no essential info in motion or captions) for offers tied to future needs; treat saves as a measurable engagement signal, while noting these results are mostly intentions in lab and simulated-feed settings rather than live campaign performance.",
+      "story_angle_secondary": "Your camera roll is quietly becoming a shopping list — and advertisers are starting to design for exactly that habit.",
+      "caveats": "Online experiments and a simulated feed rather than live platform data; outcomes are largely stated intentions (saving intention, liking intention) rather than observed saves or purchases; sample composition and sizes not specified in the abstract; single platform context (Facebook-style feed).",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-09-15",
+      "doi": "10.1016/j.jretconser.2026.105013",
+      "paper_title": "When ads look worth keeping: Screenshotable design increases ad saving and Facebook ad liking",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7203655820",
+      "headline": "Attacking your own side: why candidates run ads bashing their own party — and when it works",
+      "the_study": "Researchers introduce and test \"party-defiance ads,\" political spots in which a candidate criticizes their own party and adopts a position associated with the opposition. Across eight main and eight supplemental studies (N=11,473), plus an analysis of voting outcomes in recent US elections, they mapped when voters support, tolerate, or punish this tactic in general elections versus primaries. Defiance can trigger backlash, but voters will often set partisan loyalty aside when they judge the defiance makes the candidate more electable.",
+      "why_it_matters": "It documents a fast-growing persuasion tactic in a market where campaign spending has surged, and shows that audiences reward strategic self-criticism under specific conditions rather than punishing disloyalty outright.",
+      "story_angle_primary": "Brands facing polarized audiences can watch this as a test case for calculated distancing from one's own \"tribe\" — whether publicly breaking with an industry position or a parent brand can signal independence. The studies suggest the payoff hinges on whether the audience reads the move as strategic rather than as betrayal, so any real-world test should measure perceived motive, not just favorability.",
+      "story_angle_secondary": "For voters, the finding is a useful mirror: people like to think they punish disloyalty, but this evidence suggests many quietly forgive it when they think it helps their side win in November.",
+      "caveats": "Much of the evidence comes from online experiments with hypothetical or simulated ads; the election-outcome analysis is correlational. US-only, and findings are tied to a specific and unusually polarized political context.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-08-14",
+      "doi": "10.1093/jcr/ucag028",
+      "paper_title": "Party-Defiance Ads",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7213557087",
+      "headline": "Likes don't pay the bills — but the voting, memberships and paid interactions they lead to do",
+      "the_study": "Using a longitudinal panel of high-frequency data from four leading Saudi Pro League clubs between 2023 and 2025, researchers separated raw digital interaction (likes, social engagement, captured in a standardized Digital Interaction Index) from \"platform-based participation\" — paid interactions, fan voting, and membership-tier activity on club-owned platforms. Fixed-effects regressions and club-level path analysis found that digital interaction predicts later increases in participation, and that participation accounts for about 55% of the link between interaction and fan spending. Digitally active fan bases also showed higher average spending per transaction, and effects were amplified around high-salience events.",
+      "why_it_matters": "It challenges the habit of treating social engagement metrics as a proxy for commercial value: engagement appears to convert to money mainly when a brand has built structured, participatory places for fans to act.",
+      "story_angle_primary": "If over half the engagement-to-spending link runs through participation mechanics, the investment case shifts from buying reach to building owned participatory infrastructure — voting, tiers, paid interactions — and timing launches to peak-attention moments. Test whether your own social metrics predict revenue at all once participation is controlled for.",
+      "story_angle_secondary": "For fans, this is a look at how clubs are engineering the path from a free like to a paid vote or membership — and why the most \"engaged\" supporters end up spending more per transaction.",
+      "caveats": "Club-level aggregated data, not individual transactions, so the spending mechanism is inferred; only four clubs in one rapidly commercializing league over roughly two years; observational panel design rather than an experiment.",
+      "journal": "International Journal of Sports Marketing and Sponsorship",
+      "published": "2026-09-18",
+      "doi": "10.1108/ijsms-02-2026-0092",
+      "paper_title": "From digital interaction to fan spending through platform-based participation in the Saudi Pro League's fan ecosystem",
+      "source_id": "S205950374"
+    },
+    {
+      "work_id": "W7202404765",
+      "headline": "When money feels tight, people don't cancel the trip — they dream harder about nature",
+      "the_study": "Across three survey-based studies analyzed with partial least squares structural equation modeling, researchers examined how perceived financial well-being relates to \"compensatory escapism\" and intentions to travel to natural settings. Consistently, people who felt worse off financially reported more compensatory escapism, which in turn was linked to stronger intentions to take nature trips. Access to nature-based content weakened that relationship, while travel nostalgia strengthened it.",
+      "why_it_matters": "It suggests financially squeezed consumers are an escape-seeking audience rather than a lost one, and that nostalgia-heavy communication amplifies the urge while substitute nature content may dampen it.",
+      "story_angle_primary": "Travel and outdoor brands could test low-cost, restorative offers aimed at financially constrained segments, and experiment with nostalgia-led creative versus immersive nature content — the evidence hints these two work in opposite directions on desire.",
+      "story_angle_secondary": "A reminder of a familiar pattern in everyday spending: feeling broke often intensifies rather than extinguishes the craving for escape, which is worth noticing before booking.",
+      "caveats": "Cross-sectional surveys measuring intentions, not actual bookings or spending, so causation can't be established; results are a set of structural model paths; sample details and country coverage are not specified in the abstract.",
+      "journal": "Journal Of Vacation Marketing",
+      "published": "2026-08-13",
+      "doi": "10.1177/13567667261474171",
+      "paper_title": "Examining the relationship between financial well-being, compensatory escapism and travel to nature",
+      "source_id": "S83271458"
+    },
+    {
+      "work_id": "W7203466714",
+      "headline": "Think big and that gift card stops feeling like \"gift card money\"",
+      "the_study": "Across a field study and a series of experiments, researchers tested how people's \"mental horizon\" changes the way they compartmentalize money. When participants were nudged into concrete, detail-focused thinking, they built narrow mental accounts and spent earmarked money strictly in line with its label; when nudged into abstract, big-picture thinking, they built broader superordinate accounts and the labeling effect weakened. Two further studies traced the mechanism to a heightened sense of situational control under concrete construal.",
+      "why_it_matters": "Mental labeling is the engine behind gift cards, category coupons, rebate credits, food-budget envelopes and restricted-use funds — and this work says the strength of that engine depends on a framing variable marketers already control in their copy.",
+      "story_angle_primary": "If you rely on earmarked money — store credit, category-specific promotions, loyalty currency — test whether concrete, in-the-moment creative (\"use it on your next coffee\") keeps spending inside the intended category better than aspirational, big-picture messaging, which may let consumers redirect those funds elsewhere. These are largely controlled studies, so treat it as a hypothesis for a promotion A/B test rather than a settled rule.",
+      "story_angle_secondary": "Anyone trying to stick to a budget can use the flip side: envelope-style budgeting works best when you think in concrete, near-term terms, while zooming out to big-picture goals quietly makes your money fungible again — which is exactly when the \"vacation fund\" starts paying for something else.",
+      "caveats": "Multiple lab and scenario-based experiments alongside one field study; abstract does not report sample sizes, populations or countries, and most decision contexts appear hypothetical rather than actual purchases.",
+      "journal": "Journal of Behavioral Decision Making",
+      "published": "2026-08-14",
+      "doi": "10.1002/bdm.70089",
+      "paper_title": "The Effect of Construal Level on Mental Accounting: Abstract (vs. Concrete) Construal Reduces the Mental Labeling Effect",
+      "source_id": "S117214846"
+    },
+    {
+      "work_id": "W7202221325",
+      "headline": "Financial anxiety isn't one problem — it's a network, and literacy only cuts the worst of it",
+      "the_study": "Using a nationally representative survey of US adults, researchers built a Bayesian network model — a method that maps which factors are directly versus indirectly connected — linking financial literacy, financial behavior, financial well-being, contextual stressors and demographics. Financial anxiety emerged as a system-level outcome rather than the product of any single cause. Financial literacy reduced the probability of extreme anxiety and raised financial well-being, but contextual stressors played a growing role.",
+      "why_it_matters": "Banks, fintechs and policymakers routinely treat financial education as the fix for money stress; this suggests literacy mainly trims the tail of extreme anxiety while circumstances do much of the rest of the work.",
+      "story_angle_primary": "For financial services marketers, the takeaway is to stop selling \"education\" as a standalone anxiety cure and instead pair literacy content with products that absorb contextual shocks — buffer accounts, income smoothing, hardship tools — and to segment by stressor profile rather than by knowledge score.",
+      "story_angle_secondary": "If you feel anxious about money despite knowing the basics, that's not a personal failing: the modeling suggests anxiety comes from how life circumstances, behaviors and knowledge interact, not from a single knowledge gap you can read your way out of.",
+      "caveats": "Cross-sectional survey data — the network estimates conditional dependencies, not causation; single country (US); relies on self-reported anxiety and well-being measures.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-08-12",
+      "doi": "10.1108/ijbm-09-2025-0722",
+      "paper_title": "Modelling the drivers of financial anxiety: a Bayesian network approach",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7202385295",
+      "headline": "Do banking app savings features actually make people save? Users think so — if they trust the app",
+      "the_study": "A three-part mixed-methods study examined how banks use coordinated offline and digital channels to promote saving. Researchers interviewed six consumers about where they get money information, content-analyzed the savings features of three mobile banking apps against a stages-of-change framework, and surveyed 215 app users on perceived savings improvement. Perceived improvement hinged on the perceived usefulness of the features and users' trust in the app, with financial literacy messaging across channels acting as a complement.",
+      "why_it_matters": "It gives banks an evidence-informed way to audit whether their savings tools are aimed at the right behavioral stage — awareness, intention or action — instead of dumping every feature on every user.",
+      "story_angle_primary": "Audit your app's savings features against where customers actually are in the change process: content that builds motivation is wasted on someone already saving, and round-up tools are wasted on someone who hasn't decided to save. Also note that trust in the app, not feature sophistication, was the gatekeeper — a brand-equity issue as much as a product one.",
+      "story_angle_secondary": "The savings nudges in your banking app work partly because you believe the bank is on your side; if you don't trust the institution, the same auto-save button does much less.",
+      "caveats": "Exploratory design with a very small interview sample (n=6), only three apps analyzed, and a 215-person survey measuring perceived rather than actual savings improvement; no observed account data, cross-sectional, single-market.",
+      "journal": "Journal of Social Marketing",
+      "published": "2026-08-13",
+      "doi": "10.1108/jsocm-07-2025-0222",
+      "paper_title": "Applying the omnichannel social marketing model through stages of change (OSMM) to foster saving behaviors",
+      "source_id": "S2764583656"
+    },
+    {
+      "work_id": "W7172533758",
+      "headline": "Money podcasts are doing what pension statements can't: getting young women to act",
+      "the_study": "Two sequential qualitative studies with in-depth interviews of 32 Australian women aged 40 and under explored how financial self-efficacy develops over the life course, focusing on retirement savings (superannuation). Participants were broadly confident managing day-to-day money but markedly less confident about investing and superannuation. Personal finance podcasts and online communities offered relatable learning that actually prompted superannuation actions — but only when the source was seen as credible and the timing fit a life transition.",
+      "why_it_matters": "It points to a specific, under-used channel for long-horizon financial products: peer-toned creator media at moments of life change, rather than institutional communication.",
+      "story_angle_primary": "Financial brands should look hard at creator and community partnerships for complex, low-engagement products — but the study's condition is credibility: influence worked only where the source was trusted and the message landed at a transition point like a job change or new baby. Worth testing as a life-event-triggered channel, not a blanket content strategy.",
+      "story_angle_secondary": "Feeling competent with your weekly budget doesn't transfer to confidence about investing or retirement — the women interviewed showed a sharp split between the two, shaped by what they were and weren't exposed to growing up.",
+      "caveats": "Small purposive qualitative sample (n=32), single country (Australia), one narrow demographic, self-reported actions rather than observed account behavior; findings are not statistically generalizable.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-08-05",
+      "doi": "10.1108/ijbm-10-2025-0787",
+      "paper_title": "Australian women's financial self-efficacy in a digital financial world",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7203886708",
+      "headline": "For Chinese K-pop fans, buying is belonging — and it beats making fan art",
+      "the_study": "Researchers combined an online survey of 326 Chinese K-pop fans with in-depth interviews with eight female fans to see how fandom identity is built in a market where Korean content distribution has been politically constrained since 2016. Purchasing behaviors — buying albums in bulk and pooling money for fan-funded advertising — were significantly associated with both personal and social fan identity, while creative practices such as making fan content showed weaker associations. Interviews showed fans deliberately coordinating collective spending to keep their idols visible across borders, treating expenditure as an act of communal membership rather than consumption.",
+      "why_it_matters": "It shows that in some communities, spending itself is the participation ritual — money, not creativity, is how fans signal loyalty and status to each other.",
+      "story_angle_primary": "Brands and entertainment marketers working with fandoms might test whether coordinated, visible group purchases (limited drops, fan-funded billboards, group-buy mechanics) build stronger community attachment than user-generated-content campaigns — while weighing the ethics of monetizing identity in young fan bases.",
+      "story_angle_secondary": "A window into why fans buy ten copies of the same album: the purchase is less about the product than about proving membership and keeping a favorite artist visible when official channels are closed off.",
+      "caveats": "Cross-sectional survey plus a small interview sample (eight women, all female), so no causal claims; single country and single fandom context; self-reported behavior and identity measures.",
+      "journal": "Journal of Consumer Culture",
+      "published": "2026-08-21",
+      "doi": "10.1177/14695405261479842",
+      "paper_title": "Beyond a transaction: Cultural belonging and symbolic spending in the digital lives of Chinese K-pop fans",
+      "source_id": "S10063912"
+    },
+    {
+      "work_id": "W7204130857",
+      "headline": "Like a few beauty posts and Instagram's Explore feed hardens around them — and counter-curating barely helps",
+      "the_study": "Researchers combined ethnographic fieldwork with supervised machine learning, training a classifier on a manually annotated dataset to label Instagram posts as reproducing beauty ideals or not, then tracking how liking, saving and following changed the composition of the Explore feed. Routine engagement with beauty-ideal content strongly amplified more of the same. Engagement with content that did not reproduce beauty ideals produced far less feed adaptation — those feeds simply showed fewer images of people — and deliberate attempts to counter-curate away from beauty ideals had minimal effect.",
+      "why_it_matters": "It provides mechanism-level evidence that recommender systems are asymmetric: they learn conventional beauty preferences quickly but resist learning the opposite, which shapes the visual environment brands and creators compete in.",
+      "story_angle_primary": "Brands buying influence on visual platforms should ask what the algorithm actually rewards: content aligned with conventional beauty ideals may get structurally amplified regardless of a brand's body-positive positioning, creating a gap between stated brand values and the feeds where campaigns actually land.",
+      "story_angle_secondary": "If your feed feels relentlessly filled with idealized bodies, it is not just your taste — the study suggests trying to train the algorithm away from that content mostly doesn't work.",
+      "caveats": "Single platform and a classifier-based operationalization of \"beauty ideals\" built from the researchers' own annotations; feed experiments are limited in scale and time, and platform algorithms change frequently.",
+      "journal": "Big Data & Society",
+      "published": "2026-08-24",
+      "doi": "10.1177/20539517261476310",
+      "paper_title": "The curation of beauty ideals through Instagram's recommender system: An interdisciplinary approach",
+      "source_id": "S2736409588"
+    },
+    {
+      "work_id": "W7172243346",
+      "headline": "Solo women travelers get intrusive service — and most say nothing",
+      "the_study": "Researchers analyzed narratives from 34 solo female travelers about intrusive experiences at service encounters. Women described unwanted personal questions from staff, invasions of physical space, and disrespectful treatment as the core intrusions. While some complained directly to management, most suppressed complaints — citing distrust, perceived risk of escalation, the absence of female staff to complain to, uncertainty about whether the incident \"counted,\" and simply not wanting the hassle.",
+      "why_it_matters": "A fast-growing and high-spending travel segment is systematically underreporting bad experiences, meaning operators' complaint data badly understates the problem they are losing revenue to.",
+      "story_angle_primary": "Hospitality and travel brands should treat low complaint volume from solo women as a measurement failure, not a clean bill of health — worth testing anonymous or in-app reporting channels, female staff availability, and proactive follow-up rather than relying on walk-up complaints.",
+      "story_angle_secondary": "Names the specific things that make solo travel uncomfortable — being over-questioned, crowded, or patronized by staff — and why so many women decide it is not worth saying anything.",
+      "caveats": "Qualitative narrative study with 34 participants; no quantification of prevalence or spending impact; self-selected accounts and retrospective recall; no comparison group of male or accompanied travelers.",
+      "journal": "Journal Of Vacation Marketing",
+      "published": "2026-08-03",
+      "doi": "10.1177/13567667261474170",
+      "paper_title": "To complain or not to complain: Navigating intrusive service experiences of solo female travelers",
+      "source_id": "S83271458"
+    },
+    {
+      "work_id": "W7203697215",
+      "headline": "A single drought explains a fifth of Argentina's GDP swings",
+      "the_study": "Using quarterly data from 2004 to 2021, researchers built a Weighted Agricultural Precipitation Index that aggregates departmental rainfall deviations weighted by each area's share of crop production, then estimated a structural vector autoregression with block-exogeneity restrictions to isolate drought shocks. A one-standard-deviation drought cut agricultural value added by 4.5 percentage points, export revenues by 2.3 points, depreciated the real effective exchange rate by 0.94 points and reduced total GDP by 1.06 points. Drought shocks accounted for 21.2% of total GDP volatility, while consumer inflation stayed contemporaneously flat, buffered by collapsing incomes and central bank currency intervention.",
+      "why_it_matters": "For companies selling into commodity-exporting emerging markets, weather in the growing regions is a leading indicator of currency moves and consumer demand — not a farm-sector story.",
+      "story_angle_primary": "Multinationals and regional brands could treat rainfall in key agricultural zones as an early-warning input for demand forecasting, pricing and FX hedging in commodity-dependent markets, rather than waiting for consumer confidence data to turn.",
+      "story_angle_secondary": "Explains why household budgets in farming economies tighten after a dry season even for people with no connection to agriculture — export earnings fall, the currency weakens, and spending power follows.",
+      "caveats": "Single country (Argentina) over 2004–2021, a period with unusual macro policy and heavy FX intervention; macroeconomic time-series identification relies on modeling assumptions; results may not generalize to less commodity-dependent economies.",
+      "journal": "International Journal of Emerging Markets",
+      "published": "2026-08-18",
+      "doi": "10.1108/ijoem-09-2025-2243",
+      "paper_title": "Macroeconomic impact of droughts in a developing economy",
+      "source_id": "S116345831"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7208819722",
+      "headline": "Forget 80/20: your heaviest fifth of buyers is really worth about half of category spending",
+      "verdict": "accurate",
+      "notes": "Design, data window, headline statistic and the 10/40 proposal all match the abstract; caveats correctly note the self-reported, category-level, US-only nature of the data.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7213276001",
+      "headline": "A no-strings $1,400 check didn't pay down debt — recipients borrowed more",
+      "verdict": "accurate",
+      "notes": "All figures ($2,060 total, $1,129 mortgage, $435 auto, 10% above mean, 9 months) match the abstract, as does the contrast with federal stimulus findings. Interpretive \"down payment\" framing is appropriately hedged.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7212434558",
+      "headline": "A pop-up store on tour cut the band's own online merch sales in the same city",
+      "verdict": "minor",
+      "notes": "Design and main effect match the abstract; the consumer-facing angle overstates the magnitude of the observed reduction.",
+      "issues": [
+        {
+          "label": "Magnitude overstated in reader angle",
+          "severity": "Moderate",
+          "as_written": "Fans who can buy a shirt in person mostly stop buying it online — evidence that people aren't adding purchases across channels so much as choosing between them.",
+          "abstract_says": "Results show that the establishment of pop-up stores significantly reduced online purchases by customers in host cities, demonstrating a reverse cannibalization effect in which offline experiential opportunities substitute for digital consumption.",
+          "problem": "\"Significantly reduced\" is a statistically detectable decline of unreported size; \"mostly stop buying it online\" implies near-total substitution, and the generalization to how \"people\" behave across channels goes beyond one anonymized band's merchandise shop.",
+          "suggested_fix": "Reword to something like \"Fans who can buy a shirt in person buy noticeably less online — at least for this one band, suggesting some substitution rather than pure addition across channels.\""
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7213285496",
+      "headline": "Ads designed to be screenshotted get saved — and liked — more",
+      "verdict": "minor",
+      "notes": "Five studies, methods and moderators match. Mediation is stated more firmly than the abstract's hedged language, and the information-density moderator applies to the perceived-utility path specifically.",
+      "issues": [
+        {
+          "label": "Mediation stated more firmly than abstract",
+          "severity": "Minor",
+          "as_written": "with perceived future utility acting as the mediating mechanism",
+          "abstract_says": "The results are consistent with perceived future utility as a mediating mechanism",
+          "problem": "The abstract only says results are \"consistent with\" this mechanism; the digest asserts it as established.",
+          "suggested_fix": "Write \"with results consistent with perceived future utility as the mediating mechanism.\""
+        },
+        {
+          "label": "Moderator path slightly misstated",
+          "severity": "Minor",
+          "as_written": "The effect was stronger ... when the ad carried dense, substantive information worth preserving.",
+          "abstract_says": "screenshotable design more strongly increased perceived future utility when information density was high rather than low",
+          "problem": "Information density moderated the effect of screenshotable design on perceived future utility, not the overall saving/liking effect as implied.",
+          "suggested_fix": "Specify that high information density strengthened the boost to perceived future utility."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7203655820",
+      "headline": "Attacking your own side: why candidates run ads bashing their own party — and when it works",
+      "verdict": "minor",
+      "notes": "Study count and N match; the frequency of partisan-loyalty suspension is upgraded from \"occasionally\" to \"often\"/\"many\", and the election analysis is described as separate from rather than part of the study set.",
+      "issues": [
+        {
+          "label": "Frequency of effect overstated",
+          "severity": "Moderate",
+          "as_written": "voters will often set partisan loyalty aside when they judge the defiance makes the candidate more electable",
+          "abstract_says": "showing that consumers can occasionally set partisan loyalty aside in favor of strategic considerations like electability",
+          "problem": "\"Often\" replaces the abstract's \"occasionally\", turning a qualified, conditional finding into a routine one; the reader angle repeats this with \"many quietly forgive it\".",
+          "suggested_fix": "Use \"voters sometimes set partisan loyalty aside\" in both the body and the reader angle."
+        },
+        {
+          "label": "Election analysis framed as an add-on",
+          "severity": "Minor",
+          "as_written": "Across eight main and eight supplemental studies (N=11,473), plus an analysis of voting outcomes in recent US elections",
+          "abstract_says": "Across eight main studies and eight supplemental studies (N = 11,473), including an analysis of voting outcomes in recent elections",
+          "problem": "The abstract counts the voting-outcome analysis among the studies (\"including\"); \"plus\" implies it sits outside the reported set.",
+          "suggested_fix": "Change \"plus\" to \"including\"."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7213557087",
+      "headline": "Likes don't pay the bills — but the voting, memberships and paid interactions they lead to do",
+      "verdict": "accurate",
+      "notes": "Panel design, four clubs, 2023–2025, the 55% mediated share, spending-per-transaction result and event amplification all match; caveats correctly note club-level aggregation and the observational design.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7202404765",
+      "headline": "When money feels tight, people don't cancel the trip — they dream harder about nature",
+      "verdict": "minor",
+      "notes": "Three PLS-SEM survey studies and the direction of all paths match; the moderator description is slightly ambiguous about which path is moderated.",
+      "issues": [
+        {
+          "label": "Moderated path not specified",
+          "severity": "Minor",
+          "as_written": "Access to nature-based content weakened that relationship, while travel nostalgia strengthened it.",
+          "abstract_says": "access to nature-based content weakens, whereas travel nostalgia strengthens, the relationship between perceived financial well-being and compensatory escapism",
+          "problem": "\"That relationship\" follows a sentence describing the full chain through travel intentions, so readers may take the moderators to act on the escapism-to-intention link rather than the financial-well-being-to-escapism link.",
+          "suggested_fix": "Say the moderators act on the link between perceived financial well-being and compensatory escapism."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7203466714",
+      "headline": "Think big and that gift card stops feeling like \"gift card money\"",
+      "verdict": "accurate",
+      "notes": "Direction of the construal-level effect, the field study plus multiple experiments, and the situational-control mediation in two further studies all match the abstract; caveats correctly flag missing sample details.",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7202221325",
+      "headline": "Financial anxiety isn't one problem — it's a network, and literacy only cuts the worst of it",
+      "verdict": "accurate",
+      "notes": "Bayesian network method, nationally representative US sample, emergent system-level framing, literacy's effect on extreme anxiety and well-being, and the growing role of contextual stressors all match; caveats correctly note conditional dependencies are not causation.",
+      "issues": []
+    },
+    {
+      "number": 10,
+      "work_id": "W7202385295",
+      "headline": "Do banking app savings features actually make people save? Users think so — if they trust the app",
+      "verdict": "significant",
+      "notes": "Three-study design and sample details are accurate, but the story angle invents a comparison (trust beating feature sophistication) and states a causal effect the survey cannot support; the literacy/feature complementarity is also stated in reverse.",
+      "issues": [
+        {
+          "label": "Unsupported comparison presented as finding",
+          "severity": "Moderate",
+          "as_written": "Also note that trust in the app, not feature sophistication, was the gatekeeper — a brand-equity issue as much as a product one.",
+          "abstract_says": "Such an outcome is influenced by the perceived usefulness of these features, users' trust in the app and other external factors.",
+          "problem": "The abstract lists perceived usefulness, trust and other external factors as joint influences and never ranks trust above feature quality; the digest manufactures a head-to-head comparison and drops the \"other external factors\".",
+          "suggested_fix": "State that perceived usefulness of the features, trust in the app and other external factors all shaped perceived savings improvement, without ranking them."
+        },
+        {
+          "label": "Causal claim from cross-sectional survey",
+          "severity": "Moderate",
+          "as_written": "The savings nudges in your banking app work partly because you believe the bank is on your side; if you don't trust the institution, the same auto-save button does much less.",
+          "abstract_says": "a survey completed by 215 users measured the effectiveness of mobile banking apps in perceived savings improvements ... influenced by the perceived usefulness of these features, users' trust in the app and other external factors",
+          "problem": "A 215-person survey of perceived improvement cannot establish that low trust causes the feature to do less; the outcome is perception, not observed saving.",
+          "suggested_fix": "Reframe as association and perception: \"Users who trust their bank are more likely to feel the app's savings tools are helping them.\""
+        },
+        {
+          "label": "Complementarity direction reversed",
+          "severity": "Minor",
+          "as_written": "with financial literacy messaging across channels acting as a complement",
+          "abstract_says": "Financial literacy, promoted through various channels, is complemented by features in mobile banking apps that facilitate perceived improvements in savings.",
+          "problem": "The abstract has app features complementing multi-channel financial literacy promotion; the digest flips which element is the complement.",
+          "suggested_fix": "Say that app features complemented financial literacy promoted across channels."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7172533758",
+      "headline": "Money podcasts are doing what pension statements can't: getting young women to act",
+      "verdict": "minor",
+      "notes": "Design, sample (n=32 Australian women ≤40) and core findings match. Headline and framing add an untested comparison with institutional communication, and the \"context\" contingency is narrowed to life transitions with invented examples.",
+      "issues": [
+        {
+          "label": "Unsupported comparison with institutional communication",
+          "severity": "Minor",
+          "as_written": "Money podcasts are doing what pension statements can't: getting young women to act",
+          "abstract_says": "personal finance podcasts and online communities provided relatable learning that prompted superannuation actions, with effects contingent on perceived credibility and context",
+          "problem": "The abstract does not compare podcasts against pension statements or any institutional channel, so the implied head-to-head advantage is not something the study reports.",
+          "suggested_fix": "Reframe as \"Money podcasts and online communities prompted young Australian women to act on their super\" and drop the comparison in the \"Why it matters\" line."
+        },
+        {
+          "label": "Contingency narrowed and illustrated with unsupported examples",
+          "severity": "Minor",
+          "as_written": "but only when the source was seen as credible and the timing fit a life transition",
+          "abstract_says": "with effects contingent on perceived credibility and context",
+          "problem": "The abstract names \"credibility and context\" as the boundary conditions; the digest converts \"context\" specifically into life-transition timing, and the story angle adds examples (\"a job change or new baby\") that are not in the abstract.",
+          "suggested_fix": "Say effects were contingent on perceived credibility and context, noting separately that life-course transitions shaped engagement; remove the invented transition examples or mark them as unverifiable from the abstract."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7203886708",
+      "headline": "For Chinese K-pop fans, buying is belonging — and it beats making fan art",
+      "verdict": "accurate",
+      "notes": "Survey N (326), interview sample (eight female fans), the association pattern (purchasing practices significantly associated with self- and social identity, creative practices weaker) and the 2016 THAAD context all match the abstract; caveats correctly note the cross-sectional, non-causal design.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7204130857",
+      "headline": "Like a few beauty posts and Instagram's Explore feed hardens around them — and counter-curating barely helps",
+      "verdict": "minor",
+      "notes": "Method (ethnography plus a manually annotated supervised classifier), the asymmetric amplification finding, the \"fewer posts depicting persons\" result and the minimal counter-curation effect all match. Only the headline's \"a few\" overstates the level of engagement studied.",
+      "issues": [
+        {
+          "label": "Engagement threshold overstated in headline",
+          "severity": "Minor",
+          "as_written": "Like a few beauty posts and Instagram's Explore feed hardens around them",
+          "abstract_says": "Instagram's recommender system strongly amplifies beauty ideals when users routinely engage with such content through likes and saves",
+          "problem": "The abstract attributes amplification to routine engagement, not to a handful of likes; the headline suggests a much lower threshold than the study tested.",
+          "suggested_fix": "Change to \"Routinely like beauty posts and Instagram's Explore feed hardens around them\"."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7172243346",
+      "headline": "Solo women travelers get intrusive service — and most say nothing",
+      "verdict": "minor",
+      "notes": "Sample (34 solo female travellers), the three intrusion types and all five suppression reasons match the abstract. The \"Why it matters\" line asserts revenue loss that the study does not measure, which sits awkwardly against the digest's own caveat.",
+      "issues": [
+        {
+          "label": "Revenue-loss claim beyond the evidence",
+          "severity": "Minor",
+          "as_written": "meaning operators' complaint data badly understates the problem they are losing revenue to",
+          "abstract_says": "While SFTs are a lucrative market segment, their experience and by implication, their spending, at service encounters remains largely overlooked.",
+          "problem": "The abstract only notes that SFT spending at service encounters is under-researched; it reports no link between intrusive encounters and lost revenue. The body states this as fact even though the digest's own caveat says there is \"no quantification of prevalence or spending impact\".",
+          "suggested_fix": "Soften to \"meaning operators' complaint data likely understates how common these experiences are; the revenue consequences were not measured\"."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7203697215",
+      "headline": "A single drought explains a fifth of Argentina's GDP swings",
+      "verdict": "minor",
+      "notes": "All headline figures (4.5 pp, 2.3 pp, 0.94 pp, 1.06 pp, 21.2%), the 2004–2021 quarterly window, the WAPI index and the block-exogenous SVAR match the abstract. The headline misreads a variance-decomposition share as the effect of one drought event, and the inflation buffer is described slightly loosely.",
+      "issues": [
+        {
+          "label": "Variance share attributed to a single event",
+          "severity": "Minor",
+          "as_written": "A single drought explains a fifth of Argentina's GDP swings",
+          "abstract_says": "Drought shocks account for 21.2% of total GDP volatility, confirming their systemic nature.",
+          "problem": "The 21.2% is the share of GDP volatility attributable to drought shocks collectively in a forecast error variance decomposition, not the contribution of any one drought.",
+          "suggested_fix": "Change to \"Drought shocks explain a fifth of Argentina's GDP swings\"."
+        },
+        {
+          "label": "Dropped qualifier on the inflation buffer",
+          "severity": "Minor",
+          "as_written": "while consumer inflation stayed contemporaneously flat, buffered by collapsing incomes and central bank currency intervention",
+          "abstract_says": "consumer inflation remains contemporaneously unresponsive, buffered by severe income contraction in nontradables and active foreign exchange interventions",
+          "problem": "The abstract specifies income contraction in the nontradables sector; the digest generalizes this to \"collapsing incomes\".",
+          "suggested_fix": "Write \"buffered by a severe income contraction in nontradables and active foreign exchange intervention\"."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 9,
+    "cached": 0,
+    "skipped": 6,
+    "skipped_reason": "",
+    "partial_reason": "coverage stopped after 240s; 6 study(ies) unchecked",
+    "by_work": {
+      "W7208819722": {
+        "query": "Forget heaviest fifth buyers really worth about half category spending",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213276001": {
+        "query": "strings 400 check didn pay down debt recipients borrowed",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212434558": {
+        "query": "pop store tour cut band own online merch sales same",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213285496": {
+        "query": "Ads designed screenshotted get saved liked",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203655820": {
+        "query": "Attacking own side candidates run ads bashing their own party",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213557087": {
+        "query": "Likes don pay bills but voting memberships paid interactions they",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202404765": {
+        "query": "money feels tight people don cancel trip they dream harder",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203466714": {
+        "query": "Think big gift card stops feeling like gift card money",
+        "returned": 16,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202221325": {
+        "query": "Financial anxiety isn one problem network literacy only cuts worst",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** Six studies in this batch converge on the same uncomfortable finding: the standard institutional model of money behavior — inform people, and they will deleverage, save, and calm down — does not match what consumers actually do. An unconditional $1,400 check produced $2,060 more debt rather than debt relief (\"A no-strings $1,400 check didn't pay down debt,\" W7213276001); financial literacy only trimmed the tail of extreme anxiety while contextual stressors did the rest (\"Financial anxiety isn't one problem,\" W7202221325); pension statements lost to podcasts as a trigger for retirement action (\"Money podcasts are doing what pension statements can't,\" W7172533758); savings features worked through trust in the brand rather than feature quality (\"Do banking app savings features actually make people save?\", W7202385295); an abstract, big-picture frame quietly dissolved the earmarks that budgeting tools depend on (\"Think big and that gift card stops feeling like 'gift card money,'\" W7203466714); and financial strain intensified rather than suppressed the appetite for escape (\"When money feels tight, people don't cancel the trip,\" W7202404765).\n\n**Why pitch this now:** Guaranteed-income and local cash-transfer pilots are multiplying just as banks and fintechs push AI-flavored \"money coaching\" and regulators on both sides of the Atlantic tighten rules on finfluencers — three bets on financial education and nudging arriving at once, with this evidence suggesting all three misread what drives spending.\n\n**Angle:** A reported feature on the quiet collapse of the financial-literacy consensus — what actually moves money behavior (circumstances, framing, trust, and who is doing the talking) and what that means for banks, employers, and cash-transfer programs designing the next round of interventions. Aimed at business and financial-services decision-makers, with a consumer-facing version for readers who have been told their money stress is a knowledge problem.\n\n**Potential headlines:**\n- Financial education barely moves the needle. Six new studies show what does.\n- Give people money and they borrow more\n- Your bank thinks you need a lesson. The research says you need a buffer.\n\n**Potential outlets:**\n- **MIT Sloan Management Review** — takes the \"our behavioral model is wrong\" framing seriously and has an audience designing exactly these literacy-plus-product interventions.\n- **American Banker** — the trust-as-gatekeeper and savings-feature-staging findings speak directly to retail banking product and marketing teams.\n- **Marketing Week** — financial services marketers are a core readership, and the podcast/creator-credibility finding is a live channel-strategy debate there.\n- **Vox** — runs consumer-money explainers that reframe personal failings as structural, which is precisely the anxiety-network and cash-transfer story.",
+    "pitch_ideas": "- **Forget 80/20: your heaviest fifth of buyers is really worth about half of category spending (Work ID W7208819722):** Sixteen years of U.S. expenditure data say the rule underpinning loyalty tiers and media weighting is roughly 30 points off in most categories — pitch as a myth-busting piece with the proposed 10/40 alternative, for a CMO-audience column or marketing-trade analysis slot.\n- **A no-strings $1,400 check didn't pay down debt — recipients borrowed more (Work ID W7213276001):** Local cash pilots may be functioning as down payments that unlock auto and mortgage credit, a sharp counterpoint to the pandemic-stimulus narrative — for a personal-finance or economics section, or a policy-focused business outlet.\n- **A pop-up store on tour cut the band's own online merch sales in the same city (Work ID W7212434558):** Experiential retail's halo effect measured at customer level turns out to be substitution, not addition — for a retail trade explainer or an e-commerce measurement piece.\n- **Ads designed to be screenshotted get saved — and liked — more (Work ID W7213285496):** The camera roll as a shopping list, plus a concrete creative checklist for capture-friendly ads, with the caveat that outcomes are stated intentions — for a marketing-trade craft/creative column.\n- **Attacking your own side: why candidates run ads bashing their own party (Work ID W7203655820):** Voters forgive disloyalty when they read it as strategic — a big-sample political-persuasion finding with an obvious read-across to brands breaking with their own industry, for a general-interest politics or consumer-psychology explainer ahead of the next campaign cycle.\n- **Likes don't pay the bills — but the voting, memberships and paid interactions they lead to do (Work ID W7213557087):** Roughly 55% of the engagement-to-spending link runs through owned participation mechanics, which reframes the case for social reach budgets — for a sports-business or fan-economy trade feature.\n- **When money feels tight, people don't cancel the trip — they dream harder about nature (Work ID W7202404765):** Financially squeezed consumers are an escape-seeking segment, not a lost one, and nostalgia and nature content pull in opposite directions — for a travel trade outlet or a consumer-behavior column.\n- **Think big and that gift card stops feeling like \"gift card money\" (Work ID W7203466714):** Abstract, aspirational framing makes earmarked money fungible again — useful to both promotion designers and envelope budgeters — for a behavioral-science explainer or a personal-finance column on why budget categories leak.\n- **Financial anxiety isn't one problem — it's a network, and literacy only cuts the worst of it (Work ID W7202221325):** Money stress modeled as a system rather than a knowledge gap, with a clear implication that banks should segment by stressor rather than by quiz score — for a financial-services trade piece or a general-interest money-and-mental-health story.\n- **Do banking app savings features actually make people save? (Work ID W7202385295):** Trust in the institution, not feature sophistication, gates whether auto-save tools feel effective — a brand-equity story dressed as a product story, for a banking or fintech trade brief (note the small samples).\n- **Money podcasts are doing what pension statements can't (Work ID W7172533758):** Young women who are confident with weekly budgets and lost on investing act on creator media at life-transition moments — for a financial-services marketing feature or a general-interest piece on the finfluencer gender gap.\n- **For Chinese K-pop fans, buying is belonging — and it beats making fan art (Work ID W7203886708):** Coordinated group spending, not creativity, does the identity work in this fandom, raising questions about monetizing membership in young fan bases — for a consumer-culture feature or a fandom-economy explainer.\n- **Like a few beauty posts and Instagram's Explore feed hardens around them (Work ID W7204130857):** Mechanism-level evidence that recommender systems learn conventional beauty preferences fast and resist the opposite, with a gap between brands' body-positive positioning and the feeds their ads land in — for a tech/platform desk or a digital advertising trade investigation.\n- **Solo women travelers get intrusive service — and most say nothing (Work ID W7172243346):** Low complaint volume from a high-spending segment is a measurement failure, not a clean record — for a hospitality trade piece on reporting channels, or a travel section consumer story.\n- **A single drought explains a fifth of Argentina's GDP swings (Work ID W7203697215):** Rainfall in crop regions as a leading indicator of currency moves and consumer demand, useful for anyone forecasting into commodity-exporting markets — for an emerging-markets business outlet or a global-economy explainer."
+  }
+}
