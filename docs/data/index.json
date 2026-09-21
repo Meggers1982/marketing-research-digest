@@ -1,8 +1,9 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 7,
+  "run_count": 8,
   "topics": [
     "ai & marketing technology",
+    "b2b & sales",
     "customer experience & service",
     "food, health & wellbeing",
     "money & spending",
@@ -11,6 +12,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-b2b-sales-2026-09-21",
+      "title": "Marketing Research Digest — B2B & Sales — 2026-09-21",
+      "topic": "b2b & sales",
+      "run_date": "2026-09-21",
+      "study_count": 10,
+      "total_issues": "13 (12 Minor, 1 Moderate, 0 Major)",
+      "lead_count": 3,
+      "top_score": 82
+    },
     {
       "id": "marketing-research-digest-money-spending-2026-09-20",
       "title": "Marketing Research Digest — Money & Spending — 2026-09-20",

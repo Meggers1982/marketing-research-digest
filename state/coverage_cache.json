@@ -110,6 +110,16 @@
         "state": "unreported"
       }
     },
+    "W7171153525": {
+      "checked_at": "2026-09-21T14:36:37.794545+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Keeping same account team place improves customer experience but discounts",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
     "W7171377067": {
       "checked_at": "2026-09-17T12:54:45.506797+00:00",
       "result": {
@@ -180,6 +190,16 @@
         "state": "unreported"
       }
     },
+    "W7172448511": {
+      "checked_at": "2026-09-21T14:36:30.758239+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Hard closing salespeople damage buyer trust buyers say themselves",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7202032785": {
       "checked_at": "2026-09-15T13:01:44.177390+00:00",
       "result": {
@@ -196,6 +216,16 @@
         "articles": [],
         "outlets": [],
         "query": "dash nostalgia makes customers willing served",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7202160517": {
+      "checked_at": "2026-09-21T14:38:30.754530+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Salespeople Proud Their Employer Sell Unless They Prouder Their Profession",
         "returned": 0,
         "state": "unreported"
       }
@@ -340,6 +370,16 @@
         "state": "unreported"
       }
     },
+    "W7203901346": {
+      "checked_at": "2026-09-21T14:36:50.810953+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Salespeople Say They Say Decides Who Converts",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7203929361": {
       "checked_at": "2026-09-15T13:01:03.416392+00:00",
       "result": {
@@ -436,6 +476,16 @@
         "articles": [],
         "outlets": [],
         "query": "Chatbots use name feel sincere until they use too much",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204571119": {
+      "checked_at": "2026-09-21T14:37:34.207497+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Three Quarters Japanese Luxury Resale Chain Revenue Came Visitors Not",
         "returned": 0,
         "state": "unreported"
       }
@@ -680,6 +730,16 @@
         "state": "unreported"
       }
     },
+    "W7211996947": {
+      "checked_at": "2026-09-21T14:35:44.714724+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Micromanaging salespeople spend their day makes job feel meaningless performance",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7212036936": {
       "checked_at": "2026-09-18T12:29:37.884118+00:00",
       "result": {
@@ -906,6 +966,16 @@
         "articles": [],
         "outlets": [],
         "query": "most politically extreme customers most loyal least likely notice price",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213538226": {
+      "checked_at": "2026-09-21T14:35:10.522913+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Procurement managers admit they keep buying suppliers they suspect greenwashing",
         "returned": 0,
         "state": "unreported"
       }
