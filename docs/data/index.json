@@ -1,9 +1,10 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 8,
+  "run_count": 9,
   "topics": [
     "ai & marketing technology",
     "b2b & sales",
+    "consumer psychology",
     "customer experience & service",
     "food, health & wellbeing",
     "money & spending",
@@ -12,6 +13,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-consumer-psychology-2026-09-24",
+      "title": "Marketing Research Digest — Consumer Psychology — 2026-09-24",
+      "topic": "consumer psychology",
+      "run_date": "2026-09-24",
+      "study_count": 20,
+      "total_issues": "28 (25 Minor, 3 Moderate, 0 Major)",
+      "lead_count": 14,
+      "top_score": 95
+    },
     {
       "id": "marketing-research-digest-b2b-sales-2026-09-21",
       "title": "Marketing Research Digest — B2B & Sales — 2026-09-21",

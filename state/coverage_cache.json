@@ -1,5 +1,15 @@
 {
   "studies": {
+    "W4318015176": {
+      "checked_at": "2026-09-24T12:59:21.064263+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Virtual influencers get traction they pictured hanging out real people",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W4375826978": {
       "checked_at": "2026-09-15T13:01:51.031005+00:00",
       "result": {
@@ -130,6 +140,16 @@
         "state": "unreported"
       }
     },
+    "W7171543795": {
+      "checked_at": "2026-09-24T12:59:57.232148+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "rollout will live die middle manager",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7171554746": {
       "checked_at": "2026-09-14T16:55:31.369353+00:00",
       "result": {
@@ -147,6 +167,16 @@
         "outlets": [],
         "query": "Beauty filters widen gap between look want look raise interest",
         "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7172190947": {
+      "checked_at": "2026-09-24T12:59:34.214138+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Sticky seats beat beer lists actually drives choice pub",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -210,6 +240,16 @@
         "state": "unreported"
       }
     },
+    "W7202051364": {
+      "checked_at": "2026-09-24T12:59:35.773509+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Feeling local makes people creative pride reason",
+        "returned": 4,
+        "state": "unreported"
+      }
+    },
     "W7202159278": {
       "checked_at": "2026-09-14T16:55:27.283126+00:00",
       "result": {
@@ -268,6 +308,24 @@
         "query": "Think big gift card stops feeling like gift card money",
         "returned": 16,
         "state": "unreported"
+      }
+    },
+    "W7203605101": {
+      "checked_at": "2026-09-24T12:59:45.859751+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://www.yahoo.com/retired-people-revealing-why-theyre-093102586.html",
+            "outlet": "Yahoo",
+            "title": "Retired People Are Revealing Why They're Busier Now Than When They Had A Job"
+          }
+        ],
+        "outlets": [
+          "Yahoo"
+        ],
+        "query": "busier people feel they want games their childhood",
+        "returned": 20,
+        "state": "lightly_reported"
       }
     },
     "W7203655820": {
@@ -390,6 +448,16 @@
         "state": "unreported"
       }
     },
+    "W7203929993": {
+      "checked_at": "2026-09-24T12:59:52.589125+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Rivalry ads split crowd gender women stands react differently than",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7203936299": {
       "checked_at": "2026-09-16T12:55:58.146050+00:00",
       "result": {
@@ -480,6 +548,30 @@
         "state": "unreported"
       }
     },
+    "W7204561075": {
+      "checked_at": "2026-09-24T13:00:06.951169+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://totallythebomb.com/i-dont-want-a-successful-marriage-i-want-a-peaceful-life/",
+            "outlet": "Totally The Bomb",
+            "title": "I Don\u2019t Want A Successful Marriage. I Want A Peaceful Life."
+          },
+          {
+            "link": "https://www.kqed.org/forum/2010101914907/dorothy-lazard-on-the-ambitious-mission-of-libraries-and-the-people-that-make-them-function",
+            "outlet": "KQED",
+            "title": "Dorothy Lazard on the Ambitious Mission of Libraries and the People that Make them Function"
+          }
+        ],
+        "outlets": [
+          "Totally The Bomb",
+          "KQED"
+        ],
+        "query": "ambitious people don want them",
+        "returned": 20,
+        "state": "lightly_reported"
+      }
+    },
     "W7204571119": {
       "checked_at": "2026-09-21T14:37:34.207497+00:00",
       "result": {
@@ -487,6 +579,16 @@
         "outlets": [],
         "query": "Three Quarters Japanese Luxury Resale Chain Revenue Came Visitors Not",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204588967": {
+      "checked_at": "2026-09-24T12:59:42.998250+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Emotional customer service only works customers who want relationship brand",
+        "returned": 3,
         "state": "unreported"
       }
     },
@@ -536,6 +638,16 @@
         "articles": [],
         "outlets": [],
         "query": "Salespeople who want look good deliver warmer service weaker technical",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204997257": {
+      "checked_at": "2026-09-24T13:00:10.835954+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Make people suffer little painful charity events boost perceived authenticity",
         "returned": 0,
         "state": "unreported"
       }
@@ -666,6 +778,16 @@
         "articles": [],
         "outlets": [],
         "query": "Hiring official board measurably improves government sales except procurement truly",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7210276982": {
+      "checked_at": "2026-09-24T13:00:05.515249+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "wider product line advertising works word mouth does",
         "returned": 0,
         "state": "unreported"
       }
@@ -860,6 +982,16 @@
         "state": "unreported"
       }
     },
+    "W7212428236": {
+      "checked_at": "2026-09-24T12:59:44.116120+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Put face first five seconds fewer people watch",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
     "W7212434558": {
       "checked_at": "2026-09-20T12:43:50.692257+00:00",
       "result": {
@@ -907,6 +1039,16 @@
         "outlets": [],
         "query": "Japanese fashion retailers turning store staff into their own influencers",
         "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7213274443": {
+      "checked_at": "2026-09-24T12:59:10.708999+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Ready beats ready minutes but only short waits",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -960,6 +1102,36 @@
         "state": "unreported"
       }
     },
+    "W7213468681": {
+      "checked_at": "2026-09-24T12:59:41.832635+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Older celebrities get punished sponsored posts younger ones get rewarded",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213493969": {
+      "checked_at": "2026-09-24T12:59:19.276156+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "photos fewer bookings extra visuals hurt experience sales",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213511827": {
+      "checked_at": "2026-09-24T12:59:27.323842+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Tearjerker revenge flick Culture predicts which mixed emotions sell",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213535017": {
       "checked_at": "2026-09-19T12:08:30.536735+00:00",
       "result": {
@@ -977,6 +1149,16 @@
         "outlets": [],
         "query": "Procurement managers admit they keep buying suppliers they suspect greenwashing",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213546298": {
+      "checked_at": "2026-09-24T12:59:29.354146+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers will pay low carbon milk but big chunk them",
+        "returned": 1,
         "state": "unreported"
       }
     },
@@ -1005,6 +1187,46 @@
         "outlets": [],
         "query": "Likes don pay bills but voting memberships paid interactions they",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213621009": {
+      "checked_at": "2026-09-24T12:59:58.431939+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Ask shoppers type their opinion get emotion ask them talk",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7213625881": {
+      "checked_at": "2026-09-24T12:59:15.011869+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Ask toward 000 goal round number math makes people give",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213674865": {
+      "checked_at": "2026-09-24T12:59:37.885420+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Naming government institute developer makes shoppers warmer lab grown insect",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214126722": {
+      "checked_at": "2026-09-24T12:59:16.272461+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Infinite scroll sells then gets returned",
+        "returned": 3,
         "state": "unreported"
       }
     }

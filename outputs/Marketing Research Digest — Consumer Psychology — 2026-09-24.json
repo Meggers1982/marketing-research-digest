@@ -1,0 +1,898 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-24",
+  "days_back": 60,
+  "window_from": "2026-07-26",
+  "window_to": "2026-09-24",
+  "focus": "Consumer Psychology",
+  "topic": "consumer psychology",
+  "query": "(consumer OR consumers OR shopper OR customer) AND (emotion OR identity OR \"decision making\" OR choice OR motivation OR \"self-control\" OR nostalgia OR happiness OR \"social comparison\" OR loneliness OR status)",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 322,
+    "not_research": 1,
+    "no_abstract": 53,
+    "off_topic": 0,
+    "already_covered": 34,
+    "over_journal_cap": 38,
+    "over_cap": 156,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7213274443",
+      "headline": "\"Ready at 6:30\" beats \"ready in 30 minutes\" — but only for short waits",
+      "the_study": "Across eight experiments with 16,604 participants, researchers compared logically identical ways of describing a time period: a duration (\"in 30 minutes\") versus start-and-end clock times or calendar dates (\"at 6:30 PM\"). Short periods felt longer when expressed as a duration, while the pattern flipped for longer periods, which felt longer when expressed as start-and-end points. The authors attribute this to duration frames triggering compressed, diminishing-sensitivity judgments, whereas clock and calendar frames anchor time in structured categories.",
+      "why_it_matters": "Wait times, delivery windows and service estimates are communicated constantly, and this work suggests the wording alone — with no change in the actual wait — shifts how long it feels and whether consumers pay to skip it.",
+      "story_angle_primary": "An easy, near-zero-cost A/B test for any business that quotes waits: restaurants, delivery apps, call centers and repair services could try switching short estimates to clock times and long ones to durations, and watch abandonment, upgrade purchases and satisfaction. The flip point matters — a blanket rule would backfire on longer horizons.",
+      "story_angle_secondary": "A reminder that your sense of how long something will take is being nudged by phrasing. If \"in 30 minutes\" makes you reach for the paid express option, reframing it in your head as \"done by 6:30\" may take the sting out.",
+      "caveats": "Experiments rather than field deployments; the abstract does not specify samples or countries, and many such studies rely on online panels, so effects on real waiting behavior at scale remain to be shown.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-09-15",
+      "doi": "10.1093/jcr/ucag039",
+      "paper_title": "Time-Duration Asymmetries in Consumer Decision-Making",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7213625881",
+      "headline": "Ask for $25 toward a $1,000 goal: round-number math makes people give",
+      "the_study": "Seven studies — including field experiments, secondary campaign data and lab experiments — tested how the relationship between a fundraising campaign's overall goal and its suggested donation amount affects giving. People were more likely to contribute when the goal divided cleanly by the requested amount (for example, $25 into $1,000) than when it did not. The mechanism was perceived clarity: easy division made donors see exactly how their gift moved the total, which boosted motivation to help reach the collective goal.",
+      "why_it_matters": "Nonprofits and crowdfunding platforms set goal amounts and suggested donation tiers independently; this shows the arithmetic relationship between the two numbers is itself a lever on conversion.",
+      "story_angle_primary": "Fundraisers and platforms can test pairing goal and ask amounts that divide evenly, and the same logic may extend to loyalty points, savings targets and step or fitness challenges where a total and an increment are shown together. Worth checking whether the effect survives once donors see multiple suggested tiers at once.",
+      "story_angle_secondary": "Your generosity may be partly a math reflex: when you can instantly see that your $25 is one-fortieth of the goal, giving feels more meaningful than when the numbers don't line up neatly.",
+      "caveats": "Mix of field, archival and lab studies strengthens the case, but the abstract gives no sample sizes, countries or effect magnitudes; single domain (charitable giving).",
+      "journal": "Journal of Marketing",
+      "published": "2026-09-18",
+      "doi": "10.1177/00222429261492622",
+      "paper_title": "EXPRESS: Clarifying Individual Contributions: The Divisibility-Appeal Effect in Fundraising",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7214126722",
+      "headline": "Infinite scroll sells — and then gets returned",
+      "the_study": "Five studies using real websites compared infinite-scrolling and paginated product listings under free-return policies. Shoppers browsing infinite-scroll layouts were more likely to return what they bought. The reason: endless scrolling reduces the sense of navigational control, which blocks \"choice closure\" — the feeling that the decision is settled — leaving buyers second-guessing afterward. Adding navigational aids such as sequence numbers, giving affirmative feedback, or making return costs salient reduced the effect.",
+      "why_it_matters": "Returns are a major drag on e-commerce margins, and this points to an interface design choice — usually optimized for engagement and browsing time — as a hidden driver of them.",
+      "story_angle_primary": "Retailers should look at return rates split by layout and device, and test cheap fixes such as item counters, progress indicators or post-purchase confirmation messaging before assuming the problem is product fit or sizing. The tension is real: the layout that maximizes browsing may be the one that maximizes reverse logistics costs.",
+      "story_angle_secondary": "If you often feel unsure about an online purchase after clicking buy, the endless feed may be to blame — you never reached the end, so the decision never felt finished. Pausing to review a short shortlist before checkout can restore that sense of closure.",
+      "caveats": "Return intentions were the outcome in at least part of the work rather than observed returns; effects established in study settings using real websites, not a deployed retailer field test; free-return context only.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-09-23",
+      "doi": "10.1177/00222437261494550",
+      "paper_title": "EXPRESS: Infinite-Scrolling vs. Pagination: The Impact of Interface Layouts on Product Returns",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7213493969",
+      "headline": "More photos, fewer bookings: why extra visuals hurt experience sales",
+      "the_study": "Five studies, including a real newsletter campaign, a field test at a zoo using a trailer video, and a choice study of hotel options, found that consumers were less likely to buy an experiential product — vacations, dining, attractions — when it was promoted with many images rather than few. The effect disappeared when the extensive image set was visually heterogeneous, suggesting redundancy rather than volume is the problem. In an actual choice task, participants preferred the hotel option shown with fewer images.",
+      "why_it_matters": "Travel, hospitality and leisure marketers have been adding ever more photos and video to listings on the assumption that more information helps; this suggests a large, similar-looking gallery can suppress demand.",
+      "story_angle_primary": "Test trimming image galleries on experiential listings, or curating for variety rather than volume — and measure conversion, not just time on page. Worth checking whether the same logic applies to user-generated photo floods on review and booking platforms.",
+      "story_angle_secondary": "When a hotel or tour listing drowns you in near-identical pictures, your enthusiasm can quietly deflate — a useful thing to notice before concluding a place \"just didn't look appealing.\"",
+      "caveats": "Experiential products only; mix of field and lab work but sample sizes and countries not specified in the abstract; effect may depend on the specific images used.",
+      "journal": "Journal of Retailing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.jretai.2026.09.002",
+      "paper_title": "Too much of a good thing: Promotional visuals and their effect on buying intentions of experiences",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W4318015176",
+      "headline": "Virtual influencers get more traction when they're pictured hanging out with real people",
+      "the_study": "Combining automated image and text analysis of thousands of social media posts with controlled experiments, researchers tested whether computer-generated influencers perform better when shown in photos interacting socially with humans. Posts showing genuine social ties — not just a human in frame — drew more engagement and choice, because the interaction made the virtual figure seem more human and therefore more trustworthy. The boost was strongest for less humanlike avatars, and disappeared when the companion was merely present, was another virtual entity, or when the poster was a real human influencer.",
+      "why_it_matters": "Brands are shifting budget from human to virtual influencers; this gives a concrete, testable content rule for making CGI personas credible rather than uncanny.",
+      "story_angle_primary": "Content teams running virtual personas can test staging genuine-looking social interactions with real people, especially for stylized or cartoonish avatars — and note that the same tactic offers no lift for human influencers, so it is not a universal engagement hack.",
+      "story_angle_secondary": "It reveals something about how trust is built: we extend credibility to a digital character mainly when we see other humans apparently treating it as one of them.",
+      "caveats": "Observational social media analysis cannot fully rule out confounds in what brands choose to post; experimental components likely used online panels; platform and category scope not specified in the abstract.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-08-10",
+      "doi": "10.1007/s11747-026-01185-x",
+      "paper_title": "What drives virtual influencers’ impact?",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7213511827",
+      "headline": "Tearjerker or revenge flick? Culture predicts which mixed emotions sell",
+      "the_study": "Researchers tested whether the emotional cocktails audiences seek out track cultural orientation, combining eight years of box office revenue data (2015–2022) with six experiments and an internal meta-analysis. They found that collectivist-oriented consumers process affection-plus-sadness blends more fluently and choose content signaling them, while individualist-oriented consumers do the same for pride-plus-anger blends. The earlier assumption that mixed emotional appeals simply work better on collectivists did not hold; what mattered was whether the specific emotional mix matched self-transcendence versus self-enhancement values.",
+      "why_it_matters": "Streaming services, publishers and advertisers routinely tag content by emotion; this suggests those tags should be matched to viewers' cultural orientation rather than applied universally.",
+      "story_angle_primary": "A test worth running: instead of one emotional creative per market, build parallel versions of the same story beat — a moving reunion versus a satisfying comeuppance — and see whether matching to audience cultural orientation lifts click-through on recommendations and trailers. The box office component gives real-market support, but the mechanism evidence comes from experiments, so treat personalization gains as a hypothesis to validate in your own recommender.",
+      "story_angle_secondary": "Why one friend cues up a good cry while another wants to watch the villain get what's coming: the study suggests these aren't just personality quirks but reflect deeper cultural values about self-transcendence versus self-enhancement.",
+      "caveats": "Experimental components rely on choices among content options rather than paid viewing; cultural orientation is measured at the individual level, which can flatten within-country variation; box office analysis is correlational.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-09-17",
+      "doi": "10.1002/mar.70269",
+      "paper_title": "A Good Cry or Gratifying Revenge? The Effects of Culture and Mixed Emotions on Choice",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7213546298",
+      "headline": "Consumers will pay more for low-carbon milk — but a big chunk of them dislike 'organic'",
+      "the_study": "A choice experiment fielded through an online survey across four US regions asked regular grocery milk buyers to choose among gallons varying on organic production, greenhouse gas emissions reduction, nutrient runoff reduction and price. Preferences split sharply: a higher-socioeconomic, environmentally engaged segment showed substantially higher willingness to pay for both organic and emissions reductions, while a lower-socioeconomic, less environmentally engaged segment actually derived negative utility from the organic label. Education was the main driver of the organic premium; environmental attitudes drove the premium for emissions reductions.",
+      "why_it_matters": "As US dairy pledges Net Zero by 2050 and passes on higher production costs, the finding says climate claims and organic claims are not interchangeable — and that organic labeling can actively repel part of the market.",
+      "story_angle_primary": "If you're building a sustainability story for a staple category, test emissions and runoff claims separately from organic certification; they appeal to different buyers through different mechanisms, and bundling them may cost you volume among price-sensitive shoppers who read 'organic' as a negative signal.",
+      "story_angle_secondary": "Green labels on everyday groceries aren't read the same way by everyone — for some shoppers 'organic' signals value for money lost, not virtue gained, which helps explain why sustainable products stall outside affluent zip codes.",
+      "caveats": "Hypothetical choice experiment with stated preferences rather than observed purchases; online survey sample; single country and single category (milk); willingness-to-pay estimates from choice experiments typically overstate real market behavior.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-09-18",
+      "doi": "10.1016/j.foodqual.2026.106117",
+      "paper_title": "Milking consumers' willingness to pay for greener dairy: Udderly important or a moo-t point?",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7172190947",
+      "headline": "Sticky seats beat beer lists: what actually drives the choice of pub",
+      "the_study": "Using Q-methodology — a mixed-methods technique for mapping how people rank competing priorities — researchers examined the trade-offs consumers make between product, physical and service features when choosing a pub, framed through foraging theory. Two psychographic segments emerged: Traditional Pint Loyalists and Inclusive Drinkers. Cleanliness and physical environment factors surfaced as decisive alongside drink range, and the analysis points to the growing weight of women, families and non-beer drinkers in a market still segmented by dated demographic stereotypes.",
+      "why_it_matters": "Hospitality operators tend to compete on drinks range and price; this suggests the physical environment and inclusivity of the space are doing more segmentation work than the product lineup.",
+      "story_angle_primary": "Worth auditing whether your venue's investment is going where choice is actually made — a cheap fix to seating, cleanliness and atmosphere may move more traffic than another tap line. The segments here are exploratory, so treat them as hypotheses to validate with your own footfall and loyalty data before rebuilding a targeting strategy.",
+      "story_angle_secondary": "People tell themselves they pick a pub for the beer, but the study suggests they're really foraging for a comfortable environment — and the archetypal pub regular is increasingly not a man with a pint.",
+      "caveats": "Q-methodology uses small purposive samples and yields subjective viewpoint patterns, not population estimates; single country (UK) and single category; stated preferences rather than observed venue choice.",
+      "journal": "Journal of Marketing Management",
+      "published": "2026-09-22",
+      "doi": "10.1080/0267257x.2026.2733461",
+      "paper_title": "‘You don’t want to be sat on a sticky seat’: a Q-methodological foraging analysis of pub consumer choice",
+      "source_id": "S14291815"
+    },
+    {
+      "work_id": "W7202051364",
+      "headline": "Feeling local makes people more creative — and pride is the reason",
+      "the_study": "Across a field study, six controlled experiments, secondary data from a large crowdsourcing platform, and manager interviews, researchers tested how making a person's local versus global identity salient affects creative output. Consumers primed toward a local identity produced more creative ideas than those primed toward a global identity, and group-based pride was the mechanism: boosting pride externally raised creativity among globally primed participants, while dampening pride lowered it among locally primed ones.",
+      "why_it_matters": "Companies running crowdsourcing contests, co-creation programs, and ideation platforms can shift the quality of submissions simply by changing the cultural framing of the brief.",
+      "story_angle_primary": "Test whether local framing — hometown references, regional imagery, community language — lifts the creativity of ideas submitted to your co-creation or contest platform, and whether pride-evoking copy does the same work for globally framed campaigns. The multi-method evidence including field and platform data is stronger than lab-only work, but replication in your own category is still warranted.",
+      "story_angle_secondary": "Where you feel you belong may quietly change how inventive you are. Reminders of your hometown or region appear to spark pride, and pride seems to unlock more original thinking than reminders of being a global citizen.",
+      "caveats": "Mechanism evidence comes mainly from controlled experiments; the abstract does not specify sample sizes, countries, or the crowdsourcing platform, so generalizability across cultures and categories is unverified.",
+      "journal": "Journal of Marketing",
+      "published": "2026-08-09",
+      "doi": "10.1177/00222429261479623",
+      "paper_title": "EXPRESS: Local–Global Identity Salience and Creativity: The Mediating Role of Group–Based Pride",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7213674865",
+      "headline": "Naming a government research institute as co-developer makes shoppers warmer to lab-grown and insect protein",
+      "the_study": "Four experiments with Chinese consumers tested whether labeling an alternative-protein product as co-developed with an official agricultural research institute changed acceptance. The cue generally raised acceptance of plant-based, cultured-meat, and insect-based products by reducing perceived risk; the effect was strongest among food-neophobic consumers and disappeared entirely when trust in the named institution was low.",
+      "why_it_matters": "Alternative protein brands struggle with unfamiliarity at shelf; an institutional co-development credential is a cheap packaging-level lever that may do more than taste or sustainability claims for the most hesitant shoppers.",
+      "story_angle_primary": "Consider testing institutional co-development credentials on-pack and in e-commerce product pages for unfamiliar food innovations — but audit trust in the named institution first, since the study found a low-trust endorser delivers nothing. Note these are experiments, not shelf tests.",
+      "story_angle_secondary": "When faced with food you find strange, you may be reacting less to the food than to who vouches for it. The finding shows how much a trusted third-party name can quietly lower your sense of risk.",
+      "caveats": "All four studies used Chinese consumers, where trust in state agricultural institutions may differ sharply from other markets; experiments used product evaluations rather than real purchases, and sample sizes are not reported in the abstract.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-09-19",
+      "doi": "10.1016/j.jretconser.2026.105122",
+      "paper_title": "Institutional co-development cues in retail food choice: Reducing perceived risk in alternative protein acceptance",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7213468681",
+      "headline": "Older celebrities get punished for sponsored posts; younger ones get rewarded",
+      "the_study": "Researchers analyzed 22,619 Instagram-style posts from 286 celebrities, ran sentiment analysis on 67,778 follower comments, and conducted a 2×2 experiment (N=290). Older celebrities drew lower engagement and less positive emotion on sponsored posts relative to their own non-sponsored content, while younger celebrities saw the reverse — higher engagement and warmer sentiment on sponsored content. The experiment traced this to a chain of reduced perceived interest fit and weaker social identification.",
+      "why_it_matters": "Brands paying premiums for established, older celebrity partners may be buying reach that converts poorly into engagement precisely when the content is commercial.",
+      "story_angle_primary": "Audit engagement on sponsored versus organic posts by talent age before renewing influencer contracts, and test whether framing older talent's paid content around genuine personal interest closes the fit gap. The observational data is large, but causality rests on a single modest experiment.",
+      "story_angle_secondary": "Audiences appear to hold an unspoken stereotype about who is 'supposed' to be selling things online — and react coolly when an older famous face does the pitching.",
+      "caveats": "The experiment (N=290) is small relative to its 2×2 design; platform and country not specified in the abstract; observational engagement data cannot rule out differences in follower composition, category, or posting style across celebrity ages.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-09-17",
+      "doi": "10.1002/mar.70268",
+      "paper_title": "The Age‐Fit Hypothesis: Celebrity Age, Content Type, and Consumer Engagement on Social Media",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7204588967",
+      "headline": "Emotional AI in customer service only works on customers who want a relationship with your brand",
+      "the_study": "Three between-subjects experiments with a combined 677 participants tested how emotionally expressive AI customer service agents affect satisfaction and continuance intention. For consumers with communal brand relationship norms — those who see the brand as a relationship partner — high emotional expressiveness raised satisfaction; for exchange-oriented consumers who just want the transaction done, it made no difference. The effect ran through expectation confirmation and only emerged when consumers attributed experiential 'mind' to the AI.",
+      "why_it_matters": "Service teams are rolling out warmer, more emotive chatbots as a blanket upgrade; the evidence suggests the benefit is concentrated in one customer segment and absent in another.",
+      "story_angle_primary": "Rather than standardizing chatbot warmth, test segmented emotional calibration — expressive tone for relationship-oriented customers, efficient and neutral for transactional ones — and watch whether framing the AI as capable of feeling amplifies or backfires.",
+      "story_angle_secondary": "If a chatbot's sympathetic language leaves you cold, that may say less about the bot than about what you want from the brand: some people want a friend, most just want the problem solved.",
+      "caveats": "Experimental scenarios rather than real service encounters; stated satisfaction and intentions rather than observed retention; sample recruitment and country not specified in the abstract.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-08-28",
+      "doi": "10.1108/apjml-12-2025-2751",
+      "paper_title": "Consumer response to emotion-expressing artificial intelligence in customer services: the role of brand relationship norms and expectation (dis)confirmation",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7212428236",
+      "headline": "Put a face in the first five seconds and fewer people watch your ad",
+      "the_study": "Researchers analyzed 3,498 skippable digital video ads running across 685 channels and 23 product categories, measuring how much of the pre-skip portion of each ad contained human faces. Ads with less facial presence before the skip button appeared earned more qualified video views. The effect was driven by utilitarian products; for hedonic products, facial presence had no significant relationship with views.",
+      "why_it_matters": "The opening seconds of a skippable ad are the most expensive real estate in digital video, and conventional creative wisdom that \"faces stop the scroll\" may be backwards in that window, at least for practical, information-driven products.",
+      "story_angle_primary": "Media and creative teams can treat the pre-skip window as its own testable unit: run A/B variants of the same spot with and without a human face in the first five seconds, split by whether the product is functional or pleasure-driven. This is correlational field data rather than a controlled test, so it argues for experimentation, not a rule.",
+      "story_angle_secondary": "It hints at what actually holds our attention when we hover over the skip button: for something we're evaluating on function, an on-screen person may feel like a delay before the information, while product or visual imagery gets to the point faster.",
+      "caveats": "Observational data from one platform environment, not a randomized experiment; view counts are a proxy for engagement and can be shaped by media buying, targeting and channel factors not fully controlled; causality cannot be established.",
+      "journal": "Marketing Letters",
+      "published": "2026-09-14",
+      "doi": "10.1007/s11002-026-09839-0",
+      "paper_title": "Before the skip option: impact of facial presence on video view completions",
+      "source_id": "S148909191"
+    },
+    {
+      "work_id": "W7203605101",
+      "headline": "The busier people feel, the more they want the games of their childhood",
+      "the_study": "Across five studies — one preregistered quasi-field study and four controlled experiments — researchers manipulated or measured perceived busyness and then tested preferences for retro versus modern video games. Feeling busy increased preference for retro games, and the mechanism was emotional instability: busyness made people feel emotionally unsettled, and nostalgic games served as a stabilizer. The effect disappeared among participants who felt powerful, for whom the compensatory motive was muted.",
+      "why_it_matters": "It identifies a specific, timeable emotional state — busyness — as a driver of nostalgic consumption, suggesting nostalgia marketing works best when aimed at moments of overload rather than broadcast year-round.",
+      "story_angle_primary": "Game publishers and any brand with heritage products could test nostalgia-forward messaging timed to high-pressure periods — tax season, quarter close, exam weeks, holiday crunch — and placed in productivity-adjacent contexts, while emphasizing calm and comfort rather than novelty. These are lab and quasi-field results, so the timing hypothesis needs a live campaign test.",
+      "story_angle_secondary": "For readers, it reframes the pull of old games, old music and old shows: reaching for the familiar when life speeds up isn't avoidance so much as a low-cost way of steadying yourself.",
+      "caveats": "Mostly controlled experiments with manipulated mindsets rather than observed purchases; preference measures rather than actual play or spending; single category (video games).",
+      "journal": "European Journal of Marketing",
+      "published": "2026-08-17",
+      "doi": "10.1108/ejm-10-2024-0887",
+      "paper_title": "Mindful gaming in a busy world: exploring the retro renaissance",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7203929993",
+      "headline": "Rivalry ads split the crowd by gender: women in the stands react differently than men",
+      "the_study": "Two experiments with sports consumers (N=406 and N=327) tested reactions to sponsors that explicitly invoked a city rivalry in their activation, varying the fan's own team allegiance, level of team identification, and gender. Women with moderate to strong team identification responded positively when their own team's sponsor referenced the rivalry, and negatively when the rival team's sponsor did; for men the pattern reversed. The authors conclude rivalry leveraging is a double-edged sword with genuinely ambivalent outcomes.",
+      "why_it_matters": "Rivalry-based sponsorship activation is a staple of sports marketing, and this suggests it can quietly alienate a large segment of the very fan base it is meant to excite.",
+      "story_angle_primary": "Sponsors planning rivalry creative could pretest by gender and identification strength before launch, and consider whether the upside among one segment offsets backlash in another — especially as women's share of sports audiences grows. Panel experiments around a single rivalry indicate a risk to check, not a universal gender rule.",
+      "story_angle_secondary": "It shows how tribal marketing works on fans: the same needling ad can read as fun banter or as a personal slight depending on who you are and how much the team means to you.",
+      "caveats": "Scenario-based experiments rather than real sponsorship exposure; one sponsorship case in one country, in a region where the rivalry extends beyond sport; self-reported responses rather than purchase behavior.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-08-21",
+      "doi": "10.1108/ejm-05-2023-0367",
+      "paper_title": "Sponsorship outcomes in sports rivalries: the moderating role of gender and team identification",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7171543795",
+      "headline": "Your AI rollout will live or die with the middle manager",
+      "the_study": "Researchers used a theories-in-use approach with 51 frontline managers and top executives charged with implementing AI systems in customer-facing operations, mapping their mental models. A manager's personal AI readiness shaped how the system was actually integrated — full automation, augmentation of staff, or human–AI collaboration — and those choices had long-lasting consequences for managers, employees and customers. Two enablers of readiness emerged (AI strategic and task alignment) plus three management strategies: championing AI engagement, building AI literacy, and activating AI empowerment.",
+      "why_it_matters": "It locates the main bottleneck in frontline AI investment not in the technology or in staff resistance but in the readiness of the managers translating strategy into practice.",
+      "story_angle_primary": "Service leaders can audit manager-level AI readiness before deployment and check whether the tool is aligned to specific frontline tasks, rather than assuming a top-down mandate will be implemented as designed. Qualitative findings here generate hypotheses for firms to measure, not benchmarks.",
+      "story_angle_secondary": "It explains why customer experience with the same chatbot or AI-assisted service can vary so much between branches or teams of the same company: local managers are making very different calls about what the machine is allowed to do.",
+      "caveats": "Qualitative interview study with no quantitative outcome data; 51 informants; findings reflect managers' accounts and mental models rather than observed implementation results.",
+      "journal": "Journal of Service Research",
+      "published": "2026-07-28",
+      "doi": "10.1177/10946705261464323",
+      "paper_title": "Frontline Manager AI Readiness and the Implementation of AI in the Frontlines",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7213621009",
+      "headline": "Ask shoppers to type their opinion and you get emotion; ask them to talk and you get analysis",
+      "the_study": "Participants tasted three chocolates and three plant-based drinks and described them in open-ended responses, either written or spoken, with the text analyzed using LIWC2015. Liking scores for chocolate were consistent across modalities, but the language was not: written descriptions carried more emotional and sensory-perceptual words and more complex vocabulary, while spoken ones were longer and heavier on cognitive and function words. Chocolate drew more affective language overall; plant-based drinks drew more analytical, perceptual vocabulary.",
+      "why_it_matters": "How you collect open-ended consumer feedback can change the emotional signal you extract from it, which matters for any team mining verbatims, interviews or voice data for insight.",
+      "story_angle_primary": "Insight teams can check whether the emotional tone in their verbatim data is a property of the product or an artifact of the collection method — and consider running written and spoken modes in parallel when emotion is the thing being measured.",
+      "story_angle_secondary": "It also says something about the plant-based category: people describe dairy alternatives in the language of scrutiny and analysis, while chocolate gets the language of feeling.",
+      "caveats": "Exploratory design; two categories and six products only; sample size and country not specified in the abstract; dictionary-based text analysis, not validated emotion measurement.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-09-19",
+      "doi": "10.1016/j.foodqual.2026.106115",
+      "paper_title": "The importance of language patterns in the sensory evaluation of chocolates and plant-based drinks",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7210276982",
+      "headline": "The wider your product line, the less your advertising works — and the more word-of-mouth does",
+      "the_study": "Researchers analyzed sales, advertising and online word-of-mouth data from China's automobile market to see how the breadth of a carmaker's product line changes what drives sales. As a brand's line-up broadened, the sales impact of its own advertising fell while the impact of consumer online word-of-mouth rose. Advertising and word-of-mouth generally acted as substitutes, but that substitution weakened as product lines widened, and the shift was explained by \"mismatch cost\" — the difficulty of pairing the right buyer with the right model.",
+      "why_it_matters": "It suggests the marketing budget mix should shift with portfolio strategy: broad, complex line-ups may be better served by cultivating user-generated content and review ecosystems than by buying more paid media.",
+      "story_angle_primary": "Audit whether media spend is being allocated as though every product in the portfolio responds the same way; where the line-up is broad and choices are hard to match, test reallocating budget toward review seeding, owner content and community platforms and measure incremental sales rather than reach.",
+      "story_angle_secondary": "When a brand sells twenty variants of the same thing, ads can't tell you which one fits you — which is exactly why shoppers lean on other buyers' reviews, and why those reviews carry more weight in crowded categories.",
+      "caveats": "Observational market data from a single country and a single category (Chinese autos); correlational moderation rather than an experiment, so causal interpretation depends on the modeling assumptions.",
+      "journal": "Journal of Interactive Marketing",
+      "published": "2026-09-06",
+      "doi": "10.1177/10949968261488312",
+      "paper_title": "EXPRESS: Impacts of Product-line Breadth on the Effectiveness of Advertising and Consumer Word-of-Mouth: Evidence from China’s Automobile Market",
+      "source_id": "S92709572"
+    },
+    {
+      "work_id": "W7204561075",
+      "headline": "Why ambitious people don't want AI to do it for them",
+      "the_study": "Across a field study and four experiments, researchers tested how consumers' pursuit of an \"ideal self\" affects their appetite for AI products that take over tasks. People with stronger ideal-self pursuit showed lower preference and lower willingness to pay for substitutional AI — AI that replaces effort in domains tied to self-improvement — an effect driven by self-improvement motivation and amplified when people felt the product threatened their sense of self. Crucially, when the same AI was positioned as supporting rather than replacing the user's effort, ideal-self pursuit flipped to increase preference.",
+      "why_it_matters": "It identifies a positioning lever that costs nothing to change: framing AI as a coach or assistant rather than a substitute can convert the very customers most likely to reject automation.",
+      "story_angle_primary": "Test \"AI that helps you get better\" copy against \"AI that does it for you\" in categories tied to skill and self-development — fitness, learning, cooking, creative tools — and watch willingness-to-pay, not just click-through; the efficiency pitch may be actively repelling your most motivated segment.",
+      "story_angle_secondary": "There's a reason handing your workout plan, your writing or your cooking to an algorithm feels vaguely like cheating: for tasks tied to who we want to become, the effort is part of the point.",
+      "caveats": "Mostly experimental with stated preference and willingness-to-pay measures rather than observed purchases; one field study included but its scale and setting are not specified in the abstract.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-08-28",
+      "doi": "10.1002/cb.70234",
+      "paper_title": "Effort vs. Efficiency: How Ideal‐Self Pursuit Shapes Consumer Preference for Substitutional AI ‐Powered Products",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7204997257",
+      "headline": "Make people suffer a little: painful charity events boost perceived authenticity of cause marketing",
+      "the_study": "Two experiments tested how the stated motive behind a cause-related marketing program interacts with how much effort it demands of consumers. A public-serving motive paired with an effortful event (a marathon) produced the highest perceived authenticity and support compared with self-serving motives or low-effort events; authenticity and perceived meaningfulness sequentially explained effects on brand word-of-mouth, event word-of-mouth and donations. The effect was strongest among participants who felt a personal calling toward the cause (childhood starvation).",
+      "why_it_matters": "It suggests brands running cause campaigns may get more credibility from asking consumers to do something hard than from making participation frictionless.",
+      "story_angle_primary": "Where cause programs have been optimized for ease — round-up-at-checkout, one-tap donations — consider testing an effortful participation tier alongside it, and be explicit about public-serving rather than brand-serving motives in the messaging.",
+      "story_angle_secondary": "The \"martyrdom effect\" in action: we judge a charity effort as more sincere, and give more, when it costs us sweat rather than just a click.",
+      "caveats": "Two scenario-based experiments measuring intentions and stated supporting behaviors rather than actual donations; single cause issue; sample details and country not specified in the abstract.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-09-02",
+      "doi": "10.1002/cb.70236",
+      "paper_title": "The Effects of Partnership‐Based Cause‐Related Marketing Program on Consumers' Perceived Authenticity, Meaningfulness, and Supporting Behaviors: Moderating Roles of Perceived Pain and Calling",
+      "source_id": "S41958068"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7213274443",
+      "headline": "\"Ready at 6:30\" beats \"ready in 30 minutes\" — but only for short waits",
+      "verdict": "accurate",
+      "notes": "Design, N, direction of effect and proposed mechanism all match the abstract; caveats appropriately note the absence of sample/country detail.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7213625881",
+      "headline": "Ask for $25 toward a $1,000 goal: round-number math makes people give",
+      "verdict": "accurate",
+      "notes": "Seven studies (field, secondary data, lab), effect direction and clarity-of-contribution mechanism all faithfully reported; arithmetic example is consistent.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7214126722",
+      "headline": "Infinite scroll sells — and then gets returned",
+      "verdict": "minor",
+      "notes": "Study count, layout comparison, mechanism and interventions match; body states returns as observed behavior while the abstract's measured outcome is return intentions.",
+      "issues": [
+        {
+          "label": "Intention reported as behavior",
+          "severity": "Minor",
+          "as_written": "Shoppers browsing infinite-scroll layouts were more likely to return what they bought.",
+          "abstract_says": "an infinite-scrolling (versus paginated) layout increases consumers' tendency to return purchased products... thereby increasing product return intentions",
+          "problem": "The body sentence reads as observed return behavior, whereas the abstract's stated dependent measure is return intentions; the digest's own caveat acknowledges this, so the body text is slightly out of step with it.",
+          "suggested_fix": "Say \"were more likely to say they would return what they bought\" or \"showed higher return intentions.\""
+        },
+        {
+          "label": "Paraphrase of an intervention",
+          "severity": "Minor",
+          "as_written": "or making return costs salient reduced the effect",
+          "abstract_says": "and accounting for the cost of product returns",
+          "problem": "\"Making return costs salient\" is one plausible reading of \"accounting for the cost of product returns,\" but the abstract does not specify that the intervention was salience of costs to shoppers.",
+          "suggested_fix": "Use the abstract's wording, e.g. \"and accounting for return costs,\" or mark the interpretation as inferred."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7213493969",
+      "headline": "More photos, fewer bookings: why extra visuals hurt experience sales",
+      "verdict": "minor",
+      "notes": "Five studies, newsletter/zoo/hotel-choice components and the heterogeneity boundary condition are all correct; headline implies bookings when the primary outcome is buying intentions, and the product-category list is altered.",
+      "issues": [
+        {
+          "label": "Headline implies booking behavior",
+          "severity": "Minor",
+          "as_written": "More photos, fewer bookings: why extra visuals hurt experience sales",
+          "abstract_says": "Too much of a good thing: Promotional visuals and their effect on buying intentions of experiences... consumers are less inclined to buy an experiential product when it is promoted with many visuals rather than a few",
+          "problem": "The paper's outcome is buying intentions (plus newsletter follow-up and a choice task), not bookings or sales revenue.",
+          "suggested_fix": "Reframe as \"More photos, less buying intent\" or note that outcomes were intentions and choice, not booked sales."
+        },
+        {
+          "label": "Category list changed",
+          "severity": "Minor",
+          "as_written": "an experiential product — vacations, dining, attractions —",
+          "abstract_says": "experiential products (such as vacations, dining out, and sports equipment)",
+          "problem": "\"Attractions\" replaces the abstract's \"sports equipment\" in the list of example categories.",
+          "suggested_fix": "Match the abstract's examples: vacations, dining out and sports equipment."
+        },
+        {
+          "label": "Mechanism inference stated as finding",
+          "severity": "Minor",
+          "as_written": "suggesting redundancy rather than volume is the problem",
+          "abstract_says": "Study 2 identifies a boundary condition—heterogeneous extensive sets eliminate the effect.",
+          "problem": "The abstract reports only that heterogeneous large sets eliminate the effect; it does not test or claim redundancy as the underlying driver.",
+          "suggested_fix": "Present the redundancy explanation explicitly as the digest's interpretation, e.g. \"which hints that similarity, not sheer volume, may be what hurts.\""
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W4318015176",
+      "headline": "Virtual influencers get more traction when they're pictured hanging out with real people",
+      "verdict": "minor",
+      "notes": "Multimethod design, anthropomorphism-trust pathway and all three boundary conditions reported correctly; \"disappeared\" overstates the abstract's \"attenuated.\"",
+      "issues": [
+        {
+          "label": "Attenuation described as elimination",
+          "severity": "Minor",
+          "as_written": "and disappeared when the companion was merely present, was another virtual entity, or when the poster was a real human influencer",
+          "abstract_says": "but are attenuated when the human other is merely present, when the companion is another virtual entity, and when the poster is a human influencer",
+          "problem": "The abstract says the effects are attenuated (weakened), not that they vanish entirely; the story angle then builds on this by asserting \"no lift\" for human influencers.",
+          "suggested_fix": "Change to \"were weaker when...\" and soften the story angle to \"offers less lift for human influencers.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7213511827",
+      "headline": "Tearjerker or revenge flick? Culture predicts which mixed emotions sell",
+      "verdict": "minor",
+      "notes": "Box office window, six experiments, internal meta-analysis and the fluency/values account all match; one caveat asserts a measurement detail not in the abstract.",
+      "issues": [
+        {
+          "label": "Caveat detail not in abstract",
+          "severity": "Minor",
+          "as_written": "cultural orientation is measured at the individual level, which can flatten within-country variation",
+          "abstract_says": "the authors find that collectivists (individualists) process affection‐sadness (pride‐anger) more fluently, and that this relative fluency is consistent with their choices",
+          "problem": "The abstract does not state how cultural orientation was operationalized (individual-level measure vs. country-level classification), so this caveat is unverifiable from the abstract alone.",
+          "suggested_fix": "Flag as \"Unverifiable from abstract only\" or reword to \"the abstract does not specify how cultural orientation was measured.\""
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7213546298",
+      "headline": "Consumers will pay more for low-carbon milk — but a big chunk of them dislike 'organic'",
+      "verdict": "minor",
+      "notes": "Choice experiment, four US regions, attribute set and the two-segment WTP pattern all accurate; segment size is asserted without support and one hedge is dropped.",
+      "issues": [
+        {
+          "label": "Unsupported segment size",
+          "severity": "Minor",
+          "as_written": "but a big chunk of them dislike 'organic'",
+          "abstract_says": "a lower-socioeconomic-status, less environmentally engaged segment, which actually exhibits disutility from organic production",
+          "problem": "The abstract reports no segment shares, so \"a big chunk\" implies a magnitude the abstract does not provide.",
+          "suggested_fix": "Say \"one consumer segment shows disutility from the organic label\" without quantifying its size."
+        },
+        {
+          "label": "Hedge dropped on education finding",
+          "severity": "Minor",
+          "as_written": "Education was the main driver of the organic premium; environmental attitudes drove the premium for emissions reductions.",
+          "abstract_says": "A secondary analysis suggests that education is the main determinant of increased WTP for organic production, while environmental attitudes likely drive WTP associated with GHG reductions.",
+          "problem": "The abstract presents these as suggestive results from a secondary analysis (\"suggests,\" \"likely\"); the digest states them as established.",
+          "suggested_fix": "Add the hedge: \"A secondary analysis suggests education was the main determinant...\""
+        },
+        {
+          "label": "Extrapolation to market outcomes",
+          "severity": "Minor",
+          "as_written": "which helps explain why sustainable products stall outside affluent zip codes",
+          "abstract_says": "We find evidence of heterogeneity in preferences and conduct several market segment analyses.",
+          "problem": "The study measures stated preferences in a hypothetical choice experiment; it says nothing about actual sales performance by geography.",
+          "suggested_fix": "Reframe as a hypothesis: \"which may be one reason sustainability claims land differently across income groups.\""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7172190947",
+      "headline": "Sticky seats beat beer lists: what actually drives the choice of pub",
+      "verdict": "significant",
+      "notes": "Method, foraging framing and the two named segments are correct, but the headline and \"Why it matters\" assert a ranking of physical environment over drinks range that the abstract does not report; country is also not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Unsupported ranking of attributes",
+          "severity": "Moderate",
+          "as_written": "Cleanliness and physical environment factors surfaced as decisive alongside drink range",
+          "abstract_says": "This study investigates how consumers trade-off between various features when making pub choices... examining analysis of product, physical and service elements",
+          "problem": "The abstract reports that trade-offs among product, physical and service elements were examined and that two segments emerged, but it does not report cleanliness or physical environment as decisive; the only cue is the title quotation.",
+          "suggested_fix": "State only what the abstract supports — trade-offs across product, physical and service features and two psychographic segments — and note the cleanliness emphasis is inferred from the title quote."
+        },
+        {
+          "label": "\"Why it matters\" overreaches",
+          "severity": "Moderate",
+          "as_written": "this suggests the physical environment and inclusivity of the space are doing more segmentation work than the product lineup",
+          "abstract_says": "offering a novel, structured segmentation that moves beyond outdated stereotypes, notably highlighting the growing influence of women and families in pubs as well as non-beer drinkers",
+          "problem": "No comparative weighting of physical environment versus product range appears in the abstract; Q-methodology also yields subjective viewpoint patterns rather than importance rankings generalizable to a market.",
+          "suggested_fix": "Rewrite as \"this suggests physical environment and inclusivity deserve attention alongside drinks range in how operators segment customers.\""
+        },
+        {
+          "label": "Country not stated in abstract",
+          "severity": "Minor",
+          "as_written": "single country (UK) and single category",
+          "abstract_says": "(no country is named in the abstract)",
+          "problem": "The UK setting is a reasonable inference from the pub context but is not stated in the abstract.",
+          "suggested_fix": "Mark as \"Unverifiable from abstract only\" or write \"the abstract does not name the country studied.\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7202051364",
+      "headline": "Feeling local makes people more creative — and pride is the reason",
+      "verdict": "accurate",
+      "notes": "Method mix (one field study, six experiments, crowdsourcing platform data, manager interviews), the direction of the identity effect and the bidirectional pride evidence all match the abstract.",
+      "issues": []
+    },
+    {
+      "number": 10,
+      "work_id": "W7213674865",
+      "headline": "Naming a government research institute as co-developer makes shoppers warmer to lab-grown and insect protein",
+      "verdict": "minor",
+      "notes": "Four experiments with Chinese consumers, the risk-reduction pathway, neophobia moderator and trust boundary condition are all reported accurately; one story angle introduces a comparison the study did not test.",
+      "issues": [
+        {
+          "label": "Untested comparison with other claims",
+          "severity": "Minor",
+          "as_written": "an institutional co-development credential is a cheap packaging-level lever that may do more than taste or sustainability claims for the most hesitant shoppers",
+          "abstract_says": "an OARI co-development cue generally increased acceptance of plant-based, cultured-meat, and insect-based products... the cue increased acceptance by reducing perceived risk... stronger among consumers with greater food neophobia",
+          "problem": "The studies compared presence versus absence of the institutional cue; they did not benchmark it against taste or sustainability claims, so the relative-effectiveness suggestion is not supported.",
+          "suggested_fix": "Drop the comparison or flag it explicitly as untested, e.g. \"whether it outperforms taste or sustainability claims was not tested.\""
+        },
+        {
+          "label": "Institution described as governmental",
+          "severity": "Minor",
+          "as_written": "Naming a government research institute as co-developer",
+          "abstract_says": "co-developed with an official agricultural research institute (OARI)",
+          "problem": "The abstract says \"official\" rather than \"government\"; in the Chinese context the inference is plausible but not stated.",
+          "suggested_fix": "Use \"official agricultural research institute\" as in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7213468681",
+      "headline": "Older celebrities get punished for sponsored posts; younger ones get rewarded",
+      "verdict": "minor",
+      "notes": "Numbers, design and direction all match; only the unsupported \"Instagram-style\" platform label (which the Caveats then say is unspecified) is off.",
+      "issues": [
+        {
+          "label": "Platform not named in abstract",
+          "severity": "Minor",
+          "as_written": "Researchers analyzed 22,619 Instagram-style posts from 286 celebrities",
+          "abstract_says": "Study 1 analyzes 22,619 posts from 286 celebrities.",
+          "problem": "The abstract does not name the platform; the digest's own Caveats acknowledge this (\"platform and country not specified in the abstract\"), so the body text contradicts the caveat by implying Instagram.",
+          "suggested_fix": "Write \"22,619 social media posts from 286 celebrities\" and drop the Instagram reference."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7204588967",
+      "headline": "Emotional AI in customer service only works on customers who want a relationship with your brand",
+      "verdict": "minor",
+      "notes": "Design (three between-subjects experiments, N=677), interaction, mediator and mind-perception boundary condition all reported correctly; one unsupported quantifier in the consumer angle.",
+      "issues": [
+        {
+          "label": "Unsupported quantification of segment sizes",
+          "severity": "Minor",
+          "as_written": "some people want a friend, most just want the problem solved",
+          "abstract_says": "For communal consumers, high (vs low) AI emotional expression elevates satisfaction and continuance intention, whereas this effect is non-significant for exchange consumers.",
+          "problem": "The abstract reports no relative sizes for communal versus exchange-oriented consumers, so \"most\" is not supported.",
+          "suggested_fix": "Replace \"most\" with \"others\" or \"some just want the problem solved\"."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7212428236",
+      "headline": "Put a face in the first five seconds and fewer people watch your ad",
+      "verdict": "minor",
+      "notes": "Dataset size, moderation by utilitarian/hedonic and direction are accurate; headline phrasing is causal for correlational data and the \"five seconds\" figure is not in the abstract.",
+      "issues": [
+        {
+          "label": "Causal headline on observational data",
+          "severity": "Minor",
+          "as_written": "Put a face in the first five seconds and fewer people watch your ad",
+          "abstract_says": "Across product categories, we find that a lesser percentage of facial presence before the skip option is associated with greater video view counts.",
+          "problem": "The abstract reports an association in a large observational dataset, not a causal effect; the headline reads as an established cause-and-effect rule. The body and Caveats do correct this, but the headline itself overstates.",
+          "suggested_fix": "Reframe as association, e.g. \"Ads with faces before the skip button draw fewer completed views\"."
+        },
+        {
+          "label": "\"Five seconds\" not stated in abstract",
+          "severity": "Minor",
+          "as_written": "run A/B variants of the same spot with and without a human face in the first five seconds",
+          "abstract_says": "a lesser percentage of facial presence before the skip option",
+          "problem": "The abstract refers only to the portion \"before the skip option\" and never specifies a five-second window. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"before the skip button appears\" rather than \"in the first five seconds\"."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7203605101",
+      "headline": "The busier people feel, the more they want the games of their childhood",
+      "verdict": "accurate",
+      "notes": "Design (one preregistered quasi-field study plus four experiments), mechanism (emotional instability) and the power moderator are all reported faithfully; caveats appropriately limit to preference measures.",
+      "issues": []
+    },
+    {
+      "number": 15,
+      "work_id": "W7203929993",
+      "headline": "Rivalry ads split the crowd by gender: women in the stands react differently than men",
+      "verdict": "minor",
+      "notes": "Sample sizes, the gender × identification pattern and the double-edged-sword conclusion match; \"panel experiments\" adds a recruitment detail not in the abstract.",
+      "issues": [
+        {
+          "label": "Sample source described as panel",
+          "severity": "Minor",
+          "as_written": "Panel experiments around a single rivalry indicate a risk to check, not a universal gender rule.",
+          "abstract_says": "two experiments (Study 1 n = 406, Study 2 n = 327) ... data were gathered in a region where the rivalry between two cities does not affect only sporting spheres",
+          "problem": "The abstract does not say participants were recruited from an online panel. Unverifiable from abstract only.",
+          "suggested_fix": "Change to \"Two experiments around a single rivalry indicate a risk to check...\"."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7171543795",
+      "headline": "Your AI rollout will live or die with the middle manager",
+      "verdict": "minor",
+      "notes": "Method, 51 informants, enablers and the three strategies are accurate; the \"main bottleneck\" framing and \"middle manager\" label go slightly beyond the abstract's wording.",
+      "issues": [
+        {
+          "label": "Overstated framing of where the bottleneck lies",
+          "severity": "Minor",
+          "as_written": "It locates the main bottleneck in frontline AI investment not in the technology or in staff resistance but in the readiness of the managers translating strategy into practice.",
+          "abstract_says": "Frontline managers are critical conduits of top-down AI initiatives ... little research explores their role as catalysts or bottlenecks in such implementation initiatives.",
+          "problem": "The abstract positions managers as potential catalysts or bottlenecks; it makes no comparison against technology or staff resistance, so declaring managers \"the main bottleneck\" is a step beyond the qualitative findings.",
+          "suggested_fix": "Say the study points to manager AI readiness as a key, under-examined determinant of implementation outcomes."
+        },
+        {
+          "label": "\"Middle manager\" versus \"frontline manager\"",
+          "severity": "Minor",
+          "as_written": "Your AI rollout will live or die with the middle manager",
+          "abstract_says": "we tap into the mental models of 51 frontline managers and top management executives tasked with implementing AI systems in the frontlines",
+          "problem": "The informants are frontline managers and top executives, not \"middle managers\"; the headline also asserts a make-or-break outcome not tested quantitatively.",
+          "suggested_fix": "Use \"frontline manager\" and soften to something like \"Frontline managers shape how AI actually gets implemented\"."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7213621009",
+      "headline": "Ask shoppers to type their opinion and you get emotion; ask them to talk and you get analysis",
+      "verdict": "minor",
+      "notes": "Modality differences and product-level language differences are reported correctly; the liking-score sentence misreads the abstract and \"shoppers\" overstates who took part.",
+      "issues": [
+        {
+          "label": "Liking-score result slightly misread",
+          "severity": "Minor",
+          "as_written": "Liking scores for chocolate were consistent across modalities",
+          "abstract_says": "While hedonic mean scores showed a consistent preference for chocolates across modalities, linguistic patterns revealed substantial differences between written and spoken modalities.",
+          "problem": "The abstract reports a consistent preference for chocolates over plant-based drinks across modalities, not that chocolate's absolute liking scores were unchanged — a subtly different claim.",
+          "suggested_fix": "Write \"Chocolates were preferred over the plant-based drinks regardless of modality\"."
+        },
+        {
+          "label": "Participants described as shoppers",
+          "severity": "Minor",
+          "as_written": "Ask shoppers to type their opinion and you get emotion; ask them to talk and you get analysis",
+          "abstract_says": "Participants evaluated three chocolates and three plant-based drinks, providing open-ended descriptions that were analysed using LIWC2015.",
+          "problem": "These were sensory-evaluation participants in a tasting study, not shoppers; the headline generalizes to a retail context the study did not examine.",
+          "suggested_fix": "Use \"tasters\" or \"participants\" instead of \"shoppers\"."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "work_id": "W7210276982",
+      "headline": "The wider your product line, the less your advertising works — and the more word-of-mouth does",
+      "verdict": "minor",
+      "notes": "Direction of both moderation effects, the weakening substitution and the mismatch-cost mediator are all accurate; one consumer-facing sentence asserts causation the data can't establish.",
+      "issues": [
+        {
+          "label": "Causal phrasing in consumer angle",
+          "severity": "Minor",
+          "as_written": "which is exactly why shoppers lean on other buyers' reviews, and why those reviews carry more weight in crowded categories",
+          "abstract_says": "When a product line broadens, advertising's effectiveness in driving vehicle sales declines, whereas online WOM's effectiveness increases ... the mismatch cost between firms and consumers mediates the effects",
+          "problem": "\"Exactly why\" asserts a causal explanation of shopper behavior from observational sales-model estimates; the digest's own Caveats note the analysis is correlational.",
+          "suggested_fix": "Soften to \"which may be why reviews appear to carry more weight in crowded categories\"."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "work_id": "W7204561075",
+      "headline": "Why ambitious people don't want AI to do it for them",
+      "verdict": "minor",
+      "notes": "Design (field study plus four experiments), the mediator/moderator structure and the reversal under supportive positioning are all reported correctly; \"ambitious\" is a loose gloss on ideal-self pursuit.",
+      "issues": [
+        {
+          "label": "\"Ambitious people\" as shorthand for ideal-self pursuit",
+          "severity": "Minor",
+          "as_written": "Why ambitious people don't want AI to do it for them",
+          "abstract_says": "consumers with stronger ideal-self pursuit exhibit lower preference and reduced willingness to pay for substitutional AI-powered products",
+          "problem": "Ideal-self pursuit is a specific identity construct about closing the gap with an aspirational self, not general ambition; the substitution could mislead readers about who the segment is.",
+          "suggested_fix": "Use \"people chasing an ideal version of themselves\" or \"self-improvement-driven consumers\"."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "work_id": "W7204997257",
+      "headline": "Make people suffer a little: painful charity events boost perceived authenticity of cause marketing",
+      "verdict": "significant",
+      "notes": "Experiment 1 and the sequential mediation are reported accurately, but the digest omits that the public-serving motive effect on authenticity held across all pain and calling conditions, which weakens the \"effort is required\" framing of the headline.",
+      "issues": [
+        {
+          "label": "Dropped nuance: motive effect held across all pain levels",
+          "severity": "Moderate",
+          "as_written": "A public-serving motive paired with an effortful event (a marathon) produced the highest perceived authenticity and support compared with self-serving motives or low-effort events",
+          "abstract_says": "The effect of public-serving motive on CRM authenticity was significant across all perceived pain and calling conditions but was strongest in the marathon/high-calling condition.",
+          "problem": "Experiment 2 found the public-serving motive raised authenticity regardless of how much effort the event demanded; effort only amplified it. Presenting effort as the condition for authenticity, as the headline and \"Why it matters\" do, could lead marketers to add friction when the motive framing is doing most of the work.",
+          "suggested_fix": "Note that public-serving framing lifted authenticity in every condition, with the effortful marathon/high-calling condition producing the largest effect."
+        },
+        {
+          "label": "Prescriptive headline from two experiments",
+          "severity": "Minor",
+          "as_written": "Make people suffer a little: painful charity events boost perceived authenticity of cause marketing",
+          "abstract_says": "Experiment 1 demonstrated that the public-serving CRM motive, paired with a CRM event that requires pain (i.e., a marathon), resulted in greater perceived CRM authenticity and supporting behaviors than other conditions.",
+          "problem": "The imperative headline turns two scenario experiments on a single cause into a directive playbook, and \"boost\" implies an established real-world lift when outcomes were stated support measures.",
+          "suggested_fix": "Reframe as a finding, e.g. \"Effortful charity events were seen as more authentic — when the motive was public-serving\"."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 20,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7213274443": {
+        "query": "Ready beats ready minutes but only short waits",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213625881": {
+        "query": "Ask toward 000 goal round number math makes people give",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214126722": {
+        "query": "Infinite scroll sells then gets returned",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213493969": {
+        "query": "photos fewer bookings extra visuals hurt experience sales",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W4318015176": {
+        "query": "Virtual influencers get traction they pictured hanging out real people",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213511827": {
+        "query": "Tearjerker revenge flick Culture predicts which mixed emotions sell",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213546298": {
+        "query": "Consumers will pay low carbon milk but big chunk them",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7172190947": {
+        "query": "Sticky seats beat beer lists actually drives choice pub",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202051364": {
+        "query": "Feeling local makes people creative pride reason",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213674865": {
+        "query": "Naming government institute developer makes shoppers warmer lab grown insect",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213468681": {
+        "query": "Older celebrities get punished sponsored posts younger ones get rewarded",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204588967": {
+        "query": "Emotional customer service only works customers who want relationship brand",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212428236": {
+        "query": "Put face first five seconds fewer people watch",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203605101": {
+        "query": "busier people feel they want games their childhood",
+        "returned": 20,
+        "outlets": [
+          "Yahoo"
+        ],
+        "articles": [
+          {
+            "title": "Retired People Are Revealing Why They're Busier Now Than When They Had A Job",
+            "outlet": "Yahoo",
+            "link": "https://www.yahoo.com/retired-people-revealing-why-theyre-093102586.html"
+          }
+        ],
+        "state": "lightly_reported"
+      },
+      "W7203929993": {
+        "query": "Rivalry ads split crowd gender women stands react differently than",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7171543795": {
+        "query": "rollout will live die middle manager",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213621009": {
+        "query": "Ask shoppers type their opinion get emotion ask them talk",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7210276982": {
+        "query": "wider product line advertising works word mouth does",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204561075": {
+        "query": "ambitious people don want them",
+        "returned": 20,
+        "outlets": [
+          "Totally The Bomb",
+          "KQED"
+        ],
+        "articles": [
+          {
+            "title": "I Don’t Want A Successful Marriage. I Want A Peaceful Life.",
+            "outlet": "Totally The Bomb",
+            "link": "https://totallythebomb.com/i-dont-want-a-successful-marriage-i-want-a-peaceful-life/"
+          },
+          {
+            "title": "Dorothy Lazard on the Ambitious Mission of Libraries and the People that Make them Function",
+            "outlet": "KQED",
+            "link": "https://www.kqed.org/forum/2010101914907/dorothy-lazard-on-the-ambitious-mission-of-libraries-and-the-people-that-make-them-function"
+          }
+        ],
+        "state": "lightly_reported"
+      },
+      "W7204997257": {
+        "query": "Make people suffer little painful charity events boost perceived authenticity",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet -- this is the first run._",
+    "feature_pitch": "**The pattern:** Several studies in this batch converge on the same uncomfortable finding: the maximalist, frictionless digital playbook -- endless feeds, bigger galleries, faster asks, faces up front -- is suppressing the very conversions it was built to drive, while deliberate friction and finishability restore commitment. \"Infinite scroll sells — and then gets returned\" (W7214126722) ties layout choice to return rates via blocked choice closure; \"More photos, fewer bookings\" (W7213493969) shows redundant image volume depressing experiential sales; \"Put a face in the first five seconds and fewer people watch your ad\" (W7212428236) finds the standard attention-grabbing opener backfiring for utilitarian products; and on the other side of the ledger, \"Make people suffer a little\" (W7204997257) and \"Why ambitious people don't want AI to do it for them\" (W7204561075) show that effort demanded of the consumer raises perceived authenticity and willingness to pay. \"Ready at 6:30\" beats \"ready in 30 minutes\" (W7213274443) and the round-number donation study (W7213625881) round it out: what moves people is a sense of a bounded, legible task, not a smoother one.\n\n**Why pitch this now:** Retailers are under sustained margin pressure from returns and reverse logistics, and 2026's AI-assisted shopping and recommendation interfaces are being designed on the same engagement-maximizing assumptions these studies undercut -- which makes \"engagement versus completion\" a live budgeting fight inside marketing and e-commerce teams right now.\n\n**Angle:** A reported feature on the quiet unbundling of engagement from conversion -- how design and creative conventions optimized for time-on-page and scroll depth are now measurably working against sales, returns, and credibility -- written for CMOs, e-commerce leads, and design teams, with a consumer-facing throughline about why shopping online increasingly feels unfinished.\n\n**Potential headlines:**\n- Endless scroll, bigger galleries, more returns\n- Making shopping harder is starting to look like a growth strategy\n- The design choices quietly padding your return rate\n  \n**Potential outlets:**\n- **Retail Dive** -- returns economics and interface design are core beats, and the infinite-scroll finding maps directly onto reverse-logistics cost stories they already track.\n- **Digiday** -- the pre-skip creative finding and the engagement-versus-conversion tension speak straight to platform and media-buying audiences.\n- **Marketing Week** -- has an appetite for evidence-led challenges to received creative wisdom, and the \"less is more\" thread cuts across creative, media, and CX.\n- **Fast Company** -- the design and UX framing (why interfaces that never end leave buyers second-guessing) fits its business-of-design coverage for a broader readership.",
+    "pitch_ideas": "- **\"Ready at 6:30\" beats \"ready in 30 minutes\" — but only for short waits (Work ID W7213274443):** A near-free wording test for anyone who quotes a wait -- delivery apps, restaurants, call centers -- with a flip point that punishes blanket rules, for a marketing-trade news brief or a CX-focused column.\n- **Ask for $25 toward a $1,000 goal (Work ID W7213625881):** Fundraising conversion as arithmetic design -- why the relationship between goal and suggested gift is itself a lever, for a nonprofit/fundraising trade outlet or a business-of-charity piece.\n- **Infinite scroll sells — and then gets returned (Work ID W7214126722):** Frame returns as an interface problem, not a sizing problem, with cheap fixes (item counters, progress cues) operators can test, for a retail trade explainer.\n- **More photos, fewer bookings (Work ID W7213493969):** Travel and hospitality listings may be over-photographed, and variety beats volume -- a direct challenge to booking-platform norms, for a travel or hospitality trade outlet.\n- **Virtual influencers get more traction when pictured with real people (Work ID W4318015176):** A concrete content rule for CGI personas -- genuine social interaction, strongest for stylized avatars, no lift for human influencers -- for an influencer-marketing trade brief.\n- **Tearjerker or revenge flick? Culture predicts which mixed emotions sell (Work ID W7213511827):** Streaming and trailer personalization by cultural orientation rather than blanket emotional tagging, backed by eight years of box office data, for an entertainment-business or media-trade feature.\n- **Consumers will pay more for low-carbon milk — but a chunk dislike 'organic' (Work ID W7213546298):** Sustainability claims aren't interchangeable, and \"organic\" can actively repel lower-income shoppers -- for a food/CPG trade piece or a grocery-economics story in a personal-finance section.\n- **Sticky seats beat beer lists (Work ID W7172190947):** Pubs compete on taps but are chosen on cleanliness and comfort, with the archetypal regular no longer a man with a pint, for a UK hospitality trade explainer.\n- **Feeling local makes people more creative (Work ID W7202051364):** Hometown framing as a cheap quality upgrade for crowdsourcing and co-creation briefs, with pride as the working mechanism, for an innovation-management or CMO-audience column.\n- **Naming a government research institute as co-developer (Work ID W7213674865):** An on-pack credibility lever for alternative protein that collapses when trust in the endorser is low -- read alongside Western skepticism of state institutions, for a food-innovation trade piece.\n- **Older celebrities get punished for sponsored posts (Work ID W7213468681):** Brands paying premiums for veteran talent may be buying reach that sours on commercial content -- an audit prompt before contract renewals, for an influencer/advertising trade news brief.\n- **Emotional AI only works on customers who want a relationship (Work ID W7204588967):** Chatbot warmth as a segmentation decision, not a global setting, for a customer-service or CX trade column.\n- **Put a face in the first five seconds and fewer people watch (Work ID W7212428236):** Field data across 3,498 skippable ads challenging \"faces stop the scroll,\" split by utilitarian versus hedonic products, for a creative-effectiveness or digital-video trade item.\n- **The busier people feel, the more they want the games of their childhood (Work ID W7203605101):** Nostalgia marketing as a timing decision -- aim at crunch periods, not the calendar -- for a gaming-business brief or a consumer-psychology explainer in a general-interest outlet.\n- **Rivalry ads split the crowd by gender (Work ID W7203929993):** Rivalry activation may alienate a growing female fan base as women's sports audiences expand, for a sports-business or sponsorship trade piece.\n- **Your AI rollout will live or die with the middle manager (Work ID W7171543795):** The frontline AI bottleneck is manager readiness, not technology or staff resistance -- and it explains branch-to-branch service inconsistency, for a management-audience column.\n- **Ask shoppers to type their opinion and you get emotion (Work ID W7213621009):** Insight teams may be reading collection method as consumer sentiment -- a methods warning as voice and chat feedback scale, for a market-research trade outlet.\n- **The wider your product line, the less your advertising works (Work ID W7210276982):** Budget mix should track portfolio breadth, with review ecosystems substituting for paid media in sprawling line-ups, for a CMO-audience column or media-planning trade piece.\n- **Why ambitious people don't want AI to do it for them (Work ID W7204561075):** \"AI that helps you get better\" versus \"AI that does it for you\" as a zero-cost positioning flip in fitness, learning, and creative tools, for a tech-business column or a consumer-psychology explainer.\n- **Make people suffer a little (Work ID W7204997257):** One-tap, round-up cause marketing may be buying convenience at the cost of credibility -- the martyrdom effect applied to brand purpose, for a nonprofit/CSR trade piece or a brand-purpose column."
+  }
+}
