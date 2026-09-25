@@ -1,0 +1,1083 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-25",
+  "days_back": 60,
+  "window_from": "2026-07-27",
+  "window_to": "2026-09-25",
+  "focus": "Advertising",
+  "topic": "advertising",
+  "query": "advertising OR advertisement OR \"ad campaign\" OR \"marketing communication\" OR \"creative execution\" OR \"ad avoidance\" OR \"native advertising\" OR \"ad effectiveness\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 128,
+    "not_research": 2,
+    "no_abstract": 19,
+    "off_topic": 0,
+    "already_covered": 12,
+    "over_journal_cap": 11,
+    "over_cap": 44,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7204147563",
+      "headline": "Coke's AI Christmas ad drew 7,800 comments — and the anger wasn't mostly about the visuals",
+      "the_study": "Researchers scraped 7,822 YouTube and Reddit comments responding to Coca-Cola's generative-AI remake of its \"Holidays Are Coming\" holiday campaign and ran a large language model–assisted, human-validated thematic analysis of the discourse. Backlash sorted into three layers: content judgments (visual realism, execution flaws, whether the look fit the brand), psychological reactions (loss of authenticity, creativity and human connection), and socio-ethical attributions (assumptions about corporate greed, displaced artists and animators, and broader ethics). The authors argue the deepest hostility came not from the ads looking bad, but from what using GenAI signaled about the brand's values.",
+      "why_it_matters": "It suggests that fixing the visual quality of AI-generated ads will not neutralize consumer backlash, because much of the objection is moral and symbolic rather than aesthetic.",
+      "story_angle_primary": "Brands piloting GenAI creative could use the three-layer breakdown as a pre-launch risk audit — separately stress-testing execution quality, authenticity perceptions and the labor/ethics inference — rather than assuming better rendering solves the problem. Worth noting this is one campaign from one iconic brand in a heavily nostalgic category, so the intensity of reaction may not generalize.",
+      "story_angle_secondary": "For consumers, the study is a portrait of how online audiences reason about AI: people read a company's production choices as a statement about who the company is and who it is willing to replace.",
+      "caveats": "Single campaign, single brand, single category; self-selected commenters on YouTube and Reddit skew toward those motivated to complain; qualitative thematic coding rather than measured effects on attitudes or sales; LLM-assisted coding with researcher validation.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-08-24",
+      "doi": "10.1016/j.jretconser.2026.105058",
+      "paper_title": "When AI ads backfire: Deconstructing consumer backlash to GenAI advertising",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7212164169",
+      "headline": "Advertising before people download your app keeps them using it afterward",
+      "the_study": "Across eleven studies totaling N=11,272 — including behavioral data from a Dutch retailer's mobile app, a critical incident study and controlled experiments — researchers tested whether ads seen before installation affect usage after installation. Consumers exposed to pre-adoption advertising showed higher sustained app usage, which the authors attribute to reduced post-adoption cognitive dissonance. The effect was stronger for functional (rather than emotional) ad appeals, for consumers with a high need for control, and in less competitive markets.",
+      "why_it_matters": "Retail app budgets are usually split between acquisition ads and re-engagement ads treated as separate jobs; this suggests acquisition creative is quietly doing retention work, changing how the two should be measured and valued.",
+      "story_angle_primary": "Media teams could test attributing downstream retention — not just installs — to pre-install campaigns, and compare functional feature-led creative against emotional brand creative on post-install usage. The field component comes from one Dutch retailer, so the size of the effect is likely category- and market-specific.",
+      "story_angle_secondary": "It offers a small window into why people abandon apps: when what you find inside matches what the ad promised, you are less likely to feel you made a mistake and delete it.",
+      "caveats": "Field behavioral data from a single retailer in one country; the remaining studies are experiments including online panels; boundary conditions tested largely in controlled settings; unclear long-run time horizon for usage measures.",
+      "journal": "Journal of Retailing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.jretai.2026.08.007",
+      "paper_title": "Beyond installation: How pre-adoption advertising drives post-adoption retail app usage",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7202096496",
+      "headline": "Green claims work better for brands that aren't already green — and the evidence you cite matters differently for each",
+      "the_study": "A meta-analysis of 156 studies covering 146,961 participants examined how green marketing communication affects consumer evaluations and behavior. Overall the effect is positive, but it is weaker for brands already positioned as green than for conventional brands. For green brands, emotional, abstract messaging delivered on packaging and backed by lower levels of evidence performed better, and new green brands benefited most; for conventional brands, rational messaging, paid advertising, stronger supporting evidence and brand familiarity all improved results.",
+      "why_it_matters": "It gives a generalizable explanation for years of contradictory green-advertising results: the same environmental claim is read as informative from a conventional brand and as redundant or self-promotional from a brand already known for sustainability.",
+      "story_angle_primary": "Sustainability communications teams should question the default assumption that more proof and more data always help — the evidence suggests heavily certified, rational claims pay off for mainstream brands but can underperform for brands whose green identity is already taken for granted. Consider auditing whether your category positions you as the \"conventional\" or the \"green\" sender before choosing message style.",
+      "story_angle_secondary": "For shoppers, this shows environmental claims are judged partly by who is making them: a green boast from an oil company reads as news, the same boast from an eco-brand reads as noise.",
+      "caveats": "Meta-analysis aggregates heterogeneous primary studies, many of which are lab or online experiments with hypothetical products rather than real purchases; effect sizes reflect the literature's biases, including possible publication bias.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-08-10",
+      "doi": "10.1007/s11747-026-01189-7",
+      "paper_title": "A meta-analysis of green marketing communication effectiveness",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7214082546",
+      "headline": "Search ads help the national chains; social ads help the local ones",
+      "the_study": "Using anonymized GPS location data on physical store visits combined with advertising expenditure data across 180 US counties, researchers built \"competitor spillover\" metrics — how often a brand's customers also visit a rival — for national and local limited-service restaurant chains. They introduced \"advertising localism,\" the share of advertising placed within the county where it is displayed, and analyzed its effects by platform. Local advertising delivered through intent-driven search engines aggregated the market toward national chains, while local advertising on social media dispersed traffic toward local chains.",
+      "why_it_matters": "It implies the choice between search and social is not just a performance-efficiency decision but a structural one that shifts who captures the neighborhood's foot traffic — relevant to both challenger brands and antitrust regulators watching ad concentration.",
+      "story_angle_primary": "Independent and regional operators may get more geographic defense per dollar from social platforms than from bidding against national chains on search; large chains might read the same result as evidence that local search spend consolidates their advantage. Test platform mix against measured store visits, not just clicks.",
+      "story_angle_secondary": "Where you end up eating lunch may be quietly shaped by which platform the surrounding restaurants advertise on — search tends to funnel you toward the familiar national name, social toward the place down the street.",
+      "caveats": "Observational GPS and spend data with OLS models, so causal claims are limited; single country, single category (limited-service restaurants); location panel data has known coverage and matching biases.",
+      "journal": "Marketing Intelligence & Planning",
+      "published": "2026-09-23",
+      "doi": "10.1108/mip-03-2025-0185",
+      "paper_title": "Location intelligence in advertising: effects of advertising localism on competitor spillovers",
+      "source_id": "S29817978"
+    },
+    {
+      "work_id": "W7213402036",
+      "headline": "Pairing a virtual influencer with a human one works — but only if the ad keeps its distance",
+      "the_study": "Four experiments with a combined N=1,293 tested ads featuring a human influencer alone versus a human influencer alongside a virtual influencer. Co-endorsement produced higher purchase intentions when the ad emphasized distal sensory cues (sight and sound) but lower intentions when it emphasized proximal cues (touch, taste, smell). Perceived novelty drove the co-endorsement advantage; perceived authenticity drove the human-only advantage. Future-oriented framing strengthened the co-endorsement effect, while past-oriented framing favored the human-only ad.",
+      "why_it_matters": "It gives a concrete rule of thumb for where synthetic endorsers can be added without damaging credibility: virtual influencers can sell what you look at, not what you touch or taste.",
+      "story_angle_primary": "Brands experimenting with virtual influencers could run split tests by sensory category — fashion and tech visuals versus food, fragrance and skincare — and by time framing, rather than treating a virtual endorser as a uniformly modern upgrade. These are controlled experiments measuring intentions, so treat the pattern as a hypothesis to validate in live campaigns.",
+      "story_angle_secondary": "There's a quiet logic to the discomfort people feel seeing a CGI character recommend a meal: audiences appear willing to accept a synthetic figure as novel, but not as someone who has actually experienced the product.",
+      "caveats": "Experimental, hypothetical ads and stated purchase intentions rather than real purchases; likely online panel participants; country and product categories limited; mechanism measures are self-reported.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-09-16",
+      "doi": "10.1016/j.jretconser.2026.105113",
+      "paper_title": "Synergy or backfire? Adding virtual influencers to advertisements featuring human influencers: The roles of sensory cues and temporal framing",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7204491303",
+      "headline": "Eight brands switched off their branded search ads. Sales didn't budge.",
+      "the_study": "Researchers ran nine field experiments with eight small direct-to-consumer brands that sell exclusively online, so every sale was captured in the dataset. When the brands stopped bidding on branded search terms (their own name), there was no significant effect on sales for any of the eight. Stopping generic search advertising cut website sessions for two of three brands tested, but again did not significantly move sales. A pre-registered online experiment replicated the null effect of branded search on click intentions.",
+      "why_it_matters": "Branded search is one of the largest line items in many digital budgets precisely because it looks efficient on a cost-per-click basis, yet these experiments suggest much of that spend is buying clicks the brand would have received for free.",
+      "story_angle_primary": "A prompt to run your own geo- or time-based holdout test on branded search before the next budget cycle: the authors argue spend is better reallocated to generic terms or to SEO that wins first-page placement. Note these were eight small DTC brands, so the size of any waste at a large multi-brand advertiser remains an open question.",
+      "story_angle_secondary": "When you type a brand's name into a search engine and click the top paid result, the brand is often paying for a visit you were already making — a small window into why the ads you see are not always the ads that changed your mind.",
+      "caveats": "Eight small DTC online-only brands; findings may not generalize to large retailers, offline sales or competitive categories where rivals bid on your brand name; the supporting online experiment measured click intentions rather than actual clicks.",
+      "journal": "Journal of Business Research",
+      "published": "2026-08-27",
+      "doi": "10.1016/j.jbusres.2026.116485",
+      "paper_title": "Do brands need search advertising?",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7214238772",
+      "headline": "\"Buy now,\" \"Just do it\": meta-analysis finds bossy ad copy backfires — most of all for charities",
+      "the_study": "A meta-analysis pooled 142 samples testing assertive language in advertising and used meta-analytic structural equation modeling to trace the causal chain. Assertive wording substantially raised perceived threats to freedom (d = 0.72) and state reactance (d = 0.39), and had a small but significant negative effect on persuasion outcomes (d = -0.08), with the persuasion effect serially mediated by threat then reactance. Nonprofit advertising provoked stronger reactance than for-profit advertising.",
+      "why_it_matters": "Commanding copy is a default in direct response and in public health and charity messaging, but the accumulated evidence says it reliably irritates audiences and, on net, slightly reduces persuasion — with the worst penalty in exactly the category that uses it most.",
+      "story_angle_primary": "Worth A/B testing imperative versus non-assertive phrasing in calls to action, especially for cause and nonprofit campaigns. The average persuasion penalty is small, so the story is less \"never use commands\" than \"know that you are paying a reactance tax and check whether the attention gain covers it.\"",
+      "story_angle_secondary": "There's a name for that flicker of resistance you feel when an ad tells you what to do: psychological reactance. The research shows it's near-universal, and that pushy donation appeals trigger it more than pushy product ads.",
+      "caveats": "Synthesizes mostly lab and online experiments rather than field campaigns; effect on persuasion is small in absolute terms; underlying studies vary widely in context and measures.",
+      "journal": "Journal of Advertising",
+      "published": "2026-09-24",
+      "doi": "10.1080/00913367.2026.2725644",
+      "paper_title": "Should Ads Be Assertive? A Meta-Analytic Review of the Effects of Assertive Language on Perceived Freedom Threat, State Reactance, and Persuasion Outcomes",
+      "source_id": "S103311983"
+    },
+    {
+      "work_id": "W7204247420",
+      "headline": "What actually makes mobile ads work: usefulness wins, irritation kills, peer pressure barely registers",
+      "the_study": "A meta-analysis of 211 empirical studies tested which factors drive consumers' perceived value of mobile advertising and how that value feeds attitudes, intentions and behavior. Perceived usefulness emerged as the strongest positive driver and irritation as the strongest negative one, while subjective norms — what other people think — had minimal influence. Relationships were stronger for customized, permission-based, location-aware and in-app formats, and among younger samples and in developed markets.",
+      "why_it_matters": "It settles a long-running set of contradictory findings with an unglamorous conclusion: mobile ad performance rests mainly on being genuinely useful and not annoying, and the format choices that amplify that are personalization, permission and in-app placement.",
+      "story_angle_primary": "A checklist for auditing mobile campaigns — prioritize customized content over generic blasts, make permission the default, and treat irritation metrics (skips, mutes, complaints) as a leading indicator rather than noise. Bear in mind most underlying studies measure perceptions and intentions, not sales.",
+      "story_angle_secondary": "Consumers rarely value a phone ad because everyone else likes the brand; they value it when it tells them something they can use, and they punish it when it interrupts. Privacy concern matters, but sheer annoyance matters more.",
+      "caveats": "Built on primary studies that are largely cross-sectional surveys measuring intentions rather than observed purchases; effect sizes vary by country, age and study quality; publication bias in the underlying literature is a risk.",
+      "journal": "Journal of Business Research",
+      "published": "2026-08-26",
+      "doi": "10.1016/j.jbusres.2026.116482",
+      "paper_title": "Meta-analysis of antecedents and consequences of customers’ perceived advertisement value",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7212116218",
+      "headline": "The cameo gamble: a second celebrity only helps if they're as famous as your first one",
+      "the_study": "Researchers tested \"celebrity cameo endorsement\" — a brief appearance by a second known figure alongside a brand's long-standing endorser, as with John Malkovich appearing with George Clooney for Nespresso — across two experiments plus a Google Trends analysis. Cameos by celebrities with comparable or higher media visibility than the primary endorser raised perceived ad novelty and lifted search interest, purchase intention and actual purchase behavior. Cameos by lower-profile celebrities reduced novelty and undermined campaign effectiveness.",
+      "why_it_matters": "Brands with fatigued long-term endorsers often add a second face to refresh a campaign; this suggests the refresh works only when the newcomer's star power matches or exceeds the incumbent's, and otherwise actively hurts.",
+      "story_angle_primary": "If you're extending a long-running endorser campaign, the casting screen isn't just fit or affordability — it's relative media visibility against your existing star. Test cameo executions against a control before committing budget, since the experimental evidence shows what can happen rather than guaranteeing a lift.",
+      "story_angle_secondary": "Why that surprise second celebrity in an ad can feel either delightful or slightly cheap — audiences appear to read the pairing as a signal about how much the brand is investing.",
+      "caveats": "Two experiments (sample sizes and recruitment not specified in the abstract) supplemented by correlational Google Trends data; purchase behavior measured within the study context; single-tactic focus with limited detail on categories tested.",
+      "journal": "International Journal of Advertising",
+      "published": "2026-09-10",
+      "doi": "10.1080/02650487.2026.2722506",
+      "paper_title": "Enhancing advertising novelty through celebrity cameo endorsement",
+      "source_id": "S19358283"
+    },
+    {
+      "work_id": "W7214117679",
+      "headline": "Pet influencers: viewers want the cat, not the owner — and definitely not the ad",
+      "the_study": "Combining data mining and content analysis, researchers coded 244 short videos from the six most influential cat influencers on the Chinese platform Xiaohongshu, measuring advertising inclusion, owner self-disclosure, anthropomorphism, video length and engagement. Ads depressed every engagement metric. Higher owner self-disclosure also correlated with lower engagement, as did videos running over one minute. Anthropomorphism worked selectively: depicting pet–owner communication boosted saves but not likes or comments.",
+      "why_it_matters": "The pet economy is one of the fastest-growing influencer niches, and this indicates the engagement playbook borrowed from human influencers — personal storytelling, building parasocial ties with the creator — actively backfires when the star is an animal.",
+      "story_angle_primary": "If you're briefing pet creators, push for pet-centric, sub-60-second executions and be realistic about the engagement cost of visible sponsorship; treat likes, comments and saves as distinct outcomes rather than a single engagement number. Correlational platform data, so the sponsorship penalty may partly reflect which posts get sponsored.",
+      "story_angle_secondary": "Audiences follow animal accounts for the animal. The moment the human steps into frame with their own story, attention drops — a clue about why parasocial connection works differently in this corner of social media.",
+      "caveats": "Observational, not experimental — no causal claims; a single platform, single country and single species (cat accounts); only six creators and 244 videos; engagement metrics, not sales.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-23",
+      "doi": "10.1108/apjml-12-2025-2667",
+      "paper_title": "The pet-centric turn: how self-disclosure and anthropomorphism shape audience engagement in pet influencer marketing",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7214074450",
+      "headline": "Older consumers don't reject AI-made ads — they reject unrealistic ones",
+      "the_study": "Researchers conducted 25 semi-structured interviews with Australian consumers aged 65 and over about how AI disclosure affects their trust in advertising, analyzed with reflexive thematic analysis. Trust turned out to be contextually calibrated rather than driven by disclosure itself: in utilitarian service contexts disclosure created a transparency–skepticism tension, raising demands for credible human presence, while in hedonic contexts disclosure mattered less unless AI-generated depictions looked unrealistic. \"Relatability\" — whether people saw themselves and plausible reality in the content — acted as the filter on credibility.",
+      "why_it_matters": "As AI disclosure labels spread through regulation and platform policy, this suggests the label alone neither destroys nor protects trust; what matters is whether the AI-generated content looks believable and includes recognizable human signals.",
+      "story_angle_primary": "Plan disclosure by context rather than as a blanket policy, and pair it with realistic representation and visible human elements in functional, high-stakes service categories. This is exploratory qualitative work, so treat it as hypothesis generation for quantitative testing.",
+      "story_angle_secondary": "A useful window into how one of the fastest-growing consumer segments reads AI in advertising: they're not reflexively hostile, but implausibly perfect people in ads set off alarms.",
+      "caveats": "Qualitative, 25 interviews, no causal or generalizable estimates; single country (Australia) and a single age group; based on stated interpretations rather than observed ad responses or purchases.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-09-23",
+      "doi": "10.1108/jsm-01-2026-0071",
+      "paper_title": "How older consumers perceive AI disclosure in advertising: relatability and trustworthiness across utilitarian and hedonic service contexts",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7212229180",
+      "headline": "When family firms miss their targets, they cut ads and spend on CSR instead",
+      "the_study": "Using a panel of Indian listed firms from 2006 to 2019, researchers examined how family ownership shapes two signaling strategies, advertising and corporate social responsibility investment. Family ownership was positively associated with both. But when performance fell below aspiration levels, family owners shifted the mix — raising CSR spending and cutting advertising.",
+      "why_it_matters": "It identifies a predictable governance-driven pattern in where marketing budgets go under pressure, useful for agencies, media sellers and marketing leaders forecasting spend in emerging markets.",
+      "story_angle_primary": "If your client or employer is a family-controlled firm in an emerging market, expect the advertising line to be the first casualty of a bad year while CSR is protected — a reminder to build the case for advertising's long-term brand effects before the downturn arrives, not during it.",
+      "story_angle_secondary": "Limited direct relevance for consumers, beyond explaining why some struggling companies go quiet on advertising while getting louder about their social commitments.",
+      "caveats": "Archival panel data, single country (India) and a listed-firm sample; associations rather than experimental causation; data ends in 2019 and predates the current digital-spend mix.",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-11",
+      "doi": "10.1016/j.jbusres.2026.116531",
+      "paper_title": "Family ownership, performance below aspiration levels and signaling strategies in emerging markets",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7201848118",
+      "headline": "Podcast hosts: hog the mic for good news, share it for bad",
+      "the_study": "Researchers examined what makes conversational audio engaging, combining two controlled experiments (transcript-based stimuli in Study 1, AI-generated voice stimuli in Study 2) with an econometric analysis of 401 real podcast episodes covering more than 42,000 speaker turns and roughly 209 hours of audio. They found that \"discourse concentration\" — how much talk is dominated by one or two voices versus spread evenly — interacts with content valence: positive content draws more engagement when one voice dominates, while negative content engages more when the conversation is fragmented across speakers. Empathy toward the speakers mediated the effect.",
+      "why_it_matters": "Podcasts reach over 100 million monthly US listeners and generate more than $2 billion in advertising revenue a year, yet production advice on conversational structure has been largely intuition; this gives producers and media buyers a measurable lever tied to real episode performance.",
+      "story_angle_primary": "Advertisers evaluating podcast and livestream inventory could start scoring shows on speaker balance as well as downloads — and test whether host-read spots land differently in dominant-host versus round-table formats. The lab studies show the mechanism can work; the 401-episode analysis suggests it shows up in the wild, but it is one sample of shows.",
+      "story_angle_secondary": "It explains something listeners may have felt but not named: a single confident voice is satisfying when the story is upbeat, but when the subject turns grim, hearing several people trade reactions feels more human and keeps you listening.",
+      "caveats": "Two of the three studies use artificial stimuli (transcripts and synthetic voices) with lab participants; the field component is observational and correlational, covering a single set of 401 podcast episodes, so causal direction in the real-world data is inferred rather than tested.",
+      "journal": "International Journal of Research in Marketing",
+      "published": "2026-08-01",
+      "doi": "10.1016/j.ijresmar.2026.07.005",
+      "paper_title": "How discourse concentration and content valence drive engagement with conversational content",
+      "source_id": "S11810700"
+    },
+    {
+      "work_id": "W7202169140",
+      "headline": "\"De-influencing\" hurts brands more than praise helps them — and does nothing for the influencer",
+      "the_study": "Across three between-subjects experiments (total n=460, using online panels and student samples), plus a pilot using secondary TikTok data and a fourth supplementary study, researchers compared influencers who trashed a product with influencers who endorsed it. De-influencing produced more negative brand attitudes and lower intent to engage with the post, and its effect on attitudes was stronger than the effect of positive endorsement. Negative affect explained the drop in engagement, and although audiences rated de-influencing content as more helpful, that perceived helpfulness did not improve attitudes toward the influencer or boost engagement. Effects held for fictitious and real brands, known and unknown influencers, and across product categories.",
+      "why_it_matters": "It quantifies the asymmetry brands have long suspected — one influencer takedown outweighs an endorsement — while suggesting the trend is a poor business strategy for creators, who absorb the audience's bad mood without gaining credit.",
+      "story_angle_primary": "Brand teams should treat de-influencing as a monitorable reputational risk, not just a content genre: consider grievance channels for creators, contract language covering public negativity, and fast remediation (apology, replacement) — and test whether corrective responses actually recover attitudes, since this research did not measure recovery.",
+      "story_angle_secondary": "Viewers find \"don't buy this\" videos genuinely useful, yet the research suggests they don't reward the creator for it — the negative feeling the video creates spills onto the whole post, which may explain why honest-review accounts are harder to sustain than they look.",
+      "caveats": "Online panel and student samples; relatively small overall N (460 across three studies) with hypothetical exposure rather than real purchasing; the authors note findings may not transfer to influencers whose entire brand is built on \"honest reviews\"; brand recovery conditions untested.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-08-11",
+      "doi": "10.1108/ejm-02-2025-0156",
+      "paper_title": "From influence to de-influence: exploring the impact of negative feedback by social media influencers",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7212195252",
+      "headline": "Text-heavy social ads get remembered — just not the brand behind them",
+      "the_study": "Two online experiments tested the visual salience of static in-feed social media ads, comparing image-based versus text-based creative paired with different types of visual brand elements. Image-based creative outperformed text-based on ad recall, and text-based creative actually reduced correct brand recall. There was also evidence that \"counterprogramming\" — pairing the creative type against the type of visual branding used — offsets some of text's disadvantages, particularly among a brand's non-buyers and for larger brands.",
+      "why_it_matters": "Text overlays are ubiquitous in paid social because they carry the message, but this suggests they can cost the one thing advertisers most need from a scroll-past impression: correct brand attribution.",
+      "story_angle_primary": "Worth an A/B test on live in-feed inventory: run matched image-led versus text-led executions and measure branded recall, not just recall or engagement — and check whether the effect differs for your non-buyers, the audience this study found most sensitive.",
+      "story_angle_secondary": "It's a useful explanation for a common experience — remembering an ad vividly while having no idea who made it. The more words on the creative, the more likely that disconnect.",
+      "caveats": "Two online experiments with forced or simulated feed exposure rather than live platform behavior; static ads only; the abstract does not report sample sizes, countries, or brand categories; memory measures rather than sales.",
+      "journal": "Journal of Advertising Research",
+      "published": "2026-09-10",
+      "doi": "10.1080/00218499.2026.2670019",
+      "paper_title": "How to Make Advertising on Social Media Memorable: Stand Out or Get Lost",
+      "source_id": "S61992289"
+    },
+    {
+      "work_id": "W7214105022",
+      "headline": "Half of #womenshealth Instagram posts come from someone with something to sell",
+      "the_study": "Researchers content-analyzed 472 Instagram posts using the hashtag #womenshealth. Individual influencers created 63% of posts (162 from alternative health practitioners, 105 from medical doctors); 48% concerned hormonal and reproductive health, including 58 on menopause or perimenopause. Explicit health claims appeared in 69% of posts, but only 7% referenced scientific evidence — while 51% of account holders had a clear financial interest and 39% of posts directly sold an intervention.",
+      "why_it_matters": "It puts hard numbers on how thoroughly commercial content has colonized a health category that millions of women use for information, and signals rising regulatory attention for brands selling supplements, devices and services through creators.",
+      "story_angle_primary": "Any brand active in wellness, femtech or supplements should audit creator partners against these baselines — disclosure, evidence citation, claim language — because a 7% evidence-citation rate in a 69%-claims environment is the kind of statistic that precedes advertising-standards crackdowns.",
+      "story_angle_secondary": "A practical literacy point for anyone researching menopause, fertility or hormones online: roughly half the accounts in this hashtag had a financial stake, two in five posts were selling something, and only one in fourteen pointed to any scientific evidence.",
+      "caveats": "Single platform, single hashtag, cross-sectional snapshot of 472 posts; coding of \"clear financial interest\" and claim quality involves researcher judgment; no measurement of what audiences believed or did as a result.",
+      "journal": "Health Promotion International",
+      "published": "2026-09-01",
+      "doi": "10.1093/heapro/daag141",
+      "paper_title": "Beyond the hashtag: a content analysis of #womenshealth posts on Instagram",
+      "source_id": "S94746221"
+    },
+    {
+      "work_id": "W7204255947",
+      "headline": "Cute mascots should talk about warmth; cool ones should talk about performance",
+      "the_study": "Four experiments across different product contexts tested how brand character design (cute versus cool) interacts with advertising appeals (warmth-focused versus competence-focused). Matched pairings — cute character with a warmth appeal, cool character with a competence appeal — produced higher customer engagement and more favorable brand attitudes than mismatched pairings. The mechanism was a subjective sense of \"feeling right\": matched combinations simply felt fitting to viewers.",
+      "why_it_matters": "Brands are pouring mascots and illustrated characters into social feeds; this suggests the character's visual style constrains which claims it can credibly deliver, and that a mismatch quietly costs engagement.",
+      "story_angle_primary": "Before committing to a character system, test the character style against your core message: if your positioning rests on performance and reliability, a cute mascot may undercut it. Note this is lab evidence on engagement intent, so validate with live creative tests on platform.",
+      "story_angle_secondary": "It's a small window into why some ads just feel off — not because the claim is wrong, but because the messenger's look doesn't match what it's saying.",
+      "caveats": "Four lab/online experiments with measured attitudes and engagement intentions rather than observed platform behavior; abstract does not report sample sizes, country, or participant source; fictional or controlled stimuli rather than live campaigns.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-08-26",
+      "doi": "10.1002/cb.70235",
+      "paper_title": "Feeling Right Matters: The Impact of Character Design–Appeal Match on Social Media Engagement",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7204599802",
+      "headline": "When a clever visual metaphor confuses people, a line of explanation fixes it",
+      "the_study": "Five studies tested visual congruency in metaphorical advertising. Congruent executions — matching product color to background color, product shape to the slogan, or product values to the surrounding scene — produced more favorable brand attitudes than incongruent ones, with processing fluency (how easily the ad is understood) mediating the effect across three separate manipulations. A final study showed that adding explanatory information restored fluency and improved brand attitudes when the visuals were incongruent.",
+      "why_it_matters": "Award-seeking metaphorical creative often trades comprehension for cleverness; this indicates the penalty is real but cheaply reversible with a clarifying line of copy.",
+      "story_angle_primary": "If you're running conceptual or metaphorical visuals, pre-test comprehension separately from liking — and consider whether a short explanatory headline recovers the brand-attitude loss, as it did here, rather than assuming the audience will do the decoding work.",
+      "story_angle_secondary": "Ads that feel effortless to understand tend to be liked more, regardless of the idea's sophistication — which is why the puzzling billboard you couldn't decode probably didn't win you over.",
+      "caveats": "Multi-study lab research with attitude measures rather than purchase behavior; abstract does not report sample sizes, participant sources, or country; stimuli are controlled ad executions, not live campaigns.",
+      "journal": "Journal of Advertising Research",
+      "published": "2026-08-28",
+      "doi": "10.1080/00218499.2026.2693333",
+      "paper_title": "Visual Congruency and Brand Attitudes: The Mediating Role of Processing Fluency in Metaphorical Advertising",
+      "source_id": "S61992289"
+    },
+    {
+      "work_id": "W7171628015",
+      "headline": "Naming your rival works in America — and backfires in Europe",
+      "the_study": "Two between-subjects experiments with general-population consumers (not students) in France, the UK and the USA tested direct comparative ads (naming a rival), indirect comparative ads (implying one) and non-comparative ads. Study 1 (n=758) varied ad format, exposure time (4 vs 20 seconds) and country; Study 2 (n=800, France and UK) pitted direct comparative against non-comparative ads. Indirect comparison generally beat direct comparison, with US consumers noticeably more receptive to comparative advertising than French or British consumers, and direct comparison scoring highest on perceived manipulative intent. Comparative ads also needed time to work — short exposures undercut them.",
+      "why_it_matters": "Comparative creative is one of the few ad tactics whose effectiveness appears to swing sharply by country and by how long people look at it, which matters for brands running one global campaign across markets and short-form feeds.",
+      "story_angle_primary": "A prompt to test creative by market rather than porting a US-style 'call out the competitor' spot into Europe, and to check whether comparative claims survive 4-6 second skippable formats at all — these were controlled experiments, so treat the pattern as a hypothesis for in-market testing.",
+      "story_angle_secondary": "Explains why American ads happily name rivals while European ones nod vaguely at 'the leading brand' — and why the blunter version tends to feel more manipulative to audiences.",
+      "caveats": "Experimental ad exposure rather than real purchases; three countries only; processing style was measured rather than manipulated; outcomes are ad responses and intentions, not sales.",
+      "journal": "International Marketing Review",
+      "published": "2026-07-29",
+      "doi": "10.1108/imr-12-2024-0524",
+      "paper_title": "Consumer response to direct, indirect and non-comparative advertising in France, UK and USA",
+      "source_id": "S35673206"
+    },
+    {
+      "work_id": "W7213527998",
+      "headline": "When people fear sliding down the ladder, 'wealth' advertising stops working — 'craftsmanship' doesn't",
+      "the_study": "Across five studies, researchers examined how anticipating downward social mobility changes consumers' responses to ads. People expecting their socioeconomic status to fall de-emphasized the economic side of their identity and distanced themselves from products advertised via economic capital cues (assets, wealth, status), while their preference for products advertised via cultural capital cues (arts, craftsmanship, taste) held steady or rose — the increase concentrated among those who believe status is inherent and biologically rooted.",
+      "why_it_matters": "In an economy where many consumers feel they are losing ground, aspirational wealth messaging may actively repel the very segment it targets, while heritage and craft framings stay safe.",
+      "story_angle_primary": "Worth auditing premium campaigns for whether the luxury cue is money-coded or craft-coded, and testing craft/heritage framings against status framings with audiences in economically precarious segments or markets.",
+      "story_angle_secondary": "A window into how downward mobility quietly rewrites taste: when money feels shaky, people reach for things that signal knowing rather than owning.",
+      "caveats": "Multi-study experimental work, but likely relies on scenario-based or panel samples and stated preferences rather than observed purchases; mobility expectations are often induced rather than lived; abstract does not report sample sizes or countries.",
+      "journal": "Journal of Current Issues & Research in Advertising",
+      "published": "2026-09-17",
+      "doi": "10.1080/10641734.2026.2724856",
+      "paper_title": "Understanding How Downward Mobility Affects Consumers’ Responses to Advertisements Appealing to Cultural or Economic Capital",
+      "source_id": "S4210232136"
+    },
+    {
+      "work_id": "W7202369464",
+      "headline": "During Black Friday-style sales blitzes, ad overload turns eager shoppers hostile",
+      "the_study": "A three-study mixed-methods project on Online Retail Sales Events examined how intrusive social media advertising during high-intensity promotional periods triggers consumer reactance. A qualitative study identified what makes sales-event ads feel intrusive; two experimental studies (each preceded by pilots) manipulated intrusiveness and, later, participation motivation. Emotional reactance depended on a three-way interaction between perceived intrusiveness, social media cognitive fatigue and how motivated the shopper was to participate — and 'low information' intrusive ads in particular cut both event-level and product-level purchase intentions.",
+      "why_it_matters": "It suggests the peak-season strategy of maximizing ad frequency can suppress purchase intent precisely when shoppers are most fatigued, and that thin, information-poor creative is the worst offender.",
+      "story_angle_primary": "Consider capping frequency and raising information density during mega-sale windows, and test whether fatigued-but-motivated segments respond better to fewer, more substantive ads — the effects here are experimental, so validate with holdout groups in live campaigns.",
+      "story_angle_secondary": "Explains the specific irritation of scrolling through a fortnight of countdown ads: the more worn down you are, the more an empty 'don't miss out' post pushes you away from buying.",
+      "caveats": "Experimental manipulations with stated purchase intentions rather than observed sales; single event context; sample sizes, country and recruitment source not specified in the abstract.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-08-13",
+      "doi": "10.1016/j.jretconser.2026.105045",
+      "paper_title": "Online retail sales events: Examining the consequences of intrusive social media advertising",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7202223869",
+      "headline": "Ads can make food taste better — but only if you can imagine the smell",
+      "the_study": "Three experiments using different food products compared multisensory advertising messages (invoking several senses) against single-sense messages and measured perceived taste. Multisensory messages boosted taste perception both with and without actual consumption, but the advantage depended on mental imagery: it emerged when participants imagined the product's scent (Study 2) or its appearance (Study 3), and single-sense messages produced no such effect.",
+      "why_it_matters": "For e-commerce, delivery apps and any channel where sampling is impossible, the finding suggests copy that prompts active sensory imagination — not just more sensory adjectives — is what shifts taste expectations.",
+      "story_angle_primary": "Test creative that explicitly invites imagination ('imagine the aroma as it hits the pan') against conventional descriptive food copy in online menus and product pages, and check whether the effect survives outside a lab setting.",
+      "story_angle_secondary": "A reminder that a lot of how food tastes is decided before the first bite — by the words and pictures that got you to order it.",
+      "caveats": "Lab-style experiments with perceived taste as the outcome, not repeat purchase or real ordering behavior; sample sizes, country and recruitment not reported in the abstract; short time horizon.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-08-11",
+      "doi": "10.1002/cb.70205",
+      "paper_title": "Tasting Without Tasting: The Moderating Role of Sensory Imagery in Multisensory Advertising",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7213453650",
+      "headline": "Tourism marketers are quietly uneasy about the deepfake destination ads they're being asked to make",
+      "the_study": "Phenomenological interviews with 23 tourism marketing practitioners in South Korea explored how they experience deepfake and hyperreal destination advertising. Participants described a tension between the technology's persuasive power and their own professional integrity, voicing concern about representational ambiguity, misleading travelers and eroding brand credibility — and rather than adopting or refusing the tools outright, they engaged in ongoing 'moral boundary work' about acceptable use.",
+      "why_it_matters": "Synthetic imagery is arriving in category marketing faster than disclosure norms, and the people making the ads are already improvising the ethical rules — a governance gap for brands that sell experiences customers can later compare to reality.",
+      "story_angle_primary": "An argument for writing internal standards on synthetic and AI-generated imagery now — what may be enhanced, what must be disclosed — before a credibility incident sets the policy for you.",
+      "story_angle_secondary": "When a destination looks impossibly good in an ad, it may not just be filtering: practitioners themselves worry travelers will arrive to something that doesn't match.",
+      "caveats": "Small qualitative sample (N=23), single country (South Korea) and single sector; practitioner perceptions, not consumer outcomes or measured deception effects; no causal claims possible.",
+      "journal": "Journal Of Vacation Marketing",
+      "published": "2026-09-17",
+      "doi": "10.1177/13567667261489700",
+      "paper_title": "Navigating hyperreality: Tourism practitioners’ ethical sense-making of deepfake destination advertising",
+      "source_id": "S83271458"
+    },
+    {
+      "work_id": "W7213758328",
+      "headline": "Hiding the sponsorship backfires: platform data shows disclosed ads out-earn covert ones",
+      "the_study": "Researchers analyzed influencer posts on Xiaohongshu, China's lifestyle-commerce platform, classifying content into four types — user-generated, advocacy, disclosed sponsored and non-disclosed sponsored — and comparing engagement (views, likes, shares, comments, bookmarks) across micro, macro and mega influencers. Disclosed sponsored content drew the strongest engagement on all five metrics within the macro-influencer benchmark, while non-disclosed sponsored content underperformed across the board. The disclosure advantage was largest for mega influencers, who were also punished most harshly when sponsorship was hidden; micro influencers escaped some of that penalty.",
+      "why_it_matters": "It reframes ad disclosure from a compliance cost to a possible engagement asset, and suggests the biggest creators have the most to lose from covert sponsorship.",
+      "story_angle_primary": "Brands that quietly discourage prominent #ad labeling may be leaving engagement on the table — worth A/B testing disclosure prominence by creator tier rather than treating it purely as legal risk management.",
+      "story_angle_secondary": "Audiences appear to reward creators who admit they are being paid, and to disengage when a big-name influencer's pitch looks like an undisclosed ad — a rare case where honesty and reach point the same way.",
+      "caveats": "Observational platform data from a single Chinese platform (Xiaohongshu); associations, not causal effects — popular or high-quality campaigns may be more likely to be properly disclosed. Engagement metrics are not sales.",
+      "journal": "Journal of Marketing Communications",
+      "published": "2026-09-19",
+      "doi": "10.1080/13527266.2026.2733426",
+      "paper_title": "Blurring the line: A more complete conceptualization of influencer-generated content and its implications for deception",
+      "source_id": "S158451771"
+    },
+    {
+      "work_id": "W7203605245",
+      "headline": "Consumers preferred AI-made ads to human-made ones — at least for practical products",
+      "the_study": "Two online experiments with 275 Prolific participants compared reactions to advertisements labeled as AI-generated versus human-generated. Contrary to the common assumption that AI content feels cold, participants rated AI-generated ads more favorably, and the effect ran through greater affective involvement — more emotional engagement with the AI ads. Study 2 found the advantage held for utilitarian products but disappeared for hedonic ones.",
+      "why_it_matters": "It challenges the widespread fear that disclosing AI authorship in creative work automatically triggers consumer backlash, while marking out where the risk is real.",
+      "story_angle_primary": "Test whether labeling ad creative as AI-assisted actually hurts — the penalty may be category-specific, concentrated in pleasure-driven and expressive products rather than functional ones.",
+      "story_angle_secondary": "People may not be as good as they think at sensing the emotional shortfall in machine-made persuasion; labeling can shape reactions more than the content itself.",
+      "caveats": "Online panel (Prolific), modest total N across two studies, hypothetical ads and attitude measures rather than real purchases; source was manipulated by labeling, so effects may reflect novelty or expectation-setting that could fade as AI ads become routine.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-08-17",
+      "doi": "10.1108/jcm-07-2025-8108",
+      "paper_title": "Artificial creativity meets consumer reality: the role of affective involvement and product type in responses to AI-generated ads",
+      "source_id": "S165789823"
+    },
+    {
+      "work_id": "W7203570653",
+      "headline": "Big influencers should endorse; small influencers should just sell",
+      "the_study": "Three experiments with a combined N=632 tested how influencer popularity interacts with communication style — soft endorsement versus direct advertising — on consumers' sense of connection and their intention to spread word of mouth. Endorsement-style messaging generated stronger eWOM intentions when delivered by highly popular influencers, but direct advertising worked better for lower-popularity influencers. Communication style, not popularity alone, drove the outcome.",
+      "why_it_matters": "It suggests that the same creative brief should not be handed to mega and micro creators, and gives a simple rule for matching message format to influencer tier.",
+      "story_angle_primary": "Segment influencer briefs by follower size: test subtle endorsement framing with big-reach creators and more explicit product pitches with niche ones, rather than standardizing tone across the roster.",
+      "story_angle_secondary": "Why a hard sell from a small creator can feel honest while the same pitch from a celebrity account feels grating — audiences apply different expectations depending on who is talking.",
+      "caveats": "Experimental studies measuring stated eWOM intention, not observed sharing or sales; sample composition and country not specified in the abstract; stimuli are likely hypothetical influencer posts.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-08-16",
+      "doi": "10.1002/cb.70204",
+      "paper_title": "Influencer Popularity and Its Impact on Consumer Connectivity and Electronic Word‐of‐Mouth",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7171463384",
+      "headline": "When ads sneak past attention: personalization and message framing jointly decide what people remember",
+      "the_study": "Across five experiments, researchers examined incidental ad exposure — ads glimpsed while doing something else — on personalized platforms. They found a crossover pattern: when consumers perceived the platform as highly personalized, near-term (proximal) goal framing improved brand memory via a sense of serendipity, while on platforms perceived as less personalized, long-term (distal) framing improved memory via greater cognitive effort. Consumers low in need for cognition were most sensitive to this context-message fit.",
+      "why_it_matters": "Brand recall from low-attention exposure may depend less on creative quality than on whether the message framing matches how personalized the surrounding platform feels.",
+      "story_angle_primary": "Consider varying copy framing by placement environment — immediate, here-and-now framing on highly targeted feeds versus future-oriented framing on broader or less personalized inventory — and measure recall, not just clicks.",
+      "story_angle_secondary": "The ads you barely notice still lodge in memory, and the feeling that a platform \"knows you\" changes which ones stick.",
+      "caveats": "Five lab/online experiments with unreported sample details; perceived personalization was measured or manipulated in controlled settings rather than observed on live platforms; memory outcomes, not purchase behavior.",
+      "journal": "Journal of Advertising Research",
+      "published": "2026-07-27",
+      "doi": "10.1080/00218499.2026.2651998",
+      "paper_title": "How Platform Personalization and Goal Framing Shape Incidental Brand Memory: Serendipity and Effort as Encoding Pathways Under Low Attention",
+      "source_id": "S61992289"
+    },
+    {
+      "work_id": "W7172220713",
+      "headline": "Guilt-based green ads only work when all three ingredients are present",
+      "the_study": "A 2x2x2 between-subjects experiment with 402 participants tested three message components in green advertising: framing the behavior as a moral transgression, assigning personal responsibility, and conveying that individual action is effective. Highlighting morality alone did not reliably produce guilt — the responsibility component had to be present too. Positive attitudes toward the ad required all three components together.",
+      "why_it_matters": "It gives sustainability marketers a concrete checklist and warns that half-built guilt appeals — moral shaming without responsibility or efficacy — may generate no useful response.",
+      "story_angle_primary": "Audit green creative for all three elements; moralizing copy without a clear \"this is on you\" and \"your action works\" component may be a wasted spend and risks reactance.",
+      "story_angle_secondary": "Why so much eco-guilt advertising washes over people: without a believable sense that your own action matters, guilt does not convert into anything.",
+      "caveats": "Single experiment with hypothetical ad stimuli and attitudinal outcomes rather than actual sustainable purchases; sample details and country not reported in the abstract; roughly 50 participants per cell across eight conditions.",
+      "journal": "International Journal of Advertising",
+      "published": "2026-08-02",
+      "doi": "10.1080/02650487.2026.2709196",
+      "paper_title": "Message design for guilt-based green advertising: whether and how to highlight moral transgression, personal responsibility, and efficacy",
+      "source_id": "S19358283"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7204147563",
+      "headline": "Coke's AI Christmas ad drew 7,800 comments — and the anger wasn't mostly about the visuals",
+      "verdict": "significant",
+      "notes": "Study facts (7,822 comments, LLM-assisted thematic analysis, three-dimension CPS framework) are accurate, but the headline and \"Why it matters\" convert the abstract's \"not only… but also\" into a ranking the abstract never makes.",
+      "issues": [
+        {
+          "label": "Ranking of backlash drivers not in abstract",
+          "severity": "Moderate",
+          "as_written": "The authors argue the deepest hostility came not from the ads looking bad, but from what using GenAI signaled about the brand's values.",
+          "abstract_says": "The findings demonstrate that backlash against GenAI ads emerges not only from perceived inferiority to human work, but also from what the use of GenAI signals to consumers about a brand's values and intentions.",
+          "problem": "The abstract presents the two sources as additive (\"not only… but also\"); the digest recasts them as competing and asserts that the symbolic source is the deeper one. No relative intensity is reported.",
+          "suggested_fix": "Rewrite as: \"The authors report that backlash stemmed not only from the ads being seen as inferior to human work, but also from what using GenAI signalled about the brand's values.\""
+        },
+        {
+          "label": "Headline and takeaway overstate the aesthetic/moral split",
+          "severity": "Moderate",
+          "as_written": "It suggests that fixing the visual quality of AI-generated ads will not neutralize consumer backlash, because much of the objection is moral and symbolic rather than aesthetic.",
+          "abstract_says": "content-related judgments focused on visual realism, execution quality, and contextual fit; psychological reactions centered on authenticity, creativity, and human connection; and socio-ethical attributions involving corporate motives, labor displacement, and broader ethical concerns",
+          "problem": "A qualitative thematic framework identifies three co-occurring dimensions; it does not weigh them or test whether improved visual quality would reduce backlash. The headline (\"the anger wasn't mostly about the visuals\") rests on the same unsupported weighting.",
+          "suggested_fix": "Reframe to: \"It suggests visual quality is only one of three dimensions of backlash — authenticity and ethics concerns appear alongside execution judgments — so better rendering alone may not address all objections.\""
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7212164169",
+      "headline": "Advertising before people download your app keeps them using it afterward",
+      "verdict": "accurate",
+      "notes": "Eleven studies, N=11,272, Dutch retail app field data, critical incident study and experiments all match; the three boundary conditions (functional appeals, need for control, competitive intensity) are reported intact.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7202096496",
+      "headline": "Green claims work better for brands that aren't already green — and the evidence you cite matters differently for each",
+      "verdict": "accurate",
+      "notes": "156 studies / 146,961 participants, the green-vs-conventional brand contrast and the full moderator list all match the abstract; \"paid advertising\" is a fair gloss on the abstract's \"advertising\" channel.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7214082546",
+      "headline": "Search ads help the national chains; social ads help the local ones",
+      "verdict": "accurate",
+      "notes": "180 counties, GPS co-visit spillover metrics, OLS, and the search-aggregation / social-dispersion direction all match. The digest omits television as a third platform studied, but this does not distort the reported findings, and the caveats correctly flag the observational design.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7213402036",
+      "headline": "Pairing a virtual influencer with a human one works — but only if the ad keeps its distance",
+      "verdict": "minor",
+      "notes": "Four experiments, N=1,293, direction of the distal/proximal effect and both mechanisms are accurate; one qualifier attached to past-oriented framing is dropped.",
+      "issues": [
+        {
+          "label": "Dropped qualifier on temporal framing",
+          "severity": "Minor",
+          "as_written": "Future-oriented framing strengthened the co-endorsement effect, while past-oriented framing favored the human-only ad.",
+          "abstract_says": "past-oriented framing favors advertisements featuring only HIs through authenticity-based evaluations, particularly when proximal sensory cues are emphasized",
+          "problem": "The abstract conditions the past-framing advantage on proximal sensory cues; the digest states it unconditionally.",
+          "suggested_fix": "Add the condition: \"…while past-oriented framing favoured the human-only ad, particularly when proximal sensory cues were emphasised.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7204491303",
+      "headline": "Eight brands switched off their branded search ads. Sales didn't budge.",
+      "verdict": "accurate",
+      "notes": "Nine field experiments with eight online-only DTC brands, the null sales effects for branded and generic search, the sessions effect for two of three brands, and the pre-registered click-intention replication all match; the reallocation recommendation is the authors' own.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7214238772",
+      "headline": "\"Buy now,\" \"Just do it\": meta-analysis finds bossy ad copy backfires — most of all for charities",
+      "verdict": "minor",
+      "notes": "142 samples and all three effect sizes (d = 0.72, 0.39, −0.08) plus the serial mediation are reported correctly; two framing flourishes stretch slightly beyond the abstract.",
+      "issues": [
+        {
+          "label": "Moderator applied to the wrong outcome",
+          "severity": "Moderate",
+          "as_written": "with the worst penalty in exactly the category that uses it most",
+          "abstract_says": "advertising domain significantly moderated the effect on state reactance, with nonprofit contexts eliciting stronger reactance responses than for-profit contexts",
+          "problem": "The nonprofit moderation is reported for state reactance only, not for the persuasion outcome. \"Worst penalty\" implies a larger persuasion loss for nonprofits, which the abstract does not report.",
+          "suggested_fix": "Say \"with nonprofit ads provoking stronger reactance than for-profit ads\" rather than implying a larger persuasion penalty."
+        },
+        {
+          "label": "\"Near-universal\" overstates a meta-analytic average",
+          "severity": "Minor",
+          "as_written": "The research shows it's near-universal, and that pushy donation appeals trigger it more than pushy product ads.",
+          "abstract_says": "Overall, assertive language significantly increased perceived freedom threat (d = 0.72) and state reactance (d = 0.39)",
+          "problem": "A significant pooled average effect is not evidence that the reaction is near-universal across individuals; the abstract reports mean effects and notes inconsistent findings across contexts.",
+          "suggested_fix": "Change to \"The research shows it's a consistent average effect across 142 samples…\""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7204247420",
+      "headline": "What actually makes mobile ads work: usefulness wins, irritation kills, peer pressure barely registers",
+      "verdict": "accurate",
+      "notes": "211 studies, usefulness as strongest driver, irritation as strongest mitigator and minimal subjective-norm effect all match, as do the reported contextual moderators (customised, permission-based, location-aware, in-app, younger samples, developed countries).",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7212116218",
+      "headline": "The cameo gamble: a second celebrity only helps if they're as famous as your first one",
+      "verdict": "accurate",
+      "notes": "Two experiments plus Google Trends, the Nespresso example, the novelty mechanism, and the contrast between equal/strong-capital and weaker-capital cameos are all reported faithfully; the digest correctly flags that sample details are absent from the abstract.",
+      "issues": []
+    },
+    {
+      "number": 10,
+      "work_id": "W7214117679",
+      "headline": "Pet influencers: viewers want the cat, not the owner — and definitely not the ad",
+      "verdict": "accurate",
+      "notes": "244 videos from six cat influencers on Xiaohongshu, the negative associations for advertising inclusion, self-disclosure and over-one-minute length, and the selective anthropomorphism effect all match; \"saves\" is a reasonable rendering of the abstract's \"marking,\" and the correlational nature is flagged in the caveats.",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "work_id": "W7214074450",
+      "headline": "Older consumers don't reject AI-made ads — they reject unrealistic ones",
+      "verdict": "minor",
+      "notes": "Design, sample and themes match the abstract; slight causal phrasing applied to qualitative associations.",
+      "issues": [
+        {
+          "label": "Causal wording for qualitative themes",
+          "severity": "Minor",
+          "as_written": "in utilitarian service contexts disclosure created a transparency–skepticism tension, raising demands for credible human presence",
+          "abstract_says": "In utilitarian contexts, disclosure was associated with a transparency–scepticism tension, as greater awareness of AI involvement coincided with stronger expectations for credibility and human presence.",
+          "problem": "The abstract deliberately uses associational language (\"was associated with\", \"coincided with\") for an interview-based study; \"created\" implies the disclosure caused the tension.",
+          "suggested_fix": "Change to \"disclosure was associated with a transparency–skepticism tension, coinciding with stronger expectations for credibility and human presence\"."
+        },
+        {
+          "label": "Unsupported segment claim",
+          "severity": "Minor",
+          "as_written": "A useful window into how one of the fastest-growing consumer segments reads AI in advertising",
+          "abstract_says": "The abstract makes no claim about the growth rate of the over-65 consumer segment.",
+          "problem": "Descriptor is not supported by the abstract.",
+          "suggested_fix": "Drop \"one of the fastest-growing consumer segments\" or attribute it to an external source."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7212229180",
+      "headline": "When family firms miss their targets, they cut ads and spend on CSR instead",
+      "verdict": "minor",
+      "notes": "Findings and direction match; one small sample descriptor not verifiable from the abstract.",
+      "issues": [
+        {
+          "label": "Sample descriptor not in abstract",
+          "severity": "Minor",
+          "as_written": "Using a panel of Indian listed firms from 2006 to 2019",
+          "abstract_says": "On a sample of Indian firms over the 2006–2019 period",
+          "problem": "The abstract does not specify that the firms are listed. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"a sample of Indian firms from 2006 to 2019\" unless listing status is confirmed in the full text."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7201848118",
+      "headline": "Podcast hosts: hog the mic for good news, share it for bad",
+      "verdict": "minor",
+      "notes": "Numbers, mechanism and study mix all match; one unverifiable detail about participant type in the experiments.",
+      "issues": [
+        {
+          "label": "Participant type not specified",
+          "severity": "Minor",
+          "as_written": "Two of the three studies use artificial stimuli (transcripts and synthetic voices) with lab participants",
+          "abstract_says": "We test this framework across two controlled experiments using transcript-based stimuli (Study 1) and AI-generated voice stimuli (Study 2)",
+          "problem": "The abstract does not say the experiments used lab participants (they could be online panels). Unverifiable from abstract only.",
+          "suggested_fix": "Say \"with experimental participants\" or omit the recruitment descriptor."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7202169140",
+      "headline": "\"De-influencing\" hurts brands more than praise helps them — and does nothing for the influencer",
+      "verdict": "accurate",
+      "notes": "Study count, n=460, panel/student samples, mechanism, robustness checks and the honest-reviews limitation are all reported faithfully.",
+      "issues": []
+    },
+    {
+      "number": 15,
+      "work_id": "W7212195252",
+      "headline": "Text-heavy social ads get remembered — just not the brand behind them",
+      "verdict": "significant",
+      "notes": "Body text matches the abstract, but the headline reverses the ad-recall finding; also over-extends to \"more words\".",
+      "issues": [
+        {
+          "label": "Headline reverses the ad-recall finding",
+          "severity": "Moderate",
+          "as_written": "Text-heavy social ads get remembered — just not the brand behind them",
+          "abstract_says": "Two online experiments show that image-based ad creative outperforms text-based, gaining higher ad recall, and text-based ad creative reduce correct brand recall.",
+          "problem": "The study found text-based creative performed worse on ad recall as well as on correct brand recall; the headline implies text ads are well remembered as ads, which contradicts the abstract.",
+          "suggested_fix": "Rework to something like \"Image-led social ads are remembered better — text-led creative hurts brand recall\"."
+        },
+        {
+          "label": "Dose framing not tested",
+          "severity": "Minor",
+          "as_written": "The more words on the creative, the more likely that disconnect.",
+          "abstract_says": "The abstract contrasts text- vs. image-based ad creative; it reports no test of the amount of text.",
+          "problem": "Implies a dose-response relationship with word count that the abstract does not support.",
+          "suggested_fix": "Say \"text-led rather than image-led creative made that disconnect more likely\"."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7214105022",
+      "headline": "Half of #womenshealth Instagram posts come from someone with something to sell",
+      "verdict": "minor",
+      "notes": "All percentages match the abstract; the headline shifts a figure about account holders onto posts.",
+      "issues": [
+        {
+          "label": "Accounts vs posts in headline",
+          "severity": "Minor",
+          "as_written": "Half of #womenshealth Instagram posts come from someone with something to sell",
+          "abstract_says": "241 (51%) of account holders had a clear financial interest and 186 (39%) posts directly sold an intervention.",
+          "problem": "The 51% figure describes account holders, not posts; the share of posts that directly sold something was 39%.",
+          "suggested_fix": "Reword to \"Half of #womenshealth Instagram accounts have a financial interest\" (the body text already states this correctly)."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7204255947",
+      "headline": "Cute mascots should talk about warmth; cool ones should talk about performance",
+      "verdict": "accurate",
+      "notes": "Four experiments, matching effect, \"feeling right\" mechanism and missing sample details are all reported accurately.",
+      "issues": []
+    },
+    {
+      "number": 18,
+      "work_id": "W7204599802",
+      "headline": "When a clever visual metaphor confuses people, a line of explanation fixes it",
+      "verdict": "accurate",
+      "notes": "Study structure (Study 1, 2a–2c, 3), the three congruency manipulations, the fluency mediator and the remedy study all match.",
+      "issues": []
+    },
+    {
+      "number": 19,
+      "work_id": "W7171628015",
+      "headline": "Naming your rival works in America — and backfires in Europe",
+      "verdict": "significant",
+      "notes": "Design and sample sizes are correct, but the headline overstates a cross-national difference and Study 2's main finding is dropped.",
+      "issues": [
+        {
+          "label": "Headline overstates European result",
+          "severity": "Moderate",
+          "as_written": "Naming your rival works in America — and backfires in Europe",
+          "abstract_says": "Study 1 reveals a superiority of ICA over DCA with cross-national differences (US consumers embracing more CA compared to French and British consumers). ... Study 2 results show that DCA outperforms NCA",
+          "problem": "The abstract reports that US consumers were relatively more receptive, not that direct comparative advertising backfired in Europe — and in France and the UK direct comparative ads actually outperformed non-comparative ones.",
+          "suggested_fix": "Reframe as \"US consumers are more receptive to comparative ads than French or British consumers — but indirect comparison beat direct comparison overall\"."
+        },
+        {
+          "label": "Study 2 headline finding omitted",
+          "severity": "Moderate",
+          "as_written": "Study 2 (n=800, France and UK) pitted direct comparative against non-comparative ads. Indirect comparison generally beat direct comparison",
+          "abstract_says": "Study 2 results show that DCA outperforms NCA, and imagery processing yields a more positive response to DCA and NCA.",
+          "problem": "The digest describes Study 2's design but never reports its result — that direct comparative advertising outperformed non-comparative advertising in France and the UK — which cuts against the digest's framing.",
+          "suggested_fix": "Add that Study 2 found direct comparative ads outperformed non-comparative ads, with imagery processing producing more positive responses."
+        },
+        {
+          "label": "Non-student sample stated as fact",
+          "severity": "Minor",
+          "as_written": "Two between-subjects experiments with general-population consumers (not students)",
+          "abstract_says": "Calls for additional inquiry into comparative advertising (CA) using samples of populations beyond college students ... (n = 758 consumers)",
+          "problem": "The abstract motivates non-student sampling but only describes participants as \"consumers\"; the explicit \"(not students)\" claim is an inference.",
+          "suggested_fix": "Say \"two between-subjects experiments with consumer samples\"."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "work_id": "W7213527998",
+      "headline": "When people fear sliding down the ladder, 'wealth' advertising stops working — 'craftsmanship' doesn't",
+      "verdict": "accurate",
+      "notes": "Five studies, the identity mechanism, the economic/cultural capital contrast and the essentialist-beliefs moderator are all reported correctly.",
+      "issues": []
+    },
+    {
+      "number": 21,
+      "work_id": "W7202369464",
+      "headline": "During Black Friday-style sales blitzes, ad overload turns eager shoppers hostile",
+      "verdict": "significant",
+      "notes": "Design and three-way interaction reported correctly, but the digest repeatedly recasts the manipulated variable (perceived intrusiveness / 'low information' creative) as ad frequency or 'overload', and the headline asserts a direction for motivated shoppers that the abstract does not specify.",
+      "issues": [
+        {
+          "label": "Frequency substituted for intrusiveness",
+          "severity": "Moderate",
+          "as_written": "It suggests the peak-season strategy of maximizing ad frequency can suppress purchase intent precisely when shoppers are most fatigued, and that thin, information-poor creative is the worst offender.",
+          "abstract_says": "Study 2 demonstrates a significant three-way interaction effect on emotional reactance, involving perceived intrusiveness (experimentally manipulated as ORSE social media advertising intrusiveness), social media cognitive fatigue, and ORSE participation motivation. Additionally, the ‘low information’ intrusive stimulus had a significant conditional effect on emotional reactance, that reduces both ORSE and product-level purchase intentions",
+          "problem": "The experiments manipulated perceived intrusiveness and information level, not advertising frequency. Attributing the purchase-intention drop to 'maximizing ad frequency' — and then advising marketers to cap frequency — recommends action on a variable the study did not test.",
+          "suggested_fix": "Rewrite as 'ads perceived as intrusive — especially thin, information-poor creative — can suppress purchase intent among fatigued shoppers', and change the recommendation from 'capping frequency' to 'reducing perceived intrusiveness and raising information density'."
+        },
+        {
+          "label": "Headline direction not specified in abstract",
+          "severity": "Minor",
+          "as_written": "During Black Friday-style sales blitzes, ad overload turns eager shoppers hostile",
+          "abstract_says": "a significant three-way interaction effect on emotional reactance, involving perceived intrusiveness ..., social media cognitive fatigue, and ORSE participation motivation",
+          "problem": "The abstract reports an interaction without stating the direction for high-motivation shoppers, and never names Black Friday; the headline asserts both.",
+          "suggested_fix": "Soften to something like 'During online sales events, intrusive ads can trigger reactance — depending on fatigue and how keen the shopper is'."
+        },
+        {
+          "label": "Pilot study count",
+          "severity": "Minor",
+          "as_written": "two experimental studies (each preceded by pilots)",
+          "abstract_says": "Study 2 employs a between-group experimental design, comprising two pilot studies, which informed a subsequent main experiment ... Study 3 broadens the contribution of this research with a third pilot study and a main experiment",
+          "problem": "Study 2 had two pilots and Study 3 one; 'each preceded by pilots' is loose but not wrong.",
+          "suggested_fix": "State 'Study 2 with two pilots and Study 3 with a further pilot'."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "work_id": "W7202223869",
+      "headline": "Ads can make food taste better — but only if you can imagine the smell",
+      "verdict": "minor",
+      "notes": "Body text matches the abstract closely; the headline overstates the olfactory-imagery boundary condition, since Study 1 found a main effect and Study 3 replicated with visual imagery.",
+      "issues": [
+        {
+          "label": "Headline overstates smell-specific boundary",
+          "severity": "Minor",
+          "as_written": "Ads can make food taste better — but only if you can imagine the smell",
+          "abstract_says": "Study 1 established the main effect of multisensory messages by showing that they increase taste perception both with and without physical consumption. Study 2 revealed a significant interaction between message type and olfactory imagery ... Study 3 replicated this pattern with visual imagery",
+          "problem": "The headline implies scent imagery is the sole condition, but the abstract reports a main effect in Study 1 and an equivalent amplifying role for visual imagery in Study 3 — which the digest body correctly notes.",
+          "suggested_fix": "Change to 'but it works best when you can picture or smell it in your mind'."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "work_id": "W7213453650",
+      "headline": "Tourism marketers are quietly uneasy about the deepfake destination ads they're being asked to make",
+      "verdict": "minor",
+      "notes": "Method, sample (23 practitioners, South Korea), and themes are reported accurately; the headline adds an unsupported premise that practitioners are being instructed to produce deepfake ads.",
+      "issues": [
+        {
+          "label": "Unsupported premise in headline",
+          "severity": "Minor",
+          "as_written": "the deepfake destination ads they're being asked to make",
+          "abstract_says": "the purpose of this study is to explore how tourism marketing professionals experience and make sense of deepfake destination advertising ... Rather than passively adopting or rejecting the technology, they engaged in continuous moral boundary work",
+          "problem": "The abstract does not say practitioners were tasked or pressured to produce deepfake advertising; it describes their sense-making about the technology.",
+          "suggested_fix": "Reword to 'about deepfake destination advertising' or 'about the hyperreal ads the technology makes possible'."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "work_id": "W7213758328",
+      "headline": "Hiding the sponsorship backfires: platform data shows disclosed ads out-earn covert ones",
+      "verdict": "minor",
+      "notes": "Content types, tier moderation and the transparency premium are reported accurately, and the correlational caveat is present; 'out-earn' misdescribes an engagement outcome, and the mega-influencer advantage excluded shares.",
+      "issues": [
+        {
+          "label": "'Out-earn' implies revenue",
+          "severity": "Minor",
+          "as_written": "platform data shows disclosed ads out-earn covert ones",
+          "abstract_says": "disclosed sponsored content is associated with the strongest engagement across all five outcomes",
+          "problem": "The study measured engagement (views, likes, shares, comments, bookmarks), not earnings or sales; 'out-earn' suggests a financial outcome the data do not contain.",
+          "suggested_fix": "Use 'out-perform on engagement' rather than 'out-earn'."
+        },
+        {
+          "label": "Mega-influencer advantage scope",
+          "severity": "Minor",
+          "as_written": "The disclosure advantage was largest for mega influencers",
+          "abstract_says": "this disclosed-content advantage is especially strong for mega influencers on views, likes, comments, and bookmarks",
+          "problem": "The abstract limits the amplified disclosure advantage to four of the five metrics (shares excluded); the digest states it without qualification.",
+          "suggested_fix": "Add 'on four of the five metrics (all but shares)'."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "work_id": "W7203605245",
+      "headline": "Consumers preferred AI-made ads to human-made ones — at least for practical products",
+      "verdict": "minor",
+      "notes": "N, platform, mediator and product-type moderation all match the abstract; the claim that ads were 'labeled' as AI- or human-generated is an inference the abstract does not confirm.",
+      "issues": [
+        {
+          "label": "'Labelled as' source manipulation",
+          "severity": "Minor",
+          "as_written": "Two online experiments with 275 Prolific participants compared reactions to advertisements labeled as AI-generated versus human-generated.",
+          "abstract_says": "This study aims to investigate how consumers respond to advertisements generated by artificial intelligence (AI) versus those created by humans ... the advertising source influences attitudes through affective involvement",
+          "problem": "The abstract describes an advertising-source manipulation but does not specify that ads were merely labelled rather than actually produced by AI. Unverifiable from abstract only.",
+          "suggested_fix": "Say 'ads presented as AI-generated versus human-generated' and note that the abstract does not specify how source was conveyed."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "work_id": "W7203570653",
+      "headline": "Big influencers should endorse; small influencers should just sell",
+      "verdict": "accurate",
+      "notes": "Three experiments, N=632, the popularity x communication style interaction and the eWOM-intention outcome all match the abstract; caveats correctly flag unstated sample composition and intention-based measures.",
+      "issues": []
+    },
+    {
+      "number": 27,
+      "work_id": "W7171463384",
+      "headline": "When ads sneak past attention: personalization and message framing jointly decide what people remember",
+      "verdict": "accurate",
+      "notes": "Five experiments, the crossover pattern, both mediating pathways and the need-for-cognition moderator are reported faithfully; caveats correctly note unreported sample details and memory-only outcomes.",
+      "issues": []
+    },
+    {
+      "number": 28,
+      "work_id": "W7172220713",
+      "headline": "Guilt-based green ads only work when all three ingredients are present",
+      "verdict": "minor",
+      "notes": "Design (2x2x2, N=402) and both findings match the abstract; one story angle introduces reactance, a construct the abstract never measures.",
+      "issues": [
+        {
+          "label": "Reactance not studied",
+          "severity": "Minor",
+          "as_written": "moralizing copy without a clear \"this is on you\" and \"your action works\" component may be a wasted spend and risks reactance",
+          "abstract_says": "when the morality component was present, it was critical to also present the responsibility component in order to elicit guilt. Moreover, the presence of all three message components was critical in improving positive attitudes toward green advertisements.",
+          "problem": "The experiment measured guilt and ad attitudes; reactance was not assessed, so the risk of reactance is an added inference presented alongside the study's findings.",
+          "suggested_fix": "Drop 'and risks reactance' or mark it explicitly as speculation beyond this study."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 28,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7204147563": {
+        "query": "Coke Christmas drew 800 comments anger wasn mostly about visuals",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212164169": {
+        "query": "Advertising before people download app keeps them using afterward",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202096496": {
+        "query": "Green claims work better brands aren already green evidence cite",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214082546": {
+        "query": "Search ads help national chains social ads help local ones",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213402036": {
+        "query": "Pairing virtual influencer human one works but only keeps its",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204491303": {
+        "query": "Eight brands switched off their branded search ads Sales didn",
+        "returned": 17,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214238772": {
+        "query": "Buy now Just meta analysis finds bossy copy backfires most",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204247420": {
+        "query": "actually makes mobile ads work usefulness wins irritation kills peer",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212116218": {
+        "query": "cameo gamble second celebrity only helps they famous first one",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214117679": {
+        "query": "Pet influencers viewers want cat not owner definitely not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214074450": {
+        "query": "Older consumers don reject made ads they reject unrealistic ones",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212229180": {
+        "query": "family firms miss their targets they cut ads spend CSR",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7201848118": {
+        "query": "Podcast hosts hog mic good news share bad",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202169140": {
+        "query": "influencing hurts brands than praise helps them does nothing influencer",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212195252": {
+        "query": "Text heavy social ads get remembered just not brand behind",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214105022": {
+        "query": "Half womenshealth Instagram posts come someone something sell",
+        "returned": 1,
+        "outlets": [
+          "The Conversation"
+        ],
+        "articles": [
+          {
+            "title": "Looking for #womenshealth information on Instagram? 4 out of 10 posts are ads",
+            "outlet": "The Conversation",
+            "link": "https://theconversation.com/looking-for-womenshealth-information-on-instagram-4-out-of-10-posts-are-ads-291464"
+          }
+        ],
+        "state": "lightly_reported"
+      },
+      "W7204255947": {
+        "query": "Cute mascots should talk about warmth cool ones should talk",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204599802": {
+        "query": "clever visual metaphor confuses people line explanation fixes",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7171628015": {
+        "query": "Naming rival works America backfires Europe",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213527998": {
+        "query": "people fear sliding down ladder wealth advertising stops working craftsmanship",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202369464": {
+        "query": "During Black Friday style sales blitzes overload turns eager shoppers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202223869": {
+        "query": "Ads make food taste better but only imagine smell",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213453650": {
+        "query": "Tourism marketers quietly uneasy about deepfake destination ads they being",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213758328": {
+        "query": "Hiding sponsorship backfires platform data shows disclosed ads out earn",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203605245": {
+        "query": "Consumers preferred made ads human made ones least practical products",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203570653": {
+        "query": "Big influencers should endorse small influencers should just sell",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7171463384": {
+        "query": "ads sneak past attention personalization message framing jointly decide people",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7172220713": {
+        "query": "Guilt based green ads only work all three ingredients present",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** Five studies in this batch, taken together, dismantle the assumption that consumers simply hate machine-made advertising. Backlash to Coca-Cola's AI holiday remake was driven by moral inferences about labor and corporate values rather than visual flaws (\"Coke's AI Christmas ad drew 7,800 comments,\" W7204147563); Australians over 65 objected to implausible depictions rather than to AI disclosure itself (W7214074450); Prolific participants actually rated ads labeled AI-generated more favorably for utilitarian products (W7203605245); virtual influencers helped sales pitches built on sight and sound but hurt ones built on touch and taste (W7213402036); and tourism marketers making hyperreal destination ads are improvising their own ethical rules in the absence of standards (W7213453650). The common thread: audiences are policing plausibility and intent, not authorship — and the people producing synthetic creative know the rules haven't been written.\n\n**Why pitch this now:** AI disclosure labels are arriving through platform policy and regulation just as brands plan another round of AI-assisted holiday campaigns, and the industry's working assumption — that labeling is a liability and better rendering is the fix — looks empirically wrong in both directions.\n\n**Angle:** A reported feature on what consumers actually punish in AI advertising, built around the gap between how brands think disclosure works and how audiences reason about it, aimed at marketing and creative leadership plus the general readers who spent last December arguing about a Coke ad.\n\n**Potential headlines:**\n- Consumers aren't rejecting AI ads — they're rejecting what the ads imply about the company\n- The AI label that made people like the ad more\n- Your holiday campaign will be judged on who you replaced, not how it looks\n\n**Potential outlets:**\n- **Marketing Brew** — has an appetite for \"the received wisdom is backwards\" findings framed for planners heading into holiday campaign cycles.\n- **The Drum** — actively covers the creative industry's AI labor and ethics fight, which is the moral-inference core of the Coke finding.\n- **Fast Company** — runs consumer-facing AI-and-culture reporting where the disclosure-versus-plausibility distinction would land with non-marketers.\n- **MIT Sloan Management Review** — a natural home for the governance framing: writing internal synthetic-imagery standards before a credibility incident writes them for you.",
+    "pitch_ideas": "- **Coke's AI Christmas ad drew 7,800 comments (Work ID W7204147563):** Turn the three-layer backlash model into a pre-launch risk audit brands can actually run on AI creative, for a CMO-audience column or brand-strategy trade feature.\n- **Advertising before people download your app keeps them using it afterward (Work ID W7212164169):** Acquisition creative is doing unpaid retention work, so the install/re-engagement budget split may be mismeasured, for a performance-marketing or retail-tech trade explainer.\n- **Green claims work better for brands that aren't already green (Work ID W7202096496):** Meta-analytic evidence that eco-brands get diminishing returns from proof-heavy claims while conventional brands get the most lift, for a sustainability-communications column.\n- **Search ads help the national chains; social ads help the local ones (Work ID W7214082546):** Platform choice as a structural force on neighborhood foot traffic — a challenger-brand playbook with an antitrust subplot, for a retail trade explainer or small-business business-section piece.\n- **Pairing a virtual influencer with a human one (Work ID W7213402036):** Synthetic endorsers can sell what you look at but not what you taste or touch, for an influencer-marketing trade news brief.\n- **Eight brands switched off their branded search ads (Work ID W7204491303):** A \"run this holdout test before your next budget cycle\" news story on one of digital's biggest and least-questioned line items, for an ecommerce/performance-marketing trade or a CFO-facing business column.\n- **Meta-analysis finds bossy ad copy backfires (Work ID W7214238772):** Nonprofits pay the steepest reactance tax for the imperative language they use most, for a fundraising or PR trade piece, with a consumer-psychology sidebar on reactance.\n- **What actually makes mobile ads work (Work ID W7204247420):** Irritation metrics as a leading performance indicator, and the death of the \"everyone else likes it\" social-proof appeal on mobile, for a mobile/adtech trade explainer.\n- **The cameo gamble (Work ID W7212116218):** Relative fame, not fit or fee, decides whether a second celebrity refreshes or cheapens a long-running campaign, for an ad-trade news brief timed to awards or big-game casting season.\n- **Pet influencers: viewers want the cat, not the owner (Work ID W7214117679):** The human-influencer playbook of personal storytelling actively backfires in the fast-growing pet-creator niche, for a creator-economy trade piece.\n- **Older consumers don't reject AI-made ads (Work ID W7214074450):** Disclosure policy should vary by category, with high-stakes service advertising needing visible human presence, for a services-marketing column or an aging-consumer feature in a general-interest outlet.\n- **When family firms miss their targets, they cut ads (Work ID W7212229180):** Governance predicts whose ad budget disappears first in a bad year — useful forecasting for agencies and media sellers in emerging markets, for a business or agency trade piece.\n- **Podcast hosts: hog the mic for good news, share it for bad (Work ID W7201848118):** Media buyers could score podcast inventory on speaker balance alongside downloads, for an audio/media-business trade explainer.\n- **\"De-influencing\" hurts brands more than praise helps (Work ID W7202169140):** The asymmetry quantified — and the awkward finding that creators get no credit for the takedown, for a brand-reputation or creator-economy trade piece.\n- **Text-heavy social ads get remembered — just not the brand (Work ID W7212195252):** Text overlays may be buying recall while destroying attribution, for a creative-effectiveness news brief with an A/B test prescription.\n- **Half of #womenshealth Instagram posts come from someone with something to sell (Work ID W7214105022):** Hard numbers on commercial capture of menopause and fertility content — 69% making claims, 7% citing evidence, for a general-interest health or women's-interest feature, plus a compliance brief for wellness brands.\n- **Cute mascots should talk about warmth (Work ID W7204255947):** Character design constrains which claims a brand can credibly make, for a brand-design or creative-strategy trade column.\n- **When a clever visual metaphor confuses people (Work ID W7204599802):** A cheap fix for award-bait creative — one explanatory line restores comprehension and brand attitudes, for a creative-effectiveness column.\n- **Naming your rival works in America — and backfires in Europe (Work ID W7171628015):** Comparative advertising doesn't travel, and it may not survive 4-second skippable formats at all, for a global brand-management column.\n- **When people fear sliding down the ladder (Work ID W7213527998):** Wealth-coded luxury cues repel economically anxious consumers while craft-coded ones hold, for a luxury-marketing trade piece or a consumer-culture/personal-finance feature.\n- **During Black Friday-style sales blitzes, ad overload turns eager shoppers hostile (Work ID W7202369464):** Frequency capping and information density as peak-season strategy, timed to the run-up to holiday sales events, for a retail trade explainer.\n- **Ads can make food taste better (Work ID W7202223869):** Copy that invites you to imagine the smell beats copy that just describes it, for a food/delivery trade piece or a consumer-psychology explainer in a general-interest outlet.\n- **Tourism marketers are quietly uneasy about deepfake destination ads (Work ID W7213453650):** The practitioners making synthetic destination imagery are writing their own ethics in the absence of rules, for a travel trade feature or a media-ethics piece.\n- **Hiding the sponsorship backfires (Work ID W7213758328):** Disclosure as engagement asset rather than compliance cost, with mega-influencers punished hardest for hiding it, for an influencer-marketing trade brief.\n- **Consumers preferred AI-made ads to human-made ones (Work ID W7203605245):** A clean counterintuitive news item with a boundary condition — the AI penalty shows up in hedonic categories, not functional ones, for a marketing-trade news brief.\n- **Big influencers should endorse; small influencers should just sell (Work ID W7203570653):** Stop handing the same brief to mega and micro creators, for an influencer-marketing trade brief.\n- **When ads sneak past attention (Work ID W7171463384):** Match copy framing to how personalized the placement feels — near-term on targeted feeds, long-term on broad inventory, for a media-planning trade explainer.\n- **Guilt-based green ads only work when all three ingredients are present (Work ID W7172220713):** Moral shaming without responsibility and efficacy is wasted spend, for a sustainability-communications or cause-campaign column."
+  }
+}
