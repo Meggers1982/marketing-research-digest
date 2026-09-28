@@ -20,6 +20,16 @@
         "state": "unreported"
       }
     },
+    "W4400488941": {
+      "checked_at": "2026-09-28T15:58:48.536286+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "wrote code Then bottleneck moved humans reviewing",
+        "returned": 19,
+        "state": "unreported"
+      }
+    },
     "W4416014100": {
       "checked_at": "2026-09-14T16:55:57.165170+00:00",
       "result": {
@@ -270,6 +280,16 @@
         "state": "unreported"
       }
     },
+    "W7201971570": {
+      "checked_at": "2026-09-28T15:59:13.347003+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Employees trust their boss lets them complain about",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7202032785": {
       "checked_at": "2026-09-15T13:01:44.177390+00:00",
       "result": {
@@ -435,6 +455,16 @@
         "outlets": [],
         "query": "Attacking own side candidates run ads bashing their own party",
         "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7203665707": {
+      "checked_at": "2026-09-28T15:58:56.358061+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Chatbots flatter brag about themselves get reveal",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -742,6 +772,16 @@
         "state": "unreported"
       }
     },
+    "W7204661745": {
+      "checked_at": "2026-09-28T15:59:06.085953+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "People pick female assistants default until point out bias",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7204740815": {
       "checked_at": "2026-09-18T12:31:31.178595+00:00",
       "result": {
@@ -952,6 +992,16 @@
         "state": "unreported"
       }
     },
+    "W7210288362": {
+      "checked_at": "2026-09-28T15:58:24.555441+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "000 product test first item people saw shaped they wanted",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7211878886": {
       "checked_at": "2026-09-17T12:52:44.583022+00:00",
       "result": {
@@ -999,6 +1049,16 @@
         "outlets": [],
         "query": "community helps save end trapping",
         "returned": 11,
+        "state": "unreported"
+      }
+    },
+    "W7211986357": {
+      "checked_at": "2026-09-28T15:58:18.510683+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "chatbots now out score humans textbook marketing knowledge",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1208,6 +1268,16 @@
         "articles": [],
         "outlets": [],
         "query": "Serve spicy food angular plate shape taste matching lifts diners",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213237840": {
+      "checked_at": "2026-09-28T15:59:00.371914+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Adding imagine yours cues sponsored posts beat pumping offer",
         "returned": 0,
         "state": "unreported"
       }
@@ -1450,6 +1520,36 @@
         "state": "unreported"
       }
     },
+    "W7213972128": {
+      "checked_at": "2026-09-28T15:58:32.417819+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "People lie their resumes they think machine reading them",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
+    "W7214017195": {
+      "checked_at": "2026-09-28T15:58:43.215233+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Designed cuts both ways fashion which way depends brand",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214067855": {
+      "checked_at": "2026-09-28T15:58:13.460595+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Give voice assistant accent people warm",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214074450": {
       "checked_at": "2026-09-25T13:05:15.713635+00:00",
       "result": {
@@ -1508,6 +1608,16 @@
         "state": "unreported"
       }
     },
+    "W7214221690": {
+      "checked_at": "2026-09-28T15:58:36.494852+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "China RED recommendation algorithm didn move buyers influencer expertise user",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214238772": {
       "checked_at": "2026-09-25T13:04:58.152802+00:00",
       "result": {
@@ -1515,6 +1625,46 @@
         "outlets": [],
         "query": "Buy now Just meta analysis finds bossy copy backfires most",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214279921": {
+      "checked_at": "2026-09-28T15:58:30.087901+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Silicon respondents aren interchangeable pick decides whether synthetic survey data",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214342499": {
+      "checked_at": "2026-09-28T15:58:40.462332+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "privacy disclosure paradox telling people use their location backfire",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214431211": {
+      "checked_at": "2026-09-28T15:58:47.353954+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Treated badly human Consumers start preferring bot",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214553827": {
+      "checked_at": "2026-09-28T15:58:51.084358+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Food delivery apps pulling people away restaurants their own street",
+        "returned": 4,
         "state": "unreported"
       }
     }

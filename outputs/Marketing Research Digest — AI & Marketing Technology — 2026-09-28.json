@@ -1,0 +1,620 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-28",
+  "days_back": 60,
+  "window_from": "2026-07-30",
+  "window_to": "2026-09-28",
+  "focus": "AI & Marketing Technology",
+  "topic": "ai & marketing technology",
+  "query": "\"artificial intelligence\" OR \"generative AI\" OR chatbot OR ChatGPT OR \"large language model\" OR algorithm OR \"machine learning\" OR robot OR \"voice assistant\" OR personalization",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 507,
+    "not_research": 15,
+    "no_abstract": 115,
+    "off_topic": 76,
+    "already_covered": 41,
+    "over_journal_cap": 17,
+    "over_cap": 203,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7214067855",
+      "headline": "Give your voice assistant an accent and people warm to it",
+      "the_study": "Across a series of experiments spanning multiple accents, languages, speaker genders and service contexts, researchers tested how users respond to voicebots that speak with a non-standard accent versus \"standard\" pronunciation. Accented voicebots made the idea of human diversity salient, which led users to anthropomorphize them more readily — and that translated into stronger preference for the accented bot in customer service, more support for startups using accented bots, higher willingness to pay for a monthly subscription, and greater likelihood of opting in to future updates. The effect disappeared when other cues overrode the humanizing inference or when seeming human was undesirable to the user.",
+      "why_it_matters": "Firms spend heavily engineering \"neutral\" synthetic voices to avoid alienating customers, yet this evidence suggests the neutrality itself may be costing them engagement and willingness to pay.",
+      "story_angle_primary": "Voice design is a testable lever, not a settled default: brands running IVR, in-app assistants or AI phone agents could A/B test accented voices against their standard build on opt-in rates and subscription conversion — while watching for the boundary conditions the authors flag, where humanizing the bot backfires (for example, tasks where customers want a machine, not a person).",
+      "story_angle_secondary": "It's a counterpoint to decades of broadcast and call-center accent-flattening: hearing a voice that sounds like it came from somewhere, rather than nowhere, seems to make people treat a machine more like a person — and like it more.",
+      "caveats": "Experimental studies with recruited participants rather than live customer traffic; willingness to pay and opt-in are mostly stated responses in controlled settings; abstract does not report sample sizes or countries, so generalization to specific accent-market pairings is unproven.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-09-23",
+      "doi": "10.1177/00222437261494934",
+      "paper_title": "EXPRESS: The Humanizing Power of Accents in Voicebots: When Accent-Based Humanization Increases User Engagement",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7211986357",
+      "headline": "AI chatbots now out-score humans on textbook marketing knowledge",
+      "the_study": "Researchers built a dataset of more than 30,000 questions drawn from instructor materials for 25 widely used marketing textbooks and tested leading large language models on domain knowledge, reasoning and user interaction. Models scored 84%–94% accuracy with near-complete topic coverage, weakened on higher-order reasoning tasks (though newer reasoning models largely closed that gap), and in a human benchmarking study substantially outperformed every group of human respondents sampled. Manipulations of the questions indicated the performance was not simple memorization of the test items.",
+      "why_it_matters": "Foundational marketing knowledge — segmentation frameworks, pricing models, consumer behavior theory — has effectively become a free, on-demand utility, which changes what a junior marketer is for and what a training program should teach.",
+      "story_angle_primary": "Stop treating an LLM as a writing tool and start stress-testing it as a knowledge layer: where in your organization are people paid mainly to recall frameworks, and where does the study's weak spot — higher-order reasoning and judgment — mean a human still has to own the call? The authors found humans and models had complementary strengths, which argues for designed handoffs rather than wholesale replacement.",
+      "story_angle_secondary": "For anyone considering a marketing degree or certificate, the price of the textbook knowledge inside it has collapsed; the scarce skill is deciding which framework applies to your messy situation.",
+      "caveats": "Performance is measured on textbook exam questions, which is not the same as making profitable decisions in a real market; human benchmark groups and their sizes are not specified in the abstract; LLM capability results date quickly as models are updated.",
+      "journal": "International Journal of Research in Marketing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.ijresmar.2026.09.006",
+      "paper_title": "Assessing Artificial Marketing Intelligence",
+      "source_id": "S11810700"
+    },
+    {
+      "work_id": "W7210288362",
+      "headline": "In a 50,000-product test, the first item people saw shaped what they wanted next",
+      "the_study": "The authors developed BRIDGE, a method that uses generative AI embeddings to let experiments use thousands of real, unedited product descriptions instead of a handful of researcher-written stimuli, with statistical controls for irrelevant textual variation. They validated it with Monte Carlo simulations, two coffee certification experiments, and a large choice experiment in which 1,000 participants evaluated roughly 50,000 unique product descriptions randomly drawn from a corpus of nearly 120,000. A substantive result: entirely incidental initial products — ones with no logical bearing on the decision — shaped participants' subsequent preferences.",
+      "why_it_matters": "It both documents a real anchoring effect at unusual scale and offers brands and research teams a way to test messaging against thousands of real-world descriptions rather than a few sanitized mock-ups.",
+      "story_angle_primary": "Two things to act on: audit what shoppers happen to see first in your category pages, ad sequences and recommendation feeds, because incidental exposure appears to move later preferences; and ask your insights team whether concept tests built on three tidy stimuli can survive contact with the messy copy real listings use.",
+      "story_angle_secondary": "Your \"taste\" in a product category may be partly an accident of which listing loaded first — a reminder that browsing order is not neutral.",
+      "caveats": "Primarily a methods paper; participants evaluated product descriptions in an online choice task rather than making real purchases; single category focus in the validation experiments and no information on participant nationality or panel source in the abstract.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-09-06",
+      "doi": "10.1177/00222437261484068",
+      "paper_title": "EXPRESS: Behavioral Research Through Interpretable, Dimensionality-reduced Generative AI Embeddings (BRIDGE): A Method to Incorporate Real-World Stimuli in Consumer Experiments",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7214279921",
+      "headline": "\"Silicon respondents\" aren't interchangeable: the AI you pick decides whether your synthetic survey data is usable",
+      "the_study": "Across four studies, researchers benchmarked AI-generated \"silicon samples\" — synthetic survey respondents used as stand-ins for real market research participants — against actual human response data, comparing two architectures: mainstream generative AI models and a neuro-symbolic AI system. The generative models produced systematic distributional distortions: demographic bias, compressed variability (too few extreme or unusual answers), and response patterns that diverged from humans, and enriching them with statistical data did not fix it. The neuro-symbolic system tracked human benchmarks substantially more closely across the tasks tested.",
+      "why_it_matters": "Agencies and insights teams are already pitching LLM-simulated respondents as a cheap replacement for panels; this evidence says the fidelity of that data depends heavily on the underlying architecture and the specific task, not on \"AI\" in general.",
+      "story_angle_primary": "If your team is piloting synthetic respondents, the testable question isn't \"can AI replace panelists\" but \"which model, for which question, validated against what human benchmark\" — the study suggests building a validation protocol with real human data before any synthetic sample informs a decision, and watching specifically for compressed variance, which would make concept tests look artificially consensual.",
+      "story_angle_secondary": "The surveys shaping products and ads may increasingly be answered by machines rather than people — and this research shows those machine \"consumers\" tend to flatten out the disagreement and oddity that makes real populations real.",
+      "caveats": "Benchmarking study rather than a field test of business decisions; results are tied to the specific models and tasks evaluated, and AI models change quickly; \"closer to human benchmarks\" is not the same as validated accuracy for any given research application.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-09-25",
+      "doi": "10.1002/mar.70272",
+      "paper_title": "Which AI? A Comparative Evaluation of Generative AI and Neuro‐Symbolic AI for Silicon Sampling",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7213972128",
+      "headline": "People lie more on their resumes when they think a machine is reading them",
+      "the_study": "Four experiments tested how entry-level job seekers behave when told their resume would be screened by AI versus by a human, across common forms of resume deception such as inflating experience. Participants consistently judged AI as worse at catching lies — and that perception translated into more deceptive reporting under AI screening. Two fixes worked: telling applicants the AI learns and improves, and telling them a human reviews the AI's output; both raised perceived detectability and cut deceptive intentions.",
+      "why_it_matters": "Automated screening is sold on efficiency, but if candidates believe the gatekeeper is fooled easily, the applicant pool degrades in quality — and the same logic plausibly extends to any AI-monitored disclosure, from insurance claims to platform seller listings.",
+      "story_angle_primary": "Whatever your organization automates in evaluation or verification, how the automation is described to the person being evaluated may change their honesty; the study points to a cheap, testable intervention — publicly signaling human-in-the-loop review and machine learning capability — and to a broader brand-trust question about how AI gatekeepers are communicated.",
+      "story_angle_secondary": "Most people assume algorithms are harder to fool than humans. This research suggests the opposite belief is widespread — and that the belief itself quietly shifts behavior, which is a reminder that \"an AI is checking this\" is a weaker deterrent than companies think.",
+      "caveats": "Experimental studies of deceptive intentions and reported behavior rather than observed hiring outcomes; likely online/panel or student participants; sample sizes and country not specified in the abstract; single domain (entry-level resume screening).",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-22",
+      "doi": "10.1016/j.jbusres.2026.116556",
+      "paper_title": "Deception and detection: The impact of artificial intelligence (AI)-based resume screening on entry-level job seekers’ deceptive behaviors",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7214221690",
+      "headline": "On China's RED, the recommendation algorithm didn't move buyers — influencer expertise and user-made content did",
+      "the_study": "A survey of 259 users of RED (Xiaohongshu), China's content-community commerce platform, modeled how four stimuli — user-platform interaction, algorithmic recommendation, key opinion leader expertise, and content co-creation — feed into a sense of \"social presence\" and then into purchase intention and reported purchase behavior. KOL expertise and content co-creation significantly raised social presence; algorithmic recommendation and platform interaction did not. Social presence in turn predicted intention and reported buying, and the pattern fit a gradual, trust-building path rather than impulse buying.",
+      "why_it_matters": "It suggests that on community-driven commerce platforms, algorithmic reach alone may not convert — the persuasive work is done by credible people and content that shoppers help create.",
+      "story_angle_primary": "Worth testing in your own funnel: whether spend shifted from algorithmic placement toward genuine creator expertise and user-generated content programs changes conversion on community platforms, and whether your social commerce metrics are measuring exposure (which the algorithm delivers) rather than the perceived human presence that appears to do the persuading.",
+      "story_angle_secondary": "If you've noticed that a feed full of recommended products leaves you cold while one detailed post from someone who clearly knows the category sends you to checkout, this study describes exactly that asymmetry — and frames community shopping as slow accumulation of trust, not impulse.",
+      "caveats": "Cross-sectional self-report survey (N=259) — cannot establish causation; purchase behavior is self-reported, not observed; single platform in a single country; results rest on structural equation model paths.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-24",
+      "doi": "10.1108/apjml-04-2026-0771",
+      "paper_title": "Beyond algorithmic push: how content co-creation and KOL expertise drive purchases in social commerce",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7214342499",
+      "headline": "The privacy disclosure paradox: telling people how you use their location can backfire",
+      "the_study": "Researchers combined two online experiments with a field experiment to test how the precision of location-based ad targeting and the presence of an information-use transparency disclosure affected both stated click intentions and real click behavior. More specific location targeting raised perceived personalization and actually lifted clicks, because consumers weighed personal relevance against privacy intrusiveness. But transparency was not universally helpful: disclosures reduced privacy-driven avoidance when targeting was vague, yet heightened privacy concerns when the targeting was already very precise and the disclosure made the data use salient.",
+      "why_it_matters": "Privacy disclosures are often treated as a blanket best practice or compliance checkbox; this evidence suggests they interact with targeting precision and can suppress engagement exactly where targeting is sharpest.",
+      "story_angle_primary": "Advertisers could test calibrating disclosure language against targeting specificity rather than applying one standard notice across all campaigns — and watch for the tipping point where hyper-local targeting plus explicit data-use messaging starts eroding clicks instead of building trust.",
+      "story_angle_secondary": "For consumers, this helps explain an odd experience: the ads that feel most relevant are also the ones most likely to feel creepy, and whether a privacy notice reassures you or unsettles you depends on how much the ad already seems to know.",
+      "caveats": "Two of the three studies are online experiments measuring click intentions; the field experiment provides behavioral validation but details of platform, category and geography are limited, and click-through is a narrow outcome that says nothing about downstream sales.",
+      "journal": "Journal of Advertising Research",
+      "published": "2026-09-25",
+      "doi": "10.1080/00218499.2026.2709216",
+      "paper_title": "How Information-Use Transparency Affects the Effectiveness of Location Targeting: When Privacy Disclosures Help and When They Backfire",
+      "source_id": "S61992289"
+    },
+    {
+      "work_id": "W7214017195",
+      "headline": "\"Designed by AI\" cuts both ways in fashion — and which way depends on your brand",
+      "the_study": "In a 2x2 between-subjects experiment with 412 consumers, researchers attributed fashion designs either to AI or to a human designer, for either an avant-garde or a mainstream brand. AI attribution simultaneously triggered two opposing perceptions: that the designs were more homogeneous (bad) and more trend-relevant (good), both channeled through perceived manipulative intent, which was stronger for AI than for human designs. Brand positioning split the effect: the homogeneity penalty hit avant-garde brands hardest, while the trend-relevance benefit accrued mainly to mainstream brands.",
+      "why_it_matters": "It suggests there is no single answer to whether disclosing AI in product design helps or hurts — the same disclosure can raise or lower brand sincerity and purchase intention depending on what the brand stands for.",
+      "story_angle_primary": "Brands weighing how loudly to talk about generative design should consider testing positioning-matched messaging: emphasizing human–AI collaboration where distinctiveness is the promise, and trend-sensing speed where mainstream relevance is the promise — and framing AI as value-creating rather than cost-cutting, since perceived manipulative intent is the mechanism doing the damage.",
+      "story_angle_secondary": "For shoppers, the study names a suspicion many already have: when a label says AI helped design a garment, part of the brain reads \"on-trend\" and part reads \"everyone will be wearing this.\"",
+      "caveats": "Single online experiment with 412 participants across four cells, using design stimuli and stated purchase intentions rather than real purchases; one category (fashion) and no long-term brand outcomes.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-09-23",
+      "doi": "10.1016/j.jretconser.2026.105118",
+      "paper_title": "When does AI design help or hurt? Brand positioning and the dual effects of homogeneity and trend relevance in fashion retailing",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7214431211",
+      "headline": "Treated badly by a human? Consumers start preferring the bot",
+      "the_study": "Across three studies — an autobiographical recall task, an experiment manipulating a discriminatory service encounter, and a 2x2 between-subjects experiment — researchers tested how being treated in a discriminatory way by a human service employee shapes subsequent choice of service provider. Perceived discrimination consistently increased preference for AI-based service, working through two routes: reduced social comfort with human providers and a heightened sense that AI is more ethical. Cultural tightness reliably strengthened the social-comfort route.",
+      "why_it_matters": "It reframes chatbot and self-service adoption as partly a response to social risk rather than just convenience or cost, which has implications for where firms deploy automation and what it signals about their frontline.",
+      "story_angle_primary": "Service leaders could examine whether AI channel usage clusters among customer segments most exposed to poor or biased treatment — and treat that as a diagnostic on human frontline behavior, not merely a win for automation efficiency.",
+      "story_angle_secondary": "For consumers, it captures a familiar calculation: sometimes the machine is chosen because it cannot judge you, and the appeal of a chatbot is the absence of a person's reaction.",
+      "caveats": "Experimental scenarios and recall tasks rather than observed channel switching; preferences are stated, not behavioral; sample sizes and countries are not specified in the abstract, and the cultural-tightness moderation was inconsistent across the AI-ethicality pathway.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-09-26",
+      "doi": "10.1108/jsm-11-2025-0848",
+      "paper_title": "From bias to bots: discrimination and AI service preference",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W4400488941",
+      "headline": "AI wrote more code. Then the bottleneck moved to the humans reviewing it.",
+      "the_study": "Researchers combined GitHub's proprietary Copilot usage data with public open-source project data to estimate what happens to collaborative software development when an AI pair programmer enters the workflow. Copilot raised project-level code contributions on two fronts: more developers participated, and each contributed more code. But the same projects saw coordination, review and integration times lengthen, and the gains skewed toward core contributors, while code from occasional peripheral developers took relatively more coordination effort to absorb.",
+      "why_it_matters": "It is one of the first large-scale looks at generative AI inside real production teams, and it shows that the return on AI is capped not by how fast work gets generated but by how fast an organization can review and integrate it.",
+      "story_angle_primary": "Any function deploying generative AI — content, creative, code, campaign ops — should instrument the review and approval stage before celebrating output volume. The study suggests the constraint migrates downstream, so measure throughput of finished, integrated work rather than drafts produced, and budget for reviewer capacity as part of the AI business case.",
+      "story_angle_secondary": "The familiar promise that AI makes everyone equally productive doesn't hold up here: the people already deepest in a project captured the most benefit, while casual contributors created extra work for others. It's a concrete picture of how AI can widen gaps between insiders and newcomers.",
+      "caveats": "Observational data from a single platform (GitHub) in open-source software, not a randomized experiment; uses GitHub's proprietary Copilot usage data, so an industry data dependency applies; findings may not transfer to commercial teams or non-coding work.",
+      "journal": "Information Systems Research",
+      "published": "2026-08-24",
+      "doi": "10.1287/isre.2024.1361",
+      "paper_title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+      "source_id": "S202812398"
+    },
+    {
+      "work_id": "W7214553827",
+      "headline": "Food delivery apps are pulling people away from the restaurants on their own street — especially in lower-income neighborhoods",
+      "the_study": "Using location-based service data from 6,213 residential communities and more than 50 million dining and shopping visit records in Shenzhen, China, researchers measured what share of each neighborhood's visits went to retailers within walking distance. Greater availability of food delivery and instant retail was consistently linked to fewer visits staying local, with the delivery effect generally stronger in lower-income communities. Dense clusters of restaurants and shopping malls appeared to buffer the effect, and traditional markets kept shopping local across all income groups, most strongly at the lower end.",
+      "why_it_matters": "It puts hard behavioral numbers on a question retailers and landlords have been guessing at: delivery platforms don't just add convenience, they measurably redistribute foot traffic away from neighborhood catchments unless local retail is dense enough to hold it.",
+      "story_angle_primary": "For location strategy and commercial real estate, agglomeration is the defense against platform leakage — an isolated storefront in a delivery-saturated area is far more exposed than the same store inside a dense cluster. Retailers should be modeling platform penetration alongside traditional catchment metrics when signing leases, and testing whether ratings-driven visibility (which mattered most in higher-income areas) or format (markets, in lower-income areas) is the right local pull lever.",
+      "story_angle_secondary": "The apps on your phone are quietly rewriting which shops in your neighborhood survive, and the effect is strongest where people have less money — the convenience that feels individual adds up to an economic shift on your street.",
+      "caveats": "Single city (Shenzhen, China) and observational data — the associations are correlational, not causal, despite the spatial-error modeling; results may not transfer to Western markets with different delivery penetration and urban density.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-09-27",
+      "doi": "10.1016/j.jretconser.2026.105121",
+      "paper_title": "Do digital platforms delocalise consumer activity? Platform services, retail agglomeration and the localisation of neighbourhood dining and shopping",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7203665707",
+      "headline": "Chatbots that flatter you — or brag about themselves — get you to reveal more",
+      "the_study": "Across a series of experiments using simulated conversations with custom-built AI conversational agents, researchers tested whether chatbots that deploy classic human impression-management tactics get consumers to volunteer more personal information. Agents using either ingratiation (\"charmers\") or self-promotion (\"mavens\") elicited more self-disclosure than neutral agents, with perceived responsiveness and trust in the agent explaining the effect. The tactic mattered by context: flattery worked better in hedonic settings, self-promotion in utilitarian ones.",
+      "why_it_matters": "As third-party data access tightens, voluntarily disclosed information becomes the scarce asset — and this suggests conversational design choices, not just data infrastructure, determine how much consumers hand over.",
+      "story_angle_primary": "Brands building conversational agents should treat persona as a data-collection variable and A/B test warmth versus competence framing by use case — but also treat this as an ethics review trigger, because a design that measurably increases disclosure through trust cues invites regulatory and reputational scrutiny under privacy regimes.",
+      "story_angle_secondary": "If a chatbot compliments you or talks up its own expertise, that may be a deliberate design choice aimed at getting you to share more than you planned. Knowing the tactic exists is the cheapest defense against it.",
+      "caveats": "Simulated conversations with purpose-built agents rather than live commercial AI; authors note it cannot replicate long-term consumer-brand relationships; sample composition and size not specified in the abstract; disclosure measured partly as intention alongside observed behavior.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-08-18",
+      "doi": "10.1108/ejm-11-2025-0973",
+      "paper_title": "Confiding in a maven or a charmer? Impression management behavior of artificially intelligent conversational agents and consumer self-disclosure",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7213237840",
+      "headline": "Adding \"imagine it's yours\" cues to sponsored posts beat pumping up the offer",
+      "the_study": "A between-subjects experiment with 464 participants tested sponsored social media posts for online services that embedded \"ownership activation\" cues — self-referential framing designed to make consumers mentally claim the service before buying. Posts with these cues scored higher on perceived incentive value, visual appeal, information usefulness, consumption value and affective experience. Notably, impulsive buying tendency did not moderate the effect, and utilitarian purchase motives moderated more consistently than hedonic ones.",
+      "why_it_matters": "It suggests a cheap alternative to personalization: instead of building individualized creative from consumer data, change how standard creative is interpreted by prompting self-referential processing.",
+      "story_angle_primary": "Worth testing as a low-cost creative variable in paid social — same offer, same visuals, reframed to trigger mental ownership — particularly for utilitarian services where the study found the effect most consistent. Treat it as a hypothesis for live A/B testing rather than a proven lift, since the evidence is survey-experimental.",
+      "story_angle_secondary": "A lot of ad copy is engineered to get you picturing yourself already using the product. That mental rehearsal, not the discount, may be what nudges an impulse purchase.",
+      "caveats": "Single online experimental survey (N=464) measuring evaluations and intentions, not actual purchases; hypothetical sponsored posts rather than live campaigns; country and sample source not specified in the abstract.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-14",
+      "doi": "10.1108/apjml-05-2026-1114",
+      "paper_title": "Ownership activation in social media advertising: how self-referential cues shape impulse service purchases",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7204661745",
+      "headline": "People pick female AI assistants by default — until you point out the bias",
+      "the_study": "Across four online experiments with 2,530 participants, researchers tested how consumers choose the gender of AI agents. When gender cues were in the background, people reliably picked agents whose gender matched the occupational stereotype — female voices and avatars for assistive and support roles, male ones for male-typed roles. When gender was made salient, either through the design of the choice interface or an explicit warning about bias, those default preferences weakened and in some conditions flipped toward counterstereotypical agents. The shift was linked to \"action-efficacy\" beliefs — the sense that picking a counterstereotypical agent is a meaningful way to advance gender equality — and was concentrated among women choosing agents for male-typed roles.",
+      "why_it_matters": "Firms usually justify stereotype-matched AI personas on the grounds that consumers prefer and trust them, but this suggests the preference is a default rather than a fixed taste, and that it can be changed by interface design rather than by forcing a persona on users.",
+      "story_angle_primary": "Voice and avatar defaults for chatbots and agents are usually set once and left alone. This is a case for A/B testing a gender-salient choice screen or a short bias prompt in your own product to see whether adoption and satisfaction actually suffer — the lab result suggests they may not, but only live data on your users will tell you whether it holds outside an online experiment.",
+      "story_angle_secondary": "The gender you \"prefer\" for your AI assistant may be less a personal taste than an unexamined reflex — and simply being reminded that a choice is being made is enough to change many people's minds.",
+      "caveats": "Online experiments with hypothetical agent choices rather than real product usage; effects concentrated in one subgroup (women in male-typed roles) and weak or absent for men and female-typed roles; no evidence on long-run adoption, trust or commercial outcomes.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-08-29",
+      "doi": "10.1002/mar.70260",
+      "paper_title": "Beyond the Default: How Customizable Artificial Intelligence Agents Can Attenuate Stereotypical Preferences",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7201971570",
+      "headline": "Employees trust AI more when their boss lets them complain about it",
+      "the_study": "Using a multi-wave field survey of employees plus a follow-up experiment, researchers tested whether trust in workplace AI depends on the social environment rather than on the technology itself. Giving employees genuine opportunities to voice concerns about AI-related work experiences reduced negative feelings about the systems, which raised perceptions of the leader's trustworthiness — and that trust then transferred to the AI. The effect was stronger when leaders displayed humility, signaling that concerns would be heard without defensiveness.",
+      "why_it_matters": "Most corporate AI rollouts lean on transparency documents, accuracy claims and training; this evidence suggests that how managers handle employee objections may matter as much as the model's technical properties.",
+      "story_angle_primary": "If AI adoption is stalling internally, the diagnosis may be managerial rather than technical. Worth testing: structured voice channels and visible leader responsiveness around AI deployments, measured against adoption and usage metrics, before spending more on explainability features.",
+      "story_angle_secondary": "Trust in a new technology at work turns out to be partly borrowed from the people introducing it — if you trust your manager, you are more likely to trust the tool they hand you.",
+      "caveats": "The field portion is survey-based, so causal claims rest mainly on the accompanying experiment; sample size, country and industry are not specified in the abstract; self-reported trust rather than observed AI usage.",
+      "journal": "Journal of Business Research",
+      "published": "2026-08-08",
+      "doi": "10.1016/j.jbusres.2026.116470",
+      "paper_title": "How leaders build employee trust in artificial intelligence: voice opportunities, humility, and trust transfer",
+      "source_id": "S93284759"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7214067855",
+      "headline": "Give your voice assistant an accent and people warm to it",
+      "verdict": "accurate",
+      "notes": "Faithful to the abstract, including the boundary conditions and the missing sample details, which the caveats acknowledge.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7211986357",
+      "headline": "AI chatbots now out-score humans on textbook marketing knowledge",
+      "verdict": "minor",
+      "notes": "Design, N (30,000+ questions, 25 textbooks), accuracy range and human benchmarking all match; one small framing overreach calling the knowledge \"free\".",
+      "issues": [
+        {
+          "label": "\"Free\" utility not supported",
+          "severity": "Minor",
+          "as_written": "has effectively become a free, on-demand utility",
+          "abstract_says": "they now provide reliable, on-demand access to much of the discipline's foundational knowledge",
+          "problem": "The abstract says \"reliable, on-demand access\" and says nothing about cost; leading commercial LLMs are often paid, so \"free\" is an addition.",
+          "suggested_fix": "Change to \"an on-demand utility\" or \"cheap, on-demand access\"."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7210288362",
+      "headline": "In a 50,000-product test, the first item people saw shaped what they wanted next",
+      "verdict": "minor",
+      "notes": "Method, validation studies and sample figures (1,000 participants, ~50,000 descriptions from ~120,000) are exact; the incidental-exposure result is stated a little more firmly than the abstract does and is relabelled \"anchoring\".",
+      "issues": [
+        {
+          "label": "Hedge dropped from the substantive result",
+          "severity": "Minor",
+          "as_written": "entirely incidental initial products — ones with no logical bearing on the decision — shaped participants' subsequent preferences",
+          "abstract_says": "Results show that entirely incidental initial products can shape participants' subsequent preferences.",
+          "problem": "The abstract's \"can shape\" is a demonstration of possibility; the digest states it as a general occurrence, and the headline (\"shaped what they wanted next\") carries the same firmness.",
+          "suggested_fix": "Use \"can shape participants' subsequent preferences\" in the body and soften the headline accordingly."
+        },
+        {
+          "label": "\"Anchoring effect\" label added",
+          "severity": "Minor",
+          "as_written": "It both documents a real anchoring effect at unusual scale",
+          "abstract_says": "Results show that entirely incidental initial products can shape participants' subsequent preferences.",
+          "problem": "The abstract never names anchoring or characterizes the size of the effect; the label and \"at unusual scale\" are the digest's interpretation.",
+          "suggested_fix": "Describe it as an incidental-exposure effect observed in a large-scale stimulus set, without naming a mechanism the abstract does not."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7214279921",
+      "headline": "\"Silicon respondents\" aren't interchangeable: the AI you pick decides whether your synthetic survey data is usable",
+      "verdict": "accurate",
+      "notes": "Four studies, two architectures, the specific distortions and the task/validation caveat all track the abstract closely.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7213972128",
+      "headline": "People lie more on their resumes when they think a machine is reading them",
+      "verdict": "accurate",
+      "notes": "Four experiments, the perceived-detectability mechanism and both interventions (learning capability, human input) match; caveats correctly flag intentions and unspecified samples.",
+      "issues": []
+    },
+    {
+      "number": 6,
+      "work_id": "W7214221690",
+      "headline": "On China's RED, the recommendation algorithm didn't move buyers — influencer expertise and user-made content did",
+      "verdict": "minor",
+      "notes": "N=259, the four stimuli, the null paths and the gradual-purchase interpretation are accurate, and causation is disclaimed in caveats; the headline compresses a null mediation path into a claim about buyers and drops the authors' own hedge.",
+      "issues": [
+        {
+          "label": "Headline overstates a null mediation path",
+          "severity": "Minor",
+          "as_written": "the recommendation algorithm didn't move buyers",
+          "abstract_says": "KOL expertise and content co-creation significantly enhance SP, whereas user–platform interaction and AR do not.",
+          "problem": "The tested null is algorithmic recommendation's effect on social presence within an SEM, not a direct test of whether the algorithm moves purchases; the headline reads as a stronger behavioral claim than the model supports.",
+          "suggested_fix": "Reword to something like \"the recommendation algorithm didn't build social presence — influencer expertise and user-made content did\"."
+        },
+        {
+          "label": "Authors' boundary hedge omitted",
+          "severity": "Minor",
+          "as_written": "It suggests that on community-driven commerce platforms, algorithmic reach alone may not convert — the persuasive work is done by credible people and content that shoppers help create.",
+          "abstract_says": "Rather than claiming a general superiority of human over technological factors, it specifies the boundary conditions under which technical stimuli fail to translate into SP",
+          "problem": "The abstract explicitly declines to claim human factors beat technological ones in general; the digest's summary edges toward that broader claim.",
+          "suggested_fix": "Add that the authors frame this as specific boundary conditions on when technical stimuli fail, not a general superiority of human over algorithmic factors."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7214342499",
+      "headline": "The privacy disclosure paradox: telling people how you use their location can backfire",
+      "verdict": "accurate",
+      "notes": "Two online experiments plus a field experiment, the relevance/intrusiveness tradeoff and the transparency interaction are all reported as in the abstract.",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "work_id": "W7214017195",
+      "headline": "\"Designed by AI\" cuts both ways in fashion — and which way depends on your brand",
+      "verdict": "minor",
+      "notes": "2x2 design, N=412, dual pathways, manipulative-intent mechanism and asymmetric brand-positioning moderation all match; the caveat's \"online\" descriptor isn't in the abstract.",
+      "issues": [
+        {
+          "label": "Mode of administration not stated",
+          "severity": "Minor",
+          "as_written": "Single online experiment with 412 participants across four cells",
+          "abstract_says": "A 2 (design source: AI vs. human) × 2 (brand positioning: avant-garde vs. mainstream) between-subjects experiment with 412 consumers",
+          "problem": "The abstract does not say the experiment was run online or describe the participant source. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"single between-subjects experiment with 412 consumers; recruitment source not specified in the abstract\"."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7214431211",
+      "headline": "Treated badly by a human? Consumers start preferring the bot",
+      "verdict": "minor",
+      "notes": "Three studies and both mediating routes are correct and the cultural-tightness inconsistency is flagged; the body uses firmer causal wording than the abstract's \"associated with\".",
+      "issues": [
+        {
+          "label": "Firmer wording than abstract's association language",
+          "severity": "Minor",
+          "as_written": "Perceived discrimination consistently increased preference for AI-based service",
+          "abstract_says": "Across the three studies, perceived discrimination was associated with greater preference for AI service providers",
+          "problem": "The abstract deliberately uses \"was associated with\" across the three designs (one of which is recall-based); \"consistently increased\" reads as an established causal effect throughout.",
+          "suggested_fix": "Use \"was consistently associated with greater preference for AI-based service\"."
+        },
+        {
+          "label": "Direct-effect moderation nuance omitted",
+          "severity": "Minor",
+          "as_written": "the cultural-tightness moderation was inconsistent across the AI-ethicality pathway",
+          "abstract_says": "Cultural tightness consistently strengthened the social-comfort pathway, whereas its moderating influence on perceived AI ethicality and the direct effect was less consistent.",
+          "problem": "The abstract reports inconsistency for both the AI-ethicality pathway and the direct effect; only the former is mentioned.",
+          "suggested_fix": "Add \"and for the direct effect\" to the caveat."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W4400488941",
+      "headline": "AI wrote more code. Then the bottleneck moved to the humans reviewing it.",
+      "verdict": "significant",
+      "notes": "Data source, participation/output gains, coordination costs and the core/peripheral split are right, but the abstract's net-positive result (more code integrated in a timely manner) is left out, and volunteer open-source projects are described as \"real production teams\".",
+      "issues": [
+        {
+          "label": "Net positive effect omitted",
+          "severity": "Moderate",
+          "as_written": "it shows that the return on AI is capped not by how fast work gets generated but by how fast an organization can review and integrate it",
+          "abstract_says": "Overall, Copilot still increases the amount of code that is integrated in a timely manner, but the benefits are unevenly distributed.",
+          "problem": "The abstract reports that, despite longer coordination times, Copilot still raised timely integrated output. Omitting this makes the finding read as if review friction cancelled the gains, which could lead readers to the wrong conclusion about AI's net return.",
+          "suggested_fix": "State that Copilot still increased the volume of code integrated in a timely manner overall, with coordination costs and uneven distribution as the qualifier."
+        },
+        {
+          "label": "Open-source volunteers framed as production teams",
+          "severity": "Minor",
+          "as_written": "It is one of the first large-scale looks at generative AI inside real production teams",
+          "abstract_says": "collaborative open-source software (OSS) development, where developers voluntarily contribute and collaborate on projects",
+          "problem": "The setting is voluntary open-source collaboration, not commercial production teams; the body claim sits awkwardly with the digest's own caveat about transfer to commercial teams.",
+          "suggested_fix": "Change to \"inside real collaborative open-source projects\"."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7214553827",
+      "headline": "Food delivery apps are pulling people away from the restaurants on their own street — especially in lower-income neighborhoods",
+      "verdict": "minor",
+      "notes": "Study facts (6,213 communities, 50m+ records, Shenzhen) and the three findings match the abstract; the caveat correctly labels the data correlational, but the headline, \"Why it matters\" and one story angle slip into causal and prescriptive language the design cannot support.",
+      "issues": [
+        {
+          "label": "Causal language contradicts the caveat",
+          "severity": "Moderate",
+          "as_written": "delivery platforms don't just add convenience, they measurably redistribute foot traffic away from neighborhood catchments unless local retail is dense enough to hold it",
+          "abstract_says": "greater food-delivery and instant-retail availability is consistently associated with lower physical-visit localisation… SHAP interaction analyses show that this negative platform–localisation association is conditional on physical retail provision",
+          "problem": "The abstract reports associations from observational location-based service data; \"measurably redistribute\" asserts a causal transfer of foot traffic, directly contradicting the digest's own caveat that the associations are correlational. The headline (\"are pulling people away\") carries the same problem.",
+          "suggested_fix": "Reword to associational terms, e.g. \"neighbourhoods with more delivery availability show measurably fewer visits staying local\" and soften the headline to \"Food delivery apps are linked to fewer visits to nearby restaurants.\""
+        },
+        {
+          "label": "Prescriptive framing from a single observational study",
+          "severity": "Minor",
+          "as_written": "agglomeration is the defense against platform leakage — an isolated storefront in a delivery-saturated area is far more exposed than the same store inside a dense cluster. Retailers should be modeling platform penetration alongside traditional catchment metrics when signing leases",
+          "abstract_says": "positive interaction contributions between platform-service availability and retail agglomeration emerge where restaurant and shopping-mall densities are high, consistent with a buffering role of dense local retail clusters",
+          "problem": "The abstract describes an interaction pattern \"consistent with\" a buffering role; the digest converts this into a settled leasing playbook and a quantified comparison (\"far more exposed\") not present in the abstract.",
+          "suggested_fix": "Frame as a hypothesis: \"the pattern is consistent with dense retail clusters buffering platform leakage, which retailers could test against their own catchment data.\""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7203665707",
+      "headline": "Chatbots that flatter you — or brag about themselves — get you to reveal more",
+      "verdict": "accurate",
+      "notes": "Design (series of experiments with simulated, custom-built conversational agents), the ingratiation/self-promotion effects, the responsiveness-and-trust mediation and the hedonic/utilitarian context split all match the abstract; caveats correctly note the simulated setting and the authors' own limitation about long-term relationships.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7213237840",
+      "headline": "Adding \"imagine it's yours\" cues to sponsored posts beat pumping up the offer",
+      "verdict": "minor",
+      "notes": "N=464 between-subjects experimental survey, the five improved evaluations, the null for impulsive buying tendency and the asymmetric utilitarian/hedonic moderation are all reported correctly; the headline implies a head-to-head test against stronger offers that the abstract does not describe.",
+      "issues": [
+        {
+          "label": "Headline implies an untested comparison",
+          "severity": "Minor",
+          "as_written": "Adding \"imagine it's yours\" cues to sponsored posts beat pumping up the offer",
+          "abstract_says": "the effectiveness of sponsored posts can be enhanced not by intensifying individual stimuli but by embedding ownership activation cues that reframe how these stimuli are interpreted",
+          "problem": "This is the authors' practical implication, not a reported result of a direct contest between ownership cues and intensified incentives; \"beat\" suggests a measured horse race that the abstract does not report.",
+          "suggested_fix": "Reword to, e.g., \"Ownership cues lifted responses to sponsored posts — the authors argue reframing beats intensifying the offer.\""
+        },
+        {
+          "label": "Impulse-purchase inference",
+          "severity": "Minor",
+          "as_written": "That mental rehearsal, not the discount, may be what nudges an impulse purchase.",
+          "abstract_says": "The expected moderating effects of impulsive buying tendency were not supported… measures cognitive, affective, and behavioural outcomes",
+          "problem": "The abstract reports evaluations and intention-level outcomes, and the one impulse-related variable tested (impulsive buying tendency) did not moderate; attributing an impulse purchase to the cue overreaches, even hedged.",
+          "suggested_fix": "Say the cues improved how people evaluated the post, and note the study found no role for impulsive buying tendency."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7204661745",
+      "headline": "People pick female AI assistants by default — until you point out the bias",
+      "verdict": "minor",
+      "notes": "Four studies, N=2,530, the low- vs high-salience pattern, the action-efficacy mechanism and the women-in-male-typed-roles concentration are all reported faithfully and appropriately hedged; only the \"online\" descriptor goes beyond the abstract.",
+      "issues": [
+        {
+          "label": "Mode of administration not in abstract",
+          "severity": "Minor",
+          "as_written": "Across four online experiments with 2,530 participants",
+          "abstract_says": "Four experimental studies ( N = 2530) test this proposition.",
+          "problem": "The abstract does not state that the experiments were run online; the digest asserts it in the body, the caveats and the story angle (\"outside an online experiment\").",
+          "suggested_fix": "Say \"four experiments (N = 2,530)\" and mark the online/panel assumption as unverifiable from the abstract."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7201971570",
+      "headline": "Employees trust AI more when their boss lets them complain about it",
+      "verdict": "accurate",
+      "notes": "Design (multi-wave field survey plus experiment), the voice-opportunities → reduced negative affect → leader trustworthiness → trust in AI chain, and the leader-humility moderation all match the abstract; caveats correctly note that causal weight rests on the experiment and that sample details are unspecified.",
+      "issues": []
+    }
+  ],
+  "coverage": {
+    "checked": 15,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7214067855": {
+        "query": "Give voice assistant accent people warm",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7211986357": {
+        "query": "chatbots now out score humans textbook marketing knowledge",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7210288362": {
+        "query": "000 product test first item people saw shaped they wanted",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214279921": {
+        "query": "Silicon respondents aren interchangeable pick decides whether synthetic survey data",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213972128": {
+        "query": "People lie their resumes they think machine reading them",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214221690": {
+        "query": "China RED recommendation algorithm didn move buyers influencer expertise user",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214342499": {
+        "query": "privacy disclosure paradox telling people use their location backfire",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214017195": {
+        "query": "Designed cuts both ways fashion which way depends brand",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214431211": {
+        "query": "Treated badly human Consumers start preferring bot",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W4400488941": {
+        "query": "wrote code Then bottleneck moved humans reviewing",
+        "returned": 19,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214553827": {
+        "query": "Food delivery apps pulling people away restaurants their own street",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203665707": {
+        "query": "Chatbots flatter brag about themselves get reveal",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213237840": {
+        "query": "Adding imagine yours cues sponsored posts beat pumping offer",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204661745": {
+        "query": "People pick female assistants default until point out bias",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7201971570": {
+        "query": "Employees trust their boss lets them complain about",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **Machine-ness as an asset keeps replicating.** The new \"Treated badly by a human? Consumers start preferring the bot\" (W7214431211) is the cleanest evidence yet for a thread the previous digest opened with \"Explaining a disappointing refund works better when a bot does it\" (W7204096810) and \"A robot upgrade feels less special — unless the upgrade comes at someone else's expense\" (W7203703034): customers choose automation when a human's judgment is the thing they want to avoid.\n- **Disclosure and transparency are not blanket goods.** \"The privacy disclosure paradox\" (W7214342499) lands in the same place as the previous digest's \"Chatbots that remember you sell better — until customers think about what else they remember\" (W7212274308): vague or badly timed reassurance raises privacy salience, and the value of a disclosure depends on how much the system already appears to know.\n- **AI design choices pay off only through brand meaning, and they flip by positioning.** \"'Designed by AI' cuts both ways in fashion\" (W7214017195) extends \"In luxury retail, AI doesn't sell by itself\" (W7212369437) and \"Should your AI shopping assistant act like a professional or a friend?\" (W7208752452) — same technology, opposite effect depending on what the brand promises.\n- **Cheap framing beats expensive personalization.** \"Adding 'imagine it's yours' cues to sponsored posts beat pumping up the offer\" (W7213237840) sits alongside the previous digest's preregistered trial where LLM style-matching added nothing behavioral over generic daily messages (W7114890653).\n- **Warmth cues as extraction levers.** \"Chatbots that flatter you — or brag about themselves — get you to reveal more\" (W7203665707) is mechanistically continuous with \"Chatbots that use your name feel more sincere — until they use it too much\" (W7204492734): perceived responsiveness and sincerity are the route by which conversational design converts into consumer compliance.\n\n**Advances**\n- **From \"who applies\" to \"who lies.\"** The previous digest showed weak applicants deterred by algorithmic evaluation because they expect human leniency (W7204140072). The new \"People lie more on their resumes when they think a machine is reading them\" (W7213972128) shows the same belief about machine laxity driving a different distortion — and both point to the same repair, a stated human review step.\n- **The bottleneck thread matures.** Previous entries located the constraint in selection (\"Before you launch that AI-written email,\" W7172334002) and skills (\"Giving ad creatives AI isn't enough,\" W7204938023). \"AI wrote more code. Then the bottleneck moved to the humans reviewing it.\" (W4400488941) supplies large-scale field evidence that the constraint migrates downstream to review and integration.\n- **AI moves from the object of study to the instrument.** The previous digest's LLM-embedding prediction framework (W7172334002) is now joined by BRIDGE's 50,000-product experiment (W7210288362) and the silicon-samples benchmark (W7214279921), which pushes the question from \"can we use AI in research\" to \"which architecture, validated against what human data.\"\n- **The employee side of AI deployment gets a lever.** \"When the bank gave loan officers an AI copilot\" documented damage to autonomy and satisfaction (W7203942746); \"Employees trust AI more when their boss lets them complain about it\" (W7201971570) identifies a managerial intervention — voice opportunities plus leader humility — rather than a technical one.\n\n**Counterpoints**\n- **Humanizing AI sometimes pays.** The previous digest's anthropomorphism-ceiling cluster (W7204492734, W7208749448, W7212274308) is directly complicated by \"Give your voice assistant an accent and people warm to it\" (W7214067855), where a humanizing cue raised preference, willingness to pay and opt-in — with the authors' own boundary condition being cases where seeming human is undesirable, which is precisely where the earlier studies sat.\n- **Algorithmic reach versus human credibility.** The previous digest associated AI nudging and social-proof cues with addictive and compulsive buying (W7207605884). The new RED study (W7214221690) finds algorithmic recommendation did *not* raise social presence or predict purchase, while creator expertise and co-created content did — suggesting the persuasive mechanic differs sharply by platform type.\n\n**New themes**\n- **Machine competence benchmarked against people:** \"AI chatbots now out-score humans on textbook marketing knowledge\" (W7211986357) has no antecedent in the previous digest.\n- **Platform infrastructure reshaping physical retail geography:** \"Food delivery apps are pulling people away from the restaurants on their own street\" (W7214553827) opens a spatial-economics strand absent last run.\n- **Bias as a changeable default, not a fixed taste:** \"People pick female AI assistants by default — until you point out the bias\" (W7204661745) picks up the gender thread from \"Swearing costs influencers engagement\" (W7170627554) but relocates it into interface design.",
+    "feature_pitch": "**The pattern:** Across this batch, the constraint on AI's value has moved from generation to verification — and the human doing the verifying is barely measured or budgeted. Copilot raised code contributions but lengthened coordination, review and integration time (W4400488941); LLMs beat every human group on textbook marketing knowledge yet stayed weakest on higher-order judgment, which the authors read as an argument for designed handoffs (W7211986357); synthetic survey respondents only become usable if validated against real human benchmarks, since generative models compress variance and skew demographics (W7214279921); and job applicants deceive more under machine screening unless told a human reviews the output (W7213972128) — while internal trust in AI turns out to hinge on whether managers let staff object at all (W7201971570).\n\n**Why pitch this now:** Agentic AI is being sold into 2026 budgets on output volume at exactly the moment transparency and human-oversight obligations are being written into practice, so \"a person checks this\" is simultaneously a compliance requirement, a behavioral deterrent and an unfunded cost line.\n\n**Angle:** A reported feature on the review economy inside AI adoption — what organizations actually pay for checking machine output, why throughput of finished work is the only honest metric, and why visibly advertising human oversight changes how customers, candidates and employees behave. Aimed at executives and operations leaders, with a second life as a workplace story about who inherits the checking.\n\n**Potential headlines:**\n- AI made the work faster. Getting it approved got slower.\n- The cheapest upgrade to your AI system is telling people a human checks it\n- Nobody budgeted for the people who have to read all of this\n\n**Potential outlets:**\n- **Harvard Business Review** — built for the argument that firms are measuring drafts produced instead of finished work integrated, with field evidence from GitHub and a multi-wave employee study to anchor it.\n- **Digiday** — agency and brand content operations are the clearest commercial version of the review bottleneck, and its readers are living the approval-queue problem now.\n- **The Economist** (Business) — the productivity-statistics framing travels well: generation is cheap, verification is not, and that gap explains soft returns on AI spend.\n- **Wired** — takes the behavioral turn seriously: people cheat more when they think only a machine is watching, which makes visible human oversight a design decision rather than paperwork.",
+    "pitch_ideas": "- **Give your voice assistant an accent and people warm to it (Work ID W7214067855):** Brands have spent years engineering accent-free synthetic voices, and this says the neutrality is costing engagement and willingness to pay — for a marketing-trade feature on voice and IVR design, with a general-interest culture angle on decades of call-center accent-flattening.\n- **AI chatbots now out-score humans on textbook marketing knowledge (Work ID W7211986357):** 30,000 questions from 25 marketing textbooks, models at 84–94% and beating every human group sampled — frame as what a junior marketer and a marketing degree are now for, for a business-education or future-of-work column.\n- **In a 50,000-product test, the first item people saw shaped what they wanted next (Work ID W7210288362):** Incidental first exposure moved later preferences at unusual scale, plus a method for testing copy against thousands of real listings rather than three tidy mock-ups — for an insights/market-research trade explainer, with a consumer sidebar on browsing order shaping \"taste.\"\n- **\"Silicon respondents\" aren't interchangeable (Work ID W7214279921):** Synthetic panelists are being sold hard, and this shows generative models flatten variance and skew demographics while a different architecture tracks humans much more closely — a strong news-plus-analysis piece for market-research and insights trade press, and a consumer angle on machines answering the surveys that shape products.\n- **People lie more on their resumes when they think a machine is reading them (Work ID W7213972128):** Candidates assume AI is easier to fool, and that belief degrades the applicant pool unless human review is advertised — for an HR-tech or recruiting trade news brief, and a careers/personal-finance column on what AI screening really rewards.\n- **On China's RED, the recommendation algorithm didn't move buyers (Work ID W7214221690):** Creator expertise and co-created content built the social presence that predicted buying; algorithmic recommendation did not — for a social-commerce trade analysis on whether reach metrics are measuring the wrong thing.\n- **The privacy disclosure paradox (Work ID W7214342499):** Precise location targeting lifted real clicks, but transparency notices helped only when targeting was vague and hurt when it was sharp — for an adtech or advertising trade explainer on calibrating notices to targeting precision, and a consumer piece on why the most relevant ad is also the creepiest.\n- **\"Designed by AI\" cuts both ways in fashion (Work ID W7214017195):** The same AI disclosure reads as \"on-trend\" for mainstream brands and \"everyone will look the same\" for avant-garde ones, with perceived manipulative intent as the mechanism — for a fashion-business or retail trade piece on generative-design labeling.\n- **Treated badly by a human? Consumers start preferring the bot (Work ID W7214431211):** Reframe chatbot adoption as a response to social risk, and AI channel usage as a diagnostic on frontline discrimination — for a customer-experience trade column, and a consumer-psychology explainer in a general-interest outlet on choosing the machine that cannot judge you.\n- **AI wrote more code. Then the bottleneck moved to the humans reviewing it. (Work ID W4400488941):** Output rose while coordination and integration slowed, and gains concentrated among core contributors — for a business-technology analysis piece, with a workplace angle on AI widening the gap between insiders and newcomers.\n- **Food delivery apps are pulling people away from the restaurants on their own street (Work ID W7214553827):** 50 million visit records showing delivery platforms redistribute local foot traffic, most strongly in lower-income neighborhoods, with retail density and traditional markets as the buffer — for a retail or commercial real-estate trade explainer on leasing and catchment modeling, and a city-economics story for a general-interest outlet.\n- **Chatbots that flatter you — or brag about themselves — get you to reveal more (Work ID W7203665707):** Conversational persona as a data-collection instrument — flattery in hedonic contexts, self-promotion in utilitarian ones — for a privacy-and-martech trade piece, and a consumer-tech explainer on recognizing the tactic.\n- **Adding \"imagine it's yours\" cues to sponsored posts beat pumping up the offer (Work ID W7213237840):** A near-free creative variable that outperformed sweetening the incentive, strongest for utilitarian services — for a paid-social or creative-effectiveness trade brief.\n- **People pick female AI assistants by default — until you point out the bias (Work ID W7204661745):** Stereotype-matched personas look like a fixed consumer preference but flipped when the choice was made salient, with no evident adoption cost — for a product-design or brand-strategy column, and a general-interest piece on defaults masquerading as taste.\n- **Employees trust AI more when their boss lets them complain about it (Work ID W7201971570):** Stalled internal AI adoption may be a management problem rather than an explainability problem — for a leadership or internal-communications column, and a people-management trade piece on AI rollout playbooks."
+  }
+}
