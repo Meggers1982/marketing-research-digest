@@ -61,15 +61,15 @@ def test_search_pages_through_every_batch(monkeypatch):
     assert {w["work_id"] for w in works} == {"WS0", "WS50", "WS100"}
 
 
-def test_one_failed_batch_costs_that_batch_not_the_run(monkeypatch):
+def test_one_failed_batch_fails_the_run_rather_than_ship_a_partial_digest(monkeypatch):
     def fake_get(path, params):
         if "S0|" in params["filter"]:
             raise openalex.OpenAlexError("OpenAlex HTTP 503 on /works")
         return {"results": [{"id": "https://openalex.org/W7"}], "meta": {"next_cursor": None}}
 
     monkeypatch.setattr(openalex, "_get", fake_get)
-    works = openalex.search_works([f"S{i}" for i in range(60)], "2026-07-01", "2026-09-01")
-    assert [w["work_id"] for w in works] == ["W7"]
+    with pytest.raises(openalex.OpenAlexError, match="partial digest"):
+        openalex.search_works([f"S{i}" for i in range(60)], "2026-07-01", "2026-09-01")
 
 
 def test_every_batch_failing_is_loud(monkeypatch):

@@ -13,7 +13,7 @@ by way of AgingWire). What differs is below in **Where this differs**.
 ## How it works
 
 `.github/workflows/daily-digest.yml` runs `scripts/main.py` once a day. The cron
-asks for 07:37 UTC; GitHub queues scheduled runs, so expect it hours late
+asks for 10:07 UTC (5:07am CDT, 4:07am CST); GitHub queues scheduled runs, so expect it hours late
 (2.5 to 4.5 hours is typical across these repos, 11.5 the worst seen). Each run:
 
 1. **Picks today's topic** from the rotation in `config/digest_config.json`
@@ -102,6 +102,9 @@ an optional topic.
   two OpenAlex columns), then run `python scripts/resolve_sources.py`. A near-miss
   name is recorded as "no match; closest: …" rather than accepted, because two
   titles on the list carry hijacked-title warnings.
+- **Empty and partial runs:** a run that selects zero studies is left off the
+  dashboard automatically, and an OpenAlex batch that still fails after five
+  retries fails the whole run instead of writing a partial digest.
 - **Hide a bad run:** add its id to `docs/data/hidden.json` (`{"ids": [...]}`) and
   rebuild with `python scripts/build_dashboard_data.py`. Nothing is deleted.
 - **Re-score the archive:** `python scripts/build_dashboard_data.py`. No API calls.

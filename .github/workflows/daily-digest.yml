@@ -2,12 +2,12 @@ name: Daily Marketing Research Digest
 
 on:
   schedule:
-    # 07:37 UTC = 2:37am CDT / 1:37am CST, so the DST switch needs no edit. The
-    # odd minute is deliberate: GitHub queues scheduled runs, the queue is worst
-    # on a round hour, and her other digests already sit on :00 slots. Expect
-    # it to start late anyway -- 2.5 to 4.5 hours is typical across her repos,
-    # 11.5 the worst seen.
-    - cron: "37 7 * * *"
+    # 10:07 UTC = 5:07am CDT / 4:07am CST. GitHub cron is UTC-only, so the local
+    # hour shifts an hour at each DST change; move it to 11:07 for the winter if
+    # 5am sharp matters. The odd minute is deliberate: GitHub queues scheduled
+    # runs and the queue is worst on a round hour. Expect it to start late
+    # anyway -- 2.5 to 4.5 hours is typical across her repos, 11.5 the worst seen.
+    - cron: "7 10 * * *"
 
   workflow_dispatch:
     inputs:

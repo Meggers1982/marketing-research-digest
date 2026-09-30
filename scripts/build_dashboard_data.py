@@ -205,6 +205,13 @@ def main() -> None:
         print(f"Hiding {len(runs) - len(kept)} run(s) listed in {HIDDEN_PATH.name}")
         runs = kept
 
+    # A run that selected nothing has nothing to show, and it sorts first when it
+    # is the newest, so the dashboard would open on an empty page.
+    empty = [r for r in runs if not r["study_count"]]
+    if empty:
+        print(f"Leaving {len(empty)} zero-study run(s) off the dashboard")
+        runs = [r for r in runs if r["study_count"]]
+
     DASHBOARD_RUNS_DIR.mkdir(parents=True, exist_ok=True)
     written = set()
     for run in runs:

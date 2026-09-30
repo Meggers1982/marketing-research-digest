@@ -32,7 +32,7 @@ import urllib.request
 BASE = "https://api.openalex.org"
 USER_AGENT = "marketing-research-digest (https://github.com/Meggers1982/marketing-research-digest)"
 TIMEOUT = 60
-RETRIES = 3
+RETRIES = 5   # backoff 1+2+4+8+16s: rides out a short OpenAlex 503 burst
 RETRY_STATUS = {429, 500, 502, 503, 504}
 PER_PAGE = 200
 # OpenAlex allows up to 100 values in one OR filter; 50 keeps the URL short.
@@ -135,9 +135,10 @@ def search_works(
     """Every work published in [from_date, to_date] in any of the sources,
     optionally narrowed by a boolean title-and-abstract query.
 
-    Returns normalized works, de-duplicated by work ID. A batch that fails is
-    reported and skipped rather than failing the run: one bad page should cost
-    a slice of the journals, not the digest.
+    Returns normalized works, de-duplicated by work ID. A batch that still
+    fails after the retries raises: skipping it would quietly drop a quarter or
+    more of the journals and ship a thin digest that looks healthy (2026-09-30:
+    two 503s, 4 works, an empty run reported as a success).
     """
     works: dict[str, dict] = {}
     calls = failed = 0
@@ -176,8 +177,8 @@ def search_works(
                 break
     print(f"  OpenAlex: {calls} call(s), {len(works)} work(s)"
           + (f", {failed} batch(es) failed" if failed else ""))
-    if failed and not works:
-        raise OpenAlexError("every OpenAlex batch failed")
+    if failed:
+        raise OpenAlexError(f"{failed} OpenAlex batch(es) failed; refusing to write a partial digest")
     return list(works.values())
 
 
