@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 13,
+  "run_count": 14,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -24,6 +24,16 @@
       "total_issues": "",
       "lead_count": 0,
       "top_score": 0
+    },
+    {
+      "id": "marketing-research-digest-retail-e-commerce-2026-09-30-part-2",
+      "title": "Marketing Research Digest — Retail & E-Commerce — 2026-09-30 (Part 2)",
+      "topic": "retail & e-commerce",
+      "run_date": "2026-09-30",
+      "study_count": 18,
+      "total_issues": "25 (21 Minor, 4 Moderate, 0 Major)",
+      "lead_count": 12,
+      "top_score": 90
     },
     {
       "id": "marketing-research-digest-ai-marketing-technology-2026-09-28",

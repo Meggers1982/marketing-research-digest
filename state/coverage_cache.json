@@ -1,5 +1,15 @@
 {
   "studies": {
+    "W3121242579": {
+      "checked_at": "2026-09-30T15:30:20.577388+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "eBay proved its own star ratings hiding bad sellers then",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W4318015176": {
       "checked_at": "2026-09-24T12:59:21.064263+00:00",
       "result": {
@@ -7,16 +17,6 @@
         "outlets": [],
         "query": "Virtual influencers get traction they pictured hanging out real people",
         "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W4375826978": {
-      "checked_at": "2026-09-15T13:01:51.031005+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Freelancers who put their own money line get punished",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -30,36 +30,6 @@
         "state": "unreported"
       }
     },
-    "W4416014100": {
-      "checked_at": "2026-09-14T16:55:57.165170+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "million images biggest open source image platform show sharp tilt",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7114890653": {
-      "checked_at": "2026-09-14T16:55:48.333244+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "rewrote health messages teens own slang nudge worked personalization barely",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7160239758": {
-      "checked_at": "2026-09-15T13:01:00.093657+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Default nudges work everyone which exactly they won close health",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7168115520": {
       "checked_at": "2026-09-17T12:53:15.736606+00:00",
       "result": {
@@ -67,66 +37,6 @@
         "outlets": [],
         "query": "tech fails because two people have adopt not one",
         "returned": 20,
-        "state": "unreported"
-      }
-    },
-    "W7170087457": {
-      "checked_at": "2026-09-15T13:00:30.643331+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Employee discounts backfire keeping promises staff beats cutting their price",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7170171784": {
-      "checked_at": "2026-09-15T13:01:57.882834+00:00",
-      "result": {
-        "articles": [
-          {
-            "link": "https://www.oliveoiltimes.com/grades/italians-will-pay-more-for-olive-oil-with-health-claims/144950",
-            "outlet": "Olive Oil Times",
-            "title": "Italians Will Pay More for Olive Oil with Health Claims"
-          },
-          {
-            "link": "https://www.organicauthority.com/energetic-health/italian-extra-virgin-olive-oil-manni-oil",
-            "outlet": "Organic Authority",
-            "title": "The Italian Extra-Virgin Olive Oil We Love, Here\u2019s Why"
-          },
-          {
-            "link": "https://www.consumerlab.com/reviews/extra-virgin-olive-oil-review/evoo/",
-            "outlet": "consumerlab.com",
-            "title": "Extra Virgin Olive Oil Review & Top Picks"
-          }
-        ],
-        "outlets": [
-          "Olive Oil Times",
-          "Organic Authority",
-          "consumerlab.com"
-        ],
-        "query": "Italians will pay about extra health claim olive oil label",
-        "returned": 9,
-        "state": "widely_reported"
-      }
-    },
-    "W7170377972": {
-      "checked_at": "2026-09-15T13:00:24.469263+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Let them start today immediate activation makes subscribers stick around",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7170627554": {
-      "checked_at": "2026-09-14T16:55:35.740564+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Swearing costs influencers engagement costs female influencers",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -166,16 +76,6 @@
         "articles": [],
         "outlets": [],
         "query": "rollout will live die middle manager",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7171554746": {
-      "checked_at": "2026-09-14T16:55:31.369353+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Virtual influencers novel but not believable novelty wearing off",
         "returned": 0,
         "state": "unreported"
       }
@@ -220,26 +120,6 @@
         "state": "unreported"
       }
     },
-    "W7172334002": {
-      "checked_at": "2026-09-14T16:54:45.395261+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Before launch written email check whether data actually predict",
-        "returned": 5,
-        "state": "unreported"
-      }
-    },
-    "W7172339845": {
-      "checked_at": "2026-09-16T12:59:47.584166+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "some shoppers game system not greed wanting feel clever",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7172408085": {
       "checked_at": "2026-09-19T12:10:49.110330+00:00",
       "result": {
@@ -250,22 +130,22 @@
         "state": "unreported"
       }
     },
-    "W7172409631": {
-      "checked_at": "2026-09-15T13:01:45.756324+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Same price bigger discount travelers pick deal only looks cheaper",
-        "returned": 20,
-        "state": "unreported"
-      }
-    },
     "W7172448511": {
       "checked_at": "2026-09-21T14:36:30.758239+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Hard closing salespeople damage buyer trust buyers say themselves",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7172490860": {
+      "checked_at": "2026-09-30T15:30:24.579922+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "livestream selling charisma not better smiles looks volume all peak",
         "returned": 0,
         "state": "unreported"
       }
@@ -290,16 +170,6 @@
         "state": "unreported"
       }
     },
-    "W7202032785": {
-      "checked_at": "2026-09-15T13:01:44.177390+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Across hotels restaurants moisturizers tablets value money feature colors all",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7202051364": {
       "checked_at": "2026-09-24T12:59:35.773509+00:00",
       "result": {
@@ -320,13 +190,13 @@
         "state": "unreported"
       }
     },
-    "W7202159278": {
-      "checked_at": "2026-09-14T16:55:27.283126+00:00",
+    "W7202143753": {
+      "checked_at": "2026-09-30T15:30:26.271289+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "dash nostalgia makes customers willing served",
-        "returned": 0,
+        "query": "Recommendations feel manipulative they come several AIs instead one",
+        "returned": 1,
         "state": "unreported"
       }
     },
@@ -478,82 +348,12 @@
         "state": "unreported"
       }
     },
-    "W7203674935": {
-      "checked_at": "2026-09-14T16:54:32.345305+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "most damaging bad review one says they have just",
-        "returned": 20,
-        "state": "unreported"
-      }
-    },
-    "W7203703034": {
-      "checked_at": "2026-09-14T16:54:42.696047+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "robot upgrade feels special unless upgrade comes someone else expense",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7203703296": {
-      "checked_at": "2026-09-15T13:01:15.191919+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Bad ESG news only really hurts lot people see good",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7203715795": {
-      "checked_at": "2026-09-15T13:00:39.943870+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "000 people later paying cash really does hurt than tapping",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7203777252": {
-      "checked_at": "2026-09-16T12:58:11.496685+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Plus size mannequins next standard ones lifted brand attitudes willingness",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7203839485": {
-      "checked_at": "2026-09-15T13:02:05.961016+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "premium price drowns out positioning story",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7203856104": {
       "checked_at": "2026-09-17T12:55:42.093845+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Hotel robots child like voices rated better service",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7203899003": {
-      "checked_at": "2026-09-15T13:01:37.928291+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Half shoppers paid greener packaging sat regular shelf",
         "returned": 0,
         "state": "unreported"
       }
@@ -568,16 +368,6 @@
         "state": "unreported"
       }
     },
-    "W7203929361": {
-      "checked_at": "2026-09-15T13:01:03.416392+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Same game different planet publishers really price across borders Steam",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7203929993": {
       "checked_at": "2026-09-24T12:59:52.589125+00:00",
       "result": {
@@ -588,36 +378,6 @@
         "state": "unreported"
       }
     },
-    "W7203936299": {
-      "checked_at": "2026-09-16T12:55:58.146050+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Store brands pay off their own shelf space than negotiating",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7203942746": {
-      "checked_at": "2026-09-14T16:54:25.735271+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "bank gave loan officers copilot approvals fell did customer satisfaction",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7203949248": {
-      "checked_at": "2026-09-14T16:54:56.652638+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Virtual influencers sell they talk about product made not fun",
-        "returned": 5,
-        "state": "unreported"
-      }
-    },
     "W7204076930": {
       "checked_at": "2026-09-18T12:29:34.551032+00:00",
       "result": {
@@ -625,36 +385,6 @@
         "outlets": [],
         "query": "Consumers will pay sustainable beer but Fair Trade labels actually",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204096810": {
-      "checked_at": "2026-09-14T16:54:40.794333+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Explaining disappointing refund works better bot does",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204117449": {
-      "checked_at": "2026-09-14T16:54:30.257927+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Customers who start talking about past about leave",
-        "returned": 20,
-        "state": "unreported"
-      }
-    },
-    "W7204140072": {
-      "checked_at": "2026-09-14T16:54:28.819830+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "people most likely rejected most likely walk away algorithm",
-        "returned": 8,
         "state": "unreported"
       }
     },
@@ -678,16 +408,6 @@
         "state": "unreported"
       }
     },
-    "W7204248241": {
-      "checked_at": "2026-09-15T13:00:49.694362+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Best before March beats expires days date wording changes shoppers",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7204255947": {
       "checked_at": "2026-09-25T13:05:43.444824+00:00",
       "result": {
@@ -705,16 +425,6 @@
         "outlets": [],
         "query": "Eight brands switched off their branded search ads Sales didn",
         "returned": 17,
-        "state": "unreported"
-      }
-    },
-    "W7204492734": {
-      "checked_at": "2026-09-14T16:55:52.136747+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Chatbots use name feel sincere until they use too much",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -802,26 +512,6 @@
         "state": "unreported"
       }
     },
-    "W7204874545": {
-      "checked_at": "2026-09-14T16:56:01.100673+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "algorithm remembers everything browsed either curb waste trap impulse loops",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204938023": {
-      "checked_at": "2026-09-14T16:55:05.307414+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Giving creatives isn enough teaching them prompt moved needle",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7204989107": {
       "checked_at": "2026-09-17T12:56:25.813525+00:00",
       "result": {
@@ -842,52 +532,12 @@
         "state": "unreported"
       }
     },
-    "W7204997399": {
-      "checked_at": "2026-09-15T13:00:20.090388+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "groceries got expensive shoppers didn just trade down they cut",
-        "returned": 5,
-        "state": "unreported"
-      }
-    },
     "W7206215832": {
       "checked_at": "2026-09-19T12:12:56.360566+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "116 later alcohol awareness campaigns change minds but not drinking",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7207565403": {
-      "checked_at": "2026-09-15T13:01:33.819807+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "hangover deep discount great past price poisons today sale",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7207605884": {
-      "checked_at": "2026-09-14T16:55:41.125560+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "nudges social proof track compulsive shopping but chatbots pointed other",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7207745459": {
-      "checked_at": "2026-09-16T13:00:08.397478+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "redesigned coffee packs won shelf test but only barely not",
         "returned": 0,
         "state": "unreported"
       }
@@ -899,46 +549,6 @@
         "outlets": [],
         "query": "Replying every bad review wrong strategy",
         "returned": 2,
-        "state": "unreported"
-      }
-    },
-    "W7208749448": {
-      "checked_at": "2026-09-14T16:55:18.200344+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "friendlier chatbot angrier customers get fumbles conversation",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7208752452": {
-      "checked_at": "2026-09-14T16:54:54.977511+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Should shopping assistant act like professional friend depends selling",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7208768688": {
-      "checked_at": "2026-09-16T12:56:34.534119+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Sustainable beats green label because hints product will last",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7208808437": {
-      "checked_at": "2026-09-16T12:58:51.015279+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Customers who return groceries then spend unless retailer looks fault",
-        "returned": 4,
         "state": "unreported"
       }
     },
@@ -962,16 +572,6 @@
         "state": "unreported"
       }
     },
-    "W7210266064": {
-      "checked_at": "2026-09-16T12:56:56.899399+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Hiring official board measurably improves government sales except procurement truly",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7210276982": {
       "checked_at": "2026-09-24T13:00:05.515249+00:00",
       "result": {
@@ -979,16 +579,6 @@
         "outlets": [],
         "query": "wider product line advertising works word mouth does",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7210283217": {
-      "checked_at": "2026-09-15T13:00:26.268419+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "voice gives away sure firms now hear",
-        "returned": 2,
         "state": "unreported"
       }
     },
@@ -1019,16 +609,6 @@
         "outlets": [],
         "query": "Consumers file cell based sausage made not",
         "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7211920431": {
-      "checked_at": "2026-09-15T13:01:24.509650+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Fast food logos kids jerseys sponsorship worth under club budget",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1082,26 +662,6 @@
         "state": "unreported"
       }
     },
-    "W7212055380": {
-      "checked_at": "2026-09-15T13:00:35.792746+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Pay want works stages only last stage responds social pressure",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7212072927": {
-      "checked_at": "2026-09-16T12:57:14.936475+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Return fraud isn driven lenient policies driven peer norms money",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7212116218": {
       "checked_at": "2026-09-25T13:05:05.191289+00:00",
       "result": {
@@ -1112,32 +672,12 @@
         "state": "unreported"
       }
     },
-    "W7212124619": {
-      "checked_at": "2026-09-15T13:01:55.499766+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Steps Beltline worth real money near green space worth nothing",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7212134127": {
       "checked_at": "2026-09-18T12:27:12.510161+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Consumers reward brands adding green features barely notice they take",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7212164165": {
-      "checked_at": "2026-09-16T12:56:18.402357+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Who takes salesperson advice Richer shoppers consistently",
         "returned": 0,
         "state": "unreported"
       }
@@ -1172,16 +712,6 @@
         "state": "unreported"
       }
     },
-    "W7212274308": {
-      "checked_at": "2026-09-14T16:55:11.355239+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Chatbots remember sell better until customers think about else they",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7212302631": {
       "checked_at": "2026-09-19T12:11:59.766889+00:00",
       "result": {
@@ -1189,26 +719,6 @@
         "outlets": [],
         "query": "doctor gives health advice numbers beat stories point",
         "returned": 2,
-        "state": "unreported"
-      }
-    },
-    "W7212369437": {
-      "checked_at": "2026-09-14T16:55:00.842061+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "luxury retail doesn sell itself only works signals exclusivity",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7212374919": {
-      "checked_at": "2026-09-15T13:00:44.253084+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Financial education payoff narrower than thought mostly teaches people compare",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1222,12 +732,12 @@
         "state": "unreported"
       }
     },
-    "W7212389830": {
-      "checked_at": "2026-09-15T13:00:46.123016+00:00",
+    "W7212380221": {
+      "checked_at": "2026-09-30T15:30:13.742632+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "stock market overvalues company marketing budgets safer",
+        "query": "Blind boxes inspire two kinds shoppers one them stop",
         "returned": 1,
         "state": "unreported"
       }
@@ -1278,6 +788,16 @@
         "articles": [],
         "outlets": [],
         "query": "Adding imagine yours cues sponsored posts beat pumping offer",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213254140": {
+      "checked_at": "2026-09-30T15:29:19.366284+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Putting chargers parking lot lifted German grocery revenue",
         "returned": 0,
         "state": "unreported"
       }
@@ -1369,6 +889,16 @@
         "outlets": [],
         "query": "Pairing virtual influencer human one works but only keeps its",
         "returned": 3,
+        "state": "unreported"
+      }
+    },
+    "W7213439880": {
+      "checked_at": "2026-09-30T15:29:21.053681+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Not knowing want make likely buy",
+        "returned": 20,
         "state": "unreported"
       }
     },
@@ -1470,12 +1000,42 @@
         "state": "lightly_reported"
       }
     },
+    "W7213554170": {
+      "checked_at": "2026-09-30T15:29:28.082638+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Virtual streamers sell fun human streamers sell function",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213556593": {
+      "checked_at": "2026-09-30T15:29:55.695357+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "borderless freelance marketplace isn four frictions quietly kill creative work",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213557087": {
       "checked_at": "2026-09-20T12:44:47.147655+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Likes don pay bills but voting memberships paid interactions they",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213558307": {
+      "checked_at": "2026-09-30T15:29:52.254359+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Hand sanitizer stations still earn their keep visible hygiene cues",
         "returned": 0,
         "state": "unreported"
       }
@@ -1496,6 +1056,16 @@
         "articles": [],
         "outlets": [],
         "query": "Ask toward 000 goal round number math makes people give",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213671071": {
+      "checked_at": "2026-09-30T15:29:32.145350+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "imported goods endcap made imported goods sell worse",
         "returned": 0,
         "state": "unreported"
       }
@@ -1527,6 +1097,16 @@
         "outlets": [],
         "query": "People lie their resumes they think machine reading them",
         "returned": 3,
+        "state": "unreported"
+      }
+    },
+    "W7214004504": {
+      "checked_at": "2026-09-30T15:30:05.045838+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Blended burgers keep surprising people review finds hybrid meat wins",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1608,6 +1188,16 @@
         "state": "unreported"
       }
     },
+    "W7214190181": {
+      "checked_at": "2026-09-30T15:29:34.442449+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "buyers sellers get too friendly platform loses transaction",
+        "returned": 6,
+        "state": "unreported"
+      }
+    },
     "W7214221690": {
       "checked_at": "2026-09-28T15:58:36.494852+00:00",
       "result": {
@@ -1624,6 +1214,16 @@
         "articles": [],
         "outlets": [],
         "query": "Buy now Just meta analysis finds bossy copy backfires most",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214279733": {
+      "checked_at": "2026-09-30T15:30:11.789933+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "same live shopping pitch lands differently Amazon than Facebook",
         "returned": 0,
         "state": "unreported"
       }
@@ -1658,6 +1258,16 @@
         "state": "unreported"
       }
     },
+    "W7214549693": {
+      "checked_at": "2026-09-30T15:29:46.648839+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Chinese shoppers reward ESG only they believe mean",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214553827": {
       "checked_at": "2026-09-28T15:58:51.084358+00:00",
       "result": {
@@ -1665,6 +1275,46 @@
         "outlets": [],
         "query": "Food delivery apps pulling people away restaurants their own street",
         "returned": 4,
+        "state": "unreported"
+      }
+    },
+    "W7214665435": {
+      "checked_at": "2026-09-30T15:29:43.016378+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Chatbots get local culture make foreign retailer feel like hometown",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214672185": {
+      "checked_at": "2026-09-30T15:29:15.819905+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Pickup lockers don cannibalize home delivery they keep customers leaving",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214728277": {
+      "checked_at": "2026-09-30T15:30:06.943974+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Researchers build item test whether product gives people something talk",
+        "returned": 5,
+        "state": "unreported"
+      }
+    },
+    "W7214807616": {
+      "checked_at": "2026-09-30T15:29:23.744527+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Stop storing keepsakes using them makes them mean",
+        "returned": 2,
         "state": "unreported"
       }
     }
