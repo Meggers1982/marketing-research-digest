@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-09-30",
+  "days_back": 60,
+  "window_from": "2026-08-01",
+  "window_to": "2026-09-30",
+  "focus": "Retail & E-Commerce",
+  "topic": "retail & e-commerce",
+  "query": "retail OR retailer OR \"e-commerce\" OR \"online shopping\" OR omnichannel OR marketplace OR \"private label\" OR \"store\" OR \"live streaming commerce\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 4,
+    "not_research": 1,
+    "no_abstract": 0,
+    "off_topic": 0,
+    "already_covered": 1,
+    "over_journal_cap": 0,
+    "over_cap": 0,
+    "sent": 2
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [],
+  "fact_check": [],
+  "coverage": {
+    "checked": 0,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {}
+  },
+  "sections": {}
+}
