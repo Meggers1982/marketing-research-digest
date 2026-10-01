@@ -30,16 +30,6 @@
         "state": "unreported"
       }
     },
-    "W7168115520": {
-      "checked_at": "2026-09-17T12:53:15.736606+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "tech fails because two people have adopt not one",
-        "returned": 20,
-        "state": "unreported"
-      }
-    },
     "W7171153525": {
       "checked_at": "2026-09-21T14:36:37.794545+00:00",
       "result": {
@@ -47,16 +37,6 @@
         "outlets": [],
         "query": "Keeping same account team place improves customer experience but discounts",
         "returned": 20,
-        "state": "unreported"
-      }
-    },
-    "W7171377067": {
-      "checked_at": "2026-09-17T12:54:45.506797+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "customers help build fails they praise anyway problem",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -110,12 +90,32 @@
         "state": "unreported"
       }
     },
+    "W7172201743": {
+      "checked_at": "2026-10-01T14:25:52.731269+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "fails customers apologize don blame machine",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7172220713": {
       "checked_at": "2026-09-25T13:06:33.603360+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Guilt based green ads only work all three ingredients present",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7172357977": {
+      "checked_at": "2026-10-01T14:25:36.166657+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "package late saying nothing protect retailer",
         "returned": 0,
         "state": "unreported"
       }
@@ -146,6 +146,16 @@
         "articles": [],
         "outlets": [],
         "query": "livestream selling charisma not better smiles looks volume all peak",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7197051994": {
+      "checked_at": "2026-10-01T14:24:52.263306+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "self checkout efficiency paradox design choices save money also break",
         "returned": 0,
         "state": "unreported"
       }
@@ -250,6 +260,16 @@
         "state": "unreported"
       }
     },
+    "W7202253581": {
+      "checked_at": "2026-10-01T14:25:19.651588+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "There universal recipe good service cleanest looking businesses get worst",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7202369464": {
       "checked_at": "2026-09-25T13:06:07.977635+00:00",
       "result": {
@@ -270,6 +290,16 @@
         "state": "unreported"
       }
     },
+    "W7203443165": {
+      "checked_at": "2026-10-01T14:25:42.098552+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Muslim travelers actually praise halal luxury hotels according 369 reviews",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7203466714": {
       "checked_at": "2026-09-20T12:45:03.601976+00:00",
       "result": {
@@ -277,6 +307,16 @@
         "outlets": [],
         "query": "Think big gift card stops feeling like gift card money",
         "returned": 16,
+        "state": "unreported"
+      }
+    },
+    "W7203477409": {
+      "checked_at": "2026-10-01T14:25:49.489641+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Make service chatbot capable not cuddly",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -318,6 +358,16 @@
         "state": "unreported"
       }
     },
+    "W7203609438": {
+      "checked_at": "2026-10-01T14:24:46.811812+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Let chatbot apologize but let human hand over voucher",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7203655820": {
       "checked_at": "2026-09-20T12:44:12.993868+00:00",
       "result": {
@@ -338,22 +388,12 @@
         "state": "unreported"
       }
     },
-    "W7203673228": {
-      "checked_at": "2026-09-17T12:53:24.836636+00:00",
+    "W7203866299": {
+      "checked_at": "2026-10-01T14:25:27.203648+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "complaint agent only works allowed issue refund",
-        "returned": 3,
-        "state": "unreported"
-      }
-    },
-    "W7203856104": {
-      "checked_at": "2026-09-17T12:55:42.093845+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Hotel robots child like voices rated better service",
+        "query": "service robot fumbles customers watching ones who walk away",
         "returned": 0,
         "state": "unreported"
       }
@@ -414,6 +454,34 @@
         "articles": [],
         "outlets": [],
         "query": "Cute mascots should talk about warmth cool ones should talk",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204275888": {
+      "checked_at": "2026-10-01T14:25:37.400786+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://sebastianbarros.substack.com/p/telcos-human-customers-were-the-easy",
+            "outlet": "Sebastian Barros Newsletter",
+            "title": "Telcos, Human Customers Were the Easy Ones. Wait for AI Agents."
+          }
+        ],
+        "outlets": [
+          "Sebastian Barros Newsletter"
+        ],
+        "query": "human looks harder customers fall fails",
+        "returned": 3,
+        "state": "lightly_reported"
+      }
+    },
+    "W7204466776": {
+      "checked_at": "2026-10-01T14:25:14.933514+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "disabled customers actually say about service encounters dignity not discounts",
         "returned": 0,
         "state": "unreported"
       }
@@ -512,16 +580,6 @@
         "state": "unreported"
       }
     },
-    "W7204989107": {
-      "checked_at": "2026-09-17T12:56:25.813525+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Salespeople who want look good deliver warmer service weaker technical",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7204997257": {
       "checked_at": "2026-09-24T13:00:10.835954+00:00",
       "result": {
@@ -539,16 +597,6 @@
         "outlets": [],
         "query": "116 later alcohol awareness campaigns change minds but not drinking",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7207820376": {
-      "checked_at": "2026-09-17T12:52:51.544306+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Replying every bad review wrong strategy",
-        "returned": 2,
         "state": "unreported"
       }
     },
@@ -588,16 +636,6 @@
         "articles": [],
         "outlets": [],
         "query": "000 product test first item people saw shaped they wanted",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7211878886": {
-      "checked_at": "2026-09-17T12:52:44.583022+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Customers fork road ones worth marketing",
         "returned": 0,
         "state": "unreported"
       }
@@ -659,6 +697,16 @@
         "outlets": [],
         "query": "Does corporate social responsibility make people consume better just consume",
         "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7212038717": {
+      "checked_at": "2026-10-01T14:25:31.787296+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "delivery tracking reassures shoppers just not impatient ones",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -762,16 +810,6 @@
         "state": "unreported"
       }
     },
-    "W7212527755": {
-      "checked_at": "2026-09-17T12:53:19.229143+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Customers who crack joke get better service",
-        "returned": 8,
-        "state": "unreported"
-      }
-    },
     "W7212607085": {
       "checked_at": "2026-09-19T12:09:30.524884+00:00",
       "result": {
@@ -812,16 +850,6 @@
         "state": "unreported"
       }
     },
-    "W7213259568": {
-      "checked_at": "2026-09-17T12:53:21.025741+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Japanese fashion retailers turning store staff into their own influencers",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
     "W7213274443": {
       "checked_at": "2026-09-24T12:59:10.708999+00:00",
       "result": {
@@ -849,16 +877,6 @@
         "outlets": [],
         "query": "Ads designed screenshotted get saved liked",
         "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7213292238": {
-      "checked_at": "2026-09-17T12:54:21.397569+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "generated label quietly lowers expectations service",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1060,6 +1078,16 @@
         "state": "unreported"
       }
     },
+    "W7213665568": {
+      "checked_at": "2026-10-01T14:25:03.696969+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "online firestorm obsessives who spread damage not influencers",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213671071": {
       "checked_at": "2026-09-30T15:29:32.145350+00:00",
       "result": {
@@ -1238,6 +1266,16 @@
         "state": "unreported"
       }
     },
+    "W7214318124": {
+      "checked_at": "2026-10-01T14:25:46.453253+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "chatbot says understand feel angry customers get angrier",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214342499": {
       "checked_at": "2026-09-28T15:58:40.462332+00:00",
       "result": {
@@ -1278,12 +1316,42 @@
         "state": "unreported"
       }
     },
+    "W7214601318": {
+      "checked_at": "2026-10-01T14:25:06.786064+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "ChatGPT managers read same guest complaints prescribed different fixes",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214625896": {
+      "checked_at": "2026-10-01T14:25:55.502528+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Luxury brands flashy side ventures eroding thing people buy luxury",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214665435": {
       "checked_at": "2026-09-30T15:29:43.016378+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Chatbots get local culture make foreign retailer feel like hometown",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214671269": {
+      "checked_at": "2026-10-01T14:24:41.280253+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "wrong frontline staff stop thinking like customers",
         "returned": 0,
         "state": "unreported"
       }

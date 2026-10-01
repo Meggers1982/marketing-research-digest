@@ -1,0 +1,709 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-01",
+  "days_back": 60,
+  "window_from": "2026-08-02",
+  "window_to": "2026-10-01",
+  "focus": "Customer Experience & Service",
+  "topic": "customer experience & service",
+  "query": "\"customer experience\" OR \"service quality\" OR \"customer satisfaction\" OR \"frontline employee\" OR complaint OR \"service failure\" OR \"service recovery\" OR \"customer journey\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 111,
+    "not_research": 2,
+    "no_abstract": 17,
+    "off_topic": 1,
+    "already_covered": 30,
+    "over_journal_cap": 3,
+    "over_cap": 18,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7214671269",
+      "headline": "When the AI is wrong, frontline staff stop thinking like customers",
+      "the_study": "Researchers ran a large-scale simulated customer-service chat experiment with 730 frontline employees making more than 6,500 decisions with an AI assistant that sometimes gave incorrect recommendations, analyzed with hierarchical mixed-effects models and preceded by qualitative interviews with frontline staff and their managers. Employees given outcome-oriented empowerment (judged on results rather than process) made more customer-centric choices and were less likely to follow bad AI advice. Prescriptive step-by-step guidance raised baseline decision quality but eroded the protective effect of empowerment. Strikingly, simply being exposed to a wrong AI recommendation lowered the quality of employees' subsequent decisions, and prescriptive guidance made that spillover worse.",
+      "why_it_matters": "Most companies rolling out AI copilots in service centers focus on model accuracy and scripts; this evidence suggests the governance design around the tool — how much discretion agents have — determines whether an AI error costs you one interaction or contaminates the next dozen.",
+      "story_angle_primary": "Audit how your contact-center AI deployment is governed: if agents are measured on compliance with the tool rather than customer outcomes, this study suggests they will follow it off a cliff. Worth testing in a live pilot whether outcome-based scorecards plus lighter-touch guidance reduce error propagation, and whether agents need a reset or debrief after an AI mistake.",
+      "story_angle_secondary": "It helps explain a familiar frustration: the agent who keeps insisting on something that obviously doesn't fit your problem. The research suggests the person on the other end may be constrained by procedure, and may also be rattled by the system having just been wrong.",
+      "caveats": "Simulated chat environment rather than live customer interactions, so decisions carried no real commercial consequences; single experimental setting, and the qualitative phase sample size is not specified.",
+      "journal": "Journal of Service Research",
+      "published": "2026-09-28",
+      "doi": "10.1177/10946705261481651",
+      "paper_title": "Navigating Algorithmic Fallibility: Evaluating Implementation and Guidance Strategies in AI-Augmented Service Frontlines",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7203609438",
+      "headline": "Let the chatbot apologize, but let a human hand over the voucher",
+      "the_study": "Four experiments tested how consumers respond when a chatbot causes a minor service failure, varying who fixes it (the chatbot itself versus a human agent) and how (a psychological remedy such as an apology and explanation versus a tangible one such as compensation). Chatbot self-recovery worked best with psychological strategies, while human-mediated recovery worked best when paired with tangible compensation. Perceived competence, more than warmth, drove purchase intentions. When the task was complex, humans outperformed chatbots regardless of strategy — but a chatbot presented as highly intelligent recovered effectively either way.",
+      "why_it_matters": "Service recovery routing is a concrete design decision: this suggests firms can resolve small chatbot stumbles without escalating to a human, provided the bot sticks to apology and explanation rather than handing out compensation.",
+      "story_angle_primary": "Test a matched-recovery rule in your service flows — bot handles simple failures with explanation and apology, humans handle compensation and complex cases — and track resolution cost against repurchase, not just CSAT. Also test whether signaling your bot's capability upfront expands what it can credibly fix.",
+      "story_angle_secondary": "There's a logic to why a bot's apology can land fine but a bot's offer of a discount feels hollow: we read compensation as an admission that requires authority, and competence matters more than friendliness when something has gone wrong.",
+      "caveats": "Experiments use scenario-based stimuli and measure stated purchase intentions rather than real purchases; sample composition, country and per-condition sizes are not reported in the abstract.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-08-17",
+      "doi": "10.1108/jsm-09-2024-0488",
+      "paper_title": "Self-driven or human-assisted? The impact of chatbot service recovery on consumer purchase intentions",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7197051994",
+      "headline": "The self-checkout efficiency paradox: the design choices that save money also break service quality",
+      "the_study": "A sequential qualitative study paired interviews with managers responsible for developing retail self-service systems with in-situ interviews with consumers conducted immediately after they used the systems. The researchers identify six interlocking service quality gaps that appear once frontline employees are removed from the interaction, and describe an \"efficiency paradox\": the design decisions made to maximize scalability and operational efficiency are the same ones that create friction and destabilize service quality. Quality, they argue, only stabilizes over repeated use as the system and widely varying consumer capabilities come into alignment.",
+      "why_it_matters": "Retailers evaluate self-service rollouts on throughput and labor savings, but this work indicates that standard service quality models don't capture what is going wrong — and that the costs show up as misalignment with less-capable or less-frequent shoppers.",
+      "story_angle_primary": "Reframe self-checkout and kiosk measurement around the gaps between managerial assumptions and actual consumer capability: intercept shoppers right after use rather than relying on post-hoc surveys, and segment performance by customer proficiency instead of reporting a single average.",
+      "story_angle_secondary": "If self-checkout frequently makes you feel incompetent or surveilled, that experience is a documented feature of how these systems are designed, not a personal failing — and the burden falls unevenly on shoppers who use them less often.",
+      "caveats": "Qualitative and exploratory; sample sizes, retailers and country are not specified in the abstract, so findings are interpretive rather than generalizable, and no behavioral or sales outcomes were measured.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-08-06",
+      "doi": "10.1016/j.jretconser.2026.105009",
+      "paper_title": "Hidden in plain sight: service quality gaps in retail self-service systems",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7213665568",
+      "headline": "In an online firestorm, it's the obsessives who spread the damage — not the influencers",
+      "the_study": "Researchers analyzed 33 official crisis announcements and 26,449 user records on Sina Weibo during the 2023 Typhoon Doksuri refund crisis, when travel and service companies faced mass complaints over refunds. They tracked who actually propagated negative word-of-mouth and found a behavioral asymmetry: highly involved users (those personally invested and actively posting) spread far more negative word-of-mouth, while structurally influential users (those with large follower networks) spread less. Proactive corporate responses reduced negative word-of-mouth among both groups, while peer social support amplified it only among the highly involved.",
+      "why_it_matters": "Crisis playbooks typically prioritize reaching big accounts, but this real-platform data suggests the engine of a firestorm is the aggrieved, highly engaged customer getting sympathy from peers — a different target for intervention.",
+      "story_angle_primary": "Test whether your social listening dashboard is weighted toward follower counts when involvement intensity may be the better predictor of spread; the data also suggests proactive, early official responses dampened diffusion across both user types, which is a measurable hypothesis for the next incident.",
+      "story_angle_secondary": "When you vent about a company online and strangers pile on with sympathy, that support measurably makes you post more — a look at how collective outrage feeds itself.",
+      "caveats": "Single platform (Sina Weibo), single country (China) and a single crisis event; observational data, so causal claims about corporate response effectiveness are limited; cultural and platform-specific dynamics may not generalize.",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-19",
+      "doi": "10.1016/j.jbusres.2026.116522",
+      "paper_title": "Behavioral involvement and structural influence in negative word-of-mouth diffusion: Exploring online firestorms during service crises",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7214601318",
+      "headline": "ChatGPT and HR managers read the same guest complaints — and prescribed different fixes",
+      "the_study": "Researchers coded hospitality customer complaints from TripAdvisor using the HOLSERV service-quality framework, sorting failures into employee, reliability and tangible categories. They then asked human HR experts and ChatGPT to independently produce staff training recommendations from the same complaint evidence and compared them systematically. Human recommendations emphasized relational, context-sensitive and experience-based service delivery; the AI's were structured and operationally oriented, strong on pattern recognition but thinner on interactional repair.",
+      "why_it_matters": "It gives a concrete, category-level picture of where generative AI adds value in HR and service design — and where it predictably falls short — rather than a blanket claim that AI can or can't replace expertise.",
+      "story_angle_primary": "If you are piloting generative AI for training design or complaint triage, this suggests splitting the work: let the model do volume coding and operational fixes, and reserve human judgment for failures rooted in how staff treat guests. Worth validating in your own complaint corpus before scaling.",
+      "story_angle_secondary": "The complaints that annoy hotel guests most — being treated rudely or dismissively — are exactly the ones a chatbot is least equipped to help fix.",
+      "caveats": "Qualitative comparison rather than a controlled trial; no outcome measure showing either set of recommendations actually improved service; single sector (tourism/hospitality), single review platform, and a single AI model whose behavior changes with each version.",
+      "journal": "Service Industries Journal",
+      "published": "2026-09-27",
+      "doi": "10.1080/02642069.2026.2737149",
+      "paper_title": "Rethinking HR through AI: a sectoral analysis of customer complaints and training programs in tourism",
+      "source_id": "S49331332"
+    },
+    {
+      "work_id": "W7204466776",
+      "headline": "What disabled customers actually say about service encounters: dignity, not discounts",
+      "the_study": "Researchers combined netnography of two large disability communities on Reddit with critical incident accounts gathered from Reddit and Facebook to examine how service encounters affirm or violate human dignity. From the accounts they built \"Dignify,\" a framework distinguishing humanizing behaviors (dignity affirmation) from dehumanizing ones (dignity violation), alongside structural and social contexts. Dignity experiences mapped onto both well-being outcomes and hard service outcomes — trust, loyalty, switching intentions and word of mouth.",
+      "why_it_matters": "It reframes accessibility from a compliance checklist into frontline interaction quality, and links dignity directly to the loyalty and churn metrics service firms already track.",
+      "story_angle_primary": "Audit frontline training and service recovery scripts for dehumanizing defaults — talking to a companion instead of the customer, requiring repeated proof of need — and consider whether your customer experience metrics capture anything about being treated as a person. These are community-sourced accounts, so treat them as hypotheses to test in your own customer base.",
+      "story_angle_secondary": "A candid look at what disabled shoppers and patients report encountering in everyday service settings, and why small interactional slights drive them to switch providers.",
+      "caveats": "Qualitative and interpretive; self-selected online community posts rather than a representative sample; outcomes such as loyalty and switching are reported in narratives, not measured behaviorally; framework is conceptual and not yet quantitatively validated.",
+      "journal": "Journal of Service Research",
+      "published": "2026-08-26",
+      "doi": "10.1177/10946705261474543",
+      "paper_title": "Dignify: A Dignity-Based Conceptual Framework for Defining Consumer Vulnerability in Services",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7202253581",
+      "headline": "There is no universal recipe for good service — and the cleanest-looking businesses get the worst reviews",
+      "the_study": "Researchers text-mined 50,293 customer reviews from 11,198 businesses, scoring each for the five classic SERVQUAL dimensions (reliability, responsiveness, assurance, empathy, tangibles) and then used fuzzy-set qualitative comparative analysis, ANOVA and random forest importance to see which combinations actually accompany high satisfaction. The dimensions that mattered differed systematically by service type: responsiveness and assurance dominated in service shops, empathy drove professional services, and reliability plus physical surroundings characterized mass services. Strikingly, mass services scored highest on tangibles yet received the lowest ratings overall, and tangibles only predicted satisfaction when paired with relational qualities such as responsiveness or empathy.",
+      "why_it_matters": "It suggests that service-quality investment should be allocated by business model rather than by a generic checklist, and that spending on physical appearance without relational service quality can be wasted money.",
+      "story_angle_primary": "Audit where your service budget goes against your service typology: if you run a high-volume mass service, this observational evidence hints that refurbishment alone won't move ratings unless staff responsiveness and empathy come with it — worth testing with a controlled rollout across comparable locations before scaling.",
+      "story_angle_secondary": "Why a gleaming, newly renovated chain outlet can still feel like bad service: reviews suggest customers read decor as meaningful only when the people in it are attentive too.",
+      "caveats": "Cross-sectional review data, so no causal claims; findings rest on text-mined inferences from review language rather than direct measurement of service quality, and review writers are a self-selected slice of customers. Business mix and geography of the review platform are not specified in the abstract.",
+      "journal": "International Journal of Quality and Service Sciences",
+      "published": "2026-08-12",
+      "doi": "10.1108/ijqss-04-2026-0122",
+      "paper_title": "Service configuration–experience fit (SCEF): a contingency framework for service quality and performance optimization",
+      "source_id": "S103309803"
+    },
+    {
+      "work_id": "W7203866299",
+      "headline": "When a service robot fumbles, the customers watching are the ones who walk away",
+      "the_study": "Across three scenario-based experiments grounded in attribution theory, researchers tested how bystanders — not the customer being served — react to frontline service robot failures. Observers who watched a robot fail were more likely to intend to switch providers than those who watched a human employee fail, because they judged the robot's problem as more stable and likely to recur. Recovery style mattered: explanation-focused recoveries, especially outcome-focused explanations, blunted that effect more effectively than apologies.",
+      "why_it_matters": "Robot service failures in public spaces have an audience, and the reputational damage may land mostly on people who were never the victim — a cost that single-customer recovery scripts don't address.",
+      "story_angle_primary": "If you deploy robots in lobbies, airports or store floors, design recovery for the crowd: test visible, outcome-focused explanations (\"here's what went wrong and what happens next\") rather than apology-only scripts, and treat the audience as a measurable segment in pilot metrics.",
+      "story_angle_secondary": "People forgive a flustered human but assume a glitchy machine will glitch again — which is why watching a kiosk or robot fail once can quietly put you off a brand.",
+      "caveats": "Scenario-based experiments measuring stated switching intentions, not observed behavior; sample details, country and per-condition sample sizes are not reported in the abstract.",
+      "journal": "Service Industries Journal",
+      "published": "2026-08-21",
+      "doi": "10.1080/02642069.2026.2717515",
+      "paper_title": "I’ve seen you made a mistake: exploring observers’ reactions to robotic service failures and recovery",
+      "source_id": "S49331332"
+    },
+    {
+      "work_id": "W7212038717",
+      "headline": "AI delivery tracking reassures shoppers — just not the impatient ones",
+      "the_study": "A survey of 507 on-demand retail consumers tested whether AI-generated delivery transparency (live, automated fulfillment information) raises repurchase intention, and why. Transparency was associated with higher repurchase intention, mediated by a sense of control and then trust. Against the researchers' own prediction, highly time-sensitive consumers gained the least from extra transparency — consistent with a \"high baseline, low marginal gain\" pattern in which hurried customers already expect full visibility.",
+      "why_it_matters": "It reframes delivery tracking as service communication rather than logistics plumbing, and suggests the shoppers platforms most want to please get the least lift from more information.",
+      "story_angle_primary": "Consider segmenting fulfillment communication: this survey evidence points toward testing stronger assurance, exception handling and compensation guarantees for time-pressed customers, while richer visual tracking and progress explanations may do more for relaxed ones — a straightforward A/B test on an existing tracking screen.",
+      "story_angle_secondary": "The dopamine of the moving delivery dot has limits: once you expect to see exactly where your order is, more detail stops being reassuring and only a reliable outcome counts.",
+      "caveats": "Cross-sectional self-report survey — cannot establish causation; measures intentions rather than actual repurchases; single context (on-demand retail consumers already familiar with AI delivery information), and country not specified in the abstract.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-09",
+      "doi": "10.1108/apjml-05-2026-1216",
+      "paper_title": "AI-enabled delivery transparency and consumer repurchase intention in on-demand retail",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7172357977",
+      "headline": "When a package is late, saying nothing may protect the retailer",
+      "the_study": "Two scenario-based experiments tested how shoppers react when a delivery is delayed and the retailer either proactively tells them, stays quiet, or leaves the notification to the carrier. Grounded in attribution theory, the studies found that when retailers did not communicate the delay themselves — either keeping silent or letting the carrier handle it — consumers assigned less blame to the retailer and reported higher repurchase intentions. The pattern held whether the shipment was described as critical or routine, and regardless of how much the shopper had bought from the retailer before.",
+      "why_it_matters": "It cuts against the standard e-commerce reflex of proactive delay alerts, suggesting that owning the bad news can make a retailer the face of the failure rather than a trusted partner.",
+      "story_angle_primary": "Logistics and CX teams could A/B test who sends the delay notification — brand, carrier, or no one — and track blame attribution alongside repurchase rather than assuming transparency always wins. These are hypothetical scenarios, so treat it as a hypothesis worth a live holdout test, not a mandate to switch off delay emails.",
+      "story_angle_secondary": "It's a window into how shoppers assign fault: the company that tells you something went wrong often becomes the company you blame for it, even when the carrier dropped the ball.",
+      "caveats": "Two scenario-based experiments using hypothetical delivery situations and stated repurchase intentions rather than observed behavior; sample details and size not specified in the abstract; single service context (parcel delivery delays).",
+      "journal": "Journal of Business Logistics",
+      "published": "2026-08-03",
+      "doi": "10.1111/jbl.70089",
+      "paper_title": "The Case for Doing Less: Rethinking Communication With Consumers During Logistics Service Failures",
+      "source_id": "S38350834"
+    },
+    {
+      "work_id": "W7204275888",
+      "headline": "The more human your AI looks, the harder customers fall when it fails",
+      "the_study": "Three studies (n=322 and n=282 in an educational administration context; n=205 adults in retail banking) compared customer reactions when a service failure came from a lifelike digital human avatar versus a plain static chatbot interface. Trust dropped substantially more after the avatar failed, and the effect was partly explained by a stronger sense of violated expectations — amplified when the failure was more serious. The banking replication held even after controlling for discomfort, perceived deception, and blame directed at the institution.",
+      "why_it_matters": "Firms racing to make AI agents look and sound human may be building a trust liability: realistic avatars raise expectations that magnify the damage when the system gets something wrong.",
+      "story_angle_primary": "Before upgrading chat interfaces to photoreal digital humans, test failure scenarios, not just happy paths — and consider matching interface realism to the stakes of the task, with deliberately simpler-looking agents for high-consequence journeys. Online experiments show the mechanism can occur; the open question is how it plays out across repeated real interactions.",
+      "story_angle_secondary": "Explains an everyday irritation: a glossy, chatty AI assistant that fumbles your request feels more like a betrayal than a basic bot that does the same thing, because its appearance quietly promised competence.",
+      "caveats": "Experimental studies with scenario-based service failures rather than observed real-world service encounters; two of three studies in a single context (educational administration); country and recruitment source not specified in the abstract.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-08-26",
+      "doi": "10.1108/jsm-11-2025-0823",
+      "paper_title": "When AI service appearance backfires: form-based expectations and trust fragility",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7203443165",
+      "headline": "What Muslim travelers actually praise in halal luxury hotels, according to 369 reviews",
+      "the_study": "Researchers ran a content analysis, using Leximancer text-mining software, of 369 English-language TripAdvisor reviews of three hotels belonging to one award-winning halal luxury hotel brand, collected through July 2024. The analysis surfaced 11 recurring themes, nine describing service quality attributes and two describing outcomes of that service quality. Some themes mirrored standard hospitality service-quality frameworks, while others were distinctive to the halal luxury setting.",
+      "why_it_matters": "Halal-oriented luxury hospitality is a fast-growing segment with no established service-quality measure, and guests' own review language is the cheapest available map of what they value.",
+      "story_angle_primary": "Hospitality marketers serving faith-based segments can mine their own review corpora the same way to find attributes missing from generic service-quality audits — and should treat these themes as hypotheses to validate with on-property guest research before rebuilding standards around them.",
+      "story_angle_secondary": "A reminder that online reviews are not just ratings but a running record of what guests notice; for travelers with specific religious or dietary needs, those reviews often carry detail no brand website does.",
+      "caveats": "Qualitative, exploratory content analysis with no causal or quantitative test; a single hotel brand (three properties) and English-language reviews only, which skews away from the broader guest base; reviewers self-select, and no linkage to spending or return visits.",
+      "journal": "International Journal of Quality and Service Sciences",
+      "published": "2026-08-14",
+      "doi": "10.1108/ijqss-03-2026-0072",
+      "paper_title": "Unveiling halal luxury hotel service quality: key attributes from online reviews",
+      "source_id": "S103309803"
+    },
+    {
+      "work_id": "W7214318124",
+      "headline": "When a chatbot says 'I understand how you feel,' angry customers get angrier",
+      "the_study": "Researchers analyzed 32,586 real text conversations from a university library chatbot, using natural language processing and supervised machine learning to code chatbot capability failures, chatbot-expressed empathy, customer emotions and customer incivility, then tested a moderated mediation model. Technical and functional failures triggered negative emotions, which fully explained why customers turned rude. The twist: empathetic chatbot language did not calm people down -- it amplified the link between negative emotion and incivility, an effect the authors call \"empathy backfire.\"",
+      "why_it_matters": "Scripted empathy is a default design choice in nearly every customer service bot, and this evidence from real conversations suggests it can make failure moments worse when the bot cannot actually solve the problem.",
+      "story_angle_primary": "Audit your bot's empathy scripts against its actual resolution rate: the finding suggests brands should test whether apologetic, feeling-focused language helps or hurts in sessions where the bot cannot complete the task, and whether fast escalation to a human beats another round of 'I'm sorry to hear that.'",
+      "story_angle_secondary": "Explains the particular rage of arguing with a bot that keeps sympathizing without fixing anything -- and shows the feeling is widespread enough to be measured in tens of thousands of real chats.",
+      "caveats": "Single organization and a single context (a university library chatbot), so the customer base and stakes differ from commercial service; constructs were machine-coded from text rather than self-reported; observational data, so causal claims rest on the modeled pathway.",
+      "journal": "Internet Research",
+      "published": "2026-09-25",
+      "doi": "10.1108/intr-12-2025-2020",
+      "paper_title": "From scripted responses to emotional reactions: exploring customer incivility behavior and emotions during chatbot capability failures—a machine learning approach",
+      "source_id": "S63576417"
+    },
+    {
+      "work_id": "W7203477409",
+      "headline": "Make your service chatbot more capable, not more cuddly",
+      "the_study": "Across four studies combining large language model-based analysis of consumers' own descriptions of chatbot human-likeness with experiments, researchers split anthropomorphism into three types: physical (looks human), emotional (expresses feelings) and autonomous (acts independently and solves things). Only autonomous human-likeness raised satisfaction, working through perceived competence; emotional cues raised perceived warmth but not satisfaction, and physical cues did nothing. In a counterintuitive interaction replicated twice, piling on emotional warmth actually weakened the satisfaction benefit of autonomy by diluting perceptions of competence.",
+      "why_it_matters": "It suggests the common design investment in avatars, names and chatty emotional language may deliver nothing in efficiency-focused services like banking and e-commerce -- and can undercut the one dimension that does work.",
+      "story_angle_primary": "A testable reallocation: strip emotional and cosmetic human-likeness from a utilitarian bot, invest in autonomous problem-solving capability, and measure satisfaction against the warm version -- while noting these were experiments, not live deployments.",
+      "story_angle_secondary": "Most people want a bot that can finish the job, not one that pretends to care; the research puts numbers behind a widely shared intuition.",
+      "caveats": "Experimental studies with scenario-based service encounters rather than live customer relationships; sample composition and country not specified in the abstract; findings framed for utilitarian contexts and may not transfer to hedonic or emotionally sensitive services.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-08-14",
+      "doi": "10.1002/mar.70255",
+      "paper_title": "The Physical, Emotional, and Autonomous Anthropomorphism of Service Chatbots",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7172201743",
+      "headline": "When AI fails customers, apologize -- and don't blame the machine",
+      "the_study": "Two experiments (N=240 and N=560) tested how the public reacts to AI service failure crises depending on whether the AI was framed as human-driven or machine-driven, whether the failure involved competence or integrity, and which crisis response the company used. Failures attributed to human agency, and integrity violations rather than competence slips, did the most damage to the company. Apology clearly outperformed excuse-making and denial-style responses across conditions.",
+      "why_it_matters": "As companies push AI into frontline service, this gives communications teams an early evidence base for how to frame and respond to the inevitable AI-caused failures.",
+      "story_angle_primary": "Pressure-test your AI incident playbook: the data suggest 'the algorithm did it' framing and excuse strategies are weaker than a straight apology, and that integrity-type failures (bias, deception, misuse of data) need a fundamentally harder response than ordinary performance glitches.",
+      "story_angle_secondary": "Shows that people judge AI mistakes through a human lens -- who built it, who let it run -- rather than treating machine error as blameless accident.",
+      "caveats": "Two scenario-based experiments measuring stated reactions rather than real crisis behavior; sample source and country not described in the abstract; no real-world crisis data.",
+      "journal": "Journal of Public Relations Research",
+      "published": "2026-08-02",
+      "doi": "10.1080/1062726x.2026.2707912",
+      "paper_title": "Extending Situational Crisis Communication Theory in AI Service Failure Crises: How AI Agency Locus, Failure Type, and Corporate Crisis Communication Shape Public Responses",
+      "source_id": "S75775641"
+    },
+    {
+      "work_id": "W7214625896",
+      "headline": "Luxury brands' flashy side ventures may be eroding the thing people buy luxury for",
+      "the_study": "Using ethnography that combined 33 on-site observations, a netnography of 26 sites, and 11 accompanied visits with interviews of luxury consumers, researchers studied luxury brands' extended services -- cafés, hotels, experiential spaces. They document what they call \"reversed conspicuousness\": in these social-media-shaped venues, ostentation stops signaling exclusivity and quality and starts substituting for them. Consumers who perceived the conspicuousness as compensatory judged the service as inconsistent with the brand.",
+      "why_it_matters": "Brand extensions into hospitality and experience are a growth strategy across luxury, and this suggests Instagram-optimized spaces with mediocre service can damage perceptions of the parent brand.",
+      "story_angle_primary": "Before approving the next branded café or pop-up, check whether service quality and genuine exclusivity match the photo-op -- the qualitative evidence here points to extensions becoming a liability when ostentation is doing all the work.",
+      "story_angle_secondary": "For consumers: the branded luxury café queue may be the clearest sign that you are paying for a photograph rather than for anything exclusive.",
+      "caveats": "Qualitative and interpretive, with small numbers of observations and interviews; no quantitative test of effects on brand equity or sales; findings reflect a specific set of luxury brands and venues.",
+      "journal": "Journal of service management",
+      "published": "2026-09-28",
+      "doi": "10.1108/josm-07-2026-0546",
+      "paper_title": "Reversed conspicuousness: turning conspicuousness upside-down in luxury brands' extended services",
+      "source_id": "S107183665"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7214671269",
+      "headline": "When the AI is wrong, frontline staff stop thinking like customers",
+      "verdict": "minor",
+      "notes": "Design, N (730 employees, 6,500+ decisions), method and all four findings match the abstract. One rhetorical overstatement in \"Why it matters\"; the abstract's point that empowerment partially buffers the post-error decline is dropped.",
+      "issues": [
+        {
+          "label": "Scale of spillover overstated",
+          "severity": "Minor",
+          "as_written": "determines whether an AI error costs you one interaction or contaminates the next dozen",
+          "abstract_says": "exposure to incorrect AI recommendations significantly reduces subsequent customer-centric decisions, suggesting that algorithmic fallibility destabilizes trust and disrupts frontline employee decision calibration",
+          "problem": "The abstract reports a reduction in subsequent decision quality but gives no magnitude or duration; \"the next dozen\" invents a quantity the data as described do not support.",
+          "suggested_fix": "Replace with \"or degrades the decisions that follow it\"."
+        },
+        {
+          "label": "Buffering condition omitted",
+          "severity": "Minor",
+          "as_written": "simply being exposed to a wrong AI recommendation lowered the quality of employees' subsequent decisions, and prescriptive guidance made that spillover worse",
+          "abstract_says": "Empowerment partially buffers this post-error decline, whereas prescriptive guidance exacerbates it.",
+          "problem": "The digest keeps the aggravating factor but drops the matching protective one, making the post-error effect look less conditional than reported.",
+          "suggested_fix": "Add \"empowerment partly cushioned the drop, while prescriptive guidance made it worse\"."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7203609438",
+      "headline": "Let the chatbot apologize, but let a human hand over the voucher",
+      "verdict": "minor",
+      "notes": "All four findings, the mediator and the two boundary conditions (task complexity, chatbot intelligence) are reported correctly. Only the stimulus format in the caveats goes beyond the abstract.",
+      "issues": [
+        {
+          "label": "Stimulus format not stated in abstract",
+          "severity": "Minor",
+          "as_written": "Experiments use scenario-based stimuli and measure stated purchase intentions rather than real purchases",
+          "abstract_says": "Four experiments were conducted to test the proposed hypotheses.",
+          "problem": "The abstract does not describe the experiments as scenario-based; the characterization is unverifiable from abstract only (the purchase-intention point is supported).",
+          "suggested_fix": "Say \"four experiments measuring stated purchase intentions rather than real purchases; stimulus format not described in the abstract\"."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7197051994",
+      "headline": "The self-checkout efficiency paradox: the design choices that save money also break service quality",
+      "verdict": "minor",
+      "notes": "Design (sequential qualitative, manager plus in-situ consumer interviews), the six gaps and the efficiency paradox are reported accurately. Two consumer-facing claims — surveillance and usage frequency — are not in the abstract.",
+      "issues": [
+        {
+          "label": "Surveillance claim not in abstract",
+          "severity": "Minor",
+          "as_written": "If self-checkout frequently makes you feel incompetent or surveilled, that experience is a documented feature of how these systems are designed",
+          "abstract_says": "design choices intended to maximize scalability and operational efficiency simultaneously generate socio-technical frictions that destabilize service quality",
+          "problem": "The abstract describes socio-technical frictions and consumer capability misalignment but says nothing about feelings of surveillance or incompetence; unverifiable from abstract only.",
+          "suggested_fix": "Limit to friction and capability mismatch, e.g. \"If self-checkout regularly trips you up, that friction is built into the design.\""
+        },
+        {
+          "label": "Usage frequency extrapolated",
+          "severity": "Minor",
+          "as_written": "the costs show up as misalignment with less-capable or less-frequent shoppers",
+          "abstract_says": "alignment between service configurations and heterogeneous consumer capabilities, expectations, and perceptions",
+          "problem": "The abstract refers to heterogeneous capabilities and repeated interactions but does not segment consumers by how often they use the systems.",
+          "suggested_fix": "Say \"misalignment with consumers whose capabilities and expectations differ from the design assumptions\"."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7213665568",
+      "headline": "In an online firestorm, it's the obsessives who spread the damage — not the influencers",
+      "verdict": "minor",
+      "notes": "Data source, counts, the behavioral asymmetry and both contingencies are reported correctly, and platform/country limits are flagged. The consumer angle slips into causal phrasing for observational data.",
+      "issues": [
+        {
+          "label": "Causal phrasing for observational data",
+          "severity": "Minor",
+          "as_written": "that support measurably makes you post more",
+          "abstract_says": "Peer social support amplifies NWOM only among highly involved users, with no significant effect on influential users.",
+          "problem": "This is correlational social-media data; \"makes you post more\" asserts causation, which the digest's own caveat says is limited.",
+          "suggested_fix": "Say \"peer sympathy went hand in hand with more negative posting among the most involved users\"."
+        },
+        {
+          "label": "\"Obsessives\" mischaracterizes the construct",
+          "severity": "Minor",
+          "as_written": "it's the obsessives who spread the damage",
+          "abstract_says": "user behavioral involvement ... highly involved users spread more NWOM",
+          "problem": "\"Behavioral involvement\" means posting activity and personal stake in the issue, not obsessiveness; the label adds a pejorative reading not in the construct.",
+          "suggested_fix": "Use \"the highly involved\" or \"the personally aggrieved\" in the headline."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7214601318",
+      "headline": "ChatGPT and HR managers read the same guest complaints — and prescribed different fixes",
+      "verdict": "minor",
+      "notes": "Method (TripAdvisor complaints coded in the HOLSERV framework, parallel human and ChatGPT recommendations) and the human-relational vs AI-operational contrast match the abstract. One consumer-angle claim about what annoys guests most is not supported.",
+      "issues": [
+        {
+          "label": "Complaint ranking not reported",
+          "severity": "Minor",
+          "as_written": "The complaints that annoy hotel guests most — being treated rudely or dismissively — are exactly the ones a chatbot is least equipped to help fix.",
+          "abstract_says": "Customer complaints from TripAdvisor were analyzed using MAXQDA within the HOLSERV framework, categorizing failures into employee, reliability, and tangible dimensions.",
+          "problem": "The abstract categorizes complaint types but does not rank them by how much they upset guests, so \"annoy hotel guests most\" is unsupported.",
+          "suggested_fix": "Say \"Complaints about how staff treat guests are the ones the AI handled least well.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7204466776",
+      "headline": "What disabled customers actually say about service encounters: dignity, not discounts",
+      "verdict": "minor",
+      "notes": "Method (netnography of two Reddit disability communities plus critical incident accounts from Reddit and Facebook) and the Dignify framework are described accurately, and the limits are well flagged. Two small overreaches in the consumer angle.",
+      "issues": [
+        {
+          "label": "Causal claim from narrative accounts",
+          "severity": "Minor",
+          "as_written": "why small interactional slights drive them to switch providers",
+          "abstract_says": "Humanization ... and Dehumanization ... behaviors, along with Structural Factors and Social Factors ... shape consumer ... and service outcomes (trust, loyalty, switching intentions, service failures, and word-of-mouth/electronic word-of-mouth)",
+          "problem": "Switching intentions appear in a conceptual framework built from self-reported accounts; \"drive them to switch providers\" claims an established behavioral cause.",
+          "suggested_fix": "Say \"why people describe interactional slights as the reason they intend to switch providers\"."
+        },
+        {
+          "label": "\"Patients\" not specified",
+          "severity": "Minor",
+          "as_written": "what disabled shoppers and patients report encountering in everyday service settings",
+          "abstract_says": "netnography to gather data from two large disability communities on Reddit, while the critical incident technique was used to collect data from Reddit and Facebook",
+          "problem": "The abstract does not identify healthcare encounters or patient participants specifically; unverifiable from abstract only.",
+          "suggested_fix": "Say \"disabled consumers\" rather than naming patient settings."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7202253581",
+      "headline": "There is no universal recipe for good service — and the cleanest-looking businesses get the worst reviews",
+      "verdict": "minor",
+      "notes": "Sample (50,293 reviews, 11,198 businesses), methods and all typology findings match, and the cross-sectional caveat mirrors the abstract. The headline compresses a category-level comparison into a business-level claim.",
+      "issues": [
+        {
+          "label": "Headline shifts level of analysis",
+          "severity": "Minor",
+          "as_written": "the cleanest-looking businesses get the worst reviews",
+          "abstract_says": "Mass Services score highest on tangibles yet receive the lowest ratings, and tangibles are diagnostic only when combined with relational dimensions",
+          "problem": "The comparison is between service typologies (Mass Services as a category), not between individual businesses ranked on cleanliness; as headlined it implies tidier premises predict worse ratings for any business.",
+          "suggested_fix": "Say \"the service category that scores highest on physical appearance gets the lowest ratings\"."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7203866299",
+      "headline": "When a service robot fumbles, the customers watching are the ones who walk away",
+      "verdict": "accurate",
+      "notes": "Three scenario-based experiments, the observer switching-intention effect, the perceived-stability mechanism and the explanation-vs-apology recovery finding all match the abstract; caveats correctly note stated intentions and missing sample details.",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7212038717",
+      "headline": "AI delivery tracking reassures shoppers — just not the impatient ones",
+      "verdict": "minor",
+      "notes": "N=507, the mediation chain, the reverse moderation by time sensitivity and the \"high baseline, low marginal gain\" interpretation all match; the digest body correctly uses associational language. Two small points: the headline verb implies causation, and the separate mediation paths are compressed.",
+      "issues": [
+        {
+          "label": "Causal verb in headline",
+          "severity": "Minor",
+          "as_written": "AI delivery tracking reassures shoppers — just not the impatient ones",
+          "abstract_says": "AEDT significantly increases RI ... The cross-sectional design does not permit definitive causal inference",
+          "problem": "The abstract explicitly rules out causal inference; \"reassures\" reads as an established causal effect, while the body and caveats are correctly hedged.",
+          "suggested_fix": "Soften to \"AI delivery tracking goes with more repeat buying — just not among the impatient\"."
+        },
+        {
+          "label": "Mediation structure simplified",
+          "severity": "Minor",
+          "as_written": "mediated by a sense of control and then trust",
+          "abstract_says": "PC and CT each mediate this relationship, and the chained pathway through PC and trust is also significant.",
+          "problem": "The abstract reports control and trust each as independent mediators plus a serial path; the digest reports only the serial chain.",
+          "suggested_fix": "Say \"mediated by perceived control and by trust separately, and by the two in sequence\"."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7172357977",
+      "headline": "When a package is late, saying nothing may protect the retailer",
+      "verdict": "accurate",
+      "notes": "Two scenario-based experiments, the attribution-theory grounding, the direction of the blame and repurchase-intention effects, and the robustness across service criticality and prior patronage are all reported correctly, with appropriately hedged framing and caveats.",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "work_id": "W7204275888",
+      "headline": "The more human your AI looks, the harder customers fall when it fails",
+      "verdict": "accurate",
+      "notes": "Sample sizes, contexts, mediation and controls all match the abstract. One unverifiable detail: the story angle calls these \"online experiments,\" which the abstract never states.",
+      "issues": [
+        {
+          "label": "Mode of administration not in abstract",
+          "severity": "Minor",
+          "as_written": "Online experiments show the mechanism can occur; the open question is how it plays out across repeated real interactions.",
+          "abstract_says": "Studies 1 and 2 (n = 322, n = 282) involved a between-subjects design that was set up in the context of educational administration... Study 3 (n = 205), on the other hand, adopted a post-performance only design involving adults in the banking sector.",
+          "problem": "The abstract does not say the experiments were run online, and the digest's own caveat says recruitment source is unspecified, so the body text slightly contradicts the caveat.",
+          "suggested_fix": "Change to \"Controlled experiments show the mechanism can occur...\" or note that the delivery mode is not reported."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7203443165",
+      "headline": "What Muslim travelers actually praise in halal luxury hotels, according to 369 reviews",
+      "verdict": "minor",
+      "notes": "Method, sample, date cutoff and the 11-theme split are reported correctly. The headline attributes the reviews to \"Muslim travelers\" and frames the themes as praise, neither of which the abstract establishes.",
+      "issues": [
+        {
+          "label": "Reviewer identity assumed",
+          "severity": "Minor",
+          "as_written": "What Muslim travelers actually praise in halal luxury hotels, according to 369 reviews",
+          "abstract_says": "This study analyzed 369 online reviews from Tripadvisor of an award-winning halal luxury hotel brand... Qualitative analysis showed 11 key themes that mattered to consumers of halal luxury hotels.",
+          "problem": "The abstract describes reviewers only as consumers of halal luxury hotels; it does not confirm they are Muslim travelers, and the themes are what \"mattered\" (including attributes and outcomes) rather than specifically praise.",
+          "suggested_fix": "Reword to something like \"What guests of halal luxury hotels talk about in 369 reviews.\""
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7214318124",
+      "headline": "When a chatbot says 'I understand how you feel,' angry customers get angrier",
+      "verdict": "accurate",
+      "notes": "Sample size, method (NLP plus supervised machine learning, moderated mediation), full mediation finding and the \"empathy backfire\" moderation all match the abstract; caveats correctly flag the single-organization context and machine-coded constructs.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7203477409",
+      "headline": "Make your service chatbot more capable, not more cuddly",
+      "verdict": "minor",
+      "notes": "Four-study mixed-method design and the three anthropomorphism dimensions are reported accurately. Small overstatement of how often the interaction was replicated, and the utilitarian-context boundary is dropped from the findings sentence (though it appears in Caveats).",
+      "issues": [
+        {
+          "label": "Replication count",
+          "severity": "Minor",
+          "as_written": "In a counterintuitive interaction replicated twice, piling on emotional warmth actually weakened the satisfaction benefit of autonomy by diluting perceptions of competence.",
+          "abstract_says": "Study 3 reveals a counterintuitive interaction... Study 4 replicates the interaction found in Study 3, and confirms that the attenuation happens in the translation of autonomous cues into competence perceptions.",
+          "problem": "The interaction was found in Study 3 and replicated once, in Study 4; \"replicated twice\" implies two independent replications.",
+          "suggested_fix": "Change to \"an interaction found in one study and replicated in a second\"."
+        },
+        {
+          "label": "Boundary condition dropped from findings sentence",
+          "severity": "Minor",
+          "as_written": "Only autonomous human-likeness raised satisfaction, working through perceived competence; emotional cues raised perceived warmth but not satisfaction, and physical cues did nothing.",
+          "abstract_says": "emotional anthropomorphism enhances perceived warmth, which does not translate into higher satisfaction in utilitarian service contexts",
+          "problem": "The abstract scopes the warmth-does-not-help result to utilitarian service contexts; the body sentence states it unconditionally (the limit appears only in Caveats).",
+          "suggested_fix": "Add \"in utilitarian service settings\" to the findings sentence."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7172201743",
+      "headline": "When AI fails customers, apologize -- and don't blame the machine",
+      "verdict": "minor",
+      "notes": "Ns and the Study 1 agency/failure-type findings match. The claim that apology won \"across conditions\" drops the abstract's explicit qualifier about nuanced differences, and the integrity-response recommendation goes beyond what was tested.",
+      "issues": [
+        {
+          "label": "Qualifier dropped on apology result",
+          "severity": "Moderate",
+          "as_written": "Apology clearly outperformed excuse-making and denial-style responses across conditions.",
+          "abstract_says": "Study 2 (N = 560) demonstrates that the apology strategy most effectively mitigates corporate crisis damage, whereas diminish (e.g. excuse) and denial (e.g. mirror) strategies are suboptimal – though nuanced differences emerge across conditions.",
+          "problem": "The abstract specifically notes that nuanced differences emerge across conditions; the digest asserts a uniform advantage \"across conditions,\" which reverses that caveat.",
+          "suggested_fix": "Write \"Apology was the most effective overall, though the authors note nuanced differences across conditions.\""
+        },
+        {
+          "label": "Response prescription not tested",
+          "severity": "Minor",
+          "as_written": "integrity-type failures (bias, deception, misuse of data) need a fundamentally harder response than ordinary performance glitches",
+          "abstract_says": "human-agency (vs. machine-agency) AI failures and AI integrity-violations (vs. competence-violations) inflict greater harm to the corporation",
+          "problem": "The abstract shows integrity violations cause more harm, but does not test whether they require a different or stronger response strategy; the examples (bias, deception, data misuse) are also not in the abstract.",
+          "suggested_fix": "Reframe as \"integrity-type failures caused more damage in this study, which may mean they warrant more than a standard performance-glitch response.\""
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7214625896",
+      "headline": "Luxury brands' flashy side ventures may be eroding the thing people buy luxury for",
+      "verdict": "minor",
+      "notes": "Method counts (33 observations, 26 netnography sites, 11 accompanied visits) and the reversed-conspicuousness finding match the abstract. The specific service types named are not in the abstract, and there is a duplicated \"For consumers:\" lead-in in the second story angle.",
+      "issues": [
+        {
+          "label": "Service types not specified in abstract",
+          "severity": "Minor",
+          "as_written": "researchers studied luxury brands' extended services -- cafés, hotels, experiential spaces",
+          "abstract_says": "an ethnographic study combining 33 on-site observations, a netnography of 26 sites, and 11 accompanied visits and interviews with luxury consumers of luxury brands' extended services",
+          "problem": "The abstract refers only to \"extended services\" without naming cafés, hotels or experiential spaces. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"luxury brands' extended services\" without specifying the venue types, or attribute the examples to the full paper."
+        },
+        {
+          "label": "Duplicated audience lead-in",
+          "severity": "Minor",
+          "as_written": "**For general readers and consumers:** For consumers: the branded luxury café queue may be the clearest sign that you are paying for a photograph rather than for anything exclusive.",
+          "abstract_says": "n/a — editorial issue, not an abstract discrepancy",
+          "problem": "The audience label is repeated inside the sentence, a copy-editing slip.",
+          "suggested_fix": "Delete the redundant \"For consumers:\"."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 16,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7214671269": {
+        "query": "wrong frontline staff stop thinking like customers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203609438": {
+        "query": "Let chatbot apologize but let human hand over voucher",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7197051994": {
+        "query": "self checkout efficiency paradox design choices save money also break",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213665568": {
+        "query": "online firestorm obsessives who spread damage not influencers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214601318": {
+        "query": "ChatGPT managers read same guest complaints prescribed different fixes",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204466776": {
+        "query": "disabled customers actually say about service encounters dignity not discounts",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202253581": {
+        "query": "There universal recipe good service cleanest looking businesses get worst",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203866299": {
+        "query": "service robot fumbles customers watching ones who walk away",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212038717": {
+        "query": "delivery tracking reassures shoppers just not impatient ones",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7172357977": {
+        "query": "package late saying nothing protect retailer",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204275888": {
+        "query": "human looks harder customers fall fails",
+        "returned": 3,
+        "outlets": [
+          "Sebastian Barros Newsletter"
+        ],
+        "articles": [
+          {
+            "title": "Telcos, Human Customers Were the Easy Ones. Wait for AI Agents.",
+            "outlet": "Sebastian Barros Newsletter",
+            "link": "https://sebastianbarros.substack.com/p/telcos-human-customers-were-the-easy"
+          }
+        ],
+        "state": "lightly_reported"
+      },
+      "W7203443165": {
+        "query": "Muslim travelers actually praise halal luxury hotels according 369 reviews",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214318124": {
+        "query": "chatbot says understand feel angry customers get angrier",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203477409": {
+        "query": "Make service chatbot capable not cuddly",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7172201743": {
+        "query": "fails customers apologize don blame machine",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214625896": {
+        "query": "Luxury brands flashy side ventures eroding thing people buy luxury",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n\n- **Anthropomorphism is a liability at the moment of failure.** The new batch strongly reinforces the previous run's severity-contingent finding. \"When robots fail badly, giving them a human face backfires\" (W7203488123) is now echoed by \"The more human your AI looks, the harder customers fall when it fails\" (W7204275888), which pins the mechanism on violated expectations amplified by failure severity, and by \"When a service robot fumbles, the customers watching are the ones who walk away\" (W7203866299), which shows the penalty extends to onlookers.\n- **Competence beats warmth.** \"Let the chatbot apologize, but let a human hand over the voucher\" (W7203609438) and \"Make your service chatbot more capable, not more cuddly\" (W7203477409) both find perceived competence, not warmth, drives outcomes — consistent with the previous digest's \"Your AI complaint agent only works if it's allowed to issue the refund\" (W7203673228), where the bot's ability to act, not its identity, carried the effect.\n- **Recovery should be triaged, not standardized.** The previous run's hotel-robot triage rule (W7201883691) is matched by the new matched-recovery finding (W7203609438): bots handle small failures with apology and explanation, humans handle compensation and complexity.\n- **Frontline staff remain the gating variable in service tech.** \"When the AI is wrong, frontline staff stop thinking like customers\" (W7214671269) sits directly alongside the Dual Adoption Model (W7168115520) and the empowered-agent finding (W7203673228): discretion and incentive design, not tool quality, determine whether the technology delivers.\n\n**Advances**\n\n- Authority and empowerment, previously studied on the customer-facing side (W7203673228), now moves inside the organization: W7214671269 shows outcome-based empowerment protects employees from following bad AI advice, and documents error contagion into subsequent decisions — a mechanism not present in the earlier work.\n- Blame attribution, introduced last run with the gig-economy ideology study (W7202074508), is extended by two new attribution-theory papers: \"When AI fails customers, apologize — and don't blame the machine\" (W7172201743) finds human-agency framing and integrity violations do the most damage, and \"When a package is late, saying nothing may protect the retailer\" (W7172357977) shows the communicator of bad news absorbs the blame.\n- Negative word of mouth moves from review platforms to live firestorms: the previous webcare study (W7207820376) tested what firms should say; \"In an online firestorm, it's the obsessives who spread the damage\" (W7213665568) tests who actually carries it, and finds involvement beats follower count.\n\n**Counterpoints**\n\n- The previous run's \"cheap relational tweaks buffer bot failure\" thread — user-named chatbots (W7202216162) and child-like robot voices (W7203856104) — now runs into direct opposition. W7203477409 finds physical and emotional human-likeness deliver nothing and actively dilute perceived competence, and \"When a chatbot says 'I understand how you feel,' angry customers get angrier\" (W7214318124) finds empathetic language amplifies incivility in real failed conversations. The boundary appears to be hedonic versus utilitarian context and, critically, whether the bot can resolve the problem.\n- Transparency as a default is challenged. W7172357977 finds proactive delay notification raises blame and lowers repurchase intention, and \"AI delivery tracking reassures shoppers — just not the impatient ones\" (W7212038717) finds diminishing returns for the segment firms most want to please — complicating the \"communicate early and often\" reflex that the previous digest's webcare and disclosure studies (W7207820376, W7213292238) left largely intact.\n\n**New themes**\n\n- **Service exclusion and capability inequality.** \"The self-checkout efficiency paradox\" (W7197051994) and \"What disabled customers actually say about service encounters: dignity, not discounts\" (W7204466776) open a line absent from the previous digest: automation and frontline conduct impose uneven costs on less-capable, less-frequent or disabled customers, with loyalty and switching consequences.\n- **Service quality as model-contingent rather than universal.** W7202253581 finds SERVQUAL dimensions matter differently by business type, and that tangibles predict satisfaction only in combination with relational quality.\n- **AI as back-office service designer.** \"ChatGPT and HR managers read the same guest complaints\" (W7214601318) shifts the AI question from the customer interface to training design and complaint triage.\n- **Brand extensions as a service risk.** \"Luxury brands' flashy side ventures\" (W7214625896) introduces reversed conspicuousness — a theme with no precedent in the previous run.",
+    "feature_pitch": "**The pattern:** Across this batch, the industry's central design bet in AI service — make it feel more human — is failing on the evidence, and failing hardest at the moment of breakdown. Empathetic bot language amplified customer incivility across 32,586 real conversations (\"When a chatbot says 'I understand how you feel,' angry customers get angrier,\" W7214318124); lifelike avatars produced sharper trust collapse than plain interfaces after an identical failure (W7204275888); only autonomous, problem-solving human-likeness raised satisfaction while emotional warmth diluted perceived competence (W7203477409); competence outranked warmth in chatbot recovery (W7203609438); and bystanders who merely watched a robot fail were more likely to switch providers than those who watched a human fail (W7203866299).\n\n**Why pitch this now:** Voice agents, photoreal digital humans and emotionally tuned LLM assistants are the dominant customer-service procurement story of the moment, and brands are buying the warmth features specifically — while this evidence says warmth is the part that backfires when the system can't finish the job.\n\n**Angle:** A reported feature on the \"empathy tax\" in AI service design — why the humanizing layer brands are paying extra for raises expectations the underlying system can't meet, and what a competence-first interface would look like instead. Aimed at CX, product and brand leaders, with a general-interest version on the specific rage of being sympathized with by software that cannot help you.\n\n**Potential headlines:**\n- The research says AI agents should be more capable, not more human\n- Customers got angrier when the chatbot said it understood how they felt\n- Every lifelike avatar makes a promise your service has to keep\n\n**Potential outlets:**\n- **Marketing Brew** — covers the AI-agent buying spree in marketing and customer service, and this reframes the feature set brands are being sold.\n- **The Drum** — runs contrarian takes on AI deployment in brand experience, and the avatar-versus-plain-bot evidence is a direct challenge to current agency and vendor pitches.\n- **Harvard Business Review** — the governance framing (match interface realism to task stakes; design for failure paths, not happy paths) fits its service and AI operations coverage.\n- **WIRED** — strong on interface design and the consumer backlash against synthetic empathy, which is the general-reader half of this story.",
+    "pitch_ideas": "- **When the AI is wrong, frontline staff stop thinking like customers (Work ID W7214671269):** Exposure to a single wrong AI recommendation degraded agents' next decisions, and rigid scripts made the contagion worse — an argument that copilot governance matters more than model accuracy, for a CX leadership column or a contact-center trade feature.\n- **Let the chatbot apologize, but let a human hand over the voucher (Work ID W7203609438):** A concrete routing rule — bots do apologies and explanations, humans do money and complexity — testable against resolution cost and repurchase, for a marketing-trade news brief or a service-operations explainer.\n- **The self-checkout efficiency paradox (Work ID W7197051994):** The design choices that make self-service scalable are the same ones that break service quality, with the burden falling on infrequent and less-confident shoppers — for a retail trade explainer or a general-interest consumer piece on the self-checkout backlash.\n- **In an online firestorm, it's the obsessives who spread the damage — not the influencers (Work ID W7213665568):** Social listening weighted to follower counts may be watching the wrong accounts; involvement intensity predicted negative word-of-mouth spread, for a PR and crisis-communications trade outlet.\n- **ChatGPT and HR managers read the same guest complaints (Work ID W7214601318):** A category-level map of where generative AI helps in complaint triage and training design and where it predictably falls short — for a hospitality trade outlet or an HR-technology column.\n- **What disabled customers actually say about service encounters: dignity, not discounts (Work ID W7204466776):** Accessibility reframed from compliance checklist to interaction quality, with dignity violations linked to trust, switching and word of mouth — for a service-design feature or a general-interest piece on how disabled customers are treated at the counter.\n- **There is no universal recipe for good service (Work ID W7202253581):** 50,293 reviews suggest refurbishment money is wasted in mass services unless responsiveness and empathy come with it — for a retail or hospitality trade explainer on where service budgets should go.\n- **When a service robot fumbles, the customers watching are the ones who walk away (Work ID W7203866299):** The reputational cost of public robot failure lands on bystanders, and outcome-focused explanations beat apologies — for a retail or travel trade brief on designing recovery for an audience.\n- **AI delivery tracking reassures shoppers — just not the impatient ones (Work ID W7212038717):** The customers most obsessed with speed get the least lift from more tracking detail, which points to segmenting fulfillment communication — for an e-commerce or logistics trade column.\n- **When a package is late, saying nothing may protect the retailer (Work ID W7172357977):** A direct challenge to proactive delay alerts — the brand that delivers the bad news becomes the brand blamed for it — for a retail trade news brief or a consumer-psychology explainer on how shoppers assign fault.\n- **The more human your AI looks, the harder customers fall when it fails (Work ID W7204275888):** Photoreal digital humans raise expectations that magnify trust damage on failure, with a replication in retail banking — for a CX or product-design column.\n- **What Muslim travelers actually praise in halal luxury hotels (Work ID W7203443165):** A fast-growing hospitality segment with no established service-quality measure, mapped from guests' own review language — for a travel trade outlet or a hospitality marketing brief.\n- **When a chatbot says 'I understand how you feel,' angry customers get angrier (Work ID W7214318124):** \"Empathy backfire\" measured in tens of thousands of real chats — a direct challenge to the default empathy script in nearly every service bot, for a marketing-trade news brief or a consumer-technology explainer.\n- **Make your service chatbot more capable, not more cuddly (Work ID W7203477409):** Splitting anthropomorphism into three types shows only autonomous problem-solving raises satisfaction, and warmth cues undercut it — a budget-reallocation argument for a CMO-audience column or a UX design outlet.\n- **When AI fails customers, apologize — and don't blame the machine (Work ID W7172201743):** \"The algorithm did it\" tested worse than a straight apology, and integrity failures need a harder response than performance glitches — for a PR and crisis-communications trade outlet.\n- **Luxury brands' flashy side ventures may be eroding the thing people buy luxury for (Work ID W7214625896):** \"Reversed conspicuousness\" in Instagram-optimized branded cafés and hotels, where ostentation substitutes for the exclusivity it once signaled — for a luxury and retail business feature or a culture-and-consumption piece in a general-interest outlet."
+  }
+}
