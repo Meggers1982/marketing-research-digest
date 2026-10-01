@@ -1,0 +1,666 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-01",
+  "days_back": 60,
+  "window_from": "2026-08-02",
+  "window_to": "2026-10-01",
+  "focus": "Customer Experience & Service",
+  "topic": "customer experience & service",
+  "query": "\"customer experience\" OR \"service quality\" OR \"customer satisfaction\" OR \"frontline employee\" OR complaint OR \"service failure\" OR \"service recovery\" OR \"customer journey\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 111,
+    "not_research": 2,
+    "no_abstract": 17,
+    "off_topic": 1,
+    "already_covered": 46,
+    "over_journal_cap": 1,
+    "over_cap": 4,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7204579696",
+      "headline": "Making AI avatars look human matters less than making them useful",
+      "the_study": "Researchers surveyed 607 consumers who had interacted with AI-generated \"digital humans\" (virtual avatars used in online sales and service), then analyzed the data with both structural equation modeling and fuzzy-set qualitative comparative analysis. Intelligent service capability and social influence were positively linked to both solo and shared (socially shared, co-viewed) customer experience, while sensory anthropomorphism — how lifelike the avatar looks and sounds — was linked only to solo experience. In the configurational analysis, capability and social influence emerged as core conditions for a strong shared experience, with lifelike appearance only a peripheral one.",
+      "why_it_matters": "Brands pouring budget into photorealistic AI presenters may be investing in the least consequential attribute; competence and social proof appear to do the heavier lifting, especially when experiences are shared or talked about.",
+      "story_angle_primary": "Audit where your digital-human budget goes: this survey evidence suggests testing a functionally smarter, less visually polished avatar against a hyper-realistic one, and measuring not just individual satisfaction but whether the experience is worth sharing.",
+      "story_angle_secondary": "For shoppers, it's a reminder that the uncanny polish of a virtual assistant isn't what makes the encounter good — being actually helped is. Lifelike design can look like value without delivering it.",
+      "caveats": "Cross-sectional self-report survey, so no causal claims; single questionnaire sample of consumers with prior AI digital-human experience (likely a single national market, Asia-Pacific); outcomes are perceptions of experience rather than observed purchases.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-08-28",
+      "doi": "10.1108/apjml-04-2026-0802",
+      "paper_title": "How do the attributes of AI-generated digital humans relate to online customer experience? Evidence from SEM and fsQCA",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7203638544",
+      "headline": "When an AI agent does your shopping, trust in the bot becomes trust in the product",
+      "the_study": "Drawing on behavioral reasoning theory and trust transfer theory, the researchers modeled consumer responses to generative AI shopping agents that search, compare and recommend on a shopper's behalf. Reasons for adoption clustered around contextual relevance, time and effort saved, usefulness of advice and informativeness; reasons against included perceived complexity, privacy concerns, irritation and attachment to traditional shopping. Crucially, purchase intention formed through trust transferring from the agent to the goods it recommended, moderated by how much the consumer generally trusts algorithms and by what kind of product was recommended.",
+      "why_it_matters": "If credibility flows from the AI agent to whatever it surfaces, the agent — not the brand — becomes the gatekeeper of consideration, and early journey stages that marketers currently buy their way into may be automated away.",
+      "story_angle_primary": "Start planning for a world where your first \"customer\" is an agent: test how your product data, context signals and reviews read to an AI intermediary, and watch the finding that contextual relevance can substitute for invasive preference-based personalization.",
+      "story_angle_secondary": "The study suggests a quiet risk for shoppers: once you trust the assistant, you tend to trust its picks without re-examining them. Knowing that halo exists is the first defense against outsourcing judgment entirely.",
+      "caveats": "Reported as a theory-driven model of stated reasons and purchase intentions rather than observed purchasing; the abstract does not specify sample size, country or recruitment method; agents described as \"upcoming,\" so responses are likely to anticipated rather than actual use.",
+      "journal": "Journal of Marketing Management",
+      "published": "2026-08-17",
+      "doi": "10.1080/0267257x.2026.2715539",
+      "paper_title": "Factors affecting changes in the customer journey with generative AI shopping agents: aspects of purchase decision-making",
+      "source_id": "S14291815"
+    },
+    {
+      "work_id": "W7214497259",
+      "headline": "Giving salespeople digital tools makes them improvise better — but only under a certain kind of boss",
+      "the_study": "Across three studies with business-to-business frontline employees — a survey of 115, interviews with 12, and an experiment with 210 — researchers examined \"bricolage,\" the practice of making do and improvising solutions with whatever resources are at hand. Employees more integrated with digital technologies showed more bricolage, which in turn predicted more adaptive selling and higher job performance. The digital-to-bricolage link was stronger when managers displayed intellectual stimulation, that is, prompting employees to question assumptions and rethink problems.",
+      "why_it_matters": "It suggests technology rollouts to frontline teams pay off through improvisation rather than standardization, and that the manager's coaching style is a necessary multiplier rather than a soft extra.",
+      "story_angle_primary": "Pair any frontline tech deployment with manager training in questioning and reframing; the evidence here implies tools alone produce less improvisational problem-solving than tools plus an intellectually stimulating boss, which is a testable hypothesis for your next rollout.",
+      "story_angle_secondary": "Limited angle for general readers, beyond the familiar experience that the salesperson or service rep who solves your odd problem is usually improvising — and is more able to do so when well equipped and encouraged to think.",
+      "caveats": "Small samples (N=115 survey; 12 interviews; 210 in the experiment); performance is largely self-reported; B2B frontline employees only, with country and industry context unspecified; survey component is cross-sectional and cannot establish causation.",
+      "journal": "Journal of Service Theory and Practice",
+      "published": "2026-09-26",
+      "doi": "10.1108/jstp-01-2026-0001",
+      "paper_title": "A sensemaking perspective on the drivers, boundary conditions, and outcomes of frontline employee bricolage",
+      "source_id": "S4210224898"
+    },
+    {
+      "work_id": "W7202159462",
+      "headline": "Long-standing B2B customers aren't automatically loyal ones",
+      "the_study": "Researchers combined a qualitative study with a survey of 251 supplier–customer relationships in manufacturing, using partial least squares structural equation modeling to test how functional, social and emotional relationship value feed into satisfaction and then into two kinds of loyalty. Behavioral loyalty (repeat buying) was driven by satisfaction plus functional and emotional value, while attitudinal loyalty (advocacy and commitment) was driven by satisfaction plus functional and social value. Notably, the length of the relationship did not strengthen the link between satisfaction and either form of loyalty.",
+      "why_it_matters": "It suggests account tenure is not a loyalty moat in price-sensitive industrial markets: satisfaction has to be re-earned, and different value levers move repeat purchase versus advocacy.",
+      "story_angle_primary": "B2B marketers could test whether their key-account programs are over-crediting relationship longevity. The data hint that if you want repeat orders, invest in functional performance and the human, frustration-reducing side of the relationship; if you want customers who champion you, social value and status matter more. Worth validating against actual order and referral data before restructuring account plans.",
+      "story_angle_secondary": "The finding mirrors something familiar in personal life: knowing someone a long time doesn't make you more forgiving when they let you down. Business buyers, like consumers, appear to re-evaluate suppliers on current performance rather than accumulated history.",
+      "caveats": "Cross-sectional survey, so causation cannot be established; single industry (manufacturing) and a modest sample of 251 questionnaires; loyalty is self-reported rather than observed in purchase records.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-08-11",
+      "doi": "10.1108/jbim-12-2025-1181",
+      "paper_title": "Relationship value-based antecedents of customer loyalty in B2B markets",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7213352682",
+      "headline": "Why the same in-store technology delights shoppers in one setting and flops in another",
+      "the_study": "Using in-depth interviews across two smart retail settings, researchers applied a critical realist approach to identify why identical technologies produce very different customer experiences. They isolated four underlying mechanisms—goal congruence, task fitness, brand synergy and social consonance—and surfaced emotional reactions rarely discussed in retail tech research, including respect, contradiction, warmth and love. The upshot: context and surrounding actors, not the technology itself, drive whether smart retail lands.",
+      "why_it_matters": "Retailers routinely roll out the same kiosks, apps and smart mirrors across formats and markets and are surprised when results diverge; this offers a diagnostic vocabulary for why.",
+      "story_angle_primary": "Before scaling a smart retail pilot, brand leaders could screen each site against the four mechanisms: does the technology match what shoppers came to do, fit the task, reinforce the brand's promise, and suit the social setting? A useful framing for post-mortems on technology deployments that tested well but underperformed in rollout.",
+      "story_angle_secondary": "Shoppers' feelings about store technology are more emotional than \"convenient or not\"—people report feeling respected or disrespected by a machine. That helps explain why self-checkout or an in-store screen can feel helpful in one shop and insulting in another.",
+      "caveats": "Small-scale qualitative interview study in two retail settings only; no quantitative test of the proposed mechanisms, and findings may not generalize to other formats or countries.",
+      "journal": "Journal of Strategic Marketing",
+      "published": "2026-09-15",
+      "doi": "10.1080/0965254x.2026.2733893",
+      "paper_title": "From content to context: why some brands succeed in smart retail and others don’t",
+      "source_id": "S43415676"
+    },
+    {
+      "work_id": "W7213983383",
+      "headline": "AI at the front line: the employees who shape the tools go above and beyond",
+      "the_study": "Researchers surveyed 234 matched employee-manager pairs in China's service industry, measuring how deeply and broadly AI had been routinized into daily work and how managers rated each employee's proactive service behavior. Employees who had assimilated AI more fully were rated as more proactive, and the mechanism was \"AI crafting\" — actively reshaping how they used the tools. Notably, employees scored highest on proactive service when they combined approach crafting (expanding and experimenting with AI) and avoidance crafting (deliberately limiting or bounding its use) in balance, rather than leaning on one. Job autonomy amplified the approach route and dampened the avoidance route.",
+      "why_it_matters": "Most AI rollouts are measured by adoption rates, but this suggests the payoff in frontline service comes later — from employees who are allowed to adapt, bound and personalize the tools rather than simply use them as issued.",
+      "story_angle_primary": "Worth testing whether your own AI deployment metrics are measuring the wrong thing: track how employees modify and set limits on AI use, not just login and usage rates, and check whether teams with more discretion over how they apply AI deliver more initiative-taking service. The study is correlational, so treat autonomy-plus-crafting as a hypothesis to pilot, not an established lever.",
+      "story_angle_secondary": "A counterintuitive note for anyone anxious about AI at work: the employees doing the best service work here weren't the heaviest AI users — they were the ones who had figured out where the tools help and where to deliberately switch them off.",
+      "caveats": "Cross-sectional survey, so causation cannot be established; single country (China) and a single sector; behavior is manager-rated rather than directly observed; modest sample (234 pairs).",
+      "journal": "Journal of service management",
+      "published": "2026-09-22",
+      "doi": "10.1108/josm-08-2025-0421",
+      "paper_title": "Fueling service initiative: how AI assimilation shapes employees' proactive service behavior through AI crafting",
+      "source_id": "S107183665"
+    },
+    {
+      "work_id": "W7203598766",
+      "headline": "Virtual try-on is becoming a mirror — and over-flattering filters will cost you",
+      "the_study": "A two-phase study of augmented reality shopping combined netnography and depth interviews with 22 consumers to build a model, then tested it with survey data from 771 consumers using structural equation modeling. The researchers found that when AR felt genuinely augmenting, it triggered cognitive, emotional and \"self-extension\" responses that led consumers to report discovering things about themselves — their style, their self-image — that they hadn't recognized before. Perceived realism moderated the effect: the self-extension experience depended on consumers believing the AR image was true to life.",
+      "why_it_matters": "It reframes AR try-on from a conversion tool into an identity tool, and warns that beautifying or over-glamorizing the virtual image undercuts the very realism that makes the experience meaningful — and sets up disappointment when the real product arrives.",
+      "story_angle_primary": "Brands running virtual try-on should consider A/B testing realism itself: compare a flattering, smoothed AR rendering against a deliberately accurate one and track not just add-to-cart but returns and post-purchase satisfaction. The upside this study points to is engagement and self-exploration, which may justify features that help shoppers explore rather than simply confirm a choice.",
+      "story_angle_secondary": "For shoppers, this is a reminder that AR mirrors are designed objects: the version of you in the app has been rendered by a brand with an interest in the sale, and the research suggests people genuinely update their self-image based on what they see there.",
+      "caveats": "Survey-based and cross-sectional, so the causal chain is inferred rather than demonstrated; self-reported self-discovery rather than observed purchase behavior; the qualitative phase is small (N=22); fashion-heavy context limits generalizability across categories and age groups.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-08-17",
+      "doi": "10.1108/jcm-12-2024-7415",
+      "paper_title": "Unveiling the self through augmented reality consumption experiences",
+      "source_id": "S165789823"
+    },
+    {
+      "work_id": "W7203686382",
+      "headline": "Custom work deals make salespeople better at rescuing unhappy customers",
+      "the_study": "Using survey data from 348 matched salesperson-manager dyads, researchers examined \"i-deals\" — personalized, individually negotiated work arrangements — in B2B sales. Salespeople with i-deals scored higher on polychronicity (comfort juggling multiple tasks at once), which in turn was associated with more deep acting (genuinely regulating felt emotion) and less surface acting (faking it). Deep acting predicted better service recovery performance, surface acting predicted worse, and a manager's trust strengthened the link between polychronicity and deep acting.",
+      "why_it_matters": "It connects an HR lever many firms already use informally — bespoke scheduling, flexibility and role arrangements — to a hard customer outcome: how well reps fix things when deals and deliveries go wrong.",
+      "story_angle_primary": "If your service recovery scores are weak, the fix may sit in the employment arrangement rather than the training module. Consider auditing which reps have negotiated personalized arrangements and whether that tracks with recovery outcomes — while noting that the evidence here is correlational and from a single survey.",
+      "story_angle_secondary": "Customers can usually tell the difference between a rep who is genuinely engaged with their problem and one performing concern; this research suggests that difference partly reflects how well the company treats that rep.",
+      "caveats": "Cross-sectional survey with no experimental manipulation, so causality is unestablished; outcomes are manager- and self-reported rather than drawn from customer records; country and industry context not specified in the abstract; common-method concerns despite the dyadic design.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-08-18",
+      "doi": "10.1108/jbim-03-2026-0234",
+      "paper_title": "Dare to thrive: how personalized idiosyncratic deals shape salesperson polychronicity and emotional labor in turbulent B2B markets?",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7204434854",
+      "headline": "Older guests judge hotel robots on trust, not on how good the tech is",
+      "the_study": "Researchers surveyed 283 senior consumers about their experiences with service robots in hotels and tested an Information Systems Success model using PLS-SEM. Information quality and system quality did not directly shape seniors' sense that their privacy was protected — a notable null. What did carry through to hotel brand image was trust and satisfaction with the robot interaction.",
+      "why_it_matters": "Hotels deploying robots to cut labor costs often pitch them on technical capability; for an older guest segment, this suggests brand benefit flows through felt trust and comfort rather than feature quality.",
+      "story_angle_primary": "If robots are part of your service model, consider testing reassurance and transparency cues — a visible explanation of what the robot records and who sees it — against upgrades in the robot's technical performance, and segment satisfaction data by guest age before scaling further.",
+      "story_angle_secondary": "Older travelers aren't uniformly hostile to service robots, but the research suggests what wins them over is feeling they can trust the machine, not how slick it is.",
+      "caveats": "Cross-sectional survey with a modest sample (N=283) reporting significant paths in a structural model, so no causal claims; single sector and a single consumer segment; self-reported perceptions rather than observed booking or spending behavior; country and recruitment method not specified in the abstract.",
+      "journal": "Journal of Hospitality Marketing & Management",
+      "published": "2026-08-27",
+      "doi": "10.1080/19368623.2026.2721650",
+      "paper_title": "Exploring the impact of robot-based services on hotel brand image among senior consumers",
+      "source_id": "S118298121"
+    },
+    {
+      "work_id": "W7203821753",
+      "headline": "Shoppers don't reward green talk — and heavy discounts are where sustainability claims pile up",
+      "the_study": "Researchers combined natural language processing, image color analysis and machine learning across two e-commerce datasets: 1,465 Amazon product listings and 182,275 product-review pairs from BaSalam, a Persian-language marketplace. Sustainability-related language in customer reviews showed no association with higher product ratings or satisfaction — reviewers judged products on performance, usability and value instead. Sustainability mentions clustered most heavily in the deepest-discount category, and the team's multimodal greenwashing detector flagged mismatches between seller claims and buyer experience with 81.6% accuracy on Amazon and 97% on BaSalam.",
+      "why_it_matters": "Green claims on product pages may be doing far less for satisfaction and ratings than brands assume, while automated detection tools capable of spotting claim–experience mismatches are now accurate enough for platforms or regulators to deploy at scale.",
+      "story_angle_primary": "Audit whether your sustainability copy is actually moving review sentiment or ratings in your own category data — and prepare for a world where platforms and regulators can algorithmically flag the gap between what a listing claims and what buyers report. The concentration of green language in deep-discount listings is a reputational risk signal worth checking in your own assortment.",
+      "story_angle_secondary": "When you write a review, you're probably talking about whether the thing works, not whether it's eco-friendly — and this analysis suggests that's true of shoppers generally. It also hints that the loudest sustainability claims often sit on the most heavily discounted items, which is a reason to read such labels skeptically.",
+      "caveats": "Observational text analysis, not an experiment, so no causal claims; two platforms only (one US-facing, one Iranian), and the Amazon sample of 1,465 listings is small relative to the review-level dataset; sustainability \"mentions\" in review text are a rough proxy for consumer concern.",
+      "journal": "Electronic Commerce Research and Applications",
+      "published": "2026-08-20",
+      "doi": "10.1016/j.elerap.2026.101630",
+      "paper_title": "From signals to trust: Multimodal detection and consumer perception of sustainability claims in e-commerce",
+      "source_id": "S187709482"
+    },
+    {
+      "work_id": "W7208731674",
+      "headline": "Inside the Facebook groups where a drug reformulation turned patients into activists",
+      "the_study": "Researchers analyzed 2,006 comments from Facebook communities formed during France's Levothyrox crisis, when a reformulated thyroid medication triggered widespread reports of side effects. Using qualitative content analysis, they tracked why patients posted, what emotions they expressed, who they blamed, and what they intended to do next. Patients voiced both gratitude, hope and joy toward each other and anger, anxiety and hatred toward institutions, assigning responsibility chiefly to manufacturer Merck and to health authorities — and those emotions translated into information sharing, collective mobilization, boycotts, formal complaints and heightened medical vigilance.",
+      "why_it_matters": "It shows how online patient communities convert private distress into organized collective action against a brand, and that supportive, positive emotions within a group can fuel protest rather than defuse it.",
+      "story_angle_primary": "Crisis playbooks usually treat negative sentiment as the thing to monitor; this suggests the warmth and solidarity inside an affected-customer community is itself a mobilization engine. For regulated categories especially, consider whether your crisis communications engage those communities directly or cede the narrative to them.",
+      "story_angle_secondary": "When institutions go quiet, patients build their own information infrastructure — and the comfort people find in those groups is also what gives them the confidence to complain, boycott and push back.",
+      "caveats": "Single crisis in a single country; qualitative netnographic analysis of public Facebook comments, so it captures the most vocal participants rather than all affected patients; stated behavioral intentions expressed in posts, not verified behavior.",
+      "journal": "Corporate Communications An International Journal",
+      "published": "2026-09-04",
+      "doi": "10.1108/ccij-11-2025-0368",
+      "paper_title": "Patient emotions and attribution of responsibility during the Levothyrox pharmaceutical crisis in France",
+      "source_id": "S193408319"
+    },
+    {
+      "work_id": "W7214683938",
+      "headline": "Happy reviews get social credit; angry reviews get believed",
+      "the_study": "Researchers analyzed more than 172,000 Yelp reviews of leading US quick-service restaurant brands, linking the language of each review to the votes other users gave it. Positive sentiment predicted more \"Cool\" votes (a marker of social value) but fewer \"Useful\" votes, while negative sentiment showed the reverse pattern. Reviews written with more social language — references to people, relationships and shared experience — also drew more Cool votes.",
+      "why_it_matters": "The same review can be socially popular and informationally discounted, which means the reviews that spread furthest on a platform are not necessarily the ones shoppers treat as credible evidence.",
+      "story_angle_primary": "Brands tracking review performance often treat engagement counts as a single signal; this suggests separating social amplification from perceived informativeness, and testing whether prompts that encourage reviewers to describe the experience socially (who they went with, the occasion) change how far positive reviews travel.",
+      "story_angle_secondary": "If you read reviews before ordering, note the asymmetry: the warm, chatty five-star posts you enjoy most are precisely the ones other readers rate as least useful, while the complaints you skim past are the ones people treat as real information.",
+      "caveats": "Observational and correlational — associations, not causation. Single platform (Yelp), single country (US) and a single category (quick-service restaurants); vote counts are a proxy for social and informational value rather than a direct measure.",
+      "journal": "Journal of Marketing Analytics",
+      "published": "2026-09-28",
+      "doi": "10.1057/s41270-026-00543-6",
+      "paper_title": "Social value in online reviews: the role of sentiment and social language in consumer engagement",
+      "source_id": "S4210182956"
+    },
+    {
+      "work_id": "W7202155921",
+      "headline": "People behave worse toward chatbots because they don't feel watched",
+      "the_study": "Across three experiments, researchers tested how consumers behave in post-service interactions — complaints and compensation requests — when the agent on the other side is AI rather than human. Dealing with an AI agent lowered perceived social presence and the sense of being monitored, which loosened moral constraints and increased unethical behavior such as inflated or dishonest claims. Consumers with higher AI self-efficacy cheated more, apparently because they saw the AI as a controllable tool rather than a social entity.",
+      "why_it_matters": "Automating complaint handling and refunds may quietly raise fraud and claim-inflation costs, and the most AI-savvy customers are the ones most likely to exploit it.",
+      "story_angle_primary": "Before fully automating refunds and goodwill payments, test design cues that restore a sense of being observed — visible audit language, human review notices, agent identity, or mixed human-AI handoffs — and monitor whether claim values drift upward after automation; these are lab findings, so measure the effect in your own claims data.",
+      "story_angle_secondary": "It turns out most of us are a little more honest when a person might be watching. Chatbots remove that social witness, and the experiments suggest many people stretch the truth without quite noticing they are doing it.",
+      "caveats": "Experimental studies, likely with scenario-based tasks rather than real money and real service claims; sample details and country not specified in the abstract. Effect sizes in the field may differ from the lab.",
+      "journal": "Service Industries Journal",
+      "published": "2026-08-11",
+      "doi": "10.1080/02642069.2026.2690257",
+      "paper_title": "When AI feels unobserved: consumer unethical behavior in AI-mediated post-Service",
+      "source_id": "S49331332"
+    },
+    {
+      "work_id": "W7202296676",
+      "headline": "An audit of 12 Spanish fashion flagships found most \"phygital\" stores are just stores with pickup counters",
+      "the_study": "Researchers conducted structured, non-participatory observation of 12 flagship stores of major Spanish fashion retailers in Madrid, scoring each against 18 technology and experience indicators and completing click-and-collect journeys to build a phygital maturity index. Average maturity was 34.25%, with practical tools (self-checkout, order pickup) the strongest pillar at 53.3% and immersive or sensory experiences the weakest at 16.6%. Zara, Lefties and Springfield scored highest at 55.5%; Hackett and Façonnable scored 5.5%.",
+      "why_it_matters": "It quantifies a gap between the industry's rhetoric about immersive retail and what is actually installed on the shop floor — most investment has gone into operational convenience, not experience.",
+      "story_angle_primary": "If your store digitization roadmap is dominated by checkout, inventory and BOPS tools, you are in the majority — and that is now table stakes rather than differentiation; the audit framework is replicable, so brands can score their own flagships against competitors on immersivity, personalization and sociability.",
+      "story_angle_secondary": "The \"store of the future\" you keep reading about mostly turns out to be a pickup desk and a self-checkout. Shoppers walking into flagship stores in a major European capital encountered very little genuinely immersive technology.",
+      "caveats": "Small sample of 12 stores in one city (Madrid) in one sector; binary presence/absence coding measures whether tools exist, not whether they work or whether shoppers like them; no consumer outcomes measured.",
+      "journal": "Journal of Fashion Marketing and Management",
+      "published": "2026-08-12",
+      "doi": "10.1108/jfmm-07-2025-0393",
+      "paper_title": "Phygital strategies in fashion retail: an empirical analysis of leading brands in Spain",
+      "source_id": "S191114782"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7204579696",
+      "headline": "Making AI avatars look human matters less than making them useful",
+      "verdict": "minor",
+      "notes": "Core findings match the abstract; the configurational result drops one of the three core conditions and the gloss on \"shared\" experience is not in the abstract.",
+      "issues": [
+        {
+          "label": "Dropped core condition in fsQCA result",
+          "severity": "Minor",
+          "as_written": "In the configurational analysis, capability and social influence emerged as core conditions for a strong shared experience, with lifelike appearance only a peripheral one.",
+          "abstract_says": "Solo online customer experience, intelligent service capability and social influence all serve as core conditions, while sensory anthropomorphism functions merely as a peripheral condition.",
+          "problem": "The abstract names three core conditions, including solo online customer experience; the digest lists only two, which slightly changes the picture of what drives shared experience.",
+          "suggested_fix": "Add solo customer experience to the list of core conditions, e.g. \"solo experience, capability and social influence emerged as core conditions.\""
+        },
+        {
+          "label": "Unsupported definition of shared experience",
+          "severity": "Minor",
+          "as_written": "shared (socially shared, co-viewed) customer experience",
+          "abstract_says": "shared online customer experience",
+          "problem": "The abstract does not define shared online customer experience as \"co-viewed\"; this operational gloss cannot be verified from the abstract only.",
+          "suggested_fix": "Drop the parenthetical or label it as the digest's interpretation."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7203638544",
+      "headline": "When an AI agent does your shopping, trust in the bot becomes trust in the product",
+      "verdict": "minor",
+      "notes": "Reasons for/against and the trust-transfer mechanism match; one moderator is slightly re-labelled.",
+      "issues": [
+        {
+          "label": "Moderator re-labelled",
+          "severity": "Minor",
+          "as_written": "moderated by how much the consumer generally trusts algorithms and by what kind of product was recommended",
+          "abstract_says": "with customers' tendencies towards algorithm use and recommendation target types acting as boundary conditions",
+          "problem": "The abstract describes a tendency towards algorithm use (propensity to rely on algorithms), not generalized trust in algorithms; these are related but distinct constructs.",
+          "suggested_fix": "Rephrase as \"how inclined the consumer is to use algorithms\" to match the abstract."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7214497259",
+      "headline": "Giving salespeople digital tools makes them improvise better — but only under a certain kind of boss",
+      "verdict": "accurate",
+      "notes": "Three studies, sample sizes, mediation chain and the intellectual-stimulation moderator all match the abstract; caveats are appropriately hedged.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7202159462",
+      "headline": "Long-standing B2B customers aren't automatically loyal ones",
+      "verdict": "minor",
+      "notes": "Design, N and the differentiated loyalty paths are accurate; one story angle adds a construct (\"status\") not in the abstract.",
+      "issues": [
+        {
+          "label": "Added construct in advice",
+          "severity": "Minor",
+          "as_written": "if you want customers who champion you, social value and status matter more",
+          "abstract_says": "attitudinal loyalty is driven by satisfaction together with functional and social value",
+          "problem": "\"Status\" is not part of the abstract's description of social value; it is an unsupported elaboration.",
+          "suggested_fix": "Drop \"and status\" or attribute it explicitly as interpretation."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7213352682",
+      "headline": "Why the same in-store technology delights shoppers in one setting and flops in another",
+      "verdict": "significant",
+      "notes": "Mechanisms and method are reported correctly, but the summary line flips the abstract's \"not only technology but also context\" into \"not the technology itself.\"",
+      "issues": [
+        {
+          "label": "Overstated dismissal of technology",
+          "severity": "Moderate",
+          "as_written": "The upshot: context and surrounding actors, not the technology itself, drive whether smart retail lands.",
+          "abstract_says": "This study investigates how customer experiences in smart retail are shaped not only by technological innovation but also by the contextual actors embedded in the service ecosystem.",
+          "problem": "The abstract positions context as an addition to technological innovation, not a replacement for it; the digest reverses this into a claim that technology does not matter, which could misdirect investment decisions.",
+          "suggested_fix": "Rewrite as \"context and surrounding actors, as well as the technology itself, shape whether smart retail lands.\""
+        },
+        {
+          "label": "Sample size characterization",
+          "severity": "Minor",
+          "as_written": "Small-scale qualitative interview study in two retail settings only",
+          "abstract_says": "we conducted in-depth interviews in two smart retail settings",
+          "problem": "The abstract gives no number of interviews, so \"small-scale\" is unverifiable from abstract only (the two-setting point is correct).",
+          "suggested_fix": "Say \"qualitative interview study in two retail settings; number of interviews not reported in the abstract.\""
+        },
+        {
+          "label": "Strength of mechanism claim",
+          "severity": "Minor",
+          "as_written": "They isolated four underlying mechanisms",
+          "abstract_says": "uncovered four generative mechanisms – goal congruence, task fitness, brand synergy, and social consonance – that may explain variations in customer perceptions",
+          "problem": "The abstract hedges with \"may explain\"; \"isolated\" implies a firmer identification than claimed.",
+          "suggested_fix": "Use \"proposed four generative mechanisms that may explain the variation.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7213983383",
+      "headline": "AI at the front line: the employees who shape the tools go above and beyond",
+      "verdict": "significant",
+      "notes": "Sample, mechanism and the balance/autonomy results are accurate, but the consumer angle contradicts the abstract's main effect, and one mediation boundary is dropped.",
+      "issues": [
+        {
+          "label": "Consumer angle contradicts main effect",
+          "severity": "Moderate",
+          "as_written": "the employees doing the best service work here weren't the heaviest AI users — they were the ones who had figured out where the tools help and where to deliberately switch them off",
+          "abstract_says": "The results show that both the depth and breadth of AI assimilation positively influence proactive service behavior.",
+          "problem": "The abstract reports that deeper and broader AI assimilation is associated with more proactive service behavior; the digest tells general readers the opposite, that heavy users were not the best performers. The balance result concerns crafting strategies, not level of use.",
+          "suggested_fix": "Rewrite as \"employees who used AI more extensively were rated as more proactive — especially when they both expanded and deliberately bounded their use.\""
+        },
+        {
+          "label": "Dropped mediation boundary",
+          "severity": "Minor",
+          "as_written": "the mechanism was \"AI crafting\" — actively reshaping how they used the tools",
+          "abstract_says": "Approach AI crafting mediates both relationships, while avoidance AI crafting only mediates the relationship between the breadth of AI assimilation and proactive service behavior.",
+          "problem": "The digest collapses two distinct mediators and omits that avoidance crafting mediated only the breadth pathway.",
+          "suggested_fix": "Note that approach crafting mediated both depth and breadth effects, while avoidance crafting mediated only the breadth effect."
+        },
+        {
+          "label": "Who rated proactive behavior",
+          "severity": "Minor",
+          "as_written": "how managers rated each employee's proactive service behavior",
+          "abstract_says": "paired-sample survey data from 234 employee-manager pairs in China's service industry",
+          "problem": "The abstract confirms paired employee-manager data but does not state that managers rated proactive service behavior; unverifiable from abstract only.",
+          "suggested_fix": "Say \"paired employee-manager survey data\" without specifying which party rated the outcome."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7203598766",
+      "headline": "Virtual try-on is becoming a mirror — and over-flattering filters will cost you",
+      "verdict": "minor",
+      "notes": "Two-phase design, both sample sizes and the moderation by perceived realism are accurate; the headline asserts a cost the study did not measure.",
+      "issues": [
+        {
+          "label": "Headline asserts untested outcome",
+          "severity": "Minor",
+          "as_written": "over-flattering filters will cost you",
+          "abstract_says": "the brand should avoid manipulation and over-glamorisation of the AR images to avoid customer dissatisfaction when they recreate the experience with actual products purchased after the virtual trials",
+          "problem": "This is the authors' practical recommendation, not a tested effect on returns or sales; the headline states it as an established cost.",
+          "suggested_fix": "Soften to \"and the authors warn over-flattering filters may backfire.\""
+        },
+        {
+          "label": "Moderation framed as dependency",
+          "severity": "Minor",
+          "as_written": "the self-extension experience depended on consumers believing the AR image was true to life",
+          "abstract_says": "Perceived realism moderates the relationship between perceived augmentation and self-extension experience.",
+          "problem": "A moderation means the strength of the relationship varies with realism, not that the experience is conditional on belief in realism.",
+          "suggested_fix": "Say \"the link to self-extension was stronger when consumers perceived the AR image as realistic.\""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7203686382",
+      "headline": "Custom work deals make salespeople better at rescuing unhappy customers",
+      "verdict": "minor",
+      "notes": "N, dyadic design and all reported paths match; a null moderation is omitted and the headline is more causal than the cross-sectional design supports (though caveats flag this).",
+      "issues": [
+        {
+          "label": "Omitted null moderation",
+          "severity": "Minor",
+          "as_written": "a manager's trust strengthened the link between polychronicity and deep acting",
+          "abstract_says": "manager trust strengthens the positive relationship between salesperson polychronicity and deep acting, but does not significantly moderate the relationship between polychronicity and surface acting",
+          "problem": "The non-significant moderation on surface acting is dropped, which could imply manager trust works on both emotional-labor routes.",
+          "suggested_fix": "Add that manager trust did not significantly moderate the polychronicity–surface acting link."
+        },
+        {
+          "label": "Causal headline for survey data",
+          "severity": "Minor",
+          "as_written": "Custom work deals make salespeople better at rescuing unhappy customers",
+          "abstract_says": "Using survey data collected from 348 salesperson–manager dyads and analyzed via SmartPLS 4.",
+          "problem": "\"Make\" is causal language for a cross-sectional survey; the body and caveats correctly hedge, so the headline is out of step.",
+          "suggested_fix": "Reword to \"Custom work deals are linked to better service recovery by salespeople.\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7204434854",
+      "headline": "Older guests judge hotel robots on trust, not on how good the tech is",
+      "verdict": "significant",
+      "notes": "N and method are right, but the headline and \"why it matters\" generalize a null on perceived privacy protection into a claim that technical quality does not affect brand image — which the abstract does not report.",
+      "issues": [
+        {
+          "label": "Null result over-extended",
+          "severity": "Moderate",
+          "as_written": "Older guests judge hotel robots on trust, not on how good the tech is",
+          "abstract_says": "Findings show that information quality and system quality do not directly influence senior consumers' perceived privacy protection. However, perceived trust and satisfaction positively impact hotel brand image.",
+          "problem": "The reported null concerns the path from information/system quality to perceived privacy protection only. The abstract does not say technical quality fails to shape trust, satisfaction or brand image, so the headline and the \"why it matters\" claim that brand benefit flows through trust \"rather than feature quality\" go beyond the evidence.",
+          "suggested_fix": "Reframe as \"Information and system quality did not directly drive seniors' sense of privacy protection, while trust and satisfaction were positively linked to brand image.\""
+        },
+        {
+          "label": "Service quality omitted from model description",
+          "severity": "Minor",
+          "as_written": "tested an Information Systems Success model using PLS-SEM",
+          "abstract_says": "this study examines the impact of information quality, system quality, and service quality on senior consumers' perceived privacy protection, trust, satisfaction, and hotel brand image",
+          "problem": "The digest names only information and system quality; service quality, a third antecedent in the tested model, is not mentioned, which makes the null look broader than it is.",
+          "suggested_fix": "Note that the model also included service quality, whose results are not reported in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7203821753",
+      "headline": "Shoppers don't reward green talk — and heavy discounts are where sustainability claims pile up",
+      "verdict": "significant",
+      "notes": "Datasets, null association and accuracy figures are reported correctly, but the deployment claim and the generalization to \"shoppers generally\" go beyond the abstract.",
+      "issues": [
+        {
+          "label": "Deployment readiness overstated",
+          "severity": "Moderate",
+          "as_written": "automated detection tools capable of spotting claim–experience mismatches are now accurate enough for platforms or regulators to deploy at scale",
+          "abstract_says": "The proposed multimodal detection pipeline achieves an overall accuracy of 81.6 % on the Amazon hold-out set and 97 % on the BaSalam dataset, suggesting its potential usefulness for real-time consumer-facing and regulatory screening contexts.",
+          "problem": "The abstract claims potential usefulness; the digest converts this into readiness for at-scale deployment by platforms and regulators.",
+          "suggested_fix": "Rewrite as \"the authors suggest the pipeline could be useful for consumer-facing or regulatory screening.\""
+        },
+        {
+          "label": "Generalization from two platforms",
+          "severity": "Moderate",
+          "as_written": "and this analysis suggests that's true of shoppers generally",
+          "abstract_says": "the study analyzes data from two large-scale e-commerce platforms: The Amazon Sales Dataset (1465 product listings) and the BaSalam Persian-language marketplace (182,275 product-review pairs)",
+          "problem": "The result comes from review text on two specific platforms (one of them a Persian-language marketplace) and is extended to shoppers in general; the digest's own caveat contradicts this line.",
+          "suggested_fix": "Limit to \"reviewers on these two platforms wrote mostly about performance, usability and value.\""
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7208731674",
+      "headline": "Inside the Facebook groups where a drug reformulation turned patients into activists",
+      "verdict": "minor",
+      "notes": "Study facts (2,006 Facebook comments, netnographic/qualitative content analysis, Merck and health authorities blamed) all match. Small slippage: the abstract reports emotions \"associated with\" behavioral intentions, while the body says emotions \"translated into\" boycotts and complaints, and the emotion-target split is an interpretive addition.",
+      "issues": [
+        {
+          "label": "Association reported as action",
+          "severity": "Minor",
+          "as_written": "and those emotions translated into information sharing, collective mobilization, boycotts, formal complaints and heightened medical vigilance",
+          "abstract_says": "Emotions were associated with behavioral intentions such as information sharing, community mobilization, boycotts, complaints and medical vigilance.",
+          "problem": "\"Translated into\" implies a causal sequence producing real-world acts, whereas the abstract reports an association with self-reported behavioral intentions expressed in posts. The digest's own caveat flags intentions-not-behavior, so the body text works against it.",
+          "suggested_fix": "Rewrite as \"and those emotions were associated with stated intentions to share information, mobilise collectively, boycott, complain and stay medically vigilant.\""
+        },
+        {
+          "label": "Emotion targets attributed",
+          "severity": "Minor",
+          "as_written": "Patients voiced both gratitude, hope and joy toward each other and anger, anxiety and hatred toward institutions",
+          "abstract_says": "Patients expressed both positive emotions (gratitude, hope, joy) and negative emotions (anger, anxiety, sadness, hatred, disappointment), reflecting both community support and a loss of trust in the laboratory, health authorities, and healthcare professionals.",
+          "problem": "The abstract does not say the positive emotions were directed at fellow patients and the negative ones at institutions; it says the emotions reflected community support and loss of trust. The targeting is an inference.",
+          "suggested_fix": "Say the emotions \"reflected both mutual support within the community and a loss of trust in the manufacturer, health authorities and healthcare professionals.\""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7214683938",
+      "headline": "Happy reviews get social credit; angry reviews get believed",
+      "verdict": "minor",
+      "notes": "Sample (172,000+ Yelp reviews, leading US QSR brands), the Cool/Useful valence asymmetry and the social-language finding all match the abstract, and the caveats correctly label the work correlational. Only the consumer-facing phrasing overstates slightly.",
+      "issues": [
+        {
+          "label": "Superlative beyond the data",
+          "severity": "Minor",
+          "as_written": "the warm, chatty five-star posts you enjoy most are precisely the ones other readers rate as least useful",
+          "abstract_says": "positive sentiment is associated with greater social value but lower informational value, whereas negative sentiment shows the opposite pattern",
+          "problem": "\"Precisely the ones ... least useful\" turns a directional association between sentiment and Useful votes into a categorical ranking of specific reviews; the abstract reports relative, average associations, not that such reviews are the least useful.",
+          "suggested_fix": "Soften to \"the warm, chatty five-star posts tend on average to attract fewer 'Useful' votes, while complaints attract more.\""
+        },
+        {
+          "label": "Predictive wording for correlational analysis",
+          "severity": "Minor",
+          "as_written": "Positive sentiment predicted more \"Cool\" votes (a marker of social value) but fewer \"Useful\" votes",
+          "abstract_says": "we examine how sentiment polarity and social language are associated with social engagement, measured through Cool votes",
+          "problem": "The abstract consistently uses \"associated with\"; \"predicted\" nudges towards a causal/predictive reading, though the caveats do note the analysis is correlational.",
+          "suggested_fix": "Use \"was associated with\" in place of \"predicted\" in the study summary."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7202155921",
+      "headline": "People behave worse toward chatbots because they don't feel watched",
+      "verdict": "minor",
+      "notes": "Design (three experiments), the social-presence/monitoring mechanism and the AI self-efficacy boundary condition are all reported accurately. Two small embellishments go beyond the abstract: the specific form of unethical behavior and the \"without quite noticing\" claim.",
+      "issues": [
+        {
+          "label": "Specific behaviors not in abstract",
+          "severity": "Minor",
+          "as_written": "increased unethical behavior such as inflated or dishonest claims",
+          "abstract_says": "interacting with AI (vs. human) service agents reduces perceived social presence and monitoring, lowering moral constraints and increasing unethical behavior",
+          "problem": "The abstract refers generically to \"unethical behavior\" in post-service contexts; it does not specify claim inflation or dishonest claims as the measured outcome.",
+          "suggested_fix": "Say \"increased unethical behaviour in the post-service interaction\" and note that the abstract does not specify the exact behaviours measured."
+        },
+        {
+          "label": "Unsupported mechanism claim",
+          "severity": "Minor",
+          "as_written": "the experiments suggest many people stretch the truth without quite noticing they are doing it",
+          "abstract_says": "reduces perceived social presence and monitoring, lowering moral constraints and increasing unethical behavior",
+          "problem": "Nothing in the abstract addresses awareness or non-awareness of the dishonesty; lowered moral constraint is not the same as acting unknowingly.",
+          "suggested_fix": "Drop \"without quite noticing they are doing it\" or replace with \"when the sense of being observed drops away.\""
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7202296676",
+      "headline": "An audit of 12 Spanish fashion flagships found most \"phygital\" stores are just stores with pickup counters",
+      "verdict": "accurate",
+      "notes": "All figures check out against the abstract (PMI 34.25%, practicality 53.3%, immersivity/sensoriality 16.6%, Zara/Lefties/Springfield 55.5%, Hackett and Façonnable 5.5%), as do the method (structured non-participatory observation, 18 KPIs, Click & Collect journeys, 12 Madrid flagships) and the limitations reproduced in Caveats.",
+      "issues": []
+    }
+  ],
+  "coverage": {
+    "checked": 14,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7204579696": {
+        "query": "Making avatars look human matters than making them useful",
+        "returned": 7,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203638544": {
+        "query": "agent does shopping trust bot becomes trust product",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214497259": {
+        "query": "Giving salespeople digital tools makes them improvise better but only",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202159462": {
+        "query": "Long standing B2B customers aren automatically loyal ones",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213352682": {
+        "query": "same store technology delights shoppers one setting flops another",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213983383": {
+        "query": "front line employees who shape tools above beyond",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203598766": {
+        "query": "Virtual try becoming mirror over flattering filters will cost",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203686382": {
+        "query": "Custom work deals make salespeople better rescuing unhappy customers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204434854": {
+        "query": "Older guests judge hotel robots trust not good tech",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203821753": {
+        "query": "Shoppers don reward green talk heavy discounts where sustainability claims",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7208731674": {
+        "query": "Inside Facebook groups where drug reformulation turned patients into activists",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214683938": {
+        "query": "Happy reviews get social credit angry reviews get believed",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202155921": {
+        "query": "People behave worse toward chatbots because they don feel watched",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202296676": {
+        "query": "audit Spanish fashion flagships found most phygital stores just stores",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- *Frontline staff, not the tool, determine whether service technology pays off.* \"AI at the front line: the employees who shape the tools go above and beyond\" (W7213983383) and \"Giving salespeople digital tools makes them improvise better — but only under a certain kind of boss\" (W7214497259) both land on employee adaptation plus managerial conditions as the mechanism, extending the previous digest's \"When frontline staff see robots as supportive coworkers, they start redesigning their own jobs\" (W7203840311) and \"Your new tech fails because two people have to adopt it, not one\" (W7168115520).\n- *Trust, not technical quality, carries AI service into brand outcomes.* \"Older guests judge hotel robots on trust, not on how good the tech is\" (W7204434854) echoes \"Patients want AI in the exam room — but only alongside a doctor\" (W7171856573), where trust rather than blame drove reuse, and the authority finding in \"Your AI complaint agent only works if it's allowed to issue the refund\" (W7203673228).\n- *Lifelike design is the weakest lever.* \"Making AI avatars look human matters less than making them useful\" (W7204579696) finds sensory anthropomorphism only a peripheral condition, consistent with \"When robots fail badly, giving them a human face backfires\" (W7203488123) and in tension with the cheap relational tweaks in \"Hotel robots with child-like voices are rated as better service\" (W7203856104).\n- *Retention and tenure are poor proxies for loyalty.* \"Long-standing B2B customers aren't automatically loyal ones\" (W7202159462) matches the consumer-side finding in \"Rejected for a loan, but staying with the bank anyway\" (W7206172982): the account survives while the satisfaction underneath it does not.\n- *Employment conditions show up in customer outcomes.* \"Custom work deals make salespeople better at rescuing unhappy customers\" (W7203686382) sits alongside \"Salespeople who want to look good deliver warmer service — and weaker technical quality\" (W7204989107) and \"Tech-curious B2B buyers push salespeople onto social media — until they push too hard\" (W7204562935) in treating rep-level conditions as a service-quality variable.\n\n**Advances**\n- The AI agent thread moves upstream. Last run's AI studies were almost all about service recovery; \"When an AI agent does your shopping, trust in the bot becomes trust in the product\" (W7203638544) relocates the question to consideration and purchase, where trust transfers from the intermediary to whatever it surfaces — a different gatekeeping problem than the one posed by W7203673228.\n- Review signals get disaggregated. \"Happy reviews get social credit; angry reviews get believed\" (W7214683938) splits engagement into social amplification versus perceived informativeness, sharpening both \"Replying to every bad review may be the wrong strategy\" (W7207820376) and the inflated-praise mechanism in \"When customers help build it and it fails, they praise you anyway\" (W7171377067).\n- Immersive retail gets an installed-base reality check. \"An audit of 12 Spanish fashion flagships found most 'phygital' stores are just stores with pickup counters\" (W7202296676) and \"Why the same in-store technology delights shoppers in one setting and flops in another\" (W7213352682) ground last run's design-logic finding in \"In VR retail displays, showing the product in use beats letting shoppers imagine it\" (W7169838255) in what is actually deployed and why identical kit diverges by site.\n\n**Counterpoints**\n- The clearest tension in this run: \"People behave worse toward chatbots because they don't feel watched\" (W7202155921) and \"Want silent customers to tell you what went wrong? Send the bot, and make it about them\" (W7202198898) rest on the same mechanism — reduced social presence and no face to save — but reach opposite conclusions about what gets disclosed. Candor and claim inflation may be two outputs of one design choice.\n- \"Older guests judge hotel robots on trust, not on how good the tech is\" (W7204434854) reports a null for information and system quality, which complicates the competence-above-all reading built from W7203609438 and W7203673228, at least for an older segment.\n\n**New themes**\n- Sustainability claims as a credibility and detection problem: \"Shoppers don't reward green talk — and heavy discounts are where sustainability claims pile up\" (W7203821753) has no antecedent in the previous digest.\n- Organized customer counter-power: \"Inside the Facebook groups where a drug reformulation turned patients into activists\" (W7208731674) extends blame-and-crisis work such as \"Who gets blamed when a gig worker misbehaves?\" (W7202074508) from individual attribution to collective mobilization.\n- Augmented reality as identity work rather than conversion tooling: \"Virtual try-on is becoming a mirror — and over-flattering filters will cost you\" (W7203598766).",
+    "feature_pitch": "**The pattern:** Across this batch, the verification layer of commerce is breaking down on both sides of the counter, and machines are simultaneously the cause and the proposed cure. Customers inflate claims when an AI handles the refund, and the most AI-literate cheat most (\"People behave worse toward chatbots because they don't feel watched,\" W7202155921); sellers cluster sustainability language on their deepest-discount listings while an automated detector catches the claim–experience gap at 81.6–97% accuracy (\"Shoppers don't reward green talk,\" W7203821753); flattering AR renderings undercut the realism that makes try-on meaningful (\"Virtual try-on is becoming a mirror,\" W7203598766); the warmest reviews are precisely the ones other readers discount (\"Happy reviews get social credit; angry reviews get believed,\" W7214683938); and credibility increasingly transfers from an AI agent to whatever it recommends (\"When an AI agent does your shopping, trust in the bot becomes trust in the product,\" W7203638544).\n\n**Why pitch this now:** Agentic shopping tools are shipping into mainstream retail at the same moment that green-claims rules in the EU and UK and FTC scrutiny in the US are tightening what a product page can assert — and retailers are already fighting returns abuse and claim fraud in an automated service stack.\n\n**Angle:** A reported feature on who or what still verifies anything in an automated marketplace — written for commerce, retail and CX decision-makers, with a consumer-facing version on why the reviews, eco-labels and try-on images people lean on are each getting less reliable for different reasons.\n\n**Potential headlines:**\n- Nobody is checking: inside the automation of trust in online retail\n- The savviest shoppers are the ones cheating the chatbot\n- The reviews, labels and mirrors you rely on are all drifting from the truth\n\n**Potential outlets:**\n- **Digiday** — covers the commerce and platform plumbing where AI agents become the new gatekeepers of product consideration and review signals get gamed.\n- **Modern Retail** — close to the operational costs this story names: claim inflation after service automation, and AR-driven returns.\n- **Fast Company** — runs business-of-technology features on trust mechanisms breaking down, and would take the detection-tools-versus-greenwashing strand.\n- **The Guardian** (Money/consumer affairs) — consumer-side version on reading eco-claims and review scores skeptically, a beat it already owns.",
+    "pitch_ideas": "- **Making AI avatars look human matters less than making them useful (Work ID W7204579696):** Brands funding photorealistic digital presenters may be buying the least consequential attribute — capability and social proof carry shared experience, looks only the solo kind; for a marketing-trade news brief or a CMO-audience column on AI creative budgets.\n- **When an AI agent does your shopping, trust in the bot becomes trust in the product (Work ID W7203638544):** Credibility transfers from the agent to its picks, which makes the agent the gatekeeper of consideration and threatens the funnel stages brands currently buy into; for a commerce or adtech trade feature, with a consumer sidebar on outsourcing judgment.\n- **Giving salespeople digital tools makes them improvise better — but only under a certain kind of boss (Work ID W7214497259):** Frontline tech pays off through improvisation, not standardization, and only when managers push staff to question assumptions; for a B2B sales-management or HR-facing business column.\n- **Long-standing B2B customers aren't automatically loyal ones (Work ID W7202159462):** Account tenure isn't a moat — repeat buying and advocacy run on different value levers, so key-account programs may be over-crediting longevity; for a B2B marketing trade column.\n- **Why the same in-store technology delights shoppers in one setting and flops in another (Work ID W7213352682):** A four-mechanism diagnostic for why identical kiosks and smart mirrors succeed in one store and insult shoppers in another, plus the striking finding that people report feeling respected or disrespected by a machine; for a retail trade explainer, with a consumer-psychology version on self-checkout rage.\n- **AI at the front line: the employees who shape the tools go above and beyond (Work ID W7213983383):** The best service came from staff who both expanded and deliberately bounded their AI use, not the heaviest users — an argument that adoption-rate dashboards measure the wrong thing; for a future-of-work business feature or a CX leadership column.\n- **Virtual try-on is becoming a mirror — and over-flattering filters will cost you (Work ID W7203598766):** AR reframed from conversion tool to identity tool, where beautifying the render destroys the realism that makes it work and sets up returns; for a fashion/retail trade explainer or a consumer-technology column on body image and shopping apps.\n- **Custom work deals make salespeople better at rescuing unhappy customers (Work ID W7203686382):** Service recovery may be an employment-terms problem rather than a training problem — reps with negotiated personal arrangements did more genuine emotional labor and less faking; for an HR or sales-leadership business column.\n- **Older guests judge hotel robots on trust, not on how good the tech is (Work ID W7204434854):** For seniors, information and system quality didn't move perceived privacy protection at all — trust and comfort carried through to brand image; for a hospitality trade brief or a travel/aging general-interest piece.\n- **Shoppers don't reward green talk — and heavy discounts are where sustainability claims pile up (Work ID W7203821753):** Green language in reviews shows no link to ratings, and the claims cluster on deepest-discount listings, while detectors now flag claim–experience mismatches accurately enough for platforms or regulators; for a sustainability-business news story or a consumer-affairs explainer.\n- **Inside the Facebook groups where a drug reformulation turned patients into activists (Work ID W7208731674):** Solidarity and gratitude inside an affected-customer community turned out to be the mobilization engine behind boycotts and complaints — a crisis-monitoring blind spot; for a PR/crisis-communications trade outlet or a health-and-society feature.\n- **Happy reviews get social credit; angry reviews get believed (Work ID W7214683938):** Across 172,000 Yelp reviews, the posts that travel furthest are the ones readers trust least — a reason to split review engagement metrics in two; for a marketing analytics trade brief or a consumer explainer on how to read restaurant reviews.\n- **People behave worse toward chatbots because they don't feel watched (Work ID W7202155921):** Automating refunds may quietly raise claim inflation, with the most AI-confident customers cheating most — a cost case missing from service automation business cases; for a retail/CX trade news story or a consumer-psychology piece on honesty and observation.\n- **An audit of 12 Spanish fashion flagships found most \"phygital\" stores are just stores with pickup counters (Work ID W7202296676):** Average maturity of 34%, immersive experience at 16.6%, named brands ranked top to bottom — a quantified gap between store-of-the-future rhetoric and what is installed; for a retail trade news feature or a general-interest piece on the disappointing smart store."
+  }
+}
