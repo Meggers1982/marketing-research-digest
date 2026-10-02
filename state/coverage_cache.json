@@ -120,6 +120,16 @@
         "state": "unreported"
       }
     },
+    "W7172382856": {
+      "checked_at": "2026-10-02T16:19:36.123507+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers read diverse workforce sign company also greener",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7172408085": {
       "checked_at": "2026-09-19T12:10:49.110330+00:00",
       "result": {
@@ -148,6 +158,24 @@
         "query": "livestream selling charisma not better smiles looks volume all peak",
         "returned": 0,
         "state": "unreported"
+      }
+    },
+    "W7172534656": {
+      "checked_at": "2026-10-02T16:18:58.304362+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://calmatters.org/environment/2026/08/plastics-law-producer-responsibility-consumer/",
+            "outlet": "CalMatters",
+            "title": "As California demands less plastic in packaging, manufacturers say you\u2019ll pay more for stuff"
+          }
+        ],
+        "outlets": [
+          "CalMatters"
+        ],
+        "query": "Shoppers want recycled packaging but will pay extra only plastic",
+        "returned": 20,
+        "state": "lightly_reported"
       }
     },
     "W7197051994": {
@@ -488,16 +516,6 @@
         "state": "unreported"
       }
     },
-    "W7204076930": {
-      "checked_at": "2026-09-18T12:29:34.551032+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Consumers will pay sustainable beer but Fair Trade labels actually",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7204147563": {
       "checked_at": "2026-09-25T13:04:39.799250+00:00",
       "result": {
@@ -552,6 +570,16 @@
         "articles": [],
         "outlets": [],
         "query": "Older guests judge hotel robots trust not good tech",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7204439549": {
+      "checked_at": "2026-10-02T16:19:45.354047+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "invisible labor shopping healthcare across border",
         "returned": 0,
         "state": "unreported"
       }
@@ -650,26 +678,6 @@
         "state": "unreported"
       }
     },
-    "W7204740815": {
-      "checked_at": "2026-09-18T12:31:31.178595+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Shoppers will buy fish nobody wants tell them caught sustainably",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204753244": {
-      "checked_at": "2026-09-18T12:30:34.527121+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "579 Vietnamese firms stacking digital tools top each other starts",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7204997257": {
       "checked_at": "2026-09-24T13:00:10.835954+00:00",
       "result": {
@@ -750,26 +758,6 @@
         "state": "unreported"
       }
     },
-    "W7211935268": {
-      "checked_at": "2026-09-18T12:28:27.633103+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Inside zero waste living exhausting self audit behind responsible consumption",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7211969452": {
-      "checked_at": "2026-09-18T12:28:36.580479+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "community helps save end trapping",
-        "returned": 11,
-        "state": "unreported"
-      }
-    },
     "W7211986357": {
       "checked_at": "2026-09-28T15:58:18.510683+00:00",
       "result": {
@@ -790,16 +778,6 @@
         "state": "unreported"
       }
     },
-    "W7212036936": {
-      "checked_at": "2026-09-18T12:29:37.884118+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Does corporate social responsibility make people consume better just consume",
-        "returned": 20,
-        "state": "unreported"
-      }
-    },
     "W7212038717": {
       "checked_at": "2026-10-01T14:25:31.787296+00:00",
       "result": {
@@ -817,16 +795,6 @@
         "outlets": [],
         "query": "cameo gamble second celebrity only helps they famous first one",
         "returned": 4,
-        "state": "unreported"
-      }
-    },
-    "W7212134127": {
-      "checked_at": "2026-09-18T12:27:12.510161+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Consumers reward brands adding green features barely notice they take",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -940,16 +908,6 @@
         "state": "unreported"
       }
     },
-    "W7213257365": {
-      "checked_at": "2026-09-18T12:27:45.576006+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "clones famous people leave fans cold unless dialogue gets intimate",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7213274443": {
       "checked_at": "2026-09-24T12:59:10.708999+00:00",
       "result": {
@@ -1000,16 +958,6 @@
         "state": "unreported"
       }
     },
-    "W7213367223": {
-      "checked_at": "2026-09-18T12:28:44.970058+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Small firms trust their partners most slowest adopt",
-        "returned": 4,
-        "state": "unreported"
-      }
-    },
     "W7213402036": {
       "checked_at": "2026-09-25T13:04:47.755899+00:00",
       "result": {
@@ -1027,6 +975,16 @@
         "outlets": [],
         "query": "Not knowing want make likely buy",
         "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7213447462": {
+      "checked_at": "2026-10-02T16:19:41.485877+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Young shoppers don blame themselves unsustainable shopping they blame system",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1228,6 +1186,16 @@
         "state": "unreported"
       }
     },
+    "W7213931215": {
+      "checked_at": "2026-10-02T16:19:23.550894+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Secondhand clothing subscription boxes most success factors hurdles must clear",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213972128": {
       "checked_at": "2026-09-28T15:58:32.417819+00:00",
       "result": {
@@ -1288,12 +1256,42 @@
         "state": "unreported"
       }
     },
+    "W7214074641": {
+      "checked_at": "2026-10-02T16:18:56.443384+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Thinner packaging saves material ends trash instead recycling bin",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214082546": {
       "checked_at": "2026-09-25T13:04:46.406681+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Search ads help national chains social ads help local ones",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7214088398": {
+      "checked_at": "2026-10-02T16:19:34.537851+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "sponsoring Olympians buys mining magnate glowing press",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214091952": {
+      "checked_at": "2026-10-02T16:19:37.417068+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Students will eat climate friendly lunch just don call vegetarian",
         "returned": 1,
         "state": "unreported"
       }
@@ -1316,6 +1314,16 @@
         "state": "lightly_reported"
       }
     },
+    "W7214115221": {
+      "checked_at": "2026-10-02T16:19:27.455045+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Experts recommend beat said cared both Ecuador Norway",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214117679": {
       "checked_at": "2026-09-25T13:05:11.115473+00:00",
       "result": {
@@ -1336,6 +1344,16 @@
         "state": "unreported"
       }
     },
+    "W7214159818": {
+      "checked_at": "2026-10-02T16:19:15.522445+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "people hang onto things they longer use means circular economy",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7214190181": {
       "checked_at": "2026-09-30T15:29:34.442449+00:00",
       "result": {
@@ -1343,6 +1361,16 @@
         "outlets": [],
         "query": "buyers sellers get too friendly platform loses transaction",
         "returned": 6,
+        "state": "unreported"
+      }
+    },
+    "W7214208660": {
+      "checked_at": "2026-10-02T16:19:02.636708+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "big investors spread themselves thin companies social responsibility slips",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1506,6 +1534,16 @@
         "state": "unreported"
       }
     },
+    "W7214725050": {
+      "checked_at": "2026-10-02T16:19:05.836238+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "green influencers get called out followers keep watching anyway",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214728277": {
       "checked_at": "2026-09-30T15:30:06.943974+00:00",
       "result": {
@@ -1523,6 +1561,36 @@
         "outlets": [],
         "query": "Stop storing keepsakes using them makes them mean",
         "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7214980150": {
+      "checked_at": "2026-10-02T16:19:39.024833+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Inside five agencies rewiring creative work around generative",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7215072413": {
+      "checked_at": "2026-10-02T16:19:31.735271+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Hungry donors respond better thank messages four experiments suggest",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7215083585": {
+      "checked_at": "2026-10-02T16:19:11.904846+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Visible sustainability make luxury look fashionable unless brand frames design",
+        "returned": 0,
         "state": "unreported"
       }
     }
