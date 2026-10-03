@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 16,
+  "run_count": 17,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -15,6 +15,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-food-health-wellbeing-2026-10-03",
+      "title": "Marketing Research Digest — Food, Health & Wellbeing — 2026-10-03",
+      "topic": "food, health & wellbeing",
+      "run_date": "2026-10-03",
+      "study_count": 16,
+      "total_issues": "10 (7 Minor, 3 Moderate, 0 Major)",
+      "lead_count": 5,
+      "top_score": 87
+    },
     {
       "id": "marketing-research-digest-sustainability-ethical-consumption-2026-10-02",
       "title": "Marketing Research Digest — Sustainability & Ethical Consumption — 2026-10-02",

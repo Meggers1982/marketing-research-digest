@@ -70,16 +70,6 @@
         "state": "unreported"
       }
     },
-    "W7171940513": {
-      "checked_at": "2026-09-19T12:10:34.989847+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Beauty filters widen gap between look want look raise interest",
-        "returned": 2,
-        "state": "unreported"
-      }
-    },
     "W7172190947": {
       "checked_at": "2026-09-24T12:59:34.214138+00:00",
       "result": {
@@ -127,16 +117,6 @@
         "outlets": [],
         "query": "Consumers read diverse workforce sign company also greener",
         "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7172408085": {
-      "checked_at": "2026-09-19T12:10:49.110330+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Electric delivery vans quietly pushing customers toward cheeseburgers",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -265,16 +245,6 @@
         "outlets": [],
         "query": "Salespeople Proud Their Employer Sell Unless They Prouder Their Profession",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7202165920": {
-      "checked_at": "2026-09-19T12:11:25.233431+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Free vegetable rich school lunches changed nothing because kids didn",
-        "returned": 2,
         "state": "unreported"
       }
     },
@@ -688,12 +658,12 @@
         "state": "unreported"
       }
     },
-    "W7206215832": {
-      "checked_at": "2026-09-19T12:12:56.360566+00:00",
+    "W7207770543": {
+      "checked_at": "2026-10-03T14:47:07.103835+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "116 later alcohol awareness campaigns change minds but not drinking",
+        "query": "Trust not realism makes influencers work hyper realistic avatars backfire",
         "returned": 0,
         "state": "unreported"
       }
@@ -708,6 +678,16 @@
         "state": "unreported"
       }
     },
+    "W7208792358": {
+      "checked_at": "2026-10-03T14:47:20.903913+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Anger other people food waste predicts who actually eats their",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7208819722": {
       "checked_at": "2026-09-20T12:42:35.522369+00:00",
       "result": {
@@ -718,13 +698,13 @@
         "state": "unreported"
       }
     },
-    "W7208834717": {
-      "checked_at": "2026-09-19T12:08:46.337334+00:00",
+    "W7210275208": {
+      "checked_at": "2026-10-03T14:47:24.111522+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "High protein doesn make shoppers think food healthier makes them",
-        "returned": 20,
+        "query": "Eating same meal years doesn make like makes hack",
+        "returned": 4,
         "state": "unreported"
       }
     },
@@ -745,16 +725,6 @@
         "outlets": [],
         "query": "000 product test first item people saw shaped they wanted",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7211919306": {
-      "checked_at": "2026-09-19T12:11:17.863993+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Consumers file cell based sausage made not",
-        "returned": 1,
         "state": "unreported"
       }
     },
@@ -828,26 +798,6 @@
         "state": "unreported"
       }
     },
-    "W7212302631": {
-      "checked_at": "2026-09-19T12:11:59.766889+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "doctor gives health advice numbers beat stories point",
-        "returned": 2,
-        "state": "unreported"
-      }
-    },
-    "W7212377582": {
-      "checked_at": "2026-09-19T12:11:47.361702+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Ads run during wartime judged trustworthy lifted brands than peacetime",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7212380221": {
       "checked_at": "2026-09-30T15:30:13.742632+00:00",
       "result": {
@@ -874,16 +824,6 @@
         "articles": [],
         "outlets": [],
         "query": "pop store tour cut band own online merch sales same",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7212607085": {
-      "checked_at": "2026-09-19T12:09:30.524884+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Serve spicy food angular plate shape taste matching lifts diners",
         "returned": 0,
         "state": "unreported"
       }
@@ -935,16 +875,6 @@
         "outlets": [],
         "query": "Ads designed screenshotted get saved liked",
         "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7213351764": {
-      "checked_at": "2026-09-19T12:11:12.266860+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "People GLP drugs show gut level preference healthy food don",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1038,16 +968,6 @@
         "state": "unreported"
       }
     },
-    "W7213535017": {
-      "checked_at": "2026-09-19T12:08:30.536735+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "most politically extreme customers most loyal least likely notice price",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7213538226": {
       "checked_at": "2026-09-21T14:35:10.522913+00:00",
       "result": {
@@ -1066,24 +986,6 @@
         "query": "Consumers will pay low carbon milk but big chunk them",
         "returned": 1,
         "state": "unreported"
-      }
-    },
-    "W7213550700": {
-      "checked_at": "2026-09-19T12:10:27.135360+00:00",
-      "result": {
-        "articles": [
-          {
-            "link": "https://www.martechcube.com/radial-survey-70-of-holiday-shoppers-want-guaranteed-delivery/",
-            "outlet": "MarTech Cube",
-            "title": "Radial Survey: 70% of Holiday Shoppers Want Guaranteed Delivery"
-          }
-        ],
-        "outlets": [
-          "MarTech Cube"
-        ],
-        "query": "Year shoppers want coupons year end shoppers want discounts",
-        "returned": 20,
-        "state": "lightly_reported"
       }
     },
     "W7213554170": {
@@ -1143,6 +1045,16 @@
         "outlets": [],
         "query": "Ask toward 000 goal round number math makes people give",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213662492": {
+      "checked_at": "2026-10-03T14:47:15.816462+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Mothers rarely eat front their babies they babies eat",
+        "returned": 20,
         "state": "unreported"
       }
     },
@@ -1236,6 +1148,16 @@
         "state": "unreported"
       }
     },
+    "W7214039691": {
+      "checked_at": "2026-10-03T14:47:09.263093+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Food noise went viral Ozempic but nobody has defined actually",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214067855": {
       "checked_at": "2026-09-28T15:58:13.460595+00:00",
       "result": {
@@ -1273,6 +1195,16 @@
         "outlets": [],
         "query": "Search ads help national chains social ads help local ones",
         "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7214083501": {
+      "checked_at": "2026-10-03T14:47:46.385801+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "street vendors defend their dignity market stacked against them",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1444,6 +1376,16 @@
         "state": "unreported"
       }
     },
+    "W7214439490": {
+      "checked_at": "2026-10-03T14:47:42.368346+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Brand tracking federal agencies ICE most recognized least liked",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214497259": {
       "checked_at": "2026-10-01T17:05:24.040673+00:00",
       "result": {
@@ -1480,6 +1422,16 @@
         "articles": [],
         "outlets": [],
         "query": "ChatGPT managers read same guest complaints prescribed different fixes",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214622498": {
+      "checked_at": "2026-10-03T14:47:49.581838+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Short brand names feel warmer warmth shows sales pitches crowdfunding",
         "returned": 0,
         "state": "unreported"
       }
@@ -1564,6 +1516,54 @@
         "state": "unreported"
       }
     },
+    "W7214901172": {
+      "checked_at": "2026-10-03T14:47:39.500984+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Twenty days diaries naval cadets making work playful cut daily",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214928046": {
+      "checked_at": "2026-10-03T14:47:34.323199+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "country pays farmers grow tobacco while promising curb smoking",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214937598": {
+      "checked_at": "2026-10-03T14:47:02.968046+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://news.cuanschutz.edu/news-stories/why-are-teens-asking-ai-to-rate-their-faces",
+            "outlet": "University of Colorado Anschutz",
+            "title": "Why Are Teens Asking AI to Rate Their Faces?"
+          }
+        ],
+        "outlets": [
+          "University of Colorado Anschutz"
+        ],
+        "query": "Asking customers rate something changes much they like",
+        "returned": 20,
+        "state": "lightly_reported"
+      }
+    },
+    "W7214949285": {
+      "checked_at": "2026-10-03T14:47:31.005085+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Australia smokers have quietly deserted supermarket reshaping tobacco policy",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214980150": {
       "checked_at": "2026-10-02T16:19:39.024833+00:00",
       "result": {
@@ -1571,6 +1571,16 @@
         "outlets": [],
         "query": "Inside five agencies rewiring creative work around generative",
         "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7215031814": {
+      "checked_at": "2026-10-03T14:47:18.153143+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Nearly 000 hotel reviews show where dietary needs wrong rarely",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1584,12 +1594,42 @@
         "state": "unreported"
       }
     },
+    "W7215082714": {
+      "checked_at": "2026-10-03T14:47:56.357555+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Bright packaging makes kids nag harder but only parents don",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7215083585": {
       "checked_at": "2026-10-02T16:19:11.904846+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Visible sustainability make luxury look fashionable unless brand frames design",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7215133135": {
+      "checked_at": "2026-10-03T14:48:00.741768+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Internal documents suggest tobacco giant kept working smuggling channels promised",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7216368733": {
+      "checked_at": "2026-10-03T14:47:13.223115+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Put animal welfare label veggie burger too",
         "returned": 0,
         "state": "unreported"
       }

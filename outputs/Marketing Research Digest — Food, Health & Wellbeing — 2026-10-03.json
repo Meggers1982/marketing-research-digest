@@ -1,0 +1,614 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-03",
+  "days_back": 60,
+  "window_from": "2026-08-04",
+  "window_to": "2026-10-03",
+  "focus": "Food, Health & Wellbeing",
+  "topic": "food, health & wellbeing",
+  "query": "food OR nutrition OR \"healthy eating\" OR alcohol OR tobacco OR vaping OR \"health communication\" OR wellbeing OR \"well-being\" OR obesity",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 305,
+    "not_research": 3,
+    "no_abstract": 48,
+    "off_topic": 8,
+    "already_covered": 48,
+    "over_journal_cap": 43,
+    "over_cap": 115,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7214937598",
+      "headline": "Asking customers to rate something changes how much they like it",
+      "the_study": "Across 16 experiments with 16,311 participants, researchers had people repeatedly rate ongoing hedonic experiences — games, foods, songs, videos, artwork — or rate them less often, or not at all. Repeated rating made people more attentive to how the experience was changing moment to moment: when things were getting worse, frequent ratings accelerated boredom and disengagement; when things were improving, frequent ratings amplified enjoyment. The act of measurement, in other words, was not neutral — it shaped the experience it was supposed to record.",
+      "why_it_matters": "Marketers run constant pulse surveys, in-app check-ins and post-interaction ratings on the assumption they are passively observing satisfaction; this research suggests that frequency of measurement itself can push customers toward faster disenchantment or deeper enjoyment.",
+      "story_angle_primary": "Audit your measurement cadence as a design variable, not just a data pipeline. The finding suggests firms could test asking for feedback less often during experiences that naturally decay (a subscription's novelty wearing off) and more often during experiences that improve with use (a skill-building app, a loyalty program that gets better over time) — and watch whether survey frequency itself moves retention.",
+      "story_angle_secondary": "If you want a vacation, a new album or a favorite restaurant meal to stay enjoyable, stop constantly asking yourself how much you are enjoying it — self-monitoring makes the fading sparkle more obvious. The reverse trick also works: tracking something that is slowly getting better makes the improvement feel bigger.",
+      "caveats": "Primarily lab and online experiments with short-duration hedonic stimuli rather than long-run real consumption relationships; the sample composition across the 16 studies is not detailed in the abstract, and the effects on commercial outcomes like churn remain to be tested in the field.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-09-30",
+      "doi": "10.1093/jcr/ucag038",
+      "paper_title": "Rating an Experience Makes People Notice How It Is Changing: Consequences for Hedonic Adaptation and Consumer Enjoyment",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7207770543",
+      "headline": "Trust, not realism, is what makes AI influencers work — and hyper-realistic avatars backfire",
+      "the_study": "Researchers combined an expert Delphi study and consumer interviews with a cross-national survey of 3,157 people in the US, UK, Canada and Australia, modeling how trust in AI-driven virtual influencers relates to consumer well-being. Trust was the strongest predictor, explaining close to half the variance, operating both directly and through perceived authenticity, parasocial bonds and persuasion knowledge. Notably, persona realism showed an uncanny valley pattern — more human-looking was not reliably better — and cultural orientation and digital literacy moderated the effects.",
+      "why_it_matters": "Brands investing in virtual influencers often optimize for photorealism; this points instead to transparent disclosure, coherent storytelling and audience literacy as the levers that determine whether an AI persona builds or erodes the relationship.",
+      "story_angle_primary": "Treat realism as a tunable risk rather than a goal. Brands could A/B test clearly stylized or openly synthetic personas against hyper-realistic ones, and test explicit AI disclosure, to see whether admitting the avatar is artificial actually raises trust rather than lowering it — and whether the answer differs by market.",
+      "story_angle_secondary": "Audiences are forming genuine one-sided relationships with characters they know are not real — and the study suggests people's digital literacy shapes how much that bond helps or hurts them. Knowing an influencer is synthetic does not necessarily break the spell.",
+      "caveats": "Cross-sectional survey, so it cannot establish causation; self-reported well-being rather than observed behavior; four English-speaking Western countries only; heavy reliance on structural path modeling. The same author team appears to have a closely related paper in the same window, so findings overlap.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-09-03",
+      "doi": "10.1002/cb.70242",
+      "paper_title": "AI Influencers and Consumer Well‐Being: The Roles of Parasocial Interaction, Trust and Authenticity",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7214039691",
+      "headline": "\"Food noise\" went viral with Ozempic — but nobody has defined what it actually is",
+      "the_study": "This narrative review examines \"food noise,\" the term that spread on TikTok and Reddit to describe persistent, intrusive, unwanted preoccupation with food, which many users of GLP-1 drugs such as semaglutide and tirzepatide report being dramatically quieted. The authors find the construct remains poorly defined and barely measured, and propose five candidate theoretical explanations: homeostatic signaling, food cue reactivity, food addiction, thought suppression and memory inhibition.",
+      "why_it_matters": "A consumer-coined concept is now shaping how millions of people describe their relationship with eating and with weight-loss drugs, with direct implications for food marketing, cue-based advertising and the fast-growing GLP-1 wellness category.",
+      "story_angle_primary": "Food and beverage marketers should watch this construct closely: if GLP-1 users genuinely experience reduced cue reactivity, the core mechanics of appetite-triggering advertising, in-store displays and impulse placement may simply stop working on a growing segment. The review is a prompt to start measuring cue responsiveness within your customer base rather than assuming it is constant.",
+      "story_angle_secondary": "The constant mental chatter about food that many people assume is a personal failure of willpower now has a name and several competing scientific explanations — and at least some of it may be biology rather than character.",
+      "caveats": "This is a theoretical/narrative review, not new empirical evidence; the construct lacks a validated measure, and existing evidence is largely qualitative and self-reported from social media and interview accounts.",
+      "journal": "Appetite",
+      "published": "2026-09-22",
+      "doi": "10.1016/j.appet.2026.108791",
+      "paper_title": "Food noise: A theoretical review",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7216368733",
+      "headline": "Put the animal welfare label on the veggie burger too",
+      "the_study": "Researchers ran two experiments in a simulated online supermarket testing what happens when animal welfare labels — normally reserved for meat, dairy and eggs — are also placed on plant-based products. Extending the labels to plant-based items increased the number of plant-based foods chosen by 28% versus an unlabeled control and 33% versus the standard setup where only animal products carried the label, while also shifting choices toward higher-welfare options within the meat and dairy aisle. The effect held even when the welfare score was embedded in a busier multidimensional label showing biodiversity and climate scores alongside it, and was explained by shoppers perceiving more animal-friendly options available and stronger social norms around choosing them.",
+      "why_it_matters": "It suggests a label's biggest job is not informing shoppers but redrawing the boundaries of the category they think they are choosing within — and that plant-based brands may be leaving an easy credibility signal on the table.",
+      "story_angle_primary": "Retailers and plant-based brands could test extending existing welfare certifications across the full assortment rather than confining them to animal products; the mechanism here is perceived availability and social norms, so the test should be run in a real store environment where competing cues and prices are present, not just in a simulated basket.",
+      "story_angle_secondary": "Labels quietly define what counts as a \"choice set.\" If a welfare logo only ever appears on meat, shoppers mentally file animal welfare as a meat-aisle decision — and never notice that the simplest animal-friendly option is sitting one shelf over.",
+      "caveats": "Simulated online supermarket rather than real purchases with real money; choices recorded in a controlled setting over a short horizon; the abstract does not report sample size, composition or country, and effects on actual sales remain untested.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-10-01",
+      "doi": "10.1016/j.foodqual.2026.106135",
+      "paper_title": "Extending animal welfare labels to plant-based foods promotes animal-friendly food choices",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7213662492",
+      "headline": "Mothers rarely eat in front of their babies — and when they do, babies eat more",
+      "the_study": "Researchers observed mothers feeding their infants at 6 months (n=103), 9 months (n=104) and 12 months (n=101), coding whether mothers demonstrated eating the food themselves and how many bites the infant took. Mothers who demonstrated eating more often had infants who took more bites — but fewer than 30% of mothers demonstrated eating at any age point. Mothers were no more likely to model eating with unfamiliar foods than familiar ones, even though infants ate less of the unfamiliar items, and demonstrations were more common during shared family meals and with older infants.",
+      "why_it_matters": "A free, simple behavior that tracks with infant food acceptance is almost never used at precisely the moment it would help most — the introduction of new foods.",
+      "story_angle_primary": "For baby food and infant nutrition brands, packaging and feeding guidance built around \"take a bite yourself first,\" especially for new flavors and vegetables, is a low-cost claim worth testing — though this is correlational and would need a controlled trial before any efficacy messaging.",
+      "story_angle_secondary": "Parents agonize over getting babies to accept vegetables, but the most instinctive tool — visibly eating it yourself, at a shared meal — turns out to be the one most families skip during solo infant feedings.",
+      "caveats": "Observational and cross-sectional in design, so causality is unproven (more responsive infants may simply elicit more demonstrating); samples of roughly 100 at each age; single study population with limited detail on demographics; measured bites in an observation session rather than long-term diet.",
+      "journal": "Appetite",
+      "published": "2026-09-19",
+      "doi": "10.1016/j.appet.2026.108787",
+      "paper_title": "Are maternal eating demonstrations associated with infant food acceptance? An observational study of solid food introduction in infancy",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7215031814",
+      "headline": "Nearly 90,000 hotel reviews show where dietary needs go wrong — and it is rarely the food itself",
+      "the_study": "Researchers mined 88,986 text comment fields from Booking.com reviews of 20 four-star hotels in Bratislava and Prague, using computational text analysis to isolate food-related comments and manual validation to identify 439 that referenced dietary restrictions. Such mentions were rare overall but appeared disproportionately in negative rather than positive food commentary, and guests judged medical, lifestyle and religious dietary needs differently. Five service conditions recurred: availability, variety, staff responsiveness, labeling clarity and whether the accommodation felt adequate rather than token.",
+      "why_it_matters": "It reframes dietary accommodation as an operational and informational problem — labeling and frontline staff response — rather than purely a menu-range problem, and shows it surfaces mainly as complaint rather than praise.",
+      "story_angle_primary": "Hotel and hospitality operators should audit the cheap half of the problem first: clear allergen and ingredient labeling at the buffet and trained frontline responses, since guests penalize vague information and dismissive staff as much as a thin selection. Treat silence in reviews as a weak signal, not a pass.",
+      "story_angle_secondary": "If you travel with celiac disease, an allergy, or religious dietary rules, the recurring failure point at hotel breakfasts is not the absence of food but the absence of reliable information about what is in it.",
+      "caveats": "Self-selected online reviews, which capture only what guests chose to write and may contain traces rather than direct evidence of harm; only 439 relevant comments after filtering; 20 four-star hotels in two Central European cities; no link to bookings, revenue or repeat stays.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-10-01",
+      "doi": "10.1108/jsm-04-2026-0384",
+      "paper_title": "Dietary inclusivity as a vulnerability-reducing service condition in hotel food services: evidence from online reviews in Central Europe",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7208792358",
+      "headline": "Anger at other people's food waste predicts who actually eats their leftovers",
+      "the_study": "Researchers surveyed 226 students online and tested a model of leftover consumption based on the Theory of Interpersonal Behavior. Beyond the usual driver—attitude toward eating leftovers—the emotion of anger felt when witnessing other people waste food significantly strengthened intention to eat one's own leftovers. That anger was itself partly rooted in how strongly the person identified as environmentally conscious.",
+      "why_it_matters": "Social marketing campaigns against food waste typically preach guilt or thrift; this suggests moral indignation at others' waste may be a more potent lever, and one brands and public agencies rarely use.",
+      "story_angle_primary": "For sustainability and food brands: worth testing creative that surfaces other-directed anger (\"look what's being thrown away\") against conventional guilt or money-saving appeals—but this is a survey of intentions among students, so any campaign should be validated with real behavioral tracking before scaling.",
+      "story_angle_secondary": "A look at the emotional mechanics of everyday household waste: the people who finish their leftovers may be driven less by frugality than by irritation at seeing others throw food out.",
+      "caveats": "Student sample; cross-sectional online survey measuring intentions rather than observed leftover consumption; cannot establish causation; N=226 total.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-09-04",
+      "doi": "10.1108/jcm-07-2025-8043",
+      "paper_title": "Food waste anger: encouraging students to consume their leftovers at home",
+      "source_id": "S165789823"
+    },
+    {
+      "work_id": "W7210275208",
+      "headline": "Eating the same meal for years doesn't make you like it—it makes you hack it",
+      "the_study": "Researchers conducted a focused ethnography with 113 Brazilian Army personnel across early, mid and advanced career stages, combining contextual observation and semi-structured interviews with thematic coding and AI-assisted sentiment classification of ration experiences. Negative sensory and physiological reactions to the food stayed roughly constant across all career stages—repeated exposure did not breed liking. What changed was behavior: early-career personnel ate under supervision, mid-career personnel became more critical and discarded more, and advanced-career personnel routinely modified and recombined ration components to make meals workable.",
+      "why_it_matters": "It challenges the familiar assumption in food marketing and institutional catering that repeated exposure reliably builds acceptance; instead, long-term users may stay dissatisfied and simply develop workarounds that mask the problem.",
+      "story_angle_primary": "For food manufacturers and institutional caterers: high repeat consumption is not evidence of liking. Consider measuring how heavy users modify, combine or discard your product—customization behavior may be a better dissatisfaction signal than satisfaction scores, and a product roadmap opportunity.",
+      "story_angle_secondary": "Anyone stuck in a repetitive food environment—school canteens, hospital trays, meal-prep routines—will recognize the pattern: you don't learn to love it, you learn to doctor it.",
+      "caveats": "Single country and a highly specific, hierarchical institutional setting (Brazilian Army); qualitative ethnographic design with no comparison group and no causal test; sentiment classification partly AI-assisted; findings may not generalize to voluntary consumer contexts.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-09-06",
+      "doi": "10.1016/j.foodqual.2026.106107",
+      "paper_title": "Beyond exposure: familiarity and the ecology of food meaning in hierarchical environments – A military field study",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7214949285",
+      "headline": "Australia's smokers have quietly deserted the supermarket — and it's reshaping tobacco policy",
+      "the_study": "Researchers pooled four waves of Australia's national cross-sectional drug strategy survey (2013 to 2022/23), covering 10,940 people who smoked, and tracked where they got their tobacco. Supermarket purchasing fell from 51% to 35%, convenience stores held steady, and tobacconists surged from 17% to 33% while informal sources (friends, unregulated sellers) rose to 14%. Tobacconist buyers skewed male, lower socioeconomic status and metropolitan; informal sourcing was concentrated among 18–24 year olds and occasional smokers, who were up to 11 times more likely than daily smokers to source informally. Both tobacconist and informal channels were strongly linked to using illicitly traded tobacco.",
+      "why_it_matters": "A decade of tax rises and plain packaging has pushed a mass-market category out of mainstream retail and into specialist and gray channels, which blunts the policy levers that depend on licensed retailers. It is also a case study in what happens to any product when price pressure and regulation make the compliant channel uncompetitive.",
+      "story_angle_primary": "For anyone selling a heavily regulated or heavily taxed category, this is a live example of channel migration: as the mainstream retailer's price advantage and willingness to stock erode, demand relocates to specialists and informal sellers that are harder to monitor. Worth watching as a template for how retail licensing restrictions — the policy this data is meant to inform — would reshape distribution overnight.",
+      "story_angle_secondary": "The data quietly documents a two-tier tobacco market: lower-income and metropolitan smokers increasingly buy from tobacconists, and young, occasional smokers increasingly get cigarettes from informal sources — both routes associated with illicit product of unknown content.",
+      "caveats": "Self-reported cross-sectional survey data, so purchasing source and illicit use are reported rather than observed, and the design cannot establish causation; single country; the final wave spans the COVID era, which may have affected shopping patterns.",
+      "journal": "Tobacco Control",
+      "published": "2026-09-30",
+      "doi": "10.1136/tc-2026-060347",
+      "paper_title": "Trends and predictors of tobacco product purchasing source in Australia",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7214928046",
+      "headline": "The country that pays farmers to grow tobacco while promising to curb smoking",
+      "the_study": "Researchers combined descriptive economic analysis, correlation and interrupted time series analysis of production and subsidy data with a survey of farmers to examine North Macedonia's tobacco subsidies. Tobacco is the country's most subsidized crop, absorbing roughly 40% of all crop-related support, and subsidies materially supplement farmer income — yet cultivated area and the number of participating farmers are both falling. Most surveyed farmers said they would quit tobacco growing without the subsidy.",
+      "why_it_matters": "It documents a direct contradiction between a government's public health commitments under the WHO Framework Convention on Tobacco Control and its agricultural spending, and shows the subsidy is the main thing keeping growers in the crop — which means a managed exit is feasible.",
+      "story_angle_primary": "A reminder for anyone navigating ESG and policy-aligned sourcing that supply chains can be propped up by state money that is politically, not economically, durable; mapping subsidy dependency in your upstream categories is a risk exercise, not an academic one.",
+      "story_angle_secondary": "Public money flows in both directions on smoking — taxing it at the till while funding it at the farm — and most of the farmers themselves say they would switch crops if the payments stopped.",
+      "caveats": "Single country; observational economic data rather than an experiment, so subsidy effects are inferred from time series rather than causally isolated; the farmer survey's size and sampling are not reported in the abstract.",
+      "journal": "Tobacco Control",
+      "published": "2026-09-30",
+      "doi": "10.1136/tc-2025-059680",
+      "paper_title": "Subsidising tobacco growing in North Macedonia: policy at a crossroads",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7214901172",
+      "headline": "Twenty days of diaries from naval cadets: making work playful cut daily exhaustion",
+      "the_study": "Researchers ran a 20-day diary study with 57 Norwegian naval cadets, collecting 1,046 day-level observations and analyzing them with multilevel structural equation modeling. On days when cadets deliberately added fun to routine tasks — or turned them into a self-imposed competition — they reported more activated positive affect and less exhaustion that same day. Combining both forms of play amplified the benefit, and the effect appeared even though cadets had almost no control over what tasks they did or when.",
+      "why_it_matters": "Most wellbeing interventions assume employees need more autonomy over their workload; this suggests discretion over *how* a task is approached can deliver same-day energy gains in rigidly structured roles where job redesign isn't on the table.",
+      "story_angle_primary": "For leaders of frontline, shift-based or compliance-heavy teams who can't hand out flexibility, the testable idea is to explicitly license playful framing and friendly competition within fixed tasks — and to measure daily energy and exhaustion rather than annual engagement scores.",
+      "story_angle_secondary": "If your job is tightly scripted, the small game you invent to get through it isn't procrastination — in this sample it tracked with feeling more energized and less drained by the end of the day.",
+      "caveats": "Small sample (57 participants) from a single highly distinctive setting — military cadets in one country; all measures self-reported within the same day, so same-source bias and reverse causality (feeling good makes play easier) cannot be ruled out; short time horizon.",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-30",
+      "doi": "10.1016/j.jbusres.2026.116566",
+      "paper_title": "The duality of playful work design: A diary study of designing fun and competition",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7214439490",
+      "headline": "Brand tracking for federal agencies: ICE is the most recognized and least liked",
+      "the_study": "Applying the advertising world's Hierarchy of Effects model to public institutions, researchers surveyed a national MTurk sample (N=512) on unaided and aided recall, evaluations and support-related intentions for five US federal law enforcement agencies. The FBI emerged with the strongest attitudinal profile; ICE showed high awareness paired with low evaluations; and the US Marshals Service suffered from simply not being recognized. The pattern mirrors classic brand diagnostics, where awareness and favorability can move in opposite directions.",
+      "why_it_matters": "It is a reminder that salience is not equity: an organization can be extremely well known and still carry negative sentiment that recognition-building campaigns will only amplify.",
+      "story_angle_primary": "The diagnostic logic travels to any brand with a reputation problem — before spending on awareness, check whether your gap is recognition or regard, because for a high-awareness/low-favorability brand more visibility makes things worse. Treat the specific agency rankings as a snapshot of one online panel at one politically charged moment, not a stable score.",
+      "story_angle_secondary": "Public institutions are now measured with the same tools as consumer brands, and the results show how differently people hold agencies that do broadly similar work.",
+      "caveats": "MTurk online panel, which skews unrepresentative of the US public and is a poor base for national attitude estimates; cross-sectional and descriptive, no causal claims; stated support intentions rather than behavior; fielded amid highly salient news events that likely depress or inflate specific agency scores.",
+      "journal": "Public Relations Review",
+      "published": "2026-09-26",
+      "doi": "10.1016/j.pubrev.2026.102780",
+      "paper_title": "Awareness, attitudes, and behavioral intentions: A hierarchy of effects analysis of federal law enforcement agencies",
+      "source_id": "S193575162"
+    },
+    {
+      "work_id": "W7214083501",
+      "headline": "How street vendors defend their dignity when the market is stacked against them",
+      "the_study": "The authors conducted immersive ethnographic fieldwork in a weekly village market in Odisha, India, observing how subsistence entrepreneurs operate in a marketplace stratified by caste, gender, literacy and class. They identify three strategies deployed across the stages of an exchange: curating which interactions to have beforehand, fluidly signaling identity during the encounter, and crafting self-affirming narratives afterward. The paper builds these into a \"dignitarian\" framework for market policy.",
+      "why_it_matters": "Most subsistence marketplace research emphasizes warm, relationship-dense exchange; this documents the opposite condition and shows that emotional self-protection is itself a core business skill for the world's poorest sellers.",
+      "story_angle_primary": "For brands and development programs building distribution through micro-entrepreneurs in emerging markets, the finding is that training and tools which ignore status and dignity dynamics will miss a major determinant of whether sellers stay in the channel.",
+      "story_angle_secondary": "A close-up view of what commerce feels like at the bottom of the income distribution, where a sale can also be an exercise in managing other people's contempt.",
+      "caveats": "Qualitative ethnography in a single village market in one Indian state; findings are interpretive and not intended to generalize or quantify.",
+      "journal": "Journal of Public Policy & Marketing",
+      "published": "2026-09-23",
+      "doi": "10.1177/07439156261494552",
+      "paper_title": "EXPRESS: Striving for Dignity: Everyday Struggles of Subsistence Entrepreneurs in Nonempathic Marketplaces",
+      "source_id": "S37376905"
+    },
+    {
+      "work_id": "W7214622498",
+      "headline": "Short brand names feel warmer — and that warmth shows up in sales pitches and crowdfunding totals",
+      "the_study": "Researchers combined four main experiments plus a follow-up with analyses of two datasets covering 7,775 real brands to test why short brand names outperform long ones. Shorter names consistently signaled greater warmth (friendliness, approachability), which in turn drove more favorable brand evaluations, stronger purchase intentions and, in the real-brand data, more money raised through crowdfunding. The effect held across industries including food and clothing, across hedonic and utilitarian products, across familiar and unknown brands, and in both Latin and non-Latin scripts such as Amharic. Notably, shorter names were not always easier to process, so the usual \"processing fluency\" explanation did not account for the advantage, nor did memorability or distinctiveness.",
+      "why_it_matters": "Naming is one of the few brand decisions that is essentially free to get right at the outset and expensive to change later, and this gives founders and brand teams a concrete mechanism — perceived warmth — rather than a vague preference for brevity.",
+      "story_angle_primary": "If warmth is the mechanism, the naming brief changes: test short candidate names specifically on warmth perceptions, not just recall and fluency. It also suggests longer names may be salvageable by building warmth through other cues (tone of voice, mascot, founder story) — a hypothesis worth testing in-market rather than assuming the lab result transfers wholesale.",
+      "story_angle_secondary": "A reminder that first impressions of a company can be shaped by something as arbitrary as syllable count — a crowdfunding project may feel more likable simply because its name is shorter, before you know anything about the product.",
+      "caveats": "Experimental components rely on evaluations and purchase intentions rather than observed purchases; the real-brand evidence (including crowdfunding) is correlational, so other factors associated with short names may contribute.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-09-28",
+      "doi": "10.1002/mar.70273",
+      "paper_title": "The Long and Short of It: A Warmth‐Based Explanation of the Effects of Brand Name Length on Brand Equity",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7215082714",
+      "headline": "Bright packaging makes kids nag harder — but only when parents don't know much about nutrition",
+      "the_study": "A Brazilian mixed-methods study paired 30 in-depth interviews with caregivers of children aged 4–11 with a survey and choice experiment among 431 parents from socioeconomic classes B/C, manipulating snack and cookie package colors (vibrant versus neutral) while holding front-of-package warning labels constant. Vibrant colors significantly increased the perceived intensity of children's pestering, which in turn raised purchase intention for ultra-processed foods; pestering accounted for roughly 29% of the color effect. Critically, parental nutrition knowledge acted as a filter: the color-to-pestering link was strong among low-knowledge parents and statistically non-significant among high-knowledge parents.",
+      "why_it_matters": "It suggests mandatory warning labels alone may not neutralize child-directed packaging design, because color operates through the child's demand rather than the parent's reading of the label — and that nutrition education changes which cue parents actually process.",
+      "story_angle_primary": "For food brands and regulators alike, the finding reframes package color as a child-targeting lever that operates independently of label compliance. Brands with child-oriented portfolios should expect color-focused scrutiny next; the open question is whether this experimental pattern holds at the shelf, where price, promotion and habit also drive the basket.",
+      "story_angle_secondary": "Parents often blame themselves for giving in at the supermarket. This suggests the packaging is engineered to route the pressure through the child — and that knowing how to read a label actually weakens the pull of bright colors.",
+      "caveats": "Single country (Brazil) and a specific socioeconomic segment; purchase intention in a choice experiment rather than observed buying; pester power is parent-reported perception, not measured child behavior; cross-sectional survey component limits causal claims about the knowledge moderator.",
+      "journal": "Young Consumers Insight and Ideas for Responsible Marketers",
+      "published": "2026-10-01",
+      "doi": "10.1108/yc-02-2026-2995",
+      "paper_title": "Parental knowledge as a filter: how nutrition literacy moderates the influence of package color and pester power on Brazilian families",
+      "source_id": "S46472734"
+    },
+    {
+      "work_id": "W7215133135",
+      "headline": "Internal documents suggest a tobacco giant kept working the smuggling channels it promised to help shut down",
+      "the_study": "Researchers keyword-searched roughly 15,000 internal British American Tobacco documents dated 2000–2014, mostly covering East and Central Africa and the Middle East, and thematically analyzed the 210 relevant files. The documents indicate BAT remained involved in the illicit tobacco trade throughout the period, using strategies similar to those that drew legal action in the 1990s — working with distributors linked to smuggling and supplying products into poorly regulated markets. The authors also report that while the company partnered with authorities on anti-smuggling efforts, documents suggest it concealed illicit activity.",
+      "why_it_matters": "It is direct documentary evidence that a major multinational's public anti-illicit-trade positioning and its internal commercial practice can diverge, with implications for any government or NGO considering industry partnerships on enforcement.",
+      "story_angle_primary": "A case study in the reputational risk of partnership-based corporate responsibility: when a company co-administers the very problem it profits from, the partnership itself becomes the story. Brand and public affairs leaders in scrutinized categories should consider how internal records would read if released a decade later.",
+      "story_angle_secondary": "Illicit cigarettes are often framed as the work of criminal outsiders undercutting legitimate business; this research suggests the supply chain can run through the branded manufacturers themselves, which matters for how smoking-related tax and health policy is debated.",
+      "caveats": "Document analysis is interpretive and based on a partial, non-random set of internal files; covers specific regions and a period ending in 2014; findings are the authors' reading of documents, not legal findings; company has not been adjudicated on these specific claims in this paper.",
+      "journal": "Tobacco Control",
+      "published": "2026-10-01",
+      "doi": "10.1136/tc-2024-058843",
+      "paper_title": "British American Tobacco’s continued involvement in illicit tobacco trade",
+      "source_id": "S149729710"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7214937598",
+      "headline": "Asking customers to rate something changes how much they like it",
+      "verdict": "accurate",
+      "notes": "Study count, N, stimuli and the direction of both effects match the abstract; caveats appropriately note the lab/online setting and untested commercial outcomes.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7207770543",
+      "headline": "Trust, not realism, is what makes AI influencers work — and hyper-realistic avatars backfire",
+      "verdict": "minor",
+      "notes": "Sample, method and the trust/variance finding are accurate, but the headline and \"Why it matters\" recast a consumer well-being outcome as influencer/brand effectiveness, and \"hyper-realistic avatars backfire\" goes beyond the reported uncanny valley pattern.",
+      "issues": [
+        {
+          "label": "Outcome conflated with marketing effectiveness",
+          "severity": "Minor",
+          "as_written": "Trust, not realism, is what makes AI influencers work",
+          "abstract_says": "establishing trust in AI influencers as the central driver of consumer well-being … Trust emerged as the strongest predictor of well-being, explaining nearly half of the variance across contexts.",
+          "problem": "The dependent variable is consumer well-being, not whether an influencer \"works\" commercially (persuasion, sales, engagement). The body text clarifies this, but the headline and the \"builds or erodes the relationship\" framing imply a brand-effectiveness outcome that was not measured.",
+          "suggested_fix": "Reword to something like \"Trust, not realism, drives how AI influencers affect consumer well-being\" and keep the \"Why it matters\" tied to well-being outcomes."
+        },
+        {
+          "label": "Uncanny valley overstated as backfire",
+          "severity": "Minor",
+          "as_written": "hyper-realistic avatars backfire",
+          "abstract_says": "whereas persona realism shows an uncanny valley pattern",
+          "problem": "An uncanny valley pattern means a non-linear dip at near-human realism; the abstract does not state that the most realistic personas perform worst. \"Backfire\" asserts a stronger and more specific claim than reported.",
+          "suggested_fix": "Say realism showed a non-linear (uncanny valley) relationship rather than that hyper-realistic avatars backfire."
+        },
+        {
+          "label": "Overlapping-paper claim not in abstract",
+          "severity": "Minor",
+          "as_written": "The same author team appears to have a closely related paper in the same window, so findings overlap.",
+          "abstract_says": "(no mention of related or overlapping papers)",
+          "problem": "Unverifiable from abstract only.",
+          "suggested_fix": "Drop or source this claim explicitly."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7214039691",
+      "headline": "\"Food noise\" went viral with Ozempic — but nobody has defined what it actually is",
+      "verdict": "accurate",
+      "notes": "Review type, the social-media origin, the GLP-1 link and all five candidate theories match the abstract; caveats correctly state it is a narrative review with no validated measure.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7216368733",
+      "headline": "Put the animal welfare label on the veggie burger too",
+      "verdict": "accurate",
+      "notes": "Two simulated-supermarket studies, the 28%/33% figures, the multidimensional-label robustness check and the availability/social-norms mechanism all match; the caveat correctly notes the abstract gives no sample details.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7213662492",
+      "headline": "Mothers rarely eat in front of their babies — and when they do, babies eat more",
+      "verdict": "accurate",
+      "notes": "Sample sizes at each age, the <30% demonstration rate, the familiar/unfamiliar pattern and the shared-meal/older-infant predictors are all reproduced correctly, and the correlational limitation is flagged.",
+      "issues": []
+    },
+    {
+      "number": 6,
+      "work_id": "W7215031814",
+      "headline": "Nearly 90,000 hotel reviews show where dietary needs go wrong — and it is rarely the food itself",
+      "verdict": "accurate",
+      "notes": "Corpus size, hotel sample, the 439 validated comments, the negative-valence skew and the five service conditions all match the abstract, and the self-selection limitation is carried over.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7208792358",
+      "headline": "Anger at other people's food waste predicts who actually eats their leftovers",
+      "verdict": "significant",
+      "notes": "Design, N and the anger/green-identity findings are accurate, but the headline presents a measured intention as actual consumption behavior.",
+      "issues": [
+        {
+          "label": "Intention reported as behavior in headline",
+          "severity": "Moderate",
+          "as_written": "Anger at other people's food waste predicts who actually eats their leftovers",
+          "abstract_says": "The anger felt in response to others' food waste does significantly strengthen the intention to consume their leftovers",
+          "problem": "The outcome is stated intention in an online survey, not observed leftover consumption. The word \"actually eats\" tells readers behavior was measured, which contradicts the digest's own caveat.",
+          "suggested_fix": "Rewrite as \"…predicts who says they will eat their leftovers\" or \"…predicts intention to eat leftovers\"."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7210275208",
+      "headline": "Eating the same meal for years doesn't make you like it—it makes you hack it",
+      "verdict": "accurate",
+      "notes": "Sample (113 Brazilian Army personnel), focused ethnography, AI-assisted sentiment coding and the three career-stage patterns all match; caveats cover generalizability and the absence of causal testing.",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7214949285",
+      "headline": "Australia's smokers have quietly deserted the supermarket — and it's reshaping tobacco policy",
+      "verdict": "significant",
+      "notes": "All channel-share figures and the demographic predictors match, but the \"Why it matters\" asserts tax rises and plain packaging caused the channel shift, which the cross-sectional design cannot support and which contradicts the digest's own caveat; \"strongly linked\" overstates modest risk ratios.",
+      "issues": [
+        {
+          "label": "Causal attribution to tax and plain packaging",
+          "severity": "Moderate",
+          "as_written": "A decade of tax rises and plain packaging has pushed a mass-market category out of mainstream retail and into specialist and gray channels",
+          "abstract_says": "We analysed four waves of national cross-sectional survey data … Multinomial logistic regression examined factors associated with source relative to supermarkets. … Understanding these patterns may inform policies to reduce tobacco supply and availability.",
+          "problem": "The study describes trends and correlates of purchase source; it tests no policy exposure and attributes no cause. The body asserts a causal driver that the caveats explicitly say the design cannot establish.",
+          "suggested_fix": "Reframe as \"over a period of rising taxes and plain packaging, purchasing shifted away from supermarkets\" without claiming the policies caused it."
+        },
+        {
+          "label": "Association strength overstated",
+          "severity": "Minor",
+          "as_written": "Both tobacconist and informal channels were strongly linked to using illicitly traded tobacco.",
+          "abstract_says": "Informal sourcing (aRRR=1.44, 95% CI 1.20 to 1.74) and purchasing from tobacconists (aRRR=1.31, 95% CI 1.16 to 1.49) were associated with using illicitly traded tobacco.",
+          "problem": "Adjusted relative risk ratios of 1.31 and 1.44 are modest associations; \"strongly linked\" inflates them.",
+          "suggested_fix": "Say both channels were associated with illicit tobacco use (roughly 30–45% higher relative risk)."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7214928046",
+      "headline": "The country that pays farmers to grow tobacco while promising to curb smoking",
+      "verdict": "accurate",
+      "notes": "The ~40% subsidy share, declining area and participation, the farmer-survey result and the FCTC tension all match the abstract; the caveat correctly notes the survey's size and sampling are unreported.",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "work_id": "W7214901172",
+      "headline": "Twenty days of diaries from naval cadets: making work playful cut daily exhaustion",
+      "verdict": "minor",
+      "notes": "Design, N, observations and analysis all match; headline uses causal wording for a within-person diary study, and the split between \"fun\" and \"competition\" effects is more specific than the abstract states.",
+      "issues": [
+        {
+          "label": "Causal headline for diary data",
+          "severity": "Minor",
+          "as_written": "Twenty days of diaries from naval cadets: making work playful cut daily exhaustion",
+          "abstract_says": "On days when cadets designed their work playfully, they reported more activated positive affect and less exhaustion... small discretionary choices in how employees approach work may produce immediate well-being gains",
+          "problem": "The abstract reports a same-day association in self-reported diary data and hedges with \"may produce\"; \"cut daily exhaustion\" asserts a causal effect. The digest's own caveats acknowledge reverse causality, so the headline contradicts them.",
+          "suggested_fix": "Reword to something like \"making work playful tracked with lower daily exhaustion\"."
+        },
+        {
+          "label": "Separate effects of fun and competition",
+          "severity": "Minor",
+          "as_written": "On days when cadets deliberately added fun to routine tasks — or turned them into a self-imposed competition — they reported more activated positive affect and less exhaustion that same day.",
+          "abstract_says": "On days when cadets designed their work playfully, they reported more activated positive affect and less exhaustion. Combining designing fun with designing competition amplified these benefits.",
+          "problem": "The abstract reports the effect for playful work design overall plus an amplification when the two are combined; it does not state that each component separately produced the main effect.",
+          "suggested_fix": "Say that on days cadets designed their work playfully (adding fun and/or competition) they reported the benefits, with the combination amplifying them."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7214439490",
+      "headline": "Brand tracking for federal agencies: ICE is the most recognized and least liked",
+      "verdict": "significant",
+      "notes": "Sample, method and agency pattern are reported correctly, but the headline turns \"high awareness, low evaluations\" into an unsupported superlative ranking.",
+      "issues": [
+        {
+          "label": "Unsupported superlative in headline",
+          "severity": "Moderate",
+          "as_written": "ICE is the most recognized and least liked",
+          "abstract_says": "the FBI maintains the strongest attitudinal profile, ICE demonstrates high awareness but low attitudinal evaluations, and the U.S. Marshals Service suffers from low public recognition",
+          "problem": "The abstract never says ICE scored highest on recognition or lowest on evaluations relative to the other four agencies; it only reports a high-awareness/low-evaluation combination. Readers could take a specific ranking as established.",
+          "suggested_fix": "Rephrase to \"ICE scores high on awareness but low on favourability\" or similar, matching the abstract's wording."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7214083501",
+      "headline": "How street vendors defend their dignity when the market is stacked against them",
+      "verdict": "accurate",
+      "notes": "Ethnographic setting, the three stage-linked mechanisms and the dignitarian policy framework all match the abstract; framing appropriately interpretive.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7214622498",
+      "headline": "Short brand names feel warmer — and that warmth shows up in sales pitches and crowdfunding totals",
+      "verdict": "minor",
+      "notes": "Study counts, 7,775 brands, warmth mechanism and ruled-out alternatives are all accurate; the headline's \"sales pitches\" has no basis in the abstract and implies warmth was measured in the real-brand crowdfunding data.",
+      "issues": [
+        {
+          "label": "\"Sales pitches\" not in the abstract",
+          "severity": "Minor",
+          "as_written": "that warmth shows up in sales pitches and crowdfunding totals",
+          "abstract_says": "shorter (vs. longer) brand names convey stronger impressions of warmth, which lead to higher brand equity, reflected in more favorable brand evaluations and stronger purchase intentions. Shorter names are also associated with more funds raised through crowdfunding.",
+          "problem": "The abstract reports brand evaluations and purchase intentions in experiments, not anything resembling sales pitches; and the crowdfunding result is an association with name length, not a demonstrated warmth pathway in that dataset.",
+          "suggested_fix": "Rewrite as \"short brand names feel warmer — and shorter names are linked to stronger purchase intentions and bigger crowdfunding totals\"."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7215082714",
+      "headline": "Bright packaging makes kids nag harder — but only when parents don't know much about nutrition",
+      "verdict": "accurate",
+      "notes": "Mixed-methods design, both samples, the 29% mediation figure and the nutrition-knowledge moderation are all reported faithfully, and the caveats correctly note that pester power is parent-reported perception.",
+      "issues": []
+    },
+    {
+      "number": 16,
+      "work_id": "W7215133135",
+      "headline": "Internal documents suggest a tobacco giant kept working the smuggling channels it promised to help shut down",
+      "verdict": "accurate",
+      "notes": "Document count, date range, regions, 210 relevant files and the concealment finding all match; hedged language (\"documents indicate/suggest\") mirrors the abstract.",
+      "issues": []
+    }
+  ],
+  "coverage": {
+    "checked": 16,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7214937598": {
+        "query": "Asking customers rate something changes much they like",
+        "returned": 20,
+        "outlets": [
+          "University of Colorado Anschutz"
+        ],
+        "articles": [
+          {
+            "title": "Why Are Teens Asking AI to Rate Their Faces?",
+            "outlet": "University of Colorado Anschutz",
+            "link": "https://news.cuanschutz.edu/news-stories/why-are-teens-asking-ai-to-rate-their-faces"
+          }
+        ],
+        "state": "lightly_reported"
+      },
+      "W7207770543": {
+        "query": "Trust not realism makes influencers work hyper realistic avatars backfire",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214039691": {
+        "query": "Food noise went viral Ozempic but nobody has defined actually",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7216368733": {
+        "query": "Put animal welfare label veggie burger too",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213662492": {
+        "query": "Mothers rarely eat front their babies they babies eat",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215031814": {
+        "query": "Nearly 000 hotel reviews show where dietary needs wrong rarely",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7208792358": {
+        "query": "Anger other people food waste predicts who actually eats their",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7210275208": {
+        "query": "Eating same meal years doesn make like makes hack",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214949285": {
+        "query": "Australia smokers have quietly deserted supermarket reshaping tobacco policy",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214928046": {
+        "query": "country pays farmers grow tobacco while promising curb smoking",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214901172": {
+        "query": "Twenty days diaries naval cadets making work playful cut daily",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214439490": {
+        "query": "Brand tracking federal agencies ICE most recognized least liked",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214083501": {
+        "query": "street vendors defend their dignity market stacked against them",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214622498": {
+        "query": "Short brand names feel warmer warmth shows sales pitches crowdfunding",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215082714": {
+        "query": "Bright packaging makes kids nag harder but only parents don",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215133135": {
+        "query": "Internal documents suggest tobacco giant kept working smuggling channels promised",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **Repeat consumption is not evidence of liking.** The previous digest's \"Free vegetable-rich school lunches changed nothing — because the kids didn't eat them\" (W7202165920) showed supply solved and consumption unsolved; the new \"Eating the same meal for years doesn't make you like it — it makes you hack it\" (W7210275208) extends the same lesson to long-run captive users, where negative sensory reactions held flat across an entire career and only workaround behavior changed.\n- **Labels redraw category boundaries rather than inform.** \"Consumers file 'cell-based sausage' by how it was made, not by what it is\" (W7211919306) found explicit process labeling carves out a separate mental category; \"Put the animal welfare label on the veggie burger too\" (W7216368733) shows the same mechanism running in the brand-friendly direction, with an extended welfare label shifting plant-based choices up 28% by changing perceived availability and norms.\n- **GLP-1 users as a distinct, under-measured segment.** \"People on GLP-1 drugs show a gut-level preference for healthy food — and don't know it\" (W7213351764) and the new \"'Food noise' went viral with Ozempic — but nobody has defined what it actually is\" (W7214039691) converge on the same uncomfortable point: the shift is happening below the level of self-report, and the field still lacks a validated measure of it.\n- **Cheap design cues keep outperforming expensive messaging.** Plate geometry (W7212607085) and nostalgic packaging (W7204661572) are joined by \"Short brand names feel warmer\" (W7214622498) and \"Bright packaging makes kids nag harder\" (W7215082714) — in both new cases, with a named mechanism (warmth, pester power) rather than a vague fluency story.\n\n**Advances**\n- **From AI harms to AI trust mechanics.** The previous run mapped wellbeing damage from synthetic and augmented media — beauty filters and surgical intent (W7171940513), AI companions and power imbalance (W7170143709), AI doctors and evidence format (W7212302631). \"Trust, not realism, is what makes AI influencers work\" (W7207770543) advances this by identifying the lever brands actually control, and by reporting an uncanny-valley pattern where more photorealism is not reliably better.\n- **Food waste moves from design to emotion.** \"Nostalgic packaging nudges people to waste less food\" (W7204661572) worked through perceived effort; \"Anger at other people's food waste predicts who actually eats their leftovers\" (W7208792358) adds a social-emotional route that conventional guilt-and-thrift campaigns ignore.\n- **Consumer vulnerability widens.** The rural algorithmic exclusion work (W7170190396) and gender-invariant financial anxiety study (W7203676845) now sit alongside \"How street vendors defend their dignity when the market is stacked against them\" (W7214083501), pushing the vulnerability frame from buyers to subsistence sellers.\n\n**Counterpoints**\n- **Knowledge sometimes does matter.** The previous digest's strongest thread was the failure of the information-deficit model (W7202165920, W7213326632, W7206215832). \"Bright packaging makes kids nag harder — but only when parents don't know much about nutrition\" (W7215082714) is a partial corrective: nutrition knowledge did not change what the child wanted, but it neutralized the color effect on the person holding the wallet.\n- **A methods challenge to almost everything above.** \"Asking customers to rate something changes how much they like it\" (W7214937598) undercuts the stated-preference and repeated-rating designs that carried much of the previous batch, including the intention-based promotion (W7213550700) and waste (W7204661572) studies.\n\n**New themes**\n- **Regulated categories and industry conduct.** Three tobacco studies with no precedent in the previous digest: channel migration out of supermarkets in Australia (W7214949285), subsidy dependency in North Macedonia (W7214928046), and internal BAT documents on illicit trade (W7215133135).\n- **Service operations and workplace wellbeing.** \"Nearly 90,000 hotel reviews show where dietary needs go wrong\" (W7215031814) and \"Twenty days of diaries from naval cadets\" (W7214901172) open hospitality operations and employee energy as new territory for this topic.\n- **Brand tools applied to public institutions.** \"Brand tracking for federal agencies\" (W7214439490) imports hierarchy-of-effects diagnostics into government reputation, a move the previous digest did not touch.",
+    "feature_pitch": "**The pattern:** Four studies in this batch, from four different fields, all land on the same conclusion: the standard signals brands read as satisfaction aren't measuring satisfaction at all. \"Asking customers to rate something changes how much they like it\" (W7214937598) shows the measurement itself bends the experience; \"Eating the same meal for years doesn't make you like it — it makes you hack it\" (W7210275208) shows heavy repeat use masking persistent dislike, visible only in how users modify the product; \"Nearly 90,000 hotel reviews show where dietary needs go wrong\" (W7215031814) finds a whole class of guest need surfacing almost exclusively as complaint, never as praise; and \"Brand tracking for federal agencies\" (W7214439490) demonstrates awareness and regard moving in opposite directions. Taken together: ratings, repeat purchase, review silence and recall are each being read as evidence of something they do not reliably indicate.\n\n**Why pitch this now:** Feedback prompts have become ambient — every app, delivery, ride and checkout asks — while CX and brand-tracking budgets are under hard scrutiny, and platform review scores now drive ranking and discovery in travel and retail; a measurement reckoning is overdue and the evidence base has just thickened.\n\n**Angle:** A reported feature on the limits of the customer-feedback industrial complex — what each of the standard proxies actually measures, what the alternative diagnostics look like (customization behavior, complaint composition, favorability versus salience), and why the volume of feedback collection may itself be a variable. Aimed at CMOs, CX and insight leaders, with enough everyday texture — the ration hack, the hotel breakfast buffet — to carry a wider business readership.\n\n**Potential headlines:**\n- Four new studies say the customer-feedback numbers aren't measuring what firms think\n- The more often you ask people how they're enjoying it, the faster they stop\n- Your happiest-looking customers may just be the ones who gave up telling you\n\n**Potential outlets:**\n- **Harvard Business Review** — it published the article that made a single loyalty metric a boardroom standard, and would run a serious re-examination of what satisfaction proxies can and can't carry.\n- **MIT Sloan Management Review** — fits its taste for evidence-led pieces on measurement design, including the argument that survey cadence is itself an intervention.\n- **Marketing Week** — its readership defends brand-tracking and CX budgets on exactly the awareness-and-score metrics the agency-brand study complicates.\n- **Skift** — the hotel-review strand is directly operational for travel brands, where guest scores feed distribution and dietary accommodation is a live service-design issue.",
+    "pitch_ideas": "- **Asking customers to rate something changes how much they like it (Work ID W7214937598):** Survey frequency as a design variable — asking more often accelerates boredom in decaying experiences and amplifies enjoyment in improving ones — for a CMO-audience column or a consumer-psychology explainer in a general-interest outlet.\n- **Trust, not realism, is what makes AI influencers work (Work ID W7207770543):** Brands are spending on photorealism when disclosure and coherent storytelling are the trust levers, and hyper-realism can backfire, for a digital-marketing or influencer-economy trade feature.\n- **\"Food noise\" went viral with Ozempic — but nobody has defined what it actually is (Work ID W7214039691):** A TikTok-coined construct is now steering how millions describe eating and how food marketers think about cue-based advertising — with no validated measure behind it, for a health or food-business feature, or a general-interest science explainer.\n- **Put the animal welfare label on the veggie burger too (Work ID W7216368733):** Plant-based brands are leaving a free credibility signal unused, and welfare certification bodies face a scope question, for a grocery or food-policy trade explainer.\n- **Mothers rarely eat in front of their babies — and when they do, babies eat more (Work ID W7213662492):** Fewer than 30% of mothers modeled eating, and almost never with the unfamiliar foods where it would matter most, for a parenting or family-health section, with an infant-nutrition brand angle for a food trade brief.\n- **Nearly 90,000 hotel reviews show where dietary needs go wrong (Work ID W7215031814):** Dietary accommodation fails on labeling clarity and staff response more than menu range, and shows up only as complaint — so quiet scores are not a pass, for a hospitality or travel trade explainer.\n- **Anger at other people's food waste predicts who actually eats their leftovers (Work ID W7208792358):** Moral indignation at others may beat personal guilt or thrift in waste campaigns — an untested creative route for a sustainability-marketing or social-marketing column (flag the student sample).\n- **Eating the same meal for years doesn't make you like it — it makes you hack it (Work ID W7210275208):** Customization and discard behavior as a better dissatisfaction signal than satisfaction scores, for a food-manufacturing or institutional-catering trade feature.\n- **Australia's smokers have quietly deserted the supermarket (Work ID W7214949285):** Supermarket share of tobacco fell from 51% to 35% while tobacconists doubled and informal sourcing concentrated among 18–24s — a channel-migration case study for any taxed category, for a retail trade analysis or a business news feature.\n- **The country that pays farmers to grow tobacco while promising to curb smoking (Work ID W7214928046):** Roughly 40% of crop support going to tobacco while most farmers say they'd quit without it — a policy contradiction with a feasible exit, for an international business or global-health news feature, plus an ESG-sourcing brief for a corporate-affairs outlet.\n- **Twenty days of diaries from naval cadets (Work ID W7214901172):** Wellbeing gains without autonomy — licensing playful framing inside rigid tasks cut same-day exhaustion — for an HR or workplace-culture column aimed at frontline and shift-based employers.\n- **Brand tracking for federal agencies: ICE is the most recognized and least liked (Work ID W7214439490):** Salience is not equity, and for high-awareness/low-favorability institutions more visibility makes things worse — for a PR and public-affairs trade piece, handled as a single-panel snapshot rather than a national score.\n- **How street vendors defend their dignity when the market is stacked against them (Work ID W7214083501):** Emotional self-protection as a core business skill for the world's poorest sellers, with implications for brands building micro-entrepreneur distribution, for a development-business feature or a long-read consumer-culture section.\n- **Short brand names feel warmer (Work ID W7214622498):** Naming briefs should test warmth rather than recall and fluency, with real crowdfunding money attached to the effect across 7,775 brands, for a branding trade feature or a startup and founder-audience column.\n- **Bright packaging makes kids nag harder — but only when parents don't know much about nutrition (Work ID W7215082714):** Package color routes commercial pressure through the child and operates independently of mandatory warning labels — the next regulatory frontier after front-of-pack, for a food-policy trade explainer or a parenting and consumer-affairs section.\n- **Internal documents suggest a tobacco giant kept working the smuggling channels it promised to help shut down (Work ID W7215133135):** The reputational hazard of partnership-based corporate responsibility when a company co-administers the problem it profits from, for an investigative business or corporate-accountability outlet, with a corporate-affairs angle for a PR trade column."
+  }
+}
