@@ -1,0 +1,467 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-04",
+  "days_back": 60,
+  "window_from": "2026-08-05",
+  "window_to": "2026-10-04",
+  "focus": "Money & Spending",
+  "topic": "money & spending",
+  "query": "\"financial decision\" OR saving OR debt OR spending OR \"buy now pay later\" OR \"credit card\" OR \"financial well-being\" OR \"mental accounting\" OR cryptocurrency",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 57,
+    "not_research": 0,
+    "no_abstract": 8,
+    "off_topic": 1,
+    "already_covered": 24,
+    "over_journal_cap": 3,
+    "over_cap": 0,
+    "sent": 21
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7214655781",
+      "headline": "Young adults will take a mortgage but won't borrow from mum: mapping what debt they refuse",
+      "the_study": "Researchers surveyed 995 young adults in Australia and the UK about their attitudes toward 14 different debt products, then used factor analysis to build a cross-product measure of debt attitudes. Avoidance varied enormously by product: even home loans — the most accepted form of borrowing — were ruled out by 14–25% of respondents, while payday loans, personal loans and informal borrowing from family and friends were each avoided by more than 70%. Attitudes loaded onto two distinct dimensions: an \"investment\" orientation toward asset-building debt like mortgages, and an \"expense-buffering\" orientation toward consumption-smoothing credit such as buy-now-pay-later. Frugality and debt literacy were negatively associated with buffering attitudes; social norms and risk tolerance were positively associated with both.",
+      "why_it_matters": "Lenders and fintechs tend to treat \"debt aversion\" as one trait, but this suggests consumers sort credit into mentally separate categories — and the person comfortable with a mortgage may be the same person who refuses a BNPL plan, or vice versa.",
+      "story_angle_primary": "If asset-building credit and buffering credit are judged on different dimensions, cross-selling and messaging built on a single \"creditworthy customer\" profile may be mismatched. Worth testing whether framing BNPL or a personal loan as an investment-type product rather than a stopgap changes uptake — and worth noting that more financially literate young adults were less receptive to buffering credit, which complicates the industry claim that education drives adoption.",
+      "story_angle_secondary": "The finding that borrowing from family and friends is among the most avoided forms of debt — more avoided than many commercial products — says something about how young adults price social obligation versus interest rates. Avoiding debt isn't always prudence; researchers note it can also block people out of education and home ownership.",
+      "caveats": "Cross-sectional survey, so no causal claims; stated attitudes rather than observed borrowing; two Anglosphere countries only; self-selected online respondents.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-09-28",
+      "doi": "10.1108/ijbm-05-2026-0400",
+      "paper_title": "Investigating debt aversion in younger adults",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7213938599",
+      "headline": "Financial anxiety tracks how you feel about money more than how much you have — and juggling accounts makes it worse",
+      "the_study": "A cross-sectional survey of 513 young adults in Brazil's Federal District measured financial anxiety alongside psychosocial perceptions, objective socioeconomic conditions and banking characteristics, analyzed with robust multiple regression. Subjective appraisal mattered more than objective circumstances: financial satisfaction was the single strongest negative correlate of anxiety. Among structural factors, being a woman, having lower household income, carrying housing-related obligations and — notably — managing a larger number of bank accounts were all associated with higher anxiety.",
+      "why_it_matters": "The \"banking complexity\" finding is a direct challenge to the proliferation of accounts, apps and digital wallets that banks and fintechs push young customers toward: more financial relationships appear to come with more cognitive burden, not more control.",
+      "story_angle_primary": "Financial brands competing for the \"primary account\" position may be selling anxiety as a side effect of acquisition. Worth testing whether consolidation features, unified dashboards or simpler product ladders reduce stress scores and improve retention among young customers — and whether well-being messaging works better than feature-count messaging in this segment.",
+      "story_angle_secondary": "If you feel uneasy about money despite a stable income, the data suggest that's not irrational — perceived financial satisfaction, not account balance, is what tracks anxiety most closely. And spreading your money across five apps may be adding to the unease rather than taming it.",
+      "caveats": "Cross-sectional design cannot establish causation — anxious people may open more accounts rather than the reverse; single metropolitan region of one country (Brazil's Federal District), limiting generalizability; self-reported measures throughout.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-09-21",
+      "doi": "10.1108/ijbm-12-2025-1001",
+      "paper_title": "Financial anxiety among Brazilian youth and the role of psychosocial and structural factors",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7214649704",
+      "headline": "Two different forces drive impulse buying in livestream auctions: love for the host, and envy of the winner",
+      "the_study": "Researchers combined a survey of 1,284 Chinese consumers who shop in influencer-hosted live auctions with retrospective interviews of 28 participants, using partial least squares path modeling. They found two largely separate routes to the urge to buy impulsively: perceived fun and entertainment fed purchase urge through parasocial attachment to the host (indirect effect 0.258), while perceived competition with other viewers fed it through benign envy of successful bidders (0.141). The interviews confirmed that attachment to the host and comparison with winning rivals were experienced as distinct things, not two faces of the same feeling.",
+      "why_it_matters": "Live commerce platforms typically optimize one lever — host charisma — but the data suggest the visible scarcity-and-rivalry mechanics of the auction format work through an independent psychological channel, with its own design implications and its own consumer-protection risks.",
+      "story_angle_primary": "If host attachment and competitive envy are parallel rather than overlapping drivers, brands running livestream sales can test them independently: a warmer host script versus more visible bidding and inventory counters. The authors also push toward responsible design — verifiable inventory, accurate claims, purchase-confirmation steps — which is worth watching as regulators begin scrutinizing live-selling tactics.",
+      "story_angle_secondary": "The next time a livestream makes you want to buy, it's worth asking which lever is pulling: do you trust the host, or are you reacting to the other viewers who just got what you wanted? The study suggests those are two separable feelings — and that seeing someone else win is enough to produce an urge all on its own.",
+      "caveats": "Cross-sectional survey (associations, not causation); self-reported purchase urge rather than observed transactions; single country and single commerce format; interview sample purposively selected and small (N=28).",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-28",
+      "doi": "10.1108/apjml-06-2026-1406",
+      "paper_title": "Competing to buy in Chinese influencer-hosted live auctions: parasocial relationships, benign envy and the urge to buy impulsively",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7204478707",
+      "headline": "When AI gives you financial advice, explaining yourself works on feelings, not logic",
+      "the_study": "Researchers surveyed 501 experienced robo-advisor users — 251 in the United States, 250 in South Korea — about algorithmic transparency, cognitive load, perceived usefulness, psychological comfort and financial well-being, modeled with PLS-SEM. Transparency was associated with lower cognitive load, which in turn raised both perceived usefulness and psychological comfort, but only psychological comfort predicted financial well-being; the \"useful\" route did not. The affective pathway was significantly stronger among South Korean respondents than American ones.",
+      "why_it_matters": "The explainable-AI industry largely measures success by whether users understand the model; this suggests what actually links to well-being is whether disclosure makes users feel reassured, which is a different design brief.",
+      "story_angle_primary": "For anyone building AI advisors or AI-assisted service, this is a prompt to test explanation design against emotional-reassurance metrics, not just comprehension scores — and to check whether the right explanation format differs by market, given the US–Korea gap found here. Treat it as a hypothesis worth running in product, not a settled finding.",
+      "story_angle_secondary": "It's a useful warning about our own reactions to AI: a clear explanation may leave you feeling calmer about a financial decision without actually making the decision better. Comfort and accuracy are not the same thing.",
+      "caveats": "Cross-sectional online survey of self-reported perceptions — no behavioral or portfolio outcomes, and causal direction cannot be established; all constructs measured in the same questionnaire, raising common-method concerns; two countries only; results are significant paths in a structural model.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-08-27",
+      "doi": "10.1108/apjml-01-2026-0052",
+      "paper_title": "Beyond information disclosure: a cognitive load perspective on algorithmic transparency and financial well-being in generative AI advisors",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7215084470",
+      "headline": "When Tech in Stores Pays Off: It Depends on Whether the Experience \"Feels Right\"",
+      "the_study": "Researchers tested why \"phygital\" retail — digital layers such as augmented reality displays and immersive in-store technology grafted onto physical shops — produces such inconsistent results. Using a multi-study design that combined field data on actual customer spending with PLS-SEM survey modeling, they found that immersive continuity and interactive augmentation had no uniform direct effect on behavior. What mattered was regulatory fit: whether the experience matched a shopper's motivational mode (those who like to assess and compare versus those who like to move and act). When the experience \"felt right,\" it produced what the authors call experiential resonance, which in turn drove both purchase and spend.",
+      "why_it_matters": "Retailers keep buying in-store technology on the assumption that more immersion equals more sales; this suggests the same installation can help one shopper segment and do nothing for another.",
+      "story_angle_primary": "A prompt to stop evaluating in-store tech as a single yes/no investment and start testing it by segment — the paper implies A/B tests where the same AR or immersive feature is tuned for \"assessment\" shoppers (comparison tools, detail, reviews) versus \"locomotion\" shoppers (speed, momentum, one-tap action). Treat the fit mechanism as a hypothesis to validate in your own stores rather than a settled design rule.",
+      "story_angle_secondary": "It helps explain why some shoppers find a store's screens and scanners delightful while the person next to them finds them an obstacle course — the technology isn't good or bad, it either matches how you like to make decisions or it doesn't.",
+      "caveats": "The abstract gives no sample sizes, country, retailer or category details, and the survey component is cross-sectional PLS-SEM, so causal claims rest heavily on the theoretical model rather than the field data alone.",
+      "journal": "Journal of Global Marketing",
+      "published": "2026-10-01",
+      "doi": "10.1080/08911762.2026.2740712",
+      "paper_title": "Crafting Experiences That “Feel Right”: Regulatory Alignment as the Key to Experiential Resonance and Consumer Action in Phygital Retail",
+      "source_id": "S121852782"
+    },
+    {
+      "work_id": "W7203581812",
+      "headline": "Luxury Brands in Thailand: Emotional Storytelling Beats Chasing Trends",
+      "the_study": "Researchers surveyed 400 digitally active luxury-brand consumers in the Bangkok Metropolitan Region, screened for a recent luxury purchase and active social media following, and analyzed the data with both conventional path modeling and configurational methods (necessary condition analysis and fsQCA). Emotional engagement was by far the strongest driver of brand loyalty (beta = 0.592), with electronic word-of-mouth a distant second (beta = 0.264). Interaction and trendiness showed only small-to-moderate effects and are better understood as baseline requirements than as loyalty drivers. The configurational analysis found four different routes to loyalty, with the clearest combining high emotional engagement, customization and entertainment.",
+      "why_it_matters": "It argues against spreading social budget evenly across every platform feature: trend-chasing and reply-guy interaction keep you in the game, but affective storytelling is what converts attention into loyalty.",
+      "story_angle_primary": "Worth testing whether your own social spend is over-indexed on the \"baseline enabler\" layer — trending audio, engagement bait, posting cadence — at the expense of storytelling and personalized narrative. The authors also suggest platform-aware allocation (short-form feeds rewarding the baseline layer, image-led feeds supporting emotional content), which is a testable hypothesis rather than a proven rule.",
+      "story_angle_secondary": "A window into why luxury marketing on social feeds works the way it does: the content designed to make you feel something, not the content chasing the week's trend, is what's engineered to keep you attached to a brand.",
+      "caveats": "Cross-sectional survey, so no causal claims; purposive convenience sample from one metropolitan region of one country; 82.2% of respondents were aged 18–25; luxury category only; emotional engagement measured as a single dimension; self-reported loyalty rather than observed repeat purchase.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-08-17",
+      "doi": "10.1108/apjml-01-2026-0055",
+      "paper_title": "Understanding brand loyalty formation through emotional engagement: evidence from social media marketing in Thailand",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7203939686",
+      "headline": "Which \"Green\" Cryptocurrencies Spread Panic, and Which Just Catch It",
+      "the_study": "Analyzing daily data on eight cryptocurrencies from December 2019 through July 2024, researchers used an R-squared decomposed connectedness model to map who transmits shocks and who absorbs them across three groups: so-called green coins (Cardano, XRP, Polygon, Stellar), energy-focused tokens (Powerledger, Electrify Asia, Sun Contract) and Bitcoin Gold. Stellar and Cardano emerged as net transmitters of shocks, while Sun Contract and Electrify Asia were net receivers. Same-day connectedness far exceeded lagged connectedness, indicating that shocks propagate almost immediately rather than over days.",
+      "why_it_matters": "Investors and fintech marketers often treat \"green crypto\" as a single diversified theme; the data show the category contains both systemic risk amplifiers and relative shock absorbers with quite different hedging value.",
+      "story_angle_primary": "For firms building or promoting sustainability-branded digital assets and portfolios, a reminder that the eco label describes energy consumption, not risk behavior — and that product marketing implying diversification within the green crypto basket may be hard to defend given how fast shocks move across these networks.",
+      "story_angle_secondary": "If you hold a few \"environmentally friendly\" coins thinking you've spread your risk, this analysis suggests they often fall together on the same day, and that the green label tells you nothing about whether a coin leads a selloff or follows one.",
+      "caveats": "Market-data study of only eight assets over a volatile period; findings are statistical relationships, not forecasts; hedge ratios and portfolio weights are derived from historical data and may not hold going forward; no consumer behavior measured.",
+      "journal": "Internet Research",
+      "published": "2026-08-21",
+      "doi": "10.1108/intr-08-2025-1182",
+      "paper_title": "Sneezers or catchers of shock among green cryptocurrencies, energy cryptocurrencies and Bitcoin Gold: an R-squared decomposed connectedness",
+      "source_id": "S63576417"
+    },
+    {
+      "work_id": "W7211924177",
+      "headline": "Inside the Medicines Business: Experts Describe How Pharmacy Commerce Collides With Indigenous Health in Australia",
+      "the_study": "Using Yarning, an Aboriginal research method based on culturally grounded conversation, researchers interviewed 19 people with expertise in the pharmaceutical industry or pharmacy sector — ten Aboriginal or Torres Strait Islander and nine non-Indigenous. Five themes emerged: tension between retail pharmacy's commercial model and community health needs, regulatory marginalization of traditional cultural medicines and weak protection of Indigenous intellectual property, pharmaceutical companies' efforts to partner with Aboriginal organizations, the lobbying power of pharmacy peak bodies, and opportunities for genuine collaboration.",
+      "why_it_matters": "It applies the commercial determinants of health lens to a sector rarely scrutinized that way, raising questions about how corporate partnerships and lobbying shape health outcomes for a population already facing inequities.",
+      "story_angle_primary": "A caution for any brand pursuing partnership or sponsorship with Indigenous or community-controlled organizations: participants distinguished sharply between genuine collaboration and relationships that extract legitimacy, and the paper's call for Indigenous governance across the sector sets a benchmark against which corporate partnership programs will increasingly be judged.",
+      "story_angle_secondary": "Your local pharmacy is simultaneously a healthcare service and a retail business with margins, product ranges and front-of-store merchandising — this study makes the tension between those two roles visible, and shows how it lands hardest on communities with the least power in the system.",
+      "caveats": "Small qualitative study (N=19 experts, not patients or consumers) in a single country; themes reflect participant perspectives rather than measured industry behavior; no quantitative outcomes.",
+      "journal": "Health Promotion International",
+      "published": "2026-09-01",
+      "doi": "10.1093/heapro/daag115",
+      "paper_title": "The influence of the pharmaceutical industry and the pharmacy sector on Aboriginal and Torres Strait Islander health: a yarning study",
+      "source_id": "S94746221"
+    },
+    {
+      "work_id": "W7215076186",
+      "headline": "Italians stopped saving for their heirs — and started saving for themselves",
+      "the_study": "Researchers analyzed six waves of the Italian Survey of Household Income and Wealth (SHIW) from 2012 to 2022, a nationally representative government survey, to track why households say they save. They document a sharp shift away from bequest and intergenerational motives toward precautionary and retirement saving, concentrated in 2020–2022 but with the decline in bequest motives starting before the pandemic and appearing across every age group. In the panel subsample, 63.3% of households changed their primary saving motive between 2020 and 2022, and bequest-oriented saving had the highest abandonment rate at 81%. A multinomial logit model indicates that both structural economic conditions and individual financial-planning orientation drive the differences.",
+      "why_it_matters": "The reason people hold money shapes which products they buy: a household saving \"to leave something behind\" is a market for life insurance and wealth transfer, while one saving \"in case something happens\" wants liquidity, buffers and retirement vehicles. A two-thirds churn rate in stated saving motives over two years suggests financial marketers may be segmenting against a motive mix that has already moved.",
+      "story_angle_primary": "For financial services and any brand whose pitch leans on legacy, family or \"providing for the next generation,\" this is a prompt to re-test that framing against security, flexibility and self-directed retirement appeals — at least in Italy and plausibly in other aging, shock-exposed European markets. Because the data are self-reported motives from a survey, treat it as a signal to validate with your own customer research rather than a finished repositioning brief.",
+      "story_angle_secondary": "The intergenerational bargain is quietly being renegotiated: Italian households of all ages, not just the young, are less likely to describe their savings as money earmarked for their children, and more likely to describe it as a cushion for themselves. If you have assumed an inheritance is part of your own financial plan, the people who were supposed to leave it may have changed their minds.",
+      "caveats": "Single country; self-reported saving motives from a survey rather than observed saving or account behavior; the authors themselves say the pre-pandemic decline in bequest motives is \"consistent with, though not conclusive evidence of,\" an external-shock explanation, so causation is not established.",
+      "journal": "Journal of Consumer Culture",
+      "published": "2026-10-01",
+      "doi": "10.1177/14695405261494982",
+      "paper_title": "Shifting priorities: The evolution of household saving motives in Italy",
+      "source_id": "S10063912"
+    },
+    {
+      "work_id": "W7213342854",
+      "headline": "Those \"impulse\" Shein hauls are actually carefully planned",
+      "the_study": "Researchers conducted 20 semi-structured interviews with Australian millennials about their shopping on ultra-fast fashion platforms such as Temu and Shein, analyzed through a stimulus–organism–response and dual-process lens. Participants consistently described their purchases as spontaneous, but their own accounts revealed extensive preparation: maintained wish-lists, monitored discounts and items parked in digital carts waiting for a promotion. The authors call this \"strategic spontaneity.\" They also found shoppers neutralized their stated ethical and environmental concerns through \"cognitive buffering\" — justifications that let them keep buying while still believing they care.",
+      "why_it_matters": "It reframes the ultra-fast fashion \"impulse buy\" as a primed purchase that platforms trigger on cue, which means the saved cart and wish-list are the real conversion assets, not the surprise discovery. It also explains, concretely, why surveys showing high sustainability concern keep failing to predict sales.",
+      "story_angle_primary": "If seemingly impulsive purchases are sitting pre-loaded in carts and wish-lists, the testable question for retailers is whether the promotion trigger — timing, framing, scarcity cues on saved items — matters more than top-of-funnel discovery. The flip side is a warning for sustainability-led brands: this small qualitative study suggests ethical messaging can be absorbed and neutralized rather than acted on, so claims-based positioning should be tested against actual switching behavior before being scaled.",
+      "story_angle_secondary": "If you think of your Temu or Shein orders as spur-of-the-moment treats, it is worth noting that the shoppers in this study said the same thing — and then described weeks of wish-listing and discount-watching. The \"impulse\" is often the moment you finally let yourself buy something you had already decided to want, which is also why the spending adds up faster than it feels like it should.",
+      "caveats": "Small qualitative study (N=20 interviews) in a single country with a single age cohort; self-reported accounts rather than observed purchase data; exploratory and not generalizable to broader populations or other categories.",
+      "journal": "Journal of Global Fashion Marketing",
+      "published": "2026-09-15",
+      "doi": "10.1080/20932685.2026.2715111",
+      "paper_title": "Strategic spontaneity and cognitive buffering in ultra-fast fashion consumption: Extending the S-O-R framework through Dual-process theory",
+      "source_id": "S2764400943"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7214655781",
+      "headline": "Young adults will take a mortgage but won't borrow from mum: mapping what debt they refuse",
+      "verdict": "minor",
+      "notes": "Design, N, product counts, avoidance rates and correlates all match the abstract. One caveat detail (online, self-selected recruitment) is not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Recruitment detail not in abstract",
+          "severity": "Minor",
+          "as_written": "self-selected online respondents.",
+          "abstract_says": "a cross-sectional survey of 995 respondents spanning 14 debt products",
+          "problem": "The abstract does not describe the survey mode or recruitment, so \"self-selected online respondents\" cannot be verified from the abstract alone (it is an added, not an overstated, limitation).",
+          "suggested_fix": "Change to \"survey respondents in two Anglosphere countries; recruitment details not reported in the abstract\" or drop the mode descriptor."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7213938599",
+      "headline": "Financial anxiety tracks how you feel about money more than how much you have — and juggling accounts makes it worse",
+      "verdict": "accurate",
+      "notes": "N, location, design, analysis and all named correlates match the abstract; the digest correctly keeps the language associational and flags reverse causality in Caveats.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7214649704",
+      "headline": "Two different forces drive impulse buying in livestream auctions: love for the host, and envy of the winner",
+      "verdict": "minor",
+      "notes": "Mixed-methods design, N=1,284 survey plus 28 interviews, and both indirect effects (0.258, 0.141) are reported correctly; one interpretive phrase slightly overstates what the interviews did.",
+      "issues": [
+        {
+          "label": "Interviews described as confirming the quantitative model",
+          "severity": "Minor",
+          "as_written": "The interviews confirmed that attachment to the host and comparison with winning rivals were experienced as distinct things, not two faces of the same feeling.",
+          "abstract_says": "Interview accounts distinguished continuing host attachment from comparisons with successful viewers and documented improvement motives both with and without immediate purchase urge.",
+          "problem": "The abstract says the interviews distinguished the two experiences and documented variation (including improvement motives without purchase urge); \"confirmed\" implies corroboration of the statistical model rather than descriptive differentiation.",
+          "suggested_fix": "Use \"Interview accounts distinguished ongoing attachment to the host from comparisons with successful bidders\" and note that improvement motives appeared both with and without an immediate urge to buy."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7204478707",
+      "headline": "When AI gives you financial advice, explaining yourself works on feelings, not logic",
+      "verdict": "minor",
+      "notes": "Sample, split by country, method and the PU/PC asymmetry are accurate, but the digest omits the direct transparency→well-being effect and the two individual-difference moderators the abstract reports.",
+      "issues": [
+        {
+          "label": "Moderators dropped",
+          "severity": "Moderate",
+          "as_written": "Transparency was associated with lower cognitive load, which in turn raised both perceived usefulness and psychological comfort, but only psychological comfort predicted financial well-being; the \"useful\" route did not.",
+          "abstract_says": "Moderation analyses indicate that FRT conditions the CL→PU and CL→PC links, whereas STHA conditions the AT→FWB, CL→PU, and CL→PC links.",
+          "problem": "The abstract reports that financial risk tolerance and suspicion toward human advisors condition several of these paths; presenting the pathway without those boundary conditions makes it look more uniform across users than the paper claims.",
+          "suggested_fix": "Add a clause noting the paths were conditioned by users' financial risk tolerance and their suspicion of human advisors."
+        },
+        {
+          "label": "Direct transparency effect omitted",
+          "severity": "Minor",
+          "as_written": "the explainable-AI industry largely measures success by whether users understand the model; this suggests what actually links to well-being is whether disclosure makes users feel reassured",
+          "abstract_says": "AT enhances FWB both directly and indirectly by reducing CL, which in turn strengthens both PU and PC.",
+          "problem": "The abstract reports a direct association between algorithmic transparency and financial well-being in addition to the comfort route; the digest implies the affective route is the only link.",
+          "suggested_fix": "Note that transparency was also directly associated with financial well-being, with the comfort route the only significant mediated path."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7215084470",
+      "headline": "When Tech in Stores Pays Off: It Depends on Whether the Experience \"Feels Right\"",
+      "verdict": "minor",
+      "notes": "The mechanism (regulatory fit → experiential resonance → purchase and spend) and the multi-study field-plus-PLS-SEM design match the abstract; some illustrative technology and regulatory-mode detail is supplied by the digest, not the abstract.",
+      "issues": [
+        {
+          "label": "Technology examples not in abstract",
+          "severity": "Minor",
+          "as_written": "digital layers such as augmented reality displays and immersive in-store technology grafted onto physical shops",
+          "abstract_says": "The integration of digital technologies into physical retail has given rise to phygital experiences … immersive continuity and interactive augmentation",
+          "problem": "The abstract names only the constructs \"immersive continuity\" and \"interactive augmentation\"; augmented reality displays are the digest's own example and cannot be verified from the abstract.",
+          "suggested_fix": "Describe the constructs as the paper does, or label AR as an illustrative example rather than something the study tested."
+        },
+        {
+          "label": "Regulatory mode sub-types not specified in abstract",
+          "severity": "Minor",
+          "as_written": "whether the experience matched a shopper's motivational mode (those who like to assess and compare versus those who like to move and act)",
+          "abstract_says": "their impact depends on alignment with consumers' regulatory mode, which determines the extent to which the experience is perceived as \"feeling right.\"",
+          "problem": "The abstract refers to \"regulatory mode\" without naming assessment and locomotion orientations; the gloss is standard theory but is not verifiable from the abstract.",
+          "suggested_fix": "Flag the assessment/locomotion split as the standard definition of regulatory mode rather than as reported study detail."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7203581812",
+      "headline": "Luxury Brands in Thailand: Emotional Storytelling Beats Chasing Trends",
+      "verdict": "minor",
+      "notes": "N, sampling, betas, four configurations and the stated limitations are reproduced faithfully; the analytic method is loosely described and the NCA claim is slightly reworded.",
+      "issues": [
+        {
+          "label": "Analytic method loosely described",
+          "severity": "Minor",
+          "as_written": "analyzed the data with both conventional path modeling and configurational methods (necessary condition analysis and fsQCA)",
+          "abstract_says": "analysed using integrated generalised structured component analysis (IGSCA) for symmetrical paths and necessary condition analysis (NCA) and fuzzy-set qualitative comparative analysis (fsQCA) for asymmetrical logic",
+          "problem": "The symmetrical analysis was IGSCA, a specific component-based SEM, not generic \"conventional path modeling\"; NCA is also a necessity analysis rather than a configurational method in the fsQCA sense.",
+          "suggested_fix": "Name IGSCA for the path estimates and describe NCA and fsQCA as necessity and configurational analyses respectively."
+        },
+        {
+          "label": "NCA conclusion reworded",
+          "severity": "Minor",
+          "as_written": "Interaction and trendiness showed only small-to-moderate effects and are better understood as baseline requirements than as loyalty drivers.",
+          "abstract_says": "effect sizes are small to moderate (d = 0.090–0.234), so interaction and trendiness are better read as baseline enablers of loyalty than as strict necessary conditions",
+          "problem": "The abstract's contrast is \"baseline enablers\" versus \"strict necessary conditions\" in the NCA sense, not versus \"loyalty drivers\"; the rewording shifts what was tested.",
+          "suggested_fix": "Say they are better read as baseline enablers than as strict necessary conditions for loyalty."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7203939686",
+      "headline": "Which \"Green\" Cryptocurrencies Spread Panic, and Which Just Catch It",
+      "verdict": "minor",
+      "notes": "Assets, classification, window, method and the transmitter/receiver results all match; one comparative descriptor is stronger than the abstract's wording.",
+      "issues": [
+        {
+          "label": "Strength of contemporaneous-vs-lagged contrast",
+          "severity": "Minor",
+          "as_written": "Same-day connectedness far exceeded lagged connectedness, indicating that shocks propagate almost immediately rather than over days.",
+          "abstract_says": "Contemporaneous connectedness is more pronounced than lagged connectedness, indicating rapid information diffusion within cryptocurrency platforms.",
+          "problem": "\"Far exceeded\" quantifies a gap the abstract describes only as \"more pronounced\"; no magnitude is given.",
+          "suggested_fix": "Change to \"Same-day connectedness was more pronounced than lagged connectedness.\""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7211924177",
+      "headline": "Inside the Medicines Business: Experts Describe How Pharmacy Commerce Collides With Indigenous Health in Australia",
+      "verdict": "minor",
+      "notes": "Method (Yarning), participant composition (10 Aboriginal/Torres Strait Islander, 9 non-Indigenous) and all five themes are reported accurately; one characterization of participant views is not in the abstract.",
+      "issues": [
+        {
+          "label": "Characterization of partnership views",
+          "severity": "Minor",
+          "as_written": "participants distinguished sharply between genuine collaboration and relationships that extract legitimacy",
+          "abstract_says": "pharmaceutical industry efforts to partner with Aboriginal organizations; … and opportunities for genuine collaboration",
+          "problem": "The abstract lists industry partnership efforts and opportunities for genuine collaboration as separate themes but does not say participants contrasted them with legitimacy-extracting relationships.",
+          "suggested_fix": "Attribute the contrast more cautiously, e.g. \"the themes separate industry partnership efforts from opportunities for genuine collaboration,\" or mark as unverifiable from the abstract."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7215076186",
+      "headline": "Italians stopped saving for their heirs — and started saving for themselves",
+      "verdict": "minor",
+      "notes": "Data source, waves, 63.3% switching and the 81% bequest abandonment rate are correct, and the digest quotes the authors' own hedge; two small wording issues (survey description and \"drive\").",
+      "issues": [
+        {
+          "label": "Causal verb for a regression result",
+          "severity": "Minor",
+          "as_written": "A multinomial logit model indicates that both structural economic conditions and individual financial-planning orientation drive the differences.",
+          "abstract_says": "reveals that structural economic channels and individual financial planning orientations jointly explain saving motive heterogeneity",
+          "problem": "\"Drive\" implies causation from an observational multinomial logit on survey data; the abstract says these factors jointly explain heterogeneity.",
+          "suggested_fix": "Change \"drive the differences\" to \"jointly explain the differences.\""
+        },
+        {
+          "label": "Survey characterization not in abstract",
+          "severity": "Minor",
+          "as_written": "a nationally representative government survey",
+          "abstract_says": "six waves of the Italian Survey of Household Income and Wealth (SHIW) spanning 2012 to 2022",
+          "problem": "The abstract does not describe SHIW as nationally representative or as a government survey; unverifiable from the abstract alone.",
+          "suggested_fix": "Describe it simply as the Italian Survey of Household Income and Wealth, six waves, 2012–2022."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7213342854",
+      "headline": "Those \"impulse\" Shein hauls are actually carefully planned",
+      "verdict": "minor",
+      "notes": "The 20-interview design, Australian millennial sample, S-O-R/dual-process framing, strategic spontaneity and cognitive buffering all match; the \"Why it matters\" section leans harder on the evidence than 20 interviews support.",
+      "issues": [
+        {
+          "label": "Interpretive leap in Why it matters",
+          "severity": "Minor",
+          "as_written": "which means the saved cart and wish-list are the real conversion assets, not the surprise discovery. It also explains, concretely, why surveys showing high sustainability concern keep failing to predict sales.",
+          "abstract_says": "Participants frequently described their purchases as spontaneous. However, their accounts also revealed evidence of planning … This pattern is conceptualised as strategic spontaneity … The findings also suggest that consumers manage sustainability concerns through cognitive buffering",
+          "problem": "An exploratory interview study with 20 participants describes a pattern; it does not establish which assets convert, nor does it \"explain, concretely\" the aggregate value-action gap in sales data. The abstract itself uses \"suggest.\"",
+          "suggested_fix": "Soften to \"suggests that saved carts and wish-lists may matter more than surprise discovery, and offers one account of why stated sustainability concern does not track purchasing.\""
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 10,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7214655781": {
+        "query": "Young adults will take mortgage but won borrow mum mapping",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213938599": {
+        "query": "Financial anxiety tracks feel about money than much have juggling",
+        "returned": 1,
+        "outlets": [
+          "news24.com"
+        ],
+        "articles": [
+          {
+            "title": "Survey shows SA women are more stressed about money than men",
+            "outlet": "news24.com",
+            "link": "https://www.news24.com/you/advice/survey-shows-sa-women-are-more-stressed-about-money-than-men-20260828-0610"
+          }
+        ],
+        "state": "lightly_reported"
+      },
+      "W7214649704": {
+        "query": "Two different forces drive impulse buying livestream auctions love host",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204478707": {
+        "query": "gives financial advice explaining yourself works feelings not logic",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215084470": {
+        "query": "Tech Stores Pays Off Depends Whether Experience Feels Right",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203581812": {
+        "query": "Luxury Brands Thailand Emotional Storytelling Beats Chasing Trends",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203939686": {
+        "query": "Which Green Cryptocurrencies Spread Panic Which Just Catch",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7211924177": {
+        "query": "Inside Medicines Business Experts Describe Pharmacy Commerce Collides Indigenous Health",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215076186": {
+        "query": "Italians stopped saving their heirs started saving themselves",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213342854": {
+        "query": "Those impulse Shein hauls actually carefully planned",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- Money stress is an appraisal problem, not an arithmetic one. The new Brazilian study, \"Financial anxiety tracks how you feel about money more than how much you have\" (W7213938599), lands on the same conclusion as the previous digest's \"Financial anxiety isn't one problem — it's a network, and literacy only cuts the worst of it\" (W7202221325): subjective satisfaction and context outrank income and knowledge as correlates of anxiety. Two countries, two methods, same direction.\n- Trust and affect gate perceived financial well-being, not features or comprehension. \"When AI gives you financial advice, explaining yourself works on feelings, not logic\" (W7204478707) echoes \"Do banking app savings features actually make people save? Users think so — if they trust the app\" (W7202385295): in both, the functional route (usefulness, feature sophistication) fails to carry the outcome and the affective route does.\n- Engagement metrics are hygiene, not value. \"Luxury Brands in Thailand: Emotional Storytelling Beats Chasing Trends\" (W7203581812) demotes interaction and trendiness to baseline requirements — a close parallel to \"Likes don't pay the bills — but the voting, memberships and paid interactions they lead to do\" (W7213557087), where raw interaction only converted to money through structured participation.\n- Debt category beats debt trait. \"Young adults will take a mortgage but won't borrow from mum\" (W7214655781) shows asset-building credit judged on a separate dimension from consumption-smoothing credit, which helps explain why the previous digest's cash-transfer recipients in \"A no-strings $1,400 check didn't pay down debt — recipients borrowed more\" (W7213276001) put a windfall into mortgage and auto debt rather than deleveraging.\n- Spending as social performance. \"Two different forces drive impulse buying in livestream auctions\" (W7214649704) adds competitive envy of other buyers to the picture built by \"For Chinese K-pop fans, buying is belonging\" (W7203886708) — in both, the presence of other spenders, not the product, supplies the push.\n\n**Advances**\n- \"When Tech in Stores Pays Off: It Depends on Whether the Experience 'Feels Right'\" (W7215084470) extends the skepticism opened by \"A pop-up store on tour cut the band's own online merch sales in the same city\" (W7212434558). The earlier study showed physical experience can cannibalize rather than lift; the new one supplies a mechanism for why the same installation works for one shopper and not the next.\n- \"Those 'impulse' Shein hauls are actually carefully planned\" (W7213342854) deepens the saved-intent thread begun by \"Ads designed to be screenshotted get saved — and liked — more\" (W7213285496): wish-lists and parked carts, like screenshotted ads, are the conversion asset, and the \"impulse\" is just the trigger moment.\n\n**Counterpoints**\n- Previous coverage treated banking apps and their savings tools as a net positive where trust existed (W7202385295). The new Brazilian data cut the other way: managing more bank accounts was associated with *higher* financial anxiety (W7213938599), suggesting the multi-app, multi-relationship model banks and fintechs promote carries a cognitive cost the earlier work didn't capture.\n- The literacy picture gets more complicated. Where W7202221325 found literacy trimmed extreme anxiety, the new debt-attitudes work (W7214655781) finds debt literacy and frugality associated with *lower* receptivity to buffering credit — education reduces demand for a product category the industry says education will unlock.\n\n**New themes**\n- Saving purpose as a moving target: \"Italians stopped saving for their heirs — and started saving for themselves\" (W7215076186) is the first motive-level household data in this topic, with no counterpart in the previous digest.\n- Asset-class mislabeling: \"Which 'Green' Cryptocurrencies Spread Panic, and Which Just Catch It\" (W7203939686) is new territory — sustainability labeling as a risk-communication problem rather than a consumer-behavior one.\n- Commercial determinants of health: \"Inside the Medicines Business\" (W7211924177) opens a retail-ethics strand — pharmacy as simultaneously care provider and margin business — absent from the prior run.",
+    "feature_pitch": "**The pattern:** Across this batch, the thing that predicts whether money gets spent or anxiety gets relieved is emotional fit, not information or functionality. Transparency in robo-advice improved financial well-being only through psychological comfort, never through perceived usefulness (\"When AI gives you financial advice,\" W7204478707); in-store technology had no uniform effect until it matched a shopper's motivational mode (\"When Tech in Stores Pays Off,\" W7215084470); luxury loyalty ran on emotional engagement while trendiness and interaction were merely table stakes (\"Luxury Brands in Thailand,\" W7203581812); livestream buying urges came from attachment to a host and envy of a rival bidder (\"Two different forces drive impulse buying in livestream auctions,\" W7214649704); and financial anxiety tracked subjective satisfaction — and the number of accounts being juggled — more than income (\"Financial anxiety tracks how you feel about money,\" W7213938599).\n\n**Why pitch this now:** Banks and brokerages are rolling out AI advisors and explanation layers just as transparency obligations bite, retailers are committing capital to immersive store technology, and live commerce is drawing regulatory attention — three expensive bets being evaluated on comprehension, feature counts, and footfall, which this evidence says are the wrong scorecards.\n\n**Angle:** A reported feature on the industries that keep measuring understanding when what customers actually respond to is reassurance and fit — with the sharp edge that comfort can be manufactured independently of whether the underlying decision is any good, in robo-advice as much as in a livestream auction. Written for product, marketing, and CX decision-makers, with a consumer-facing cut for readers who feel unsettled by apps and tools sold as making life simpler.\n\n**Potential headlines:**\n- Five studies, one finding: shoppers and savers respond to how a product feels, not how well they understand it\n- The clearer your AI explains itself, the calmer customers feel — and that may be the problem\n- Why five banking apps and a wall of store screens leave you more anxious, not more in control\n\n**Potential outlets:**\n- **Fast Company** — runs design-and-technology critique with a behavioral spine; the explainable-AI finding that comfort, not comprehension, carries the outcome is exactly its register.\n- **Retail Dive** — the regulatory-fit result reframes in-store tech capex as a segmentation question, which is a live procurement debate for its readership.\n- **Tearsheet** — covers banking and fintech product design closely enough to handle the account-proliferation-equals-anxiety finding as a strategy story rather than a curiosity.\n- **The Guardian** (Money/Consumer affairs) — regularly runs pieces reframing personal money stress as something engineered by product design, and the multi-app and livestream findings both fit that beat.",
+    "pitch_ideas": "- **Young adults will take a mortgage but won't borrow from mum (Work ID W7214655781):** Debt aversion is two traits, not one — and informal borrowing from family ranks among the most refused forms of credit, more than some commercial products — for a personal-finance feature or a consumer-psychology explainer in a general-interest outlet.\n- **Financial anxiety tracks how you feel about money more than how much you have (Work ID W7213938599):** The account-proliferation finding is the news hook — more banking relationships, more anxiety — a direct challenge to fintech acquisition strategy, for a banking/fintech trade brief or a money-and-mental-health column.\n- **Two different forces drive impulse buying in livestream auctions (Work ID W7214649704):** Host charisma and envy of the winning bidder are separate levers, which gives regulators and platform designers two distinct things to look at as live-selling scrutiny grows — for a digital commerce trade explainer or a consumer-protection piece.\n- **When AI gives you financial advice, explaining yourself works on feelings, not logic (Work ID W7204478707):** Explainability measured as reassurance rather than comprehension, with a US–Korea gap that complicates one-size-fits-all disclosure design — for a CMO- or product-audience column on AI in financial services.\n- **When Tech in Stores Pays Off (Work ID W7215084470):** Stop asking whether in-store AR works and start asking who it works for — comparison-minded shoppers versus momentum-driven ones — for a retail trade explainer (flag the thin methodological detail in the abstract).\n- **Luxury Brands in Thailand: Emotional Storytelling Beats Chasing Trends (Work ID W7203581812):** Trend-chasing and reply-guy engagement are hygiene factors, not loyalty drivers, with four distinct configurational routes to loyalty — for a marketing-trade social strategy piece or a luxury-sector column.\n- **Which \"Green\" Cryptocurrencies Spread Panic, and Which Just Catch It (Work ID W7203939686):** The eco label describes energy use, not risk behavior, so \"diversified green crypto\" marketing is hard to defend when shocks move same-day — for a crypto/fintech trade outlet or a personal-investing section.\n- **Inside the Medicines Business (Work ID W7211924177):** Participants drew a hard line between genuine collaboration and partnerships that extract legitimacy — a benchmark for any brand doing Indigenous or community-organization sponsorship — for a health-policy outlet or a corporate-responsibility/PR trade piece.\n- **Italians stopped saving for their heirs — and started saving for themselves (Work ID W7215076186):** Two-thirds of households changed their main saving motive in two years, with bequest saving abandoned at an 81% rate — a direct hit on legacy-framed financial marketing and on anyone counting on an inheritance, for a personal-finance feature or a European business outlet.\n- **Those \"impulse\" Shein hauls are actually carefully planned (Work ID W7213342854):** \"Strategic spontaneity\" reframes ultra-fast fashion conversion around wish-lists and parked carts, and \"cognitive buffering\" explains why stated sustainability concern never shows up in sales — for a fashion-business explainer or a general-interest piece on why online spending outruns the budget."
+  }
+}
