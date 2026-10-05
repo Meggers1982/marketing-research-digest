@@ -1,0 +1,295 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-05",
+  "days_back": 60,
+  "window_from": "2026-08-06",
+  "window_to": "2026-10-05",
+  "focus": "B2B & Sales",
+  "topic": "b2b & sales",
+  "query": "\"business-to-business\" OR B2B OR salesperson OR \"sales force\" OR \"key account\" OR \"supplier relationship\" OR \"industrial marketing\" OR \"sales management\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 49,
+    "not_research": 2,
+    "no_abstract": 2,
+    "off_topic": 1,
+    "already_covered": 16,
+    "over_journal_cap": 16,
+    "over_cap": 0,
+    "sent": 12
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7213979081",
+      "headline": "Employees posting on LinkedIn feels like marketing. A Norwegian study suggests it barely moves the needle.",
+      "the_study": "Researchers combined in-depth interviews with three LinkedIn experts — used to build an index of actual LinkedIn activity — with a survey of 101 managers responsible for LinkedIn at Norwegian B2B small and medium-sized enterprises, analyzed with structural equation modeling. They focused on \"LinkedIn ambassadors\": employees who take on the role of promoting their firm on the platform. Ambassadors who identified strongly with their employer and understood firm goals did set clearer personal goals, and those goals were linked to firm performance. But two links broke: ambassadors' goals were not associated with how much they actually posted, and LinkedIn activity itself had only a marginal effect on firm performance.",
+      "why_it_matters": "Many B2B firms treat employee advocacy on LinkedIn as a cheap substitute for a marketing strategy; this evidence suggests volume of activity is not what pays off, and that unaligned posting may be effort spent for little return.",
+      "story_angle_primary": "Audit whether your employee advocacy program is measured by output (posts, impressions) or by alignment with commercial goals. The study points to a testable hypothesis for your own firm: that posting cadence is a vanity metric unless ambassador activity is explicitly tied to the marketing plan. Worth running a controlled comparison before scaling an advocacy push.",
+      "story_angle_secondary": "If your LinkedIn feed is full of colleagues enthusiastically posting on behalf of their employers, this is a hint that much of it is unstructured goodwill rather than a coordinated campaign — and that it may be doing less for their companies than it looks.",
+      "caveats": "Cross-sectional survey, so causation cannot be established; small sample (101 managers) from a single country and firm-size segment (Norwegian B2B SMEs); performance is self-reported by the manager running LinkedIn; the activity index is newly constructed.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-09-22",
+      "doi": "10.1108/jbim-06-2025-0546",
+      "paper_title": "The role of LinkedIn ambassadors in advancing B2B SME performance",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7215060027",
+      "headline": "Why business buyers ditch a brand: distrust and phoniness matter more than a bad experience",
+      "the_study": "Researchers built and validated a Corporate Brand Avoidance scale for industrial markets using a two-stage mixed-methods design: semi-structured interviews with managers in the lift (elevator) industry, followed by a large survey across sectors in the industrial value chain analyzed with PLS-SEM. The resulting six-dimension scale includes two B2B-specific forms of avoidance the consumer literature misses — avoidance driven by a supplier's financial fragility (\"Deficit-Liquidity Avoidance\") and by operational performance problems (\"Work-Related Avoidance\"). Distrust and perceived inauthenticity emerged as the strongest drivers of avoidance, and negative brand equity as its main consequence — while negative past experience did not significantly trigger avoidance in long-term relationships.",
+      "why_it_matters": "It suggests industrial buyers forgive concrete service failures within an established relationship but not perceived dishonesty or a shaky balance sheet, which inverts the usual service-recovery priority list.",
+      "story_angle_primary": "If distrust and inauthenticity outrank bad experiences as avoidance triggers, B2B brand spending aimed at polishing claims may be riskier than it looks — overclaiming costs more than an outage. Also worth noting: buyers are quietly scoring your financial health as a brand attribute, which argues for proactive transparency about solvency and continuity.",
+      "story_angle_secondary": "Business buyers behave a lot like wary consumers — they walk away from suppliers that feel fake or financially shaky — but unlike consumers they tend to stick with a long-term partner through a genuine screw-up.",
+      "caveats": "Scale-development study relying on self-reported survey measures and stated attitudes rather than observed switching behavior; qualitative stage drawn from a single industry (lifts) used as a proxy for complex B2B; cross-sectional design cannot establish causation; sample composition and country coverage not specified in the abstract.",
+      "journal": "Industrial Marketing Management",
+      "published": "2026-10-01",
+      "doi": "10.1016/j.indmarman.2026.09.007",
+      "paper_title": "Corporate brand avoidance scale: Antecedents and consequences in industrial markets",
+      "source_id": "S31748134"
+    },
+    {
+      "work_id": "W7214656266",
+      "headline": "A six-year look at how an adtech metric got the industry to believe in it — accuracy was the easy part",
+      "the_study": "This longitudinal qualitative case study tracked Adelaide Metrics from 2019 to 2025 as it turned an internal analytical signal into a commercially accepted predictive media-quality metric, drawing on six executive interviews, internal and public documents, third-party validation studies, and observations at industry forums. The analysis found that adoption hinged on four interdependent mechanisms beyond the model's predictive performance: interpretive packaging, buyer enablement, workflow integration, and legitimacy transfer via third-party validation and ecosystem participation. The authors lay these out as a six-stage path from internal artifact to accepted decision tool.",
+      "why_it_matters": "As media and marketing buying fills up with predictive scores and AI-generated decision tools, this is a rare documented account of what actually makes buyers trust a number they cannot verify in advance.",
+      "story_angle_primary": "For anyone selling analytics, AI scores or attention metrics into B2B: the case suggests budget for interpretation, buyer training, integration into existing workflows and independent validation may matter more than another point of model accuracy. For buyers, it is a reminder that a metric's credibility is manufactured through these same activities — ask which parts are evidence and which are packaging.",
+      "story_angle_secondary": "The scores increasingly deciding where ad money goes — and by extension what content gets funded online — become 'true' partly through industry politics and endorsement, not just math.",
+      "caveats": "Single-company case study with only six executive interviews, largely from the vendor's perspective; findings are interpretive rather than causal and may not generalize beyond advertising measurement; no independent test of whether the metric improved outcomes for adopters.",
+      "journal": "International Journal of Market Research",
+      "published": "2026-09-28",
+      "doi": "10.1177/14707853261493195",
+      "paper_title": "Commercializing New Predictive Metrics in B2B Markets: A Longitudinal Case",
+      "source_id": "S162526994"
+    },
+    {
+      "work_id": "W7212796904",
+      "headline": "Customer references can backfire: the hidden downside of name-dropping your best client",
+      "the_study": "Using a constructivist grounded theory approach, researchers conducted 22 interviews and one focus group with supplier managers in the health technology sector to map how B2B sellers use customer references when selling to highly expert buyers. They identified six distinct roles references play — three as boundary objects (Certification, Anchor, Bridge) and three as boundary spanners (Ambassador, Integrator, Broker). Crucially, each role was found to carry dysfunctional attributes alongside its functional ones, for example anchoring prospects to a previous delivery in ways that constrain how a new solution is understood.",
+      "why_it_matters": "Reference selling is treated as a near-costless trust accelerator in complex B2B sales, but this suggests a reference can lock a buyer into the wrong mental template or create dependence on a single customer's goodwill.",
+      "story_angle_primary": "Rather than asking 'which customers will vouch for us', sales leaders could start classifying what job each reference is doing — proving compliance, bridging a knowledge gap, or brokering access — and check whether that job has an obvious downside in the deal at hand. A useful internal exercise before the next reference-heavy pitch.",
+      "story_angle_secondary": "Limited direct relevance for consumers, though it echoes a familiar dynamic: a glowing testimonial shapes what you expect, sometimes in ways that stop you from seeing what you are actually being sold.",
+      "caveats": "Small qualitative study (22 interviews, one focus group) in a single sector and seller-side perspective only; no buyer data and no measurement of sales outcomes; findings are conceptual patterns, not effect sizes.",
+      "journal": "Industrial Marketing Management",
+      "published": "2026-09-14",
+      "doi": "10.1016/j.indmarman.2026.09.003",
+      "paper_title": "B2B customer referencing through boundary spanners and boundary objects in the health technology sector",
+      "source_id": "S31748134"
+    },
+    {
+      "work_id": "W7214672998",
+      "headline": "Not everyone trying to 'shape the market' for sustainability wants it to change",
+      "the_study": "Through a multi-case study of B2B markets whose climate and biodiversity impacts are actively contested, researchers analyzed how coalitions of stakeholders — firms, regulators, NGOs, challengers and incumbents — work collectively to steer market trajectories. Their abductive analysis identified four distinct types of multi-stakeholder market-shaping effort with sometimes opposing goals: status quo maintenance, targeted reform, infrastructure reform, and market contraction. They also map four pathways by which stakeholders frame sustainability issues — two typically used by challengers, two by incumbents.",
+      "why_it_matters": "It reframes sustainability coalitions as contests rather than consensus-building, and gives managers a vocabulary for diagnosing whether a given industry initiative is designed to change a market, rebuild its infrastructure, shrink it, or quietly protect it.",
+      "story_angle_primary": "Before joining an industry sustainability alliance or standards body, map which of the four agendas the other participants are actually pursuing — incumbent-led 'targeted reform' and outright status quo maintenance can look identical from the outside. Watch especially for 'market contraction' coalitions, which aim to shrink categories rather than green them.",
+      "story_angle_secondary": "Explains why some industries announce sustainability initiatives for years with little apparent change: the coalition's real goal may be to keep the market roughly as it is while appearing to act.",
+      "caveats": "Qualitative multi-case design with no quantitative outcome data; case selection, number of cases and country context are not specified in the abstract; findings are theory-building and not generalizable to markets outside the contested B2B settings studied.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-09-28",
+      "doi": "10.1007/s11747-026-01207-8",
+      "paper_title": "Multi-stakeholder market shaping for sustainability: effort types and enactment pathways in B2B markets",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7203828784",
+      "headline": "Does corporate do-gooding actually win business customers? Matched supplier-buyer data says yes — through trust",
+      "the_study": "Researchers surveyed 205 matched supplier–buyer pairs in business-to-business relationships — collecting data from both sides of the dyad rather than the usual one-sided sample — and modeled the links with structural equation modeling. Suppliers with a stronger corporate social responsibility orientation ran more CSR activity of two kinds: embedded business-practice CSR (how they operate) and philanthropic CSR (giving). Both types raised buyers' perceptions of the supplier's benevolence and expertise, and that trust was associated with longer-term orientation and willingness to expand the relationship into new areas.",
+      "why_it_matters": "B2B sustainability spending is often defended as reputation insurance; this gives procurement-facing marketers an argument that it operates through a measurable mechanism — buyer trust — and shows up in relationship continuity and expansion, not just goodwill.",
+      "story_angle_primary": "If you sell to businesses, test whether your CSR story is actually reaching the buying center: the mechanism here is perceived benevolence and competence, which means CSR claims that signal operational seriousness may travel further in a sales conversation than a donations page. Worth measuring trust perceptions among named accounts before and after a sustainability push rather than assuming the halo.",
+      "story_angle_secondary": "A reminder that much of the corporate sustainability activity consumers see is aimed not at them but at other companies — the buyer on the other side of a supply contract is often the real audience for a CSR report.",
+      "caveats": "Cross-sectional survey data, so causal direction cannot be established; structural-equation path results with self-reported perceptions on both sides; country and industry context are not specified in the abstract; relationship outcomes are stated orientations and intentions rather than observed contract renewals or spend.",
+      "journal": "Journal of Business-to-Business Marketing",
+      "published": "2026-08-20",
+      "doi": "10.1080/1051712x.2026.2717166",
+      "paper_title": "How Corporate Social Responsibility Shapes B2B Relationships: A Dyadic Examination of Trust, Relationship Continuity, and Relationship Expansion",
+      "source_id": "S139478629"
+    },
+    {
+      "work_id": "W7203649054",
+      "headline": "Keeping retailers happy only pays off if they're digitally equipped, Vietnamese liquor-channel study finds",
+      "the_study": "A survey of 428 wine and spirits retailers and shop owners in Vietnam who distribute for international spirits groups tested how two sources of supplier support — brand-level support and individual salesperson support — feed retailer commercial performance. Both forms of support raised retailer satisfaction, which in turn was linked to stronger commercial performance. Crucially, the satisfaction-to-performance link was stronger among retailers with higher digital enablement, suggesting that goodwill converts into sales faster when the retailer has the digital tools to act on it.",
+      "why_it_matters": "It suggests channel investment has a sequencing logic: relationship-building spend may underperform in outlets that lack the digital infrastructure to convert it, which argues for pairing trade support with tools rather than treating them as separate budgets.",
+      "story_angle_primary": "For anyone running indirect or traditional-trade channels, the testable claim is that digital enablement is a multiplier, not a separate initiative — compare the return on trade support in digitally equipped versus unequipped outlets in your own network before scaling either. Also note the dual-source finding: brand-level resources and a problem-solving rep are not substitutes.",
+      "story_angle_secondary": "A look inside how the bottles on a local shop's shelf get there: the small retailer's experience of being supported — or ignored — by a global spirits supplier shapes which brands get pushed to customers.",
+      "caveats": "Cross-sectional survey, so no causal inference; single country (Vietnam) and single category (wine and spirits) in a regulated traditional-trade context; outcomes are self-reported retailer perceptions of commercial performance rather than audited sales data; results are PLS-SEM path coefficients.",
+      "journal": "British Food Journal",
+      "published": "2026-08-17",
+      "doi": "10.1108/bfj-03-2026-0362",
+      "paper_title": "Unpacking retailer performance in the wine and spirits sector: multilevel support, satisfaction and the moderating power of digital enablement",
+      "source_id": "S99313352"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7213979081",
+      "headline": "Employees posting on LinkedIn feels like marketing. A Norwegian study suggests it barely moves the needle.",
+      "verdict": "accurate",
+      "notes": "Design, sample (101 Norwegian B2B SME managers, three expert interviews, SEM) and both 'frictions' are reported faithfully; caveats are appropriately cautious. Only nit is describing the index as capturing 'actual' activity.",
+      "issues": [
+        {
+          "label": "'Actual' LinkedIn activity",
+          "severity": "Minor",
+          "as_written": "used to build an index of actual LinkedIn activity",
+          "abstract_says": "The interview findings allowed for the development of a LinkedIn activity index.",
+          "problem": "'Actual' implies objectively observed posting behavior; the abstract only says an activity index was developed from the interviews and measured within the survey, so it is likely self-reported.",
+          "suggested_fix": "Drop 'actual' — e.g. 'used to build a LinkedIn activity index'."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7215060027",
+      "headline": "Why business buyers ditch a brand: distrust and phoniness matter more than a bad experience",
+      "verdict": "accurate",
+      "notes": "Scale dimensions, the two new B2B-specific dimensions, strongest antecedents, main consequence and the null for negative past experience all match the abstract; caveats correctly note self-report and single-industry qualitative stage.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7214656266",
+      "headline": "A six-year look at how an adtech metric got the industry to believe in it — accuracy was the easy part",
+      "verdict": "accurate",
+      "notes": "Case period, six executive interviews, data sources, the four mechanisms and six-stage framework are all reported accurately, and the caveats match the design.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7212796904",
+      "headline": "Customer references can backfire: the hidden downside of name-dropping your best client",
+      "verdict": "accurate",
+      "notes": "Method (constructivist grounded theory, 22 interviews plus one focus group, health technology supplier managers), the six roles and the functional/dysfunctional duality are all correct; the illustrative 'anchoring' example is an interpretation not spelled out in the abstract.",
+      "issues": [
+        {
+          "label": "Illustrative example not in abstract",
+          "severity": "Minor",
+          "as_written": "for example anchoring prospects to a previous delivery in ways that constrain how a new solution is understood",
+          "abstract_says": "the findings identify six boundary spanning roles of customer referencing: Certification, Anchor, and Bridge (boundary objects)… how the different customer referencing roles carry both functional and dysfunctional attributes in boundary spanning",
+          "problem": "The specific dysfunction described for the Anchor role is a plausible inference but is not stated in the abstract — unverifiable from abstract only.",
+          "suggested_fix": "Mark as an illustration, e.g. 'for example, an \"Anchor\" reference could plausibly tie prospects to a previous delivery (the abstract does not detail specific dysfunctions)'."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7214672998",
+      "headline": "Not everyone trying to 'shape the market' for sustainability wants it to change",
+      "verdict": "accurate",
+      "notes": "Multi-case design, the four effort types and the four enactment pathways (two challenger, two incumbent) match the abstract; caveats correctly flag that case count and country context are unspecified.",
+      "issues": []
+    },
+    {
+      "number": 6,
+      "work_id": "W7203828784",
+      "headline": "Does corporate do-gooding actually win business customers? Matched supplier-buyer data says yes — through trust",
+      "verdict": "minor",
+      "notes": "Dyadic design (205 pairs), SEM, both CSR types, trust dimensions and relationship outcomes are reported accurately and hedged in the body; the headline is more affirmative and outcome-shifted than the abstract supports.",
+      "issues": [
+        {
+          "label": "Headline overstates outcome and causality",
+          "severity": "Minor",
+          "as_written": "Does corporate do-gooding actually win business customers? Matched supplier-buyer data says yes — through trust",
+          "abstract_says": "Enhanced buyer trust subsequently contributes to stronger relationship performance, demonstrated through greater long-term orientation and relationship extendedness.",
+          "problem": "The measured outcome is relationship performance (long-term orientation and relationship extendedness) among existing buyer–supplier dyads, not winning new business customers; and a survey-based SEM model does not establish that CSR 'wins' anything.",
+          "suggested_fix": "Reframe, e.g. 'Supplier CSR is linked to stronger buyer trust — and to buyers' stated intent to stay and expand the relationship'."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7203649054",
+      "headline": "Keeping retailers happy only pays off if they're digitally equipped, Vietnamese liquor-channel study finds",
+      "verdict": "minor",
+      "notes": "Sample (428 Vietnamese wine and spirits retailers), PLS-SEM, dual-source support, satisfaction mediation and digital enablement moderation are all accurate; the headline turns a strengthening moderator into a necessary condition.",
+      "issues": [
+        {
+          "label": "Moderator framed as a necessary condition",
+          "severity": "Moderate",
+          "as_written": "Keeping retailers happy only pays off if they're digitally equipped, Vietnamese liquor-channel study finds",
+          "abstract_says": "DE positively moderates the RS–RCP link, such that higher DE strengthens the effect of satisfaction on retailer outcomes.",
+          "problem": "The abstract reports that digital enablement strengthens the satisfaction–performance link, not that the link disappears without it; 'only pays off if' tells readers satisfaction has no payoff in low-digital outlets, which the abstract does not support.",
+          "suggested_fix": "Change to 'Keeping retailers happy pays off more when they're digitally equipped' or 'digital enablement amplifies the payoff'."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 7,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7213979081": {
+        "query": "Employees posting LinkedIn feels like marketing Norwegian suggests barely moves",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215060027": {
+        "query": "business buyers ditch brand distrust phoniness matter than bad experience",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214656266": {
+        "query": "six year look adtech metric got industry believe accuracy easy",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212796904": {
+        "query": "Customer references backfire hidden downside name dropping best client",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214672998": {
+        "query": "Not everyone trying shape market sustainability wants change",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203828784": {
+        "query": "Does corporate gooding actually win business customers Matched supplier buyer",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203649054": {
+        "query": "Keeping retailers happy only pays off they digitally equipped Vietnamese",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- Trust, not transaction mechanics, keeps B2B relationships alive. \"Does corporate do-gooding actually win business customers?\" (W7203828784) runs CSR through perceived benevolence and expertise to relationship continuity and expansion — the same two-component trust structure the previous digest's \"Hard-closing salespeople damage buyer trust\" (W7172448511) used to predict repurchase. Worth a reporter's note: both studies rest on 205 matched supplier–buyer pairs, so they may share a sampling frame or research group, and should not be treated as fully independent corroboration.\n- Relational investment beats formal control in channels. \"Keeping retailers happy only pays off if they're digitally equipped\" (W7203649054) finds supplier support converting to retailer performance through satisfaction, complementing the previous digest's \"When suppliers play manipulative games, tighter contracts make distributors behave worse\" (W7208824278) — contract-writing as the wrong lever, relationship quality as the right one, now with a hard boundary condition (digital enablement).\n- Employee identification matters, but the path is unsettled. \"Employees posting on LinkedIn feels like marketing\" (W7213979081) finds organizational identification drives ambassadors' goal-setting, while the previous digest's \"Salespeople Proud of Their Employer Sell More\" (W7202160517) found identification mediating prestige into sales results. Both say identification is the live variable; the new study breaks the chain further downstream, where activity fails to convert.\n\n**Advances**\n- The ESG-credibility thread deepens considerably. The previous digest's \"Procurement managers admit they keep buying from suppliers they suspect of greenwashing\" (W7213538226) showed buyers tolerating dubious claims; the new batch adds both the payoff side — CSR genuinely moving buyer trust (W7203828784) — and the structural side, with \"Not everyone trying to 'shape the market' for sustainability wants it to change\" (W7214672998) showing that some multi-stakeholder coalitions are built to preserve the status quo. Together these move the story from \"do ESG claims get checked?\" to \"who benefits from them not being checked?\"\n\n**Counterpoints**\n- \"Why business buyers ditch a brand\" (W7215060027) complicates the previous digest's picture of relationship fragility. Where W7172448511 showed seller behavior eroding trust and W7213538226 showed relationship history suppressing scrutiny, the new scale finds that negative past experience does *not* significantly trigger avoidance in long-term relationships — distrust and inauthenticity do. The service-failure lever looks weaker than the honesty lever.\n\n**New themes**\n- Legitimacy as a manufactured product: \"A six-year look at how an adtech metric got the industry to believe in it\" (W7214656266) has no analog in the previous digest, and extends that digest's AI-and-analytics thread (\"An AI model beat seasoned B2B sales pros,\" W7204437044) from whether models are accurate to whether buyers will believe them.\n- Reference selling as a double-edged tool: \"Customer references can backfire\" (W7212796904) opens a sales-practice area the previous run did not touch.",
+    "feature_pitch": "**The pattern:** Across this batch, what business buyers reward is not demonstrated performance but constructed credibility — and the two come apart. \"Why business buyers ditch a brand\" (W7215060027) finds distrust and perceived phoniness drive supplier avoidance while actual service failures largely do not; \"A six-year look at how an adtech metric got the industry to believe in it\" (W7214656266) documents a metric winning acceptance through packaging, enablement and third-party endorsement rather than model accuracy; \"Does corporate do-gooding actually win business customers?\" (W7203828784) shows CSR paying off only via perceived benevolence and competence; and \"Not everyone trying to 'shape the market' for sustainability wants it to change\" (W7214672998) shows industry coalitions that perform collective action while pursuing status quo maintenance. Alongside them, \"Employees posting on LinkedIn feels like marketing\" (W7213979081) and \"Customer references can backfire\" (W7212796904) show two favorite credibility shortcuts — advocacy volume and name-dropping clients — failing to deliver or actively misfiring.\n\n**Why pitch this now:** B2B feeds, pitch decks and media-buying dashboards are filling with AI-generated posts, AI-derived quality scores and sustainability claims just as the EU's green-claims and reporting regimes make overclaiming legally expensive — so the question of how business buyers decide what to believe has moved from soft brand theory to a procurement and compliance problem.\n\n**Angle:** A reported feature on the machinery of credibility in business markets — who builds it, what it costs, and why the cheap signals (posting cadence, logo slides, a donations page, a validation study commissioned by the vendor) are the ones buyers now discount hardest. Aimed at B2B marketing and revenue leaders, with a second life for media-buying readers via the adtech-metric case.\n\n**Potential headlines:**\n- Business buyers forgive broken products. They don't forgive overclaiming.\n- The ad industry's trusted numbers earned that trust before anyone checked the math\n- Every credibility shortcut in your pitch deck is losing value at once\n\n**Potential outlets:**\n- *Marketing Week* — its B2B brand-effectiveness and \"brand versus performance\" coverage is the natural home for evidence that authenticity, not activity volume, drives supplier retention.\n- *Digiday* — the Adelaide case gives it a documented, six-year account of how a media-quality metric gets adopted, which speaks directly to its attention-metrics and measurement-vendor beat.\n- *MIT Sloan Management Review* — the market-shaping typology and the CSR-to-trust mechanism together support a managerial piece on diagnosing whether an industry coalition or sustainability program is designed to change anything.\n- *Raconteur* — its B2B and sustainable-business reports regularly run exactly this kind of \"what buyers actually believe\" synthesis for a senior commercial readership.",
+    "pitch_ideas": "- **Employees posting on LinkedIn feels like marketing. A Norwegian study suggests it barely moves the needle. (Work ID W7213979081):** Employee advocacy programs are measured on posts and impressions, but ambassadors' goals didn't predict posting and posting barely predicted performance — a skeptical news brief or column for a B2B marketing trade outlet, with a social-team angle on vanity metrics.\n- **Why business buyers ditch a brand: distrust and phoniness matter more than a bad experience (Work ID W7215060027):** Industrial buyers now treat a supplier's financial fragility as a brand attribute and punish inauthenticity harder than outages — a B2B brand-strategy feature, or a procurement/supply-chain trade explainer on solvency as a marketing problem.\n- **A six-year look at how an adtech metric got the industry to believe in it (Work ID W7214656266):** A rare documented account of how a predictive media-quality score becomes an accepted currency — pitch to an adtech/measurement trade outlet as both a case study and a buyer's checklist for separating evidence from packaging.\n- **Customer references can backfire: the hidden downside of name-dropping your best client (Work ID W7212796904):** Every reference role identified here carries a dysfunction, including anchoring prospects to an old delivery — a sales-leadership column or enterprise-sales trade explainer on auditing what job each reference is actually doing.\n- **Not everyone trying to 'shape the market' for sustainability wants it to change (Work ID W7214672998):** Four coalition agendas, two of which preserve the market while looking like reform — a sustainable-business or ESG-focused feature, and a sharp general-interest explainer on why industry sustainability alliances produce years of announcements and little change.\n- **Does corporate do-gooding actually win business customers? (Work ID W7203828784):** CSR converts into contract expansion through buyer trust, meaning the real audience for many sustainability reports is other companies, not consumers — a CMO-audience column, or a consumer-facing piece on who corporate purpose messaging is actually for.\n- **Keeping retailers happy only pays off if they're digitally equipped (Work ID W7203649054):** Trade-support spend underperforms in outlets that lack the digital tools to act on it, which argues for sequencing enablement before relationship investment — a retail/FMCG channel-management trade explainer, with an emerging-markets distribution angle."
+  }
+}

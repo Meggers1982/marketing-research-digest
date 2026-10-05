@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 18,
+  "run_count": 19,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -15,6 +15,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-b2b-sales-2026-10-05",
+      "title": "Marketing Research Digest — B2B & Sales — 2026-10-05",
+      "topic": "b2b & sales",
+      "run_date": "2026-10-05",
+      "study_count": 7,
+      "total_issues": "4 (3 Minor, 1 Moderate, 0 Major)",
+      "lead_count": 0,
+      "top_score": 80
+    },
     {
       "id": "marketing-research-digest-money-spending-2026-10-04",
       "title": "Marketing Research Digest — Money & Spending — 2026-10-04",
