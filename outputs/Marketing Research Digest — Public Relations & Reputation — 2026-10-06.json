@@ -1,0 +1,554 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-06",
+  "days_back": 60,
+  "window_from": "2026-08-07",
+  "window_to": "2026-10-06",
+  "focus": "Public Relations & Reputation",
+  "topic": "public relations & reputation",
+  "query": "\"public relations\" OR \"crisis communication\" OR \"corporate reputation\" OR stakeholder OR \"corporate communication\" OR \"strategic communication\" OR \"issues management\" OR \"employee advocacy\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 144,
+    "not_research": 2,
+    "no_abstract": 24,
+    "off_topic": 13,
+    "already_covered": 14,
+    "over_journal_cap": 14,
+    "over_cap": 37,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7215933723",
+      "headline": "The promotion that offers no discount — and still moves product",
+      "the_study": "Researchers define \"symbolic promotions\" — campaigns that reward shared group identity rather than offering money off — and test them two ways. A nine-year longitudinal analysis of daily sales for 22,084 books tracked the Quebec campaign \"On August 12, I buy a Quebec book!\" and found a substantial sales lift, with bigger gains for lesser-known authors and publishers than for established names. A follow-up experiment showed the mechanism is curiosity plus \"community rootedness,\" which raised participation, social sharing and future brand consideration.",
+      "why_it_matters": "It shows a promotional lever that builds sales without eroding price integrity or training shoppers to wait for discounts — and one that disproportionately helps smaller brands get discovered.",
+      "story_angle_primary": "Brands exhausted by discount dependency have a testable alternative: tie a purchase occasion to a group identity customers already hold (local, regional, professional, fandom) rather than to a price cut. The field evidence here comes from one category in one market, so the question for marketers is which identities are strong enough in their own category to carry a buying occasion, and whether the lift survives repeated annual use.",
+      "story_angle_secondary": "It's a window into why you might buy a book on a particular day for no economic reason at all: a well-framed appeal to \"people like us\" can be as motivating as 20% off, and it tends to steer attention toward unfamiliar names rather than the usual bestsellers.",
+      "caveats": "The field data covers a single category (books) in a single market (Quebec) with a strong existing cultural-identity movement; the mechanism evidence comes from an experiment measuring stated intentions rather than purchases.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-10-02",
+      "doi": "10.1007/s11747-026-01202-z",
+      "paper_title": "Symbolic promotions: Conceptualization and empirical investigation",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7213930759",
+      "headline": "A profession that is majority women — and still hands authority to men's norms",
+      "the_study": "Using a Foucauldian discursive framework, the researcher interviewed senior women leaders in India's public relations and corporate communication sector to examine how gendered power works inside a field where women are the numerical majority. Findings describe a \"symbolic burden\": women perform what the author calls gendered recalibration, balancing leadership demands against culturally coded expectations of respectable femininity in order to be read as legitimate. Their agency is ambivalent — strategies that win authority in the moment can also reproduce the hierarchy that made them necessary.",
+      "why_it_matters": "Headcount parity is often treated as proof that a communications function has solved its gender problem; this study argues that discursive norms about what leadership looks like can keep authority out of women's hands even in women-majority organizations.",
+      "story_angle_primary": "Communications and marketing leaders benchmarking diversity on representation alone should look instead at who gets to speak for the organization, chair the crisis room and own client relationships. The study's prescription is organization-level: interrogate the norms by which leadership is recognized, rather than adding another women's development program.",
+      "story_angle_secondary": "For anyone working in a female-dominated profession, the finding names a familiar dynamic — being numerically dominant and still having to manage how you come across in order to be taken seriously.",
+      "caveats": "Qualitative interview study in a single country (India) and a single sector; no sample size reported in the abstract; interpretive rather than causal, and findings describe lived experience rather than measured outcomes such as promotion rates.",
+      "journal": "Public Relations Review",
+      "published": "2026-09-21",
+      "doi": "10.1016/j.pubrev.2026.102777",
+      "paper_title": "Majority without authority: Discursive power and women’s leadership in Indian public relations",
+      "source_id": "S193575162"
+    },
+    {
+      "work_id": "W7202171291",
+      "headline": "Residents are branding your city whether you invite them to or not",
+      "the_study": "Two qualitative studies across five European cities examined how residents shape place brand meaning. Study 1 combined interviews (n=28), netnography and participant observation in Luton; Study 2 used photo-elicited interviews (n=20) across London, Leicester, Oxford and Budapest. The authors map a \"place brand co-creation spectrum\" along structure, intentionality and temporality, identifying four co-creation archetypes and seven resident roles — including entirely unplanned and passive contributions that still alter what a place stands for.",
+      "why_it_matters": "Place marketing budgets typically fund structured engagement — workshops, ambassador schemes, hashtag campaigns — while the study argues that most brand meaning is generated by residents going about ordinary life.",
+      "story_angle_primary": "For destination and city marketers, the usable idea is a diagnostic: audit which resident roles your place actually has and where unplanned meaning-making is running counter to the official brand, instead of assuming engagement equals participation in your program. This is an interpretive model from five cities, so treat it as a framework to test locally rather than a validated measurement tool.",
+      "story_angle_secondary": "Your everyday complaints, photos and local pride are the raw material of your town's reputation — far more so than the logo the council paid for.",
+      "caveats": "Qualitative and interpretive; small combined sample (48 interviewees); five cities, four of them in the UK; examines only resident–municipality dynamics, excluding visitors and businesses; no outcome measures.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-08-11",
+      "doi": "10.1108/ejm-07-2025-0540",
+      "paper_title": "The place brand co-creation spectrum: dimensions, practices and resident roles",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7205004055",
+      "headline": "AI training didn't move the needle — but boss-level backing did",
+      "the_study": "A cross-sectional survey of 234 public relations and communication professionals in the United Arab Emirates tested which factors predicted self-reported communication effectiveness when AI is in the mix: individual AI competency, organizational AI support, perceived value of AI, and perceived AI risk. In hierarchical regression, only organizational AI support — governance frameworks, leadership commitment, institutional readiness — significantly predicted effectiveness. Personal skill, enthusiasm about AI and worry about AI all washed out, and there were no significant differences between those who had and hadn't received AI training.",
+      "why_it_matters": "Communication teams are pouring budget into AI tools and individual upskilling, but this evidence points to the organization's governance and support structures, not personal proficiency, as the thing that correlates with getting results out of AI.",
+      "story_angle_primary": "If AI pilots in your comms function are underdelivering, the constraint may be institutional rather than technical. Worth testing internally: compare teams with clear AI policies, leadership sponsorship and ethical oversight against teams that merely have licenses and training, and see whether output quality actually diverges — this is correlational evidence from one market, not proof that governance causes performance.",
+      "story_angle_secondary": "The familiar story that workers just need to 'learn AI' to stay relevant looks shakier here: in this sample, whether an employee had been trained on AI made no detectable difference to how effective they said their work was. What mattered was whether their employer had built a system around it.",
+      "caveats": "Cross-sectional survey, so causation cannot be established; self-reported perceptions of effectiveness rather than objective performance measures; single country (UAE) and single profession; the authors themselves flag response bias and limited generalizability.",
+      "journal": "Journal of Communication Management",
+      "published": "2026-09-02",
+      "doi": "10.1108/jcom-03-2026-0141",
+      "paper_title": "Governing artificial intelligence in strategic communication: institutional enablement and communication effectiveness in digitally mediated environments",
+      "source_id": "S10496491"
+    },
+    {
+      "work_id": "W7213244866",
+      "headline": "Compliance programs barely work on their own — leaders have to be seen living them",
+      "the_study": "Researchers surveyed 752 employees across four countries and five industries, including financial services, measuring three dimensions of compliance culture — formal organizational governance, individual internalization of compliance values, and visible leadership commitment — against employees' stated willingness to blow the whistle on wrongdoing. All three predicted whistleblowing intentions, explaining about 36% of the variance. The headline result: leadership compliance mediated 71% of the effect of formal organizational compliance, meaning rulebooks and reporting infrastructure mostly influence reporting behavior indirectly, through whether leaders visibly embody them. Clan and adhocracy cultures amplified the relationships; hierarchical cultures showed only contingent effects.",
+      "why_it_matters": "Reputational blowups usually start as internal problems nobody reported, and this suggests that investment in compliance architecture translates into actual reporting mainly when leaders are seen to model it.",
+      "story_angle_primary": "A prompt to audit the gap between policy and visible leader behavior: does your organization measure whether employees can name a time a senior leader acted on compliance values, not just whether a hotline exists? The study also suggests one-size-fits-all compliance rollouts may misfire, since effects varied by industry, country and culture type.",
+      "story_angle_secondary": "It explains something most employees intuitively know — people decide whether to report misconduct based on what they've watched their bosses do, not on what the staff handbook says.",
+      "caveats": "Cross-sectional survey, so no causal claim; the outcome is whistleblowing intention, not observed reporting behavior; individual-level OLS used to analyze what are partly organizational phenomena; the four countries and five industries are not specified in enough detail to judge representativeness.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-09-16",
+      "doi": "10.1108/ijbm-11-2025-0928",
+      "paper_title": "When compliance culture fails to curb incivility: leadership mechanisms and organizational culture across key industries",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7213310447",
+      "headline": "The PR manager's job is quietly becoming 'ethical advisor to the machine'",
+      "the_study": "Through in-depth interviews with U.S. public relations practitioners, this study examined how generative AI is reshaping professional roles and identity. Practitioners described a shift away from the long-standing manager-versus-technician divide toward a human-machine hybrid role defined by AI fluency, ethical stewardship and the strategic interpretation of AI-generated output. The authors argue the managerial role is expanding to include an explicit ethical advisor function, and propose a framework for PR roles in the AI era.",
+      "why_it_matters": "If AI absorbs the technician work — drafting, monitoring, first-pass content — the defensible value of a communications professional shifts to judgment, interpretation and accountability, which has direct implications for how teams are staffed, titled and evaluated.",
+      "story_angle_primary": "Consider whether your job descriptions and performance reviews still reward output volume rather than the judgment layer: who signs off on AI-generated claims, who catches the reputational landmine, who advises the C-suite on whether an AI use is defensible. These are practitioner accounts rather than measured outcomes, so treat the framework as a hypothesis to test against your own team's workload.",
+      "story_angle_secondary": "A concrete look at what 'AI changes jobs' actually means inside one white-collar profession: not mass elimination so far, but a reshuffling toward the work of checking, interpreting and taking responsibility for what the machine produced.",
+      "caveats": "Qualitative interview study in a single country (U.S.); sample size not reported in the abstract; captures practitioners' self-perceptions of their roles rather than observed changes in work or outcomes; no measurement of effectiveness or client impact.",
+      "journal": "Journal of Public Relations Research",
+      "published": "2026-09-15",
+      "doi": "10.1080/1062726x.2026.2733651",
+      "paper_title": "Public Relations Practitioners’ Role in the Artificial Intelligence Era: Evolving Toward Critical and Socially Responsible Practitioners",
+      "source_id": "S75775641"
+    },
+    {
+      "work_id": "W7214178032",
+      "headline": "A brand's age may be a reputational airbag when scandal hits",
+      "the_study": "In a preregistered experiment with a representative Dutch sample (N=600), researchers presented a fictional brand with varying founding dates, measured participants' perceptions of the brand's heritage (longevity, continuity, tradition, adaptability), and then exposed half of them to a news article accusing the brand of unethical behavior. Stronger heritage perceptions were linked to weaker negative emotions and negative thoughts about the brand after the accusation, with perceived authenticity appearing to carry much of the effect. The authors call this shortcut the \"heritage heuristic\": people seem to judge a long-established organization more charitably even when its history has nothing to do with the alleged wrongdoing.",
+      "why_it_matters": "It suggests that heritage cues built into everyday branding — founding year, continuity of values, long-running traditions — may function as pre-paid crisis insurance rather than mere nostalgia decoration.",
+      "story_angle_primary": "If heritage buffers negative publicity, the investment has to be made long before the crisis. Brands with real longevity could test whether making founding dates, continuity and enduring values more prominent in routine communications changes how audiences absorb bad news; the caution is that this was a fictional brand in a controlled setting, so the effect's size against a real, well-covered scandal is unknown — and young brands have no obvious substitute.",
+      "story_angle_secondary": "It's a useful bit of self-knowledge for consumers: we appear to forgive old companies more readily than new ones, even when age has no bearing on whether the accusation is true. \"Established 1887\" is a persuasion cue, not evidence of good conduct.",
+      "caveats": "Online experiment with a fictional brand and hypothetical news article rather than a real scandal; single country (Netherlands); measures emotions and cognitions, not actual purchasing; heritage perceptions were measured rather than fully manipulated.",
+      "journal": "International Journal of Strategic Communication",
+      "published": "2026-09-24",
+      "doi": "10.1080/1553118x.2026.2733124",
+      "paper_title": "The Heritage Heuristic: Strategic Benefits of Organizational Heritage Communication in Managing Negative Publicity",
+      "source_id": "S136172864"
+    },
+    {
+      "work_id": "W4414312759",
+      "headline": "Half-leaving a sanctioned market may be worse for your reputation than staying put is good for it",
+      "the_study": "Across four studies combining longitudinal secondary data with experiments, researchers tested how consumers in a firm's home country judge companies that respond to economic sanctions by exiting a sanctioned market fully, exiting partially, or staying. Full exit drew the most positive legitimacy judgments and support; partial exit and no exit fared worse. Individual differences — susceptibility to normative influence, cognitive empathy, individualism, and ethical views about sanctions themselves — shaped how harshly consumers judged.",
+      "why_it_matters": "Companies facing geopolitical pressure often choose a middle path — scaling back, pausing investment, keeping \"essential\" operations — and this evidence suggests that hedge buys little moral credit with the home audience.",
+      "story_angle_primary": "For multinationals, the finding reframes exit decisions as reputation decisions with a nonlinear payoff: half-measures may deliver the operational cost of leaving without the legitimacy benefit. Worth testing with your own customer base, since the research also shows judgments vary sharply by consumer values rather than applying uniformly.",
+      "story_angle_secondary": "Consumers have become de facto enforcers of foreign policy, and the research shows they read corporate ambiguity as evasion. It also shows that whether you punish a company depends heavily on whether you believe sanctions are ethical in the first place.",
+      "caveats": "Experimental components likely rely on scenarios and stated support rather than observed purchases; home-country consumer framing may not generalize across markets; details of samples and sample sizes are limited in the abstract.",
+      "journal": "International Marketing Review",
+      "published": "2026-08-11",
+      "doi": "10.1108/imr-10-2025-0502",
+      "paper_title": "Moral legitimacy and market exit strategies: how home-country consumers evaluate firm responses to economic sanctions",
+      "source_id": "S35673206"
+    },
+    {
+      "work_id": "W7203759226",
+      "headline": "Why crisis playbooks break down in practice: lawyers, nervous clients and the clock",
+      "the_study": "Through semi-structured interviews with senior public relations consultants in Johannesburg, South Africa, researchers examined how practitioners actually use the \"base responses\" prescribed by Situational Crisis Communication Theory — instructing information (what to do to stay safe) and adjusting information (expressions of concern and corrective action). Consultants endorsed these responses as ethically essential but calibrated tone by crisis type: guidance and reassurance for victim crises, regret for accidents, explicit apology and correction for preventable ones. Crucially, deviations from textbook sequencing were usually driven by legal counsel, client risk aversion and media pressure rather than practitioner ignorance.",
+      "why_it_matters": "It locates the real bottleneck in crisis response not in knowing the right message but in the organizational politics — especially legal review — that delay or dilute it.",
+      "story_angle_primary": "The actionable question for communications leaders is governance, not theory: who has sign-off authority in the first hour, and how is the legal-versus-communications tradeoff resolved in advance? This also offers a rare practitioner view from the Global South, where many crisis frameworks developed in the US and Europe are applied untested.",
+      "story_angle_secondary": "When a company's first statement after a disaster sounds stilted and evasive, it is often because lawyers edited it — not because nobody thought to say sorry.",
+      "caveats": "Small qualitative interview study in a single city and country; captures practitioner beliefs and self-reports rather than measured crisis outcomes; no sample size given in the abstract.",
+      "journal": "Journal of Communication Management",
+      "published": "2026-08-19",
+      "doi": "10.1108/jcom-12-2025-0336",
+      "paper_title": "Re-centring base responses in crisis communication: South African PR consultants' interpretations of instructing and adjusting information",
+      "source_id": "S10496491"
+    },
+    {
+      "work_id": "W7220403023",
+      "headline": "India's bidi industry borrowed Big Tobacco's playbook — including the charity photo-ops",
+      "the_study": "Researchers interviewed 200 bidi rollers (workers who hand-roll India's dominant smoked tobacco product) plus 17 key stakeholders — middlemen known as munshis, community and youth club representatives, and labor union leaders — across Murshidabad in West Bengal and Jabalpur/Narsinghpur in Madhya Pradesh, using trusted community insiders to gain access. Thematic analysis found that bidi companies run image-building corporate social responsibility programs that mirror multinational cigarette company tactics, while median wages ran at just 38–53% of government-mandated rates. The study also documented provident fund fraud, false worker registration, unjustified product rejections that feed untaxed illicit trade, and entrenched child labor in West Bengal.",
+      "why_it_matters": "It is a documented case of CSR functioning as reputational cover rather than social investment, in an industry that accounts for 85% of smoked tobacco in India — a reminder that good-works communications are increasingly being audited against supply-chain reality.",
+      "story_angle_primary": "A cautionary case on the reputational half-life of CSR: when community-giving programs sit atop verifiable wage and labor violations, the giving itself becomes the evidence used against the company. Brands with exposure to informal, contractor-mediated labor should ask whether their social-impact storytelling could survive a field study of the people at the bottom of the chain.",
+      "story_angle_secondary": "The charitable activity a company advertises and the conditions of the people who make its product can be two completely separate operations — here, workers earning roughly half the legal minimum wage were employed by firms publicizing community good deeds.",
+      "caveats": "Qualitative interview study in two districts of a single country; findings reflect worker and stakeholder accounts rather than audited company records; no comparison group of non-bidi employers.",
+      "journal": "Tobacco Control",
+      "published": "2026-10-05",
+      "doi": "10.1136/tc-2025-059812",
+      "paper_title": "Understanding bidi industry from the lenses of bidi workforce: an exploratory study",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7214777517",
+      "headline": "Not all opposition is persuadable: eight 'ethical personas' behind community resistance to offshore wind",
+      "the_study": "A three-stage study analyzed 3,215 public submissions and 4,134 Facebook and Reddit comments about offshore wind projects, coding attitudes and cognitive biases, then built and validated eight community personas through two participatory roundtables. The researchers found that community responses are organized by moral orientation — utilitarian cost-benefit reasoning among supporters, biocultural and justice-based ethics among the persuadable, and populist institutional distrust among the resistant. Critically, persuadable opponents showed 'calibrated negativity' with implicit paths to resolution, while resistant opponents showed 'totalizing negativity' in which counter-evidence is reinterpreted as further proof of deception. The authors also identify 'proxy framing' — people deploying whatever arguments are available as stand-ins for identity-based resistance.",
+      "why_it_matters": "It gives communicators a diagnostic for distinguishing audiences whose objections can be answered from audiences for whom more facts actively deepen distrust — and argues resources aimed at the latter are better spent upstream in the media ecosystem than in direct engagement.",
+      "story_angle_primary": "The 'information deficit' assumption is the default in corporate and public-affairs communication, and this work suggests it misallocates budget. Test segmenting stakeholder audiences by moral orientation rather than demographics or stated attitude, and build a triage rule for when more evidence helps versus backfires — treating the reachability spectrum as a hypothesis to validate in your own category, not a settled model.",
+      "story_angle_secondary": "The argument someone makes against a project may not be the real reason they oppose it — 'proxy framing' means stated objections about birds, views or property values can be stand-ins for a deeper identity-level resistance, which explains why debunking rarely changes minds.",
+      "caveats": "Based on public submissions and social media comments, which skew toward the vocal and engaged rather than the general population; persona framework is interpretive coding validated by expert roundtables rather than tested against behavioral outcomes; single infrastructure category and jurisdiction.",
+      "journal": "Journal of Social Marketing",
+      "published": "2026-09-29",
+      "doi": "10.1108/jsocm-06-2026-0237",
+      "paper_title": "Ethical persona segmentation for offshore wind social marketing: a community engagement framework",
+      "source_id": "S2764583656"
+    },
+    {
+      "work_id": "W7214712049",
+      "headline": "Wine and weed: German drinkers who use cannabis often use both at once — and motive predicts which",
+      "the_study": "An online survey of 523 German wine drinkers under 60, including 215 cannabis consumers, used logistic regression to model whether people consume wine and cannabis together or keep them separate. Frequent cannabis users were more likely to combine the two, suggesting complementarity rather than substitution; wine consumption frequency on its own predicted nothing. People who drank wine for socializing and enhancement but used cannabis for socializing and coping were more likely to keep the two occasions apart.",
+      "why_it_matters": "As cannabis legalizes across Europe and youth alcohol consumption declines, the wine industry has treated cannabis mainly as a competitive threat; this suggests the relationship is more complementary than substitutive, and that occasion motive — not category — is the useful segmentation variable.",
+      "story_angle_primary": "If motive rather than product drives occasion, the alcohol industry's segmentation may be built on the wrong axis. The authors suggest THC-infused products for social and enhancement occasions and CBD products for solitary coping occasions — a hypothesis worth testing in markets where such products are already legal, before assuming cannabis is purely cannibalistic.",
+      "story_angle_secondary": "A useful lens on your own habits: the reason you reach for a drink — to be social, to feel good, to cope — predicts more about your consumption patterns than how much you drink.",
+      "caveats": "Cross-sectional online survey in a single country (Germany), so no causal inference; self-reported consumption frequency and motives rather than observed behavior; the product recommendations (THC and CBD wines) are the authors' extrapolation, not something tested; subsample of cannabis users is modest (N=215).",
+      "journal": "British Food Journal",
+      "published": "2026-09-29",
+      "doi": "10.1108/bfj-10-2025-1455",
+      "paper_title": "Drivers of simultaneous use of wine and cannabis among German wine consumers",
+      "source_id": "S99313352"
+    },
+    {
+      "work_id": "W7214428578",
+      "headline": "Why free pads don't get used: stigma, not access, is regulating the menstrual products market",
+      "the_study": "Twenty-five in-depth interviews with Indian women aged 18–45 — students, working professionals and homemakers — plus a validation focus group with gynecologists, an NGO representative, a menstrual product specialist and policymakers, examined how cultural taboos shape product choice, willingness to try alternatives, and disposal. Five themes emerged: silence as negative socialization, affordability as a moral economy, stigma as informal market regulation, experimentation as identity risk, and disposal as 'the afterlife of taboo.' Together they describe a cycle in which stigma narrows choice, deters trial of alternatives such as cups and reusables, and undermines sustainable disposal.",
+      "why_it_matters": "It explains a persistent failure pattern in both social marketing and commercial category entry: distribution and price interventions underperform when the social cost of being seen using a product is the real barrier.",
+      "story_angle_primary": "A reframing of trial barriers that generalizes beyond this category: when switching carries social or identity risk, awareness campaigns and price promotions won't move adoption. Consider whether your category's low trial rate is an information problem or a visibility problem, and whether normalizing public conversation is the actual job of the campaign.",
+      "story_angle_secondary": "The finding that product disposal is shaped by taboo as much as purchase is a reminder of how much of everyday consumption is governed by what we think others will see — and why sustainable alternatives struggle in categories people prefer not to discuss.",
+      "caveats": "Small interpretive qualitative study (25 interviews) in a single country with strong privacy norms; findings are thematic interpretation, not measured effects on behavior; no quantification of how widely the patterns hold.",
+      "journal": "Social Marketing Quarterly",
+      "published": "2026-09-26",
+      "doi": "10.1177/15245004261489970",
+      "paper_title": "Concealment and Consumption: Rethinking Menstrual Products Through Social Marketing",
+      "source_id": "S182227784"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7215933723",
+      "headline": "The promotion that offers no discount — and still moves product",
+      "verdict": "minor",
+      "notes": "Design, N (22,084 books, nine years) and mechanism all match. Two small liberties: \"authors and publishers\" for the abstract's \"brands\", and an invented \"20% off\" equivalence in the consumer angle.",
+      "issues": [
+        {
+          "label": "Unsupported effect-size comparison",
+          "severity": "Moderate",
+          "as_written": "a well-framed appeal to \"people like us\" can be as motivating as 20% off",
+          "abstract_says": "Symbolic promotions ... create value by reinforcing consumers' social identity through shared group membership rather than by providing economic incentives ... generates a substantial increase in sales",
+          "problem": "The abstract never benchmarks the symbolic promotion against a monetary discount of any size; the \"20% off\" equivalence is invented and reads as a reported effect size.",
+          "suggested_fix": "Drop the number: \"a well-framed appeal to 'people like us' can motivate purchase without any price cut at all.\""
+        },
+        {
+          "label": "\"Brands\" rendered as \"authors and publishers\"",
+          "severity": "Minor",
+          "as_written": "with bigger gains for lesser-known authors and publishers than for established names",
+          "abstract_says": "with stronger effects for lesser-known brands than for well-known brands",
+          "problem": "The abstract says \"brands\"; whether the brand unit was author, publisher or both is not stated.",
+          "suggested_fix": "Write \"bigger gains for lesser-known brands than well-known ones (the abstract does not specify author vs. publisher).\""
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7213930759",
+      "headline": "A profession that is majority women — and still hands authority to men's norms",
+      "verdict": "minor",
+      "notes": "Substance of the findings (symbolic burden, gendered recalibration, ambivalent agency, organization-level remedy) matches closely. The interview method and single-researcher attribution are not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Method stated as interviews",
+          "severity": "Minor",
+          "as_written": "the researcher interviewed senior women leaders in India's public relations and corporate communication sector",
+          "abstract_says": "This study examines the lived experiences of senior women leaders in India's Public Relations and Corporate Communication sector ... Using a Foucauldian discursive framework, it analyses how organizational norms, societal expectations, and postfeminist and neoliberal narratives shape leadership subjectivities.",
+          "problem": "The abstract does not specify interviews as the data-collection method, nor that there was a single author. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"a qualitative study of the lived experiences of senior women leaders\" unless the method is confirmed in the full text."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7202171291",
+      "headline": "Residents are branding your city whether you invite them to or not",
+      "verdict": "minor",
+      "notes": "Samples, cities, dimensions, archetypes and resident roles all reproduced correctly, and the resident–municipality limitation is carried into Caveats. The \"most brand meaning\" claim in Why it matters goes beyond the abstract.",
+      "issues": [
+        {
+          "label": "Quantitative claim attributed to an interpretive study",
+          "severity": "Moderate",
+          "as_written": "while the study argues that most brand meaning is generated by residents going about ordinary life",
+          "abstract_says": "highlighting how even unintentional actions contribute to brand meaning",
+          "problem": "The study is qualitative and makes no claim about the share of brand meaning produced by unplanned resident activity; \"most\" implies a proportion that was never measured.",
+          "suggested_fix": "Rewrite as \"while the study argues that even unplanned, passive resident activity contributes to brand meaning.\""
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7205004055",
+      "headline": "AI training didn't move the needle — but boss-level backing did",
+      "verdict": "accurate",
+      "notes": "N=234 UAE professionals, hierarchical regression, organizational AI support as sole significant predictor, null training difference and the self-report/cross-sectional limitations are all faithfully reported, and the correlational framing is stated explicitly.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7213244866",
+      "headline": "Compliance programs barely work on their own — leaders have to be seen living them",
+      "verdict": "minor",
+      "notes": "N=752, four countries, five industries, R2=0.361, the 71% mediation and the clan/adhocracy vs. hierarchy moderation are all correct; outcome correctly described as intentions. One unverifiable detail about industry coverage.",
+      "issues": [
+        {
+          "label": "Financial services listed among the five industries",
+          "severity": "Minor",
+          "as_written": "Researchers surveyed 752 employees across four countries and five industries, including financial services",
+          "abstract_says": "Survey data from 752 employees across four countries and five industries ... particularly within highly regulated sectors such as financial services",
+          "problem": "The abstract names financial services only in the practical implications; it does not confirm that financial services was one of the five sampled industries. Unverifiable from abstract only.",
+          "suggested_fix": "Drop \"including financial services\" or note that the authors discuss implications for financial services without the abstract confirming the industry list."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7213310447",
+      "headline": "The PR manager's job is quietly becoming 'ethical advisor to the machine'",
+      "verdict": "accurate",
+      "notes": "In-depth interviews with U.S. practitioners, the hybrid human-machine role, the expanded ethical advisor function and the new role framework are all reported as stated, with appropriate hedging that these are practitioner accounts.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7214178032",
+      "headline": "A brand's age may be a reputational airbag when scandal hits",
+      "verdict": "accurate",
+      "notes": "Preregistered experiment, N=600 representative Dutch sample, fictional brand with varying founding years, half exposed to the negative article, authenticity as mediator, and the measured-not-manipulated heritage caveat are all correct and appropriately hedged.",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "work_id": "W4414312759",
+      "headline": "Half-leaving a sanctioned market may be worse for your reputation than staying put is good for it",
+      "verdict": "significant",
+      "notes": "Four studies, methods mix, full-exit advantage and the four individual-difference moderators are correct, but the headline asserts a partial-vs-no-exit ranking the abstract does not report, and one consumer angle adds a mechanism not in the abstract.",
+      "issues": [
+        {
+          "label": "Headline asserts an unreported ranking",
+          "severity": "Moderate",
+          "as_written": "Half-leaving a sanctioned market may be worse for your reputation than staying put is good for it",
+          "abstract_says": "home-country consumers react more positively to firms that pursue full exit from a sanctioned market than to those that adopt partial or no exit strategies",
+          "problem": "The abstract groups partial and no exit together as inferior to full exit; it does not say partial exit is judged worse than no exit. The headline invites the opposite operational conclusion (that staying beats hedging).",
+          "suggested_fix": "Reframe as \"Full exit from a sanctioned market wins more consumer goodwill at home than half-measures — or staying.\""
+        },
+        {
+          "label": "Mechanism not in the abstract",
+          "severity": "Minor",
+          "as_written": "the research shows they read corporate ambiguity as evasion",
+          "abstract_says": "we find that home-country consumers react more positively to firms that pursue full exit ... Individual-level differences in susceptibility to normative influence, cognitive empathy, individualism, and ethical views on the use of sanctions shape these evaluations.",
+          "problem": "No interpretive mechanism such as \"ambiguity read as evasion\" is reported in the abstract; it is the digest's inference.",
+          "suggested_fix": "Say \"consumers reward a clean break more than a partial withdrawal\" without asserting the underlying interpretation."
+        },
+        {
+          "label": "Strength of moderation overstated",
+          "severity": "Minor",
+          "as_written": "the research also shows judgments vary sharply by consumer values",
+          "abstract_says": "Individual-level differences in susceptibility to normative influence, cognitive empathy, individualism, and ethical views on the use of sanctions shape these evaluations.",
+          "problem": "\"Shape\" is reported without magnitude; \"vary sharply\" adds an effect-size claim the abstract does not support.",
+          "suggested_fix": "Use \"judgments vary with consumer values.\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7203759226",
+      "headline": "Why crisis playbooks break down in practice: lawyers, nervous clients and the clock",
+      "verdict": "minor",
+      "notes": "Method, location, crisis-type calibration and the structural-constraint finding are all correctly conveyed; the digest firms up the abstract's hedged \"may result from\" into a stated cause.",
+      "issues": [
+        {
+          "label": "Hedge removed from the key finding",
+          "severity": "Minor",
+          "as_written": "Crucially, deviations from textbook sequencing were usually driven by legal counsel, client risk aversion and media pressure rather than practitioner ignorance.",
+          "abstract_says": "Legal advice, client risk aversion and media pressures frequently disrupt ideal sequencing, suggesting that deviations from SCCT prescriptions may result from structural constraints rather than practitioner neglect.",
+          "problem": "The abstract offers this as a suggestion from interpretive interview data (\"may result from\"); \"were usually driven by\" states it as an established frequency.",
+          "suggested_fix": "Write \"deviations from textbook sequencing appeared to stem from legal counsel, client risk aversion and media pressure rather than practitioner ignorance.\""
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7220403023",
+      "headline": "India's bidi industry borrowed Big Tobacco's playbook — including the charity photo-ops",
+      "verdict": "accurate",
+      "notes": "Participant counts (200 rollers, 17 stakeholders), sites, community 'champions', the 38–53% wage figure, the five themes and the 85% share of smoked tobacco all match the abstract; caveats appropriately note the qualitative, two-site design.",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "work_id": "W7214777517",
+      "headline": "Not all opposition is persuadable: eight 'ethical personas' behind community resistance to offshore wind",
+      "verdict": "minor",
+      "notes": "Corpus sizes, method stages, persona count and the upstream-resources recommendation all match the abstract. Two small slips: the roundtables are described as expert validation when the abstract says participatory stakeholder validation, and the caveat's \"single jurisdiction\" is not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Roundtables characterized as expert panels",
+          "severity": "Minor",
+          "as_written": "persona framework is interpretive coding validated by expert roundtables rather than tested against behavioral outcomes",
+          "abstract_says": "Eight empirically grounded personas were developed and validated through two participatory roundtables... a replicable, multi-method persona development methodology that combines corpus appraisal analysis with participatory stakeholder validation.",
+          "problem": "The abstract describes participatory stakeholder roundtables, which may include community members and practitioners, not an expert panel specifically.",
+          "suggested_fix": "Change \"expert roundtables\" to \"two participatory stakeholder roundtables\"."
+        },
+        {
+          "label": "Jurisdiction claim not in abstract",
+          "severity": "Minor",
+          "as_written": "single infrastructure category and jurisdiction",
+          "abstract_says": "The abstract names offshore wind as the context but does not identify a country or jurisdiction for the submissions and social media data.",
+          "problem": "Unverifiable from abstract only; the abstract never states the jurisdiction studied.",
+          "suggested_fix": "Say \"single infrastructure category; jurisdiction not specified in the abstract\" or drop the jurisdiction reference."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7214712049",
+      "headline": "Wine and weed: German drinkers who use cannabis often use both at once — and motive predicts which",
+      "verdict": "minor",
+      "notes": "Sample (523 responses, 215 cannabis consumers, wine drinkers under 60), logistic regression, the complementarity result, the null for wine frequency and the motive-based separation finding all match. One small over-generalization in \"Why it matters\": the abstract limits complementarity to frequent cannabis users.",
+      "issues": [
+        {
+          "label": "Complementarity generalized beyond cannabis users",
+          "severity": "Minor",
+          "as_written": "this suggests the relationship is more complementary than substitutive, and that occasion motive — not category — is the useful segmentation variable",
+          "abstract_says": "Individuals consuming cannabis frequently tend to use both substances together, indicating complementarity for cannabis users. However, wine consumption frequency alone does not determine simultaneous or separate cannabis use.",
+          "problem": "The abstract restricts the complementarity conclusion to frequent cannabis users within a sample of wine drinkers; stating the relationship is complementary in general goes slightly further than the data reported.",
+          "suggested_fix": "Qualify as \"among frequent cannabis users, the relationship looks complementary rather than substitutive\"."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7214428578",
+      "headline": "Why free pads don't get used: stigma, not access, is regulating the menstrual products market",
+      "verdict": "minor",
+      "notes": "Method (25 interviews with Indian women 18–45, expert validation focus group) and the five themes are reported accurately. The headline invents a \"free pads\" scenario the abstract never mentions, and one story angle claims the finding generalizes beyond the category and asserts price promotions \"won't move adoption\" — stronger than a 25-interview interpretive study supports, and in tension with the abstract's own affordability/subsidy recommendation.",
+      "issues": [
+        {
+          "label": "\"Free pads\" framing not in the study",
+          "severity": "Minor",
+          "as_written": "Why free pads don't get used: stigma, not access, is regulating the menstrual products market",
+          "abstract_says": "This study highlights why showing that access alone does not translate into adoption when cultural meanings and social expectations remain unaddressed.",
+          "problem": "The abstract makes a general point that access alone is insufficient; it says nothing about free-distribution programs or unused free pads.",
+          "suggested_fix": "Reframe to \"Why access alone doesn't drive adoption: stigma as informal market regulation\"."
+        },
+        {
+          "label": "Over-generalization of a 25-interview qualitative study",
+          "severity": "Moderate",
+          "as_written": "A reframing of trial barriers that generalizes beyond this category: when switching carries social or identity risk, awareness campaigns and price promotions won't move adoption.",
+          "abstract_says": "An interpretive qualitative approach ... twenty-five in-depth interviews with women aged 18–45 ... in India ... At the upstream level, policy measures should address affordability through subsidies.",
+          "problem": "The abstract offers an interpretive, India-specific account and still recommends affordability measures; claiming the pattern generalizes to other categories and that price promotions \"won't move adoption\" overstates what the study tested.",
+          "suggested_fix": "Soften to \"a possible reframing of trial barriers worth testing elsewhere: where use is socially visible, awareness and price alone may not be enough — the authors still recommend affordability measures alongside normalisation\"."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 13,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7215933723": {
+        "query": "promotion offers discount still moves product",
+        "returned": 15,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213930759": {
+        "query": "profession majority women still hands authority men norms",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202171291": {
+        "query": "Residents branding city whether invite them not",
+        "returned": 8,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7205004055": {
+        "query": "training didn move needle but boss level backing did",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213244866": {
+        "query": "Compliance programs barely work their own leaders have seen living",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213310447": {
+        "query": "manager job quietly becoming ethical advisor machine",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214178032": {
+        "query": "brand age reputational airbag scandal hits",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W4414312759": {
+        "query": "Half leaving sanctioned market worse reputation than staying put good",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203759226": {
+        "query": "crisis playbooks break down practice lawyers nervous clients clock",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220403023": {
+        "query": "India bidi industry borrowed Big Tobacco playbook including charity photo",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214777517": {
+        "query": "Not all opposition persuadable eight ethical personas behind community resistance",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214712049": {
+        "query": "Wine weed German drinkers who use cannabis often use both",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214428578": {
+        "query": "free pads don get used stigma not access regulating menstrual",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** Five studies in this batch, from very different corners of the field, converge on the same uncomfortable finding: the formal apparatus an organization builds to prove it behaves well is a poor predictor of whether it actually does. Compliance culture only reaches employees through visible leader behavior — leadership compliance mediated 71% of the effect of formal governance on whistleblowing intentions (\"Compliance programs barely work on their own,\" W7213244866); AI training made no detectable difference to communication effectiveness while organizational AI support did (\"AI training didn't move the needle,\" W7205004055); crisis playbooks are diluted in practice by legal counsel and client nerves rather than by ignorance (\"Why crisis playbooks break down in practice,\" W7203759226); headcount parity in a women-majority profession coexists with norms that still withhold authority (\"A profession that is majority women,\" W7213930759); and CSR programs sit directly on top of wages at 38–53% of the legal minimum (\"India's bidi industry borrowed Big Tobacco's playbook,\" W7220403023).\n\n**Why pitch this now:** Corporate affairs budgets are being poured simultaneously into AI governance, supply-chain due-diligence reporting, and refreshed codes of conduct — at exactly the moment when external auditing of those claims, by regulators, researchers, and journalists, is getting cheaper and more granular than the claims themselves.\n\n**Angle:** A feature on the widening gap between the documented organization and the observed one — written for communications, compliance, and corporate affairs leaders who are being asked to show evidence of culture rather than evidence of paperwork, with a secondary read for anyone who has sat through a training module that changed nothing.\n\n**Potential headlines:**\n- The Paperwork of Good Conduct Rarely Changes Behavior\n- Your AI Training Made No Difference. Your AI Policy Did.\n- When the Scandal Breaks, No One Will Care That You Had a Program\n\n**Potential outlets:**\n- **PRWeek** — the crisis-governance finding (who holds first-hour sign-off, and how legal review dilutes the response) is a live operational argument for its in-house comms readership.\n- **MIT Sloan Management Review** — built for exactly this kind of multi-study management claim about mediation, culture types, and why institutional support beats individual upskilling.\n- **Raconteur** — its governance, risk, and responsible-business reports pair naturally with the compliance-culture and supply-chain CSR evidence.\n- **Fortune** — covers corporate accountability and ESG credibility for a senior business audience that will recognize the \"program exists, behavior didn't change\" problem.",
+    "pitch_ideas": "- **The promotion that offers no discount — and still moves product (Work ID W7215933723):** Nine years of book sales data showing an identity-based buying day lifted sales most for unknown authors — a discount-free promotion mechanic, for a marketing-trade feature or a CMO-audience column on breaking price-promotion dependency.\n- **A profession that is majority women — and still hands authority to men's norms (Work ID W7213930759):** Why counting women in comms teams is the wrong diversity metric, and what to measure instead (who chairs the crisis room, who owns the client), for a PR-trade analysis piece or a workplace column.\n- **Residents are branding your city whether you invite them to or not (Work ID W7202171291):** Place-brand budgets fund workshops and hashtags while residents' ordinary lives do the actual meaning-making — for a place-marketing or local-government trade explainer, or a city-desk piece on council rebrands.\n- **AI training didn't move the needle — but boss-level backing did (Work ID W7205004055):** In this sample, whether someone had AI training predicted nothing about their effectiveness; governance and leadership sponsorship did — for a marketing-trade news brief or a future-of-work column skeptical of the \"just learn AI\" advice.\n- **Compliance programs barely work on their own (Work ID W7213244866):** Hotlines and codes mostly influence whistleblowing indirectly, through whether leaders are seen living them — for a risk-and-compliance trade explainer or a banking/financial-services business section.\n- **The PR manager's job is quietly becoming 'ethical advisor to the machine' (Work ID W7213310447):** The manager/technician split is collapsing into a judgment-and-accountability role — a concrete look at how AI reshapes rather than deletes one white-collar job, for a PR-trade career piece or a general-interest work-and-technology feature.\n- **A brand's age may be a reputational airbag when scandal hits (Work ID W7214178032):** A preregistered experiment suggesting \"Established 1887\" buys forgiveness unrelated to the accusation — for a consumer-psychology explainer in a general-interest outlet, or a brand-strategy column on heritage as crisis insurance.\n- **Half-leaving a sanctioned market may be worse than staying (Work ID W4414312759):** Partial exits take the operational hit without the legitimacy payoff, and judgments split on whether consumers think sanctions are ethical at all — for a business/geopolitics column or an international-business trade analysis.\n- **Why crisis playbooks break down in practice (Work ID W7203759226):** Practitioners know the right first response and are overruled by lawyers and nervous clients — plus a rare Global South practitioner view — for a PR-trade piece on crisis sign-off authority.\n- **India's bidi industry borrowed Big Tobacco's playbook (Work ID W7220403023):** CSR photo-ops running above wages at roughly half the legal minimum, child labor, and provident fund fraud — for an investigative business or global-health feature, or a trade piece on the reputational half-life of social-impact storytelling.\n- **Not all opposition is persuadable (Work ID W7214777517):** Eight personas separating opponents whose objections can be answered from those for whom more evidence deepens distrust, plus \"proxy framing\" — for a public-affairs/energy-transition trade explainer or a general-interest piece on why debunking fails.\n- **Wine and weed (Work ID W7214712049):** Cannabis looks complementary to wine rather than substitutive among German drinkers, and occasion motive predicts which — for a drinks-trade news analysis or a consumer-trends piece on the \"sober-curious\" narrative.\n- **Why free pads don't get used (Work ID W7214428578):** Stigma, not price or distribution, is regulating this market and blocking trial of reusables — a transferable lesson on visibility risk versus information gaps, for a social-marketing trade piece or a general-interest consumer-behavior explainer."
+  }
+}
