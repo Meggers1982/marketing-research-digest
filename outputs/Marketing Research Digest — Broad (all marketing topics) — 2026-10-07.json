@@ -1,0 +1,633 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-07",
+  "days_back": 60,
+  "window_from": "2026-08-08",
+  "window_to": "2026-10-07",
+  "focus": "Broad (all marketing topics)",
+  "topic": "",
+  "query": "",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 2153,
+    "not_research": 112,
+    "no_abstract": 446,
+    "off_topic": 165,
+    "already_covered": 299,
+    "over_journal_cap": 49,
+    "over_cap": 1042,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7214276420",
+      "headline": "The thank-you note that costs you money — and the one that makes you money",
+      "the_study": "Researchers ran a field experiment with 35,077 prior donors to a major Indian charity, randomly assigning thank-you letters that either included a direct call to action (an explicit ask to give again) or were otherwise identical without one. Overall response was low (0.69% gave), but the effect of the call to action depended entirely on where the donor was in their giving cycle: among those who had not yet given in the current cycle, the ask significantly raised donation amounts, while among those who had already given, estimates pointed to lower giving. Aggregate results masked these two opposing effects.",
+      "why_it_matters": "A single, already-available data field — whether the donor has given yet this cycle — determines whether an ask in a gratitude message adds revenue or destroys it, and averaging across all donors hides that entirely.",
+      "story_angle_primary": "Fundraisers and CRM teams should test splitting thank-you messaging by recency rather than running one template: this real-world experiment suggests the same creative can lift one segment and depress another, which means A/B tests reported only in aggregate may be systematically misleading. The broader lesson travels beyond charity to any repeat-purchase or renewal communication.",
+      "story_angle_secondary": "It gives a name to a familiar irritation: being asked for money again moments after you just gave. The data suggests donors have an internal sense of appropriate cadence, and organizations that violate it pay for the intrusion.",
+      "caveats": "A single charity in a single country (India) using direct mail; overall response rates were very low, and the drop among already-given donors was a point estimate within a significant interaction rather than a standalone effect.",
+      "journal": "Marketing Science",
+      "published": "2026-09-25",
+      "doi": "10.1287/mksc.2025.0394",
+      "paper_title": "Thank You, Now What? How Donors Respond to Calls to Action",
+      "source_id": "S163534328"
+    },
+    {
+      "work_id": "W7219889147",
+      "headline": "Swap a vague word for a precise one and the product starts to feel one of a kind",
+      "the_study": "Across four experiments, researchers tested what happens when product descriptions use more precise words (terms sitting deeper in their semantic category and covering a narrower set of referents) instead of broader, more general ones. More precise wording consistently raised perceptions that the product was unique, and the authors trace the effect to categorical depth rather than to the words simply sounding more impressive. Perceived uniqueness in turn fed into attractiveness and purchase intention, most strongly among consumers with a high need for unique products.",
+      "why_it_matters": "It identifies a nearly costless copywriting lever — word choice at the lexical level — that shifts how differentiated a product seems, which matters most in crowded categories where every listing reads the same.",
+      "story_angle_primary": "Worth testing in live product pages, ad copy and packaging: replace generic category words with narrower, more specific ones and watch uniqueness-related metrics, especially for products targeted at customers who want to stand out. Because these are controlled experiments, treat it as a hypothesis for live testing rather than a guaranteed conversion lift.",
+      "story_angle_secondary": "A quiet reminder that the words on a label do work on you. 'Loafer' rather than 'shoe,' 'sauvignon blanc' rather than 'wine' — the specificity itself signals rarity, whether or not the product is actually rarer.",
+      "caveats": "Four controlled experiments rather than field data; outcomes are perceptions and behavioral intentions rather than observed purchases; sample details and country not specified in the abstract.",
+      "journal": "Journal of Consumer Psychology",
+      "published": "2026-10-04",
+      "doi": "10.1002/jcpy.70041",
+      "paper_title": "Signaling uniqueness: The psycholinguistic effect of language precision on product perceptions",
+      "source_id": "S163545350"
+    },
+    {
+      "work_id": "W7214201194",
+      "headline": "Why luxury logos feature panthers and eagles rather than rabbits",
+      "the_study": "Using seven studies — an exploratory study, an eye-tracking study and five controlled experiments — researchers tested how the type of animal in a luxury brand's logo shapes consumer response. Animals whose visual design conveys competence (think predators and powerful creatures) were preferred over those conveying warmth, and the effect ran through a heightened sense of perceived dominance in the consumer. The advantage disappeared when the brand's message used a cooperative rather than competitive appeal.",
+      "why_it_matters": "Logo imagery and ad copy interact: a competence-signaling animal mark only pays off when the surrounding message is framed competitively, which means visual identity and campaign tone need to be decided together rather than in separate briefs.",
+      "story_angle_primary": "For luxury and premium brands, this is a prompt to audit whether brand iconography and current campaign messaging are pulling in the same direction — the research suggests a mismatch neutralizes the logo's effect. As lab and eye-tracking work, it indicates a mechanism to test in market, not a rule to redesign around.",
+      "story_angle_secondary": "Luxury buying is partly about feeling powerful, and brands know it. The fierce animal on the bag isn't decoration — it's doing psychological work on the person carrying it.",
+      "caveats": "Experimental and eye-tracking studies rather than sales data; responses are likely stated preferences and intentions rather than real luxury purchases; sample composition and country not reported in the abstract.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-09-24",
+      "doi": "10.1108/ejm-07-2025-0615",
+      "paper_title": "When luxury brands roar: the effect of animal logo types on consumers’ luxury consumption",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7203919913",
+      "headline": "Why paying your friend back beats splitting the bill at the register",
+      "the_study": "Across eight preregistered experiments, researchers compared two ways of settling a shared expense — each person paying the vendor directly versus one person covering the total and the others reimbursing them. Indirect payment through another consumer consistently produced higher satisfaction with the purchase, whether the co-payer was a close friend, an acquaintance or someone the participant disliked, and whether or not the shares were equal. The mechanism was relief from clearing a social debt: the effect vanished when the financial obligation was made explicit, or when the focal person had fronted the money themselves.",
+      "why_it_matters": "Satisfaction with the same meal, ride or trip changes based purely on the plumbing of the payment — a lever restaurants, travel operators and payment apps can pull at essentially zero cost.",
+      "story_angle_primary": "Operators of group-consumption categories (restaurants, ride-hailing, travel, ticketing) could test whether nudging one person to pay the whole tab — with Venmo-style reimbursement afterward — lifts post-purchase satisfaction and repeat rates, instead of defaulting to split-the-check functionality. These are controlled experiments, so the next step is a live A/B test in a real checkout flow.",
+      "story_angle_secondary": "The dinner-table etiquette angle: paying your friend back later feels better than tapping your own card at the terminal, because the good feeling comes from discharging a social obligation, not from the meal. Worth knowing if you budget by what feels painless — the cheerful route can also be the one that obscures what you actually spent.",
+      "caveats": "Experimental studies, likely online panels, with scenario-based or lab-style shared expenses rather than observed real-world group spending; sample sizes and nationality not specified in the abstract.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-08-19",
+      "doi": "10.1093/jcr/ucag030",
+      "paper_title": "Whom You Pay Matters: How the Payment Path of Shared Expenses Affects Purchase Satisfaction",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7213274554",
+      "headline": "\"Up to 40% better\" or \"30–50% better\"? It depends on whether shoppers smell a sales pitch",
+      "the_study": "Six preregistered studies, including one field study, tested whether consumers prefer point estimates (a single performance number) or range estimates when comparing products. By default, shoppers preferred point estimates because a single figure conveys more certainty about what they will get. But once persuasion knowledge was activated — when people were primed to think about how a claim was being sold to them — the preference flipped: ranges signaled transparency about real-world variability, raised perceived trustworthiness, and won out. The effects faded when a product was evaluated alone rather than side by side.",
+      "why_it_matters": "Performance claims are everywhere — battery life, fuel economy, weight loss, skincare results — and this suggests the optimal format is not fixed but depends on how skeptical and comparison-minded the audience is at that moment.",
+      "story_angle_primary": "Brands could test claim format by context: crisp point numbers on comparison pages and spec sheets where shoppers are in evaluation mode and not yet guarded, honest ranges in environments where skepticism runs high (reviews-heavy categories, previously over-promised products, regulated claims). The inclusion of a field study makes this more actionable than the usual lab-only format research, but it is still one set of categories.",
+      "story_angle_secondary": "A consumer-literacy point: a single precise-sounding number feels more reassuring than a range, even though the range is usually the more honest description of what a product will actually do for you. Our instinct rewards false precision.",
+      "caveats": "Mostly online experiments with comparative purchase scenarios; one field study, scope and partner unspecified; sample sizes and countries not reported in the abstract.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-09-16",
+      "doi": "10.1177/00222437261490921",
+      "paper_title": "EXPRESS: When Consumers Prefer Point Versus Range Estimates of Product Performance",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7202044997",
+      "headline": "Doing both brand and customer management well pays off worse than picking one",
+      "the_study": "Researchers ran automated text analysis on more than 95,000 earnings conference call transcripts from over 1,800 firms across 22 years, supplemented by manual coding and secondary financial data, to measure how heavily firms emphasize brand management versus customer management. The two foci turned out to be statistically uncorrelated — firms are not systematically trading one off against the other, nor pairing them. Each had distinct effects on revenue- and cost-side performance, and strikingly, a dual emphasis on both was less financially attractive than concentrating on one.",
+      "why_it_matters": "It puts hard longitudinal evidence into a long-running strategy argument and suggests that \"we do both brand and CRM equally well\" may be a costlier position than committing to one as the organizing logic.",
+      "story_angle_primary": "CMOs can use this to pressure-test budget splits and board narratives: where is the firm genuinely emphasizing brand, where customer management, and is the straddle diluting returns? The moderating environmental factors matter too — the right focus appears to be contingent on market conditions, not universal.",
+      "story_angle_secondary": "A window into how companies really talk about marketing: what executives say on quarterly earnings calls is a measurable record of strategy, and that record shows wildly different philosophies behind brands consumers encounter every day.",
+      "caveats": "Observational data from earnings-call language, which proxies stated emphasis rather than actual internal spending or capability; causal interpretation is limited; US-listed public firms skew the sample.",
+      "journal": "Journal of Marketing",
+      "published": "2026-08-09",
+      "doi": "10.1177/00222429261478881",
+      "paper_title": "EXPRESS: Firms’ Focus on Brand and Customer Management: Measurement, Development, and Financial Consequences",
+      "source_id": "S142990027"
+    },
+    {
+      "work_id": "W7213768857",
+      "headline": "Heavy users of your free tier may be the hardest to convert — and overly habitual subscribers churn",
+      "the_study": "Four field studies within a live freemium subscription service examined how expected premium benefits, benefits experienced during trials, and habit formation drive conversion and retention. Habits built on the free version proved double-edged: they strengthened expectations of what premium would deliver, boosting conversion, but also locked users into free usage through sheer inertia. Habits formed during premium use generally supported conversion and long-term retention — except in discounted trials, where the relationship was inverse-U-shaped and the most intensely habitual users retained worse than moderate ones.",
+      "why_it_matters": "Freemium operators often treat free-tier engagement as an unambiguous conversion signal; this evidence says engagement can entrench people in free, and that discounted-trial power users are a churn risk rather than a sure thing.",
+      "story_angle_primary": "Subscription teams should segment by habit intensity, not just usage volume: test interventions that disrupt free-tier routine (feature gating, paywalled moments) for high-habit free users, and watch discount-trial heavy users as a distinct retention-risk cohort when the promotional price expires.",
+      "story_angle_secondary": "For consumers, it is a reminder that free tiers are engineered around routine — the more automatic your use becomes, the more the economics of the product are working on you, in both directions.",
+      "caveats": "Field studies within a single freemium service, so category and platform specificity limits generalization; the firm partner is not named in the abstract; observational field data means some relationships are correlational.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-09-21",
+      "doi": "10.1007/s11747-026-01205-w",
+      "paper_title": "Pathways to premium: How habits and benefits shape conversion and retention in freemium subscription models",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7203945013",
+      "headline": "Can a Model Tell You Which Slogan People Will Actually Remember?",
+      "the_study": "Researchers assembled the proposed drivers of slogan memorability from a systematic literature review, then measured them with natural language processing, human ratings, and features extracted from text embeddings. They built predictive models of two outcomes for real, existing slogans: whether people recognize the line, and whether it cues the correct brand. The models were then used to score candidate slogans for new brands, and to test how much of memorability the published literature still fails to capture — text embeddings picked up textual characteristics the academic factors miss.",
+      "why_it_matters": "Slogan selection is usually settled by creative judgment and small focus groups; this offers a cheap, scalable pre-test that scores dozens of candidate lines before any money is spent on media.",
+      "story_angle_primary": "Agencies and brand teams could pilot an automated memorability score as a first-pass filter on slogan shortlists, then validate the top candidates with conventional recall testing — worth checking whether the model's rankings line up with your own category's tracking data before trusting it.",
+      "story_angle_secondary": "The lines that lodge in your head are not random: measurable textual properties predict both whether you remember a slogan and whether you can name the brand behind it — and those are two different things. Plenty of famous slogans are remembered while the advertiser is forgotten.",
+      "caveats": "Predictive modeling on recognition and recall judgments rather than real-world ad exposure or sales; language and market coverage of the slogan set is not specified in the abstract; model performance on genuinely novel slogans is demonstrated but not validated against later market outcomes.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-08-21",
+      "doi": "10.1177/00222437261481110",
+      "paper_title": "EXPRESS: Predicting the Memorability of Brand Slogans",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7201850894",
+      "headline": "The Shoppers Who Can't Live With a Scratch — and Why They Keep Buying New",
+      "the_study": "Across four qualitative studies, scale-development work, and eight experiments, researchers defined and measured a consumer trait they call the desire for perfect products (DPP), captured in an eight-item scale. High-DPP consumers hold richer and more demanding ideals, revise those ideals upward when they see something better, and react strongly to even minor flaws. Behaviorally, they apply more and stricter search filters, prefer newer products even when objective quality is unchanged, and are less willing to keep, repair, or donate flawed but still usable items.",
+      "why_it_matters": "It identifies a measurable customer segment that drives both premium upgrade demand and avoidable product disposal — and offers a specific messaging fix: reframing a flaw as a source of uniqueness softened high-DPP consumers' negative reactions.",
+      "story_angle_primary": "Brands in refurbished, resale, repair, and open-box channels could test \"uniqueness\" framing on cosmetic imperfections rather than apologizing for them or discounting; retailers might also look at whether their most filter-heavy searchers are also their highest returners.",
+      "story_angle_secondary": "If you find yourself replacing things that still work because of a small blemish, this research names the trait — and shows the upgrade treadmill is partly self-inflicted, because seeing something better quietly raises the standard you hold everything else to.",
+      "caveats": "Eight experiments, mostly stimulus-based and likely online panel samples; the acquisition and disposal outcomes are experimental rather than observed in real households over time; intervention effects are short-horizon.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-08-22",
+      "doi": "10.1093/jcr/ucag034",
+      "paper_title": "The Desire for Perfect Products",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7204125043",
+      "headline": "Bundle a Mug With a Folding Chair: The Odd-Couple Pairing That Makes Stuff Feel Like an Experience",
+      "the_study": "Thirteen preregistered experiments tested how usage complementarity — how likely two products are to be used together — changes the way bundles are perceived. Bundling goods with moderate complementarity (a coffee mug and a folding chair) made consumers see the products as more experiential than bundling items with low or high complementarity, or than the same items sold separately. The mechanism was contextualization: a moderately related pair pushes people to imagine the setting where the items would be used rather than the items themselves, which raised purchase likelihood when shoppers were seeking an experience.",
+      "why_it_matters": "Experiences are consistently valued more highly than material goods, and this suggests retailers can borrow that halo for physical products simply by changing which items they pair, at essentially no cost.",
+      "story_angle_primary": "Merchandisers and e-commerce teams could A/B test \"moderately related\" bundles against the conventional tightly matched pairing (mug plus coffee beans) — especially in gifting, outdoor, and lifestyle categories where buyers are shopping for an occasion rather than a function.",
+      "story_angle_secondary": "A mismatched pair of objects makes your brain fill in the scene — the campsite, the morning on the porch — and you end up buying the daydream along with the merchandise.",
+      "caveats": "All findings come from preregistered experiments rather than retail field data; purchase likelihood is a stated measure, not actual sales; samples are likely online panels; the effect is category- and occasion-dependent.",
+      "journal": "Journal of Consumer Research",
+      "published": "2026-08-23",
+      "doi": "10.1093/jcr/ucag029",
+      "paper_title": "The Benefits of Bundling Material Goods with Moderate Usage Complementarity",
+      "source_id": "S145429826"
+    },
+    {
+      "work_id": "W7212292008",
+      "headline": "When Workers Unionize, Suppliers Quietly Tighten the Payment Terms",
+      "the_study": "Researchers analyzed 1,378 National Labor Relations Board union elections at 909 U.S. public firms between 1977 and 2021, using a regression discontinuity design around narrowly won and narrowly lost votes. Unionization cut the firm's access to trade credit from suppliers by 4.2 percentage points — about $220.4 million for the average firm in the sample — and fewer suppliers subsequently named the unionized firm as a major customer. Three pre-election signals (product-market scope, product-market fluidity, and prior sales growth) amplified or dampened the supplier response.",
+      "why_it_matters": "It documents a real, large, and largely invisible cost of labor events: the supply chain repricing a customer's credit risk, which hits working capital without ever appearing in a labor negotiation.",
+      "story_angle_primary": "Retail and consumer-goods executives facing organizing campaigns should treat supplier communication as part of the response plan — the findings suggest suppliers read pre-existing signals about growth and market position when deciding how much credit risk to absorb.",
+      "story_angle_secondary": "Union votes are usually covered as a story about wages and workers, but the financial ripple runs through vendors who deliver goods now and get paid later — and who adjust long before anything shows up on a shelf.",
+      "caveats": "U.S. public firms only, observational data with a regression discontinuity identification strategy; covers a long historical window in which credit markets and union dynamics changed substantially; says nothing about whether the credit tightening is justified by actual default risk.",
+      "journal": "Journal of Retailing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.jretai.2026.09.001",
+      "paper_title": "Employee unionization at a customer firm lowers the trade credit it receives from suppliers",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7211972867",
+      "headline": "Who You Publish With Beats Where You Publish",
+      "the_study": "Researchers built a longitudinal database of 134,558 marketing scholars spanning 1960 to 2020 and compared two routes to influence: publishing in top-tier journals (\"universalist authority\") versus co-authoring with people who sit at the center of the discipline's collaboration network (\"social authority\"). Citations were more strongly associated with social authority than with top-tier placement. But social authority came with a \"ghetto effect\": in subfields where scholars mostly collaborate among themselves, higher social authority was linked to fewer citations for that subfield's collective output.",
+      "why_it_matters": "It quantifies something academics suspect but rarely measure — that network position outperforms journal prestige as a predictor of impact — with implications for how universities and journals evaluate researchers whose work informs marketing practice.",
+      "story_angle_primary": "Anyone who relies on academic marketing research — consultancies, insight teams, thought-leadership programs — should note that citation counts partly reflect who an author knows, and treat citation volume as a weaker quality signal than it looks.",
+      "story_angle_secondary": "The finding is a useful reminder that in almost any expert field, reputation is a social network effect as much as a merit ranking, and tight-knit communities can end up talking mainly to themselves.",
+      "caveats": "Correlational and observational — associations, not causal effects; single discipline (marketing) and a citation-based measure of impact that may not track real-world usefulness; network centrality and productivity are hard to disentangle.",
+      "journal": "International Journal of Research in Marketing",
+      "published": "2026-09-01",
+      "doi": "10.1016/j.ijresmar.2026.09.004",
+      "paper_title": "How scholars build universalist and social authority: uncovering citation outcomes for scholars and research fields",
+      "source_id": "S11810700"
+    },
+    {
+      "work_id": "W7210281977",
+      "headline": "\"2 hours and 59 minutes\" feels longer than \"3 hours\" — the hidden cost of adding a smaller time unit",
+      "the_study": "Across nine preregistered experiments plus observational data from an online course aggregator platform, researchers tested how time descriptions are phrased. Stating a duration or deadline with a larger unit plus a smaller one (\"2 hours and 59 minutes\", \"by 8 PM on June 30\") consistently made the time feel longer than the larger unit alone (\"3 hours\", \"by the end of day on June 30\"), because the extra unit pushes people to mentally break time into many small pieces. The effect held across date+hour, hour+minute and minute+second combinations and spilled over into course interest, judgments of how well a product works, goal setting, and trade-offs between time and money.",
+      "why_it_matters": "Delivery promises, service wait times, course lengths and treatment durations are written by someone making an arbitrary formatting choice — and that choice measurably shifts how long customers think they'll be waiting or working.",
+      "story_angle_primary": "An easy, cheap A/B test for any brand that quotes time: strip or add the second unit depending on whether you want the duration to feel short (a wait, a course commitment, a shipping window) or impressively long (how many hours a battery lasts, how long a treatment keeps working). The platform data suggest it can move real interest, but each category deserves its own test before rewriting every time field.",
+      "story_angle_secondary": "Your sense of how long something takes is partly a formatting artifact. The same wait feels longer written as \"1 hour and 45 minutes\" than as \"under 2 hours\" — useful to know when a quoted delivery or service window makes you balk.",
+      "caveats": "Most evidence comes from online experiments with hypothetical choices; the field component is a single course-aggregator platform in one category.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-09-06",
+      "doi": "10.1177/00222437261488297",
+      "paper_title": "EXPRESS: Every Minute Counts: The Added-Unit Effect In Time Perception",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7214088309",
+      "headline": "Livestream hosts sell more when they talk about touch, smell and taste — not what viewers can already see",
+      "the_study": "Researchers combined minute-level transaction data matched to livestream transcripts with two controlled experiments to test which sensory words move product. \"Near-sensory\" language (touch, smell, taste — senses a livestream cannot transmit) significantly raised minute-by-minute sales, while \"far-sensory\" language about sight and sound had no significant effect. The experiments traced the effect to viewers feeling the missing sensory gap was compensated and forming more vivid mental imagery, and found the advantage was strongest when buyers expected to use the product soon.",
+      "why_it_matters": "It gives livestream and short-video sellers a concrete scripting rule: describe what the camera can't deliver, since narrating the visible adds little.",
+      "story_angle_primary": "Audit host scripts and creator briefs for the ratio of texture/scent/taste words to visual ones, and test near-sensory phrasing in categories where touch and smell matter most. The sales evidence comes from one platform's streams, so treat it as a hypothesis to test in your own feed rather than a universal script.",
+      "story_angle_secondary": "A reason impulse buys happen during livestreams: hearing a host describe how something feels or smells makes your brain simulate the experience, which can feel a lot like having tried it.",
+      "caveats": "Single platform and likely a single national market; the field portion is correlational minute-level data, and the experiments measure purchase intention rather than purchases.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-23",
+      "doi": "10.1108/apjml-05-2026-1355",
+      "paper_title": "From seeing to sensing: how near- versus far-sensory language shapes consumer purchase responses in livestream commerce",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7214077911",
+      "headline": "Firms with cash to spare are the least responsive to their own environmental scorecards",
+      "the_study": "Using panel data on Chinese publicly listed firms, researchers examined how companies adjust green innovation after their environmental performance lands above or below their own aspiration levels. Green innovation followed a U-shape when performance fell short of aspirations and an inverted U-shape when it exceeded them — meaning both mild shortfalls and extreme success dampened effort. Organizational slack flattened both patterns, with resource-rich firms reacting least to either good or bad environmental feedback.",
+      "why_it_matters": "It suggests sustainability targets motivate action mainly at the extremes, and that well-cushioned firms can absorb poor environmental results without changing anything — a warning for anyone relying on internal scorecards to drive green progress.",
+      "story_angle_primary": "For sustainability and brand leaders: check whether your environmental KPIs are actually triggering investment, or whether comfortable financial buffers are letting the organization shrug off mediocre results. Consider pairing targets with explicit resource commitments rather than assuming feedback alone changes behavior.",
+      "story_angle_secondary": "A useful lens for reading corporate green claims: a company's environmental effort may track its slack resources and how far it is from its own goals more than any stated commitment to the planet.",
+      "caveats": "Observational panel data from publicly listed firms in a single country (China); associations cannot establish causation, and results may not generalize to private firms or other regulatory regimes.",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-23",
+      "doi": "10.1016/j.jbusres.2026.116561",
+      "paper_title": "Environmental performance feedback and green innovation: The moderating role of organizational slack",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7214240842",
+      "headline": "On Etsy, Talking Too Much About Handcraft Hurts Sales",
+      "the_study": "Researchers analyzed 17,480 seller narratives — the \"about\" and shop-story text sellers write — on Etsy, coding how heavily each emphasized craft cues (tradition, handmade care, attention to detail) versus industrial cues (efficiency, scale, production capability), and linked that language to market appeal. Both types of cues helped, but only up to a point: the relationship was an inverted U, so the most craft-saturated and the most industrial-sounding shops both underperformed sellers who struck a balance. Drawing on Language Expectancy Theory, the authors argue sellers must satisfy two audiences at once — buyers who expect artisanal authenticity and a platform environment that rewards signals of reliability and scalability.",
+      "why_it_matters": "It gives small sellers and craft brands a concrete, testable copy rule: authenticity language has diminishing and then negative returns, and refusing to sound \"commercial\" can cost you as much as sounding too commercial.",
+      "story_angle_primary": "Audit your brand storytelling for cue saturation rather than cue presence. If your product pages lean entirely on heritage-and-handmade language, this analysis of real marketplace listings suggests A/B testing a version that adds credible operational signals — consistency, fulfillment capability, production standards — and vice versa for sellers whose copy reads like a factory spec sheet.",
+      "story_angle_secondary": "The next time a shop's description piles on words like \"lovingly handcrafted in small batches,\" notice your own reaction — shoppers apparently discount narratives that protest their artisanship too much, and quietly reward sellers who also sound like they can actually ship the order.",
+      "caveats": "Observational data from a single platform (Etsy) and the craft category, so the inverted-U pattern is correlational rather than causal — successful sellers may write differently for reasons other than their language. \"Market appeal\" is a platform-derived measure, not verified revenue, and the findings may not generalize to other marketplaces or product types.",
+      "journal": "Marketing Letters",
+      "published": "2026-09-24",
+      "doi": "10.1007/s11002-026-09840-7",
+      "paper_title": "Words of making: how craft and industrial emphases impact market appeal in digital platforms",
+      "source_id": "S148909191"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7214276420",
+      "headline": "The thank-you note that costs you money — and the one that makes you money",
+      "verdict": "minor",
+      "notes": "Design, N, charity and 0.69% response all match. Two small overstatements: \"destroys it\" hardens a non-significant point estimate the caveat correctly hedges, and the cadence mechanism is the authors' theorizing, not a tested result.",
+      "issues": [
+        {
+          "label": "Point estimate framed as revenue destruction",
+          "severity": "Minor",
+          "as_written": "determines whether an ask in a gratitude message adds revenue or destroys it",
+          "abstract_says": "among donors who have already given, point estimates indicate lower giving. The CTA helps one segment but is associated with lower giving in the other",
+          "problem": "The abstract reports only directional point estimates for the already-given segment, and describes it as \"associated with\" lower giving. \"Destroys it\" asserts a demonstrated revenue loss, which the digest's own caveat then walks back.",
+          "suggested_fix": "Reword to \"adds revenue or is associated with lower giving\" to match the abstract's hedged language."
+        },
+        {
+          "label": "Mechanism stated as a data finding",
+          "severity": "Minor",
+          "as_written": "The data suggests donors have an internal sense of appropriate cadence, and organizations that violate it pay for the intrusion.",
+          "abstract_says": "they may backfire when the request asks for giving beyond a donor's typical cadence and violates expectations about when requests are appropriate",
+          "problem": "Cadence expectations are the authors' proposed explanation in the framing of the paper; the abstract reports no mediation or direct test of donor expectations.",
+          "suggested_fix": "Attribute it: \"The authors suggest donors hold expectations about appropriate cadence, though the experiment does not test that mechanism directly.\""
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7219889147",
+      "headline": "Swap a vague word for a precise one and the product starts to feel one of a kind",
+      "verdict": "minor",
+      "notes": "Four experiments, the precise-unique effect and the categorical-depth mechanism are reported correctly. Two small embellishments: an alternative explanation the abstract never mentions, and a direction assigned to the need-for-uniqueness moderation.",
+      "issues": [
+        {
+          "label": "Unstated alternative explanation ruled out",
+          "severity": "Minor",
+          "as_written": "the authors trace the effect to categorical depth rather than to the words simply sounding more impressive",
+          "abstract_says": "Four experiments provide robust evidence supporting the \"precise-unique effect\" and its underlying psycholinguistic mechanism driven by categorical depth.",
+          "problem": "The abstract establishes categorical depth as the mechanism but says nothing about testing or excluding an \"impressiveness\" account.",
+          "suggested_fix": "Drop the contrast: \"the authors attribute the effect to categorical depth.\""
+        },
+        {
+          "label": "Direction of moderation added",
+          "severity": "Minor",
+          "as_written": "most strongly among consumers with a high need for unique products",
+          "abstract_says": "consumers' need for product uniqueness moderates the downstream effects of language precision on perceived attractiveness and behavioral intention via perceived uniqueness",
+          "problem": "The abstract states that need for uniqueness moderates the downstream path but does not specify the direction; the digest supplies it.",
+          "suggested_fix": "Say the downstream effect on attractiveness and intention \"depended on consumers' need for product uniqueness\" without asserting the direction, or note the direction is not stated in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7214201194",
+      "headline": "Why luxury logos feature panthers and eagles rather than rabbits",
+      "verdict": "minor",
+      "notes": "Seven-study multi-method design, competence-over-warmth preference and the dominance mechanism all match. The moderation is reported slightly more broadly than the abstract states.",
+      "issues": [
+        {
+          "label": "Moderation stated at outcome rather than mediator level",
+          "severity": "Minor",
+          "as_written": "The advantage disappeared when the brand's message used a cooperative rather than competitive appeal.",
+          "abstract_says": "This effect, however, is appeal-dependent: within cooperative appeals, animal logo type does not significantly influence perceived dominance.",
+          "problem": "The abstract locates the null under cooperative appeals specifically on perceived dominance, the mediator, not explicitly on brand preference itself.",
+          "suggested_fix": "\"Under cooperative appeals, the logo type no longer shifted perceived dominance — the psychological route behind the preference.\""
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7203919913",
+      "headline": "Why paying your friend back beats splitting the bill at the register",
+      "verdict": "accurate",
+      "notes": "Eight preregistered studies, direction of the effect, the indebtedness-relief mechanism and both boundary conditions (salient financial obligation, focal consumer paid the total) are all reproduced correctly. Caveats appropriately flag the experimental, non-field nature.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7213274554",
+      "headline": "\"Up to 40% better\" or \"30–50% better\"? It depends on whether shoppers smell a sales pitch",
+      "verdict": "accurate",
+      "notes": "Six preregistered studies including one field study, the baseline point-estimate preference, the persuasion-knowledge reversal via transparency/trustworthiness, and the isolated-evaluation attenuation all match the abstract. Caveats appropriately note the unspecified field setting.",
+      "issues": []
+    },
+    {
+      "number": 6,
+      "work_id": "W7202044997",
+      "headline": "Doing both brand and customer management well pays off worse than picking one",
+      "verdict": "minor",
+      "notes": "Sample scale (95,000+ transcripts, 1,800+ firms, 22 years), the zero correlation between foci, distinct revenue/cost effects and the dual-emphasis penalty all match. One caveat asserts a sample characteristic the abstract never states.",
+      "issues": [
+        {
+          "label": "Sample nationality not in abstract",
+          "severity": "Minor",
+          "as_written": "US-listed public firms skew the sample.",
+          "abstract_says": "Using longitudinal data collected from automated text analysis of +95,000 earnings conference call transcripts involving +1,800 firms over 22 years, complemented by manual coding and secondary data",
+          "problem": "The abstract does not identify the country or listing venue of the firms. Unverifiable from abstract only.",
+          "suggested_fix": "Change to \"firms with public earnings calls, whose geographic mix is not stated in the abstract.\""
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7213768857",
+      "headline": "Heavy users of your free tier may be the hardest to convert — and overly habitual subscribers churn",
+      "verdict": "accurate",
+      "notes": "Four field studies, the double-edged free-version habit, the premium-habit benefits, and the inverse-U in discounted trials are all reported faithfully, including the discounted-trial boundary condition. Caveats correctly note the single setting and unnamed partner.",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "work_id": "W7203945013",
+      "headline": "Can a Model Tell You Which Slogan People Will Actually Remember?",
+      "verdict": "minor",
+      "notes": "Method description (literature review, NLP, human ratings, embeddings; recognition and cued brand recall; scoring candidate slogans for new brands) matches. One sentence converts a stated analysis into a reported result.",
+      "issues": [
+        {
+          "label": "Result asserted where abstract states only an analysis",
+          "severity": "Minor",
+          "as_written": "text embeddings picked up textual characteristics the academic factors miss",
+          "abstract_says": "We use our models to assess the extent to which the literature is missing textual characteristics important for predicting memorability.",
+          "problem": "The abstract says the models were used to assess whether the literature misses characteristics, but does not report the outcome of that assessment. The digest states it as a finding.",
+          "suggested_fix": "\"...and to assess how much of memorability the published literature still fails to capture (the abstract does not report the result of that assessment).\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7201850894",
+      "headline": "The Shoppers Who Can't Live With a Scratch — and Why They Keep Buying New",
+      "verdict": "accurate",
+      "notes": "Four qualitative studies, scale development, eight-item measure, eight experiments, the three defining characteristics, the acquisition/disposal behaviors and the uniqueness-reframing intervention all match the abstract.",
+      "issues": []
+    },
+    {
+      "number": 10,
+      "work_id": "W7204125043",
+      "headline": "Bundle a Mug With a Folding Chair: The Odd-Couple Pairing That Makes Stuff Feel Like an Experience",
+      "verdict": "minor",
+      "notes": "Thirteen preregistered experiments, the moderate-complementarity advantage over low, high and non-bundled comparisons, the contextualization mechanism and the experience-seeking purchase-likelihood boundary are all accurate. One background claim is not supported by the abstract.",
+      "issues": [
+        {
+          "label": "Background claim not in abstract",
+          "severity": "Minor",
+          "as_written": "Experiences are consistently valued more highly than material goods",
+          "abstract_says": "This research offers theoretical contributions to the bundling and material-experiential literatures and practical implications for companies interested in... obtaining the advantages of heightened experiential perceptions for material goods.",
+          "problem": "The abstract alludes to advantages of experiential perceptions but makes no claim that experiences are consistently valued more highly than goods. Unverifiable from abstract only.",
+          "suggested_fix": "Attribute to prior literature: \"Prior work in the material-experiential literature points to advantages of experiential perceptions, and this suggests...\""
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7212292008",
+      "headline": "When Workers Unionize, Suppliers Quietly Tighten the Payment Terms",
+      "verdict": "accurate",
+      "notes": "Design, sample (1,378 NLRB elections, 909 U.S. public firms, 1977–2021), RDD, 4.2 pp / $220.4 million figures, the three pre-unionization signals and the major-customer result all match the abstract. Caveats appropriately note the observational long-horizon data.",
+      "issues": []
+    },
+    {
+      "number": 12,
+      "work_id": "W7211972867",
+      "headline": "Who You Publish With Beats Where You Publish",
+      "verdict": "accurate",
+      "notes": "Database size (134,558 scholars), period (1960–2020), the stronger association for social authority over top-tier publishing, and the \"ghetto effect\" within tightly collaborating subfields are all faithfully reported, and the digest correctly labels the evidence as associational in Caveats.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7210281977",
+      "headline": "\"2 hours and 59 minutes\" feels longer than \"3 hours\" — the hidden cost of adding a smaller time unit",
+      "verdict": "minor",
+      "notes": "Core finding, nine preregistered experiments plus course-aggregator platform data, unit combinations and downstream outcomes all match. One consumer-facing example introduces an approximation framing (\"under 2 hours\") that the abstract never tested.",
+      "issues": [
+        {
+          "label": "Untested comparison in consumer example",
+          "severity": "Minor",
+          "as_written": "The same wait feels longer written as \"1 hour and 45 minutes\" than as \"under 2 hours\"",
+          "abstract_says": "describing time with a larger and a smaller unit (e.g., “by 8 PM on June 30”, “2 hours and 59 minutes”) rather than with a larger unit alone (e.g., “by the end of day on June 30”, “3 hours”) increases perceived duration",
+          "problem": "The abstract's contrast is between a two-unit description and the same duration stated in the larger unit alone (e.g., \"2 hours\"). \"Under 2 hours\" adds an approximation/less-than framing that was not part of the tested manipulation, so the illustration goes beyond the evidence.",
+          "suggested_fix": "Change the comparison to a plain larger-unit statement, e.g. \"The same wait feels longer written as '1 hour and 45 minutes' than as '2 hours.'\""
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7214088309",
+      "headline": "Livestream hosts sell more when they talk about touch, smell and taste — not what viewers can already see",
+      "verdict": "accurate",
+      "notes": "Three-study design (minute-level transaction data plus two experiments), the near- vs far-sensory contrast, the sensory-compensation/mental-imagery mechanism and the temporal-distance boundary condition are all reported accurately, and the caveats correctly separate correlational field data from intention-based experiments.",
+      "issues": []
+    },
+    {
+      "number": 15,
+      "work_id": "W7214077911",
+      "headline": "Firms with cash to spare are the least responsive to their own environmental scorecards",
+      "verdict": "minor",
+      "notes": "Sample (Chinese listed firms, panel data), the two curve shapes and the slack moderation are reported correctly, but the digest's plain-language gloss on what the curves mean goes beyond what the abstract states, and \"cash to spare\" narrows organizational slack.",
+      "issues": [
+        {
+          "label": "Over-specified reading of the curve shapes",
+          "severity": "Moderate",
+          "as_written": "Green innovation followed a U-shape when performance fell short of aspirations and an inverted U-shape when it exceeded them — meaning both mild shortfalls and extreme success dampened effort.",
+          "abstract_says": "the results reveal a U-shaped relationship between performance below aspirations and GI, and an inverted U-shaped relationship when performance exceeds aspirations",
+          "problem": "The abstract does not specify the orientation of the x-axis (magnitude of shortfall vs. level of performance), so which end of each curve corresponds to \"mild\" or \"extreme\" cannot be determined from the abstract. The added gloss, and the related \"motivate action mainly at the extremes\" line, assert a specific pattern the abstract does not support — and the inverted-U above aspirations implies that mild success also dampens effort, which the gloss omits.",
+          "suggested_fix": "Report the two curve shapes without interpreting which end is high or low, e.g. \"the relationship was U-shaped below aspirations and inverted U-shaped above them — in both cases effort varied non-linearly with distance from the target,\" and soften \"motivate action mainly at the extremes.\""
+        },
+        {
+          "label": "Organizational slack described as cash",
+          "severity": "Minor",
+          "as_written": "Firms with cash to spare are the least responsive to their own environmental scorecards",
+          "abstract_says": "Organizational slack weakens both patterns, reducing firms’ responsiveness to both negative and positive environmental performance feedback.",
+          "problem": "Organizational slack is a broader construct than spare cash (it covers unabsorbed, absorbed and potential resources); the abstract does not say the measure is cash holdings.",
+          "suggested_fix": "Use \"resource-rich firms\" or \"firms with slack resources\" in the headline rather than \"cash to spare.\""
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7214240842",
+      "headline": "On Etsy, Talking Too Much About Handcraft Hurts Sales",
+      "verdict": "minor",
+      "notes": "Sample (17,480 Etsy seller narratives), the inverted-U finding and the Language Expectancy Theory framing are accurate; the headline converts \"market appeal\" into \"sales,\" which the digest's own caveat contradicts, and the \"as much as\" comparison is not supported.",
+      "issues": [
+        {
+          "label": "Market appeal reported as sales in headline",
+          "severity": "Minor",
+          "as_written": "On Etsy, Talking Too Much About Handcraft Hurts Sales",
+          "abstract_says": "we examine how the intensity of craft cues ... and industrial cues ... impact market appeal ... we find an inverted U-shaped relationship: craft and industrial cue emphasis increase appeal up to a point, after which additional emphasis reduces it",
+          "problem": "The outcome is market appeal, a platform-derived measure, not revenue or units sold — as the digest's own Caveats acknowledge. The headline asserts a sales effect the study did not measure.",
+          "suggested_fix": "Rewrite as \"On Etsy, Talking Too Much About Handcraft Dents Your Appeal to Buyers.\""
+        },
+        {
+          "label": "Unsupported equivalence claim",
+          "severity": "Minor",
+          "as_written": "refusing to sound \"commercial\" can cost you as much as sounding too commercial",
+          "abstract_says": "sellers benefit neither from overemphasizing craft cues nor from avoiding industrial cues",
+          "problem": "The abstract says both extremes are suboptimal but makes no claim that the two costs are of comparable magnitude.",
+          "suggested_fix": "Drop the magnitude comparison: \"refusing to sound 'commercial' carries a cost too, just as sounding too commercial does.\""
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 16,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7214276420": {
+        "query": "thank note costs money one makes money",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7219889147": {
+        "query": "Swap vague word precise one product starts feel one kind",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214201194": {
+        "query": "luxury logos feature panthers eagles rather than rabbits",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203919913": {
+        "query": "paying friend back beats splitting bill register",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213274554": {
+        "query": "better better depends whether shoppers smell sales pitch",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202044997": {
+        "query": "Doing both brand customer management well pays off worse than",
+        "returned": 7,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213768857": {
+        "query": "Heavy users free tier hardest convert overly habitual subscribers churn",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203945013": {
+        "query": "Model Tell Which Slogan People Will Actually Remember",
+        "returned": 11,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7201850894": {
+        "query": "Shoppers Who Live Scratch They Keep Buying",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204125043": {
+        "query": "Bundle Mug Folding Chair Odd Couple Pairing Makes Stuff Feel",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212292008": {
+        "query": "Workers Unionize Suppliers Quietly Tighten Payment Terms",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7211972867": {
+        "query": "Who Publish Beats Where Publish",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7210281977": {
+        "query": "hours minutes feels longer than hours hidden cost adding smaller",
+        "returned": 7,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214088309": {
+        "query": "Livestream hosts sell they talk about touch smell taste not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214077911": {
+        "query": "Firms cash spare least responsive their own environmental scorecards",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214240842": {
+        "query": "Etsy Talking Too Much About Handcraft Hurts Sales",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** A striking share of this batch finds that the biggest available gains sit not in the product, the price or the media buy, but in the wording and plumbing around the transaction — swapping a general word for a precise one lifts perceived uniqueness (\"Swap a vague word for a precise one and the product starts to feel one of a kind,\" W7219889147), adding a smaller time unit makes the identical wait feel longer (\"'2 hours and 59 minutes' feels longer than '3 hours',\" W7210281977), choosing a point estimate over a range flips with shopper skepticism (W7213274554), routing a shared bill through a friend rather than the register raises satisfaction with the same meal (W7203919913), and livestream hosts move more product by narrating touch and smell rather than what the camera already shows (W7214088309). Two further studies show the same lever has a ceiling: craft language on Etsy and craft-versus-industrial cues follow an inverted U (W7214240842), as does habit intensity in freemium conversion (W7213768857) — presentation effects are dose-dependent, not monotonic.\n\n**Why pitch this now:** Marketing budgets are under hard scrutiny while generative tools have made it nearly free to produce and test hundreds of copy and format variants, so the cheapest lever in the stack is suddenly the most scalable — and regulators and platforms are simultaneously tightening up on how performance and sustainability claims are phrased.\n\n**Angle:** A feature on the rise of the \"presentation layer\" as a growth channel: what the newest experimental evidence says brands can move by rewriting rather than rebuilding, where the effects reverse if overdosed, and the uncomfortable line between clarity and manipulation now that AI can generate the variants at industrial scale. Aimed at CMOs, e-commerce and CRM leads, with a consumer-literacy strand for general readers.\n\n**Potential headlines:**\n- The Cheapest Growth Lever Left Is the Wording\n- Say It More Precisely and Shoppers Will Pay More — Say It Too Much and They Stop Believing You\n- Every Number a Brand Shows You Was a Formatting Decision\n\n**Potential outlets:**\n- **Marketing Week** — speaks directly to CMOs weighing effectiveness against shrinking budgets, and this is an argument about where marginal spend actually pays.\n- **Marketing Brew** — thrives on tactical, testable consumer-psychology findings packaged for practitioners who will try them next week.\n- **Retail Dive** — the merchandising, bundling and claim-format evidence lands squarely in e-commerce and product-page strategy.\n- **Fast Company** — well suited to the AI-at-scale and ethics strand: what happens when the copy-testing loop becomes automated and infinite.",
+    "pitch_ideas": "- **The thank-you note that costs you money — and the one that makes you money (Work ID W7214276420):** A 35,000-donor field experiment showing the same gratitude message lifts one segment and depresses another — and that aggregate A/B reporting hides it; for a marketing-trade news brief or a nonprofit/fundraising-sector feature.\n- **Swap a vague word for a precise one and the product starts to feel one of a kind (Work ID W7219889147):** \"Loafer\" beats \"shoe\" — a near-zero-cost copywriting test for crowded product pages; for a CMO-audience column or an e-commerce trade explainer.\n- **Why luxury logos feature panthers and eagles rather than rabbits (Work ID W7214201194):** Logo imagery only pays off when campaign tone matches it, so visual identity and messaging briefs should not be written separately; for a brand-design trade piece or a luxury-business section.\n- **Why paying your friend back beats splitting the bill at the register (Work ID W7203919913):** Split-the-check functionality may be quietly suppressing satisfaction with the meal itself; for a payments/fintech trade news piece or a personal-finance column on why painless payment methods obscure spending.\n- **\"Up to 40% better\" or \"30–50% better\"? (Work ID W7213274554):** Ranges only win once shoppers sense they are being sold to — a direct challenge to the default of the single confident number; for a consumer-psychology explainer in a general-interest outlet, or an advertising-standards angle for trade press.\n- **Doing both brand and customer management well pays off worse than picking one (Work ID W7202044997):** Twenty-two years of earnings-call language suggests the \"we do brand *and* CRM\" straddle dilutes returns; for a CMO-audience strategy column or a management-ideas outlet.\n- **Heavy users of your free tier may be the hardest to convert (Work ID W7213768857):** Free-tier engagement is not a clean conversion signal, and discounted-trial power users are a distinct churn risk; for a subscription/SaaS trade explainer or a streaming-business news brief.\n- **Can a Model Tell You Which Slogan People Will Actually Remember? (Work ID W7203945013):** An automated pre-test that scores slogan shortlists before any media spend — and a prompt about what creative judgment is still for; for an agency-trade feature or an AI-in-advertising piece.\n- **The Shoppers Who Can't Live With a Scratch (Work ID W7201850894):** A newly measured trait that drives upgrade demand and avoidable disposal, plus a fix — reframe the flaw as uniqueness; for a resale/circular-economy trade explainer or a consumer-behavior piece in a general-interest outlet.\n- **Bundle a Mug With a Folding Chair (Work ID W7204125043):** Loosely related bundles make goods feel like experiences — a counterintuitive merchandising test ahead of gifting season; for a retail trade explainer or a merchandising column.\n- **When Workers Unionize, Suppliers Quietly Tighten the Payment Terms (Work ID W7212292008):** A $220m average hit to trade credit that never appears in a labor negotiation — the most newsworthy non-marketing story in the batch; for a business news desk or a supply-chain/finance trade outlet.\n- **Who You Publish With Beats Where You Publish (Work ID W7211972867):** Citation counts partly measure network position, not merit — relevant to anyone who buys or cites academic marketing research; for a higher-education trade outlet or a research-integrity column.\n- **\"2 hours and 59 minutes\" feels longer than \"3 hours\" (Work ID W7210281977):** Delivery windows, wait times and course lengths are being formatted by accident; for a logistics/CX trade brief or a short consumer-psychology item in a general-interest outlet.\n- **Livestream hosts sell more when they talk about touch, smell and taste (Work ID W7214088309):** A concrete scripting rule for live commerce and creator briefs — describe what the camera can't deliver; for a social-commerce trade piece or a creator-economy newsletter.\n- **Firms with cash to spare are the least responsive to their own environmental scorecards (Work ID W7214077911):** Internal green targets move behavior only at the extremes, and well-cushioned firms shrug off bad results; for a sustainability-business outlet or an ESG-skeptic business column.\n- **On Etsy, Talking Too Much About Handcraft Hurts Sales (Work ID W7214240842):** Artisanal language has negative returns past a point — small sellers need to sound like they can ship, too; for a small-business/marketplace trade explainer or a consumer feature on authenticity marketing."
+  }
+}
