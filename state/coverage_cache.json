@@ -10,16 +10,6 @@
         "state": "unreported"
       }
     },
-    "W4318015176": {
-      "checked_at": "2026-09-24T12:59:21.064263+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Virtual influencers get traction they pictured hanging out real people",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
     "W4400488941": {
       "checked_at": "2026-09-28T15:58:48.536286+00:00",
       "result": {
@@ -40,6 +30,16 @@
         "state": "unreported"
       }
     },
+    "W7128495320": {
+      "checked_at": "2026-10-08T17:29:11.256095+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Pick want reject don not same shopping task brain treats",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7171463384": {
       "checked_at": "2026-09-25T13:06:30.854530+00:00",
       "result": {
@@ -50,32 +50,12 @@
         "state": "unreported"
       }
     },
-    "W7171543795": {
-      "checked_at": "2026-09-24T12:59:57.232148+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "rollout will live die middle manager",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7171628015": {
       "checked_at": "2026-09-25T13:05:50.357592+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Naming rival works America backfires Europe",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7172190947": {
-      "checked_at": "2026-09-24T12:59:34.214138+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Sticky seats beat beer lists actually drives choice pub",
         "returned": 0,
         "state": "unreported"
       }
@@ -195,16 +175,6 @@
         "outlets": [],
         "query": "Doing both brand customer management well pays off worse than",
         "returned": 7,
-        "state": "unreported"
-      }
-    },
-    "W7202051364": {
-      "checked_at": "2026-09-24T12:59:35.773509+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Feeling local makes people creative pride reason",
-        "returned": 4,
         "state": "unreported"
       }
     },
@@ -358,24 +328,6 @@
         "state": "unreported"
       }
     },
-    "W7203605101": {
-      "checked_at": "2026-09-24T12:59:45.859751+00:00",
-      "result": {
-        "articles": [
-          {
-            "link": "https://www.yahoo.com/retired-people-revealing-why-theyre-093102586.html",
-            "outlet": "Yahoo",
-            "title": "Retired People Are Revealing Why They're Busier Now Than When They Had A Job"
-          }
-        ],
-        "outlets": [
-          "Yahoo"
-        ],
-        "query": "busier people feel they want games their childhood",
-        "returned": 20,
-        "state": "lightly_reported"
-      }
-    },
     "W7203605245": {
       "checked_at": "2026-09-25T13:06:26.534241+00:00",
       "result": {
@@ -403,6 +355,16 @@
         "outlets": [],
         "query": "agent does shopping trust bot becomes trust product",
         "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7203639635": {
+      "checked_at": "2026-10-08T17:28:51.651519+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "people out night safety transport move money FOMO amplifies everything",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -446,6 +408,16 @@
         "state": "unreported"
       }
     },
+    "W7203765190": {
+      "checked_at": "2026-10-08T17:29:12.455859+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "free street level map England Wales shops",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
     "W7203821753": {
       "checked_at": "2026-10-01T17:05:58.486059+00:00",
       "result": {
@@ -482,16 +454,6 @@
         "articles": [],
         "outlets": [],
         "query": "paying friend back beats splitting bill register",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7203929993": {
-      "checked_at": "2026-09-24T12:59:52.589125+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Rivalry ads split crowd gender women stands react differently than",
         "returned": 0,
         "state": "unreported"
       }
@@ -624,30 +586,6 @@
         "state": "unreported"
       }
     },
-    "W7204561075": {
-      "checked_at": "2026-09-24T13:00:06.951169+00:00",
-      "result": {
-        "articles": [
-          {
-            "link": "https://totallythebomb.com/i-dont-want-a-successful-marriage-i-want-a-peaceful-life/",
-            "outlet": "Totally The Bomb",
-            "title": "I Don\u2019t Want A Successful Marriage. I Want A Peaceful Life."
-          },
-          {
-            "link": "https://www.kqed.org/forum/2010101914907/dorothy-lazard-on-the-ambitious-mission-of-libraries-and-the-people-that-make-them-function",
-            "outlet": "KQED",
-            "title": "Dorothy Lazard on the Ambitious Mission of Libraries and the People that Make them Function"
-          }
-        ],
-        "outlets": [
-          "Totally The Bomb",
-          "KQED"
-        ],
-        "query": "ambitious people don want them",
-        "returned": 20,
-        "state": "lightly_reported"
-      }
-    },
     "W7204579696": {
       "checked_at": "2026-10-01T17:05:18.197831+00:00",
       "result": {
@@ -655,16 +593,6 @@
         "outlets": [],
         "query": "Making avatars look human matters than making them useful",
         "returned": 7,
-        "state": "unreported"
-      }
-    },
-    "W7204588967": {
-      "checked_at": "2026-09-24T12:59:42.998250+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Emotional customer service only works customers who want relationship brand",
-        "returned": 3,
         "state": "unreported"
       }
     },
@@ -684,16 +612,6 @@
         "articles": [],
         "outlets": [],
         "query": "People pick female assistants default until point out bias",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204997257": {
-      "checked_at": "2026-09-24T13:00:10.835954+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Make people suffer little painful charity events boost perceived authenticity",
         "returned": 0,
         "state": "unreported"
       }
@@ -745,16 +663,6 @@
         "outlets": [],
         "query": "Eating same meal years doesn make like makes hack",
         "returned": 4,
-        "state": "unreported"
-      }
-    },
-    "W7210276982": {
-      "checked_at": "2026-09-24T13:00:05.515249+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "wider product line advertising works word mouth does",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -818,6 +726,16 @@
         "state": "unreported"
       }
     },
+    "W7212065721": {
+      "checked_at": "2026-10-08T17:28:38.061286+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Voice calls now least valuable part phone plan much least",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
     "W7212116218": {
       "checked_at": "2026-09-25T13:05:05.191289+00:00",
       "result": {
@@ -878,13 +796,13 @@
         "state": "unreported"
       }
     },
-    "W7212428236": {
-      "checked_at": "2026-09-24T12:59:44.116120+00:00",
+    "W7212753203": {
+      "checked_at": "2026-10-08T17:28:56.171489+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "Put face first five seconds fewer people watch",
-        "returned": 3,
+        "query": "free play games beauty sells performance doesn",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -924,16 +842,6 @@
         "articles": [],
         "outlets": [],
         "query": "Putting chargers parking lot lifted German grocery revenue",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213274443": {
-      "checked_at": "2026-09-24T12:59:10.708999+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Ready beats ready minutes but only short waits",
         "returned": 0,
         "state": "unreported"
       }
@@ -1018,36 +926,6 @@
         "state": "unreported"
       }
     },
-    "W7213468681": {
-      "checked_at": "2026-09-24T12:59:41.832635+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Older celebrities get punished sponsored posts younger ones get rewarded",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213493969": {
-      "checked_at": "2026-09-24T12:59:19.276156+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "photos fewer bookings extra visuals hurt experience sales",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213511827": {
-      "checked_at": "2026-09-24T12:59:27.323842+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Tearjerker revenge flick Culture predicts which mixed emotions sell",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7213527998": {
       "checked_at": "2026-09-25T13:06:05.133322+00:00",
       "result": {
@@ -1055,16 +933,6 @@
         "outlets": [],
         "query": "people fear sliding down ladder wealth advertising stops working craftsmanship",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213546298": {
-      "checked_at": "2026-09-24T12:59:29.354146+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Consumers will pay low carbon milk but big chunk them",
-        "returned": 1,
         "state": "unreported"
       }
     },
@@ -1098,26 +966,6 @@
         "state": "unreported"
       }
     },
-    "W7213621009": {
-      "checked_at": "2026-09-24T12:59:58.431939+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Ask shoppers type their opinion get emotion ask them talk",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7213625881": {
-      "checked_at": "2026-09-24T12:59:15.011869+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Ask toward 000 goal round number math makes people give",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7213662492": {
       "checked_at": "2026-10-03T14:47:15.816462+00:00",
       "result": {
@@ -1144,16 +992,6 @@
         "articles": [],
         "outlets": [],
         "query": "imported goods endcap made imported goods sell worse",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213674865": {
-      "checked_at": "2026-09-24T12:59:37.885420+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Naming government institute developer makes shoppers warmer lab grown insect",
         "returned": 0,
         "state": "unreported"
       }
@@ -1404,16 +1242,6 @@
         "state": "unreported"
       }
     },
-    "W7214126722": {
-      "checked_at": "2026-09-24T12:59:16.272461+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Infinite scroll sells then gets returned",
-        "returned": 3,
-        "state": "unreported"
-      }
-    },
     "W7214159818": {
       "checked_at": "2026-10-02T16:19:15.522445+00:00",
       "result": {
@@ -1540,6 +1368,16 @@
         "articles": [],
         "outlets": [],
         "query": "privacy disclosure paradox telling people use their location backfire",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214384564": {
+      "checked_at": "2026-10-08T17:28:48.655254+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "standard model healthy eating built mostly female samples mostly but",
         "returned": 0,
         "state": "unreported"
       }
@@ -1724,6 +1562,26 @@
         "state": "unreported"
       }
     },
+    "W7214717190": {
+      "checked_at": "2026-10-08T17:29:17.465446+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "worldly taste backfires Mexican consumers mock globe trotting elite online",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214722003": {
+      "checked_at": "2026-10-08T17:29:08.297190+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Latin American coffee drinkers will pay extra organic fair trade",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
     "W7214725050": {
       "checked_at": "2026-10-02T16:19:05.836238+00:00",
       "result": {
@@ -1744,6 +1602,16 @@
         "state": "unreported"
       }
     },
+    "W7214744519": {
+      "checked_at": "2026-10-08T17:28:35.413403+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Advertising joy missing out opting out appeals raised purchase intent",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7214777517": {
       "checked_at": "2026-10-06T16:51:43.411334+00:00",
       "result": {
@@ -1761,6 +1629,16 @@
         "outlets": [],
         "query": "Stop storing keepsakes using them makes them mean",
         "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7214899977": {
+      "checked_at": "2026-10-08T17:28:11.850210+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Status without possessions brands profit digital bragging rights",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1832,6 +1710,16 @@
         "state": "unreported"
       }
     },
+    "W7215041317": {
+      "checked_at": "2026-10-08T17:28:44.287742+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Service camouflage platform sellers reset their reputations changing who they",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7215060027": {
       "checked_at": "2026-10-05T19:17:24.502467+00:00",
       "result": {
@@ -1858,6 +1746,16 @@
         "articles": [],
         "outlets": [],
         "query": "Italians stopped saving their heirs started saving themselves",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7215077900": {
+      "checked_at": "2026-10-08T17:28:27.151860+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Shoppers trust logo claim different reasons self reported green segments",
         "returned": 0,
         "state": "unreported"
       }
@@ -1922,6 +1820,16 @@
         "state": "unreported"
       }
     },
+    "W7219780211": {
+      "checked_at": "2026-10-08T17:28:41.709235+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Prettier isn better shopping vividness adds nothing but interactivity novelty",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7219889147": {
       "checked_at": "2026-10-07T17:29:26.222421+00:00",
       "result": {
@@ -1932,12 +1840,62 @@
         "state": "unreported"
       }
     },
+    "W7220380523": {
+      "checked_at": "2026-10-08T17:28:22.001646+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Let pick vacation not phone delegation helps stings",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7220383982": {
+      "checked_at": "2026-10-08T17:28:06.992904+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "dog eating snack makes shoppers think healthier",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7220388832": {
+      "checked_at": "2026-10-08T17:28:20.055446+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "jobs juggle crave nostalgia",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7220393204": {
+      "checked_at": "2026-10-08T17:28:05.254417+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "still waiting cart product does talking shoppers come back",
+        "returned": 5,
+        "state": "unreported"
+      }
+    },
     "W7220403023": {
       "checked_at": "2026-10-06T16:51:08.414528+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "India bidi industry borrowed Big Tobacco playbook including charity photo",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7220468936": {
+      "checked_at": "2026-10-08T17:29:05.980580+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Local foreign face 540 person test makes aspirational fashion brands",
         "returned": 0,
         "state": "unreported"
       }

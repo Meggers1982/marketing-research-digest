@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 21,
+  "run_count": 22,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -16,6 +16,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-consumer-psychology-2026-10-08",
+      "title": "Marketing Research Digest — Consumer Psychology — 2026-10-08",
+      "topic": "consumer psychology",
+      "run_date": "2026-10-08",
+      "study_count": 18,
+      "total_issues": "24 (23 Minor, 1 Moderate, 0 Major)",
+      "lead_count": 8,
+      "top_score": 90
+    },
     {
       "id": "marketing-research-digest-broad-all-marketing-topics-2026-10-07",
       "title": "Marketing Research Digest — Broad (all marketing topics) — 2026-10-07",

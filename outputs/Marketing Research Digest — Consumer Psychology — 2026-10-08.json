@@ -1,0 +1,783 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-08",
+  "days_back": 60,
+  "window_from": "2026-08-09",
+  "window_to": "2026-10-08",
+  "focus": "Consumer Psychology",
+  "topic": "consumer psychology",
+  "query": "(consumer OR consumers OR shopper OR customer) AND (emotion OR identity OR \"decision making\" OR choice OR motivation OR \"self-control\" OR nostalgia OR happiness OR \"social comparison\" OR loneliness OR status)",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 325,
+    "not_research": 1,
+    "no_abstract": 40,
+    "off_topic": 0,
+    "already_covered": 78,
+    "over_journal_cap": 46,
+    "over_cap": 120,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7220393204",
+      "headline": "\"I'm still waiting in your cart\": when the product does the talking, shoppers come back",
+      "the_study": "Five experiments tested how the wording of abandoned-cart reminders changes shopper response. Messages written from the product's point of view (\"product-as-subject\" anthropomorphism, e.g., the item itself pleading to be bought) outperformed both plain reminders and messages written in the brand's voice. The effect ran through two parallel mechanisms—state empathy and perceived interestingness—and was strongest among shoppers with an emotional rather than rational decision-making style; a final study showed increased cart re-engagement behavior, not just stated intent.",
+      "why_it_matters": "More than 70% of online carts are abandoned, and reminder emails and push notifications are cheap to rewrite—this suggests a copy change at near-zero cost could move conversion.",
+      "story_angle_primary": "A low-cost A/B test almost any e-commerce team can run next quarter: rewrite abandoned-cart reminders in the product's voice instead of the brand's, and watch whether the empathy effect survives contact with real inboxes and real discount-trained shoppers. Worth checking whether novelty wears off after repeated exposure—\"perceived interestingness\" is exactly the kind of mediator that decays.",
+      "story_angle_secondary": "Your shopping cart is being engineered to make you feel sorry for an object. Knowing that a lonely-sounding sweater is a deliberate persuasion tactic—and that it works best on people who shop by feel—is a useful bit of self-defense.",
+      "caveats": "Online experiments rather than live retail data; the behavioral measure in Study 5 is cart re-engagement and self-reported abandonment likelihood, not verified purchases; effects may be novelty-driven over a short horizon.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-05",
+      "doi": "10.1016/j.jretconser.2026.105132",
+      "paper_title": "When products speak: The effects of product-as-subject anthropomorphic communication on consumer responses to carted products",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7220383982",
+      "headline": "A dog eating the snack makes shoppers think it's healthier",
+      "the_study": "Five preregistered online experiments with 2,462 retained participants from Chinese consumer panels tested who should be shown eating a food product in short-form retail videos. When a pet rather than a human was the visible eater, viewers inferred the food was more natural and therefore healthier, raising purchase intention. The effect ran sequentially through perceived naturalness then healthiness, was confirmed causally by manipulating naturalness information, weakened when a human was visibly helping the pet eat (reducing \"eating autonomy\"), and survived sponsorship disclosure.",
+      "why_it_matters": "Short-video commerce is one of the fastest-growing retail channels, and this identifies a cheap casting decision—who is shown consuming the product—as a lever on health perceptions, which also raises a regulatory question about implied health claims.",
+      "story_angle_primary": "Brands making short-form food content should treat the visible eater as a product cue, not set dressing, and test pet-eater versions against human-eater ones—while noting that if the effect works by manufacturing an unearned impression of \"naturalness,\" it sits uncomfortably close to an implied health claim regulators may eventually notice.",
+      "story_angle_secondary": "Watching a dog happily eat something nudges people toward believing it's natural and good for them—a reminder of how much of our food judgment comes from scene and vibe rather than the label.",
+      "caveats": "Online consumer panels in a single country (China); purchase intention rather than actual purchases; food category only; findings may not transfer to Western markets with different pet-and-food norms.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-05",
+      "doi": "10.1016/j.jretconser.2026.105148",
+      "paper_title": "Who eats matters: How eating-agent identity in short-form retail videos influences consumers’ purchase intentions",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7214899977",
+      "headline": "Status without possessions: how brands profit from digital bragging rights",
+      "the_study": "Researchers developed and validated scales for three sources of status inside virtual brand communities—avatar distinctiveness, label affirmation (titles and badges), and exclusive access prestige—plus an overall \"virtual status perception\" measure. A structural model tested on 769 respondents across three countries found that all three digital levers predict perceived personal status, and that this self-status in turn raises perceptions of the brand's own status.",
+      "why_it_matters": "It gives brands running Discord servers, loyalty tiers, and game-adjacent communities a concrete map of what actually confers status online when cars, clothes and houses aren't visible—and evidence that members' status spills upward onto the brand.",
+      "story_angle_primary": "For brand community managers, the testable claim is that three cheap digital artifacts—distinctive avatars, earned titles and badges, and gated access—do the work that expensive physical signals do offline, and that investing in them may lift brand prestige, not just engagement metrics; worth validating against behavioral data on spend and retention.",
+      "story_angle_secondary": "Online, status is being rebuilt out of pixels: a rare avatar, a \"founding member\" badge, an invite-only channel. The same competitive instincts that drive luxury consumption are quietly being redirected into things that cost a company almost nothing to mint.",
+      "caveats": "Cross-sectional survey data, so causal direction between self-status and brand status cannot be established; scale-development focus; self-reported perceptions rather than observed community or spending behavior.",
+      "journal": "Journal of Business Research",
+      "published": "2026-09-30",
+      "doi": "10.1016/j.jbusres.2026.116573",
+      "paper_title": "Status construction in virtual brand communities: A virtual identity approach",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7220388832",
+      "headline": "The more jobs you juggle, the more you crave nostalgia",
+      "the_study": "Three experiments with 644 participants recruited via Credamo, a Chinese online panel, tested how holding multiple professional identities affects taste for nostalgic services. Participants primed with multiple job identities reported stronger preference for nostalgic service consumption, with reduced self-concept clarity and a need for self-continuity acting as serial mediators. The hypothesized amplifying role of \"identity contrast\" did not significantly strengthen the indirect path, though high-contrast conditions showed a stronger direct effect.",
+      "why_it_matters": "As gig work and side hustles multiply, this points to a growing consumer segment whose fragmented sense of self makes retro-themed hospitality, entertainment and retail experiences unusually appealing.",
+      "story_angle_primary": "If the pattern holds in real markets, nostalgia-themed positioning may be a targeting lever for the multi-jobholder segment—something brands could test by matching retro creative against audiences with fragmented work identities rather than treating nostalgia as a broad generational play.",
+      "story_angle_secondary": "Holding down several roles can blur your sense of who you are, and one common coping response is reaching for the familiar—old-fashioned diners, retro games, childhood brands. The side hustle has a psychological bill, and nostalgia is part of how people pay it.",
+      "caveats": "Online panel participants in a single country (China); scenario-based experiments measuring preferences, not actual service purchases; modest total sample across three studies; a central hypothesized moderator failed to support the predicted mechanism.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-10-05",
+      "doi": "10.1108/jsm-04-2026-0338",
+      "paper_title": "More professions, stronger nostalgia: the amplifying role of identity contrast",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7220380523",
+      "headline": "Let AI pick your vacation, not your phone: when delegation helps and when it stings",
+      "the_study": "Four 2x2 between-subjects online experiments (total N=1,427) tested how consumers felt after delegating a purchase decision to generative AI across categories including cameras, guided tours, ergonomic chairs, glamping trips, smartphones, Arctic expeditions and smart-home systems. For experiential purchases, AI delegation raised well-being by boosting anticipatory savoring — the pleasure of looking forward to something. For material purchases, the same delegation lowered well-being by triggering autonomy frustration, as consumers felt robbed of a choice they wanted to own.",
+      "why_it_matters": "AI shopping assistants are being rolled out uniformly across catalogs, but this suggests the same feature can delight in travel and experience categories while quietly annoying buyers of durable goods.",
+      "story_angle_primary": "Worth testing whether AI recommendation and auto-selection features should be dialed up in experience categories and dialed back — or reframed as advisory rather than decisive — for considered material purchases where ownership of the choice is part of the value.",
+      "story_angle_secondary": "If you notice you enjoy handing a trip itinerary to ChatGPT but resent it choosing your laptop, there's a reason: anticipation is part of the pleasure of experiences, while possessions feel like an expression of your own judgment.",
+      "caveats": "Online experiments with hypothetical consumption scenarios rather than real purchases; measures are self-reported well-being at a single point, with no long-run follow-up; category list is broad but each cell is a one-shot vignette.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-05",
+      "doi": "10.1002/mar.70277",
+      "paper_title": "The Algorithmic Well‐Being Paradox: When AI Decision Delegation Helps and Hurts Consumer Well‐Being",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7215077900",
+      "headline": "Shoppers trust the logo and the claim for different reasons — and self-reported \"green\" segments get it wrong",
+      "the_study": "A discrete choice experiment with 477 Chinese e-commerce consumers, analyzed with conditional logit, latent class analysis and trust-stratified models, separated two cues on a sustainable product page: certification badges and benefit framing (health versus environment). Certification credibility followed a consistent hierarchy — dual and international schemes beat domestic ones — across all motivational segments, while the value placed on benefit framing differed sharply between segments. Latent class analysis found a dual-motivated majority of 53.5%, a group that consumers systematically understate when self-classifying.",
+      "why_it_matters": "It suggests certification investment and message framing are separate levers, not substitutes, and that segmenting green shoppers by what they say motivates them will misroute more than half of them.",
+      "story_angle_primary": "Consider deriving sustainability segments from actual choice data rather than survey self-descriptions, and treat certification spend as a broad-base trust investment while reserving health-versus-environment framing for targeted segments; the paper even reports a break-even price point (¥16.68) at which the two framings become equivalent for dual-motivated shoppers.",
+      "story_angle_secondary": "Most people say they buy green for one reason, but their actual clicks reveal they want both personal health benefits and environmental ones — and a stronger certification can shift which reason feels more persuasive.",
+      "caveats": "Single country (China) and a choice experiment rather than observed purchases; stated choices in a controlled task may overstate willingness to pay; moderate sample size spread across latent segments.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-02",
+      "doi": "10.1016/j.jretconser.2026.105133",
+      "paper_title": "How certification credibility and benefit framing shape heterogeneous consumer responses to sustainable products in e-commerce",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7214744519",
+      "headline": "Advertising the joy of missing out: opting-out appeals raised purchase intent via perceived brand authenticity",
+      "the_study": "Three between-subjects experiments with social media users (total n=625) compared JOMO-oriented advertising — messaging that celebrates deliberately skipping socially normative activity — against non-JOMO ads across three product categories. JOMO ads raised purchase intention indirectly by increasing self-brand congruity, with a serial path running through perceived brand authenticity. The effect was strongest among consumers high in social comparison orientation, the very people FOMO advertising usually targets.",
+      "why_it_matters": "It offers brands an alternative to scarcity-and-fear messaging, suggesting that endorsing consumers' decision to sit things out can read as authentic rather than passive.",
+      "story_angle_primary": "A candidate for A/B testing against FOMO-style urgency creative, particularly for audiences who skew comparison-prone; the proposed mechanism is authenticity, so the appeal likely fails if the brand's broader behavior contradicts the opt-out message.",
+      "story_angle_secondary": "Marketing has spent a decade monetizing the fear of missing out; this is early evidence that the counter-pitch — permission to stay home — can sell just as well, which is worth knowing when a brand flatters your choice to disconnect.",
+      "caveats": "Online experiments measuring stated purchase intention, not actual sales; participants were social media users in a single study program; modest cell sizes across three studies; no test of long-term brand effects or ad wearout.",
+      "journal": "Journal of Product & Brand Management",
+      "published": "2026-09-29",
+      "doi": "10.1108/jpbm-02-2026-6812",
+      "paper_title": "Advertising joy of missing out (JOMO): the roles of brand authenticity, self-brand congruity, and social comparison orientation",
+      "source_id": "S58171247"
+    },
+    {
+      "work_id": "W7212065721",
+      "headline": "Voice calls are now the least valuable part of your phone plan — and how much least depends on where you live",
+      "the_study": "Researchers ran a choice-based conjoint analysis with 1,977 smartphone users in Germany, Japan, South Korea and the United States, asking them to trade off six categories of mobile service — voice, social networking, information access, mobile finance, mobile shopping and digital content — against price. Utility estimates showed Korean and Japanese users assigning markedly more value to internet-native services such as mobile payments and social platforms, while American and German users still placed comparatively more weight on voice and text. Across all four markets, the share of total perceived value attributable to voice communication fell steadily from the 3G era through 5G.",
+      "why_it_matters": "Telecom operators, device makers and any brand bundling services into a mobile plan are still pricing and marketing around a feature consumers increasingly discount, and the gap between Asian and Western value perceptions means one global positioning will not fit.",
+      "story_angle_primary": "If you sell bundled digital services, test whether the attributes you headline in your pricing architecture are the ones carrying utility: conjoint data here suggests finance and social features may justify premium framing in some markets while legacy voice allowances do not. Treat the four-country split as evidence that localized value propositions, not a single global bundle, are worth piloting.",
+      "story_angle_secondary": "The thing people once paid a phone bill for — talking — is now close to a throw-in, and what replaces it differs sharply by country: in Seoul and Tokyo it is the payment app, in Berlin and Chicago it is still, oddly, the call.",
+      "caveats": "Stated preferences in a conjoint exercise rather than observed purchases or plan switching; four countries only, with no detail in the abstract on panel recruitment or representativeness; cross-sectional snapshot with generational technology comparisons inferred rather than tracked over time.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-09",
+      "doi": "10.1108/apjml-01-2026-0061",
+      "paper_title": "The evolving value of mobile services: a cross-cultural study of consumer preferences",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7219780211",
+      "headline": "Prettier isn't better: in AR shopping, vividness adds nothing, but interactivity and novelty move willingness to pay",
+      "the_study": "A study of 468 shoppers compared augmented reality and non-AR product displays, modeling how four AR attributes — interactivity, vividness, novelty and quality — relate to satisfaction of three psychological needs (autonomy, competence, relatedness) and then to confidence in choice and willingness to pay, using PLS-SEM plus fuzzy-set qualitative comparative analysis. Interactivity and novelty were the most consistent drivers of need satisfaction; vividness showed no reliable advantage over non-AR displays, suggesting a ceiling effect once a display is already immersive. Autonomy predicted willingness to pay, while competence and relatedness predicted confidence in the choice — two distinct psychological routes to two different commercial outcomes. The configurational analysis found five different attribute combinations that worked equally well, implying AR features can substitute for one another.",
+      "why_it_matters": "Retailers pouring budget into photorealistic rendering may be buying the one AR attribute that does not differentiate, while the cheaper lever — letting shoppers manipulate and explore the object — maps directly onto the feeling of control that raises what they will pay.",
+      "story_angle_primary": "Audit your AR spend against outcome: if the goal is price premium, build for autonomy through hands-on interactivity; if the goal is reducing hesitation and returns, build for competence and social relatedness. The five equifinal configurations are a cue to A/B test feature combinations rather than chase maximum visual fidelity, and to check whether high product uncertainty blunts the autonomy route in your category.",
+      "story_angle_secondary": "When a shopping app lets you place a sofa in your living room, what actually persuades you is not how glossy the sofa looks but how much the tool makes you feel in charge of the decision — a useful thing to notice the next time an AR try-on nudges you toward checkout.",
+      "caveats": "Cross-sectional self-report data analyzed with structural models, so causal direction is inferred rather than established; outcomes are confidence and willingness to pay, not observed purchases or returns; single sample of 468 shoppers with limited detail on country, recruitment and product categories.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-04",
+      "doi": "10.1111/ijcs.70266",
+      "paper_title": "Seeing Is Believing, Experiencing Is Deciding: How Augmented Reality Attributes Drive Confidence in Choice and Willingness to Pay",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7215041317",
+      "headline": "\"Service camouflage\": how platform sellers reset their reputations by changing who they appear to be",
+      "the_study": "Researchers analyzed seven cross-jurisdiction cases of identity manipulation on service platforms, drawing on investigative journalism, regulatory filings and platform-level digital traces. They identify four recurring practices — alias proliferation, cloning, rapid relisting and ownership obfuscation — and four ways these corrupt platform signals: distortion, inflation, suppression and erasure. The resulting framework distinguishes systematic, history-erasing manipulation from legitimate brand portfolio management, and classifies cases by how severe the manipulation is and how much consumer value it destroys.",
+      "why_it_matters": "Ratings, review counts and seller tenure are the trust infrastructure of online service marketplaces, and this work documents how cheaply those signals can be severed from the entity they are supposed to describe.",
+      "story_angle_primary": "For anyone running or selling on a marketplace, the question is whether your trust signals survive an identity reset: look at how fast a delisted operator can reappear under a new name on your platform, and whether your own multi-brand strategy could be mistaken for reputation laundering. Platform governance teams get a usable taxonomy for detection here, not a validated detection tool.",
+      "story_angle_secondary": "That five-star contractor, cleaner or repair service may be a newly minted listing wearing a borrowed face — the review history you are trusting can belong to an identity, not a business, and identities are easy to replace.",
+      "caveats": "Qualitative, case-informed design with seven purposively selected cases, so prevalence and effect sizes are unknown; conceptual frameworks are proposed but not empirically tested; relies partly on secondary sources such as journalistic investigations; no consumer-level data on how trust actually shifted.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-10-01",
+      "doi": "10.1108/jsm-11-2025-0847",
+      "paper_title": "The camouflage effect in service platforms: when manipulated identities distort trust",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7214384564",
+      "headline": "The standard model of healthy eating was built on mostly female samples — it mostly, but not entirely, holds for men",
+      "the_study": "Researchers ran a conceptual replication of the COM-B model (Capability, Opportunity, Motivation, Behavior) of diet quality in a male-dominant sample of 1,358 adults (67% male), using the same measurement battery as an earlier female-dominant study. The model fit acceptably and explained 22% of the variance in diet quality, with capability and opportunity working indirectly through motivation, which was the strongest predictor. But the indicators that survived in men differed: action control, habits, descriptive norms, the home food environment, self-efficacy, intentions, affective attitudes and perceived behavioral control were retained, while identity, instrumental attitudes, decision-making barriers and the shopping environment dropped out.",
+      "why_it_matters": "Public health campaigns and food brands that lean on rational, instrumental arguments (\"this is good for you\") or on shopping-environment nudges may be targeting levers that carry less weight for men, where habit, home environment and what peers are seen eating did the explanatory work.",
+      "story_angle_primary": "If you market food or run behavior-change programs, this is a prompt to segment creative by gender and test emotional, habit-based and descriptive-norm messaging against the instrumental health claims that dominate category advertising. Treat it as hypothesis-generating: it is correlational replication evidence, not a tested campaign.",
+      "story_angle_secondary": "What is in your kitchen and what you see other people eating appear to shape your diet more than your beliefs about nutrition do — a reminder that changing the home food environment may beat trying to argue yourself into eating better.",
+      "caveats": "Cross-sectional survey with self-reported diet quality, so no causal inference; gender differences are inferred by comparing two separate samples rather than tested within one, and the authors themselves label them hypothesis-generating; discriminant validity problems between habits and action control, and between self-efficacy and intention; model explains only 22% of variance.",
+      "journal": "Appetite",
+      "published": "2026-09-25",
+      "doi": "10.1016/j.appet.2026.108796",
+      "paper_title": "Capability, opportunity, and motivation for healthy eating: Exploring gender-specific pathways",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7203639635",
+      "headline": "Why people go out at night: safety and transport move the money, and FOMO amplifies everything",
+      "the_study": "Researchers surveyed 577 residents of Australia's Sunshine Coast about their use of the night-time economy — bars, restaurants, events, late retail — and analyzed the data with partial least squares structural equation modeling and PROCESS mediation/moderation tests. Four decision factors predicted both how often people went out and how much they spent: perceived safety, transport availability, venue quality, and the social draw. The effect ran substantially through \"place identity\" — how strongly people identified with the area as their own — and all relationships were stronger among respondents who scored high on fear of missing out.",
+      "why_it_matters": "For hospitality operators, city councils and precinct marketers, the finding reframes late-night spending as an infrastructure and identity problem as much as a product one: lighting, policing and transport schedules may do more for takings than another drinks promotion.",
+      "story_angle_primary": "Hospitality and precinct marketers could test whether campaigns built on local belonging — \"this is your place\" messaging, neighborhood identity, resident-first events — lift visit frequency and spend more than discounting does, and whether FOMO-flavored creative (limited-run nights, one-off line-ups) disproportionately moves the heaviest spenders. Because this is correlational survey data from one region, treat it as a hypothesis to test in a live precinct, not a proven lever.",
+      "story_angle_secondary": "The study is a reminder that the decision to go out is often made before you pick a venue: whether you feel safe walking, whether you can get home, and whether you feel the place is \"yours.\" And if you're prone to fear of missing out, all of those considerations get louder — and your night-out budget tends to be bigger.",
+      "caveats": "Cross-sectional survey, so causation cannot be established; self-reported usage and expenditure rather than observed transactions; a single region of one country (Sunshine Coast, Australia), which may not generalize to big-city or low-car environments.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-08-17",
+      "doi": "10.1108/jsm-08-2025-0510",
+      "paper_title": "The rhythm (and decisions) of the night: how FoMO and place identity explain decision-making, nighttime economy usage and expenditure",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7212753203",
+      "headline": "In free-to-play games, beauty sells and performance doesn't",
+      "the_study": "A survey of 192 active players of a character-centric free-to-play game, recruited from the game's official online community, tested which types of perceived value drive attitudes toward virtual characters and intention to buy them. Experiential attributes — aesthetics and playfulness — were the strongest drivers of attitude, while functional attributes such as quality and competency showed no significant effect; price fairness was the only functional dimension that mattered. Social value (showing off to other players) was also non-significant, which the authors attribute to players folding characters into their own self-concept rather than using them for external display.",
+      "why_it_matters": "It challenges the common monetization instinct of selling power and performance upgrades, suggesting that in character-driven games the money follows art direction, narrative depth and play feel — and that transparent, fair pricing still matters even to the most engaged whales.",
+      "story_angle_primary": "Game and platform marketers could run controlled tests pitting cosmetic/narrative-rich releases against stat- or performance-based ones to see whether the aesthetic bundle really outperforms on conversion and revenue per player, and whether perceived price fairness protects spend among high-intensity users. The evidence here is one self-selected community in one game, so it is a prompt to experiment rather than a monetization rulebook.",
+      "story_angle_secondary": "For anyone wondering why people pay real money for pixels: the data suggest it's less about winning or impressing other players and more about identity — the character becomes an extension of the self, which is exactly what makes the spending feel reasonable from the inside.",
+      "caveats": "Cross-sectional survey of stated purchase intention, not observed spending; self-selected sample of 192 recruited from an official fan community, likely skewing toward committed players; a single game and genre; structural model results cannot establish causation.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-14",
+      "doi": "10.1108/apjml-04-2026-0813",
+      "paper_title": "Experiential over functional: how intrinsic motivation and identity drive virtual goods consumption in digital service platforms",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7220468936",
+      "headline": "Local or foreign face? A 540-person ad test on what makes aspirational fashion brands land with Gen Z women",
+      "the_study": "Pakistani researchers first used two focus groups to choose brands, celebrities and ad copy, then ran a quasi-experiment with 540 Gen Z women using a 2x2 design: celebrity endorser type (local vs. foreign) crossed with message frame (rational vs. emotional) in fictional print ads for \"masstige\" fashion brands — mass-market products with prestige positioning. Both endorsement and framing activated perceived masstige brand value, which in turn shaped the different forms of motivation (intrinsic, identified, introjected and extrinsic) behind wanting the brand. Brand credibility moderated the effect: celebrity endorsement worked harder for brands consumers already found credible.",
+      "why_it_matters": "It suggests celebrity spend is not a substitute for brand credibility but a multiplier of it — a caution for mid-tier brands buying famous faces to manufacture prestige they haven't earned.",
+      "story_angle_primary": "Brand teams in affordable-luxury categories could treat celebrity casting as a credibility-dependent investment: measure baseline brand credibility before committing budget, and A/B test local versus international endorsers and rational versus emotional copy within the same campaign. These were fictional print ads seen by a young female sample in one market, so results indicate what can happen, not what a live campaign will deliver.",
+      "story_angle_secondary": "The study illustrates how aspirational marketing works on motivation: an ad can shift whether you want something because you genuinely enjoy it, because it fits who you want to be, or because you'd feel judged without it — and most shoppers never notice the difference.",
+      "caveats": "Fictional print advertisements rather than real campaigns, and outcomes are perceptions and motivations rather than purchases; quasi-experiment, not full randomization; a single country (Pakistan) and a single demographic (Gen Z women), limiting generalizability; the abstract does not report which endorser type or frame performed better.",
+      "journal": "Young Consumers Insight and Ideas for Responsible Marketers",
+      "published": "2026-10-05",
+      "doi": "10.1108/yc-04-2026-3153",
+      "paper_title": "Message framing and celebrity endorsement in masstige brand advertising: an organismic integration perspective on Gen Z female consumers’ motivational regulation",
+      "source_id": "S46472734"
+    },
+    {
+      "work_id": "W7214722003",
+      "headline": "Latin American coffee drinkers will pay extra for organic and fair trade — but \"local origin\" beats country-of-origin bragging",
+      "the_study": "Researchers surveyed 1,633 consumers in Colombia, Ecuador, El Salvador and Guatemala and ran a discrete choice experiment on five coffee attributes: organic certification, country of origin, socio-environmental certifications, coffee type and price. Mixed logit models showed significant positive willingness to pay for USDA Organic, for locally grown origin, and for socio-environmental labels such as Fair Trade and Rainforest Alliance. Preferences for country-of-origin labeling and specialty coffee types, by contrast, varied substantially from country to country.",
+      "why_it_matters": "Coffee-producing countries are increasingly large consumer markets in their own right, and this gives producers and retailers concrete evidence on which badges on the bag actually command a price premium at home rather than only in export markets.",
+      "story_angle_primary": "For brands selling in producing regions, the finding suggests certification seals — not origin storytelling or specialty-grade positioning — are the more reliable premium lever, and that origin claims may need to be tuned country by country rather than run as one regional campaign. Worth validating with in-store price tests before repricing.",
+      "story_angle_secondary": "The stereotype that sustainability labels are a rich-country indulgence looks shaky: consumers in four Latin American markets said they would pay more for organic and fair trade coffee grown near them.",
+      "caveats": "A choice experiment based on hypothetical purchase decisions, not observed sales; stated willingness to pay typically overstates real spending; limited to four countries and one product category.",
+      "journal": "Journal of International Food & Agribusiness Marketing",
+      "published": "2026-09-28",
+      "doi": "10.1080/08974438.2026.2737929",
+      "paper_title": "Unpacking consumer preferences and willingness to pay for sustainable coffee certifications in Latin America",
+      "source_id": "S192372812"
+    },
+    {
+      "work_id": "W7128495320",
+      "headline": "\"Pick what you want\" and \"reject what you don't\" are not the same shopping task — your brain treats them differently",
+      "the_study": "In a virtual food-shopping task, participants saw food images one at a time and either accepted (\"Take\"), rejected (\"Leave\") or, in some versions, postponed (\"Wait\") each item. The researchers crossed two framings: choice framing (a forced binary versus the option to defer) and goal framing (instructions to select positively versus to select by rejection). Accepting took longer than rejecting, deferring took longest of all, and negative-selection framing reversed the pattern at some decision stages and produced far more variability in deferral behavior — with none of the steady adaptation across the shopping sequence seen in positive-selection tasks.",
+      "why_it_matters": "How a shopping interface asks the question — build your basket versus remove what you don't want — changes the cognitive load and the dynamics of each decision, which matters for everything from online grocery flows to meal-kit customization and opt-out defaults.",
+      "story_angle_primary": "Teams designing e-commerce configurators, subscription boxes and curated baskets could A/B test positive-selection against rejection-based flows: this lab evidence suggests rejection framing keeps cognitive demand high throughout rather than letting shoppers settle into a rhythm, which may affect abandonment on longer sessions.",
+      "story_angle_secondary": "Decision fatigue has a measurable signature. Saying yes takes longer than saying no, and \"I'll decide later\" takes longest of all — which is one reason a long shopping session leaves you drained and full of undecided items.",
+      "caveats": "A controlled lab-style task with food images rather than real purchases; the abstract does not report sample size or composition; no money changed hands and no actual consumption followed.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-09-17",
+      "doi": "10.1016/j.foodqual.2026.106113",
+      "paper_title": "Choice and goal framing effects in food evaluation: The roles of positive–negative asymmetry and decision sequence",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7203765190",
+      "headline": "A free, street-level map of how England and Wales shops",
+      "the_study": "Researchers combined the PDV Consumer Lifestyle Survey, the 2021 Census and built-environment accessibility metrics, using spatial microsimulation to build synthetic populations at Lower Super Output Area level across England and Wales. Eight domains — household composition, financial resilience, lifestyle, mobility, online engagement, social networks, shopping patterns and socioeconomic status — fed a clustering analysis that produced four main consumer types (affluent professionals, budget-conscious young urbanites, family-oriented suburban consumers and traditional rural consumers) plus nine subclusters.",
+      "why_it_matters": "Commercial geodemographic segmentations are expensive black boxes; an open national classification built on actual consumer survey behavior rather than demographics alone gives smaller retailers, planners and public bodies a shared, inspectable base for site and assortment decisions.",
+      "story_angle_primary": "Brands paying for proprietary segmentation could benchmark it against this open classification, particularly where the interest is in neighborhood-level demand and retail accessibility rather than individual targeting — and watch whether open geodemographics start eroding the commercial products' pricing power.",
+      "story_angle_secondary": "Your postcode already tells retailers a great deal about your financial resilience, how you get around and whether you shop online — and the data behind that inference is becoming publicly available rather than only for sale.",
+      "caveats": "A classification method paper: the clusters are modeled estimates from synthetic populations, not observed purchases; covers England and Wales only and leans on a single commercial lifestyle survey; validation against real sales outcomes is not reported.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-08-19",
+      "doi": "10.1108/ijrdm-06-2025-0436",
+      "paper_title": "Developing an open, national-level, small-area geodemographic classification of consumer behaviour",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7214717190",
+      "headline": "When worldly taste backfires: Mexican consumers mock the globe-trotting elite online",
+      "the_study": "A non-participatory netnography analyzed 184 posts and roughly 2,200 comments from the Facebook community Cosas de Whitexicans between July 2023 and June 2025, examining how privileged Mexican consumers perform cosmopolitan identity and how that performance is publicly judged. Thematic analysis identified two dimensions: the depth of cultural capital on display (surface-level versus immersive cosmopolitanism) and the intensity of the contestation it attracts (mocking versus criticizing). Cosmopolitan consumption emerged as both a status resource and a liability that can be stripped away in public.",
+      "why_it_matters": "In unequal emerging markets, global-lifestyle positioning is not a neutral aspiration cue; it can read as class display and attract organized online ridicule that drags the brand along with the consumer.",
+      "story_angle_primary": "International brands running aspirational, globally coded campaigns in Latin America should pressure-test whether the imagery signals cultivated taste or shallow privilege — this study suggests audiences distinguish between the two sharply, and that the shallow version invites mockery that travels fast on social platforms.",
+      "story_angle_secondary": "Social media has become a courtroom for taste: the study shows how ordinary users collectively decide whose travel photos and imported preferences count as genuine cosmopolitanism and whose are just money.",
+      "caveats": "Qualitative, interpretive analysis of a single Facebook community in one country; posts selected by the researchers; no measurement of effects on purchase behavior or brand outcomes.",
+      "journal": "International Marketing Review",
+      "published": "2026-09-29",
+      "doi": "10.1108/imr-10-2025-0508",
+      "paper_title": "Cosmopolitanism in the digital age: cultural capital and digital contestation in the Mexican context",
+      "source_id": "S35673206"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7220393204",
+      "headline": "\"I'm still waiting in your cart\": when the product does the talking, shoppers come back",
+      "verdict": "accurate",
+      "notes": "Study count, mechanisms, moderator and behavioral outcome all match; caveats correctly note the Study 5 measure includes self-reported abandonment likelihood.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7220383982",
+      "headline": "A dog eating the snack makes shoppers think it's healthier",
+      "verdict": "minor",
+      "notes": "Faithful to the abstract; one small slip is describing the eater generically as \"a pet\" in the headline as \"a dog\" — the abstract only says \"pet eater.\"",
+      "issues": [
+        {
+          "label": "Headline specifies a dog",
+          "severity": "Minor",
+          "as_written": "A dog eating the snack makes shoppers think it's healthier",
+          "abstract_says": "a pet eater makes nature-related meaning salient",
+          "problem": "The abstract refers only to a generic \"pet eater\"; nothing confirms dogs specifically were the stimulus.",
+          "suggested_fix": "Change the headline to \"A pet eating the snack makes viewers think it's healthier.\""
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7214899977",
+      "headline": "Status without possessions: how brands profit from digital bragging rights",
+      "verdict": "accurate",
+      "notes": "N=769 across three countries, three status values, and the self-status to brand-status path all match; caveats appropriately note cross-sectional limits.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7220388832",
+      "headline": "The more jobs you juggle, the more you crave nostalgia",
+      "verdict": "minor",
+      "notes": "Design, N, platform, mediators and the null moderator result are accurate. One wording slip reverses how the serial mediator is described.",
+      "issues": [
+        {
+          "label": "Mediator described as \"need for self-continuity\"",
+          "severity": "Minor",
+          "as_written": "with reduced self-concept clarity and a need for self-continuity acting as serial mediators",
+          "abstract_says": "Self-concept clarity and self-continuity play a serial mediating role in this relationship.",
+          "problem": "The abstract names self-concept clarity and self-continuity as the mediators without specifying direction (\"reduced\") or reframing self-continuity as a \"need.\" The digest adds detail not in the abstract.",
+          "suggested_fix": "Say \"with self-concept clarity and self-continuity acting as serial mediators\" without asserting direction."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7220380523",
+      "headline": "Let AI pick your vacation, not your phone: when delegation helps and when it stings",
+      "verdict": "accurate",
+      "notes": "Four 2x2 studies, N=1427, category list, and the experiential/material divergence with savoring and autonomy frustration all match.",
+      "issues": []
+    },
+    {
+      "number": 6,
+      "work_id": "W7215077900",
+      "headline": "Shoppers trust the logo and the claim for different reasons — and self-reported \"green\" segments get it wrong",
+      "verdict": "minor",
+      "notes": "Numbers and design accurate; the consumer-facing angle slightly misstates the certification-framing finding and the digest drops the null platform-trust moderation.",
+      "issues": [
+        {
+          "label": "Consumer angle reframes the certification shift",
+          "severity": "Minor",
+          "as_written": "a stronger certification can shift which reason feels more persuasive",
+          "abstract_says": "superior certification shifts dual-motivated consumers' default health preference toward environmental framing, narrowing it to near-parity",
+          "problem": "The abstract's effect is specific to dual-motivated consumers and to a shift toward environmental framing; the digest's generalized phrasing loses the segment boundary.",
+          "suggested_fix": "Specify that among dual-motivated shoppers, stronger certification shifts the default health preference toward environmental framing."
+        },
+        {
+          "label": "Omitted null result on platform trust",
+          "severity": "Minor",
+          "as_written": "analyzed with conditional logit, latent class analysis and trust-stratified models",
+          "abstract_says": "Platform trust does not significantly moderate certification premiums.",
+          "problem": "The digest mentions trust-stratified models but never reports the null finding that platform trust did not moderate certification premiums — a practically relevant result for retailers.",
+          "suggested_fix": "Add a sentence noting that platform trust did not significantly moderate certification premiums."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7214744519",
+      "headline": "Advertising the joy of missing out: opting-out appeals raised purchase intent via perceived brand authenticity",
+      "verdict": "minor",
+      "notes": "Design and n=625 match. The moderation is described slightly loosely, and the \"single study program\" caveat is unverifiable.",
+      "issues": [
+        {
+          "label": "Moderator described as overall effect strength",
+          "severity": "Minor",
+          "as_written": "The effect was strongest among consumers high in social comparison orientation",
+          "abstract_says": "Study 3 shows social comparison orientation strengthens the effect of JOMO-oriented advertising on brand authenticity, thereby carrying its influence on purchase intention through brand authenticity and the serial pathway.",
+          "problem": "The abstract locates the moderation specifically on the ad-to-brand-authenticity path, not on the overall effect; the digest generalizes it.",
+          "suggested_fix": "Say the moderation operated on the path from JOMO advertising to perceived brand authenticity."
+        },
+        {
+          "label": "Claim about participant source",
+          "severity": "Minor",
+          "as_written": "participants were social media users in a single study program",
+          "abstract_says": "Three between-subjects experiments (n = 625) with social media users",
+          "problem": "The abstract says only that participants were social media users; \"a single study program\" is not stated.",
+          "suggested_fix": "Drop \"in a single study program\" or mark it as not reported in the abstract. Unverifiable from abstract only."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7212065721",
+      "headline": "Voice calls are now the least valuable part of your phone plan — and how much least depends on where you live",
+      "verdict": "minor",
+      "notes": "Sample, countries, method and the declining voice value share are accurate, but the headline asserts voice is the least valuable attribute, which the abstract does not state.",
+      "issues": [
+        {
+          "label": "Headline claims voice is least valuable",
+          "severity": "Moderate",
+          "as_written": "Voice calls are now the least valuable part of your phone plan",
+          "abstract_says": "the value share of voice communication consistently declined from 3G to 5G ... users in the USA and Germany emphasize traditional voice and text services",
+          "problem": "The abstract reports a declining value share for voice, not that voice ranks last among the six attributes; in the US and Germany voice is still emphasized, which contradicts the headline's universality.",
+          "suggested_fix": "Reframe as \"Voice is a shrinking share of what people value in a phone plan — and how fast it shrinks depends on where you live.\""
+        },
+        {
+          "label": "Attribute naming",
+          "severity": "Minor",
+          "as_written": "six categories of mobile service — voice, social networking, information access, mobile finance, mobile shopping and digital content",
+          "abstract_says": "voice communication, social networking, information access, financial services, mobile shopping and digital content",
+          "problem": "Minor paraphrase of \"financial services\" as \"mobile finance\"; harmless but slightly narrows the attribute.",
+          "suggested_fix": "Use the abstract's label \"financial services.\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7219780211",
+      "headline": "Prettier isn't better: in AR shopping, vividness adds nothing, but interactivity and novelty move willingness to pay",
+      "verdict": "minor",
+      "notes": "Mostly faithful; the headline overstates that interactivity and novelty move WTP, and the body drops the quality finding and partly misstates the product-uncertainty moderator.",
+      "issues": [
+        {
+          "label": "Headline links interactivity/novelty directly to WTP",
+          "severity": "Minor",
+          "as_written": "vividness adds nothing, but interactivity and novelty move willingness to pay",
+          "abstract_says": "Interactivity and novelty were the most consistent drivers of need satisfaction ... Autonomy predicted willingness to pay",
+          "problem": "Interactivity and novelty drove need satisfaction; only autonomy was linked to willingness to pay. The headline compresses a mediated chain into a direct effect.",
+          "suggested_fix": "Reframe as \"interactivity and novelty drive the psychological needs that feed price premiums.\""
+        },
+        {
+          "label": "Product uncertainty moderator partly dropped",
+          "severity": "Minor",
+          "as_written": "check whether high product uncertainty blunts the autonomy route in your category",
+          "abstract_says": "product uncertainty weakens the autonomy and relatedness pathways but not the competence pathway",
+          "problem": "The digest names only the autonomy pathway; the abstract reports uncertainty also weakens relatedness, and notably not competence.",
+          "suggested_fix": "Mention that product uncertainty weakens both autonomy and relatedness pathways but not competence."
+        },
+        {
+          "label": "Quality finding omitted",
+          "severity": "Minor",
+          "as_written": "modeling how four AR attributes — interactivity, vividness, novelty and quality — relate to satisfaction of three psychological needs",
+          "abstract_says": "quality was associated with autonomy alone, and only marginally so",
+          "problem": "The digest lists quality as an attribute but never reports its weak result, leaving readers to infer it behaved like interactivity and novelty.",
+          "suggested_fix": "Note that quality related only marginally to autonomy."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7215041317",
+      "headline": "\"Service camouflage\": how platform sellers reset their reputations by changing who they appear to be",
+      "verdict": "accurate",
+      "notes": "Seven cross-jurisdiction cases, four practices, four signal mechanisms, the two conceptual tools and the legitimate-portfolio boundary all match; caveats correctly flag the untested framework.",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "work_id": "W7214384564",
+      "headline": "The standard model of healthy eating was built on mostly female samples — it mostly, but not entirely, holds for men",
+      "verdict": "minor",
+      "notes": "Design, N, 22% variance and the retained/dropped indicator lists all match the abstract. Two interpretive lines tilt the relative importance of the COM-B blocks away from what the abstract reports (motivation strongest).",
+      "issues": [
+        {
+          "label": "Relative importance of predictors",
+          "severity": "Minor",
+          "as_written": "What is in your kitchen and what you see other people eating appear to shape your diet more than your beliefs about nutrition do",
+          "abstract_says": "capability and opportunity were associated with behaviour indirectly through motivation, which was the strongest predictor of diet quality",
+          "problem": "The abstract identifies motivation (which includes intentions, self-efficacy, affective attitudes and perceived behavioural control) as the strongest predictor, with opportunity indicators such as the home food environment and descriptive norms operating indirectly through it. The digest's ranking of environment and norms above beliefs is not what the model reported, even though instrumental attitudes did drop out at the indicator level. The same tilt appears in 'where habit, home environment and what peers are seen eating did the explanatory work'.",
+          "suggested_fix": "Reword to: 'motivation remained the strongest predictor, but the specific levers that held up for men were habit, the home food environment and descriptive norms rather than instrumental, information-based attitudes.'"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7203639635",
+      "headline": "Why people go out at night: safety and transport move the money, and FOMO amplifies everything",
+      "verdict": "minor",
+      "notes": "Sample, region, methods, four factors, place-identity mediation and the FoMO moderation all match. The headline and one consumer line rank or extend effects the abstract does not quantify.",
+      "issues": [
+        {
+          "label": "Headline singles out two of four factors",
+          "severity": "Minor",
+          "as_written": "safety and transport move the money",
+          "abstract_says": "The results confirm four key decision-making factors: safety, transport, quality and social, which have a significant impact on NTE usage and expenditure.",
+          "problem": "The abstract reports all four factors as significant and gives no ranking, so elevating safety and transport over venue quality and social draw is not supported by the abstract. The same emphasis recurs in 'lighting, policing and transport schedules may do more for takings than another drinks promotion'.",
+          "suggested_fix": "Change the headline to reference all four confirmed factors, e.g. 'safety, transport, venue quality and the social draw all move the money'."
+        },
+        {
+          "label": "FoMO described as raising spend",
+          "severity": "Minor",
+          "as_written": "And if you're prone to fear of missing out, all of those considerations get louder — and your night-out budget tends to be bigger.",
+          "abstract_says": "these relationships are stronger for individuals who report higher levels of FoMO",
+          "problem": "FoMO is reported only as a moderator that strengthens the links between decision factors and usage/expenditure; the abstract does not report a direct main effect of FoMO on how much people spend.",
+          "suggested_fix": "Say that for high-FoMO respondents the link between these considerations and spending was stronger, rather than that their budgets are bigger."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7212753203",
+      "headline": "In free-to-play games, beauty sells and performance doesn't",
+      "verdict": "minor",
+      "notes": "N, recruitment, and the pattern of significant/non-significant value dimensions match. Minor terminology swap on the price variable, an unstated moderator, and 'whales' language.",
+      "issues": [
+        {
+          "label": "Price utility relabelled as price fairness",
+          "severity": "Minor",
+          "as_written": "price fairness was the only functional dimension that mattered",
+          "abstract_says": "Functional dimensions of quality and competency showed no significant effects, while price utility emerged as the only functional predictor.",
+          "problem": "The measured construct is price utility; perceived fairness appears only in the authors' practical recommendations, not as the tested variable.",
+          "suggested_fix": "Use 'price utility (perceived value for money)' when describing the finding and reserve 'fairness' for the authors' recommendation."
+        },
+        {
+          "label": "Gaming-intensity moderator omitted from the study description",
+          "severity": "Minor",
+          "as_written": "tested which types of perceived value drive attitudes toward virtual characters and intention to buy them",
+          "abstract_says": "Gaming intensity was included as a moderating variable... Gaming intensity moderated the effects of price utility and self-image representation among high-intensity players.",
+          "problem": "A moderator the abstract names and reports as significant is absent from the study summary; it surfaces only obliquely in a story angle.",
+          "suggested_fix": "Add a clause noting that gaming intensity moderated the price-utility and self-image effects among high-intensity players."
+        },
+        {
+          "label": "'Whales' and 'sells' overstate the outcome",
+          "severity": "Minor",
+          "as_written": "transparent, fair pricing still matters even to the most engaged whales",
+          "abstract_says": "theory-testing survey design... Structural equation modeling (SEM) was used to test hypothesized relationships among consumption value dimensions, attitude, and purchase intention",
+          "problem": "The outcome is stated purchase intention from a cross-sectional survey, not revenue, and the abstract describes 'high-intensity players', not high-spending whales.",
+          "suggested_fix": "Replace 'whales' with 'high-intensity players' and frame the headline around purchase intention rather than sales."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7220468936",
+      "headline": "Local or foreign face? A 540-person ad test on what makes aspirational fashion brands land with Gen Z women",
+      "verdict": "minor",
+      "notes": "Design, n = 540, 2x2 factors, MBV pathway to the four motivational regulations, and the brand-credibility moderation all match the abstract; the caveat correctly notes no winner is reported.",
+      "issues": [
+        {
+          "label": "Researchers' nationality",
+          "severity": "Minor",
+          "as_written": "Pakistani researchers first used two focus groups to choose brands, celebrities and ad copy",
+          "abstract_says": "this study is the first to empirically test the moderating role of brand credibility in the relationship between celebrity endorsement and message framing among Gen Z females in Pakistan",
+          "problem": "The abstract establishes that the study context and sample are Pakistani but says nothing about the researchers' nationality or affiliation. Unverifiable from abstract only.",
+          "suggested_fix": "Rewrite as 'Researchers studying Gen Z women in Pakistan first used two focus groups...'"
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7214722003",
+      "headline": "Latin American coffee drinkers will pay extra for organic and fair trade — but \"local origin\" beats country-of-origin bragging",
+      "verdict": "accurate",
+      "notes": "Sample size, four countries, five attributes, mixed logit results and the country-level variation in origin and specialty preferences all match; the hypothetical-WTP limitation is flagged.",
+      "issues": []
+    },
+    {
+      "number": 16,
+      "work_id": "W7128495320",
+      "headline": "\"Pick what you want\" and \"reject what you don't\" are not the same shopping task — your brain treats them differently",
+      "verdict": "minor",
+      "notes": "Task design, the two framings and the Take/Leave/Wait processing-time ordering match. The headline implies neural measurement and two result descriptions are slightly stronger than the abstract's wording.",
+      "issues": [
+        {
+          "label": "Neuro framing in headline",
+          "severity": "Minor",
+          "as_written": "your brain treats them differently",
+          "abstract_says": "\"Take\" decisions required longer processing times in both image viewing and evaluation stages than \"Leave\" decisions, whereas the \"Wait\" decision elicited the longest processing times",
+          "problem": "The reported measures are behavioural processing times in a sequential task, not brain data; the headline implies neuroimaging or physiological measurement that the abstract does not describe.",
+          "suggested_fix": "Rephrase as 'they take different amounts of mental effort' or 'decision times differ'."
+        },
+        {
+          "label": "Absolute wording on sequence effects and variability",
+          "severity": "Minor",
+          "as_written": "produced far more variability in deferral behavior — with none of the steady adaptation across the shopping sequence seen in positive-selection tasks",
+          "abstract_says": "higher between-participant variability for \"Wait\" decisions compared to Positive-selection tasks... such temporal modulation was largely absent under Negative-selection",
+          "problem": "'Far more' and 'none of' harden the abstract's 'higher' and 'largely absent' into absolutes.",
+          "suggested_fix": "Use 'higher between-participant variability' and 'with the across-sequence adaptation largely absent'."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7203765190",
+      "headline": "A free, street-level map of how England and Wales shops",
+      "verdict": "minor",
+      "notes": "Data sources, spatial microsimulation at LSOA level, the eight domains, four clusters and nine subclusters all match the abstract. The headline's spatial granularity and one editorial characterisation go beyond it.",
+      "issues": [
+        {
+          "label": "'Street-level' overstates resolution",
+          "severity": "Minor",
+          "as_written": "A free, street-level map of how England and Wales shops",
+          "abstract_says": "Spatial microsimulation is used to create synthetic populations at the Lower Super Output Area level",
+          "problem": "LSOAs are small-area neighbourhood units of roughly 1,500 residents, not streets; the abstract consistently calls this a 'small-area' classification.",
+          "suggested_fix": "Change to 'a free, neighbourhood-level map' or 'small-area map'."
+        },
+        {
+          "label": "Characterisation of commercial products",
+          "severity": "Minor",
+          "as_written": "Commercial geodemographic segmentations are expensive black boxes",
+          "abstract_says": "Existing frameworks overlook localised variations and fail to integrate consumer surveys.",
+          "problem": "The abstract's stated gap is localised variation and the absence of consumer-survey integration; it makes no claim about cost or opacity of commercial products.",
+          "suggested_fix": "Attribute the gap as the abstract states it, e.g. 'existing frameworks miss local variation and do not integrate consumer surveys'."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "work_id": "W7214717190",
+      "headline": "When worldly taste backfires: Mexican consumers mock the globe-trotting elite online",
+      "verdict": "minor",
+      "notes": "Netnography design, 184 posts, ~2,200 comments, date window and the two thematic dimensions all match. The 'Why it matters' asserts a brand consequence the study did not measure, which the caveat itself concedes.",
+      "issues": [
+        {
+          "label": "Brand spillover claim not measured",
+          "severity": "Minor",
+          "as_written": "it can read as class display and attract organized online ridicule that drags the brand along with the consumer",
+          "abstract_says": "the intensity of symbolic boundary contestation (mocking and criticizing)... claims to cosmopolitan status are publicly evaluated and challenged in emerging-market contexts marked by historical inequalities",
+          "problem": "The abstract documents contestation of individuals' cosmopolitan performances; nothing in it measures or reports consequences for brands, and the digest's own caveat says brand outcomes were not measured.",
+          "suggested_fix": "Hedge to 'which may expose brands associated with that imagery to the same ridicule, though brand effects were not measured'."
+        },
+        {
+          "label": "'Stripped away' phrasing",
+          "severity": "Minor",
+          "as_written": "Cosmopolitan consumption emerged as both a status resource and a liability that can be stripped away in public",
+          "abstract_says": "cosmopolitanism serves as both a resource for distinction and a contested identity within digitally mediated fields",
+          "problem": "The abstract describes a contested identity, not one that is demonstrably stripped away; the digest's phrasing implies a stronger, documented outcome.",
+          "suggested_fix": "Use 'both a resource for distinction and an identity that is publicly contested'."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 18,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7220393204": {
+        "query": "still waiting cart product does talking shoppers come back",
+        "returned": 5,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220383982": {
+        "query": "dog eating snack makes shoppers think healthier",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214899977": {
+        "query": "Status without possessions brands profit digital bragging rights",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220388832": {
+        "query": "jobs juggle crave nostalgia",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220380523": {
+        "query": "Let pick vacation not phone delegation helps stings",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215077900": {
+        "query": "Shoppers trust logo claim different reasons self reported green segments",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214744519": {
+        "query": "Advertising joy missing out opting out appeals raised purchase intent",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212065721": {
+        "query": "Voice calls now least valuable part phone plan much least",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7219780211": {
+        "query": "Prettier isn better shopping vividness adds nothing but interactivity novelty",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7215041317": {
+        "query": "Service camouflage platform sellers reset their reputations changing who they",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214384564": {
+        "query": "standard model healthy eating built mostly female samples mostly but",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203639635": {
+        "query": "people out night safety transport move money FOMO amplifies everything",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212753203": {
+        "query": "free play games beauty sells performance doesn",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220468936": {
+        "query": "Local foreign face 540 person test makes aspirational fashion brands",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214722003": {
+        "query": "Latin American coffee drinkers will pay extra organic fair trade",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7128495320": {
+        "query": "Pick want reject don not same shopping task brain treats",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203765190": {
+        "query": "free street level map England Wales shops",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214717190": {
+        "query": "worldly taste backfires Mexican consumers mock globe trotting elite online",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- Nostalgia keeps showing up as a compensatory response to a destabilized self, not a generational taste. \"The more jobs you juggle, the more you crave nostalgia\" (W7220388832) runs through reduced self-concept clarity and a need for self-continuity, which maps closely onto the previous digest's \"The busier people feel, the more they want the games of their childhood\" (W7203605101), where busyness worked through emotional instability. Two different destabilizers, the same stabilizing purchase.\n- Non-human or non-brand presence in the frame keeps beating the obvious human option. \"A dog eating the snack makes shoppers think it's healthier\" (W7220383982) and \"'I'm still waiting in your cart'\" (W7220393204) both find that shifting the speaking or consuming subject away from a person or a brand voice lifts response — a continuation of \"Put a face in the first five seconds and fewer people watch your ad\" (W7212428236) and \"Virtual influencers get more traction when they're pictured hanging out with real people\" (W4318015176).\n- Interface architecture, not just merchandise, is doing the persuasion work. \"'Pick what you want' and 'reject what you don't' are not the same shopping task\" (W7128495320) extends the previous digest's \"Infinite scroll sells — and then gets returned\" (W7214126722): both locate cognitive load and decision closure in how the flow is structured rather than in the product.\n- Gender-blind consumer models keep failing their replication tests. \"The standard model of healthy eating was built on mostly female samples\" (W7214384564) joins \"Sticky seats beat beer lists\" (W7172190947) and \"Rivalry ads split the crowd by gender\" (W7203929993) in showing that segments assumed to be interchangeable are not.\n- Sustainability claims remain non-substitutable levers. \"Shoppers trust the logo and the claim for different reasons\" (W7215077900) and \"Latin American coffee drinkers will pay extra for organic and fair trade\" (W7214722003) both separate certification from framing, echoing \"Consumers will pay more for low-carbon milk — but a big chunk of them dislike 'organic'\" (W7213546298).\n\n**Advances**\n- The AI-delegation literature moves from person-level traits to category boundaries. Last digest's \"Why ambitious people don't want AI to do it for them\" (W7204561075) and \"Emotional AI in customer service only works on customers who want a relationship with your brand\" (W7204588967) made the benefit conditional on who the consumer is; \"Let AI pick your vacation, not your phone\" (W7220380523) makes it conditional on what is being bought, with autonomy frustration in material categories and anticipatory savoring in experiential ones.\n- \"Prettier isn't better: in AR shopping, vividness adds nothing\" (W7219780211) sharpens the previous digest's \"More photos, fewer bookings\" (W7213493969): where the earlier study found redundant visual volume suppressing demand, this one finds visual fidelity simply inert, and relocates the lift to interactivity and novelty.\n- \"Shoppers trust the logo and the claim for different reasons\" (W7215077900) advances the milk work (W7213546298) methodologically by showing that self-reported green motivation misclassifies a 53.5% dual-motivated majority — a direct warning about the attitudinal segmentation that earlier studies in this space lean on.\n\n**Counterpoints**\n- The \"friction raises value\" thread from last run — \"Make people suffer a little\" (W7204997257) and ideal-self rejection of substitutional AI (W7204561075) — meets a boundary in \"Let AI pick your vacation, not your phone\" (W7220380523), where handing the decision away actually raises well-being for experiences. Effort is not uniformly the thing consumers want to retain.\n- \"Advertising the joy of missing out\" (W7214744519) and \"Why people go out at night\" (W7203639635) sit in tension with each other inside this batch: JOMO appeals work best on high social-comparison consumers, while FOMO amplifies night-time spending across the board. Whether opt-out messaging and scarcity messaging reach the same people is now an open question.\n\n**New themes**\n- Virtual status and virtual-goods economics arrive as a cluster: \"Status without possessions\" (W7214899977) and \"In free-to-play games, beauty sells and performance doesn't\" (W7212753203) have no counterpart in the previous digest.\n- Trust-signal integrity on platforms is new: \"'Service camouflage'\" (W7215041317) documents how seller identity can be reset to sever reviews from the business they describe.\n- So is contested identity performance — \"When worldly taste backfires\" (W7214717190) — and open-data segmentation infrastructure, \"A free, street-level map of how England and Wales shops\" (W7203765190).",
+    "feature_pitch": "**The pattern:** Across this batch, the thing being sold is increasingly a sense of self rather than an object, and the materials are cheap. \"Status without possessions\" (W7214899977) shows avatars, badges and gated channels conferring the status cars and clothes used to; \"In free-to-play games, beauty sells and performance doesn't\" (W7212753203) finds players paying for aesthetics because the character becomes an extension of the self, with social display non-significant; \"The more jobs you juggle, the more you crave nostalgia\" (W7220388832) ties fragmented work identities to demand for retro services as a self-continuity fix; and \"Advertising the joy of missing out\" (W7214744519) sells self-congruity by endorsing opting out. \"When worldly taste backfires\" (W7214717190) supplies the check: audiences now publicly adjudicate whose identity performance is earned and whose is just money.\n\n**Why pitch this now:** Multi-jobholding and side-hustle work keep expanding while discretionary spending is squeezed, and brands are simultaneously standing up Discord servers, loyalty tiers and in-game stores that mint status at near-zero marginal cost — a genuine substitution of symbolic goods for physical ones that nobody is costing out.\n\n**Angle:** A reported feature on the economics of identity goods — why status, belonging and self-continuity have become the product, who is minting them, what they cost to produce versus what they sell for, and how fast social audiences can strip the value back out. Written for brand and community leaders, with a consumer throughline about why a fragmented working life makes these purchases feel necessary.\n\n**Potential headlines:**\n- Brands have found a cheaper way to sell status\n- Nobody in the game is paying to win anymore\n- Your side hustle is quietly rewriting your shopping list\n\n**Potential outlets:**\n- **Marketing Brew** — covers loyalty programs and brand communities closely, and the \"status minted from badges and gated access\" finding gives their audience a concrete structure for what those programs are actually selling.\n- **The Drum** — strong on gaming, virtual goods and brand-community creative, where the free-to-play aesthetics-over-performance finding is a direct provocation to monetization orthodoxy.\n- **MIT Sloan Management Review** — a natural home for the management argument that symbolic status assets are a balance-sheet-light alternative to product differentiation, with the reputational downside risk built in.\n- **Vox** — runs consumer-culture and money explainers, and the link between multi-jobholding, blurred self-concept and nostalgia spending is exactly the kind of everyday-economics story their readers follow.",
+    "pitch_ideas": "- **\"I'm still waiting in your cart\" (Work ID W7220393204):** A near-free copy test for any e-commerce team — write the reminder in the product's voice, not the brand's — with a built-in skeptic's question about whether the novelty mediator survives repeat sends, for a marketing-trade news brief or an e-commerce CRM column.\n- **A dog eating the snack makes shoppers think it's healthier (Work ID W7220383982):** Casting a pet as the visible eater manufactures an impression of \"naturalness\" that survives sponsorship disclosure — which puts it uncomfortably close to an unregulated implied health claim, for a food-marketing trade piece or an ad-regulation explainer.\n- **Status without possessions (Work ID W7214899977):** Three cheap digital artifacts — distinctive avatars, earned titles, gated access — do the work expensive physical signals do offline, and members' status spills upward onto the brand, for a CMO-audience column or a loyalty/community trade feature.\n- **The more jobs you juggle, the more you crave nostalgia (Work ID W7220388832):** Nostalgia as a targeting variable for multi-jobholders rather than a generational broadcast play, with the consumer-side line that the side hustle carries a psychological bill, for a consumer-psychology explainer in a general-interest or personal-finance section.\n- **Let AI pick your vacation, not your phone (Work ID W7220380523):** AI shopping assistants are being switched on catalog-wide, but the same feature delights in travel and irritates buyers of durable goods — a product-design argument for advisory rather than decisive AI in considered categories, for a tech-business column or a retail trade explainer.\n- **Shoppers trust the logo and the claim for different reasons (Work ID W7215077900):** Self-described green segments misroute more than half of shoppers, and certification is a broad trust investment while health-versus-environment framing is a targeted one — plus a concrete break-even price point, for a sustainability-marketing trade piece.\n- **Advertising the joy of missing out (Work ID W7214744519):** After a decade of monetizing FOMO, early evidence that permission to stay home sells too — and works hardest on the comparison-prone audience FOMO creative targets, for a brand-strategy column or an advertising trade news item.\n- **Voice calls are now the least valuable part of your phone plan (Work ID W7212065721):** Conjoint data from four countries showing voice utility collapsing while mobile payments and social carry the value in Korea and Japan but not Germany or the US — a case against one global bundle, for a telecom trade outlet or a business-of-tech column.\n- **Prettier isn't better: in AR shopping, vividness adds nothing (Work ID W7219780211):** Retailers funding photorealistic rendering may be buying the one AR attribute that doesn't differentiate, while interactivity drives the autonomy that raises willingness to pay, for a retail-technology trade explainer.\n- **\"Service camouflage\" (Work ID W7215041317):** A taxonomy of how platform sellers reset reputations — alias proliferation, cloning, rapid relisting, ownership obfuscation — and why a five-star local contractor's review history may belong to an identity rather than a business, for a consumer-affairs investigation or a platform-governance trade piece.\n- **The standard model of healthy eating was built on mostly female samples (Work ID W7214384564):** Instrumental \"this is good for you\" messaging and shopping-environment nudges carry less weight for men, where habit, home food environment and what peers are seen eating did the work, for a public-health or food-marketing explainer.\n- **Why people go out at night (Work ID W7203639635):** Late-night spending reframed as an infrastructure and belonging problem — lighting, transport and place identity over drinks promotions — with FOMO amplifying everything, for a hospitality trade piece or a city/urban-policy section.\n- **In free-to-play games, beauty sells and performance doesn't (Work ID W7212753203):** Money follows art direction and perceived price fairness, not power upgrades, and social display was non-significant — a challenge to pay-to-win monetization instincts, for a games-business brief or a consumer-psychology explainer on why people pay for pixels.\n- **Local or foreign face? (Work ID W7220468936):** Celebrity spend reads here as a multiplier of existing brand credibility rather than a substitute for it — a caution for mid-tier brands buying fame to manufacture prestige, for a brand-management trade column.\n- **Latin American coffee drinkers will pay extra for organic and fair trade (Work ID W7214722003):** Certification seals beat origin storytelling at home, puncturing the idea that sustainability premiums are a rich-country phenomenon, for a food and agribusiness trade outlet or an international-business section.\n- **\"Pick what you want\" and \"reject what you don't\" are not the same shopping task (Work ID W7128495320):** Rejection-based flows keep cognitive demand high throughout instead of letting shoppers settle into a rhythm, which matters for subscription boxes, configurators and opt-out defaults, for a UX/e-commerce design explainer.\n- **A free, street-level map of how England and Wales shops (Work ID W7203765190):** An open, inspectable geodemographic classification arriving against expensive proprietary black boxes — worth asking whether it erodes commercial segmentation pricing, for a retail trade or data-industry piece.\n- **When worldly taste backfires (Work ID W7214717190):** Globally coded aspirational campaigns in unequal markets can read as shallow class display and attract organized mockery that drags the brand along, for an international-marketing column or a consumer-culture feature."
+  }
+}
