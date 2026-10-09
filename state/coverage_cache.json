@@ -30,6 +30,16 @@
         "state": "unreported"
       }
     },
+    "W7116214838": {
+      "checked_at": "2026-10-09T17:05:28.986518+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "lesson looks like parents clamp down",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
     "W7128495320": {
       "checked_at": "2026-10-08T17:29:11.256095+00:00",
       "result": {
@@ -40,42 +50,12 @@
         "state": "unreported"
       }
     },
-    "W7171463384": {
-      "checked_at": "2026-09-25T13:06:30.854530+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "ads sneak past attention personalization message framing jointly decide people",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7171628015": {
-      "checked_at": "2026-09-25T13:05:50.357592+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Naming rival works America backfires Europe",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7172201743": {
       "checked_at": "2026-10-01T14:25:52.731269+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "fails customers apologize don blame machine",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7172220713": {
-      "checked_at": "2026-09-25T13:06:33.603360+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Guilt based green ads only work all three ingredients present",
         "returned": 0,
         "state": "unreported"
       }
@@ -138,16 +118,6 @@
         "state": "unreported"
       }
     },
-    "W7201848118": {
-      "checked_at": "2026-09-25T13:05:32.937343+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Podcast hosts hog mic good news share bad",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7201850894": {
       "checked_at": "2026-10-07T17:30:38.060419+00:00",
       "result": {
@@ -175,16 +145,6 @@
         "outlets": [],
         "query": "Doing both brand customer management well pays off worse than",
         "returned": 7,
-        "state": "unreported"
-      }
-    },
-    "W7202096496": {
-      "checked_at": "2026-09-25T13:04:44.988939+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Green claims work better brands aren already green evidence cite",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -218,12 +178,12 @@
         "state": "unreported"
       }
     },
-    "W7202169140": {
-      "checked_at": "2026-09-25T13:05:36.602074+00:00",
+    "W7202162669": {
+      "checked_at": "2026-10-09T17:05:32.970879+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "influencing hurts brands than praise helps them does nothing influencer",
+        "query": "diverse virtual influencers backfire disability avatars cut donation intent",
         "returned": 0,
         "state": "unreported"
       }
@@ -235,16 +195,6 @@
         "outlets": [],
         "query": "Residents branding city whether invite them not",
         "returned": 8,
-        "state": "unreported"
-      }
-    },
-    "W7202223869": {
-      "checked_at": "2026-09-25T13:06:11.873915+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Ads make food taste better but only imagine smell",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -264,16 +214,6 @@
         "articles": [],
         "outlets": [],
         "query": "audit Spanish fashion flagships found most phygital stores just stores",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7202369464": {
-      "checked_at": "2026-09-25T13:06:07.977635+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "During Black Friday style sales blitzes overload turns eager shoppers",
         "returned": 0,
         "state": "unreported"
       }
@@ -298,16 +238,6 @@
         "state": "unreported"
       }
     },
-    "W7203570653": {
-      "checked_at": "2026-09-25T13:06:27.795292+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Big influencers should endorse small influencers should just sell",
-        "returned": 3,
-        "state": "unreported"
-      }
-    },
     "W7203581812": {
       "checked_at": "2026-10-04T15:22:17.237752+00:00",
       "result": {
@@ -325,16 +255,6 @@
         "outlets": [],
         "query": "Virtual try becoming mirror over flattering filters will cost",
         "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7203605245": {
-      "checked_at": "2026-09-25T13:06:26.534241+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Consumers preferred made ads human made ones least practical products",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -398,6 +318,16 @@
         "state": "unreported"
       }
     },
+    "W7203716020": {
+      "checked_at": "2026-10-09T17:05:34.271211+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Watching someone else green feels good enough problem",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7203759226": {
       "checked_at": "2026-10-06T16:51:04.246636+00:00",
       "result": {
@@ -448,6 +378,16 @@
         "state": "unreported"
       }
     },
+    "W7203907887": {
+      "checked_at": "2026-10-09T17:05:45.615980+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Tobacco ads still show Japanese streaming unless tell platform",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7203919913": {
       "checked_at": "2026-10-07T17:29:35.928795+00:00",
       "result": {
@@ -488,32 +428,12 @@
         "state": "unreported"
       }
     },
-    "W7204147563": {
-      "checked_at": "2026-09-25T13:04:39.799250+00:00",
+    "W7204201453": {
+      "checked_at": "2026-10-09T17:05:49.905352+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "Coke Christmas drew 800 comments anger wasn mostly about visuals",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204247420": {
-      "checked_at": "2026-09-25T13:05:03.839729+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "actually makes mobile ads work usefulness wins irritation kills peer",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204255947": {
-      "checked_at": "2026-09-25T13:05:43.444824+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Cute mascots should talk about warmth cool ones should talk",
+        "query": "travelers stop asking whether trust listing",
         "returned": 0,
         "state": "unreported"
       }
@@ -576,13 +496,13 @@
         "state": "unreported"
       }
     },
-    "W7204491303": {
-      "checked_at": "2026-09-25T13:04:50.522164+00:00",
+    "W7204571530": {
+      "checked_at": "2026-10-09T17:05:24.332072+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "Eight brands switched off their branded search ads Sales didn",
-        "returned": 17,
+        "query": "creatives splitting into three camps generative one deliberately getting human",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -593,16 +513,6 @@
         "outlets": [],
         "query": "Making avatars look human matters than making them useful",
         "returned": 7,
-        "state": "unreported"
-      }
-    },
-    "W7204599802": {
-      "checked_at": "2026-09-25T13:05:47.112032+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "clever visual metaphor confuses people line explanation fixes",
-        "returned": 0,
         "state": "unreported"
       }
     },
@@ -623,6 +533,26 @@
         "outlets": [],
         "query": "training didn move needle but boss level backing did",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7207577485": {
+      "checked_at": "2026-10-09T17:05:46.841083+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Telling people made made them trust not",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7207692856": {
+      "checked_at": "2026-10-09T17:05:41.021790+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Sports betting ads have made gambling feel like just another",
+        "returned": 20,
         "state": "unreported"
       }
     },
@@ -686,6 +616,16 @@
         "state": "unreported"
       }
     },
+    "W7211870608": {
+      "checked_at": "2026-10-09T17:06:07.870250+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Labeling generated mostly produces shrug except among savvy consumers",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7211924177": {
       "checked_at": "2026-10-04T15:22:21.962351+00:00",
       "result": {
@@ -736,42 +676,12 @@
         "state": "unreported"
       }
     },
-    "W7212116218": {
-      "checked_at": "2026-09-25T13:05:05.191289+00:00",
+    "W7212138832": {
+      "checked_at": "2026-10-09T17:05:52.673393+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "cameo gamble second celebrity only helps they famous first one",
-        "returned": 4,
-        "state": "unreported"
-      }
-    },
-    "W7212164169": {
-      "checked_at": "2026-09-25T13:04:42.656947+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Advertising before people download app keeps them using afterward",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7212195252": {
-      "checked_at": "2026-09-25T13:05:39.338418+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Text heavy social ads get remembered just not brand behind",
-        "returned": 4,
-        "state": "unreported"
-      }
-    },
-    "W7212229180": {
-      "checked_at": "2026-09-25T13:05:19.976423+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "family firms miss their targets they cut ads spend CSR",
+        "query": "Telling people Instagram model isn real cuts both ways",
         "returned": 0,
         "state": "unreported"
       }
@@ -816,6 +726,16 @@
         "state": "unreported"
       }
     },
+    "W7213228572": {
+      "checked_at": "2026-10-09T17:06:03.544788+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Major key music needs bright color minor key needs muted",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213237840": {
       "checked_at": "2026-09-28T15:59:00.371914+00:00",
       "result": {
@@ -856,6 +776,16 @@
         "state": "unreported"
       }
     },
+    "W7213276828": {
+      "checked_at": "2026-10-09T17:06:14.196405+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Eye tracking finds moviegoers read poster colors differently than industry",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213310447": {
       "checked_at": "2026-10-06T16:49:58.949687+00:00",
       "result": {
@@ -886,16 +816,6 @@
         "state": "unreported"
       }
     },
-    "W7213402036": {
-      "checked_at": "2026-09-25T13:04:47.755899+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Pairing virtual influencer human one works but only keeps its",
-        "returned": 3,
-        "state": "unreported"
-      }
-    },
     "W7213439880": {
       "checked_at": "2026-09-30T15:29:21.053681+00:00",
       "result": {
@@ -912,26 +832,6 @@
         "articles": [],
         "outlets": [],
         "query": "Young shoppers don blame themselves unsustainable shopping they blame system",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213453650": {
-      "checked_at": "2026-09-25T13:06:15.571948+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Tourism marketers quietly uneasy about deepfake destination ads they being",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213527998": {
-      "checked_at": "2026-09-25T13:06:05.133322+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "people fear sliding down ladder wealth advertising stops working craftsmanship",
         "returned": 0,
         "state": "unreported"
       }
@@ -996,16 +896,6 @@
         "state": "unreported"
       }
     },
-    "W7213758328": {
-      "checked_at": "2026-09-25T13:06:22.663077+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Hiding sponsorship backfires platform data shows disclosed ads out earn",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7213768857": {
       "checked_at": "2026-10-07T17:30:01.977564+00:00",
       "result": {
@@ -1013,6 +903,16 @@
         "outlets": [],
         "query": "Heavy users free tier hardest convert overly habitual subscribers churn",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213885424": {
+      "checked_at": "2026-10-09T17:05:25.791371+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "much authority agency gives its depends where client",
+        "returned": 3,
         "state": "unreported"
       }
     },
@@ -1124,16 +1024,6 @@
         "state": "unreported"
       }
     },
-    "W7214074450": {
-      "checked_at": "2026-09-25T13:05:15.713635+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Older consumers don reject made ads they reject unrealistic ones",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7214074641": {
       "checked_at": "2026-10-02T16:18:56.443384+00:00",
       "result": {
@@ -1151,16 +1041,6 @@
         "outlets": [],
         "query": "Firms cash spare least responsive their own environmental scorecards",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7214082546": {
-      "checked_at": "2026-09-25T13:04:46.406681+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Search ads help national chains social ads help local ones",
-        "returned": 1,
         "state": "unreported"
       }
     },
@@ -1204,40 +1084,12 @@
         "state": "unreported"
       }
     },
-    "W7214105022": {
-      "checked_at": "2026-09-25T13:05:40.373288+00:00",
-      "result": {
-        "articles": [
-          {
-            "link": "https://theconversation.com/looking-for-womenshealth-information-on-instagram-4-out-of-10-posts-are-ads-291464",
-            "outlet": "The Conversation",
-            "title": "Looking for #womenshealth information on Instagram? 4 out of 10 posts are ads"
-          }
-        ],
-        "outlets": [
-          "The Conversation"
-        ],
-        "query": "Half womenshealth Instagram posts come someone something sell",
-        "returned": 1,
-        "state": "lightly_reported"
-      }
-    },
     "W7214115221": {
       "checked_at": "2026-10-02T16:19:27.455045+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Experts recommend beat said cared both Ecuador Norway",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7214117679": {
-      "checked_at": "2026-09-25T13:05:11.115473+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Pet influencers viewers want cat not owner definitely not",
         "returned": 0,
         "state": "unreported"
       }
@@ -1272,6 +1124,16 @@
         "state": "unreported"
       }
     },
+    "W7214195424": {
+      "checked_at": "2026-10-09T17:05:59.377398+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Dating apps beat social media reach but social media delivered",
+        "returned": 6,
+        "state": "unreported"
+      }
+    },
     "W7214201194": {
       "checked_at": "2026-10-07T17:29:29.501984+00:00",
       "result": {
@@ -1298,16 +1160,6 @@
         "articles": [],
         "outlets": [],
         "query": "China RED recommendation algorithm didn move buyers influencer expertise user",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7214238772": {
-      "checked_at": "2026-09-25T13:04:58.152802+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Buy now Just meta analysis finds bossy copy backfires most",
         "returned": 0,
         "state": "unreported"
       }
@@ -1349,6 +1201,26 @@
         "outlets": [],
         "query": "Silicon respondents aren interchangeable pick decides whether synthetic survey data",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214298879": {
+      "checked_at": "2026-10-09T17:04:54.574182+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Slashing budget makes stock look riskier 231 000 firm years",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214311385": {
+      "checked_at": "2026-10-09T17:05:42.583295+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "thing keeps kids glued screen isn story much picture moves",
+        "returned": 2,
         "state": "unreported"
       }
     },
@@ -1459,6 +1331,16 @@
         "outlets": [],
         "query": "Short brand names feel warmer warmth shows sales pitches crowdfunding",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214625312": {
+      "checked_at": "2026-10-09T17:04:44.160457+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "shoppers spot made they like but still buy",
+        "returned": 20,
         "state": "unreported"
       }
     },
@@ -1619,6 +1501,16 @@
         "outlets": [],
         "query": "Not all opposition persuadable eight ethical personas behind community resistance",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7214801403": {
+      "checked_at": "2026-10-09T17:05:02.044735+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Kids recorded their own screens four days found every minutes",
+        "returned": 6,
         "state": "unreported"
       }
     },
@@ -1810,6 +1702,16 @@
         "state": "unreported"
       }
     },
+    "W7216305737": {
+      "checked_at": "2026-10-09T17:04:58.148287+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Let guilt tripping keep humans pep talk",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7216368733": {
       "checked_at": "2026-10-03T14:47:13.223115+00:00",
       "result": {
@@ -1890,12 +1792,32 @@
         "state": "unreported"
       }
     },
+    "W7220455699": {
+      "checked_at": "2026-10-09T17:05:00.373395+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Abstract nature imagery outperforms actual forests service ads",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7220468936": {
       "checked_at": "2026-10-08T17:29:05.980580+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Local foreign face 540 person test makes aspirational fashion brands",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7220966006": {
+      "checked_at": "2026-10-09T17:05:14.723479+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Should social show 000 likes depends whether brand status substance",
         "returned": 0,
         "state": "unreported"
       }
