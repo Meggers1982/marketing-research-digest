@@ -1,0 +1,843 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-10",
+  "days_back": 60,
+  "window_from": "2026-08-11",
+  "window_to": "2026-10-10",
+  "focus": "Branding",
+  "topic": "branding",
+  "query": "brand OR branding OR \"brand equity\" OR \"brand loyalty\" OR \"brand trust\" OR \"brand activism\" OR rebranding OR \"brand love\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 326,
+    "not_research": 3,
+    "no_abstract": 40,
+    "off_topic": 0,
+    "already_covered": 79,
+    "over_journal_cap": 27,
+    "over_cap": 137,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7221130306",
+      "headline": "Copywriters who hate your brand write duller ads — and they do it on purpose",
+      "the_study": "Published in the *International Journal of Research in Marketing*, this research tests how the personal brand attitudes of professional creatives and other promotional content creators shape the work they produce. Across the studies, creators who disliked a brand produced promotional content loaded with functional, rational elements and stripped of emotional ones; creators with positive attitudes showed no comparable shift. The mechanism is deliberate self-correction: creators hold a lay belief that their negative feelings could contaminate the work, so they try to stay rational and suppress emotion. The effect held after accounting for brand characteristics, the specific reasons behind creators' attitudes, and task difficulty.",
+      "why_it_matters": "Emotional advertising generally outperforms purely functional advertising on long-term brand effects, so a creative team's private dislike of a client brand may quietly push the work toward the weaker end of that spectrum.",
+      "story_angle_primary": "Agency and in-house leaders could test whether creative staffing on a brand correlates with the emotional content of the output — and whether asking creatives about their attitude to a brand before assignment, or reassuring them that emotion is appropriate, changes what they produce. The suppression here is well-intentioned, which makes it harder to spot in a review process.",
+      "story_angle_secondary": "The ads you see are filtered through the feelings of the people who made them. An unusually dry, spec-sheet-style campaign for a consumer brand may be a sign that the people behind it were trying very hard to be fair to a brand they do not personally like.",
+      "caveats": "The abstract does not specify sample sizes, countries or whether participants were working professionals versus panel participants in every study; content was created in research tasks rather than measured as live campaign performance.",
+      "journal": "International Journal of Research in Marketing",
+      "published": "2026-10-01",
+      "doi": "10.1016/j.ijresmar.2026.09.011",
+      "paper_title": "What if you dislike the brand you promote? How creatives' brand attitudes affect promotional content",
+      "source_id": "S11810700"
+    },
+    {
+      "work_id": "W7221048994",
+      "headline": "Retro logos read as 'safe': old-fashioned design boosts trust through perceived stability, not warm feelings",
+      "the_study": "A four-experiment program tested why nostalgic logo designs increase brand trust, including a test using a real-world brand interface. The driver was not affective nostalgia, familiarity, processing fluency or general brand liking — all of which the researchers ruled out — but perceived visual stability, a cognitive inference that the brand is unchanging and therefore reliable. The effect appeared selectively among consumers high in uncertainty avoidance and held even for low-narrative, emotionally flat logos.",
+      "why_it_matters": "It reframes retro logo design as a risk-reduction signal rather than a sentimentality play, which changes when and for whom a heritage-style identity is worth using.",
+      "story_angle_primary": "Brands weighing a logo refresh — especially in categories where trust is the purchase barrier, such as finance, insurance or health — could test heritage-leaning design against modernization, and segment by customers' tolerance for uncertainty rather than by age or nostalgia appeal. The finding also suggests that frequent identity updates may carry a hidden trust cost.",
+      "story_angle_secondary": "Consumers may be reading a slightly dated logo as evidence that a company has been around and will stick around — an inference about longevity that the design itself can fake.",
+      "caveats": "Experimental studies with stimuli rather than purchase outcomes; the abstract does not report sample sizes, participant sources or country, and trust was measured as a judgment rather than through observed behavior.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-10-08",
+      "doi": "10.1108/apjml-01-2026-0072",
+      "paper_title": "When the past looks safer: nostalgia, logo stability and brand trust judgements",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7221096517",
+      "headline": "Collaboration fatigue is real: why young Chinese consumers are turning on co-branded launches",
+      "the_study": "A two-part study examined backlash in a market saturated with brand collaborations. The first part analyzed walking interviews (n=55), in-depth interviews (n=12) and 186 netnographic artifacts from young Chinese consumers, identifying resistance built on strategic misalignment, identity and cultural disconnect, and emotional and cognitive strain. The second part built 29 real co-branding episode cases and used fuzzy-set qualitative comparative analysis to find the combinations that produce high consumer resistance — clustering around distorted practical value, clashing meanings and split emotional experience, with image erosion sufficient on its own in one pathway.",
+      "why_it_matters": "It identifies co-branding failure as something other than poor brand fit: pacing, release density and the gap between promotional claims and actual product experience each drive backlash independently.",
+      "story_angle_primary": "Brand teams running frequent collaborations could audit release cadence and partner screening as risk factors, not just creative fit — and pressure-test whether a tie-up's promotional claims survive contact with the product. The configurational results suggest no single safeguard works; resistance comes from combinations.",
+      "story_angle_secondary": "Shoppers are getting tired of limited-edition mashups, and the irritation is specific: the collaboration costs more, means less, and delivers a worse experience than the plain version of the product.",
+      "caveats": "Qualitative and configurational methods, not causal experiments; young consumers in a single country (China) and a high-frequency collaboration environment that may not generalize to Western markets; small case base (29 episodes).",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-09",
+      "doi": "10.1108/ejm-06-2025-0496",
+      "paper_title": "When Co-Branding breaks down: strategic misalignment, symbolic rupture, and consumer resistance",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7220855662",
+      "headline": "Rebranding an acquisition: executives want capability proof, staff want their professional pride back",
+      "the_study": "Researchers followed a multinational B2B life sciences company through a global rebranding of an acquired brand, using interviews, internal documents and validation workshops. Brand equity transfer required an awareness condition first — stakeholders had to register that the brand had changed before evaluating it — but buy-in depended on brand image, and what drove image differed by level. Strategic-level stakeholders responded to functional arguments (capabilities, market position, customer value), while operational-level stakeholders responded to symbolic ones (professional pride, reputation, familiar ways of working).",
+      "why_it_matters": "Most post-acquisition rebranding communication is written once and pushed to everyone; this suggests the same message will land with the C-suite and fail with the people who actually carry the brand to customers.",
+      "story_angle_primary": "Companies integrating an acquired brand could split internal rebranding communication along functional and symbolic lines by audience level, and treat subsidiary and employee feedback as an input that reshapes the rollout rather than noise after the fact.",
+      "story_angle_secondary": "Limited direct relevance for consumers, beyond explaining why a supplier's name change can feel abrupt and half-explained: the internal selling job is often harder than the external one.",
+      "caveats": "Single-company qualitative case study in one industry (B2B life sciences); findings are interpretive and not generalizable or causal; no outcome measures of rebranding success.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-10-07",
+      "doi": "10.1108/jbim-06-2025-0517",
+      "paper_title": "Brand knowledge, organizational roles and buy-in during B2B rebranding",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7221118815",
+      "headline": "Ethical scandals ignite boycotts; product failures mostly just annoy people",
+      "the_study": "A two-part study paired a scenario-based experiment (N=501) contrasting an ethical brand crisis with a performance-related one against a netnographic analysis of 5,729 social media posts about real brand controversies. Ethical crises produced significantly stronger brand hate and boycott intention than performance failures, and brand hate carried more than half of the total effect of crisis type on boycott intention. Consumers high in neuroticism reacted most strongly; agreeableness made no difference. In the real online discourse, ideological incongruence was the most prominent trigger of hate, and hostility frequently spilled over onto sponsors, celebrity endorsers, sub-brands and even political parties.",
+      "why_it_matters": "It suggests crisis response cannot be one-size-fits-all: a defective product is a competence problem, but a values breach is an identity problem that recruits emotion, spreads to partners, and converts into organized boycotts.",
+      "story_angle_primary": "Brand and comms leaders can use this to argue for separate crisis playbooks by crisis type, and to map contagion risk across the sponsorship and endorsement portfolio before a crisis hits. Because the experiment used hypothetical scenarios, treat the magnitudes as directional and pressure-test them against the brand's own social listening data; the netnographic half shows the hostility patterns are at least visible in real discourse.",
+      "story_angle_secondary": "The findings put language to something shoppers already sense: we forgive brands that fail us but not brands that offend us. The analysis also shows how boycott talk escalates in register, from cool sarcasm to hot outrage, and how justifications shift from 'this will change their behavior' to pure expression of anger as intensity rises.",
+      "caveats": "Study 1 used hypothetical crisis scenarios and stated boycott intentions rather than observed purchase behavior; sample composition and country are not specified in the abstract. The netnographic data are observational and platform-dependent, so they describe who posts loudly rather than the average consumer.",
+      "journal": "Journal of Product & Brand Management",
+      "published": "2026-10-09",
+      "doi": "10.1108/jpbm-02-2026-6784",
+      "paper_title": "Consumer boycotts in brand crises: a brand hate perspective on intensity, attributions and motivations",
+      "source_id": "S58171247"
+    },
+    {
+      "work_id": "W7220913319",
+      "headline": "Price promotions may generate more real sales — and less brand-switching — than standard models assume",
+      "the_study": "Marketing Science researchers reworked the econometrics of dynamic discrete-choice demand models for storable goods, showing that consumers' discount factor can be identified from the model's own built-in restrictions without the extra assumptions about storage costs that prior work relied on. Applying the approach to a published laundry detergent purchase dataset, they estimated a mean discount factor of 0.957, decisively rejecting the idea that shoppers choose myopically. Counterfactual simulations confirmed that some promotional lift comes from forward-buying, but predicted considerably higher incremental sales than a standard static choice model, which attributes most of the lift to brand-switching.",
+      "why_it_matters": "How a firm models promotion response determines whether a discount looks like pulled-forward demand and stolen share or genuine category expansion — and that changes promotional budgets and trade spend decisions.",
+      "story_angle_primary": "Analytics and revenue management teams should check which demand model their promotion ROI estimates rest on; the paper implies conventional models may systematically understate true incremental sales from discounts in stockpileable categories. Worth replicating internally on a brand's own scanner or loyalty data before reallocating trade spend.",
+      "story_angle_secondary": "The estimated discount factor near 0.96 is evidence that ordinary shoppers are strategic: when detergent goes on sale they are, in effect, calculating future consumption and storage, not just grabbing a bargain.",
+      "caveats": "A single product category (laundry detergent) and a re-analysis of previously published data; the contribution is primarily econometric identification, and the empirical conclusions depend on model structure and simulation assumptions rather than a field experiment.",
+      "journal": "Marketing Science",
+      "published": "2026-10-08",
+      "doi": "10.1287/mksc.2024.1280",
+      "paper_title": "The Identification of the Dynamic Discrete-Choice Model with Stockpiling",
+      "source_id": "S163534328"
+    },
+    {
+      "work_id": "W7216479640",
+      "headline": "Not all social proof helps: testimonials that look paid for can actively reduce repurchase",
+      "the_study": "A two-study project in Vietnam's online marketplace combined a Vietnamese-tuned RoBERTa sentiment analysis of social media comments with moderated regression on survey responses from 394 active online shoppers. Brand image strongly predicted repurchase intention, but the three forms of social proof behaved very differently: user-generated content amplified the brand image effect most (especially among consumers with middling brand perceptions), brand ambassadors helped only up to a point and faded once brand image was already strong, and testimonials cut both ways — boosting repurchase when seen as credible but independently triggering skepticism and weakening repurchase when they looked commercially motivated.",
+      "why_it_matters": "It challenges the common assumption that stacking more endorsements, ambassadors and reviews is uniformly positive; the wrong kind of proof on a strong brand can subtract rather than add.",
+      "story_angle_primary": "Marketers can treat this as a prompt to audit their social proof mix by brand-strength segment: lean on authentic user content for mid-tier or unfamiliar brands, and question whether ambassador spend is still earning its keep on already-strong brands. Because this is survey evidence from one market, test the pattern with holdout experiments on landing pages and product detail pages.",
+      "story_angle_secondary": "Shoppers are better lie detectors than marketers assume. The study suggests the moment a testimonial reads as bought, it doesn't just stop working — it makes people trust the brand less than if there had been no testimonial at all.",
+      "caveats": "Cross-sectional survey with stated repurchase intention rather than observed purchases, so causation cannot be established; single country (Vietnam) and a digital-marketplace context; the NLP component is exploratory and does not test the hypotheses.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-02",
+      "doi": "10.1016/j.jretconser.2026.105142",
+      "paper_title": "From image to action: How social proof turns brand image into repurchase intention",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7220832664",
+      "headline": "The cup is the product: café packaging design shapes buying intent — differently for Starbucks and Luckin",
+      "the_study": "Researchers surveyed customers of Starbucks (global, semi-premium) and Luckin Coffee (domestic, budget) in China and used PLS-SEM with multigroup comparison to test how three facets of cup design — aesthetic, symbolic and functional — drive purchase intention via hedonic and utilitarian value. All three design facets fed both value routes for both brands, but symbolic design and utilitarian value mattered significantly more for Starbucks customers. Gender differences appeared only at Starbucks, where women's responses ran through hedonic value and men's through utilitarian value; no such split emerged for Luckin.",
+      "why_it_matters": "It suggests disposable packaging functions as brand communication whose psychological leverage depends on the brand's positioning — status signaling pays off for premium brands and barely registers for budget ones.",
+      "story_angle_primary": "Packaging and brand design teams can use this as a reason to brief cup and container design differently by price tier: symbolism and visible branding for premium positioning, function and cost efficiency for value positioning. Since the evidence is survey-based in one market, validate with in-store A/B tests or sales data before a redesign.",
+      "story_angle_secondary": "That branded cup you carry across the office is doing social work. The research suggests people buying a premium coffee are partly paying for what the cup says about them — something that disappears entirely when the brand is a budget one.",
+      "caveats": "Cross-sectional survey measuring purchase intention, not actual sales; single country (China) and two brands only; gender findings rest on subgroup comparisons and should be treated as exploratory.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-10-07",
+      "doi": "10.1108/ijrdm-11-2025-0871",
+      "paper_title": "Retail café cup preferences: evidence from global and domestic coffee brands",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7220958293",
+      "headline": "Heritage or exclusivity? The right luxury pitch depends on how hierarchical your customers are",
+      "the_study": "Researchers ran three online experiments plus one field study testing two classic luxury brand signals — exclusivity (\"few can have it\") versus heritage (\"made this way since 1897\") — against consumers' power distance beliefs, the degree to which people accept social hierarchy as natural. Power distance was manipulated experimentally, measured as a stable individual trait, and proxied at the country level. Consumers low in power distance responded more favorably to heritage signals, while high-power-distance consumers preferred exclusivity, across click-through rates in the field, incentive-compatible choice, purchase intention and willingness to pay a premium. The effect ran through recognition benefits and then brand attachment.",
+      "why_it_matters": "Luxury houses typically run one global creative platform; this suggests the same campaign can under- or over-perform purely because of the cultural mindset of the audience, and that the fix is a signal swap rather than a new brand story.",
+      "story_angle_primary": "For brands running luxury or premium communications across multiple markets, this is a concrete A/B test worth doing: hold the product and visuals constant, swap heritage framing for scarcity framing, and look at click-through and conversion by market. The field component makes the effect more credible than a lab-only result, but the size of the lift in any one brand's real media plan is still an open question.",
+      "story_angle_secondary": "It's a useful window into why the same expensive handbag is sold to you as \"only 300 made\" in one country and \"a family workshop since 1897\" in another — the pitch is calibrated to how much you personally care about status and rank.",
+      "caveats": "Three of four studies were online experiments with stated intentions or choices; the country-level power distance measure is a crude proxy for individual beliefs; the field study's platform and category are not specified in the abstract.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-08",
+      "doi": "10.1002/mar.70278",
+      "paper_title": "Power Distance Beliefs and Luxury Brand Communication: Cross‐Cultural Differences in the Effects of Exclusivity and Heritage",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7203440056",
+      "headline": "Modest brands outsell boastful ones — unless the brand is luxury",
+      "the_study": "Across four studies, researchers compared brand messages written in a self-effacing, modest register against self-enhancing, boastful ones, tracking attitudes and actual purchasing behavior including choices involving monetary tradeoffs. Self-effacing messages produced stronger consumer attitudes and more purchasing overall. The mechanism was lower skepticism and higher brand trust. But perceived message–brand fit moderated everything: for non-luxury brands, modesty won, while for luxury brands boastful messaging matched brand identity and the gap between the two styles disappeared.",
+      "why_it_matters": "Most advertising copy defaults to superlatives; this evidence suggests that for mainstream brands, understatement is read as honesty and converts better, while luxury brands have more latitude to brag.",
+      "story_angle_primary": "Worth testing in live copy: rewrite a campaign's claims in a deliberately modest register and watch trust and conversion metrics, especially for value or mass-market brands where skepticism toward superlatives is highest. The studies show the effect can occur; whether it survives a competitive media environment where rivals are shouting is the next question.",
+      "story_angle_secondary": "Explains the instinctive distrust many people feel toward \"the best in the world\" claims — and why a brand saying \"we're not for everyone\" can feel more credible than one promising perfection.",
+      "caveats": "Experimental studies; sample composition and sizes are not specified in the abstract; purchase behavior was measured within study tasks rather than in an ongoing market.",
+      "journal": "Journal of Advertising",
+      "published": "2026-08-14",
+      "doi": "10.1080/00913367.2026.2711046",
+      "paper_title": "The Power of Brand Modesty: The Influence of Self-Effacing Brand Messages on Branding Outcomes and Purchase Behavior",
+      "source_id": "S103311983"
+    },
+    {
+      "work_id": "W7203997372",
+      "headline": "When AI writes your brand's social stance, consumers smell inauthenticity",
+      "the_study": "Five studies examined how consumers react to brand activism messages — sociopolitical statements — when they are disclosed as generative-AI-created versus human-written. AI-created activism messages produced greater negative affect and, in turn, lower decision comfort, because consumers judged them less authentic. The effect weakened among politically conservative consumers and among people with a high tendency to anthropomorphize AI.",
+      "why_it_matters": "Brands are quietly routing social and values-based communication through generative AI, and this is evidence that the one content category where AI authorship carries a real penalty may be exactly the one where brands claim to speak from conviction.",
+      "story_angle_primary": "If your brand takes public positions on social issues, audit which parts of that content pipeline are AI-assisted and consider human authorship and disclosure policy for value-laden messaging specifically — the penalty appears to be about perceived authenticity, not output quality. Test whether disclosure or named human authorship restores comfort.",
+      "story_angle_secondary": "Shows that people apply a different standard to machine-written words depending on the subject: AI-drafted product copy is fine, AI-drafted moral conviction is not, and the discomfort shows up as a worse feeling about your own purchase decision.",
+      "caveats": "Five experiments, likely online panels; sample sizes and countries not specified in the abstract; relies on disclosed or manipulated AI authorship rather than consumers detecting it in the wild; measures affect and decision comfort rather than real purchases.",
+      "journal": "Journal of Consumer Affairs",
+      "published": "2026-08-21",
+      "doi": "10.1111/joca.70072",
+      "paper_title": "Generative AI in Brand Activism: Impacts on Consumers’ Negative Affect and Decision Comfort",
+      "source_id": "S189751245"
+    },
+    {
+      "work_id": "W7214746746",
+      "headline": "\"Fix it, don't toss it\": the right repair pitch flips depending on whether you're fast or slow fashion",
+      "the_study": "Four experiments grounded in construal level theory tested abstract repair appeals (broad sustainability framing) against concrete ones (specific, practical repair instructions) for fast fashion versus slow fashion brands, measuring perceived environmental friendliness and purchase intention. Consumer education level moderated the result: more educated consumers preferred abstract appeals from slow fashion brands and concrete appeals from fast fashion brands, while less educated consumers showed the reverse pattern.",
+      "why_it_matters": "Repair and circularity messaging is proliferating across apparel, and this suggests a mismatched frame can blunt both the green credibility and the commercial payoff of the same initiative.",
+      "story_angle_primary": "For apparel brands launching repair programs, the creative frame is not interchangeable with the brand position: a fast fashion retailer leaning on lofty sustainability abstractions may be the worst combination for its most educated shoppers. Worth testing concrete how-to repair content against values-led framing by segment before scaling.",
+      "story_angle_secondary": "A reminder that \"repair, don't replace\" messaging lands differently depending on who's saying it — the same appeal reads as practical help from one brand and as greenwashing from another.",
+      "caveats": "Four experiments measuring purchase intention rather than observed behavior; sample sizes, recruitment source and country not specified in the abstract; using education level as a proxy for construal is a strong assumption.",
+      "journal": "Journal of Advertising Research",
+      "published": "2026-09-29",
+      "doi": "10.1080/00218499.2026.2704263",
+      "paper_title": "How Abstract vs. Concrete Repair Appeals Work Differently for Slow and Fast Fashion Brands: Fix It, Don’t Toss It",
+      "source_id": "S61992289"
+    },
+    {
+      "work_id": "W7219659105",
+      "headline": "AI service failures don't just annoy customers — they corrode the brand relationship",
+      "the_study": "Researchers mined 3,208 complaint records (2,824 usable) from a major Chinese consumer complaint platform using topic modeling, identifying five distinct types of AI customer service failure: functional, informational, systemic, interactional, and service recovery failure. A second study surveyed 965 Chinese consumers and analyzed the data with PLS-SEM, neural networks, fsQCA and necessary condition analysis. All five failure types predicted negative consumer-brand relationships, with informational failure (wrong or inadequate answers) and systemic failure (the system itself breaking down) consistently the most damaging across every analytic method.",
+      "why_it_matters": "Companies typically evaluate AI service on deflection rate and cost per contact; this evidence frames bot failures as a brand equity problem, with accuracy of information and system reliability mattering more than how human the bot feels.",
+      "story_angle_primary": "Rebalance AI service scorecards toward informational accuracy and system uptime rather than conversational polish, and build escalation paths specifically for recovery failure — the category where a bot fails and then fails again at fixing it. The complaint-text typology is a ready-made coding frame for auditing your own contact logs.",
+      "story_angle_secondary": "Puts structure to a universal frustration: the worst chatbot experiences aren't the ones that sound robotic, they're the ones that confidently give you wrong information or break mid-conversation with no way out.",
+      "caveats": "Chinese consumers and a single national complaint platform only; the survey component is cross-sectional and self-reported, so it cannot establish causation; complaint data is inherently skewed toward dissatisfied customers.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-04",
+      "doi": "10.1016/j.jretconser.2026.105143",
+      "paper_title": "The dark side of AI customer service: How service failures damage consumer-brand relationships",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7203651996",
+      "headline": "Mystery boxes work — but only for the right kind of shopper",
+      "the_study": "Across six studies, researchers tested how consumers respond to \"uncertainty marketing\" — offers that deliberately conceal what you're getting, like mystery boxes, surprise bundles and blind drops. They manipulated or measured two epistemic motivations (need for cognition, the enjoyment of effortful thinking; and need for cognitive closure, the desire for a quick, definite answer) alongside whether people approached the purchase with a learning goal or an outsourcing goal. When motivation and goal lined up — thinkers who wanted to figure it out, closure-seekers who wanted to hand the decision off — purchase intention, trust and perceived self-efficacy all rose, with self-efficacy carrying the effect.",
+      "why_it_matters": "Uncertainty tactics are spreading from gacha games and sneaker drops into mainstream retail, and this suggests their success is less about the gimmick itself than about whether the surrounding message tells the shopper to think or to relax and delegate.",
+      "story_angle_primary": "If you're running mystery or blind offers, the copy around them may matter as much as the offer: test framings that invite discovery (\"figure out which one you got\") against framings that promise relief from choosing (\"we picked for you\") on different segments, rather than assuming a single tone works. These are controlled experiments, so treat the matching principle as a hypothesis to A/B test in live campaigns, not a settled rule.",
+      "story_angle_secondary": "Mystery boxes feel fun to some people and faintly manipulative to others — this research suggests that split tracks a personality difference in how much you enjoy puzzling things out versus wanting the decision taken off your hands. Knowing which you are is a useful defense when a brand hides what it's selling.",
+      "caveats": "The abstract does not report sample sizes, participant sources or countries, and the studies appear to measure purchase intentions rather than observed purchases.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-08-17",
+      "doi": "10.1108/ejm-09-2025-0775",
+      "paper_title": "Thinking or delegating? The role of epistemic motivation and goal congruence in consumer responses to uncertainty marketing",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7220944415",
+      "headline": "\"Love it, hate it, can't quit it\": ambivalence isn't a phase of social media use, it's the structure",
+      "the_study": "Using a three-study, multi-method design, researchers examined how consumers talk about and evaluate their own social media use, including discourse about quitting. They found that positive value (connection, utility) and experienced costs (loss of control, diminished well-being) co-occur within the same accounts and do not resolve over time; instead people cycle through imperfect fixes such as boundary setting, platform switching and abstinence attempts. The authors argue net-benefit models — which assume consumers settle into either liking or disliking a platform — miss this persistent ambivalence.",
+      "why_it_matters": "Brands buy engagement on platforms that users themselves describe as compulsive, which means high engagement metrics can coexist with resentment that may eventually attach to advertisers on the platform.",
+      "story_angle_primary": "Consider auditing whether your platform engagement is being earned in a context users experience as a trap: ambivalent audiences may be more receptive to brands that acknowledge the tension (time-respecting formats, off-platform owned channels) than to those that maximize dwell time. Treat this as a reframing of what engagement metrics mean, not as a measured revenue effect.",
+      "story_angle_secondary": "If you feel both grateful for and resentful toward your feed, that's not a failure of willpower that will eventually resolve — the research suggests the mixed feeling is a permanent feature of the product, and that quitting attempts, app switching and self-imposed limits are the normal, partial responses.",
+      "caveats": "The abstract gives no sample sizes, participant sources or countries for the three studies, and the evidence is largely interpretive and discourse-based rather than behavioral; no causal claims are possible.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-08",
+      "doi": "10.1002/mar.70281",
+      "paper_title": "Love It, Hate It, Can't Quit It: Mapping the Duality of Social Media Use",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7214968251",
+      "headline": "Brand image won't save you from a scandal — satisfaction and love might",
+      "the_study": "Researchers surveyed 700 consumers of clothing brands and used PLS-SEM to model what makes people resist negative information about a brand. Brand satisfaction predicted resistance to negative information, but brand image — the distinctive associations marketers spend heavily to build — did not do so directly. Both satisfaction and image fed brand love, which in turn strengthened resistance; Big Five personality traits had only a minimal moderating role.",
+      "why_it_matters": "It suggests the reputational armor that carries a brand through bad press is built from actual customer experience and emotional attachment, not from image advertising alone.",
+      "story_angle_primary": "Worth questioning the assumption that brand-image campaigns buy crisis insurance: in this data the protective path runs through satisfaction and emotional attachment, which points to service recovery, product consistency and loyalty programs as reputation investments. It's correlational survey evidence in one category, so a natural next step is testing whether satisfaction scores actually predict which customers stay after a real incident.",
+      "story_angle_secondary": "When your favorite clothing brand gets hit with bad headlines, whether you shrug it off probably depends less on its advertising than on whether it has personally treated you well — which is also a decent cue for noticing when loyalty is doing your thinking for you.",
+      "caveats": "Cross-sectional survey, so causation can't be established; self-reported resistance rather than observed behavior after an actual negative event; a single industry (clothing and fashion); the country of the sample isn't stated in the abstract.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-09-29",
+      "doi": "10.1002/cb.70239",
+      "paper_title": "Cognitive and Affective Factors Affecting Resistance to Negative Information: A Mixed‐Method Approach in the Clothing and Fashion Industry",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7214780511",
+      "headline": "Which content tasks to hand to AI, and which to keep: a workflow map from one real marketing team",
+      "the_study": "An exploratory case study followed how a small education company integrated generative AI into its social media content production, mapping seven activities from evidence synthesis and thematic classification through script generation, refinement, media production and evaluation. Data came from practitioner interviews and workflow analysis. AI delivered efficiency gains in research synthesis, ideation and language polish, while credibility verification, brand alignment and final sign-off stayed with humans — producing a hybrid model in which AI handles low-risk tasks and people own high-risk ones.",
+      "why_it_matters": "Most GenAI marketing guidance is either hype or abstraction; this is a task-by-task account from inside a working team of where automation held up and where it didn't.",
+      "story_angle_primary": "Use it as a template for your own audit: classify each step of your content pipeline by risk (factual claims, brand voice, legal and copyright exposure) and decide deliberately which are automatable, rather than letting adoption happen tool by tool. One SME's experience is a starting hypothesis, not a benchmark — your category's risk profile may put more steps in the human column.",
+      "story_angle_secondary": "Much of the social content you scroll past is now part machine-written, and this offers a glimpse of where the human still intervenes — usually at fact-checking and tone, not at drafting.",
+      "caveats": "Single-firm, single-sector case study (an education SME) with no control condition and no quantified efficiency or performance outcomes; findings are practitioner-reported and not generalizable.",
+      "journal": "Marketing Intelligence & Planning",
+      "published": "2026-09-29",
+      "doi": "10.1108/mip-03-2025-0271",
+      "paper_title": "Harnessing generative AI for evidence-informed content creation: a GenAI-human hybrid content creation framework",
+      "source_id": "S29817978"
+    },
+    {
+      "work_id": "W7212008823",
+      "headline": "Decadent imagery only goes viral for luxury brands — for everyone else it backfires",
+      "the_study": "Researchers analyzed 98,081 brand images posted on social media and paired that dataset with controlled experiments testing how willing people were to share visually indulgent content (rich desserts, sensual imagery). For low-end mainstream brands, the more indulgent the image, the less people wanted to share it — because sharing it signaled something unflattering about themselves. As brand luxury rose, that reputational worry faded, and for high-end luxury brands indulgent visuals actually boosted sharing by raising emotional arousal.",
+      "why_it_matters": "Indulgence is one of the most common levers in food, beauty and fashion creative, and this suggests the same creative asset can help or hurt reach depending entirely on where the brand sits on the luxury ladder.",
+      "story_angle_primary": "Mass-market brands leaning on \"food porn\" style content should test whether indulgence is suppressing shares rather than driving them; the mechanism identified here is the sharer's own reputation, so creative that gives people cover (humor, occasion framing, social permission) is worth A/B testing against straight indulgence.",
+      "story_angle_secondary": "What people repost is less about what they like and more about what it says about them — consumers quietly self-censor indulgent content when the brand attached to it doesn't flatter them.",
+      "caveats": "Sharing intention in the experiments is stated intention rather than observed resharing; the large image dataset is correlational, and the experimental portion's sample details are limited in the abstract.",
+      "journal": "Marketing Letters",
+      "published": "2026-09-09",
+      "doi": "10.1007/s11002-026-09838-1",
+      "paper_title": "Indulgent visuals go viral? Brand luxury matters",
+      "source_id": "S148909191"
+    },
+    {
+      "work_id": "W7204024551",
+      "headline": "After a brand takes a political stand, angry defectors don't just leave — they want to punish it",
+      "the_study": "Across three studies, researchers examined what happens competitively after ideologically misaligned brand activism. Study 1a analyzed tweets responding to high-profile Nike activism and found more than half detailed switching to a competitor. Study 1b, based on consumers' actual switching experiences, found conservatives placed greater importance on supporting a direct rival, driven by retaliatory motives. A follow-up experiment showed that for consumers open to switching, ad appeals explicitly positioning the brand as the rival outperformed discount appeals among conservatives.",
+      "why_it_matters": "It reframes a competitor's activism backlash as an acquisition window, and suggests the winning message is rivalry rather than price.",
+      "story_angle_primary": "Competitive-response playbooks: when a rival's stance triggers backlash, brands can test \"rival appeals\" against standard discounting for the segment already considering a switch — though the evidence here is from one high-profile case plus an experiment, not a scaled campaign.",
+      "story_angle_secondary": "Boycotts are rarely just about walking away. The research suggests defecting consumers want their replacement purchase to count as a rebuke, which is why a competitor often benefits more than the category.",
+      "caveats": "Single focal case (Nike) and US political ideology; experimental ad test uses stated responses rather than real purchases; retaliation findings rest partly on self-reported past behavior.",
+      "journal": "The Journal of Marketing Theory and Practice",
+      "published": "2026-08-23",
+      "doi": "10.1080/10696679.2026.2717180",
+      "paper_title": "Rivals, retaliation and replacement brand preferences: ideology shapes consumer responses to misaligned brand activism",
+      "source_id": "S42468459"
+    },
+    {
+      "work_id": "W7202384182",
+      "headline": "Consumers forgive AI-designed products — if they believe the brand is driven by passion, not profit",
+      "the_study": "Two online-panel experiments tested reactions to products described as AI-designed versus human-designed, using wedding jewelry and craft beer as stimuli. AI-designed products were evaluated more favorably — on perceived quality, purchase intention and willingness to pay a premium — when the brand was framed as passion-driven rather than profit-driven. Perceived authenticity of the brand extension explained the effect, with the indirect path stronger for passion-driven brands.",
+      "why_it_matters": "As brands decide whether to disclose AI involvement in design, this suggests disclosure isn't inherently damaging — what matters is whether consumers already read the brand's motives as sincere.",
+      "story_angle_primary": "Before publicizing AI in the design process, brands should audit how consumers perceive their underlying motive; the findings imply craft- and mission-positioned brands may have more room to use AI openly than efficiency-positioned ones, which is a testable proposition in live product launches.",
+      "story_angle_secondary": "When shoppers judge an AI-made product, they're really judging why they think the company used AI — to make something better, or to cut costs.",
+      "caveats": "Online panel; hypothetical product scenarios rather than real purchases; only two categories (wedding jewelry, craft beer); sample size not reported in the abstract.",
+      "journal": "Journal of Brand Management",
+      "published": "2026-08-13",
+      "doi": "10.1057/s41262-026-00451-1",
+      "paper_title": "Passion or profit? The differential effects of brand motive attribution and brand extension authenticity on perceptions of human- vs. AI-designed products",
+      "source_id": "S27632631"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7221130306",
+      "headline": "Copywriters who hate your brand write duller ads — and they do it on purpose",
+      "verdict": "minor",
+      "notes": "Mechanism, moderators and ruled-out explanations match the abstract; the \"Why it matters\" rests on an outside claim about emotional advertising that the abstract does not make.",
+      "issues": [
+        {
+          "label": "Unsupported supporting claim",
+          "severity": "Minor",
+          "as_written": "Emotional advertising generally outperforms purely functional advertising on long-term brand effects, so a creative team's private dislike of a client brand may quietly push the work toward the weaker end of that spectrum.",
+          "abstract_says": "The abstract reports only that creators with negative brand attitudes use more functional and fewer emotional elements, and explains the suppression mechanism; it makes no claim about the relative effectiveness of emotional vs. functional advertising.",
+          "problem": "The premise that makes the finding consequential is imported from elsewhere and is unverifiable from this abstract alone.",
+          "suggested_fix": "Attribute the effectiveness premise to prior literature outside this paper, e.g. \"if, as other research suggests, emotional advertising tends to outperform functional advertising on long-term brand effects...\""
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7221048994",
+      "headline": "Retro logos read as 'safe': old-fashioned design boosts trust through perceived stability, not warm feelings",
+      "verdict": "accurate",
+      "notes": "Four-experiment design, perceived visual stability mechanism, ruled-out rivals and the uncertainty-avoidance boundary condition all match the abstract; caveats correctly note missing sample details.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7221096517",
+      "headline": "Collaboration fatigue is real: why young Chinese consumers are turning on co-branded launches",
+      "verdict": "significant",
+      "notes": "Sample figures and methods are accurate, but the \"Why it matters\" line asserts independent causal drivers, which contradicts both the abstract's configurational/associational framing and the digest's own story angle.",
+      "issues": [
+        {
+          "label": "Causal and non-configurational framing of a qualitative/fsQCA result",
+          "severity": "Moderate",
+          "as_written": "pacing, release density and the gap between promotional claims and actual product experience each drive backlash independently",
+          "abstract_says": "\"Study 2 identifies equifinal, largely conjunctural configurations associated with high CNA\" and the study examines \"how and under what conditions co-branding in collaboration-saturated markets is associated with negative consumer responses\"; release density and aligning promotional claims appear as practical recommendations, not as independently tested drivers.",
+          "problem": "Asserts independent causal effects for factors the abstract treats as conjunctural configurations and as associations only; it also contradicts the digest's own later statement that \"resistance comes from combinations.\"",
+          "suggested_fix": "Rewrite as \"governance, pacing, symbolic coherence and experiential costs appear in the configurations associated with high resistance, usually in combination rather than singly.\""
+        },
+        {
+          "label": "Detail not in the abstract",
+          "severity": "Minor",
+          "as_written": "the collaboration costs more, means less, and delivers a worse experience than the plain version of the product",
+          "abstract_says": "The abstract names \"practical value distortion, conflict of meaning interpretation and emotional experience split\" and \"experiential costs,\" but says nothing about price premiums versus the standard product.",
+          "problem": "\"Costs more\" is added colour not supported by the abstract.",
+          "suggested_fix": "Drop the price claim or recast as \"the practical value feels distorted and the experience falls short of the promise.\""
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7220855662",
+      "headline": "Rebranding an acquisition: executives want capability proof, staff want their professional pride back",
+      "verdict": "accurate",
+      "notes": "Case design, awareness-then-image sequence, and the strategic/functional vs. operational/symbolic split all match the abstract; caveats appropriately flag the single-case, non-causal design.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7221118815",
+      "headline": "Ethical scandals ignite boycotts; product failures mostly just annoy people",
+      "verdict": "minor",
+      "notes": "N=501, 5,729 posts, mediation share, neuroticism/agreeableness and ideological incongruence all check out; one quantifier in the spillover sentence goes slightly beyond the abstract.",
+      "issues": [
+        {
+          "label": "Added quantifier on spillover",
+          "severity": "Minor",
+          "as_written": "hostility frequently spilled over onto sponsors, celebrity endorsers, sub-brands and even political parties",
+          "abstract_says": "\"a distinct indirect category captured hostility extending beyond the focal brand to sponsors, celebrities, sub-brands and political parties\"",
+          "problem": "The abstract identifies an indirect hostility category but gives no indication of how common it was; \"frequently\" implies a prevalence the abstract does not report.",
+          "suggested_fix": "Change to \"a distinct category of hostility extended beyond the focal brand to sponsors, celebrities, sub-brands and political parties.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7220913319",
+      "headline": "Price promotions may generate more real sales — and less brand-switching — than standard models assume",
+      "verdict": "minor",
+      "notes": "Discount factor 0.957, rejection of myopia and counterfactual results match; the identification result is set-identification, and the consumer-facing line over-reads a structural parameter.",
+      "issues": [
+        {
+          "label": "Set identification stated as identification",
+          "severity": "Minor",
+          "as_written": "showing that consumers' discount factor can be identified from the model's own built-in restrictions without the extra assumptions about storage costs that prior work relied on",
+          "abstract_says": "\"the DDC has built-in exclusion restrictions that set-identify the discount factor without requiring any auxiliary assumptions... such structure... can be included to achieve point identification and improve statistical efficiency\"",
+          "problem": "The abstract's result is set identification without auxiliary assumptions; point identification still requires the extra structure. The digest flattens this distinction.",
+          "suggested_fix": "Say the built-in restrictions \"set-identify\" the discount factor, with the storage-cost assumptions optional for point identification and efficiency."
+        },
+        {
+          "label": "Over-reading a model parameter as observed shopper behaviour",
+          "severity": "Minor",
+          "as_written": "The estimated discount factor near 0.96 is evidence that ordinary shoppers are strategic: when detergent goes on sale they are, in effect, calculating future consumption and storage, not just grabbing a bargain.",
+          "abstract_says": "\"we find a mean discount factor estimate of $0.957$, rejecting myopic models of choice in favor of the dynamic model.\"",
+          "problem": "The estimate indicates that a forward-looking model fits the data better than a myopic one; it is not direct evidence of conscious calculation by individual shoppers.",
+          "suggested_fix": "Reframe as \"purchase patterns fit a forward-looking model better than a myopic one — behaviour consistent with stocking up when prices dip.\""
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7216479640",
+      "headline": "Not all social proof helps: testimonials that look paid for can actively reduce repurchase",
+      "verdict": "minor",
+      "notes": "N=394 Vietnamese online shoppers, RoBERTa component and the three social-proof patterns all match; headline drops \"intention\" and the consumer angle adds an untested comparison.",
+      "issues": [
+        {
+          "label": "Intention reported as behaviour in headline",
+          "severity": "Minor",
+          "as_written": "testimonials that look paid for can actively reduce repurchase",
+          "abstract_says": "testimonials \"when seen as commercially motivated... independently trigger skepticism and weaken repurchase intention\"",
+          "problem": "The outcome measured was stated repurchase intention in a cross-sectional survey, not repurchase; the body caveat notes this but the headline does not.",
+          "suggested_fix": "Add \"intention\" to the headline: \"...can actively reduce repurchase intention.\""
+        },
+        {
+          "label": "Untested comparison and outcome swap",
+          "severity": "Moderate",
+          "as_written": "the moment a testimonial reads as bought, it doesn't just stop working — it makes people trust the brand less than if there had been no testimonial at all",
+          "abstract_says": "commercially motivated testimonials \"independently trigger skepticism and weaken repurchase intention\"",
+          "problem": "The abstract reports skepticism and weakened repurchase intention; it does not report a brand-trust outcome, nor a comparison against a no-testimonial control.",
+          "suggested_fix": "Rewrite as \"when a testimonial reads as commercially motivated, it was associated with more skepticism and weaker repurchase intention.\""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7220832664",
+      "headline": "The cup is the product: café packaging design shapes buying intent — differently for Starbucks and Luckin",
+      "verdict": "significant",
+      "notes": "Design, brands and gender findings match, but the \"Why it matters\" and consumer angle claim symbolism does not work for the budget brand, when the abstract reports all three design facets were significant for both.",
+      "issues": [
+        {
+          "label": "Difference in degree reported as absence of effect",
+          "severity": "Moderate",
+          "as_written": "status signaling pays off for premium brands and barely registers for budget ones",
+          "abstract_says": "\"All three design facets significantly influenced hedonic and utilitarian values... Symbolism and utilitarian value effects were stronger for Starbucks than for Luckin.\"",
+          "problem": "The abstract reports a stronger effect for Starbucks, not a negligible one for Luckin; symbolic design was significant in both groups.",
+          "suggested_fix": "Rewrite as \"symbolic design mattered more for the premium brand than the budget one, though it registered for both.\""
+        },
+        {
+          "label": "Overstated consumer-facing claim",
+          "severity": "Moderate",
+          "as_written": "something that disappears entirely when the brand is a budget one",
+          "abstract_says": "\"All three design facets significantly influenced hedonic and utilitarian values\" in both brand contexts, with symbolism simply stronger for Starbucks.",
+          "problem": "\"Disappears entirely\" contradicts the reported finding that symbolic design was significant for Luckin customers too.",
+          "suggested_fix": "Change to \"something that matters less, though not nothing, when the brand is a budget one.\""
+        },
+        {
+          "label": "Added significance qualifier",
+          "severity": "Minor",
+          "as_written": "All three design facets fed both value routes for both brands, but symbolic design and utilitarian value mattered significantly more for Starbucks customers.",
+          "abstract_says": "\"Symbolism and utilitarian value effects were stronger for Starbucks than for Luckin.\"",
+          "problem": "The abstract describes the multigroup difference as \"stronger\" without labelling it statistically significant.",
+          "suggested_fix": "Drop \"significantly\" or say \"were stronger for Starbucks customers.\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7220958293",
+      "headline": "Heritage or exclusivity? The right luxury pitch depends on how hierarchical your customers are",
+      "verdict": "minor",
+      "notes": "Design, PDB operationalizations, direction of effect and the serial mediation all match; one detail about which study produced the click-through measure is not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Outcome assigned to a specific study",
+          "severity": "Minor",
+          "as_written": "across click-through rates in the field, incentive-compatible choice, purchase intention and willingness to pay a premium",
+          "abstract_says": "\"low‐PDB consumers show more favorable responses (click‐through rate, incentive‐compatible choice, purchase intention, and willingness to pay a premium) for heritage signals\" — the abstract lists the measures without saying which study produced each.",
+          "problem": "The pairing of click-through rate with the field study is a plausible inference but is not stated in the abstract.",
+          "suggested_fix": "List the four outcomes without attributing click-through rate to the field study, or mark the attribution as unverified."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7203440056",
+      "headline": "Modest brands outsell boastful ones — unless the brand is luxury",
+      "verdict": "minor",
+      "notes": "Four studies, direction of effect and the skepticism/trust mechanism match; the luxury moderation is described as full equivalence when the abstract says attenuated, and \"outsell\" implies market sales.",
+      "issues": [
+        {
+          "label": "Attenuated reported as eliminated",
+          "severity": "Minor",
+          "as_written": "for luxury brands boastful messaging matched brand identity and the gap between the two styles disappeared",
+          "abstract_says": "\"differences between message types are attenuated for luxury brands, allowing greater flexibility in message strategy\"",
+          "problem": "Attenuated means reduced, not eliminated; \"disappeared\" overstates the moderation.",
+          "suggested_fix": "Change to \"the gap between the two styles narrowed, giving luxury brands more latitude.\""
+        },
+        {
+          "label": "Headline implies market sales",
+          "severity": "Minor",
+          "as_written": "Modest brands outsell boastful ones — unless the brand is luxury",
+          "abstract_says": "\"brands using self-effacing rather than self-enhancing messages elicit stronger consumer attitudes and purchasing behaviors, even in the presence of monetary tradeoffs\" — across four studies.",
+          "problem": "Purchasing was measured within experimental tasks (as the digest's caveat notes); \"outsell\" suggests real-world sales performance.",
+          "suggested_fix": "Reword to \"Modest brand messages win more purchases in experiments — unless the brand is luxury.\""
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7203997372",
+      "headline": "When AI writes your brand's social stance, consumers smell inauthenticity",
+      "verdict": "minor",
+      "notes": "Core findings, study count and both moderators match the abstract; two story-angle lines extend beyond what was tested (a product-copy comparison and an output-quality claim).",
+      "issues": [
+        {
+          "label": "Untested comparison with non-activism content",
+          "severity": "Moderate",
+          "as_written": "AI-drafted product copy is fine, AI-drafted moral conviction is not, and the discomfort shows up as a worse feeling about your own purchase decision.",
+          "abstract_says": "Across five studies, we find that AI-created activism elicits greater negative affect, ultimately reducing decision comfort. This occurs because consumers perceive these messages as less authentic.",
+          "problem": "The research examined only brand activism (value-laden) messages; it did not test ordinary product copy, so the claim that AI-written product copy \"is fine\" is not supported by this study.",
+          "suggested_fix": "Reword to: \"The study tested only activism messages, so it shows a penalty for AI-written moral statements — it does not tell us how AI-drafted product copy fares.\""
+        },
+        {
+          "label": "Quality claim not tested",
+          "severity": "Minor",
+          "as_written": "the penalty appears to be about perceived authenticity, not output quality",
+          "abstract_says": "This occurs because consumers perceive these messages as less authentic.",
+          "problem": "The abstract identifies perceived authenticity as the mechanism but reports no measure or comparison of output quality, so ruling quality out is an inference.",
+          "suggested_fix": "Drop \"not output quality\" or say \"the measured mechanism was perceived authenticity.\""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7214746746",
+      "headline": "\"Fix it, don't toss it\": the right repair pitch flips depending on whether you're fast or slow fashion",
+      "verdict": "accurate",
+      "notes": "Four experiments, construal level theory framing, both outcome measures and the education-level moderator (including the reversal for less educated consumers) are reported correctly.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7219659105",
+      "headline": "AI service failures don't just annoy customers — they corrode the brand relationship",
+      "verdict": "minor",
+      "notes": "Sample sizes, methods and the five-failure typology match; one small overstatement about how uniformly informational and systemic failures dominated.",
+      "issues": [
+        {
+          "label": "Overstated consistency across methods",
+          "severity": "Minor",
+          "as_written": "with informational failure (wrong or inadequate answers) and systemic failure (the system itself breaking down) consistently the most damaging across every analytic method",
+          "abstract_says": "Informational failure and systemic failure emerge as particularly influential across linear, predictive, and configurational analyses.",
+          "problem": "The abstract names three analytic families (linear, predictive, configurational) and does not claim the pattern held in the necessary condition analysis, so \"every analytic method\" goes slightly further than stated.",
+          "suggested_fix": "Change to \"across the linear, predictive and configurational analyses.\""
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7203651996",
+      "headline": "Mystery boxes work — but only for the right kind of shopper",
+      "verdict": "minor",
+      "notes": "Six studies, the two epistemic motivations, goal congruence, the three outcomes and self-efficacy as mediator all match; the specific stimuli and whether motivations were manipulated are not in the abstract.",
+      "issues": [
+        {
+          "label": "Stimuli specifics not in abstract",
+          "severity": "Minor",
+          "as_written": "They manipulated or measured two epistemic motivations (need for cognition, the enjoyment of effortful thinking; and need for cognitive closure, the desire for a quick, definite answer)",
+          "abstract_says": "Across six studies, this research demonstrates that motivational congruence elevates purchase intentions, trust and perceived self-efficacy.",
+          "problem": "The abstract does not state whether the epistemic motivations were manipulated or measured, nor that mystery boxes, surprise bundles or blind drops were the stimuli — these are illustrations, not reported design details. Unverifiable from abstract only.",
+          "suggested_fix": "Say the abstract describes \"uncertainty marketing\" tactics generally and note that the specific offers and whether traits were manipulated are not specified."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7220944415",
+      "headline": "\"Love it, hate it, can't quit it\": ambivalence isn't a phase of social media use, it's the structure",
+      "verdict": "minor",
+      "notes": "The duality framework, the three-study multi-method design and the imperfect syntheses are reported correctly; two phrasings firm up the abstract's hedged language.",
+      "issues": [
+        {
+          "label": "\"Over time\" implies longitudinal evidence",
+          "severity": "Minor",
+          "as_written": "co-occur within the same accounts and do not resolve over time",
+          "abstract_says": "mixed emotions and ambivalent evaluations frequently co‐occur within the same accounts and persist across contexts, including discourse about quitting",
+          "problem": "The abstract reports persistence across contexts, not across measured time; \"over time\" suggests longitudinal tracking that is not described.",
+          "suggested_fix": "Change to \"persist across contexts, including when people talk about quitting.\""
+        },
+        {
+          "label": "Stronger claim than abstract makes",
+          "severity": "Minor",
+          "as_written": "net-benefit models — which assume consumers settle into either liking or disliking a platform — miss this persistent ambivalence",
+          "abstract_says": "we show convergent evidence that net‐benefit models do not fully capture SMU outcomes",
+          "problem": "The abstract says such models \"do not fully capture\" outcomes; \"miss\" overstates it, and the parenthetical characterization of what those models assume is the digest's own gloss.",
+          "suggested_fix": "Use \"do not fully capture this persistent ambivalence.\""
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7214968251",
+      "headline": "Brand image won't save you from a scandal — satisfaction and love might",
+      "verdict": "minor",
+      "notes": "N=700, PLS-SEM, the satisfaction/image/brand love paths and the minimal personality role all match; the digest describes the work as survey-only when the abstract calls it mixed-method.",
+      "issues": [
+        {
+          "label": "Mixed-method design described as survey-only",
+          "severity": "Minor",
+          "as_written": "Researchers surveyed 700 consumers of clothing brands and used PLS-SEM to model what makes people resist negative information about a brand.",
+          "abstract_says": "A mixed‐method approach investigates the cognitive and affective attributes contributing to RNI, as well as the influence of consumers' personalities. Data from 700 consumers of clothing brands were analyzed using PLS‐SEM",
+          "problem": "The abstract describes a mixed-method study; the digest reports only the quantitative survey component, so readers get an incomplete picture of the design.",
+          "suggested_fix": "Note that this was a mixed-method study whose quantitative component surveyed 700 clothing-brand consumers and used PLS-SEM."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7214780511",
+      "headline": "Which content tasks to hand to AI, and which to keep: a workflow map from one real marketing team",
+      "verdict": "accurate",
+      "notes": "Case study design, education SME, seven mapped activities, data sources and the hybrid low-risk/high-risk division all match the abstract, and the caveats correctly limit generalizability.",
+      "issues": []
+    },
+    {
+      "number": 18,
+      "work_id": "W7212008823",
+      "headline": "Decadent imagery only goes viral for luxury brands — for everyone else it backfires",
+      "verdict": "accurate",
+      "notes": "Image-dataset size, the sharing-intention outcome, the reputational-cost mechanism for mainstream brands and the arousal mechanism for luxury brands are all reported as in the abstract, with the intention-vs-behavior limit flagged in Caveats.",
+      "issues": []
+    },
+    {
+      "number": 19,
+      "work_id": "W7204024551",
+      "headline": "After a brand takes a political stand, angry defectors don't just leave — they want to punish it",
+      "verdict": "minor",
+      "notes": "All three studies are described accurately; the \"Why it matters\" line drops the ideology and openness-to-switching conditions that the body correctly states.",
+      "issues": [
+        {
+          "label": "Boundary condition dropped in \"Why it matters\"",
+          "severity": "Minor",
+          "as_written": "It reframes a competitor's activism backlash as an acquisition window, and suggests the winning message is rivalry rather than price.",
+          "abstract_says": "Study 2 tested ad appeals in an experiment (rival versus discount) finding that (for consumers open to switching brands) rival appeals were more effective for conservatives.",
+          "problem": "The rival-over-discount advantage was found specifically for conservatives who were already open to switching, not as a general messaging rule; the summary line omits both conditions.",
+          "suggested_fix": "Add the qualifier: \"for conservative consumers already open to switching, rivalry beat price.\""
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "work_id": "W7202384182",
+      "headline": "Consumers forgive AI-designed products — if they believe the brand is driven by passion, not profit",
+      "verdict": "minor",
+      "notes": "Two online-panel experiments, both stimulus categories, the outcome set and the authenticity mediation match; the headline implies a baseline AI penalty the abstract does not report.",
+      "issues": [
+        {
+          "label": "Headline implies an unreported baseline penalty",
+          "severity": "Minor",
+          "as_written": "Consumers forgive AI-designed products — if they believe the brand is driven by passion, not profit",
+          "abstract_says": "Results indicate that AI-designed products receive more favourable evaluations when associated with passion-driven rather than profit-driven brands.",
+          "problem": "\"Forgive\" presumes AI design is penalized by default; the abstract reports only a relative difference between passion- and profit-framed brands, not an overall AI-versus-human deficit.",
+          "suggested_fix": "Reframe as \"AI-designed products are judged more favourably when the brand reads as passion-driven rather than profit-driven.\""
+        },
+        {
+          "label": "Disclosure inference",
+          "severity": "Minor",
+          "as_written": "this suggests disclosure isn't inherently damaging — what matters is whether consumers already read the brand's motives as sincere",
+          "abstract_says": "Two experiments were conducted using stimuli of wedding jewellery and craft beer... Results indicate that AI-designed products receive more favourable evaluations when associated with passion-driven rather than profit-driven brands.",
+          "problem": "The studies described AI involvement within experimental stimuli; the abstract does not test a disclosure decision or compare disclosing versus not disclosing.",
+          "suggested_fix": "Say the study varied whether a product was described as AI- or human-designed, and avoid framing the result as evidence about disclosure strategy."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 20,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7221130306": {
+        "query": "Copywriters who hate brand write duller ads they purpose",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221048994": {
+        "query": "Retro logos read safe old fashioned design boosts trust through",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221096517": {
+        "query": "Collaboration fatigue real young Chinese consumers turning branded launches",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220855662": {
+        "query": "Rebranding acquisition executives want capability proof staff want their professional",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221118815": {
+        "query": "Ethical scandals ignite boycotts product failures mostly just annoy people",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220913319": {
+        "query": "Price promotions generate real sales brand switching than standard models",
+        "returned": 6,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7216479640": {
+        "query": "Not all social proof helps testimonials look paid actively reduce",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220832664": {
+        "query": "cup product caf packaging design shapes buying intent differently Starbucks",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220958293": {
+        "query": "Heritage exclusivity right luxury pitch depends hierarchical customers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203440056": {
+        "query": "Modest brands outsell boastful ones unless brand luxury",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203997372": {
+        "query": "writes brand social stance consumers smell inauthenticity",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214746746": {
+        "query": "Fix don toss right repair pitch flips depending whether fast",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7219659105": {
+        "query": "service failures don just annoy customers they corrode brand relationship",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7203651996": {
+        "query": "Mystery boxes work but only right kind shopper",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220944415": {
+        "query": "Love hate quit ambivalence isn phase social media use structure",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214968251": {
+        "query": "Brand image won save scandal satisfaction love might",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214780511": {
+        "query": "Which content tasks hand which keep workflow map one real",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212008823": {
+        "query": "Decadent imagery only goes viral luxury brands everyone else backfires",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204024551": {
+        "query": "After brand takes political stand angry defectors don just leave",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7202384182": {
+        "query": "Consumers forgive designed products they believe brand driven passion not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "_No prior digest on this topic to compare against yet — this is the first run._",
+    "feature_pitch": "**The pattern:** Several studies in this batch converge on the same consumer skill: inferring a brand's motive and discounting the message accordingly. Modest, self-effacing claims beat boastful ones because they lower skepticism and raise trust (\"Modest brands outsell boastful ones,\" W7203440056); testimonials that read as commercially motivated don't merely fail but actively depress repurchase (\"Not all social proof helps,\" W7216479640); AI-authored activism reads as inauthentic and leaves buyers less comfortable with their own decisions (\"When AI writes your brand's social stance,\" W7203997372); and AI-designed products are forgiven only when the brand is already seen as passion-driven rather than profit-driven (\"Consumers forgive AI-designed products,\" W7202384182). Even the creative-side study fits — copywriters who dislike a brand strip emotion out of the work precisely to avoid contaminating it (\"Copywriters who hate your brand write duller ads,\" W7221130306).\n\n**Why pitch this now:** Generative AI has made persuasive content effectively free at the same moment that disclosure regimes — AI transparency rules and crackdowns on undisclosed endorsements and fabricated reviews — are forcing brands to say out loud how their content was made and paid for, which turns motive from a hidden variable into a published one.\n\n**Angle:** A feature on the economics of sincerity: as production costs collapse and disclosure becomes mandatory, the scarce asset is a believable reason for the brand to be speaking at all — written for CMOs and brand strategists, with enough consumer-psychology texture to carry a general-interest read.\n\n**Potential headlines:**\n- Understatement outsells superlatives, and paid-looking praise costs more than it earns\n- The harder a brand tries to persuade you, the less you believe it\n- Brands are about to publish how their content gets made, and not all of them will survive it\n\n**Potential outlets:**\n- **Marketing Week** — its readers argue constantly about brand trust and effectiveness metrics; evidence that modest copy beats superlatives is a direct provocation to house creative orthodoxy.\n- **Digiday** — the testimonial and ambassador findings land squarely in its coverage of the paid-creator economy and where endorsement spend stops working.\n- **MIT Sloan Management Review** — fits its remit on AI governance: which content categories a company should keep in human hands, and why values-led messaging is the costly exception.\n- **The Atlantic** — runs consumer-psychology and AI-authenticity essays for general readers; the \"we can smell the motive\" thread works as cultural reporting, not just trade news.",
+    "pitch_ideas": "- **Copywriters who hate your brand write duller ads (Work ID W7221130306):** Agencies have a staffing problem nobody audits — creatives who privately dislike a client suppress emotion on purpose, pushing work toward the weaker functional end; for a marketing-trade feature or an agency-leadership column.\n- **Retro logos read as 'safe' (Work ID W7221048994):** Heritage design is a risk-reduction cue, not nostalgia, which makes it a tool for finance, insurance and health brands and a warning about the trust cost of frequent rebrands; for a brand-design trade explainer.\n- **Collaboration fatigue is real (Work ID W7221096517):** Co-branding backlash is driven by release cadence and overclaiming, not poor brand fit — a timely read on limited-edition mashup saturation; for a retail trade piece or a consumer-culture column.\n- **Rebranding an acquisition (Work ID W7220855662):** Post-merger brand rollouts fail internally because the C-suite wants capability proof and frontline staff want professional pride back; for a B2B marketing or corporate-communications trade column.\n- **Ethical scandals ignite boycotts (Work ID W7221118815):** Build the case for two separate crisis playbooks — competence failures versus values breaches — plus a contagion map across sponsors, endorsers and sub-brands; for a PR/crisis-comms trade feature.\n- **Price promotions may generate more real sales (Work ID W7220913319):** Conventional demand models may systematically understate incremental sales from discounts in stockpileable categories, with direct implications for trade spend; for a CMO/analytics-audience column or a business-economics explainer.\n- **Not all social proof helps (Work ID W7216479640):** Testimonials that look bought reduce repurchase below having none at all, and ambassador spend fades once a brand is strong; for an e-commerce or influencer-marketing trade news feature.\n- **The cup is the product (Work ID W7220832664):** Disposable packaging as status signaling that pays off for premium coffee and barely registers for budget chains; for a retail/packaging trade explainer or a food-business section.\n- **Heritage or exclusivity? (Work ID W7220958293):** Global luxury campaigns may under-perform purely by market mindset, and the fix is a signal swap rather than a new brand story; for a luxury-business or global-marketing trade piece.\n- **Modest brands outsell boastful ones (Work ID W7203440056):** A testable challenge to superlative-driven copy, with luxury as the licensed exception; for an advertising-creative trade column.\n- **When AI writes your brand's social stance (Work ID W7203997372):** The one content category where AI authorship carries a real penalty is the one brands claim to speak from conviction about; for a marketing-trade news brief or an AI-ethics section in a general-interest outlet.\n- **\"Fix it, don't toss it\" (Work ID W7214746746):** Repair messaging misfires when the frame clashes with the brand's position — fast fashion preaching abstract sustainability is the worst combination for educated shoppers; for a sustainability or apparel-retail trade explainer.\n- **AI service failures corrode the brand relationship (Work ID W7219659105):** Reframes chatbot performance from a cost metric to a brand equity metric, with informational accuracy and uptime beating conversational polish; for a customer-experience trade feature or a CMO column.\n- **Mystery boxes work — but only for the right kind of shopper (Work ID W7203651996):** Uncertainty marketing succeeds or fails on whether the copy tells you to puzzle it out or to hand the decision over; for a retail trade piece or a consumer-psychology explainer in a general-interest outlet.\n- **\"Love it, hate it, can't quit it\" (Work ID W7220944415):** Advertisers are buying engagement inside an experience users describe as a trap, and the ambivalence never resolves; for a media/adtech feature or a general-interest tech-and-well-being piece.\n- **Brand image won't save you from a scandal (Work ID W7214968251):** Crisis insurance is built from satisfaction and attachment, not image advertising — an argument for service recovery as a reputation budget line; for a CMO-audience column.\n- **Which content tasks to hand to AI (Work ID W7214780511):** A task-by-task workflow map of where one real team kept humans — fact-checking, brand voice, sign-off — usable as an audit template; for a marketing-operations trade how-to.\n- **Decadent imagery only goes viral for luxury brands (Work ID W7212008823):** Mass-market \"food porn\" may suppress sharing because reposting it flatters nobody; for a social-media marketing trade brief or a creative-strategy column.\n- **Angry defectors want to punish the brand (Work ID W7204024551):** A rival's activism backlash is an acquisition window where rivalry appeals beat discounts; for a competitive-strategy trade feature or a politics-and-consumers piece in a general-interest outlet.\n- **Consumers forgive AI-designed products (Work ID W7202384182):** AI disclosure isn't the risk — perceived motive is, giving craft- and mission-positioned brands more room than efficiency-positioned ones; for a product/brand-management trade explainer."
+  }
+}
