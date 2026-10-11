@@ -1,21 +1,23 @@
 # Topic Memory: Social Media & Influencers
-_Last updated: 2026-09-27_
+_Last updated: 2026-10-11_
 
 ## Established findings
-- Influencer credibility splits by objective: attractiveness drives engagement, expertise drives intention, and engagement does not mediate the path to purchase (W7213954552, meta-analysis of 97 studies, 2026-09).
-- Follower count is a signal, not just reach: micro-influencers outperform macro for luxury by reducing perceived social crowding and preserving exclusivity (W7214325049, 2026-09).
-- Disclosure and provenance labels change persuasion asymmetrically — #ad tags hurt informational posts more than narrative ones (W7212040284); AI-generation disclosure drains guilt appeals but not aspirational ones (W7213456793).
-- Personalized advertising produces ambivalence, not simple backlash: liking and negative word of mouth can rise together (W7214160679), and privacy concern pushes consumers toward conformist, mainstream choices (W7214349274).
+- Reach is a poor influencer-selection metric: micro beats macro for luxury via reduced social crowding (W7214325049, 2026-09); dense "bonding" follower ties beat broad "bridging" reach on TikTok engagement, with high posting frequency flattening the advantage (W7221178082, 2026-10).
+- Engagement does not mediate the path to purchase intention — found meta-analytically (W7213954552, 2026-09) and replicated as a null serial mediator in rivalry advertising (W7221340448, 2026-10).
+- Narrative formats outperform claim/spec-led formats and survive disclosure better (W7212040284, W7214151150, 2026-09; W7221340448, 2026-10), with narrative transportation the recurring mechanism.
+- Disclosure and claim labels behave asymmetrically: #ad hurts informational posts most (W7212040284); AI-generation disclosure drains guilt but not aspirational appeals (W7213456793); stacked virtue claims inflate expectations taste cannot meet (W7215857329), while a single production story raises reported liking (W7218807019).
+- Aversive or constrained states push consumers toward the majority option: privacy concern (W7214349274, 2026-09) and physical pain (W7212201010, 2026-09/10).
+- Culture reliably moderates social and service effects: collectivism (W7213466946), privacy culture under identical GDPR (W7214160679), power distance in crisis messenger choice (W7220681469).
 
 ## Emerging threads
-- Purchased platform credentials devalue fast: paid verification's effect on engagement weakened then reversed on X (W7214149214) — watch for replication on Meta/LinkedIn verification.
-- Virtual/AI influencers underperform with the most parasocially inclined consumers, and higher anthropomorphism can backfire (W7213316341).
-- AI as a blame target in brand crises cuts responsibility but signals moral indifference (W7214331895) — early evidence, scenario-based.
-- Creator retention is being framed in employment terms: autonomy, purpose alignment, permission to use AI tools (W7214020197).
-- Underweighted sensory/format levers: vocal pleasantness and social presence beat facial attractiveness (W7214151150); campaign-level visual consistency varies by tier and format (W7172486915); ASMR reads differently by brand gender coding (W7214311277).
-- Cultural moderation is recurring: social media agility pays off mainly with collectivist consumers (W7213466946); GDPR-identical markets diverge on targeting tolerance (W7214160679).
-- Credentialed professionals as a distinct influencer class with lowered persuasion knowledge (W7213976385).
-- Short-form video as a genuine but heavily skewed demand driver for content industries (W4399061707).
+- Cosmetic/interface variables with no informational content move behavior: progress-bar segmentation (W7221366370), delay unit framing (W7215115595), AI response streaming cadence (W7219615860), U-shaped image polish (W7220857638), haptic prompts in immersive video (W7221071870).
+- Virtual influencers — tension to watch: humanlike avatars gain most from group-photo authenticity cues (W7220426162) but high anthropomorphism cancels parasocial trust transfer (W7213316341).
+- Crisis response is becoming a contingency table: excuse type (W7214331895), complainant tone (W7214100498), messenger identity by market (W7220681469).
+- Purchased platform credentials devalue fast (W7214149214) — still unreplicated beyond X.
+- Life-event and vulnerability targeting as an ethics flashpoint: bereavement/divorce category shifts (W7218361443), cost-induced pain anticipation among financially stressed patients (W7220360473).
+- Status signaling losing pull in physical luxury retail; "cool"/subcultural coding outperforms (W7218728341).
+- Voice commerce barrier may be experiential rather than structural (W7220476960, small qualitative sample).
 
 ## Feature ideas already pitched
-- 2026-09-27: "The collapse of trust signals" — paid verification, AI disclosure, #ad labels and review credibility all failing or behaving perversely (W7214149214, W7212040284, W7213456793, W7214331895, W7172001493, W7213976385, W7213316341). Pitched to Digiday, MIT Sloan Management Review, Wired, The Atlantic.
+- 2026-09-27: "The collapse of trust signals" — paid verification, AI disclosure, #ad labels, review credibility (W7214149214, W7212040284, W7213456793, W7214331895, W7172001493, W7213976385, W7213316341). Pitched to Digiday, MIT Sloan Management Review, Wired, The Atlantic.
+- 2026-10-11: "Design choices that aren't neutral" — cosmetic presentation levers moving purchase and trust, framed against dark-pattern regulation (W7221366370, W7215115595, W7219615860, W7220857638, W7220426162, W7221071870, W7218807019, W7215857329). Pitched to Marketing Brew, Retail Dive, Fast Company, Vox.
