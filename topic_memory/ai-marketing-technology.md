@@ -1,24 +1,23 @@
 # Topic Memory: AI & Marketing Technology
-_Last updated: 2026-09-28_
+_Last updated: 2026-10-12_
 
 ## Established findings
-- Machine-ness is often the asset: consumers prefer AI after discriminatory human treatment (W7214431211, 2026-09), bots explaining unfavorable recovery decisions (W7204096810, 2026-08), robot-delivered perks that disadvantage others (W7203703034, 2026-08).
-- Anthropomorphism has a ceiling and backfire points — name repetition (W7204492734), human-like bots after process failures (W7208749448), memory reading as "uncomfortably human" (W7212274308) — but it is not monotonic: accented voicebots raised preference, WTP and opt-in via humanizing inference (W7214067855, 2026-09).
-- Transparency and disclosure are conditional, not universally good: privacy notices helped only when location targeting was vague and hurt when precise (W7214342499, 2026-09); vague privacy empowerment failed where concrete data control worked (W7212274308).
-- AI's brand effects run through perception and flip by positioning: luxury AI had no direct performance effect (W7212369437), "designed by AI" helps mainstream and hurts avant-garde brands (W7214017195, 2026-09), persona fit varies by product type (W7208752452).
-- Cheap framing beats expensive generative personalization: ownership-activation cues outperformed richer incentives (W7213237840, 2026-09); LLM style-matching added no behavioral gain over generic daily messages in a preregistered RCT (W7114890653).
-- Beliefs about algorithmic leniency distort behavior upstream of any decision: weak applicants self-select out (W7204140072), candidates deceive more under machine screening, fixed by signaling human review (W7213972128, 2026-09).
-- Access to AI is not the gain; skills, selection and review are: prompt training was the only condition that raised idea volume (W7204938023), causal screening of AI drafts (W7172334002), and Copilot raised code output while lengthening review and integration (W4400488941, 2026-08).
+- Humanness and warmth in AI are conditional levers, not defaults: name repetition and over-human bots backfire (W7204492734, W7208749448), accented voicebots raise WTP (W7214067855, 2026-09), robot empathy helps except in privacy-sensitive contexts (W7215001822, 2026-10), and script tone should match product type — informational for search goods, emotional for experience goods (W7219885583, 2026-10; cf. W7203665707).
+- Transparency and emotional cues flip sign with salience: privacy notices help only when targeting is vague (W7214342499, 2026-09); warmth reads as intrusion when sensitive data is in play (W7215001822).
+- AI's brand effects run through perception and flip by positioning (W7214017195, W7212369437); acceptance now measurable as eight separable dimensions splitting functional from social (CAAI, W7220664143, 2026-10).
+- Access to AI is not the gain — skills, selection, review and integration are: Copilot raised output but lengthened review (W4400488941, 2026-08); prompt training was the only condition raising idea volume (W7204938023).
+- Beliefs about machine leniency distort behavior upstream: candidates deceive more under AI screening unless human review is signaled (W7213972128, 2026-09).
+- AI-based research instruments need validation before use: silicon samples compress variance (W7214279921, 2026-09); sentiment conclusions shift with lexicon choice and difference-score practice (W7202341073, 2026-08).
 
 ## Emerging threads
-- AI as research instrument, with fidelity contingent on architecture: silicon samples compress variance and skew demographics unless neuro-symbolic (W7214279921, 2026-09); generative embeddings enabling 50,000-stimulus experiments and showing incidental-exposure anchoring (W7210288362, 2026-09).
-- Benchmarking machines against people: LLMs beat all human groups on marketing textbook knowledge but lag on higher-order reasoning, implying designed handoffs (W7211986357, 2026-09).
-- Internal adoption as a management variable: employee voice plus leader humility transferred trust to AI (W7201971570, 2026-08), against the autonomy damage from an AI copilot (W7203942746).
-- Algorithmic reach versus human credibility on community-commerce platforms: KOL expertise and co-creation drove purchase, algorithmic recommendation did not (W7214221690, 2026-09).
-- Platforms reshaping physical retail geography: delivery penetration pulled visits out of neighborhood catchments, worst in lower-income areas, buffered by retail density and traditional markets (W7214553827, 2026-09).
-- Bias in AI personas as a changeable default: stereotype-matched agent choices weakened or flipped when gender was made salient (W7204661745, 2026-08).
-- Conversational persona as a disclosure-extraction lever (W7203665707, 2026-08), raising an ethics/regulatory exposure alongside open-model likeness ecosystems (W4416014100).
+- AI degrades expert-tier work more than novice work: corner-cutting sharpest among high-status staff at moderate GenAI use (W7220733006, 2026-10); modeled Einstellung effect on skilled creators (W7214651072, 2026-09); professional-value and junior-development erosion in PR (W7220835940, W7204089014, 2026-08/10). Tension with W4400488941, where core contributors gained most.
+- Asymmetric reciprocity as the organizing risk in conversational brand AI (HAART, W7215774667, 2026-10), building on disclosure-extraction via persona (W7203665707).
+- AI as market infrastructure and regulated terrain: national "AI interpretive climates" linked to institutional confidence and economic wellbeing across 22 countries (W7220834813, 2026-10); EU member states cluster into three governance tiers, with Analytical vs Decisional AI as the practical line (W7221335140, 2026-10).
+- Synthetic relationship partners converting offline: Gen Z parasocial bonds with AI NPCs predict real-world luxury intent (W7204474051, 2026-08); contrast with algorithmic recommendation failing to drive purchase on community commerce (W7214221690).
+- Interface-level drivers of perceived AI intelligence: control variety rewarded, complexity penalized, solo branding absorbs blame (W7204460029, 2026-08); cross-modal tone congruence governs response to AI content (W7214946351, 2026-09).
+- Organizational capability as sequenced practice change, not purchase (W7213979252, 2026-09).
 
 ## Feature ideas already pitched
-- 2026-09-14: "The anthropomorphism ceiling" — warmth in AI interfaces stops paying and coldness sometimes outperforms; tune humanness by task (W7204492734, W7208749448, W7212274308, W7204096810, W7203703034, W7203949248, W7207605884, W7171554746).
-- 2026-09-28: "The review economy" — AI's constraint has moved from generation to verification, and the human check is unbudgeted, unmeasured and behaviorally load-bearing (W4400488941, W7211986357, W7214279921, W7213972128, W7201971570).
+- 2026-09-14: "The anthropomorphism ceiling" — warmth in AI interfaces stops paying; tune humanness by task.
+- 2026-09-28: "The review economy" — the constraint moved from generation to verification, and the human check is unbudgeted and behaviorally load-bearing (W4400488941, W7211986357, W7214279921, W7213972128, W7201971570).
+- 2026-10-12: "AI lifts the floor and lowers the ceiling" — expert and senior workers bear the cost of universal AI deployment (W7220733006, W7214651072, W7220835940, W7204089014).
