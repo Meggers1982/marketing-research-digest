@@ -10,6 +10,16 @@
         "state": "unreported"
       }
     },
+    "W4410534098": {
+      "checked_at": "2026-10-13T17:39:06.303013+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Opting out data sharing cost model says privacy protecting shoppers",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
     "W4414312759": {
       "checked_at": "2026-10-06T16:50:31.919298+00:00",
       "result": {
@@ -478,6 +488,16 @@
         "state": "unreported"
       }
     },
+    "W7204257214": {
+      "checked_at": "2026-10-13T17:38:55.588439+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Making cheaper isn enough constant tradeoffs trap low income shoppers",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7204275888": {
       "checked_at": "2026-10-01T14:25:37.400786+00:00",
       "result": {
@@ -786,6 +806,16 @@
         "state": "unreported"
       }
     },
+    "W7213234135": {
+      "checked_at": "2026-10-13T17:39:01.675139+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "luxury NFTs logos get clicks but only visual craft earns",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7213244866": {
       "checked_at": "2026-10-06T16:49:54.456224+00:00",
       "result": {
@@ -903,6 +933,16 @@
         "outlets": [],
         "query": "Hand sanitizer stations still earn their keep visible hygiene cues",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7213561739": {
+      "checked_at": "2026-10-13T17:39:13.741813+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "learns users free tier start eating business",
+        "returned": 3,
         "state": "unreported"
       }
     },
@@ -1324,6 +1364,16 @@
         "state": "unreported"
       }
     },
+    "W7214644774": {
+      "checked_at": "2026-10-13T17:38:56.814369+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "shoppers say they pay than real shoppers gap wrecks price",
+        "returned": 13,
+        "state": "unreported"
+      }
+    },
     "W7214649704": {
       "checked_at": "2026-10-04T15:22:06.158592+00:00",
       "result": {
@@ -1592,6 +1642,16 @@
         "state": "unreported"
       }
     },
+    "W7214964045": {
+      "checked_at": "2026-10-13T17:38:38.171833+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Explaining tracker works makes drivers likely accept not",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
     "W7214968251": {
       "checked_at": "2026-10-10T15:59:03.611208+00:00",
       "result": {
@@ -1642,6 +1702,16 @@
         "state": "unreported"
       }
     },
+    "W7215055600": {
+      "checked_at": "2026-10-13T17:38:19.430271+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "psychology subscription never use but cancel",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7215060027": {
       "checked_at": "2026-10-05T19:17:24.502467+00:00",
       "result": {
@@ -1682,6 +1752,16 @@
         "state": "unreported"
       }
     },
+    "W7215078694": {
+      "checked_at": "2026-10-13T17:38:36.001301+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Half smokers don flinch price hikes but plain packs reach",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7215082714": {
       "checked_at": "2026-10-03T14:47:56.357555+00:00",
       "result": {
@@ -1708,6 +1788,26 @@
         "articles": [],
         "outlets": [],
         "query": "Tech Stores Pays Off Depends Whether Experience Feels Right",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7215085152": {
+      "checked_at": "2026-10-13T17:38:22.259997+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "every product looks same promotion CRM investors pay",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7215090900": {
+      "checked_at": "2026-10-13T17:38:43.847444+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Nearly cigarettes smoked Bolivia big cities illicit but taxes aren",
         "returned": 0,
         "state": "unreported"
       }
@@ -1819,6 +1919,16 @@
         "outlets": [],
         "query": "Tell people chicken raised identical meat tastes better",
         "returned": 3,
+        "state": "unreported"
+      }
+    },
+    "W7219001667": {
+      "checked_at": "2026-10-13T17:38:50.540520+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Europe supermarkets selling nearly identical plant based lineups pricing them",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -2112,6 +2222,26 @@
         "state": "unreported"
       }
     },
+    "W7220990040": {
+      "checked_at": "2026-10-13T17:38:10.038113+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Showing shoppers math making hidden tier discounts visible lifted subscriptions",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7221025098": {
+      "checked_at": "2026-10-13T17:38:15.266650+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Grocery subscriptions shoppers want mental break than time savings",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7221048994": {
       "checked_at": "2026-10-10T15:58:02.744741+00:00",
       "result": {
@@ -2182,6 +2312,16 @@
         "state": "unreported"
       }
     },
+    "W7221330457": {
+      "checked_at": "2026-10-13T17:38:28.690687+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Leave star review get discount damages trust than simply paying",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7221335140": {
       "checked_at": "2026-10-12T19:52:50.203285+00:00",
       "result": {
@@ -2209,6 +2349,16 @@
         "outlets": [],
         "query": "Draw stages progress bar people replace product sooner",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7221526089": {
+      "checked_at": "2026-10-13T17:38:30.097104+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consistent prices across channels build lock consistent promotions nothing",
+        "returned": 1,
         "state": "unreported"
       }
     }
