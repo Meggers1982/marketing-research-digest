@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 27,
+  "run_count": 28,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -17,6 +17,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-retail-e-commerce-2026-10-14",
+      "title": "Marketing Research Digest — Retail & E-Commerce — 2026-10-14",
+      "topic": "retail & e-commerce",
+      "run_date": "2026-10-14",
+      "study_count": 16,
+      "total_issues": "18 (18 Minor, 0 Moderate, 0 Major)",
+      "lead_count": 8,
+      "top_score": 93
+    },
     {
       "id": "marketing-research-digest-pricing-promotions-2026-10-13",
       "title": "Marketing Research Digest — Pricing & Promotions — 2026-10-13",
