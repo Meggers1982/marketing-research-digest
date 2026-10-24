@@ -1,0 +1,762 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-24",
+  "days_back": 60,
+  "window_from": "2026-08-25",
+  "window_to": "2026-10-24",
+  "focus": "Branding",
+  "topic": "branding",
+  "query": "brand OR branding OR \"brand equity\" OR \"brand loyalty\" OR \"brand trust\" OR \"brand activism\" OR rebranding OR \"brand love\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 349,
+    "not_research": 4,
+    "no_abstract": 46,
+    "off_topic": 0,
+    "already_covered": 95,
+    "over_journal_cap": 33,
+    "over_cap": 131,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7221827692",
+      "headline": "AI-generated video ads beat human-made ones on TikTok — at 2% of the cost",
+      "the_study": "Researchers partnered with one of the world's largest music labels to build MAGE, an engine that generates video ad variations from just a track's audio and its album cover — over 700 million possible variants per artist. They ran four preregistered field studies covering 75 campaigns for 33 music tracks, with more than 11 million impressions on TikTok and Meta. Pooled across studies, MAGE ads delivered 26% higher click-through rates and 10% higher engagement than human-designed ads on TikTok, with no detectable difference on Meta — at 98% lower production cost. Neither marketing professionals nor laypeople could reliably pick the winning creatives, but an AI model trained on past performance could predict pre-launch which variants would work for which audience segments.",
+      "why_it_matters": "This is one of the first large-scale field validations that generative AI can match or beat human creative teams on real platform metrics, and it suggests the scarce skill is no longer making ads but predicting which ones will land.",
+      "story_angle_primary": "The headline result for creative leaders is not 'fire the designers' but 'stop trusting your gut on selection.' Expert curation performed no better than random sampling of AI output, while a performance-trained model did. Brands could test a two-stage setup — generate at volume, then let a prediction layer rather than a creative director choose — but note this was one category (music promotion), two platforms, and one label partner.",
+      "story_angle_secondary": "Much of the short-form video advertising you scroll past may already be machine-assembled from a single image and an audio file — and in this test, people including industry professionals could not tell which ads were the effective ones.",
+      "caveats": "Conducted with an industry partner (a major music label) whose commercial interests align with the result; limited to music-track promotion on TikTok and Meta; effects held on TikTok but not Meta; short campaign horizons; success metrics are clicks and engagement, not sales or streams.",
+      "journal": "Marketing Science",
+      "published": "2026-10-14",
+      "doi": "10.1287/mksc.2025.0150",
+      "paper_title": "Music Marketing with Generative AI",
+      "source_id": "S163534328"
+    },
+    {
+      "work_id": "W7221809005",
+      "headline": "When Aldi and Lidl start stocking big brands, supermarket prices fall — but most of those cuts don't pay off",
+      "the_study": "Researchers tracked more than 300 instances of hard discounters adding national brands to their assortments across multiple product categories in three European grocery markets, then analyzed how leading conventional HiLo retailers adjusted prices on those same brands and what happened to sales. On average, conventional retailers cut national-brand prices after a discounter listing — and the listings themselves actually increased conventional retailers' sales of those brands. Cuts were deepest for follower brands and in low-purchase-frequency categories, but generated the strongest sales response for market leaders and frequently bought categories. Crucially, most of the price reductions observed did not improve short-run brand sales, while holding prices steady was rarely followed by the kind of sales decline a cut could have prevented.",
+      "why_it_matters": "It suggests a large share of defensive price-cutting against discounters is money left on the table, and that a competitor listing a brand you also carry can expand demand rather than steal it.",
+      "story_angle_primary": "Category managers should treat 'discounter just listed our brand' as a trigger for analysis, not an automatic markdown. The data imply retailers are systematically cutting on the wrong brands and categories — deepest where response is weakest. Worth auditing recent defensive price moves against actual realized sales lift.",
+      "story_angle_secondary": "The blurring line between discounters and traditional supermarkets is quietly reshaping what you pay: once Lidl or Aldi carries the same branded product, mainstream chains tend to drop their price on it — so the discounter's expansion can lower prices in stores you already shop.",
+      "caveats": "Observational market data rather than a randomized experiment; three European grocery markets and leading HiLo retailers only; focuses on short-run sales effects, so longer-term brand or traffic consequences of price moves are not captured.",
+      "journal": "Journal of Retailing",
+      "published": "2026-10-01",
+      "doi": "10.1016/j.jretai.2026.09.007",
+      "paper_title": "When format boundaries collapse: Price reactions of conventional retailers to national-brand listings at hard discounters",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7221673714",
+      "headline": "Letting fans do what they like with your logo may quietly cost your brand its status",
+      "the_study": "Across five between-subjects online experiments (total n=958), researchers tested how consumers perceive brands that take a permissive versus restrictive stance toward unauthorized consumer use of brand intellectual property — fan remixes, bootleg merch, appropriated logos. Brands adopting an 'open' posture were rated lower in perceived status than those that enforced their IP, with a no-response baseline included for comparison. The mechanism was reference group association: open branding weakened the sense that the brand belongs to higher-status groups. The status penalty was sharpest for products where status matters most.",
+      "why_it_matters": "Permissive, engagement-friendly IP policies are usually framed as pure upside for brand love — this suggests there's a symbolic price tag attached, and it lands hardest on exactly the premium brands most likely to be courting fan culture.",
+      "story_angle_primary": "Treat your IP enforcement posture as a brand signal consumers read, not just a legal choice. The actionable test: for status-relevant lines, separate what fans may freely remix from the core status-bearing symbols, and see whether selective governance preserves perceived exclusivity without killing engagement. These are online experiments, so they show the effect can occur — not how big it is in a live market.",
+      "story_angle_secondary": "Part of what makes a brand feel elite is who's allowed to use it. When anyone can slap the logo on anything, shoppers unconsciously downgrade who they think the brand is for.",
+      "caveats": "All five studies used online panel participants in hypothetical scenarios rather than real purchases; stated perceptions, not observed behavior; average of roughly 190 participants per study across conditions; no test of the countervailing engagement or reach benefits of open branding.",
+      "journal": "Journal of Product & Brand Management",
+      "published": "2026-10-13",
+      "doi": "10.1108/jpbm-08-2025-6278",
+      "paper_title": "Open for all, valued by few? How open branding dilutes perceived brand status",
+      "source_id": "S58171247"
+    },
+    {
+      "work_id": "W7221759726",
+      "headline": "Bittersweet ads make consumers more open to brands stretching into weird new categories",
+      "the_study": "Four experiments manipulated mixed emotions — simultaneous happiness and sadness — using advertising materials and music clips, then measured how participants evaluated brand extensions into distant, poorly fitting product categories. Consumers in a mixed-emotion state rated these far-flung extensions more favorably than consumers feeling straightforwardly happy. The researchers trace the effect to dialectical thinking: holding two conflicting feelings appears to broaden cognitive processing and make people more comfortable reconciling apparent contradictions, including a brand showing up somewhere it doesn't obviously belong.",
+      "why_it_matters": "Low-fit extensions are one of the riskiest moves in branding, and this points to a cheap communications lever — the emotional tone of the launch creative — rather than expensive repositioning or segmentation.",
+      "story_angle_primary": "If you're launching an extension far from your core, the emotional register of the campaign may matter as much as the fit argument. Bittersweet storytelling or music could be A/B tested against purely upbeat creative at launch. Caveat the enthusiasm: this is lab-induced emotion with evaluation measures, so treat it as a hypothesis to test in-market rather than a validated tactic.",
+      "story_angle_secondary": "Your mood shapes how much brand logic you demand. Feeling happy and sad at once seems to make people more tolerant of contradiction — which is also why a nostalgic, bittersweet ad can slip an odd product past your skepticism.",
+      "caveats": "Experimental manipulations of emotion with evaluative ratings rather than real purchase behavior; no sample sizes, participant populations or country reported in the abstract; effects compare mixed emotion to happiness only, and durability beyond the immediate session is untested.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-14",
+      "doi": "10.1108/ejm-07-2025-0567",
+      "paper_title": "Mixed emotions enhance consumer acceptance of distant brand extensions: the role of dialectical thinking as a mediator",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7221623615",
+      "headline": "\"Sorry from the whole Mickey D's team\": why nicknames make corporate apologies land better",
+      "the_study": "Across seven experiments using both real and fictitious brands and several different service-failure scenarios, researchers compared apologies in which a firm referred to itself by its formal name versus by its popular nickname. Nickname apologies generally produced higher recovery satisfaction, with the effect running through greater psychological closeness to the brand and then stronger perceived sincerity. The advantage shrank in three cases: when the brand was already positioned as sincere, when the apology was delayed rather than prompt, and among consumers with higher power distance beliefs.",
+      "why_it_matters": "Service recovery messaging is usually drafted in legalistic formal-brand language; this suggests a single word choice in the self-reference can measurably change how sincere an apology feels.",
+      "story_angle_primary": "Customer care and comms teams could A/B test nickname versus formal self-reference in apology emails, app messages and social replies — but the boundary conditions matter: the lab evidence says a nickname won't rescue a late apology, and may do little for brands already perceived as warm and sincere.",
+      "story_angle_secondary": "A reminder of how easily tone engineers trust: the friendly, first-name-basis voice in a company's \"we messed up\" note is a deliberate choice designed to make the brand feel like a person standing closer to you.",
+      "caveats": "Experiments with hypothetical service-failure scenarios rather than real complaints; fictitious brands used in some studies; sample composition and country not specified in the abstract; measures are stated satisfaction, not observed retention or spending.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-13",
+      "doi": "10.1002/mar.70290",
+      "paper_title": "When Apologies Sound Closer: The Role of Brand Nicknames in Apologies Following Service Failure",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7222271096",
+      "headline": "Letting customers into your sustainability program builds trust — if you're a big brand",
+      "the_study": "Two between-subjects experiments tested what happens when consumers perceive that a brand actively involves them in its environmental sustainability initiatives. Study 1 found that perceived involvement raised willingness to pay a price premium for the brand's sustainable products, and that the effect ran through increased brand trust. Study 2 found the trust pathway held for large brands but not small ones.",
+      "why_it_matters": "It suggests participatory sustainability — take-back schemes, co-created initiatives, customer-voted causes — can partly offset the skepticism large corporations face on green claims, while smaller brands may already get trust credit on other grounds.",
+      "story_angle_primary": "Big brands fighting greenwashing suspicion could test participation mechanics rather than more claims, and should check whether the trust payoff justifies the operational cost; smaller brands shouldn't assume the same tactic transfers.",
+      "story_angle_secondary": "Being invited to take part in a company's environmental effort makes shoppers more willing to pay extra — worth noticing the next time a recycling drive or \"vote for our cause\" campaign nudges you toward the pricier product.",
+      "caveats": "Two scenario-based experiments measuring stated willingness to pay rather than actual purchases; sample details, size and country not reported in the abstract; no field validation.",
+      "journal": "Journal of Global Marketing",
+      "published": "2026-10-15",
+      "doi": "10.1080/08911762.2026.2747197",
+      "paper_title": "The Impact of Involvement of Consumers in Brands’ Sustainability Initiatives on Brand Trust and Willingness to Pay a Price Premium",
+      "source_id": "S121852782"
+    },
+    {
+      "work_id": "W7221758843",
+      "headline": "Loving a brand isn't what makes people overspend — being hooked on one is",
+      "the_study": "Researchers surveyed 350 young Chinese fashion consumers and used structural equation modeling to separate two consumer-brand states that are often lumped together: brand love and brand addiction. Brand addiction was positively linked to impulsive buying, compulsive buying, social comparison and narcissism. Brand love showed no significant link to compulsive or impulsive buying, though it was associated with social comparison and narcissism.",
+      "why_it_matters": "It pushes back on the assumption that intense brand affection and problematic consumption are the same thing, and gives brand teams a reason to distinguish devoted fans from customers whose buying is compulsive.",
+      "story_angle_primary": "Loyalty programs and hype-driven drop mechanics may be cultivating addiction-like attachment rather than love; brands in fashion and youth categories could examine whether their highest-frequency buyers look more like fans or like people in distress, which is both an ethics and a churn-risk question.",
+      "story_angle_secondary": "If you worry that adoring a label means you'll overspend, the pattern here says otherwise — the warning sign isn't affection but a compulsive pull you can't easily switch off.",
+      "caveats": "Cross-sectional self-report survey, so causation can't be established; single country (China), single category (fashion) and young consumers only; all constructs measured by questionnaire rather than observed purchase behavior.",
+      "journal": "Young Consumers Insight and Ideas for Responsible Marketers",
+      "published": "2026-10-14",
+      "doi": "10.1108/yc-03-2025-2453",
+      "paper_title": "Competing dynamics of brand love and addiction: implications for consumer behavior",
+      "source_id": "S46472734"
+    },
+    {
+      "work_id": "W7223096881",
+      "headline": "How long does a happy customer take to pay off? About 10 months, and the neighbors benefit too",
+      "the_study": "Researchers matched 48 months of monthly store sales with monthly Net Promoter Score readings for every UK store of a publicly listed furniture retailer that dominates the upholstered furniture market, where NPS was collected from customers six months after purchase. Using an econometric model built to trace a nonlinear time path, they found that NPS predicts future sales along an inverted-U curve: a store's own NPS starts moving sales about eight months after purchase and peaks at 10 months, while the effect of neighboring stores' NPS begins at six months and peaks at 11. A sustained company-wide lift in NPS translated into substantial financial returns.",
+      "why_it_matters": "It puts a timetable and a geography on word of mouth, which means firms judging customer-experience investments on same-quarter sales are almost guaranteed to conclude they do not work.",
+      "story_angle_primary": "If your CX dashboard looks for NPS effects within a quarter, you are measuring in the wrong window; this single-retailer analysis suggests testing lags of roughly eight to 12 months and crediting a store's NPS with sales at nearby stores rather than only its own.",
+      "story_angle_secondary": "Recommendations from friends do not convert instantly. For a big, infrequent purchase like a sofa, the praise you give a retailer today may show up in someone else's shopping trip nearly a year from now.",
+      "caveats": "A single firm, country and category (UK upholstered furniture, long replacement cycle); observational store-level data rather than an experiment, so associations are predictive rather than causally identified; findings may not generalize to fast-moving or low-ticket categories.",
+      "journal": "Journal of Retailing",
+      "published": "2026-10-01",
+      "doi": "10.1016/j.jretai.2026.09.004",
+      "paper_title": "From recommendation to revenue: Store-level evidence on the dynamic and spatial effects of the Net Promoter Score (NPS)",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7222626184",
+      "headline": "Authenticity only pays when customers see themselves in the brand",
+      "the_study": "Researchers collected three waves of matched survey data from 10,214 loyalty customers across 208 stores of a Chinese retailer, then linked store-level results to 12 months of subsequent comparable-sales growth. Transparency and frontline employees visibly living the brand at Time 1 predicted authenticity judgments at Time 2, which predicted customer-company identification at Time 3, which in turn predicted later sales growth. Once identification was in the model, the direct link from authenticity to sales growth was no longer reliable, and the authenticity-to-identification link was strongest at higher prestige, more frequent frontline interaction and greater brand familiarity.",
+      "why_it_matters": "It suggests that authenticity claims are commercially inert unless they convert into customers defining themselves partly through the brand, and that frontline staff behavior is as much evidence of authenticity as corporate disclosure.",
+      "story_angle_primary": "Treat transparency campaigns and frontline training as two halves of the same authenticity asset, and track identification, not authenticity scores, as the metric most closely tied to later sales growth in this dataset; prestige and interaction frequency look like conditions that amplify the payoff.",
+      "story_angle_secondary": "Shoppers reward retailers that feel genuine, but mainly when the brand becomes part of how they see themselves; otherwise honest labeling and candid disclosure are pleasant but not persuasive.",
+      "caveats": "Single retailer in a single country (China); longitudinal survey design establishes temporal order and covariation but not causation, as the authors explicitly note; self-reported perceptual measures linked to archival sales at the store level only.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-16",
+      "doi": "10.1016/j.jretconser.2026.105161",
+      "paper_title": "How retailers build authenticity over time: A longitudinal study of transparency, frontline brand enactment, customer-company identification, and sales growth",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7222792356",
+      "headline": "When a rival praises you on social media, playing it down works — in China, not the US",
+      "the_study": "A field scan of 105 brand-to-brand praise posts on X found most praise never gets a reply. Three experiments with 974 participants in China and the United States compared four responses to a competitor's public praise: no response, a simple thank-you, upgrading the praise, and downgrading it (modestly minimizing the compliment). Downgrading increased consumers' perceived social closeness to the brand and improved brand outcomes, but the effect appeared in the Chinese sample and not the US sample.",
+      "why_it_matters": "Brand-to-brand interactions on social platforms are a cheap, visible touchpoint, and this suggests the right reply is culturally contingent rather than universal.",
+      "story_angle_primary": "Social teams running global accounts could test modest, self-deprecating replies to competitor shout-outs in collectivist markets while treating the same script as unproven in the US; the field data also shows most brands simply ignore praise, leaving an easy, low-cost experiment on the table.",
+      "story_angle_secondary": "Modesty reads as warmth in some cultures and as false humility in others — a reminder that the same brand voice can land very differently depending on where the audience lives.",
+      "caveats": "Experiments used online participants reacting to simulated posts rather than observed purchasing; the cross-cultural difference is a null result in the US sample, which may reflect design or sample specifics; field component is a small descriptive sample of 105 posts on one platform.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-16",
+      "doi": "10.1111/ijcs.70268",
+      "paper_title": "Responding to Competitor Praise: How Downgrading Praise Shapes Consumer Responses Across Cultures",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7223133219",
+      "headline": "Taking a side on a political policy hurts brand trust — unless your customers voted for it",
+      "the_study": "Two online experiments tested how consumers react when a service organization responds to a contested policy change by supporting it, stalling, or taking a mixed approach. Supporting the policy lowered perceptions of brand authenticity and trust and reduced behavioral intentions relative to stalling or mixed responses — but the pattern flipped for participants who shared a political affiliation with the policy's source. Results held after accounting for individual and regional differences.",
+      "why_it_matters": "It gives brands a concrete decision input for political flashpoints: the cost of visible compliance or endorsement depends heavily on the political composition of the customer base, not on the merits of the policy.",
+      "story_angle_primary": "Before responding publicly to a politically charged policy shift, map the partisan makeup of your actual customers; this experimental evidence suggests ambiguity or delay is the lower-risk default for mixed audiences, though lab reactions may overstate what shows up in real switching behavior.",
+      "story_angle_secondary": "Consumers do not evaluate corporate political moves on principle — they evaluate them on whether the brand ended up on their side, which is why the same statement can read as courage or cowardice depending on who is reading it.",
+      "caveats": "Two online experiments with hypothetical scenarios and stated intentions rather than real purchases; US policy context; sample sizes not reported in the abstract.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-10-21",
+      "doi": "10.1108/jsm-12-2025-0890",
+      "paper_title": "Policy crisis in service ecosystems",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7221599533",
+      "headline": "The \"Liquid Death\" problem: joke brand names make products seem less healthy",
+      "the_study": "Across a series of experiments, researchers tested how ironic or transgressive brand names (in the vein of \"Liquid Death\" or \"Surreal Cereal\") shape product inferences. Ironic names lowered perceptions of a product's morality, which in turn dragged down perceived healthiness — an \"irony penalty.\" The effect appeared for virtue products such as smoothies but faded for vice products such as milkshakes, where nobody expects moral virtue anyway. Printing diagnostic attribute information on the pack (actual nutrition cues) reduced consumers' reliance on the name's negative semantics and softened the penalty, and attention-grabbing names did not reliably convert into purchase intention.",
+      "why_it_matters": "Edgy naming has become a default growth tactic for challenger beverage and food brands, but this evidence suggests the attention it buys can come with a hidden health-perception tax precisely in the categories built on wholesomeness claims.",
+      "story_angle_primary": "If you are naming a virtue product — a juice, a protein snack, a kids' cereal — these experiments suggest testing whether the shock name depresses perceived healthfulness, and whether explicit nutrition callouts on front-of-pack can neutralize it. Treat it as a hypothesis to pretest in your own category rather than a verdict on edgy naming; for indulgent products the penalty largely disappears.",
+      "story_angle_secondary": "Shoppers appear to read moral character into a brand name and then infer health from that character — a reminder that the words on the can quietly shape what you think is in it, unless you check the label.",
+      "caveats": "Lab-style experiments measuring perceptions and purchase intentions rather than observed sales; abstract does not report sample sizes, recruitment source or country; real-world brands like Liquid Death carry brand equity that fictitious stimuli cannot replicate.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-13",
+      "doi": "10.1002/mar.70284",
+      "paper_title": "Liquid Death, Moral Debt: Ironic Naming and the Effect on Healthiness Perception",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7223173986",
+      "headline": "Storms, cliffs and shark fins: unsettling nature imagery makes luxury more desirable",
+      "the_study": "Six studies examined \"negative awe\" — the unsettled, threatened feeling produced by imposing or menacing natural imagery (looming storms, vast dangerous landscapes) that luxury brands often use in campaigns. Exposure to such imagery increased consumers' desire for luxury products, and the mechanism was a felt loss of control, which consumers appear to compensate for through status goods. The effect was stronger when the communication emphasized symbolic rather than functional value, and when the product was publicly visible rather than privately consumed.",
+      "why_it_matters": "It gives luxury marketers a counterintuitive creative lever: imagery that makes people feel small and destabilized can increase appetite for status purchases, provided the messaging is symbolic and the product is seen by others.",
+      "story_angle_primary": "Test whether dramatic, slightly threatening natural backdrops outperform serene beauty in campaigns for publicly worn categories — bags, watches, outerwear — and pair them with symbolic rather than spec-driven copy. Because this is experimental evidence on desire, the real test is whether the lift survives in live creative testing and sales data.",
+      "story_angle_secondary": "When people feel small or out of control, they reach for things that signal status. It is worth noticing when an ad is engineering that feeling before you shop.",
+      "caveats": "Abstract reports no sample sizes, participant sources or countries; outcomes are desire and preference measures rather than actual purchases; a single broad product domain (luxury).",
+      "journal": "Journal of Business Research",
+      "published": "2026-10-22",
+      "doi": "10.1016/j.jbusres.2026.116621",
+      "paper_title": "“Beauty” versus “threat”: how awe influences the desire for luxury goods",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7222986365",
+      "headline": "When customers turn your packaging into decor, they buy again",
+      "the_study": "Three experiments across different contexts tested what happens when consumers upcycle luxury packaging — reusing the box, bag or dust cover rather than discarding it. Upcycling raised repurchase intentions, and the pathway ran through heightened perceptions of the brand's symbolic value. The effect was amplified when social media engagement was present, with the brand and other users interacting around the reuse, and weakened when that social layer was absent.",
+      "why_it_matters": "It reframes premium packaging as an ongoing brand asset with a second life in consumers' homes and feeds, rather than a one-off unboxing cost — and suggests the payoff depends on brands actually engaging with reuse content.",
+      "story_angle_primary": "Consider designing packaging for a deliberate second use and then engaging publicly with customers who post it, since the experiments suggest the repurchase lift largely depends on that social amplification. Worth testing against the alternative of cutting packaging cost in the name of sustainability.",
+      "story_angle_secondary": "Keeping the fancy shopping bag is not just thrift — it appears to keep the brand psychologically alive for you and makes you more likely to buy from it again.",
+      "caveats": "Experiments measuring repurchase intention, not actual repeat purchase; abstract gives no sample sizes, recruitment source or country; limited to luxury categories.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-18",
+      "doi": "10.1002/cb.70263",
+      "paper_title": "Packaging Beyond Product: Consumer‐Driven Upcycling and the Social Amplification of Luxury",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7222764702",
+      "headline": "How a celebrity words an endorsement only matters to shoppers who already care",
+      "the_study": "Two experiments using fictitious Instagram posts from a popular celebrity manipulated four endorsement modes drawn from McCracken's classic framework — explicit (\"I endorse this\"), implicit, imperative (\"buy this\") and co-present (merely appearing with the product). Endorsement mode on its own had no significant effect on brand attitude, ad attitude or purchase intention. But across both studies, mode interacted with consumer involvement: explicit and imperative framings produced more favorable brand attitudes among highly involved consumers and offered no benefit among low-involvement ones. The second study controlled for argument type and information load to isolate the wording effect.",
+      "why_it_matters": "It suggests the phrasing of influencer and celebrity endorsements is not a universal lever — it pays off only with audiences already invested in the category, which argues for involvement-based targeting rather than one-size-fits-all creative briefs.",
+      "story_angle_primary": "Before standardizing endorsement copy across a creator roster, test direct \"I use this / buy this\" framings against softer co-present placements by audience segment; the evidence points to direct framing working with high-involvement audiences and being wasted on casual scrollers.",
+      "story_angle_secondary": "A celebrity explicitly telling you to buy something mostly moves people who were already interested — if you are scrolling past with low interest, the wording barely registers either way.",
+      "caveats": "Fictitious Instagram posts and stated attitudes/intentions rather than real campaigns or purchases; abstract does not report sample sizes, participant source or country; main effects were null, with findings resting on an interaction.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-10-16",
+      "doi": "10.1108/jcm-08-2025-8224",
+      "paper_title": "Endorsement modes in social media advertising and the role of consumer involvement",
+      "source_id": "S165789823"
+    },
+    {
+      "work_id": "W7222224863",
+      "headline": "Why quiet color palettes make luxury feel timeless — and brains light up for them",
+      "the_study": "Three studies tested how much color variety within a product's palette shapes luxury evaluation. Study 1 combined fMRI with self-reports and found that lower color differentiation (a more tonal, less contrasting palette) was linked to stronger activation in reward regions including the nucleus accumbens and anterior cingulate cortex, plus higher liking, choice, willingness to pay and expected length of ownership; neural reward responses predicted stated intentions. Study 2 identified \"chromatic timelessness\" as the perceptual mechanism, and Study 3 showed the effect was concentrated among consumers low in sensation seeking.",
+      "why_it_matters": "Luxury brands sell durability of appeal as much as material quality, and this suggests a cheap, controllable design lever — palette restraint — shifts how long buyers expect to keep and enjoy a product.",
+      "story_angle_primary": "Designers and brand teams could A/B test tonal versus high-contrast palettes on packaging, product lines and campaign imagery, tracking not just liking but expected length of use — a proxy for perceived timelessness. Treat it as a hypothesis worth testing in-market, not a proven rule: neuroimaging samples are tiny and lab liking is not a sales curve.",
+      "story_angle_secondary": "It offers a hint at why the \"quiet luxury\" aesthetic feels enduring while loud, multicolor designs feel disposable — and why thrill-seekers may be immune to that logic entirely.",
+      "caveats": "fMRI studies typically use very small samples and the abstract does not report Ns; outcomes are liking, choice intention and willingness to pay rather than actual purchases; the effect holds mainly for low sensation seekers, limiting generalizability.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-15",
+      "doi": "10.1002/mar.70292",
+      "paper_title": "How Color Differentiation Shapes Luxury Evaluation: Converging Evidence From Neural and Self‐Report Data",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7221671230",
+      "headline": "Disclosing AI in creative work backfires most when the content is emotional",
+      "the_study": "Chinese researchers combined a scenario experiment (N=300), an ERP brain-activity study (N=27) and text analysis of 11,572 Weibo posts to test how consumers react when brands disclose that creative content was AI-generated. Disclosure reduced acceptance mainly by lowering perceived legitimacy — not perceived ability — though a countervailing positive direct effect also appeared. Both the lab and the social media data showed the penalty concentrated on emotionally involving work; neutral or low-emotion content took far less of a hit.",
+      "why_it_matters": "As AI disclosure becomes mandatory or expected, brands need to know which content types can carry an \"AI-made\" label cheaply and which cannot — and this points to emotional stakes, not technical quality, as the dividing line.",
+      "story_angle_primary": "Audit your content pipeline by emotional intensity: AI disclosure may be low-cost on product explainers, spec sheets and functional visuals, but expensive on tribute, memorial, cause or heritage storytelling. Test disclosure framings that make human authorship and accountability explicit — though the authors note specific wording effects remain untested.",
+      "story_angle_secondary": "People aren't rejecting AI creative because they think it's bad; they're rejecting it because it feels illegitimate for work that is supposed to carry human feeling.",
+      "caveats": "Scenario-based rather than real purchases; ERP sample of 27 is very small; participants skew young and Chinese and archival data come from one Chinese platform; the authors themselves flag generalizability limits across age, culture and creative domain.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-12",
+      "doi": "10.1111/ijcs.70270",
+      "paper_title": "When AI Moves to the Forefront of Creativity: How Transparent Disclosure Shapes Consumer Acceptance Through Legitimacy Judgments",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7223121676",
+      "headline": "\"That's for old people\": how an age stereotype blocks young buyers from a whole category",
+      "the_study": "Four studies with Chinese adults aged 18-35 first confirmed that young consumers hold a traditional Chinese medicine-elderly stereotype, then used between-subjects experiments to show that activating it cuts usage intention. The mechanism was identity threat — using the category felt like signaling you were old — rather than doubts about efficacy. Peer recommendation significantly weakened the negative effect.",
+      "why_it_matters": "Any category coded as belonging to an older demographic — insurance, hearing aids, cruise lines, vitamins, landlines of the mind — may be losing young customers to identity threat rather than product objections, and peer-to-peer endorsement is a plausible antidote.",
+      "story_angle_primary": "If your category reads as \"for older people,\" consider testing whether the barrier is identity rather than product perception; the fix implied here is peer social proof from same-age users rather than more efficacy messaging or celebrity endorsement.",
+      "story_angle_secondary": "A reminder that a lot of what people refuse to buy has nothing to do with whether it works — it's about who they'd become in their own eyes if they used it.",
+      "caveats": "Single country (China) and one product category; experiments measure stated usage intention, not actual purchase; participant counts per condition not reported in the abstract.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-10-21",
+      "doi": "10.1108/apjml-04-2026-0955",
+      "paper_title": "Is traditional Chinese medicine (TCM) exclusive to the elderly? The TCM-elderly stereotype suppresses young adults' usage intention",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7222327973",
+      "headline": "Flash sales don't hook everyone the same way — the hook depends on the product",
+      "the_study": "A UK mixed-methods study paired 28 shopper interviews with surveys across three flash-sale categories: package holidays (n=464), high-street clothes (n=521) and takeaway food vouchers (n=420). Brand consciousness, perfectionism, price consciousness and web security concern predicted situational involvement in all three categories. But impulsiveness and fulfillment-seeking only mattered for clothes and takeaway vouchers, fashion consciousness only for clothes, and safety concerns were not a significant driver for holidays.",
+      "why_it_matters": "It undercuts the one-size-fits-all flash-sale playbook: urgency and discount mechanics engage different shopper traits depending on how involved the purchase is, so the same countdown-timer tactic should be paired with different messaging by category.",
+      "story_angle_primary": "Segment flash-sale creative by category involvement — lead with reassurance, brand credentials and security signals on high-involvement buys like holidays, and lean on impulse and instant-gratification cues for low-involvement items. Note this is correlational survey data, so treat it as a hypothesis-generating map rather than a measured lift.",
+      "story_angle_secondary": "Your susceptibility to a flash sale isn't a fixed personality trait — the same person who agonizes over a holiday deal will impulse-buy a discounted takeaway voucher without a second thought.",
+      "caveats": "Cross-sectional survey, so no causal claims; self-reported involvement rather than observed purchasing; UK only; three categories only; results are structural-model paths.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-16",
+      "doi": "10.1111/ijcs.70271",
+      "paper_title": "Consumer Decision‐Making Styles Across Product Involvement Levels: A Mixed‐Methods Study of Online Flash Sale Events",
+      "source_id": "S173807628"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7221827692",
+      "headline": "AI-generated video ads beat human-made ones on TikTok — at 2% of the cost",
+      "verdict": "accurate",
+      "notes": "Design, four preregistered field studies, 11M+ impressions, 75 campaigns/33 tracks, 26%/10% lifts, 98% cost reduction and the Meta null all match the abstract; industry partner disclosed in Caveats.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7221809005",
+      "headline": "When Aldi and Lidl start stocking big brands, supermarket prices fall — but most of those cuts don't pay off",
+      "verdict": "minor",
+      "notes": "Faithful on design and on the brand/category asymmetries; drops the abstract's finding that price reductions on average further improved sales outcomes, which sits alongside the \"most cuts don't pay off\" result.",
+      "issues": [
+        {
+          "label": "Dropped counterpoint on average sales effect of price cuts",
+          "severity": "Minor",
+          "as_written": "On average, conventional retailers cut national-brand prices after a discounter listing — and the listings themselves actually increased conventional retailers' sales of those brands.",
+          "abstract_says": "HD listings increase CRs' NB sales on average, with price reductions further improving these sales outcomes.",
+          "problem": "The abstract reports that price reductions on average further improved the sales outcomes from HD listings; the digest reports only the later finding that most individual reductions did not improve short-run sales, which makes the case against cutting look more one-sided than the abstract does.",
+          "suggested_fix": "Add a clause noting that on average price reductions did further improve sales from the listing, even though most individual reductions did not raise short-run brand sales."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7221673714",
+      "headline": "Letting fans do what they like with your logo may quietly cost your brand its status",
+      "verdict": "minor",
+      "notes": "Five online experiments, n=958, mediator and status-relevance boundary condition all reported correctly; recruitment described as \"online panel\" is not specified in the abstract.",
+      "issues": [
+        {
+          "label": "Recruitment source not stated in abstract",
+          "severity": "Minor",
+          "as_written": "All five studies used online panel participants in hypothetical scenarios rather than real purchases",
+          "abstract_says": "Five between-subjects online experiments (n = 958) tested the hypotheses.",
+          "problem": "The abstract says the experiments were conducted online but does not identify a panel as the recruitment source; \"online panel participants\" is unverifiable from the abstract only.",
+          "suggested_fix": "Say \"online experiments\" and note that the recruitment source is not reported in the abstract."
+        },
+        {
+          "label": "\"Unconsciously\" not supported",
+          "severity": "Minor",
+          "as_written": "shoppers unconsciously downgrade who they think the brand is for",
+          "abstract_says": "This relative status disadvantage arises because open branding weakens associations with higher-status reference groups",
+          "problem": "The abstract reports a measured mediation through reference group association; it makes no claim about the process being unconscious.",
+          "suggested_fix": "Drop \"unconsciously\" or replace with \"tend to downgrade\"."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7221759726",
+      "headline": "Bittersweet ads make consumers more open to brands stretching into weird new categories",
+      "verdict": "accurate",
+      "notes": "Four experiments, stimuli (ad materials and music clips), direction of effect, dialectical-thinking mediator and the mixed-vs-happy comparison are all reported accurately, and the absence of sample details is flagged.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7221623615",
+      "headline": "\"Sorry from the whole Mickey D's team\": why nicknames make corporate apologies land better",
+      "verdict": "accurate",
+      "notes": "Seven experiments, real and fictitious brands, sequential closeness-then-sincerity pathway and all three attenuating boundary conditions reported correctly.",
+      "issues": []
+    },
+    {
+      "number": 6,
+      "work_id": "W7222271096",
+      "headline": "Letting customers into your sustainability program builds trust — if you're a big brand",
+      "verdict": "minor",
+      "notes": "Two between-subjects experiments, the trust-mediated WTPP effect and the brand-size moderation are correct; the consumer angle states the effect for \"shoppers\" generally and drops the brand-size boundary.",
+      "issues": [
+        {
+          "label": "Consumer angle generalizes beyond the scenario experiments and drops the moderator",
+          "severity": "Minor",
+          "as_written": "Being invited to take part in a company's environmental effort makes shoppers more willing to pay extra",
+          "abstract_says": "Study 2 shows that the positive indirect effect of perceived brand involvement of consumers on WTPP via brand trust is significant for large brands but not for small brands, indicating the moderating role of brand size.",
+          "problem": "Stated willingness to pay measured in two scenario experiments is presented as what \"shoppers\" do, and the brand-size boundary condition named in the abstract is not carried into the consumer-facing line.",
+          "suggested_fix": "Qualify as \"participants said they were more willing to pay extra\" and note the effect held for large brands in these experiments."
+        },
+        {
+          "label": "Speculation about small brands",
+          "severity": "Minor",
+          "as_written": "while smaller brands may already get trust credit on other grounds",
+          "abstract_says": "indicating the moderating role of brand size ... reducing consumer bias toward large brands",
+          "problem": "The abstract reports only that the indirect effect was non-significant for small brands; it offers no explanation involving pre-existing trust for small brands.",
+          "suggested_fix": "State that the pathway simply did not show up for small brands in Study 2, without offering a mechanism."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7221758843",
+      "headline": "Loving a brand isn't what makes people overspend — being hooked on one is",
+      "verdict": "minor",
+      "notes": "N=350 young Chinese fashion consumers, SEM and the pattern of significant/non-significant associations are reported correctly; the headline uses causal phrasing for cross-sectional survey data, though the Caveats flag this.",
+      "issues": [
+        {
+          "label": "Causal phrasing in headline for cross-sectional survey",
+          "severity": "Minor",
+          "as_written": "Loving a brand isn't what makes people overspend — being hooked on one is",
+          "abstract_says": "Brand addiction is positively associated with compulsive buying, impulsive buying, social comparison and narcissism. On the contrary, brand love is not significantly associated with compulsive or impulsive buying.",
+          "problem": "\"What makes people overspend\" asserts causation from a single-wave questionnaire study with associational findings; the body text uses correct \"linked to\" language, so the headline is out of step.",
+          "suggested_fix": "Reword to something associational, e.g. \"Brand love isn't linked to overspending — brand addiction is\"."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7223096881",
+      "headline": "How long does a happy customer take to pay off? About 10 months, and the neighbors benefit too",
+      "verdict": "minor",
+      "notes": "48 months, every UK store, six-month post-purchase NPS survey, inverted-U time path and the 8/10 and 6/11 month figures all match; one body verb (\"starts moving sales\") is more causal than the abstract's \"predicts future sales\" and than the digest's own caveat.",
+      "issues": [
+        {
+          "label": "Causal verb for a predictive association",
+          "severity": "Minor",
+          "as_written": "a store's own NPS starts moving sales about eight months after purchase and peaks at 10 months",
+          "abstract_says": "We find that the NPS, operationalized by surveying established customers six months after purchase, predicts future sales. Moreover, NPS sales effects unfold over many months along an \"inverted U\" time path: for own-store effects, from eight months after purchase, peaking at 10 months",
+          "problem": "\"Starts moving sales\" implies the NPS causes the sales change, while the abstract and the digest's own caveat describe a predictive relationship without causal identification.",
+          "suggested_fix": "Change to \"a store's own NPS starts predicting sales about eight months after purchase\"."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7222626184",
+      "headline": "Authenticity only pays when customers see themselves in the brand",
+      "verdict": "minor",
+      "notes": "Sample (10,214 customers, 208 stores, China), three waves, 12-month archival sales window, mediation pattern and all three moderators are accurate; the \"Why it matters\" line goes slightly past the authors' explicit refusal to rule out a direct pathway.",
+      "issues": [
+        {
+          "label": "Overstates exclusivity of the identification pathway",
+          "severity": "Minor",
+          "as_written": "It suggests that authenticity claims are commercially inert unless they convert into customers defining themselves partly through the brand",
+          "abstract_says": "the observed pattern links authenticity with commercial performance through identification, without establishing that this is its only pathway or that a direct premium is absent",
+          "problem": "The authors explicitly decline to claim that identification is the only route or that no direct authenticity premium exists; \"commercially inert unless\" asserts what they say the data cannot establish.",
+          "suggested_fix": "Reword to \"the commercial payoff in this dataset ran through identification, though the authors note other pathways are not ruled out\"."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7222792356",
+      "headline": "When a rival praises you on social media, playing it down works — in China, not the US",
+      "verdict": "accurate",
+      "notes": "Field observation of 105 posts on X, three experiments with 974 participants from China and the US, the four response conditions, the social-closeness mechanism and the China-only effect are all reported correctly.",
+      "issues": []
+    },
+    {
+      "number": 11,
+      "work_id": "W7223133219",
+      "headline": "Taking a side on a political policy hurts brand trust — unless your customers voted for it",
+      "verdict": "minor",
+      "notes": "Core design and findings match the abstract; the \"US policy context\" caveat and the headline's \"voted for it\" framing go slightly beyond what the abstract states.",
+      "issues": [
+        {
+          "label": "Country context not stated in abstract",
+          "severity": "Minor",
+          "as_written": "US policy context; sample sizes not reported in the abstract.",
+          "abstract_says": "In two online experiments, this research tests whether organizational responses of supporting, stalling or a mixed approach to a policy crisis, as well as actor political affiliation, impact individual brand perceptions and behavioral intentions... individuals who share a political affiliation with the policy source (e.g. executive branch).",
+          "problem": "The abstract never specifies the country; \"executive branch\" is suggestive but not confirmation of a US setting. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"policy source described as an executive branch; country not specified in the abstract\" or drop the US claim."
+        },
+        {
+          "label": "Headline paraphrase of political affiliation",
+          "severity": "Minor",
+          "as_written": "Taking a side on a political policy hurts brand trust — unless your customers voted for it",
+          "abstract_says": "this pattern is reversed for individuals who share a political affiliation with the policy source (e.g. executive branch)",
+          "problem": "Shared political affiliation with the policy source is not the same as having voted for a specific policy; the headline implies a vote on the policy itself.",
+          "suggested_fix": "Reword to \"...unless your customers share the policymaker's politics.\""
+        },
+        {
+          "label": "Generalizing experiment to consumers at large",
+          "severity": "Minor",
+          "as_written": "Consumers do not evaluate corporate political moves on principle — they evaluate them on whether the brand ended up on their side",
+          "abstract_says": "In two online experiments... Supportive actions, compared to mixed and stalling actions, negatively impact individual perceptions of a service brand's authenticity, brand trust and behavioral intentions.",
+          "problem": "States a universal behavioral law about all consumers on the basis of two online scenario experiments measuring stated intentions.",
+          "suggested_fix": "Hedge: \"In these experiments, participants' reactions tracked their own political alignment rather than the policy's merits.\""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7221599533",
+      "headline": "The \"Liquid Death\" problem: joke brand names make products seem less healthy",
+      "verdict": "accurate",
+      "notes": "Mechanism (morality → perceived health), the virtue/vice boundary condition, the packaging-information remedy and the null on purchase intention all match the abstract; caveats correctly note missing sample details.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7223173986",
+      "headline": "Storms, cliffs and shark fins: unsettling nature imagery makes luxury more desirable",
+      "verdict": "accurate",
+      "notes": "Six studies, the negative-awe effect, loss-of-control mechanism and both moderators (symbolic vs. functional value; public vs. private goods) are reported correctly, with appropriate hedging on the compensation interpretation.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7222986365",
+      "headline": "When customers turn your packaging into decor, they buy again",
+      "verdict": "minor",
+      "notes": "Design, mechanism and the social-media moderator are correct; headline and one story angle treat repurchase intention as repeat purchase, and the moderator is described as stronger than the abstract's \"attenuates.\"",
+      "issues": [
+        {
+          "label": "Intention presented as behavior in headline",
+          "severity": "Minor",
+          "as_written": "When customers turn your packaging into decor, they buy again",
+          "abstract_says": "upcycling enhances repurchase intentions by elevating perceptions of symbolic value",
+          "problem": "The outcome is stated repurchase intention in three experiments, not observed repeat purchasing; the headline asserts behavior (the caveat corrects this, but the headline still overstates).",
+          "suggested_fix": "\"...they say they'll buy again\" or \"...repurchase intentions rise.\""
+        },
+        {
+          "label": "Moderator strength overstated",
+          "severity": "Minor",
+          "as_written": "since the experiments suggest the repurchase lift largely depends on that social amplification",
+          "abstract_says": "The effects are moderated by social media engagement: brand and user interactions amplify the impact, whereas their absence attenuates it.",
+          "problem": "\"Attenuates\" means weakened, not eliminated; \"largely depends on\" implies the effect is mostly absent without social engagement.",
+          "suggested_fix": "\"...suggest the repurchase lift is amplified by social engagement and weaker without it.\""
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7222764702",
+      "headline": "How a celebrity words an endorsement only matters to shoppers who already care",
+      "verdict": "accurate",
+      "notes": "Two experiments, fictitious celebrity Instagram posts, four McCracken endorsement modes, the null main effects and the involvement interaction are all reported faithfully, and the digest flags the reliance on an interaction.",
+      "issues": []
+    },
+    {
+      "number": 16,
+      "work_id": "W7222224863",
+      "headline": "Why quiet color palettes make luxury feel timeless — and brains light up for them",
+      "verdict": "minor",
+      "notes": "Study structure and findings are right, but the abstract's associative language (\"is associated with\", \"evidence consistent with\") is firmed up into mechanism and causal-lever claims.",
+      "issues": [
+        {
+          "label": "Mechanism stated more firmly than abstract",
+          "severity": "Minor",
+          "as_written": "Study 2 identified \"chromatic timelessness\" as the perceptual mechanism",
+          "abstract_says": "Study 2 provides evidence consistent with the proposed role of chromatic timelessness: lower color differentiation increases perceived chromatic timelessness, which is associated with greater liking...",
+          "problem": "The abstract offers evidence \"consistent with\" a proposed role; \"identified as the mechanism\" claims more than the authors do.",
+          "suggested_fix": "\"Study 2 found evidence consistent with 'chromatic timelessness' as the mechanism.\""
+        },
+        {
+          "label": "Causal framing of correlational findings",
+          "severity": "Minor",
+          "as_written": "this suggests a cheap, controllable design lever — palette restraint — shifts how long buyers expect to keep and enjoy a product",
+          "abstract_says": "exposure to lower-differentiation color composition is associated with greater activation in reward-related brain regions... and with higher liking, choice, willingness to pay, and perceived length of product use",
+          "problem": "The abstract consistently uses associational wording; \"shifts\" asserts a causal effect on expectations.",
+          "suggested_fix": "\"...palette restraint is associated with how long buyers expect to keep and enjoy a product.\""
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7221671230",
+      "headline": "Disclosing AI in creative work backfires most when the content is emotional",
+      "verdict": "minor",
+      "notes": "Ns, methods and the legitimacy mechanism are accurate; two small over-reaches — the claim that ability was ruled out, and attributing nationality to the researchers rather than the participants.",
+      "issues": [
+        {
+          "label": "\"Not perceived ability\" overstated",
+          "severity": "Minor",
+          "as_written": "Disclosure reduced acceptance mainly by lowering perceived legitimacy — not perceived ability",
+          "abstract_says": "Existing explanations primarily emphasize ability and reliability judgments, offering only a partial account... Collectively, the studies shift attention from AI ability to the perceived legitimacy of disclosed creative arrangements.",
+          "problem": "The abstract says the research shifts theoretical attention from ability to legitimacy; it does not report testing and rejecting an ability pathway.",
+          "suggested_fix": "\"...by lowering perceived legitimacy, rather than the ability judgments prior work emphasized.\""
+        },
+        {
+          "label": "Researcher nationality attributed",
+          "severity": "Minor",
+          "as_written": "Chinese researchers combined a scenario experiment (N=300)...",
+          "abstract_says": "Because experimental evidence comes primarily from younger Chinese participants and archival evidence from one Chinese social media platform...",
+          "problem": "The abstract identifies the participants and platform as Chinese, not the research team. Unverifiable from abstract only.",
+          "suggested_fix": "\"Researchers combined a scenario experiment (N=300) with Chinese participants...\""
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "work_id": "W7223121676",
+      "headline": "\"That's for old people\": how an age stereotype blocks young buyers from a whole category",
+      "verdict": "minor",
+      "notes": "Four studies, the 18–35 Chinese sample, the identity-threat mechanism and the peer-recommendation moderator all match; the comparison against efficacy doubts is not in the abstract.",
+      "issues": [
+        {
+          "label": "Efficacy contrast not supported",
+          "severity": "Minor",
+          "as_written": "The mechanism was identity threat — using the category felt like signaling you were old — rather than doubts about efficacy.",
+          "abstract_says": "this stereotype significantly reduces TCM usage intention by triggering identity threat, and peer recommendation weakens this negative effect",
+          "problem": "The abstract names identity threat as the mechanism but says nothing about testing or ruling out efficacy beliefs. Unverifiable from abstract only.",
+          "suggested_fix": "Drop \"rather than doubts about efficacy\" or mark it as not tested in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "work_id": "W7222327973",
+      "headline": "Flash sales don't hook everyone the same way — the hook depends on the product",
+      "verdict": "accurate",
+      "notes": "Interview and survey Ns, UK setting, the three categories and the category-invariant versus category-specific associations match the abstract, and the correlational nature is flagged in both the angle and the caveats.",
+      "issues": []
+    }
+  ],
+  "coverage": {
+    "checked": 19,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7221827692": {
+        "query": "generated video ads beat human made ones TikTok cost",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221809005": {
+        "query": "Aldi Lidl start stocking big brands supermarket prices fall but",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221673714": {
+        "query": "Letting fans they like logo quietly cost brand its status",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221759726": {
+        "query": "Bittersweet ads make consumers open brands stretching into weird categories",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221623615": {
+        "query": "Sorry whole Mickey team nicknames make corporate apologies land better",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222271096": {
+        "query": "Letting customers into sustainability program builds trust big brand",
+        "returned": 8,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221758843": {
+        "query": "Loving brand isn makes people overspend being hooked one",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223096881": {
+        "query": "long does happy customer take pay off About months neighbors",
+        "returned": 12,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222626184": {
+        "query": "Authenticity only pays customers see themselves brand",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222792356": {
+        "query": "rival praises social media playing down works China not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223133219": {
+        "query": "Taking side political policy hurts brand trust unless customers voted",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221599533": {
+        "query": "Liquid Death problem joke brand names make products seem healthy",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223173986": {
+        "query": "Storms cliffs shark fins unsettling nature imagery makes luxury desirable",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222986365": {
+        "query": "customers turn packaging into decor they buy again",
+        "returned": 12,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222764702": {
+        "query": "celebrity words endorsement only matters shoppers who already care",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222224863": {
+        "query": "quiet color palettes make luxury feel timeless brains light them",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221671230": {
+        "query": "Disclosing creative work backfires most content emotional",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223121676": {
+        "query": "old people age stereotype blocks young buyers whole category",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222327973": {
+        "query": "Flash sales don hook everyone same way hook depends product",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **Perceived motive and understatement keep paying.** Last run's \"Modest brands outsell boastful ones\" (W7203440056) argued self-effacing copy lowers skepticism; this run extends the same logic to interactive contexts — \"When a rival praises you on social media, playing it down works\" (W7222792356) finds modestly downgrading a competitor's compliment raises perceived closeness, and \"'Sorry from the whole Mickey D's team'\" (W7221623615) shows informal self-reference in apologies works through closeness and then sincerity.\n- **Brand positioning still flips the sign of the same creative lever.** Previously indulgent imagery only traveled for luxury brands (W7212008823) and symbolic packaging only paid for premium coffee (W7220832664). The new batch adds \"Storms, cliffs and shark fins\" (W7223173986), \"Why quiet color palettes make luxury feel timeless\" (W7222224863) and \"When customers turn your packaging into decor\" (W7222986365) — all levers whose payoff is specific to status-bearing categories — plus \"Letting customers into your sustainability program\" (W7222271096), where the trust effect holds for large brands only.\n- **Perceptual brand assets are commercially inert without a deeper relational variable.** \"Brand image won't save you from a scandal\" (W7214968251) found image protects only via satisfaction and love; \"Authenticity only pays when customers see themselves in the brand\" (W7222626184) finds authenticity judgments stop predicting sales growth once customer–company identification is in the model.\n- **Culture and individual differences keep deciding which signal works.** Power distance and uncertainty avoidance did the work last run (W7220958293, W7221048994); this run power distance moderates the apology effect (W7221623615) and a China/US split drives the praise-response result (W7222792356).\n\n**Advances**\n- **AI disclosure gets a dividing line.** Last run established that AI-authored activism reads as inauthentic (W7203997372) and that passion-driven brands are forgiven for AI-designed products (W7202384182). \"Disclosing AI in creative work backfires most when the content is emotional\" (W7221671230) sharpens this with scenario, ERP and 11,572-post Weibo data: the penalty runs through perceived *legitimacy*, not ability, and concentrates on emotionally involving work.\n- **From \"where do humans stay in the loop\" to \"can machines beat them.\"** The workflow case study (W7214780511) mapped which tasks a team kept human. \"AI-generated video ads beat human-made ones on TikTok\" (W7221827692) is a field test of the same question at scale — and finds the human advantage sits in neither production nor selection, but in a performance-trained prediction model.\n- **Brand activism research moves from backlash to decision rule.** Previous work covered values-crisis boycotts (W7221118815) and retaliatory defection (W7204024551); \"Taking a side on a political policy hurts brand trust — unless your customers voted for it\" (W7223133219) supplies the input a brand actually needs — the partisan composition of its customer base — and finds stalling or ambiguity the lower-risk default for mixed audiences.\n- **Discounting orthodoxy gets a second hit from a different direction.** W7220913319 argued standard models understate the true incremental sales from promotions; \"When Aldi and Lidl start stocking big brands\" (W7221809005) shows retailers nonetheless cut deepest exactly where response is weakest, and that a discounter listing can grow a brand's sales in conventional stores.\n\n**Counterpoints**\n- **Brand love gets demoted as a construct.** W7214968251 treated brand love as protective armor; \"Loving a brand isn't what makes people overspend\" (W7221758843) separates love from brand addiction and finds only addiction tracks impulsive and compulsive buying — which complicates reading \"love\" as a single, benign loyalty asset.\n- **Modesty is not universal.** The modesty advantage (W7203440056) looked broad; W7222792356 reports the downgrading effect in the Chinese sample and a null in the US sample, suggesting the register is culturally priced.\n- **Endorsement wording is weaker than assumed.** After last run's finding that ambassador spend fades on strong brands (W7216479640), \"How a celebrity words an endorsement only matters to shoppers who already care\" (W7222764702) reports null main effects for endorsement mode entirely, with the result resting on a consumer-involvement interaction.\n\n**New themes**\n- **Time and geography of brand effects:** \"How long does a happy customer take to pay off?\" (W7223096881) puts an eight-to-12-month lag and a neighboring-store spillover on word of mouth — a measurement question absent from the previous digest.\n- **Identity threat as a category barrier:** \"'That's for old people'\" (W7223121676) locates refusal in who the buyer would become, not in doubts about efficacy.\n- **Naming as a moral inference:** \"The 'Liquid Death' problem\" (W7221599533) shows ironic names depress perceived morality and then perceived healthiness — a new route from brand semantics to product beliefs.\n- **IP enforcement as brand positioning:** \"Letting fans do what they like with your logo\" (W7221673714) treats legal posture as a status signal consumers read, which has no precedent in the previous batch.",
+    "feature_pitch": "**The pattern:** Study after study in this batch finds that the headline tactic has no reliable average effect — it works for one market, one brand size, one category or one customer type and vanishes elsewhere: modest replies to a rival's praise move Chinese consumers but not Americans (W7222792356), endorsement wording has no main effect at all and only pays with high-involvement audiences (W7222764702), participatory sustainability builds trust for large brands but not small ones (W7222271096), ironic names penalize virtue products but not vice ones (W7221599533), and flash-sale triggers differ by category (W7222327973). \"When Aldi and Lidl start stocking big brands\" (W7221809005) shows what this costs in practice — retailers cut prices deepest precisely where the sales response is weakest — while \"AI-generated video ads beat human-made ones on TikTok\" (W7221827692) supplies the uncomfortable resolution: neither professionals nor laypeople could pick the winning creative, but a model trained on past performance could.\n\n**Why pitch this now:** Generative AI has collapsed the cost of producing variants to roughly nothing just as marketing budgets are being asked to justify every line, which moves the bottleneck from making work to knowing which version works for whom — and the evidence says human expert judgment is not good at that part.\n\n**Angle:** A feature on the quiet death of the marketing best practice: why the research literature is now mostly a catalog of moderators, what that means for global playbooks and brand guidelines written as universal rules, and whether prediction models are a genuine substitute for experienced judgment or just a faster way to be wrong. Written for CMOs, brand strategists and agency leaders, with enough on consumer variability to carry a general-business read.\n\n**Potential headlines:**\n- The same ad works in Shanghai and fails in Chicago, and most brands still run one version\n- Experts picked the winning ads no better than chance\n- Your brand playbook is built on averages that describe almost none of your customers\n\n**Potential outlets:**\n- **Adweek** — the creative-selection finding is a direct challenge to the creative director's core function, which is exactly the fight its agency readership is already having about AI.\n- **Marketing Brew** — its CMO-facing readers are being sold AI creative tools right now; a piece on what the field evidence says about generation versus selection is squarely in its lane.\n- **Harvard Business Review** — fits its interest in decision-making under heterogeneity: when the effect depends entirely on segment, how should a company govern a global brand standard?\n- **Retail Dive** — the discounter price-cut study gives the argument a hard commercial spine, showing category managers systematically marking down the wrong brands in the wrong categories.",
+    "pitch_ideas": "- **AI-generated video ads beat human-made ones on TikTok — at 2% of the cost (Work ID W7221827692):** The two-stage model — generate at volume, let a performance-trained predictor rather than a creative director choose — with the caveat that this was one category on two platforms, for a marketing-trade news feature or a CMO-audience column.\n- **When Aldi and Lidl start stocking big brands, supermarket prices fall (Work ID W7221809005):** Defensive markdowns against discounters are largely money left on the table, and a rival listing your brand can grow your sales — for a grocery/retail trade explainer, with a consumer spin for a personal-finance or money column.\n- **Letting fans do what they like with your logo may quietly cost your brand its status (Work ID W7221673714):** IP enforcement posture read as a brand signal, not a legal choice, with selective governance as the testable middle path — for a brand-management trade explainer or a fashion-business piece on fan merch and dupes.\n- **Bittersweet ads make consumers more open to brands stretching into weird new categories (Work ID W7221759726):** Emotional register of launch creative as a cheap lever for low-fit extensions, to be A/B tested rather than believed — for an advertising-creative trade column.\n- **\"Sorry from the whole Mickey D's team\" (Work ID W7221623615):** A one-word change in corporate apologies measurably shifts perceived sincerity — but won't rescue a late apology — for a customer-experience or crisis-comms trade brief, or a consumer-psychology explainer in a general-interest outlet.\n- **Letting customers into your sustainability program builds trust — if you're a big brand (Work ID W7222271096):** Participation mechanics as an answer to greenwashing suspicion that works for the giants and not the challengers — for a sustainability-marketing trade piece.\n- **Loving a brand isn't what makes people overspend — being hooked on one is (Work ID W7221758843):** Hype drops and loyalty mechanics may be cultivating addiction-like attachment rather than fandom, which is an ethics and a churn-risk question — for a responsible-marketing feature or a general-interest piece on young shoppers and debt.\n- **How long does a happy customer take to pay off? (Work ID W7223096881):** CX dashboards looking for NPS payback inside a quarter are measuring in the wrong window, and a store should get credit for its neighbors' word of mouth — for a marketing-measurement column or a retail-operations trade feature.\n- **Authenticity only pays when customers see themselves in the brand (Work ID W7222626184):** Stop tracking authenticity scores and track identification; frontline staff behavior counts as authenticity evidence alongside corporate disclosure — for a CMO-audience column or a retail-leadership piece.\n- **When a rival praises you on social media, playing it down works — in China, not the US (Work ID W7222792356):** Most brands never reply to competitor praise at all, leaving a free, visible experiment untouched — for a social-media marketing trade brief.\n- **Taking a side on a political policy hurts brand trust — unless your customers voted for it (Work ID W7223133219):** Map the partisan makeup of your actual customer base before responding to a policy flashpoint; ambiguity is the lower-risk default for mixed audiences — for a PR/crisis-comms trade feature or a business-and-politics section.\n- **The \"Liquid Death\" problem (Work ID W7221599533):** Edgy naming buys attention but taxes perceived healthiness in virtue categories, with front-of-pack nutrition cues as the partial antidote — for a food-and-beverage or CPG trade explainer.\n- **Storms, cliffs and shark fins (Work ID W7223173986):** Imagery that makes people feel small and out of control increases appetite for visible status goods — for a luxury-business trade piece or a consumer-psychology explainer in a general-interest outlet.\n- **When customers turn your packaging into decor, they buy again (Work ID W7222986365):** Designing packaging for a second life, and engaging with the people who post it, against the cost-cutting case for stripping packaging back — for a packaging/retail trade explainer.\n- **How a celebrity words an endorsement only matters to shoppers who already care (Work ID W7222764702):** Direct \"buy this\" framing is wasted on casual scrollers and only works on involved audiences, with no main effect at all — for an influencer-marketing trade news brief.\n- **Why quiet color palettes make luxury feel timeless (Work ID W7222224863):** Neuroimaging evidence underneath the quiet-luxury aesthetic, including expected length of ownership as a design metric — for a design/brand-identity trade piece or a general-interest consumer-psychology slot.\n- **Disclosing AI in creative work backfires most when the content is emotional (Work ID W7221671230):** Audit the content pipeline by emotional intensity — AI labels look cheap on spec sheets and expensive on tribute, cause and heritage work — for an AI-and-marketing trade feature.\n- **\"That's for old people\" (Work ID W7223121676):** Categories coded as elderly — insurance, vitamins, hearing aids, cruises — may be losing young buyers to identity threat rather than product doubts, with same-age peer proof as the fix — for a brand-strategy trade explainer.\n- **Flash sales don't hook everyone the same way (Work ID W7222327973):** Reassurance and security signals for high-involvement buys, impulse cues for low-involvement ones, rather than one countdown-timer template — for an e-commerce or retail trade explainer."
+  }
+}
