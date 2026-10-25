@@ -159,6 +159,18 @@ def run_fact_check(
     ids = [s["work_id"] for s in studies]
     batches = [ids[i:i + STUDIES_PER_CALL] for i in range(0, len(ids), STUDIES_PER_CALL)]
 
+    # Every batch sends the same digest, so it goes first and carries the cache
+    # breakpoint; only the batch-specific abstracts follow it. With the batch
+    # number at the front (as before) the prefix differed on every call and each
+    # batch paid a fresh 1.25x cache write that nothing ever read.
+    shared = llm.cached(
+        "Fact-check the digest below against the original abstracts. "
+        "Check only the studies whose work IDs appear in the abstracts section.\n\n"
+        f"**Primary audience:** {primary_audience}\n"
+        f"**Secondary audience:** {secondary_audience}\n\n"
+        f"{'=' * 60}\nDIGEST TO CHECK:\n\n{digest_content}\n\n"
+    )
+
     records = []
     for index, batch in enumerate(batches, start=1):
         block = "\n\n".join(
@@ -166,20 +178,18 @@ def run_fact_check(
             if wid in works else f"--- {wid} ---\nABSTRACT UNAVAILABLE"
             for wid in batch
         )
-        user_message = (
-            f"Fact-check the digest below against the original abstracts. "
-            f"Batch {index} of {len(batches)}: check only the studies whose work IDs "
-            f"appear in the abstracts section.\n\n"
-            f"**Primary audience:** {primary_audience}\n"
-            f"**Secondary audience:** {secondary_audience}\n\n"
-            f"{'=' * 60}\nDIGEST TO CHECK:\n\n{digest_content}\n\n"
-            f"{'=' * 60}\nORIGINAL ABSTRACTS:\n\n{block}\n{'=' * 60}"
-        )
+        batch_text = {
+            "type": "text",
+            "text": (
+                f"Batch {index} of {len(batches)}.\n\n"
+                f"{'=' * 60}\nORIGINAL ABSTRACTS:\n\n{block}\n{'=' * 60}"
+            ),
+        }
         try:
             parsed = llm.complete_json(
                 client,
                 system=SYSTEM_PROMPT_BLOCKS,
-                messages=[{"role": "user", "content": [llm.cached(user_message)]}],
+                messages=[{"role": "user", "content": [shared, batch_text]}],
                 schema=REPORT_SCHEMA,
                 label=f"fact-check batch {index}",
                 model=model,

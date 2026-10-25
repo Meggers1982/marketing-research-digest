@@ -225,8 +225,10 @@ def generate_trends_section(
     )
     body = llm.complete_prose(
         client,
-        system=[llm.cached(SYSTEM_PROMPT)],
-        messages=[{"role": "user", "content": [llm.cached(user_message)]}],
+        # One call per run, so nothing is cache-marked: a write costs 1.25x input
+        # and would only be read back if a continuation fired.
+        system=SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": user_message}],
         continuation_prompt=CONTINUATION_PROMPT,
         label="trends section",
         model=model,

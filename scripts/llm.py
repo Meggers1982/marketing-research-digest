@@ -5,6 +5,9 @@ same call — model string, cache breakpoints, and a continuation loop for when 
 response hits `max_tokens`. Two of the three copies drifted: `trends` never got
 the retry and never got prompt caching, despite sending the largest payload of
 the three (a whole new digest plus a whole previous one plus the topic memory).
+(Caching was later taken back off `trends`: it makes one call per run, so a
+cache write there is never read. Only prefixes reused across batch calls are
+marked now.)
 
 Reading the response is the part that has to be right. Under adaptive thinking
 the first content block is a *thinking* block, so the old `response.content[0].text`
