@@ -126,3 +126,47 @@ def test_the_fact_check_skips_the_call_when_nothing_was_selected():
             primary_audience="p", secondary_audience="s", api_key="k")
     factory.assert_not_called()
     assert records == []
+
+
+def test_independent_calls_go_out_as_one_batch_not_live():
+    client, _, _ = generate(lambda kwargs: FakeResponse(json.dumps({"studies": []})))
+    assert len(client.batches_created) == 1
+    assert len(client.batches_created[0]) == 2
+    assert client.live_calls == []
+
+
+def test_a_truncated_batch_goes_into_a_second_round():
+    def answer(kwargs):
+        text = kwargs["messages"][0]["content"]
+        if text.count("--- W") > 4:
+            return FakeResponse('{"studies": [', stop_reason="max_tokens")
+        return FakeResponse(json.dumps({"studies": []}))
+
+    client, _, _ = generate(answer, works=WORKS[:8])
+    assert [len(b) for b in client.batches_created] == [1, 2]
+
+
+def test_a_batch_past_the_deadline_is_canceled_and_run_live(monkeypatch):
+    monkeypatch.setattr(llm, "BATCH_DEADLINE_SECONDS", 0)
+    client = FakeClient(lambda kwargs: FakeResponse(json.dumps({"studies": []})),
+                        batch_never_ends=True)
+    with mock.patch.object(digest_generator.anthropic, "Anthropic", return_value=client):
+        digest_generator.generate_digest(
+            WORKS, focus_label="Pricing", subject_focus="pricing",
+            primary_audience="marketers", secondary_audience="general readers",
+            header="# H\n\n", api_key="test")
+    assert client.canceled == ["msgbatch_0"]
+    assert len(client.live_calls) == 2
+
+
+def test_an_errored_batch_request_is_retried_live():
+    client = FakeClient(lambda kwargs: FakeResponse(json.dumps({"studies": []})),
+                        batch_result_type="errored")
+    assert llm.complete_json(client, system="s", messages=[], schema={}, label="x") == {"studies": []}
+    assert len(client.live_calls) == 1
+
+
+def test_the_batch_api_can_be_switched_off(monkeypatch):
+    monkeypatch.setattr(llm, "USE_BATCH_API", False)
+    client, _, _ = generate(lambda kwargs: FakeResponse(json.dumps({"studies": []})))
+    assert client.batches_created == [] and len(client.live_calls) == 2

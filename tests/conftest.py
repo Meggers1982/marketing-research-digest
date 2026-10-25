@@ -43,17 +43,64 @@ class FakeResponse:
         self.stop_reason = stop_reason
 
 
+class _Obj:
+    def __init__(self, **kw):
+        self.__dict__.update(kw)
+
+
 class FakeClient:
     """Stands in for anthropic.Anthropic. `answer` maps a request's kwargs to a
-    FakeResponse; every call is recorded."""
+    FakeResponse; every call is recorded, whether it went live (`live_calls`)
+    or through the Batch API (`batches_created`, one list of params per batch).
 
-    def __init__(self, answer):
+    A batch ends on its first `retrieve` unless `batch_never_ends` is set.
+    `batch_result_type` overrides the result type (e.g. "errored")."""
+
+    def __init__(self, answer, batch_never_ends=False, batch_result_type="succeeded"):
         self.calls = []
+        self.live_calls = []
+        self.batches_created = []
+        self.canceled = []
         client = self
+        stored = {}
+
+        class Batches:
+            def create(self, requests):
+                batch_id = f"msgbatch_{len(stored)}"
+                stored[batch_id] = requests
+                client.batches_created.append([r["params"] for r in requests])
+                return _Obj(id=batch_id, processing_status="in_progress")
+
+            def retrieve(self, batch_id):
+                ended = not batch_never_ends or batch_id in client.canceled
+                return _Obj(id=batch_id,
+                            processing_status="ended" if ended else "in_progress")
+
+            def cancel(self, batch_id):
+                client.canceled.append(batch_id)
+                return _Obj(id=batch_id, processing_status="canceling")
+
+            def results(self, batch_id):
+                if batch_id in client.canceled:
+                    return
+                for r in stored[batch_id]:
+                    client.calls.append(r["params"])
+                    message = answer(r["params"]) if batch_result_type == "succeeded" else None
+                    yield _Obj(custom_id=r["custom_id"],
+                               result=_Obj(type=batch_result_type, message=message))
 
         class Messages:
+            batches = Batches()
+
             def create(self, **kwargs):
                 client.calls.append(kwargs)
+                client.live_calls.append(kwargs)
                 return answer(kwargs)
 
         self.messages = Messages()
+
+
+@pytest.fixture(autouse=True)
+def no_batch_polling_delay(monkeypatch):
+    import llm
+    monkeypatch.setattr(llm, "BATCH_POLL_SECONDS", 0)

@@ -177,47 +177,47 @@ def generate_digest(
     total = len(pending)
     index = 0
     records: list[dict] = []
+    # Rounds, not one call at a time: every pending batch goes into one Batch API
+    # submission. A batch that overruns max_tokens is split in half and the
+    # halves go into the next round.
     while pending:
-        batch = pending.pop(0)
-        index += 1
-        block = "\n\n".join(
-            f"--- {wid} ---\n{openalex.format_for_model(by_id[wid])}" for wid in batch
-        )
-        message = (
-            f"Batch {index} of {total}. Write up the newsworthy studies among "
-            f"the {len(batch)} abstracts below.\n\n"
-            f"**Primary audience:** {primary_audience}\n"
-            f"**Secondary audience:** {secondary_audience}\n"
-            + focus_line
-            + f"\n{'=' * 60}\n{block}\n{'=' * 60}"
-        )
-        try:
-            parsed = llm.complete_json(
-                client,
-                system=system,
-                messages=[{"role": "user", "content": message}],
-                schema=STUDY_SCHEMA,
-                label=f"digest batch {index}",
-                model=model,
+        round_batches, pending = pending, []
+        calls = []
+        for batch in round_batches:
+            index += 1
+            block = "\n\n".join(
+                f"--- {wid} ---\n{openalex.format_for_model(by_id[wid])}" for wid in batch
             )
-        except llm.ModelDeclined as exc:
-            print(f"  WARNING: batch {index} declined ({exc}); its studies are omitted.")
-            continue
-        except llm.Truncated:
-            if len(batch) > 1:
-                half = len(batch) // 2
-                pending[:0] = [batch[:half], batch[half:]]
-                total += 1
-                print(f"  WARNING: batch {index} hit max_tokens with {len(batch)} "
-                      "abstracts; retrying it as two halves.")
+            message = (
+                f"Batch {index} of {total}. Write up the newsworthy studies among "
+                f"the {len(batch)} abstracts below.\n\n"
+                f"**Primary audience:** {primary_audience}\n"
+                f"**Secondary audience:** {secondary_audience}\n"
+                + focus_line
+                + f"\n{'=' * 60}\n{block}\n{'=' * 60}"
+            )
+            calls.append({"system": system, "label": f"digest batch {index}",
+                          "messages": [{"role": "user", "content": message}],
+                          "schema": STUDY_SCHEMA, "index": index, "batch": batch})
+        results = llm.complete_json_many(client, calls, label="digest", model=model)
+        for call, parsed in zip(calls, results):
+            n, batch = call["index"], call["batch"]
+            if isinstance(parsed, llm.ModelDeclined):
+                print(f"  WARNING: batch {n} declined ({parsed}); its studies are omitted.")
+            elif isinstance(parsed, llm.Truncated):
+                if len(batch) > 1:
+                    half = len(batch) // 2
+                    pending += [batch[:half], batch[half:]]
+                    total += 1
+                    print(f"  WARNING: batch {n} hit max_tokens with {len(batch)} "
+                          "abstracts; retrying it as two halves.")
+                else:
+                    print(f"  WARNING: batch {n} hit max_tokens on one abstract; omitted.")
+            elif isinstance(parsed, Exception):
+                print(f"  WARNING: batch {n} returned unusable JSON ({parsed}); "
+                      "its studies are omitted.")
             else:
-                print(f"  WARNING: batch {index} hit max_tokens on one abstract; omitted.")
-            continue
-        except ValueError as exc:
-            print(f"  WARNING: batch {index} returned unusable JSON ({exc}); "
-                  "its studies are omitted.")
-            continue
-        records.extend(parsed.get("studies") or [])
+                records.extend(parsed.get("studies") or [])
 
     kept, seen, dropped = [], set(), 0
     for record in records:

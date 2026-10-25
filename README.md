@@ -46,6 +46,14 @@ asks for 10:07 UTC (5:07am CDT, 4:07am CST); GitHub queues scheduled runs, so ex
    on purpose: on Vercel's Hobby plan a private repo only deploys commits whose
    author is on the team, and any other identity gets the deploy `BLOCKED`.
 
+Every Claude call (steps 4, 5 and 7) goes through the Message Batches API
+(`scripts/llm.py`): half price, answered asynchronously, usually within minutes.
+The digest and fact-check batches each go in as a single submission. A
+submission waits up to 45 minutes, then is canceled and whatever did not finish
+runs live at full price, so a slow day costs money, not the digest. The job cap
+is 240 minutes to allow for that. Set `DIGEST_USE_BATCH_API=0` to send
+everything live instead.
+
 `python -m pytest tests/ -q` runs first in the same workflow. It touches no API.
 
 ## Where this differs from senior-research-digest

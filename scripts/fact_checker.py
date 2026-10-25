@@ -171,7 +171,7 @@ def run_fact_check(
         f"{'=' * 60}\nDIGEST TO CHECK:\n\n{digest_content}\n\n"
     )
 
-    records = []
+    calls = []
     for index, batch in enumerate(batches, start=1):
         block = "\n\n".join(
             f"--- {wid} ---\n{openalex.format_for_model(works[wid])}"
@@ -185,25 +185,23 @@ def run_fact_check(
                 f"{'=' * 60}\nORIGINAL ABSTRACTS:\n\n{block}\n{'=' * 60}"
             ),
         }
-        try:
-            parsed = llm.complete_json(
-                client,
-                system=SYSTEM_PROMPT_BLOCKS,
-                messages=[{"role": "user", "content": [shared, batch_text]}],
-                schema=REPORT_SCHEMA,
-                label=f"fact-check batch {index}",
-                model=model,
-            )
-        except llm.ModelDeclined as exc:
-            print(f"  WARNING: fact-check batch {index} declined ({exc}); "
+        calls.append({"system": SYSTEM_PROMPT_BLOCKS, "schema": REPORT_SCHEMA,
+                      "label": f"fact-check batch {index}",
+                      "messages": [{"role": "user", "content": [shared, batch_text]}]})
+
+    # All batches go in one Batch API submission.
+    records = []
+    results = llm.complete_json_many(client, calls, label="fact-check", model=model)
+    for index, parsed in enumerate(results, start=1):
+        if isinstance(parsed, llm.ModelDeclined):
+            print(f"  WARNING: fact-check batch {index} declined ({parsed}); "
                   "its studies are reported as unchecked.")
-            continue
-        except ValueError as exc:
+        elif isinstance(parsed, Exception):
             # Truncated or unparseable. One batch, not the run.
             print(f"  WARNING: fact-check batch {index} returned unusable JSON "
-                  f"({exc}); its studies are reported as unchecked.")
-            continue
-        records.extend(parsed.get("studies") or [])
+                  f"({parsed}); its studies are reported as unchecked.")
+        else:
+            records.extend(parsed.get("studies") or [])
 
     wanted = set(ids)
     seen, kept = set(), []

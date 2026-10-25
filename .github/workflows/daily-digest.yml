@@ -29,9 +29,11 @@ jobs:
   digest:
     name: Generate marketing research digest
     runs-on: ubuntu-latest
-    # A healthy run is well under 15 minutes. Cap it so a hang fails fast
-    # instead of burning GitHub's 6-hour default.
-    timeout-minutes: 35
+    # Calls go through the Batch API (scripts/llm.py), which usually answers in
+    # minutes but can take longer. Each call waits up to 45 min before falling
+    # back to a live call, and a run makes about three of those in a row, so the
+    # cap leaves room for that instead of failing a slow but healthy run.
+    timeout-minutes: 240
 
     permissions:
       contents: write   # commit the run back to the repo
@@ -62,7 +64,7 @@ jobs:
       # PYTHONUNBUFFERED so a hang's log names the stage it died in rather
       # than dying in the buffer (senior-research-digest, 2026-09-06).
       - name: Run digest pipeline
-        timeout-minutes: 25
+        timeout-minutes: 225
         env:
           PYTHONUNBUFFERED: "1"
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
