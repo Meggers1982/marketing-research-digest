@@ -1,0 +1,751 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-26",
+  "days_back": 60,
+  "window_from": "2026-08-27",
+  "window_to": "2026-10-26",
+  "focus": "AI & Marketing Technology",
+  "topic": "ai & marketing technology",
+  "query": "\"artificial intelligence\" OR \"generative AI\" OR chatbot OR ChatGPT OR \"large language model\" OR algorithm OR \"machine learning\" OR robot OR \"voice assistant\" OR personalization",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 424,
+    "not_research": 8,
+    "no_abstract": 96,
+    "off_topic": 55,
+    "already_covered": 71,
+    "over_journal_cap": 20,
+    "over_cap": 134,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7222957362",
+      "headline": "Daily motivational texts lifted sales — and made agents stop checking their numbers",
+      "the_study": "Researchers ran a field experiment across 100 stores in Sweden in which sales agents in the treatment group received daily personalized text messages setting aspirational goals calibrated to their own prior performance. The messages raised sales performance, mostly through higher unit volume, with the largest gains among previously low-performing agents. But treated agents also became less willing to check their within-day sales progress — an \"ostrich effect\" of avoiding information that might contradict an inspiring target — which can itself drag performance down.",
+      "why_it_matters": "Personalized goal messaging is cheap to deploy at scale through existing CRM and messaging stacks, but this is direct field evidence that motivational nudges and performance monitoring can work against each other.",
+      "story_angle_primary": "If you are rolling out automated, personalized goal prompts to frontline or sales staff, instrument the second-order effects: track dashboard log-ins and progress checks alongside sales, and test whether pairing an aspirational message with a non-judgmental progress update preserves the motivation gain without triggering avoidance. The biggest returns here came from the weakest performers, which suggests targeting rather than blanket messaging.",
+      "story_angle_secondary": "The study is a tidy illustration of a very human habit: when we are handed an ambitious target, we would often rather not look at the scoreboard. Anyone who has set a savings or fitness goal and then quietly stopped opening the app will recognize the pattern.",
+      "caveats": "Single country and a single retail partner's store network; the field setting means the mechanism (information avoidance) is inferred from monitoring behavior rather than directly observed reasoning; relatively short time horizon.",
+      "journal": "Marketing Science",
+      "published": "2026-10-19",
+      "doi": "10.1287/mksc.2024.1051",
+      "paper_title": "The Motivational Paradox: How Aspirational-Goal Communications Influence Sales Performance and Information Acquisition",
+      "source_id": "S163534328"
+    },
+    {
+      "work_id": "W7221784971",
+      "headline": "When should a chatbot sound cheerful? Only when the task is subjective",
+      "the_study": "Across four studies — an analysis of Weibo posts about AI service interactions plus three scenario experiments with 587 participants in total — researchers tested whether AI agents' emotional expressions (warm and positive versus neutral) help or hurt satisfaction. Positive emotional language worked better for subjective, experiential tasks; a neutral tone worked better for objective, data-driven tasks. The mechanisms differed: warmth made the agent seem capable of feeling, while neutrality made it seem more capable of acting competently.",
+      "why_it_matters": "Most firms apply a single brand voice across every bot interaction; this suggests tone should be matched to task type, with enthusiasm reserved for recommendations and taste-based help, not order tracking or billing.",
+      "story_angle_primary": "Worth A/B testing in a live assistant: segment conversation intents into subjective versus factual and run different tone templates against CSAT and resolution rates. Note this is lab and scenario evidence, so treat the task-tone match as a hypothesis to validate on your own traffic before rewriting every prompt.",
+      "story_angle_secondary": "It helps explain the irritation of a chatbot that gushes \"Great question!\" when you just want a refund status — warmth from a machine reads as fake when the job is purely factual.",
+      "caveats": "Scenario experiments rather than real service encounters; 587 participants across three studies means modest cell sizes; Chinese context and commercial text-based service only; satisfaction was the sole outcome, with no repurchase or word-of-mouth measures.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-14",
+      "doi": "10.1108/ejm-07-2025-0569",
+      "paper_title": "When emotions matter: the contextual effectiveness of emotional expressions in AI agents",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7223240864",
+      "headline": "Personalized health chatbots get patients to open up — unless the condition is embarrassing",
+      "the_study": "Using three scenario experiments and a follow-up field survey, researchers manipulated how personalized a pre-consultation medical chatbot's service felt (low versus high) and crossed it with disease sensitivity. Higher personalization increased patients' willingness to self-disclose by building trust in the AI interaction — but only for low-sensitivity conditions. For stigmatized or sensitive conditions, the trust-based benefit of personalization weakened or vanished.",
+      "why_it_matters": "Health systems and insurers are deploying intake bots on the assumption that more personalization always yields better data; this suggests the tactic hits a ceiling exactly where disclosure matters most.",
+      "story_angle_primary": "For any AI intake or onboarding flow handling sensitive data, test whether personalization cues actually raise completion and disclosure rates, or whether they start to feel like surveillance. Consider branching designs that dial personalization down as topic sensitivity rises.",
+      "story_angle_secondary": "Patients calibrate what they tell a bot to how exposed the topic makes them feel — a friendly, tailored interface earns candor about a sore knee but not about something shameful.",
+      "caveats": "Scenario experiments with stated disclosure intentions rather than observed disclosure; the confirmatory study is a cross-sectional survey that cannot establish causation; sample sizes and country not specified in the abstract.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-10-22",
+      "doi": "10.1108/apjml-01-2026-0238",
+      "paper_title": "Encouraging disclosure: the role of personalization in pre-consultation chatbots",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7222997881",
+      "headline": "A less human chatbot may be exactly what stigmatized customers want",
+      "the_study": "Researchers used design science methods to build MyMatcher, an AI gateway that sits in front of mental health services: it infers clinical intent from everyday distress language, uses a deliberately low-social-presence chatbot, and collapses provider search into a short curated list. The design was developed and evaluated through interviews with mental health practitioners and validated with a text classifier tested on a labeled corpus of more than 4,000 texts. The headline proposition is an \"inversion of intimacy\": in stigma-laden contexts, a less socially present, less human-feeling agent makes sensitive disclosure easier — the opposite of the prevailing assumption in service technology research.",
+      "why_it_matters": "It challenges the industry default that chatbots should be made ever more warm and human, and reframes the real barrier to many services as behavioral friction rather than price or availability.",
+      "story_angle_primary": "If your funnel involves anything customers feel judged about — debt, addiction, fertility, legal trouble — test a deliberately low-warmth, low-persona interface against your humanized assistant. More broadly, audit entry-point \"sludge\": the forms, searches and disclosures customers must get through before they reach a human.",
+      "story_angle_secondary": "Between 35 and 85 percent of people with mental disorders get no treatment even when care is available and affordable, and part of the reason is the sheer awkwardness and effort of the first step. The flat, impersonal bot some people find off-putting may be the thing that makes asking for help bearable.",
+      "caveats": "A design and theory-building paper: the system's effect on real help-seeking has not been tested with actual consumers, only validated through practitioner interviews and offline text classification; propositions remain untested; single domain and language corpus.",
+      "journal": "Journal of Service Research",
+      "published": "2026-10-20",
+      "doi": "10.1177/10946705261487151",
+      "paper_title": "De-Sludging High-Friction Frontlines: Designing an AI-Mediated Service Gateway for Mental Health",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7223130166",
+      "headline": "Consumers Will Hand the Wheel to AI — But Only If They Can Grab It Back",
+      "the_study": "Across one qualitative study and three experiments, researchers tested how consumers react to AI-enabled products that make decisions on their own, varying both the degree of AI autonomy and the amount of control users retain. When the technology felt threatening, high autonomy was only acceptable — perceived as lower risk — if users kept meaningful control; when the technology felt unthreatening, more autonomy simply read as more benefit and boosted favorable responses. The authors measured more than intentions, including actual product choice, information seeking, test-drive decisions and willingness to pay, and used a within-category manipulation of perceived threat as a tighter test.",
+      "why_it_matters": "It suggests the \"full autonomy\" pitch is not universally appealing: for categories consumers find unnerving, visible override and control features may be what unlocks willingness to pay, while in low-threat categories they are redundant friction.",
+      "story_angle_primary": "Audit your AI product messaging by perceived threat level: test whether foregrounding user override, manual modes and \"you're still in charge\" framing lifts consideration and willingness to pay in higher-anxiety categories, and whether it dampens the appeal of autonomy in lower-anxiety ones. These were controlled experiments, so treat the pattern as a hypothesis worth A/B testing in live product pages and demos rather than a settled rule.",
+      "story_angle_secondary": "It explains why a self-parking car and a self-ordering fridge feel so different: people aren't against machines deciding for them, they're against machines deciding for them with no way to intervene.",
+      "caveats": "Experimental studies likely relying on scenario-based stimuli and online participants; sample sizes and nationality not specified in the abstract; behavioral measures such as test-driving decisions were made inside the study context rather than in a real showroom.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-21",
+      "doi": "10.1002/mar.70283",
+      "paper_title": "Balancing Artificial Intelligence Autonomy and User Control: Threat‐Contingent Appraisal Pathways to Consumer Responses",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7222464186",
+      "headline": "Livestream Shopping Doesn't Travel: What Works on Taobao Falls Flat in the West",
+      "the_study": "Researchers recorded and analyzed 33 live shopping sessions across 12 platforms in China, the United States and Europe using screencast videography, coding how each platform actually enacted gamification, interactivity and personalization in real time. They found these features operate as interdependent, ecosystem-specific configurations rather than portable tactics, producing distinctly different viewing experiences — a systemic logic in some markets versus an episodic, relational one in others.",
+      "why_it_matters": "It directly challenges the common assumption that China's livestream commerce playbook can be lifted into Western markets, suggesting platform ecosystem and cultural context determine which engagement mechanics are even possible.",
+      "story_angle_primary": "Before exporting a livestream format, map the affordance configuration of each target platform: the same coupon game or host-viewer interaction mechanic may be structurally unavailable or culturally inert elsewhere. Treat platform selection and localization as the strategic decision, not the creative format.",
+      "story_angle_secondary": "Why live shopping feels addictive in China and awkward in the US isn't about consumer taste alone — the apps themselves are built to reward completely different behaviors.",
+      "caveats": "Qualitative, observational design with 33 sessions across 12 platforms; findings are interpretive propositions, not statistically generalizable; no consumer outcome data such as sales or conversion.",
+      "journal": "Journal of International Marketing",
+      "published": "2026-10-15",
+      "doi": "10.1177/1069031x261499277",
+      "paper_title": "EXPRESS: Cross-Country Evaluation of Livestream Shopping Affordances: Interactivity, Gamification, and Personalization in Western Countries and China",
+      "source_id": "S119908498"
+    },
+    {
+      "work_id": "W7223088624",
+      "headline": "Disclosure Warnings on AI Therapy Bots May Boost Use Rather Than Protect Users",
+      "the_study": "A survey of a national sample of 446 US consumers, analyzed with structural equation modeling, examined what drives intentions to use mental health chatbots. Negative emotional experiences, motivation, perceived ability, convenience and anthropomorphism all predicted higher use intentions, and use intentions mediated a link between human-like chatbot design and \"isolated attachment.\" Strikingly, perceived adequacy of disclosures strengthened rather than tempered the path to use — functioning as a confidence cue rather than a protective brake.",
+      "why_it_matters": "If transparency statements make consumers more comfortable using emotionally risky AI services rather than more cautious, the standard regulatory remedy of \"just disclose it\" may be doing the opposite of what policymakers intend.",
+      "story_angle_primary": "For anyone shipping emotionally intelligent AI in services, this raises an uncomfortable question: your compliance language may be functioning as marketing. Worth testing whether disclosures actually change user understanding and behavior, and whether highly anthropomorphic design is quietly cultivating dependence rather than engagement.",
+      "story_angle_secondary": "Seeing a clear privacy and limitations notice on an AI companion app may make you trust it more, not scrutinize it more — a reminder that transparency can read as reassurance.",
+      "caveats": "Cross-sectional survey of stated intentions, not observed usage, so causation cannot be established; single country (US); relies on self-reported constructs including \"isolated attachment.\"",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-10-21",
+      "doi": "10.1108/jsm-12-2025-0958",
+      "paper_title": "The algorithm beneath my wings: examining consumer use intentions and relational dynamics with AI mental health support tools",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7222898245",
+      "headline": "AI Patents Don't Create Value — Marketing Execution Does",
+      "the_study": "Using unbalanced panel data from 234 Chinese B2B firms over 2011–2022, researchers measured AI-enabled robotics capability through patent portfolios and built a multidimensional index of marketing execution capability, then ran fixed-effects models with cluster-robust standard errors. AI robotics capability had no automatic direct association with customer value realization or brand value; the payoff materialized only through marketing execution capability. High technological uncertainty weakened even that conversion pathway.",
+      "why_it_matters": "It puts hard panel evidence behind the suspicion that AI investment alone shows up on the patent sheet but not in customer or brand value — the bottleneck is the commercial organization's ability to articulate, coordinate and deliver AI-enabled offerings.",
+      "story_angle_primary": "If your firm is reporting AI capability as a strategic asset, pressure-test what sits between the technology and the customer: can your go-to-market organization actually articulate and deliver the offering? The study implies marketing execution is the conversion mechanism, and that it degrades precisely when the technology landscape is most volatile.",
+      "story_angle_secondary": "Limited direct relevance for consumers, beyond explaining why so many \"AI-powered\" business products never visibly improve anything for the customers who buy them.",
+      "caveats": "Single country (China) and B2B context; patent portfolios are a proxy for real AI capability; observational panel data shows associations rather than causation; marketing execution index is researcher-constructed.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-10-18",
+      "doi": "10.1108/jbim-07-2025-0709",
+      "paper_title": "The role of AI robotics and marketing execution capabilities in B2B value realization and accumulation under technological uncertainty",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7213767799",
+      "headline": "The More Capable People Feel with AI, the More Willing They Are to Misuse It",
+      "the_study": "Survey data from 736 generative AI users were analyzed with structural equation modeling to test an \"empowerment backfire\" account of chatbot misuse. Perceived GenAI capability and accessibility were linked to greater feelings of autonomy and competence — and those psychological states were, in turn, associated with higher intentions to use the tools in ethically questionable ways. Conventional moral rationalization mechanisms performed less consistently than the empowerment pathway.",
+      "why_it_matters": "It suggests that the very product improvements vendors market most loudly — more capable, more accessible — may raise misuse risk through a route that content filters and ethics warnings aren't designed to catch.",
+      "story_angle_primary": "For teams shipping GenAI features, consider that capability and frictionless access are not ethically neutral product attributes. Worth probing in your own telemetry whether power users drift toward borderline uses, and whether guardrails framed around competence and ownership outperform guardrails framed around rules.",
+      "story_angle_secondary": "The familiar feeling of \"I've gotten good at prompting\" may come bundled with a quiet sense of entitlement about what you're allowed to do with the output.",
+      "caveats": "Cross-sectional survey, so no causal inference; measures stated misuse intention rather than observed misuse, a construct vulnerable to social desirability bias; sample composition and country not specified in the abstract; all relationships are structural-model paths.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-09-21",
+      "doi": "10.1108/apjml-04-2026-0774",
+      "paper_title": "Empowered yet unethical? Understanding GenAI misuse intention in generative AI chatbot use",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7222531871",
+      "headline": "\"Designed by AI\" costs you money — \"designed with AI\" doesn't",
+      "the_study": "Researchers built a 2x2 framework of \"algorithmic provenance\" — whether AI acted as the designer (agentic) or as a tool for a human designer (assistive), and whether its involvement was visible in the finished product — then tested it across six studies: an analysis of 1,800 marketplace listings and five pre-registered experiments with a combined N=2,760. Identical products were rated worse on attitudes, perceived quality, purchase intention and willingness to pay when AI was described as the designer rather than the assistant, with the penalty biggest when the AI's hand was visible in the output. The gap was driven by a new construct, perceived authenticity of creative intention — whether consumers believe a human pursued a genuine creative vision — and was larger for expressive products than functional ones. Framing the human's creative intent cut the agentic penalty roughly in half.",
+      "why_it_matters": "Companies now face a disclosure question with real revenue attached, and this suggests the wording of AI disclosure — not just whether you disclose — determines whether consumers discount the product.",
+      "story_angle_primary": "Audit how your product pages, packaging and press releases describe AI's role. The evidence suggests \"AI-assisted, human-directed\" language plus an explicit statement of the designer's creative intent may limit the discount, but this is lab and marketplace-listing evidence — worth A/B testing on live listings in your own category, particularly expressive categories like apparel, art, music and fragrance where the penalty appears largest.",
+      "story_angle_secondary": "Shoppers apparently aren't anti-AI so much as pro-human-intention: the same jacket or print feels less valuable if you believe no person was really trying to say something with it. It's worth asking whether that instinct is about quality at all, or about wanting to buy someone's effort.",
+      "caveats": "Five of the six studies are online experiments using product descriptions rather than real purchases; willingness to pay was stated, not paid. The marketplace-listing analysis is observational. Single framework tested largely in one cultural context; self-construal was experimentally primed rather than measured in the wild.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-16",
+      "doi": "10.1002/cb.70262",
+      "paper_title": "Algorithmic Provenance: When and Why Consumers Discount Products Made With AI ‐Involved Processes",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7222568097",
+      "headline": "When recommendation algorithms look biased, \"people like you\" is the worst pitch",
+      "the_study": "Four experiments with a total of 895 participants tested how consumers react to AI product recommendations when the recommender system shows signs of algorithmic bias, comparing two framings: relevance-based recommendations (based on what you looked at or need) versus similarity-based ones (based on people demographically similar to you). Algorithmic bias cut willingness to accept recommendations overall, but the drop was sharper under similarity-based framing. The mechanism was self-identity threat — being sorted into a group felt personally threatening — and perceived warmth and privacy concerns moderated that pathway.",
+      "why_it_matters": "Most recommender interfaces default to \"customers like you also bought,\" and this indicates that framing becomes a liability precisely when users already suspect the system treats some groups unfairly.",
+      "story_angle_primary": "Test the copy wrapping your recommendations, not just the model behind them: switching from group-similarity language to need- or behavior-relevance language is a cheap intervention that may blunt backlash when fairness questions surface. Also consider monitoring warmth cues and privacy assurances in the same surface, since both shifted the identity-threat pathway.",
+      "story_angle_secondary": "Part of what makes a recommendation feel creepy or insulting isn't accuracy — it's being told you were grouped with people who supposedly resemble you. The study suggests that sting gets worse once you suspect the algorithm plays favorites.",
+      "caveats": "Experimental scenarios with stated acceptance intentions rather than observed clicks or purchases; roughly 220 participants per study across four studies; algorithmic bias was manipulated via described scenarios; single-country sample and no long-term follow-up.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-16",
+      "doi": "10.1111/ijcs.70272",
+      "paper_title": "How Algorithmic Bias Shapes Consumer Acceptance of AI Recommendations: The Roles of Recommendation Strategy, Self‐Identity Threat, Perceived Warmth and Privacy Concerns",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7221013951",
+      "headline": "Chatbots keep customers in the ecosystem — but only if they make people feel sure of their decision",
+      "the_study": "Surveying omnichannel retail customers in the United States (N=345) and Saudi Arabia (N=302), researchers measured chatbot service quality across six dimensions (functional, integration, interface, safety, emotional, personalization) and linked it to two outcomes: share of time spent with the chatbot and \"ecosystem lock-in.\" Decision confidence mediated both relationships in both countries and, in a necessary-condition analysis, emerged as a prerequisite — without it, high chatbot quality did not translate into either outcome. Comfort with chatbots moderated the quality-to-confidence link in Saudi Arabia but not the US.",
+      "why_it_matters": "It reframes the chatbot KPI: the goal isn't deflecting contacts or sounding human, it's leaving the customer certain about what to buy or do next.",
+      "story_angle_primary": "Add a decision-confidence measure to your chatbot post-interaction survey and treat it as the leading indicator ahead of CSAT or containment rate. The cross-country difference in the comfort effect is also a prompt to question whether a single global chatbot design will perform the same in every market — though this is correlational survey evidence, not a tested rollout.",
+      "story_angle_secondary": "A useful self-check next time a retail bot helps you: did it actually make you more sure about your choice, or just faster to a checkout page? The research suggests confidence is what keeps people coming back to the same retail ecosystem.",
+      "caveats": "Cross-sectional self-report survey in two countries — cannot establish causation; outcomes (share of time, lock-in) were self-reported perceptions, not platform data; sample sizes near the lower bound for multi-group comparison; industry partner not named.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-08",
+      "doi": "10.1016/j.jretconser.2026.105151",
+      "paper_title": "Chatbot service quality in omnichannel retailing: Effects of ChatbotSQ on decision confidence and customer behavior",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7222787541",
+      "headline": "Shoppers Will Hand the Credit Card to an AI Agent — If It Can Prove It Understands Them",
+      "the_study": "Researchers built and validated a measure of \"agentic retail representation capability\" — whether consumers believe an AI agent can gather retail intelligence, adapt its choice strategy, stick to the shopper's goals, and act within limits — then tested it across a qualitative pretest (210 respondents), two scale-validation samples, three experiments, and a category-validation study, totaling 4,680 quantitative participants. Bundling signals of capability raised intention to delegate purchases, with perceived diagnosticity and trust in the algorithm as the statistical pathways; a bundled transparency intervention raised trust and actual authorization rates inside an experimental shopping task. Responses varied with shopper expertise across assortments that differed in size, coverage of priority information, and displayed prices, so delegation was not simply a response to choice complexity. The authors stress they measured perceived capability, reliance, and task authorization — not verified commercial purchases.",
+      "why_it_matters": "Agentic AI is pushing retail from \"here's a recommendation\" to \"I bought it for you,\" and this is among the first systematic evidence on what makes consumers actually hand over that authority. It suggests the unlock is demonstrable goal-preservation and transparency about limits, not raw automation.",
+      "story_angle_primary": "Retailers and agent developers can test whether bundling explicit capability and transparency cues — what the agent knows, how it adapts, what boundaries constrain its actions — lifts authorization rates in their own funnels, while treating these results as evidence of what can happen in an experimental task rather than a validated playbook for real payments, delivery and returns. Worth probing separately for expert versus novice shoppers, who responded differently.",
+      "story_angle_secondary": "The findings offer a checklist for anyone deciding how much shopping to outsource: ask whether the assistant can actually show it preserved your goals and stayed inside limits you set, since the study shows trust is built by exactly those signals — which means it can also be manufactured by them.",
+      "caveats": "Authorization was measured in an experimental shopping task, not verified commercial purchases with real payments, delivery, returns or repeat use; the authors explicitly flag this limit and note the mediation evidence is correlational. Effects of \"bundled\" interventions cannot be attributed to any single cue.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-17",
+      "doi": "10.1016/j.jretconser.2026.105174",
+      "paper_title": "When AI shops for me: How agentic retail representation turns assistance into purchase delegation",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7223205040",
+      "headline": "An AI web crawler found five times more nicotine pouch brands than Nielsen or national surveys",
+      "the_study": "Researchers built a comprehensive US database of oral nicotine pouch brands by combining three sources: self-reported brands from the 2024–2025 National Youth Tobacco Survey, Nielsen ScanTrack point-of-sale data (2024–2026), and a custom tool called 'ONPWebScout' that uses large language models plus the Google Search API to find brands sold online. Of 210 unique brands identified by May 2026, the AI tool alone surfaced 86 (41%), versus 25 from Nielsen scanner data (12%) and 16 from the youth survey (8%). The tool detected roughly four new brands per month during 2025–2026, and caught three of four youth-reported brands that never appeared in retail scanner data.",
+      "why_it_matters": "Scanner panels and survey instruments — the backbone of category tracking — are systematically blind to online-native brands, which means published market share and concentration figures can be badly wrong in fast-moving categories.",
+      "story_angle_primary": "Any brand team relying on Nielsen or IRI as its sole view of the competitive set should ask what share of the category is invisible to it. An LLM-plus-search-API crawler is cheap enough to run as a standing early-warning system for emerging DTC and online-only competitors; this study is a working proof of concept outside marketing but directly portable to it.",
+      "story_angle_secondary": "The products on shelves at your local store are a fraction of what is actually being sold and used — particularly for nicotine products marketed to young people, where dozens of brands exist almost entirely online and outside the reach of official monitoring.",
+      "caveats": "Single country (US) and a single product category; brand counts depend on search engine coverage and LLM classification accuracy; the tool identifies brand existence, not sales volume, so market share comparisons across channels remain incomplete.",
+      "journal": "Tobacco Control",
+      "published": "2026-10-22",
+      "doi": "10.1136/tc-2026-060323",
+      "paper_title": "Integrating artificial intelligence with retail and survey data to surveil oral nicotine pouch brands in the USA",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7223005232",
+      "headline": "Labeling a souvenir 'AI-generated' hurt sales intent with Americans — but Chinese shoppers didn't blink",
+      "the_study": "Two scenario-based experiments compared consumers in China and the US across three disclosure conditions for cultural tourism souvenirs — unlabeled, human–AI co-created, and AI-generated. Study 1 used tourism postcards (N=1,110) and Study 2 used mugs and tote bags (N=1,255). Disclosure significantly affected purchase intention among US participants but not among Chinese participants, with AI-generated labels consistently depressing intent relative to no disclosure; crucially, 'human–AI co-created' labels did not reliably rescue the effect — in Study 2 they performed no better than full AI disclosure. Perceived effort and perceived authenticity both mediated the drop.",
+      "why_it_matters": "As AI disclosure rules spread, firms are betting that a 'co-created with AI' label is a safe middle ground — this evidence suggests that bet can fail, and that the penalty varies sharply by market and product.",
+      "story_angle_primary": "If you are writing AI disclosure language, pretest it by market and by product rather than rolling out one global formula; the data suggest the lever that matters is making human contribution concrete, not simply adding the word 'co-created.'",
+      "story_angle_secondary": "What people seem to be paying for in a souvenir is evidence that somebody tried — the study found 'perceived effort' was the main thing an AI label destroyed, which explains why the same picture feels cheaper once you know a machine made it.",
+      "caveats": "Scenario-based with stated purchase intention rather than real purchases; stimuli limited to three low-cost souvenir products; findings compare only two national samples and should not be read as general East–West differences.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-20",
+      "doi": "10.1016/j.jretconser.2026.105180",
+      "paper_title": "Effect of AI authorship disclosure on purchase intention in cultural tourism souvenirs: The mediating roles of perceived effort and authenticity",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7222544706",
+      "headline": "When AI sets the price, $19.99 backfires and $20 works better",
+      "the_study": "Two experiments — one with Chilean students (N=165), one with US consumers (N=631) — varied who set a price (AI vs. human) and the price format (round, e.g. $20, vs. just-below, e.g. $19.99). Consumers responded less favorably to AI-set prices overall, and the classic just-below tactic that works for human sellers backfired when attributed to an algorithm. Mediation evidence points to perceived manipulation: just-below prices made AI pricing feel designed to exploit the shopper, lowering both purchase intention and likelihood of recommending.",
+      "why_it_matters": "Retailers deploying algorithmic and dynamic pricing may be pairing it with psychological pricing conventions that actively undermine trust in exactly that context.",
+      "story_angle_primary": "If your pricing is algorithmic and visibly so, test round-number price points against .99 endings — the familiar charm-price playbook may invert when consumers attribute the price to a machine. Also worth testing: how much of the penalty comes from disclosure itself versus the format.",
+      "story_angle_secondary": "That penny-off price tag is a persuasion technique, and shoppers appear to forgive it from a human but read it as predatory from an algorithm — a useful window into how differently we judge machine intent.",
+      "caveats": "One student sample from Chile with small cells and one US consumer sample; hypothetical pricing scenarios rather than real transactions; the authors themselves describe several key effects as 'directional.'",
+      "journal": "Journal of Consumer Affairs",
+      "published": "2026-10-16",
+      "doi": "10.1111/joca.70080",
+      "paper_title": "When AI Sets the Price: How Consumers Interpret Price Formats and Intent",
+      "source_id": "S189751245"
+    },
+    {
+      "work_id": "W7221585809",
+      "headline": "Whether an AI recommender should decide for you or with you depends on how the green product is pitched",
+      "the_study": "Four scenario-based online experiments (total N=1,114), including a choice task, a preference evaluation, and two measuring purchase intention and willingness to pay, tested a match between the type of AI recommender and how a sustainable product was framed. 'Substitute' AI (which decides for the consumer) worked better for green products framed around utility and performance, while 'augmented' AI (which assists the consumer's own decision) worked better for products framed around sustainability. Consumers' sense of control explained the effect — and adding attribute-based post hoc explanations erased the penalty substitute AI otherwise suffered under sustainability framing.",
+      "why_it_matters": "It offers a concrete reconciliation of the contradictory evidence on whether AI recommenders help or hurt green product sales: the answer depends on fit between recommender autonomy and message frame.",
+      "story_angle_primary": "Two testable levers for anyone running a recommendation engine on sustainable lines: match recommender autonomy to copy frame, and add a short explanation of why the item was recommended — the study suggests explanations restore the consumer's sense of control and neutralize the mismatch.",
+      "story_angle_secondary": "People resist being told what to buy when the pitch appeals to their values, but accept it readily when the pitch is about performance — a quiet hint that moral choices feel like they should be ours to make.",
+      "caveats": "All four studies were scenario-based online experiments measuring intention, preference and willingness to pay rather than actual purchases; sample composition and country not specified in the abstract.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-13",
+      "doi": "10.1002/cb.70253",
+      "paper_title": "Are AI Recommendations Less Green? The Effects of AI Recommendation Sources and Green Product Attribute Framing on Consumer Responses",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7221777092",
+      "headline": "Who's actually buying matters: older shoppers and their adult children respond to different product images",
+      "the_study": "A 2x3 between-subjects experiment with 330 Chinese participants — 165 older self-buyers aged 60–75 and 165 adult-child proxy buyers aged 40–59 — tested three visual formats for AI-recommended age-friendly furniture: product only, product in a home setting, or an older person using the product at home. Purchase intention showed a significant segment-by-format interaction: older self-buyers responded best to plain home-context imagery, while adult children buying on their behalf responded best to images showing an older user. Perceived warmth, home fit, and trust predicted purchase intention, which in turn predicted actual add-to-cart behavior.",
+      "why_it_matters": "For categories bought partly by proxy — elder care, baby, gifts, health — the optimal creative may differ depending on whether the viewer is the user or the purchaser, which recommendation systems rarely distinguish.",
+      "story_angle_primary": "Test whether your recommendation imagery should vary by purchasing role, not just demographic: depicting the end user may help proxy buyers while making self-buyers uncomfortable with being categorized as old.",
+      "story_angle_secondary": "When adult children shop for their parents, they look for pictures that confirm the product is 'for older people' — the very cue their parents would rather not see.",
+      "caveats": "Single country and single product category; the authors note purchasing-role effects cannot be separated from age differences, and that structural paths are associational, not causal; roughly 55 participants per cell.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-14",
+      "doi": "10.1111/ijcs.70267",
+      "paper_title": "Visual Context in AI Recommendations: Implications for Consumer Evaluation and Choice",
+      "source_id": "S173807628"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7222957362",
+      "headline": "Daily motivational texts lifted sales — and made agents stop checking their numbers",
+      "verdict": "accurate",
+      "notes": "Design, setting (100 stores, Sweden), direction of effects and the ostrich-effect mechanism all match the abstract; caveats are appropriately hedged.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7221784971",
+      "headline": "When should a chatbot sound cheerful? Only when the task is subjective",
+      "verdict": "accurate",
+      "notes": "Four studies (Weibo secondary data plus three scenario experiments, N=587), the task-by-emotion interaction and the dual mind-perception pathways are reported correctly; caveats mirror the abstract's own stated limitations.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7223240864",
+      "headline": "Personalized health chatbots get patients to open up — unless the condition is embarrassing",
+      "verdict": "accurate",
+      "notes": "Three scenario experiments plus a field survey, the AI interactive trust mediator and the disease-sensitivity boundary condition are all represented accurately, including the caveat that disclosure was an intention.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7222997881",
+      "headline": "A less human chatbot may be exactly what stigmatized customers want",
+      "verdict": "minor",
+      "notes": "Design science methodology, practitioner interviews, 4,000-text corpus and the inversion-of-intimacy proposition are all accurate; two small framing stretches in \"Why it matters\" and the body.",
+      "issues": [
+        {
+          "label": "Barrier framing overstated as exclusive",
+          "severity": "Minor",
+          "as_written": "reframes the real barrier to many services as behavioral friction rather than price or availability",
+          "abstract_says": "This paradox suggests that the primary barrier to utilization is not only structural supply failure but also behavioral friction at the mental health service entry threshold.",
+          "problem": "The abstract frames behavioral friction as an additional barrier alongside structural supply failure, not a replacement for it; \"rather than price or availability\" makes it an either/or.",
+          "suggested_fix": "Change to \"reframes a major barrier as behavioural friction in addition to price and availability\"."
+        },
+        {
+          "label": "\"Opposite of\" vs \"qualifies\" existing assumption",
+          "severity": "Minor",
+          "as_written": "the opposite of the prevailing assumption in service technology research",
+          "abstract_says": "we theorize an inversion of intimacy, the proposition that lower ASP facilitates sensitive disclosure in stigma-laden contexts, which qualifies a central assumption in service technology research",
+          "problem": "The authors say the proposition qualifies a central assumption in a specific context; the digest escalates this to a flat reversal of the field's view.",
+          "suggested_fix": "Use \"which qualifies a central assumption in service technology research\"."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7223130166",
+      "headline": "Consumers Will Hand the Wheel to AI — But Only If They Can Grab It Back",
+      "verdict": "minor",
+      "notes": "Study count (one qualitative plus three experiments), the threat-contingent pattern and the extended outcome measures match the abstract; the conditional is slightly harder-edged than the reported interaction.",
+      "issues": [
+        {
+          "label": "Interaction described as an acceptability threshold",
+          "severity": "Minor",
+          "as_written": "When the technology felt threatening, high autonomy was only acceptable — perceived as lower risk — if users kept meaningful control",
+          "abstract_says": "Under high perceived technological threat, AI autonomy and user control interact to shape perceived product risk, with greater autonomy associated with lower risk when user control is high, which in turn influences consumer responses.",
+          "problem": "The abstract reports an interaction on perceived risk, not that autonomy was unacceptable without control; \"only acceptable if\" implies a tested threshold the abstract does not state.",
+          "suggested_fix": "Rephrase as \"greater autonomy was associated with lower perceived risk only when users retained high control\"."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7222464186",
+      "headline": "Livestream Shopping Doesn't Travel: What Works on Taobao Falls Flat in the West",
+      "verdict": "minor",
+      "notes": "Method (screencast videography, 33 sessions, 12 platforms, China/US/Europe) and the configurational-affordance conclusion are accurate; the headline and consumer angle assert performance and consumer reactions the study did not measure.",
+      "issues": [
+        {
+          "label": "Headline asserts performance outcomes and names an unmentioned platform",
+          "severity": "Minor",
+          "as_written": "Livestream Shopping Doesn't Travel: What Works on Taobao Falls Flat in the West",
+          "abstract_says": "This qualitative inquiry employs screencast videography of 33 LSS sessions from 12 platforms to explore how they enact affordances in real time... arguing that cross-market transferability of LSS strategies depends on these configurations within different platform ecosystems.",
+          "problem": "The study coded platform affordances, not sales or engagement outcomes, so \"works\"/\"falls flat\" implies performance evidence that does not exist; Taobao is not named in the abstract.",
+          "suggested_fix": "Reframe to something like \"Livestream shopping formats may not transfer: China and Western platforms enable different engagement mechanics\"."
+        },
+        {
+          "label": "Consumer experience claim beyond the data",
+          "severity": "Minor",
+          "as_written": "Why live shopping feels addictive in China and awkward in the US isn't about consumer taste alone",
+          "abstract_says": "The findings reveal systemic and episodic-relational logics associated with distinct viewing experiences.",
+          "problem": "No consumer responses were measured; characterizing live shopping as \"addictive\" in one market and \"awkward\" in another goes beyond the researchers' interpretive coding of platform sessions.",
+          "suggested_fix": "Say the study describes distinct viewing experiences enabled by different platform logics, without asserting how consumers in each market feel."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7223088624",
+      "headline": "Disclosure Warnings on AI Therapy Bots May Boost Use Rather Than Protect Users",
+      "verdict": "minor",
+      "notes": "Sample (national US sample, n=446), SEM, predictors and the confidence-cue interpretation are accurate; the disclosure moderation is reported more broadly than the abstract specifies.",
+      "issues": [
+        {
+          "label": "Moderation path generalized",
+          "severity": "Minor",
+          "as_written": "perceived adequacy of disclosures strengthened rather than tempered the path to use",
+          "abstract_says": "perceived disclosure adequacy moderates the relationship between ability and use intentions",
+          "problem": "The moderation applies specifically to the perceived-ability-to-use-AI path, not to the model's paths to use intention generally.",
+          "suggested_fix": "Specify that disclosure adequacy strengthened the link between perceived ability and use intentions."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7222898245",
+      "headline": "AI Patents Don't Create Value — Marketing Execution Does",
+      "verdict": "minor",
+      "notes": "Panel details (234 Chinese B2B firms, 2011–2022, patent measure, PCA index, fixed effects with cluster-robust SEs) and the technological-uncertainty boundary condition are accurate; the headline and \"Why it matters\" use causal and emphatic language the abstract avoids.",
+      "issues": [
+        {
+          "label": "Causal headline for observational panel associations",
+          "severity": "Minor",
+          "as_written": "AI Patents Don't Create Value — Marketing Execution Does",
+          "abstract_says": "AI robotics capability (AI-RC) does not exhibit an automatic direct association with CVR and BV; rather, its value potential is realized when firms can effectively execute, coordinate and deliver AI-enabled offerings through MEC",
+          "problem": "The abstract consistently uses associational language; the headline states causation, and \"puts hard panel evidence behind\" adds weight the design cannot carry, even though the caveats acknowledge the limit.",
+          "suggested_fix": "Rewrite as \"AI patents alone aren't linked to customer or brand value — marketing execution is the pathway\"."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7213767799",
+      "headline": "The More Capable People Feel with AI, the More Willing They Are to Misuse It",
+      "verdict": "minor",
+      "notes": "N=736, SEM, the empowerment-backfire pathway and the weaker neutralization account are accurately reported with appropriate associational language; one named moderator is omitted.",
+      "issues": [
+        {
+          "label": "Dropped moderator (situational anxiety)",
+          "severity": "Minor",
+          "as_written": "Perceived GenAI capability and accessibility were linked to greater feelings of autonomy and competence — and those psychological states were, in turn, associated with higher intentions to use the tools in ethically questionable ways.",
+          "abstract_says": "Situational anxiety moderated only the competence–GenAI misuse intention relationship.",
+          "problem": "The abstract names situational anxiety as a moderator that applied to the competence path only; the digest omits this boundary condition entirely.",
+          "suggested_fix": "Add that situational anxiety moderated only the competence-to-misuse-intention path."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7222531871",
+      "headline": "\"Designed by AI\" costs you money — \"designed with AI\" doesn't",
+      "verdict": "minor",
+      "notes": "Six studies, 1,800 listings, five pre-registered experiments (N=2,760), the visibility amplification, expressive-product moderation and the roughly half-sized reduction from creative-intent framing are all accurate; mediation is described as fuller than reported.",
+      "issues": [
+        {
+          "label": "Partial mediation reported as the driver",
+          "severity": "Minor",
+          "as_written": "The gap was driven by a new construct, perceived authenticity of creative intention",
+          "abstract_says": "The downstream responses are partially mediated by a new construct, perceived authenticity of creative intention",
+          "problem": "The abstract reports partial mediation; \"driven by\" implies the construct fully accounts for the effect.",
+          "suggested_fix": "Say the gap was \"partly explained by\" perceived authenticity of creative intention."
+        },
+        {
+          "label": "Cultural-context caveat not supported by abstract",
+          "severity": "Minor",
+          "as_written": "Single framework tested largely in one cultural context",
+          "abstract_says": "(no country or cultural context of samples is reported)",
+          "problem": "The abstract does not state where participants or listings came from, so the cultural-context claim cannot be checked. Unverifiable from abstract only.",
+          "suggested_fix": "Change to \"sample nationality not specified in the abstract\" or drop the cultural-context claim."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7222568097",
+      "headline": "When recommendation algorithms look biased, \"people like you\" is the worst pitch",
+      "verdict": "minor",
+      "notes": "Design, N and mechanism match the abstract; two small embellishments (\"demographically similar\", single-country sample) go beyond what the abstract states.",
+      "issues": [
+        {
+          "label": "Similarity framing described as demographic",
+          "severity": "Minor",
+          "as_written": "similarity-based ones (based on people demographically similar to you)",
+          "abstract_says": "this study focuses on two recommendation strategies (relevance‐based vs. similarity‐based recommendations)",
+          "problem": "The abstract does not define the similarity strategy as demographic grouping; the digest adds a specific operationalization that cannot be verified from the abstract.",
+          "suggested_fix": "Describe it as \"recommendations based on similar users\" without specifying demographics, or note the operationalization is not given in the abstract."
+        },
+        {
+          "label": "Country claim not in abstract",
+          "severity": "Minor",
+          "as_written": "single-country sample and no long-term follow-up",
+          "abstract_says": "Through four experimental studies (total N = 895)",
+          "problem": "The abstract does not state the participants' country, so the single-country caveat is unverifiable from the abstract only.",
+          "suggested_fix": "Change to \"sample country not specified in the abstract\"."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7221013951",
+      "headline": "Chatbots keep customers in the ecosystem — but only if they make people feel sure of their decision",
+      "verdict": "minor",
+      "notes": "Samples, six dimensions, mediation, necessary-condition analysis and the Saudi-only moderation are all reported correctly; headline is causal for cross-sectional survey data and one caveat implies an industry partner the abstract never mentions.",
+      "issues": [
+        {
+          "label": "Causal headline for survey data",
+          "severity": "Minor",
+          "as_written": "Chatbots keep customers in the ecosystem — but only if they make people feel sure of their decision",
+          "abstract_says": "chatbot service quality is positively associated with customers' share of time with the chatbot and omnichannel ecosystem lock-in in both countries. These relationships are mediated by decision confidence",
+          "problem": "The headline asserts a causal, conditional effect, while the study reports associations from cross-sectional survey data; the digest's own caveat says causation cannot be established.",
+          "suggested_fix": "Reframe as \"Chatbot quality tracks with ecosystem lock-in — and decision confidence looks like the link\"."
+        },
+        {
+          "label": "Caveat implies an unnamed industry partner",
+          "severity": "Minor",
+          "as_written": "sample sizes near the lower bound for multi-group comparison; industry partner not named",
+          "abstract_says": "we analyze survey data from the United States ( N = 345) and Saudi Arabia ( N = 302)",
+          "problem": "The abstract mentions no industry partner or sponsor; stating that one is \"not named\" implies commercial involvement that the abstract does not report.",
+          "suggested_fix": "Delete the \"industry partner not named\" clause or replace with \"no funding or partner information in the abstract\"."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7222787541",
+      "headline": "Shoppers Will Hand the Credit Card to an AI Agent — If It Can Prove It Understands Them",
+      "verdict": "accurate",
+      "notes": "Study count, 4,680 quantitative participants, 210 qualitative respondents, the bundled interventions, the expertise-dependent assortment finding and the authors' own limits on authorization vs. verified purchases are all faithfully represented.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7223205040",
+      "headline": "An AI web crawler found five times more nicotine pouch brands than Nielsen or national surveys",
+      "verdict": "minor",
+      "notes": "Brand counts, percentages, four-new-brands-per-month and the three-of-four NYTS finding all match; the headline's \"five times\" holds against the youth survey but not against Nielsen.",
+      "issues": [
+        {
+          "label": "Headline multiple overstated for Nielsen",
+          "severity": "Moderate",
+          "as_written": "An AI web crawler found five times more nicotine pouch brands than Nielsen or national surveys",
+          "abstract_says": "ONPWebScout alone captured 86 brands (40.95%), compared with 16 (7.62%) from NYTS and 25 (11.90%) from Nielsen.",
+          "problem": "86 vs. 25 is roughly 3.4 times, not five times; the five-fold multiple applies only to the youth survey comparison, so the headline overstates the gap against scanner data.",
+          "suggested_fix": "Rewrite as \"found three times more brands than Nielsen and five times more than the national youth survey\"."
+        },
+        {
+          "label": "Cost claim not in abstract",
+          "severity": "Minor",
+          "as_written": "An LLM-plus-search-API crawler is cheap enough to run as a standing early-warning system",
+          "abstract_says": "we developed an automated tool 'ONPWebScout', leveraging large language models and the Google Search Application Programming Interface to track emerging brands",
+          "problem": "The abstract reports no cost or resource data for the tool, so the affordability claim is unverifiable from abstract only.",
+          "suggested_fix": "Soften to \"an automated LLM-plus-search-API approach, which the authors describe as feasible for ongoing monitoring\"."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7223005232",
+      "headline": "Labeling a souvenir 'AI-generated' hurt sales intent with Americans — but Chinese shoppers didn't blink",
+      "verdict": "minor",
+      "notes": "Sample sizes, conditions, the nationality interaction and the co-creation finding are accurate; the mediation summary flattens the abstract's qualifications about authenticity and nationality-moderated indirect effects.",
+      "issues": [
+        {
+          "label": "Mediation nuance dropped",
+          "severity": "Minor",
+          "as_written": "Perceived effort and perceived authenticity both mediated the drop.",
+          "abstract_says": "Perceived effort effects were significant for both comparisons with the unlabeled condition across three examined products, whereas the human–AI co‐created versus unlabeled authenticity effect was nonsignificant in Study 1 but significant in Study 2. Nationality moderated some, but not all, indirect effects.",
+          "problem": "The authenticity pathway was inconsistent across studies and nationality moderated only some indirect effects; presenting both mediators as uniformly operating overstates the evidence.",
+          "suggested_fix": "Add that perceived effort mediated consistently while the authenticity pathway held only in Study 2, and that nationality moderated some but not all indirect effects."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7222544706",
+      "headline": "When AI sets the price, $19.99 backfires and $20 works better",
+      "verdict": "minor",
+      "notes": "Samples, design and the perceived-manipulation mechanism are accurate and the digest flags the authors' \"directional\" language; the claim that just-below pricing works for human sellers is an outside assumption, not a finding here.",
+      "issues": [
+        {
+          "label": "Human-seller baseline asserted as finding",
+          "severity": "Minor",
+          "as_written": "the classic just-below tactic that works for human sellers backfired when attributed to an algorithm",
+          "abstract_says": "Study 1 provides directional evidence that consumers respond less favorably to AI‐set prices and supports a preference for round over just‐below prices when pricing is attributed to AI. Study 2 supports the less favorable response to AI pricing and provides directional evidence for the predicted price‐format effect.",
+          "problem": "The abstract reports a preference for round over just-below prices under AI attribution but does not report that just-below prices worked better in the human-seller condition, so the contrast is inferred rather than evidenced.",
+          "suggested_fix": "State that participants preferred round over just-below prices when the price was attributed to AI, without asserting the opposite result for human sellers."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "work_id": "W7221585809",
+      "headline": "Whether an AI recommender should decide for you or with you depends on how the green product is pitched",
+      "verdict": "accurate",
+      "notes": "Four scenario experiments, N=1114, the substitute/augmented by utility/sustainability congruence effect, sense-of-control mediation and the post hoc explanation remedy all match the abstract, and the caveats correctly note intention-based outcomes.",
+      "issues": []
+    },
+    {
+      "number": 18,
+      "work_id": "W7221777092",
+      "headline": "Who's actually buying matters: older shoppers and their adult children respond to different product images",
+      "verdict": "minor",
+      "notes": "Design, N and segment ages match; the abstract does not state the sample's nationality, and the specific best-format pattern was descriptive rather than a tested simple effect.",
+      "issues": [
+        {
+          "label": "Nationality not stated in abstract",
+          "severity": "Minor",
+          "as_written": "A 2x3 between-subjects experiment with 330 Chinese participants",
+          "abstract_says": "A 2 × 3 between‐subjects experiment involved 330 participants: 165 older self‐buyers aged 60–75 and 165 adult‐child proxy buyers aged 40–59.",
+          "problem": "The abstract gives no country for the sample, so identifying participants as Chinese (and the \"single country\" caveat) cannot be verified from the abstract alone.",
+          "suggested_fix": "Drop \"Chinese\" or note that the sample's country is not specified in the abstract."
+        },
+        {
+          "label": "Descriptive pattern reported as a result",
+          "severity": "Minor",
+          "as_written": "older self-buyers responded best to plain home-context imagery, while adult children buying on their behalf responded best to images showing an older user",
+          "abstract_says": "Purchase intention showed a significant segment × visual format interaction. Descriptively, mean purchase intention was highest under home‐context presentation among older self‐buyers and under the older‐user use scene in a home context among adult‐child proxy buyers.",
+          "problem": "The abstract explicitly labels the direction of the segment-specific pattern as descriptive; presenting it as the finding implies tested simple effects.",
+          "suggested_fix": "Note that the interaction was significant but the direction of the segment-specific advantage is reported descriptively by the authors."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 18,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7222957362": {
+        "query": "Daily motivational texts lifted sales made agents stop checking their",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221784971": {
+        "query": "should chatbot sound cheerful Only task subjective",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223240864": {
+        "query": "Personalized health chatbots get patients open unless condition embarrassing",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222997881": {
+        "query": "human chatbot exactly stigmatized customers want",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223130166": {
+        "query": "Consumers Will Hand Wheel But Only They Grab Back",
+        "returned": 8,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222464186": {
+        "query": "Livestream Shopping Doesn Travel Works Taobao Falls Flat West",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223088624": {
+        "query": "Disclosure Warnings Therapy Bots Boost Use Rather Than Protect Users",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222898245": {
+        "query": "Patents Don Create Value Marketing Execution Does",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7213767799": {
+        "query": "Capable People Feel Willing They Misuse",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222531871": {
+        "query": "Designed costs money designed doesn",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222568097": {
+        "query": "recommendation algorithms look biased people like worst pitch",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221013951": {
+        "query": "Chatbots keep customers ecosystem but only they make people feel",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222787541": {
+        "query": "Shoppers Will Hand Credit Card Agent Prove Understands Them",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223205040": {
+        "query": "web crawler found five times nicotine pouch brands than Nielsen",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223005232": {
+        "query": "Labeling souvenir generated hurt sales intent Americans but Chinese shoppers",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222544706": {
+        "query": "sets price backfires works better",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221585809": {
+        "query": "Whether recommender should decide depends green product pitched",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221777092": {
+        "query": "Who actually buying matters older shoppers their adult children respond",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **Warmth from a machine remains a setting, not a default — and the batch now names three more switches.** \"When should a chatbot sound cheerful? Only when the task is subjective\" (W7221784971) is the text-chat analogue of the previous digest's \"Robots that show feelings win customers — unless the service involves something private\" (W7215001822) and \"When AI streamers should sell with facts — and when they should gush\" (W7219885583): warmth pays on subjective, experiential tasks and costs on factual ones. \"Personalized health chatbots get patients to open up — unless the condition is embarrassing\" (W7223240864) reproduces the privacy-sensitivity reversal in W7215001822 using personalization rather than emotion as the cue.\n- **The employee- and user-side costs of AI keep landing outside the productivity dashboard.** \"The More Capable People Feel with AI, the More Willing They Are to Misuse It\" (W7213767799) and \"Daily motivational texts lifted sales — and made agents stop checking their numbers\" (W7222957362) sit alongside \"The hidden cost of heavy AI use at work: employees start cutting corners\" (W7220733006): in all three, a tool or nudge that raises output also produces a behavioral side effect — corner-cutting, ethical drift, information avoidance — that nobody instrumented.\n- **Technology possession is not the payoff.** \"AI Patents Don't Create Value — Marketing Execution Does\" (W7222898245) gives panel evidence for what the previous digest's \"How a manufacturer actually became data-driven\" (W7213979252) argued from a single case: the conversion mechanism sits in the commercial organization, not the technology stack.\n\n**Advances**\n- **From a theory of asymmetric AI relationships to data on it.** \"Disclosure Warnings on AI Therapy Bots May Boost Use Rather Than Protect Users\" (W7223088624) empirically populates the propositions in \"The brand chatbot that acts like it loves you back — and structurally cannot\" (W7215774667): anthropomorphic design predicts use intentions, which in turn predict \"isolated attachment,\" exactly the one-directional dependence HAART described.\n- **From measuring AI acceptance to naming the gating variable.** \"Chatbots keep customers in the ecosystem — but only if they make people feel sure of their decision\" (W7221013951) moves past the eight-dimension diagnostic in \"Why 'do you trust AI?' is the wrong question to ask shoppers\" (W7220664143) by identifying decision confidence as a necessary condition — without it, high chatbot quality converts into nothing.\n- **From recommendation to delegation.** \"Shoppers Will Hand the Credit Card to an AI Agent — If It Can Prove It Understands Them\" (W7222787541) and \"Consumers Will Hand the Wheel to AI — But Only If They Can Grab It Back\" (W7223130166) push the previous digest's control-and-interface thread (\"What makes a voice assistant feel 'smart',\" W7204460029) from perceived intelligence to actual authorization: breadth of control was the driver there, retained override and demonstrable goal-preservation are the drivers here.\n- **AI as regulated terrain gets a consumer-response test.** \"Labeling a souvenir 'AI-generated' hurt sales intent with Americans — but Chinese shoppers didn't blink\" (W7223005232) supplies behavioral consequence to the compliance geography mapped in \"Europe's AI Rulebooks Are Not One Rulebook\" (W7221335140) and to the national \"AI interpretive climates\" in W7220834813 — disclosure penalties are market-specific, not universal.\n\n**Counterpoints**\n- **Should the bot feel more human, or less?** \"A less human chatbot may be exactly what stigmatized customers want\" (W7222997881) proposes an \"inversion of intimacy\" that runs against the escapism-through-empathy mechanism in W7215001822 and against the anthropomorphism-drives-use finding in W7223088624 within this same batch. Both sides agree humanness is consequential; they disagree on its sign in stigma-laden contexts, and W7222997881 is a design-science paper with no consumer test yet.\n- **AI as a better research instrument, not a worse one.** \"An AI web crawler found five times more nicotine pouch brands than Nielsen or national surveys\" (W7223205040) partially inverts the previous digest's instrument skepticism in \"Your sentiment score may depend mostly on which word list you happened to pick\" (W7202341073): there, AI-adjacent text tooling made conclusions unstable; here, an LLM-plus-search crawler exposes blind spots in the incumbent scanner and survey infrastructure.\n\n**New themes**\n- **Attribution of intent to algorithms as a pricing and recommendation problem.** \"When AI sets the price, $19.99 backfires and $20 works better\" (W7222544706) and \"When recommendation algorithms look biased, 'people like you' is the worst pitch\" (W7222568097) open a strand with no prior-run antecedent: the same tactic reads as ordinary persuasion from a human and as exploitation or categorization from a machine.\n- **Ecosystem portability.** \"Livestream Shopping Doesn't Travel: What Works on Taobao Falls Flat in the West\" (W7222464186) is new — engagement mechanics as interdependent platform configurations rather than exportable tactics.\n- **Purchasing role as a creative variable** (\"Who's actually buying matters,\" W7221777092) and **recommender autonomy matched to message frame** (\"Whether an AI recommender should decide for you or with you depends on how the green product is pitched,\" W7221585809) are both fresh.",
+    "feature_pitch": "**The pattern:** Four studies in this batch converge on a single uncomfortable finding: AI disclosure does not behave the way regulators or compliance teams assume. \"'Designed by AI' costs you money — 'designed with AI' doesn't\" (W7222531871) shows the wording of provenance, not the fact of it, drives a willingness-to-pay discount; \"Labeling a souvenir 'AI-generated' hurt sales intent with Americans — but Chinese shoppers didn't blink\" (W7223005232) finds the supposedly safe \"human–AI co-created\" middle ground fails to rescue the penalty and the effect disappears entirely in one of two markets; \"When AI sets the price, $19.99 backfires and $20 works better\" (W7222544706) shows disclosed algorithmic authorship turns a standard pricing convention into a signal of manipulation; and \"Disclosure Warnings on AI Therapy Bots May Boost Use Rather Than Protect Users\" (W7223088624) finds that perceived adequacy of disclosures *strengthened* the path to using an emotionally risky AI service, working as a confidence cue rather than a brake.\n\n**Why pitch this now:** AI labeling obligations are arriving across jurisdictions and platforms just as brands finalize how to word them, and this is the first cluster of evidence that the specific phrasing carries both revenue consequences and a real possibility of achieving the opposite of the protective intent.\n\n**Angle:** A reported feature on AI disclosure as a design decision with winners and losers — who writes the label, what each phrasing does to price and trust, and why a notice meant to caution consumers can function as reassurance instead. Written for brand and compliance leaders, with enough consumer-facing bite for a general readership asking what the \"made with AI\" tag on a listing actually tells them.\n\n**Potential headlines:**\n- Four studies, one finding: the wording of an AI label changes what people will pay\n- The AI warning label that made people more comfortable, not less\n- Who decides how a product confesses it was made by a machine\n\n**Potential outlets:**\n- **Marketing Week** — its audience is writing exactly this disclosure language right now for product pages and packaging, and the \"designed with\" versus \"designed by\" split is directly actionable for them.\n- **Retail Dive** — covers listing copy, dynamic pricing and marketplace policy, which is where the provenance penalty and the algorithmic-pricing backfire both land operationally.\n- **MIT Sloan Management Review** — the governance question of transparency measures producing the opposite of their intended effect is squarely its register for executives and policy readers.\n- **Wired** — runs consumer-facing AI labeling and provenance stories and would take the finding that disclosure can read as a trust badge rather than a caution.",
+    "pitch_ideas": "- **Daily motivational texts lifted sales — and made agents stop checking their numbers (Work ID W7222957362):** A field experiment in 100 stores showing automated goal nudges work best on the weakest performers but push everyone to avoid the scoreboard, for a sales-management or CRM trade piece, with a general-interest spin on why we stop opening the app after setting a goal.\n- **When should a chatbot sound cheerful? Only when the task is subjective (Work ID W7221784971):** Segment conversation intents by subjective versus factual and run separate tone templates rather than one brand voice, for a customer-experience trade explainer or a consumer-psychology column on why \"Great question!\" grates during a refund request.\n- **Personalized health chatbots get patients to open up — unless the condition is embarrassing (Work ID W7223240864):** Personalization in intake bots raises disclosure only where the stakes are low, which means it fails precisely where accurate data matters most, for a health-tech or digital-health trade brief.\n- **A less human chatbot may be exactly what stigmatized customers want (Work ID W7222997881):** The \"inversion of intimacy\" argument against the industry's humanization default, plus the reframing of unmet mental health need as behavioral friction rather than cost, for a service-design or health-technology feature and a consumer-psychology explainer in a general-interest outlet.\n- **Consumers Will Hand the Wheel to AI — But Only If They Can Grab It Back (Work ID W7223130166):** Override features as a willingness-to-pay lever in anxiety-inducing categories and redundant friction in calm ones, for a product-marketing or CMO-audience column on how to pitch autonomy.\n- **Livestream Shopping Doesn't Travel: What Works on Taobao Falls Flat in the West (Work ID W7222464186):** Thirty-three recorded sessions across 12 platforms arguing the China live-commerce playbook is structurally non-portable, for a social-commerce or international marketing trade analysis.\n- **Disclosure Warnings on AI Therapy Bots May Boost Use Rather Than Protect Users (Work ID W7223088624):** Compliance language functioning as marketing, and anthropomorphic design predicting \"isolated attachment,\" for a tech-policy news feature or a consumer-protection column.\n- **AI Patents Don't Create Value — Marketing Execution Does (Work ID W7222898245):** Twelve years of panel data showing AI capability converts to customer and brand value only through go-to-market execution, and degrades when technology is most volatile, for a B2B marketing trade explainer or a strategy column for executives reporting AI as an asset.\n- **The More Capable People Feel with AI, the More Willing They Are to Misuse It (Work ID W7213767799):** The attributes vendors market hardest — more capable, more accessible — may raise misuse risk through a psychological route content filters cannot see, for a tech-ethics or workplace-AI news piece.\n- **\"Designed by AI\" costs you money — \"designed with AI\" doesn't (Work ID W7222531871):** Six studies, 2,760 participants and 1,800 listings putting a price on provenance wording, with the penalty worst in expressive categories, for a retail or e-commerce trade lead and a consumer explainer on why we pay for evidence of human intention.\n- **When recommendation algorithms look biased, \"people like you\" is the worst pitch (Work ID W7222568097):** Switching recommendation copy from group-similarity to need-relevance as a cheap hedge against fairness backlash, for a personalization/martech trade brief.\n- **Chatbots keep customers in the ecosystem — but only if they make people feel sure of their decision (Work ID W7221013951):** Decision confidence as a necessary condition and a better leading indicator than CSAT or containment rate, for a retail CX measurement column.\n- **Shoppers Will Hand the Credit Card to an AI Agent — If It Can Prove It Understands Them (Work ID W7222787541):** The first systematic read on what makes consumers authorize an agent to buy — demonstrable goal-preservation and stated limits, not raw automation — for an agentic-commerce trade feature, plus a consumer piece on the checklist for outsourcing your shopping.\n- **An AI web crawler found five times more nicotine pouch brands than Nielsen or national surveys (Work ID W7223205040):** A working proof that scanner panels and surveys are blind to online-native brands, portable as a standing early-warning system for DTC competitors, for a market-research/insights trade piece and a separate public-health news brief.\n- **Labeling a souvenir \"AI-generated\" hurt sales intent with Americans — but Chinese shoppers didn't blink (Work ID W7223005232):** \"Co-created with AI\" as a false safe harbor, with perceived effort the thing the label destroys, for a global brand strategy column or a tourism/retail trade explainer.\n- **When AI sets the price, $19.99 backfires and $20 works better (Work ID W7222544706):** The charm-price playbook inverting once a machine is credited with setting the number, for a pricing-strategy trade brief and a personal-finance column on how we judge machine intent.\n- **Whether an AI recommender should decide for you or with you depends on how the green product is pitched (Work ID W7221585809):** Matching recommender autonomy to message frame, with short attribute-based explanations erasing the penalty, for a sustainability marketing or recommendation-engine trade explainer.\n- **Who's actually buying matters: older shoppers and their adult children respond to different product images (Work ID W7221777092):** Creative that should vary by purchasing role rather than demographic — proxy buyers want to see an older user, self-buyers do not — for a retail creative/e-commerce trade piece, with a general-interest angle on shopping for aging parents."
+  }
+}
