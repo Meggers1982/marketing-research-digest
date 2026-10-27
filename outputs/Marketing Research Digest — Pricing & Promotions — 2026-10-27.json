@@ -1,0 +1,569 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-27",
+  "days_back": 60,
+  "window_from": "2026-08-28",
+  "window_to": "2026-10-27",
+  "focus": "Pricing & Promotions",
+  "topic": "pricing & promotions",
+  "query": "pricing OR price OR discount OR \"sales promotion\" OR \"price promotion\" OR coupon OR subscription OR \"price fairness\" OR \"dynamic pricing\" OR \"free shipping\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 159,
+    "not_research": 0,
+    "no_abstract": 50,
+    "off_topic": 1,
+    "already_covered": 49,
+    "over_journal_cap": 8,
+    "over_cap": 11,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7222938569",
+      "headline": "Delivery subscriptions nearly double spending — and sometimes grow the whole category",
+      "the_study": "Researchers analyzed individual-level transaction data covering Postmates Unlimited (the first widely available U.S. restaurant-delivery subscription) and DoorDash's DashPass, using a matched, staggered difference-in-differences design. Signing up was associated with a 90.4% increase in spending at the subscribing platform, with no significant average decline in spending at competing platforms or adjacent food categories — evidence of category expansion rather than pure share-stealing. The pattern split by prior behavior: \"singlehomers\" who had only used Postmates increased spending everywhere, including rivals, while \"multihomers\" cut rival spending while subscribed — a cut that vanished after cancellation, even as the focal-firm lift persisted.",
+      "why_it_matters": "Subscription programs are typically justified as loyalty lock-ins, but this suggests their biggest effect may be habit formation that grows total category demand — and that the lift outlasts the subscription itself.",
+      "story_angle_primary": "Subscription ROI models that assume competitor share capture may be measuring the wrong thing; the data suggest segmenting prospects by whether they already multihome, since the competitive payoff differs sharply — and testing whether post-cancellation spending lift holds in your own category.",
+      "story_angle_secondary": "If you pay for a delivery membership, expect to order far more than you did before — and to keep ordering more even after you cancel. The subscription is less a discount than a nudge toward a new habit.",
+      "caveats": "Observational transaction data from two U.S. platforms in one category; difference-in-differences with matching reduces but cannot fully eliminate selection into subscribing; effects are associations, and the pre-COVID/early-platform era may not generalize to today's market.",
+      "journal": "Journal of Marketing Research",
+      "published": "2026-10-18",
+      "doi": "10.1177/00222437261502330",
+      "paper_title": "EXPRESS: Expanding Markets or Capturing Share? The Competitive Effects of Subscriptions on Spending in Restaurant Delivery",
+      "source_id": "S119950638"
+    },
+    {
+      "work_id": "W7223129134",
+      "headline": "Take away the filters and shoppers buy pricier, more varied products",
+      "the_study": "In a randomized, incentive-aligned online experiment, 1,200 participants shopped for wireless headphones on a custom-built e-commerce site where the availability of faceted filters was manipulated. When filters were restricted, people explored more broadly, spread their attention more evenly across product attributes, and ended up choosing a more diverse — and higher-priced — set of products. Mediation analysis linked the broader exploration to shifts in which attributes people said mattered.",
+      "why_it_matters": "It suggests search interfaces don't just reveal what shoppers want, they help construct it — meaning filter and sort design is a pricing and assortment lever, not just a usability feature.",
+      "story_angle_primary": "Worth A/B testing on live sites: do aggressive filtering tools quietly funnel shoppers toward cheaper, narrower choices and suppress basket value? Platforms optimizing filters for \"frictionless\" search may be optimizing against their own margin and against long-tail suppliers.",
+      "story_angle_secondary": "The filters you use to narrow a search are also narrowing your mind — locking you onto price or one spec before you've seen what else is out there. Browsing a little unfiltered may surface options you'd actually prefer.",
+      "caveats": "Online panel participants on a researcher-built platform, single product category (headphones), single shopping session; incentive-aligned but not a real retail environment.",
+      "journal": "Marketing Science",
+      "published": "2026-10-21",
+      "doi": "10.1287/mksc.2025.0261",
+      "paper_title": "The Effects of Search Interface on Consumer Preferences: Evidence from a Randomized Experiment",
+      "source_id": "S163534328"
+    },
+    {
+      "work_id": "W7221947266",
+      "headline": "What 876,000 shopping baskets reveal: people buy for their pets the way they buy for themselves",
+      "the_study": "Researchers analyzed scanner data from a regional U.S. supermarket chain — 875,853 market baskets spanning 23 million transactions — looking at which categories co-occur in the same basket. They found \"pet-owner synchrony\": shoppers who buy health-and-wellness or hedonic (treat) products for themselves tend to buy the parallel products for their pets in the same trip. The effect was moderated by pet type (cat versus dog) and whether young children were in the household, and varied with basket size, holidays, and price elasticity.",
+      "why_it_matters": "It gives retailers and pet-food manufacturers a behavioral, purchase-based segmentation — and suggests cross-category merchandising and promotion between human and pet aisles could be more productive than treating pet care as a standalone destination.",
+      "story_angle_primary": "Test cross-aisle promotions and bundles that mirror human wellness or indulgence positioning in the pet aisle, and consider whether premium pet lines should be priced and promoted against the shopper's own self-care basket rather than against rival pet brands.",
+      "story_angle_secondary": "Your dog's treats and your own snack habit may be the same impulse. The data suggest people extend their self-image — healthy, indulgent, premium — onto their pets at the checkout.",
+      "caveats": "One regional supermarket chain in a single country; basket co-occurrence is correlational and pet ownership is inferred from purchases rather than observed; no causal test of the proposed psychological mechanism.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-10-15",
+      "doi": "10.1007/s11747-026-01214-9",
+      "paper_title": "Pet-owner synchrony: Operationalization, application, and implications",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7221780439",
+      "headline": "Your conjoint study's willingness-to-pay number may be an artifact of how you coded price",
+      "the_study": "Researchers reanalyzed a large-screen television dual-response conjoint study, comparing how different ways of modeling price change the conclusions: linear versus dummy-coded price effects, three budget treatments (no constraint, a budget constraint on the second response, and a \"cliffing\" rule that caps each respondent's budget at the highest price they accepted), and monotonicity constraints on price part-worths. Non-price attribute values barely moved across specifications, but implied demand curves and willingness-to-pay estimates shifted substantially. Adding a budget constraint improved model fit without hurting hold-out prediction and produced more plausible demand at high prices, while unconstrained dummy-coded price effects generated unstable high-price demand and wildly dispersed WTP figures.",
+      "why_it_matters": "Companies routinely set prices, size premium tiers and run counterfactual pricing scenarios off conjoint-derived WTP; this shows the same survey data can yield materially different price sensitivity depending on modeling choices no one in the room sees.",
+      "story_angle_primary": "Ask your insights team or research vendor exactly how price was specified in the last conjoint that informed a pricing decision — whether a budget constraint was imposed, whether price part-worths were forced to be monotonic — and have them rerun the model under alternative specifications to see how much the recommended price actually moves.",
+      "story_angle_secondary": "A reminder that the \"consumers will pay $X\" numbers quoted in press releases and product launches often come from survey simulations whose answers depend on analysts' technical assumptions, not on anyone actually buying anything.",
+      "caveats": "Single product category (large-screen televisions) and a single conjoint dataset; hypothetical choice tasks rather than real purchases; methodological rather than behavioral contribution, so findings about which specification is \"best\" may not generalize to other categories or price ranges.",
+      "journal": "Journal of Choice Modelling",
+      "published": "2026-10-14",
+      "doi": "10.1016/j.jocm.2026.100635",
+      "paper_title": "A comparison of alternative price specifications in conjoint analysis",
+      "source_id": "S2764690196"
+    },
+    {
+      "work_id": "W7223185322",
+      "headline": "Planes got cleaner, emissions still rose: what carbon pricing could cost an island tourism economy",
+      "the_study": "Using flight-level route, aircraft and occupancy data for tourism-related aviation to the Canary Islands from 2010 to 2021, researchers calculated round-trip emissions, translated EU carbon prices and climate-damage valuations into origin-specific travel-cost increases, and fed the resulting demand changes through a regional input-output model. Emissions per aircraft and per passenger fell over the decade, yet total emissions rose as tourist volumes grew. Swapping the observed fleet for the most efficient widely used aircraft would cut emissions only 14.6%. Under historical carbon prices and a moderate demand response, regional economic effects were limited; under a more price-responsive demand scenario with damage-based carbon valuations, tourism demand fell as much as 29.4% and accommodation-sector value added by up to 24.9%.",
+      "why_it_matters": "Carbon pricing is effectively a price increase passed to travelers, and this quantifies how sensitive a destination economy that derives roughly a third of GDP from tourism could be to that pass-through.",
+      "story_angle_primary": "For travel, hospitality and destination brands, the actionable question is price elasticity by source market: the same carbon surcharge lands very differently depending on origin distance, so segment-level pricing and demand modeling — not a blanket \"fleet renewal will handle it\" narrative — is where the exposure sits.",
+      "story_angle_secondary": "Long-haul holidays to remote islands are the part of travel most likely to get visibly more expensive under climate policy, and fuel-efficiency gains in aircraft are not keeping pace with growth in flying.",
+      "caveats": "Single destination (Canary Islands); scenario modeling that assumes full cost pass-through to travelers and relies on assumed demand elasticities rather than observed responses to carbon pricing; the authors note estimates exclude physical climate damages to the islands, so they do not show mitigation costs more than inaction; data window includes the pandemic collapse in air travel.",
+      "journal": "Journal of Destination Marketing & Management",
+      "published": "2026-10-22",
+      "doi": "10.1016/j.jdmm.2026.101175",
+      "paper_title": "A flight-level assessment of tourism aviation emissions and carbon-pricing impacts in the Canary Islands",
+      "source_id": "S2764801966"
+    },
+    {
+      "work_id": "W7221672134",
+      "headline": "Streaming recommendation engines were linked to more second-guessing, not less",
+      "the_study": "A mixed-methods study of subscription video-on-demand users combined a survey of 205 viewers analyzed with partial least squares structural equation modeling and 20 in-depth interviews. Choice overload and social comparison were associated with maximizing tendencies — the drive to find the single best option — which in turn were linked to decision avoidance and post-choice regret. Notably, reliance on the platform's recommendation system was positively associated with maximizing tendencies and did not blunt their link to avoidance or regret. Interviewees described anxiety about missing a better title and responded with extended browsing and comparison.",
+      "why_it_matters": "Recommenders are usually sold internally as friction reducers, but this suggests they may feed rather than settle the search for the optimal choice in very large catalogs.",
+      "story_angle_primary": "Worth A/B testing in your own product: compare algorithmic \"more for you\" surfaces against deliberately narrow interfaces (a small shortlist, a commit-now default, a resume-watching nudge) and measure time-to-selection, completion and satisfaction rather than clicks on recommendations.",
+      "story_angle_secondary": "The endless scroll before giving up on picking something to watch is a recognizable pattern with a name — fear of a better option — and the data suggest more choice and more comparison tend to leave people less happy with what they finally pick.",
+      "caveats": "Cross-sectional survey (no causal claims) with a modest sample of 205 plus 20 interviews; self-reported perceptions of recommendation systems rather than observed platform behavior or logs; single category (SVOD); the qualitative component is illustrative rather than representative.",
+      "journal": "Journal of Consumer Marketing",
+      "published": "2026-10-13",
+      "doi": "10.1108/jcm-01-2026-8834",
+      "paper_title": "Watch now or never: fear of a better option (FoBO), maximizing tendencies, and decision-making on video streaming services",
+      "source_id": "S165789823"
+    },
+    {
+      "work_id": "W7214557291",
+      "headline": "When hidden fees sting: blaming a human hurts more than blaming the algorithm",
+      "the_study": "Two scenario experiments tested how consumers react when a price balloons with fees only revealed at checkout — so-called drip pricing. Study 1 put 220 participants through a restaurant drip-pricing scenario; Study 2 put 238 through an airline booking scenario with a stronger manipulation of who set the price (an AI system versus a human). Across both, perceived deception translated into a sense of betrayal, which produced anger, which in turn drove dissatisfaction — deception did not directly cause anger or dissatisfaction on its own. In the stronger second study, the link from deception to betrayal was stronger when a human was behind the pricing than when an algorithm was.",
+      "why_it_matters": "Drip pricing is under regulatory fire in multiple markets, and this suggests the damage runs through felt betrayal rather than simple annoyance about price — meaning the fix is about trust and disclosure, not discounting. It also hints that attributing pricing to automated systems may partly blunt the blame, an uncomfortable finding for firms and regulators alike.",
+      "story_angle_primary": "Marketers should test whether their own checkout flows trigger betrayal rather than mere irritation, and probe the recovery levers that address anger (apology, explanation, fee transparency up front) rather than price concessions. The AI-attribution result is a lab signal worth watching, not a license to hide behind algorithms — a strategy that could backfire badly if seen as blame-shifting.",
+      "story_angle_secondary": "It explains why a $12 'service fee' at the end of a booking feels like a personal insult rather than a minor cost: the emotional sequence is betrayal first, anger second, and only then the decision never to return.",
+      "caveats": "Hypothetical scenarios with online participants rather than real purchases; stated reactions, not observed behavior; source effects appeared in only one of the two studies, and the overall process did not differ significantly by source; two categories (restaurant, airline) only.",
+      "journal": "Journal of Marketing Communications",
+      "published": "2026-09-27",
+      "doi": "10.1080/13527266.2026.2738658",
+      "paper_title": "AI vs. Human deception in drip pricing outcomes",
+      "source_id": "S158451771"
+    },
+    {
+      "work_id": "W7204928019",
+      "headline": "Price-sensitive or brand-aware? A four-quadrant map for launching products across markets",
+      "the_study": "Researchers conducted 20 interviews with employees across multiple countries and sites of a single multinational life sciences firm, supplemented with internal documents, to understand why the same new product launch plays out so differently in developed versus emerging markets. They identified price sensitivity, product capabilities, brand awareness and regulatory environment as the dominant forces, and built a typology sorting markets into four quadrants based on price sensitivity and brand awareness, with regulation as a contextual overlay.",
+      "why_it_matters": "It offers launch teams a concrete diagnostic for deciding when to lead with price, when to lead with brand reputation, and when regulatory legitimacy must be earned before either lever works.",
+      "story_angle_primary": "Brand leaders running multi-country rollouts could audit their markets against the price-sensitivity/brand-awareness grid and check whether their current launch playbook is simply a developed-market template exported unchanged — a common, costly default in regulated categories.",
+      "story_angle_secondary": "Limited direct relevance for consumers, beyond explaining why the same product arrives in different countries at very different prices and with very different marketing stories.",
+      "caveats": "Qualitative case study of one multinational in one industry; 20 interviews; managers' accounts rather than measured market outcomes; no causal evidence and no test of whether the typology predicts launch success.",
+      "journal": "International Marketing Review",
+      "published": "2026-09-01",
+      "doi": "10.1108/imr-09-2024-0343",
+      "paper_title": "International strategies for new product launches in the life sciences industry: legitimation in developed and emerging markets",
+      "source_id": "S35673206"
+    },
+    {
+      "work_id": "W7223569994",
+      "headline": "Shy shoppers are more price-conscious — and more paralyzed by too much choice",
+      "the_study": "Researchers developed and validated a context-specific \"consumer shyness\" measure for apparel retail, using qualitative work followed by two independent Turkish consumer samples (N=928 and N=827) analyzed with structural equation modeling. Shoppers scoring higher on consumer shyness were more brand-conscious and more price-conscious, reported more confusion from overchoice, and were less likely to shop hedonically. Context-specific shyness predicted decision-making styles better than a general shyness trait, and shyness was negatively correlated with extroversion.",
+      "why_it_matters": "It suggests a sizable segment of shoppers responds to price cues and gets overwhelmed by assortment not because of budget or taste, but because the store is a socially uncomfortable place. Merchandising, staffing and signage choices may be doing more work on this group than retailers realize.",
+      "story_angle_primary": "Worth testing whether low-pressure store formats — self-serve fitting rooms, clearly posted prices, \"browsing, thanks\" signals, trimmed assortments and curated edits — lift conversion among socially reticent customers. The evidence here is correlational, so treat it as a hypothesis for in-store A/B tests rather than a proven fix.",
+      "story_angle_secondary": "If you dread a salesperson approaching and end up fixating on the price tag or walking out of an overstuffed store empty-handed, that is a documented shopping pattern, not a personal failing — and it shows up distinctly in clothing stores, where being seen and judged is part of the experience.",
+      "caveats": "Cross-sectional survey data, so causation cannot be established; self-reported decision-making styles rather than observed purchases; single country (Turkey) and single category (apparel retail); the authors themselves flag limited cultural generalizability.",
+      "journal": "Journal of Fashion Marketing and Management",
+      "published": "2026-10-25",
+      "doi": "10.1108/jfmm-07-2025-0327",
+      "paper_title": "Contextualizing consumer shyness in apparel retailing: scale validation and implications for decision-making styles",
+      "source_id": "S191114782"
+    },
+    {
+      "work_id": "W7220981580",
+      "headline": "Why a platform might hand its influencer rivals better tools — and make advertisers pay for it",
+      "the_study": "Researchers built a game-theoretic model of the relationship between a social media platform and influencers, who are collaborators but also direct competitors for advertiser budgets. The model analyzes whether the platform should enable or disable features that make influencers more effective (such as clickable shopping links), with or without charging a fee. Counterintuitively, enabling the feature can pay off even for free: the platform loses some advertising share but can raise its own ad prices enough to more than compensate. Crucially, boosting influencer *effectiveness* can help the platform, while improvements to influencer *efficiency* (cost savings) alone never do.",
+      "why_it_matters": "It gives a concrete mechanism for why platforms periodically loosen restrictions on creator commerce tools — and warns that a platform–influencer \"win–win\" can function like tacit collusion, with advertisers absorbing the cost through higher prices.",
+      "story_angle_primary": "Media buyers should watch for ad-price increases that follow creator-tool liberalizations, and ask whether platform generosity toward influencers is being financed out of their own budgets. For creators, the model implies features that make your audience more persuadable are likelier to be unlocked than features that merely cut your costs.",
+      "story_angle_secondary": "Limited direct relevance for consumers, beyond explaining why shoppable links and creator storefronts appear and disappear on your feed: these are negotiating chips in a quiet fight over advertising money, not neutral product upgrades.",
+      "caveats": "A purely analytical game-theoretic model with no empirical data — it generates predictions about what platforms could rationally do, not evidence of what they have done; results depend on modeling assumptions about advertiser valuations and market structure.",
+      "journal": "Information Systems Research",
+      "published": "2026-10-08",
+      "doi": "10.1287/isre.2024.1591",
+      "paper_title": "Helping Oneself by Helping a Rival: Social-Media Platforms’ Policies on Enabling Features for Influencers",
+      "source_id": "S202812398"
+    },
+    {
+      "work_id": "W7212373919",
+      "headline": "The Caitlin Clark bump: sponsors gained 0.13% on game days — then gave it back",
+      "the_study": "Researchers used event-study methods on stock returns for firms sponsoring Caitlin Clark and the Indiana Fever across her final college season and first WNBA season. On the trading day after a game, sponsors earned an average abnormal return of 13 basis points (0.13 percent), with bigger gains when her team won — but the returns largely reversed the next trading day.",
+      "why_it_matters": "It quantifies, in real market prices, what a single breakout athlete does for sponsor visibility, while showing investors treat individual games as attention spikes rather than new value.",
+      "story_angle_primary": "Sponsorship valuation teams can use this as a reality check: athlete-driven attention is real and measurable, but the market appears to price the endorsement deal itself up front, so game-by-game momentum shouldn't be sold internally as incremental shareholder value.",
+      "story_angle_secondary": "For anyone watching the women's basketball boom, this puts a number on the 'Caitlin Clark effect' — and shows the stock market gets briefly excited and then shrugs.",
+      "caveats": "Single athlete, single league and a short observation window; abnormal returns are tiny and reverse, and stock-price reactions are not the same as sales or brand effects.",
+      "journal": "Sport Marketing Quarterly",
+      "published": "2026-09-12",
+      "doi": "10.1177/10616934261459721",
+      "paper_title": "The Impact of a High-Profile Athlete on Sponsoring Firms: The Case of Caitlin Clark",
+      "source_id": "S2765057658"
+    },
+    {
+      "work_id": "W7212042826",
+      "headline": "What actually sets the price of a used record: condition grades, nostalgia, and the platform you sell on",
+      "the_study": "A qualitative study interviewed vinyl record buyers and sellers and analyzed listings from online sales platforms, using thematic content analysis to map how prices get formed in the revived vinyl market. Five categories emerged — price perception, which attributes buyers value, media condition grading, platform influence, and pricing itself — showing that value rests on collectively agreed grading conventions and intangible listening-experience narratives as much as on the physical object.",
+      "why_it_matters": "It is a close look at how price gets constructed in a collector market where there is no manufacturer's list price, and where shared grading language and marketplace norms do the work a price tag normally does.",
+      "story_angle_primary": "For anyone selling in resale, collectible or secondhand categories, the lesson to test is that standardized condition language and platform-level norms are pricing infrastructure — sellers who adopt the community's grading vocabulary are effectively borrowing its pricing power.",
+      "story_angle_secondary": "If you have ever wondered why one copy of the same album costs three times another, the answer is less about the record than about grading conventions, the story attached to it, and where it is listed.",
+      "caveats": "Qualitative, interpretive study with no sample size reported and no price modeling; single category and market, with findings shaped by the researchers' interpretation rather than measured effects on transaction prices.",
+      "journal": "ReMark - Revista Brasileira de Marketing",
+      "published": "2026-09-09",
+      "doi": "10.5585/2026.31945",
+      "paper_title": "Calculative agency in the vinyl record market: understanding the valuation mechanisms used by consumers and sellers",
+      "source_id": "S4210240795"
+    },
+    {
+      "work_id": "W7207733471",
+      "headline": "When a price is called a donation: how paid temple retreats in China sell escape",
+      "the_study": "Using interviews, field observation and netnography of paid temple-stay retreats in China, researchers examined how participants and organizers handle the awkwardness of paying for spiritual withdrawal. Payment was rarely discussed as a price: it was continually reframed through donation language, cost realism and 'authenticity work,' while the retreat delivered value through a disciplined regime of schedules, silence, dietary control and behavioral rules — value that was then tested when participants returned to ordinary life.",
+      "why_it_matters": "It shows how categories where commerce feels morally uncomfortable rely on vocabulary — donation, contribution, suggested amount — to keep a transaction from reading as a transaction.",
+      "story_angle_primary": "Brands in wellness, charity-adjacent, religious or 'purpose' categories can watch how price framing language does moral work; the open question worth testing is where reframing a fee as a contribution builds legitimacy and where it reads as evasion.",
+      "story_angle_secondary": "The booming market in paid 'escapes' reveals a tension consumers manage themselves: we want the retreat to be authentic, which means we would rather not think about what we paid for it.",
+      "caveats": "Qualitative study in a single country and niche category; no sample size reported; findings are interpretive and not generalizable to pricing behavior at large.",
+      "journal": "Journal Of Vacation Marketing",
+      "published": "2026-09-03",
+      "doi": "10.1177/13567667261485593",
+      "paper_title": "Your own Walden? Commercialised escape through paid temple-stay retreats in China",
+      "source_id": "S83271458"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7222938569",
+      "headline": "Delivery subscriptions nearly double spending — and sometimes grow the whole category",
+      "verdict": "minor",
+      "notes": "Core numbers and segment split are right; the 90.4% figure is attributed to the combined data rather than Postmates Unlimited specifically, the DashPass nuance is dropped, and the consumer angle turns an association into a personal prediction.",
+      "issues": [
+        {
+          "label": "90.4% attributed to both platforms",
+          "severity": "Minor",
+          "as_written": "Researchers analyzed individual-level transaction data covering Postmates Unlimited ... and DoorDash's DashPass ... Signing up was associated with a 90.4% increase in spending at the subscribing platform",
+          "abstract_says": "signing up for Postmates Unlimited is associated with a 90.4% increase in spending at the focal firm ... DashPass results are broadly similar",
+          "problem": "The 90.4% estimate is specifically for Postmates Unlimited; the digest reads as if it covers signing up for either program.",
+          "suggested_fix": "Attribute the 90.4% to Postmates Unlimited and note DashPass results were 'broadly similar'."
+        },
+        {
+          "label": "Dropped DashPass boundary finding",
+          "severity": "Minor",
+          "as_written": "evidence of category expansion rather than pure share-stealing",
+          "abstract_says": "DashPass results are broadly similar, but customers with prior Postmates subscription experience show little increase in category spending",
+          "problem": "The abstract names subscription experience as a condition that limits category expansion; the digest omits it, strengthening the expansion story.",
+          "suggested_fix": "Add that customers who had already held a delivery subscription showed little additional category spending."
+        },
+        {
+          "label": "Mechanism not in abstract",
+          "severity": "Minor",
+          "as_written": "this suggests their biggest effect may be habit formation that grows total category demand",
+          "abstract_says": "these findings suggest subscriptions can both expand markets and capture share, depending on prior platform usage and subscription experience",
+          "problem": "'Habit formation' is the digest's own mechanism; the abstract makes no claim about habit and explicitly frames the result as both expansion and share capture.",
+          "suggested_fix": "Say the lift persisted after cancellation without naming habit formation as the mechanism, and keep the abstract's 'both expand and capture' framing."
+        },
+        {
+          "label": "Association presented as personal prediction",
+          "severity": "Minor",
+          "as_written": "If you pay for a delivery membership, expect to order far more than you did before — and to keep ordering more even after you cancel.",
+          "abstract_says": "signing up ... is associated with a 90.4% increase in spending at the focal firm",
+          "problem": "Observational, matched DiD associations for two platforms are translated into a confident forecast for any individual reader.",
+          "suggested_fix": "Reframe as 'subscribers in this data spent far more, on average, and the lift persisted after cancellation'."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7223129134",
+      "headline": "Take away the filters and shoppers buy pricier, more varied products",
+      "verdict": "accurate",
+      "notes": "Design, N, outcomes and mediation framing all match the abstract; caveats correctly flag the online-panel, single-category setting.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7221947266",
+      "headline": "What 876,000 shopping baskets reveal: people buy for their pets the way they buy for themselves",
+      "verdict": "minor",
+      "notes": "Basket counts, moderators and additional factors match; the chain's country is not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Country not in abstract",
+          "severity": "Minor",
+          "as_written": "Researchers analyzed scanner data from a regional U.S. supermarket chain",
+          "abstract_says": "scanner data from 875,853 market baskets including 23 million transactions collected from a regional supermarket chain",
+          "problem": "The abstract does not identify the country of the chain, so 'U.S.' is unverifiable from the abstract only.",
+          "suggested_fix": "Drop 'U.S.' or mark the location as unspecified in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7221780439",
+      "headline": "Your conjoint study's willingness-to-pay number may be an artifact of how you coded price",
+      "verdict": "accurate",
+      "notes": "Specifications, budget treatments and the pattern of results are reported faithfully; caveats correctly note the single dataset and hypothetical tasks.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7223185322",
+      "headline": "Planes got cleaner, emissions still rose: what carbon pricing could cost an island tourism economy",
+      "verdict": "minor",
+      "notes": "Emissions paradox, 14.6% fleet figure and the 29.4%/24.9% scenario numbers are right, but the overall regional value-added figure (up to 5%) is omitted, leaving only the most dramatic sector number.",
+      "issues": [
+        {
+          "label": "Omitted regional value-added figure",
+          "severity": "Minor",
+          "as_written": "tourism demand fell as much as 29.4% and accommodation-sector value added by up to 24.9%",
+          "abstract_says": "tourism demand falls by up to 29.4%, and the regional and accommodation-sector value added by up to 5% and 24.9%, respectively",
+          "problem": "Dropping the up-to-5% hit to overall regional value added leaves readers with only the sector-specific worst case, overstating economy-wide exposure.",
+          "suggested_fix": "Add that overall regional value added falls by up to 5% in the same scenario."
+        },
+        {
+          "label": "Scenario conditions conflated",
+          "severity": "Minor",
+          "as_written": "under a more price-responsive demand scenario with damage-based carbon valuations, tourism demand fell as much as 29.4%",
+          "abstract_says": "Under the main case, with a moderate demand response, historical carbon-price benchmarks generate limited regional effects, whereas higher damage-based valuations imply greater adjustment. Under the more responsive demand scenario, tourism demand falls by up to 29.4%",
+          "problem": "The abstract presents demand responsiveness and valuation basis as separate dimensions; the digest fuses them into a single scenario.",
+          "suggested_fix": "Describe the two levers separately: damage-based valuations imply greater adjustment, and the more responsive demand scenario yields the 29.4% figure."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7221672134",
+      "headline": "Streaming recommendation engines were linked to more second-guessing, not less",
+      "verdict": "accurate",
+      "notes": "Associative language is used throughout, sample sizes and the recommendation-system finding match, and caveats flag the cross-sectional design.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7214557291",
+      "headline": "When hidden fees sting: blaming a human hurts more than blaming the algorithm",
+      "verdict": "minor",
+      "notes": "Samples, scenarios and the selective source effect are correct, but the mediation chain is described in causal terms the abstract deliberately avoids, and the consumer angle adds an outcome (never returning) that was not measured.",
+      "issues": [
+        {
+          "label": "Causal language for correlational mediation",
+          "severity": "Moderate",
+          "as_written": "perceived deception translated into a sense of betrayal, which produced anger, which in turn drove dissatisfaction — deception did not directly cause anger or dissatisfaction on its own",
+          "abstract_says": "perceived deception was consistently associated with betrayal but not directly with anger or dissatisfaction. Anger was the most consistent direct correlate of dissatisfaction, while betrayal was indirectly associated with dissatisfaction through anger",
+          "problem": "The abstract uses strictly associational wording for the SEM paths; 'translated into', 'produced', 'drove' and 'cause' imply a tested causal chain.",
+          "suggested_fix": "Use 'was associated with' / 'was indirectly linked to' language for the betrayal–anger–dissatisfaction sequence."
+        },
+        {
+          "label": "Unmeasured outcome added",
+          "severity": "Minor",
+          "as_written": "the emotional sequence is betrayal first, anger second, and only then the decision never to return",
+          "abstract_says": "perceived deception ... betrayal, anger, and dissatisfaction",
+          "problem": "The studies measured dissatisfaction, not return or repurchase decisions.",
+          "suggested_fix": "End the sequence at dissatisfaction rather than a decision never to return."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7204928019",
+      "headline": "Price-sensitive or brand-aware? A four-quadrant map for launching products across markets",
+      "verdict": "accurate",
+      "notes": "Method, interview count, the four factors and the typology match the abstract, and caveats are appropriately hedged.",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7223569994",
+      "headline": "Shy shoppers are more price-conscious — and more paralyzed by too much choice",
+      "verdict": "minor",
+      "notes": "Samples and findings match; the study validated and contextualized an existing shyness scale rather than developing a new measure.",
+      "issues": [
+        {
+          "label": "Scale developed vs. validated",
+          "severity": "Minor",
+          "as_written": "Researchers developed and validated a context-specific \"consumer shyness\" measure for apparel retail",
+          "abstract_says": "validating and contextualizing an existing consumer shyness scale within a setting characterized by high levels of social visibility",
+          "problem": "The contribution was validation and contextualization of an existing scale, not development of a new one.",
+          "suggested_fix": "Say researchers validated and contextualized an existing consumer shyness scale for apparel retail."
+        },
+        {
+          "label": "Explanatory leap in 'Why it matters'",
+          "severity": "Minor",
+          "as_written": "a sizable segment of shoppers responds to price cues and gets overwhelmed by assortment not because of budget or taste, but because the store is a socially uncomfortable place",
+          "abstract_says": "Consumers with higher levels of consumer shyness tend to exhibit stronger brand and price consciousness, as well as greater confusion from overchoice",
+          "problem": "The abstract reports correlations between a trait measure and self-reported decision styles; it does not establish that social discomfort rather than budget or taste drives price consciousness, nor does it size the segment.",
+          "suggested_fix": "Note that shyness correlates with price consciousness and overchoice confusion, without asserting cause or segment size."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7220981580",
+      "headline": "Why a platform might hand its influencer rivals better tools — and make advertisers pay for it",
+      "verdict": "minor",
+      "notes": "Model setup and the effectiveness-versus-efficiency result are right, but the key condition on advertisers' relative valuation is dropped and the offsetting price increase is upgraded to 'more than compensate'.",
+      "issues": [
+        {
+          "label": "Dropped boundary condition",
+          "severity": "Moderate",
+          "as_written": "Counterintuitively, enabling the feature can pay off even for free: the platform loses some advertising share but can raise its own ad prices enough to more than compensate.",
+          "abstract_says": "even when the platform cannot charge the influencers for using the feature, it can still benefit if the advertisers' valuation of the platform's service is not significantly lower than that of the influencer's service",
+          "problem": "The free-enablement result holds only under a stated condition on advertisers' relative valuations, which the digest omits.",
+          "suggested_fix": "Add that this holds when advertisers value the platform's own ad service roughly as highly as the influencer's."
+        },
+        {
+          "label": "Overstated offset",
+          "severity": "Minor",
+          "as_written": "can raise its own ad prices enough to more than compensate",
+          "abstract_says": "the platform can potentially offset this loss by raising its prices",
+          "problem": "The abstract says the loss can potentially be offset, not that price increases more than compensate.",
+          "suggested_fix": "Write 'can potentially offset that loss by raising its prices'."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7212373919",
+      "headline": "The Caitlin Clark bump: sponsors gained 0.13% on game days — then gave it back",
+      "verdict": "minor",
+      "notes": "Core numbers match; the win effect is described per-game when the abstract reports team winning percentage, and the headline compresses \"trading day following a game\" into \"game days.\"",
+      "issues": [
+        {
+          "label": "Win effect described per-game rather than as winning percentage",
+          "severity": "Minor",
+          "as_written": "with bigger gains when her team won",
+          "abstract_says": "The winning percentage of Clark's team has a positive effect on the returns generated for sponsors.",
+          "problem": "The abstract reports a team-level winning percentage effect on sponsor returns, not a game-by-game win/loss contrast. As written, a reader would think each individual victory produced a measurably larger return.",
+          "suggested_fix": "Reword to \"with larger returns for sponsors of a higher-winning team\" or \"returns were higher when the team's winning percentage was higher.\""
+        },
+        {
+          "label": "Headline timing of the return window",
+          "severity": "Minor",
+          "as_written": "sponsors gained 0.13% on game days — then gave it back",
+          "abstract_says": "an abnormal return of 13-basis points (0.13 percent) on the trading day following a game",
+          "problem": "The abnormal return occurs on the trading day after a game, not on game day itself; the body text gets this right but the headline does not.",
+          "suggested_fix": "Change headline to \"sponsors gained 0.13% the day after games — then gave it back.\""
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7212042826",
+      "headline": "What actually sets the price of a used record: condition grades, nostalgia, and the platform you sell on",
+      "verdict": "minor",
+      "notes": "Design, method and the five categories are reported accurately; \"nostalgia\" in the headline is an interpretive addition not named in the abstract.",
+      "issues": [
+        {
+          "label": "\"Nostalgia\" not in the abstract",
+          "severity": "Minor",
+          "as_written": "condition grades, nostalgia, and the platform you sell on",
+          "abstract_says": "perceptions of intangible elements related to the experience of listening to music on vinyl",
+          "problem": "The abstract refers to intangible perceptions tied to the listening experience; it never identifies nostalgia as a valuation driver. The headline names a construct the abstract does not.",
+          "suggested_fix": "Replace \"nostalgia\" with \"the listening-experience story\" or \"intangible perceptions of the listening experience.\""
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7207733471",
+      "headline": "When a price is called a donation: how paid temple retreats in China sell escape",
+      "verdict": "accurate",
+      "notes": "Method (interviews, field observation, netnography), the donation/cost-realism/authenticity-work reframing, the disciplined time regime and the re-entry test all match the abstract; caveats correctly note the single-country, interpretive design.",
+      "issues": []
+    }
+  ],
+  "coverage": {
+    "checked": 13,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7222938569": {
+        "query": "Delivery subscriptions nearly double spending sometimes grow whole category",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223129134": {
+        "query": "Take away filters shoppers buy pricier varied products",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221947266": {
+        "query": "876 000 shopping baskets reveal people buy their pets way",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221780439": {
+        "query": "conjoint willingness pay number artifact coded price",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223185322": {
+        "query": "Planes got cleaner emissions still rose carbon pricing cost island",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221672134": {
+        "query": "Streaming recommendation engines linked second guessing not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7214557291": {
+        "query": "hidden fees sting blaming human hurts than blaming algorithm",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7204928019": {
+        "query": "Price sensitive brand aware four quadrant map launching products across",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223569994": {
+        "query": "Shy shoppers price conscious paralyzed too much choice",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220981580": {
+        "query": "platform might hand its influencer rivals better tools make advertisers",
+        "returned": 7,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212373919": {
+        "query": "Caitlin Clark bump sponsors gained game days then gave back",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7212042826": {
+        "query": "actually sets price used record condition grades nostalgia platform sell",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7207733471": {
+        "query": "price called donation paid temple retreats China sell escape",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **Stated willingness to pay keeps failing its audit.** \"Your conjoint study's willingness-to-pay number may be an artifact of how you coded price\" (W7221780439) lands directly alongside last run's \"AI shoppers say they'll pay more than real shoppers do\" (W7214644774). One shows synthetic respondents distorting the demand curve; the other shows the analyst's own specification choices doing it with real human data. Together they make the same case from opposite ends: the WTP figure arriving at the pricing meeting is a modeling output, not a measurement.\n- **Deception, not price level, is what breaks trust.** \"When hidden fees sting\" (W7214557291) and last run's \"'Leave a 5-star review and get a discount' damages trust\" (W7221330457) — both in *Journal of Marketing Communications* — converge on perceived deception as the mediating variable, and both find that the damage is about felt dishonesty rather than money. The new study extends the chain: deception produces betrayal, betrayal produces anger, and only then dissatisfaction.\n- **Subscriptions work through habit and psychology, not economics.** \"Delivery subscriptions nearly double spending\" (W7222938569) sits with \"Grocery subscriptions: shoppers want the mental break\" (W7221025098) and \"The psychology of the subscription you never use but can't cancel\" (W7215055600). All three locate subscription value somewhere other than the discount — mental load, relational bonds, and now habit formation that survives cancellation.\n- **Interface design moves demand with no price change.** \"Take away the filters and shoppers buy pricier, more varied products\" (W7223129134) is the same species of finding as \"Showing shoppers the math\" (W7220990040): identical prices, different display, materially different purchases.\n\n**Advances**\n- The platform-as-price-setter thread running through *Information Systems Research* advances again. \"Why a platform might hand its influencer rivals better tools\" (W7220981580) follows \"Opting out of data sharing may cost you\" (W4410534098) and \"When AI learns from users\" (W7213561739) — a third analytical model in which a platform's apparent generosity (free features, free tiers, fuzzy segments) is financed through higher prices paid by someone further down the chain, this time advertisers.\n- The algorithmic-attribution question gets an experimental test. Where W4410534098 theorized that data regimes reshape what consumers pay, \"When hidden fees sting\" (W7214557291) finds that attributing the price to an AI system weakens the deception-to-betrayal link relative to a human — the first behavioral signal in this topic that automation may launder blame.\n- Segmentation of price response moves from demographics to disposition. \"Shy shoppers are more price-conscious\" (W7223569994) advances the latent-class evidence in \"Half of smokers don't flinch at price hikes\" (W7215078694) and the income-conditioned findings in W7204997399 by identifying a psychological, socially driven route into price consciousness that has nothing to do with budget.\n- Market-value evidence on marketing continues: \"The Caitlin Clark bump\" (W7212373919) follows \"When every product looks the same, promotion and CRM are what investors pay for\" (W7215085152), but with the opposite conclusion about durability — investors capitalize the relationship, not the individual event.\n\n**Counterpoints**\n- **Friction reduction is no longer uniformly good.** Last run's W7220990040 found that removing cognitive effort (doing the tier arithmetic for shoppers) lifted conversion. This run cuts the other way twice: restricting filters broadened search and raised spend (W7223129134), and algorithmic recommendations were associated with *more* second-guessing and regret, not less (\"Streaming recommendation engines were linked to more second-guessing,\" W7221672134). The emerging distinction is between removing arithmetic and removing exploration.\n- Transparency's record stays mixed but coherent: \"Explaining how the tracker works\" (W7214964045) showed voluntary disclosure helping adoption; W7214557291 shows that withholding disclosure until checkout is what produces betrayal. The two together isolate timing of disclosure, not disclosure itself, as the variable.\n\n**New themes**\n- **Price formation where there is no list price.** \"What actually sets the price of a used record\" (W7212042826) and \"When a price is called a donation\" (W7207733471) both examine markets where community grading conventions or moral vocabulary do the work a price tag normally does — a lens entirely absent from the previous digest.\n- **Carbon pricing as consumer price pass-through.** \"Planes got cleaner, emissions still rose\" (W7223185322) introduces climate policy as a pricing variable for destination economies, where the prior digest's regulatory pricing stories were about tobacco tax and illicit trade (W7215078694, W7215090900).\n- **Cross-category basket logic as a promotion lever.** \"What 876,000 shopping baskets reveal\" (W7221947266) is the first basket-level merchandising study in this topic; it sits adjacent to, but methodologically well beyond, last run's descriptive plant-based assortment audit (W7219001667).\n- **Multi-market launch pricing** enters with \"Price-sensitive or brand-aware?\" (W7204928019) — no precedent in the previous digest.",
+    "feature_pitch": "**The pattern:** Four studies in this batch locate the decisive pricing lever in the discovery interface rather than in the price itself. Restricting faceted filters pushed shoppers toward broader exploration and higher-priced, more varied choices (\"Take away the filters and shoppers buy pricier, more varied products,\" W7223129134); streaming recommenders were associated with more maximizing, avoidance, and regret rather than less (\"Streaming recommendation engines were linked to more second-guessing, not less,\" W7221672134); socially reticent apparel shoppers became more price-focused and more paralyzed by assortment (\"Shy shoppers are more price-conscious,\" W7223569994); and hidden fees revealed only at checkout triggered betrayal rather than simple price annoyance (\"When hidden fees sting,\" W7214557291). Taken together, what a shopper pays and how they feel about paying it is being set by search tools, feeds, store layouts, and checkout sequencing — the parts of the shopping experience nobody treats as pricing.\n\n**Why pitch this now:** Retailers and platforms are rebuilding discovery around AI assistants and agentic shopping at the exact moment regulators in the U.S., U.K., and EU are forcing all-in pricing disclosure at checkout — so the two ends of the funnel are being redesigned simultaneously, under opposite pressures.\n\n**Angle:** A reported feature on discovery design as an unmanaged pricing function: who owns filters, recommenders, and checkout sequencing inside a company, what the evidence says those choices do to basket value and customer trust, and why \"frictionless\" has quietly become a margin decision. Aimed at retail and e-commerce decision-makers, with a consumer-facing version for readers who assume the search tools are working for them.\n\n**Potential headlines:**\n- Search filters, recommendation feeds, and the prices shoppers end up paying\n- Shoppers spent more when the site gave them fewer ways to narrow the search\n- The design choices that decide your basket before you see a price\n\n**Potential outlets:**\n- **Retail Dive** — site merchandising, filter and search architecture, and basket-value economics are core beat material, and the filter finding is directly actionable for e-commerce teams.\n- **Marketing Brew** — strong fit for the counterintuitive recommender result and the checkout-fees angle framed for brand-side marketers watching all-in pricing rules land.\n- **Harvard Business Review** — the governance argument (discovery design is a pricing decision with no owner) is exactly its register for a cross-functional management piece.\n- **Vox** — runs consumer-behavior explainers on why shopping and streaming feel worse than they should, and the choice-overload and drip-pricing evidence gives it a research spine.",
+    "pitch_ideas": "- **Delivery subscriptions nearly double spending — and sometimes grow the whole category (Work ID W7222938569):** The lift outlasts the membership — spending stayed elevated after cancellation — which reframes subscription ROI as habit formation rather than lock-in, for a CMO-audience pricing column plus a consumer money piece on what a delivery pass actually does to your spending.\n- **Take away the filters and shoppers buy pricier, more varied products (Work ID W7223129134):** Filter design is an assortment and margin lever, and \"frictionless\" search may be funneling shoppers toward cheaper, narrower choices, for a retail/e-commerce trade explainer.\n- **What 876,000 shopping baskets reveal: people buy for their pets the way they buy for themselves (Work ID W7221947266):** Premium pet lines may compete against the shopper's own self-care basket rather than rival pet brands — a case for cross-aisle promotion between human wellness and pet aisles, for a grocery or pet-industry trade piece, with a lighter consumer-psychology version.\n- **Your conjoint study's willingness-to-pay number may be an artifact of how you coded price (Work ID W7221780439):** The same survey data yields materially different price recommendations depending on invisible modeling choices — a practical audit checklist for anyone buying pricing research, for a marketing-analytics or insights-industry trade piece.\n- **Planes got cleaner, emissions still rose (Work ID W7223185322):** Fleet efficiency gains were swamped by volume growth, and carbon pricing passed to travelers could cut demand by up to 29% in a tourism-dependent economy — for a travel-industry trade piece or a climate-and-economics feature, with the caveat that this is scenario modeling.\n- **Streaming recommendation engines were linked to more second-guessing, not less (Work ID W7221672134):** Recommenders sold internally as friction reducers were associated with more maximizing and more regret — a test case for narrow, commit-now interfaces, for a media/streaming trade column or a consumer-psychology explainer on the endless scroll.\n- **When hidden fees sting: blaming a human hurts more than blaming the algorithm (Work ID W7214557291):** Drip pricing damages brands through betrayal rather than irritation, so the recovery lever is disclosure and apology, not discounts — plus the uncomfortable lab signal that AI attribution blunts blame, for a marketing-trade news brief timed to all-in pricing regulation.\n- **Price-sensitive or brand-aware? A four-quadrant map for launching products across markets (Work ID W7204928019):** A diagnostic for teams exporting a developed-market launch playbook unchanged into regulated emerging markets, for a B2B or international marketing trade piece.\n- **Shy shoppers are more price-conscious — and more paralyzed by too much choice (Work ID W7223569994):** A sizable group fixates on price and freezes at big assortments because the store is socially uncomfortable, not because of budget — a hypothesis for low-pressure store formats, for a fashion-retail trade explainer, with a consumer-facing version on why clothes shopping feels like being judged.\n- **Why a platform might hand its influencer rivals better tools — and make advertisers pay for it (Work ID W7220981580):** Creator-tool liberalizations may be financed by subsequent ad-price increases, and effectiveness features get unlocked while cost-saving features don't — for a media-buying or creator-economy trade column, flagged clearly as a theoretical model.\n- **The Caitlin Clark bump: sponsors gained 0.13% on game days — then gave it back (Work ID W7212373919):** A reality check for sponsorship valuation teams — the market prices the deal up front and treats individual games as attention spikes, for a sports-business news piece or a sponsorship-measurement column.\n- **What actually sets the price of a used record (Work ID W7212042826):** Shared grading vocabulary and platform norms function as pricing infrastructure in markets with no list price — a transferable lesson for resale and secondhand sellers, for a resale/commerce trade explainer or a general-interest piece on collector markets.\n- **When a price is called a donation: how paid temple retreats in China sell escape (Work ID W7207733471):** How commerce in morally uncomfortable categories survives on vocabulary — donation, contribution, suggested amount — for a consumer-culture feature on the paid-escape economy or a wellness-industry column on fee framing."
+  }
+}
