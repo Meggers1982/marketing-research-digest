@@ -1,35 +1,5 @@
 {
   "studies": {
-    "W4410534098": {
-      "checked_at": "2026-10-13T17:39:06.303013+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Opting out data sharing cost model says privacy protecting shoppers",
-        "returned": 3,
-        "state": "unreported"
-      }
-    },
-    "W7204202782": {
-      "checked_at": "2026-10-14T15:09:20.284655+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Loyalty programs don fail rewards alone trust commitment have show",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7204257214": {
-      "checked_at": "2026-10-13T17:38:55.588439+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Making cheaper isn enough constant tradeoffs trap low income shoppers",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7204928019": {
       "checked_at": "2026-10-27T15:55:30.444073+00:00",
       "result": {
@@ -40,32 +10,12 @@
         "state": "unreported"
       }
     },
-    "W7204970234": {
-      "checked_at": "2026-10-14T15:09:41.192989+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Three four Vietnamese grocery shoppers will pay home delivery but",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
     "W7207733471": {
       "checked_at": "2026-10-27T15:56:05.815296+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "price called donation paid temple retreats China sell escape",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7211892755": {
-      "checked_at": "2026-10-14T15:10:16.523738+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Scams now marketing problem researchers reframe fraud malicious persuasion",
         "returned": 0,
         "state": "unreported"
       }
@@ -90,16 +40,6 @@
         "state": "unreported"
       }
     },
-    "W7213234135": {
-      "checked_at": "2026-10-13T17:39:01.675139+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "luxury NFTs logos get clicks but only visual craft earns",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7213274355": {
       "checked_at": "2026-10-23T17:12:04.879523+00:00",
       "result": {
@@ -107,16 +47,6 @@
         "outlets": [],
         "query": "Annoying food ads still made people hungry survey 783 Vietnamese",
         "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7213561739": {
-      "checked_at": "2026-10-13T17:39:13.741813+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "learns users free tier start eating business",
-        "returned": 3,
         "state": "unreported"
       }
     },
@@ -140,142 +70,12 @@
         "state": "unreported"
       }
     },
-    "W7214644774": {
-      "checked_at": "2026-10-13T17:38:56.814369+00:00",
+    "W7220357245": {
+      "checked_at": "2026-10-28T16:40:44.171221+00:00",
       "result": {
         "articles": [],
         "outlets": [],
-        "query": "shoppers say they pay than real shoppers gap wrecks price",
-        "returned": 13,
-        "state": "unreported"
-      }
-    },
-    "W7214900383": {
-      "checked_at": "2026-10-14T15:10:22.711427+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "original purpose driven brand Gandhi homespun cloth campaign got right",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7214950393": {
-      "checked_at": "2026-10-14T15:09:54.328879+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Simple beats smart basic rule based chatbots outperformed LLM bots",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7214964045": {
-      "checked_at": "2026-10-13T17:38:38.171833+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Explaining tracker works makes drivers likely accept not",
-        "returned": 3,
-        "state": "unreported"
-      }
-    },
-    "W7214970397": {
-      "checked_at": "2026-10-14T15:09:59.018876+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "India lowest income shoppers stay loyal one store isn trust",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7215055600": {
-      "checked_at": "2026-10-13T17:38:19.430271+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "psychology subscription never use but cancel",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7215066966": {
-      "checked_at": "2026-10-14T15:10:13.143442+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Giving shopping assistant face human looking avatars actually lift engagement",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7215078694": {
-      "checked_at": "2026-10-13T17:38:36.001301+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Half smokers don flinch price hikes but plain packs reach",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7215085152": {
-      "checked_at": "2026-10-13T17:38:22.259997+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "every product looks same promotion CRM investors pay",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7215090900": {
-      "checked_at": "2026-10-13T17:38:43.847444+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Nearly cigarettes smoked Bolivia big cities illicit but taxes aren",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7219001667": {
-      "checked_at": "2026-10-13T17:38:50.540520+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Europe supermarkets selling nearly identical plant based lineups pricing them",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7220454801": {
-      "checked_at": "2026-10-14T15:09:07.693406+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "live shopping host mood moves sales sidekick costing money",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7220470690": {
-      "checked_at": "2026-10-14T15:09:26.033037+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "review summaries didn silence shoppers they wrote reviews better ones",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7220830415": {
-      "checked_at": "2026-10-14T15:09:31.993574+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "B2B platforms strong online reputation strong trade show presence cancel",
+        "query": "Webrooming wins next sale online offline wins relationship",
         "returned": 0,
         "state": "unreported"
       }
@@ -290,16 +90,6 @@
         "state": "unreported"
       }
     },
-    "W7220946924": {
-      "checked_at": "2026-10-14T15:09:11.336479+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "shock hit paid search carried commerce revenue Facebook ads brought",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7220981580": {
       "checked_at": "2026-10-27T15:55:43.814172+00:00",
       "result": {
@@ -310,16 +100,6 @@
         "state": "unreported"
       }
     },
-    "W7220990040": {
-      "checked_at": "2026-10-13T17:38:10.038113+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Showing shoppers math making hidden tier discounts visible lifted subscriptions",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
     "W7221013951": {
       "checked_at": "2026-10-26T16:52:33.863572+00:00",
       "result": {
@@ -327,94 +107,6 @@
         "outlets": [],
         "query": "Chatbots keep customers ecosystem but only they make people feel",
         "returned": 20,
-        "state": "unreported"
-      }
-    },
-    "W7221025098": {
-      "checked_at": "2026-10-13T17:38:15.266650+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Grocery subscriptions shoppers want mental break than time savings",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7221059811": {
-      "checked_at": "2026-10-14T15:09:49.595787+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "myth bad returner eight years Nordic fashion data says returns",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7221306245": {
-      "checked_at": "2026-10-14T15:09:03.635519+00:00",
-      "result": {
-        "articles": [
-          {
-            "link": "https://www.inc.com/ali-donaldson/walmart-valuable-shoppers-groceries-school-supplies-pharmacy/91394399",
-            "outlet": "Inc.com",
-            "title": "Walmart Found Its Most Valuable Shoppers. They\u2019re Not Just Buying Groceries and School Supplies"
-          }
-        ],
-        "outlets": [
-          "Inc.com"
-        ],
-        "query": "Tell shoppers they building collection not just buying thing",
-        "returned": 20,
-        "state": "lightly_reported"
-      }
-    },
-    "W7221330457": {
-      "checked_at": "2026-10-13T17:38:28.690687+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Leave star review get discount damages trust than simply paying",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7221350449": {
-      "checked_at": "2026-10-14T15:09:05.244239+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Launching green product line lifted parent brand but only firms",
-        "returned": 1,
-        "state": "unreported"
-      }
-    },
-    "W7221454638": {
-      "checked_at": "2026-10-14T15:09:39.690782+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Fun seeking shoppers forgive influencers who stray off topic practical",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7221510551": {
-      "checked_at": "2026-10-14T15:09:14.934794+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "little blue check moved eyeballs choices risky online marketplace",
-        "returned": 0,
-        "state": "unreported"
-      }
-    },
-    "W7221526089": {
-      "checked_at": "2026-10-13T17:38:30.097104+00:00",
-      "result": {
-        "articles": [],
-        "outlets": [],
-        "query": "Consistent prices across channels build lock consistent promotions nothing",
-        "returned": 1,
         "state": "unreported"
       }
     },
@@ -548,6 +240,16 @@
         "state": "unreported"
       }
     },
+    "W7221805592": {
+      "checked_at": "2026-10-28T16:40:41.202994+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "People invest money they crowd",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
     "W7221809005": {
       "checked_at": "2026-10-24T14:04:50.233490+00:00",
       "result": {
@@ -555,6 +257,16 @@
         "outlets": [],
         "query": "Aldi Lidl start stocking big brands supermarket prices fall but",
         "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7221815419": {
+      "checked_at": "2026-10-28T16:40:34.734578+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Political signals store make customers uncomfortable than rainbow flags religious",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -594,6 +306,16 @@
         "query": "Knowing does not stop scrolling past same way",
         "returned": 20,
         "state": "lightly_reported"
+      }
+    },
+    "W7222049986": {
+      "checked_at": "2026-10-28T16:40:15.396580+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Shoppers Measure Air Quality But Their Noses Decide Long They",
+        "returned": 3,
+        "state": "unreported"
       }
     },
     "W7222224863": {
@@ -652,6 +374,16 @@
         "articles": [],
         "outlets": [],
         "query": "Knowing being tracked makes some people block ads others lean",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7222498555": {
+      "checked_at": "2026-10-28T16:40:39.518855+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "smiley face packaging makes dieters think food fattening",
         "returned": 0,
         "state": "unreported"
       }
@@ -876,6 +608,16 @@
         "state": "unreported"
       }
     },
+    "W7223071223": {
+      "checked_at": "2026-10-28T16:40:13.829016+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "shoppers who use cross border platforms most ones who most",
+        "returned": 20,
+        "state": "unreported"
+      }
+    },
     "W7223088624": {
       "checked_at": "2026-10-26T16:52:26.136915+00:00",
       "result": {
@@ -1026,6 +768,46 @@
         "state": "unreported"
       }
     },
+    "W7223273403": {
+      "checked_at": "2026-10-28T16:40:29.941092+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Smart Shopping Carts Don Empower Everyone Tire People Out",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223280000": {
+      "checked_at": "2026-10-28T16:40:50.763618+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Push notifications work until they don point where reminders start",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223280551": {
+      "checked_at": "2026-10-28T16:40:31.380360+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "teaser only works people finish",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7223392067": {
+      "checked_at": "2026-10-28T16:40:54.081065+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers barely better than coin flip spotting dishonest claim",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7223569994": {
       "checked_at": "2026-10-27T15:55:42.298715+00:00",
       "result": {
@@ -1033,6 +815,56 @@
         "outlets": [],
         "query": "Shy shoppers price conscious paralyzed too much choice",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223652730": {
+      "checked_at": "2026-10-28T16:40:18.111897+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Loyalty Members Write Glowing Reviews Useful Ones",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7223671637": {
+      "checked_at": "2026-10-28T16:40:26.541585+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Gen Talking Shopping App Beats Typing Especially Treats",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223672553": {
+      "checked_at": "2026-10-28T16:40:21.727904+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Bank Branches Earn Their Keep Reassurance Not Technology Showrooms",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223707755": {
+      "checked_at": "2026-10-28T16:40:12.477389+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Mobile coupons work harder before shoppers reach mall than inside",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223898707": {
+      "checked_at": "2026-10-28T16:40:23.105917+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Would Like Donate Works Better Charity Local",
+        "returned": 20,
         "state": "unreported"
       }
     }

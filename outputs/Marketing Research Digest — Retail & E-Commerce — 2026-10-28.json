@@ -1,0 +1,637 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-28",
+  "days_back": 60,
+  "window_from": "2026-08-29",
+  "window_to": "2026-10-28",
+  "focus": "Retail & E-Commerce",
+  "topic": "retail & e-commerce",
+  "query": "retail OR retailer OR \"e-commerce\" OR \"online shopping\" OR omnichannel OR marketplace OR \"private label\" OR \"store\" OR \"live streaming commerce\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 284,
+    "not_research": 8,
+    "no_abstract": 84,
+    "off_topic": 0,
+    "already_covered": 83,
+    "over_journal_cap": 18,
+    "over_cap": 51,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7223707755",
+      "headline": "Mobile coupons work harder before shoppers reach the mall than inside it",
+      "the_study": "Researchers analyzed consumers' mobile coupon-click behavior for stores in a multi-store shopping mall, comparing clicks made outside the mall with clicks made once shoppers were already inside, then built a game-theoretic model of coupon issuing and targeting decisions. For experiential-product stores, coupons clicked outside the mall were linked to a stronger purchase response than inside-mall clicks — consistent with outside coupons pulling traffic in rather than just converting shoppers already there. The modeling then shows that because outside-mall coupons draw foot traffic that benefits neighboring stores, individual retailers can free-ride, and may rationally decline to issue coupons even when everyone couponing together would leave all of them better off.",
+      "why_it_matters": "Location-based mobile targeting is usually judged on the issuing store's own conversion rate, which systematically undervalues coupons that bring people through the door and into the whole center; mall operators have a concrete reason to subsidize or coordinate coupon programs rather than leave them to tenants.",
+      "story_angle_primary": "Test geofencing radius as a strategic variable, not a technical setting: compare pre-arrival targeting against in-store targeting and measure the halo on neighboring tenants, not just your own till. For landlords and center managers, the free-riding result suggests a case for centrally funded or coordinated coupon campaigns — worth piloting in one property before rolling out.",
+      "story_angle_secondary": "The offers pinging your phone while you're still driving to the mall are doing a different job than the ones that appear once you're inside — the first are designed to get you to come at all, which is also why the ones you receive on the way can be the more generous.",
+      "caveats": "Empirical component is observational click-and-purchase data from a single mall setting, so the outside-versus-inside difference is an association rather than a randomized test; the core strategic conclusions come from a mathematical model with assumptions about spillovers and competition; the authors note generalizability to other geographies, multiple malls and competitive conditions is untested.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-26",
+      "doi": "10.1108/ejm-12-2024-1010",
+      "paper_title": "Mobile coupon-clicks inside vs outside a mall: implications for location-based targeting",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7223071223",
+      "headline": "The shoppers who use cross-border platforms most are the ones who most oppose regulating them",
+      "the_study": "Using 1,500 survey responses from South Korean adults aged 20–59 collected through the OpenSurvey panel, researchers examined attitudes to South Korea's 2024 cross-border e-commerce regulatory initiative — a measure walked back within days amid public backlash. Using probit models, propensity score matching and an instrumental-variable check, they found that consumers with direct experience buying from overseas platforms were roughly 9–11 percentage points more likely to oppose the regulation; awareness of the regulation itself also predicted opposition. The pattern suggests experienced buyers judge rules against their own accumulated platform knowledge rather than welcoming paternalistic protection.",
+      "why_it_matters": "It reframes consumer-protection rules as a political risk for platforms and regulators alike: the heaviest users of a channel form the most organized opposition to restricting it, which helps explain how a safety-framed measure can collapse in days.",
+      "story_angle_primary": "For platforms and trade bodies facing regulatory threat, the most credible advocates are existing customers, not lobbyists — but the finding also warns brands that \"we're protecting you\" messaging lands badly with experienced buyers, who read it as condescension. Worth testing how your own regulatory and trust-and-safety communications read to your heaviest users.",
+      "story_angle_secondary": "Experience with a marketplace, including its risks, appears to make people trust their own judgment over a government's — a reminder that consumers who have been burned by a cheap overseas order often conclude they can manage the risk themselves rather than that someone should ban it.",
+      "caveats": "Cross-sectional online panel survey in a single country, so causation cannot be established despite matching and IV checks; measures attitudes toward one specific 2024 policy rather than behavior; subgroup differences by income and age were not statistically significant in formal interaction tests.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-20",
+      "doi": "10.1111/ijcs.70260",
+      "paper_title": "When Consumers Say no: Direct Purchase Experience and Opposition to Cross‐Border E‐Commerce Regulation in South Korea",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7222049986",
+      "headline": "Shoppers Can't Measure Air Quality — But Their Noses Decide How Long They Stay",
+      "the_study": "Across five scale-development studies plus three validation studies published in the *Journal of Retailing*, researchers built and tested \"AirQual,\" a 26-item measure of how customers perceive store air — breathability, circulation, freshness, humidity, scent and temperature. In Study 2, conducted with café customers, perceived air quality predicted how long people lingered, and dwell time in turn predicted how much they spent; an objective air quality sensor reading predicted neither. Study 3 replicated the pattern with supermarket shoppers, and Study 4 added experimental validation.",
+      "why_it_matters": "Retailers spend on HVAC and air monitoring against engineering benchmarks, but the data suggest it is the subjective experience of the air — not the instrument reading — that translates into dwell time and basket size.",
+      "story_angle_primary": "Retail and facilities teams typically report air quality as a compliance number. This research suggests testing a customer-perception measure alongside the sensors, and treating air as part of the atmospherics budget next to lighting, music and scent — then checking in your own stores whether perceived freshness moves dwell time and spend.",
+      "story_angle_secondary": "Why you leave one store feeling you could browse all afternoon and bolt from another within two minutes: stuffy, humid or oddly scented air registers as discomfort long before you consciously name it, and it quietly shortens your visit.",
+      "caveats": "Scale-development research; the dwell-time-to-spending link comes from a single café study with correlational structure, and the broader program is concentrated in a limited set of categories and countries. Objective air measurement relied on one indicator, which may understate what sensors can capture.",
+      "journal": "Journal of Retailing",
+      "published": "2026-10-01",
+      "doi": "10.1016/j.jretai.2026.09.006",
+      "paper_title": "Customer air quality perceptions: conceptualization, scale development, and validation",
+      "source_id": "S159120381"
+    },
+    {
+      "work_id": "W7223652730",
+      "headline": "Loyalty Members Write Glowing Reviews — and Less Useful Ones",
+      "the_study": "Researchers analyzed 153,525 product reviews from the Chinese e-commerce platform JD.com, comparing reviews written by paid membership-program customers with those from non-members, and ran two follow-up lab experiments. Member reviews carried higher star ratings, more emotional intensity and more concrete language — all of which were associated with lower helpfulness votes. Separately, a visible membership badge raised perceived reviewer expertise and made the same review seem more helpful, but that credibility boost was outweighed by the content effect, so member reviews were on net rated less helpful.",
+      "why_it_matters": "Membership programs are sold as retention engines, but they appear to distort the review ecosystem that other shoppers depend on — tilting content toward enthusiastic, low-diagnostic praise.",
+      "story_angle_primary": "Platform and CRM teams should audit whether their loyalty tiers are inflating ratings and hollowing out review usefulness, and test design fixes: badge display as a credibility cue, prompts that push members toward comparative or trade-off detail, and separating member from non-member review feeds.",
+      "story_angle_secondary": "When you scan reviews before buying, the five-star rave from a badged \"premium member\" may tell you less than a plainer review from an ordinary buyer — the people most invested in a platform tend to be its most enthusiastic and least discriminating critics.",
+      "caveats": "Field evidence is correlational and from a single platform in one country (JD.com); membership is self-selected, so happier customers may both join and rate higher. Supporting experiments were lab-based.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-26",
+      "doi": "10.1002/cb.70265",
+      "paper_title": "The Dual Effects of Membership Programs on Online Review Helpfulness: Indirect Content Pathways and Direct Credibility Signals",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7223672553",
+      "headline": "Bank Branches Earn Their Keep as Reassurance, Not Technology Showrooms",
+      "the_study": "A three-part study of retail banking combined focus groups (n=20), scenario-based experiments with 298 customers comparing conventional versus technology-enhanced branches, and topic modeling plus machine learning on 363,184 Google reviews of bank branches. Staff competence and human interaction (SOCIALIZE), professional atmospherics (SURROUND) and local embeddedness (SITUATE) consistently drove loyalty and word of mouth; innovation-heavy branch experiences added little beyond a functional baseline. In naturally occurring reviews, the human-interaction dimension was the strongest predictor of star ratings.",
+      "why_it_matters": "Banks closing or \"reimagining\" branches as lifestyle and tech spaces may be spending against the dimensions customers care least about, while the costly, visible physical branch itself functions as a trust signal.",
+      "story_angle_primary": "Before the next branch refit, test whether coffee bars, tablets and interactive displays move loyalty at all relative to investment in staff expertise and a credible, professional-looking space — and consider evaluating branches on reassurance and referral metrics, not just transactions per square foot.",
+      "story_angle_secondary": "The reason a physical branch still reassures people has little to do with what happens inside it: an expensive building on a local high street signals a bank that is not going anywhere, which is why competence at the counter beats gadgets in the lobby.",
+      "caveats": "Experimental component used hypothetical branch scenarios rather than real banking behavior, with moderate sample size; Google review analysis is observational and reviews skew toward extreme experiences. Dimension labels come from a proprietary experience framework.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-10-26",
+      "doi": "10.1108/ijbm-08-2025-0678",
+      "paper_title": "The branch is strong when the tree is healthy: symbolic reassurance in retail banking in a post-trust economy",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7223898707",
+      "headline": "\"Would You Like to Donate?\" Works Better When the Charity Is Local",
+      "the_study": "Researchers surveyed 356 U.S. consumers about checkout charity campaigns and modeled responses to retailer partnerships with local versus global charities using partial least squares structural equation modeling. Local charity partnerships were associated with stronger perceived social connection to beneficiaries and greater perceived donation impact, which in turn predicted higher donation likelihood, checkout satisfaction and attitude toward the retailer. The effects were stronger among consumers with a strong local identity.",
+      "why_it_matters": "Checkout charity asks can irritate shoppers and dent store evaluations; the locality of the beneficiary appears to be a cheap lever that improves outcomes for both the cause and the retailer.",
+      "story_angle_primary": "Retailers running national charity tie-ins could test regionalized or store-level beneficiaries against a single global partner, measuring not only donation take-up but checkout satisfaction and store attitude — the finding implies the ask itself feels less intrusive when the cause is nearby.",
+      "story_angle_secondary": "Most people say they want to help the greatest need, yet psychological distance wins at the register: a cause you can picture down the road feels more impactful than one halfway around the world, even when the opposite is true.",
+      "caveats": "Cross-sectional survey of a single U.S. sample with no observed donation behavior — intentions and evaluations only, and causation cannot be established. Results rest on significant paths in a structural model.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-27",
+      "doi": "10.1016/j.jretconser.2026.105187",
+      "paper_title": "Go local or global? How consumers’ response to charity locality shapes checkout charity outcomes",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7223671637",
+      "headline": "For Gen Z, Talking to the Shopping App Beats Typing — Especially for Treats",
+      "the_study": "Two laboratory experiments with Generation Z consumers compared voice and text interfaces for low-involvement online purchases, analyzed with PLS-SEM. Voice interfaces produced significantly higher perceived convenience and enjoyment, and therefore greater perceived value, which fed through to search satisfaction and purchase intention. Product type mattered: the link from perceived value to satisfaction was stronger for hedonic items than for utilitarian ones in voice-enabled shopping.",
+      "why_it_matters": "Voice commerce has underdelivered against years of hype; this points to where it may actually pay off — young shoppers, routine low-stakes baskets, and pleasure purchases rather than functional ones.",
+      "story_angle_primary": "Quick-commerce and e-retail teams could run live A/B tests of voice search against text for repeat and impulse categories with younger cohorts, rather than rolling voice across the whole catalog — and watch whether the enjoyment advantage survives outside a lab, where background noise and privacy concerns bite.",
+      "story_angle_secondary": "If you find yourself happily reordering snacks by voice but switching back to typing when buying a kettle, that is the pattern: speaking is faster and more fun, but people still want to read and compare when the decision has consequences.",
+      "caveats": "Two lab experiments with Gen Z participants; sample sizes are not reported in the abstract, outcomes are purchase intentions rather than actual purchases, and findings are limited to low-involvement categories in a single research context.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-10-26",
+      "doi": "10.1108/ijrdm-07-2025-0504",
+      "paper_title": "Impact of interface modality and product type on Gen Z E-retail purchases",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7223273403",
+      "headline": "Smart Shopping Carts Don't Empower Everyone — and Can Tire People Out",
+      "the_study": "A three-study program on smart-retail technology in DIY stores surveyed 309 Chinese customers (Study 1), replicated with 273 Australian customers with multigroup comparison (Study 2), and ran a 2x2 vignette experiment manipulating empowerment and trust cues in both countries (Study 3). The sense of empowerment that smart carts and in-store tech are supposed to create was weaker in China and showed signs of decision fatigue in Australia; trust appeared to substitute for empowerment in the Chinese sample, while \"flow\" — absorption in the shopping task — worked consistently in both markets.",
+      "why_it_matters": "Retailers deploying smart carts, scanners and in-aisle apps typically justify them on customer control and self-service; the evidence suggests control may not be the mechanism that drives satisfaction and loyalty, and may backfire in high-choice categories.",
+      "story_angle_primary": "Test the framing of in-store tech, not just the functionality: design that creates smooth, absorbing journeys may outperform design that piles choices and data onto the shopper, and the right emphasis — trust cues versus control cues — may differ by market.",
+      "story_angle_secondary": "More information and more control in the aisle is not automatically better. In a category as choice-heavy as DIY, a cart that tells you everything can leave you more exhausted than empowered.",
+      "caveats": "Two cross-sectional surveys (causation cannot be established) plus a hypothetical vignette experiment rather than real store behavior; limited to DIY retail in two countries. The authors themselves flag the counterintuitive results as needing replication.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-10-23",
+      "doi": "10.1108/ijrdm-09-2025-0755",
+      "paper_title": "Smart cart use, empowerment and loyalty in cross-cultural DIY retail",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7223280551",
+      "headline": "The teaser ad that only works if people finish it",
+      "the_study": "In a randomized field experiment with a book retailer, more than 109,000 customers were assigned either to an interactive \"blind lead-in\" display ad that withheld the product until users clicked through a multi-stage sequence, or to a static ad that showed the product immediately. On average, the teaser format produced no lift in purchase conversion, because most people never reached the reveal. But using random assignment as an instrument, customers who actually completed the sequence showed a 46.6% lift in long-term purchase conversion — roughly 437 completions per incremental purchase. Completion itself depended on creative design: early informational cues and social cues placed before the final stage raised completion, while visual and textual complexity late in the sequence dropped it.",
+      "why_it_matters": "Interactive ad formats are often sold on engagement metrics, but this shows the engagement only pays off if users finish the journey — and that average conversion can look flat while a real effect hides inside the completers.",
+      "story_angle_primary": "Audit your interactive ad formats for completion rate, not just impressions or clicks, and test whether moving informational and social cues earlier in the sequence lifts completion; this is real field evidence from one retailer, so the economics (437 completions per incremental sale) need to be recalculated for your own margins before scaling.",
+      "story_angle_secondary": "Those ads that hide what they are selling until you tap through are a deliberate design; most people bail before the reveal, and the small minority who play along are measurably more likely to buy.",
+      "caveats": "Single firm (a book retailer) and a single category; the completion-based effect is estimated among compliers via instrumental variables rather than directly randomized; the supplementary mechanism study is separate from the field data.",
+      "journal": "Journal of Interactive Marketing",
+      "published": "2026-10-22",
+      "doi": "10.1177/10949968261503210",
+      "paper_title": "EXPRESS: Interactive Blind Lead-In Ads and Purchase Conversion: The Roles of Completion and Creative Design Features",
+      "source_id": "S92709572"
+    },
+    {
+      "work_id": "W7221815419",
+      "headline": "Political signals in a store make customers more uncomfortable than rainbow flags or religious symbols",
+      "the_study": "Three preregistered scenario experiments placed participants in a coffee shop whose staff and physical environment displayed ideological cues — political, religious, LGBTQ+, environmental or lifestyle. Political cues generated more discomfort than environmental and lifestyle cues, though not significantly more than religious or LGBTQ+ cues. When matching political cues appeared on both employees and the store environment, discomfort rose further and stated store choice fell, with discomfort statistically accounting for part of the link to avoidance.",
+      "why_it_matters": "Retailers and service brands are increasingly asked to display values, and this suggests the specific content and the number of touchpoints carrying it both shape customer reaction — political signaling appears to be the riskiest category and stacking it across touchpoints compounds the effect.",
+      "story_angle_primary": "Treat values signaling as a servicescape design decision with a dose-response element: test whether concentrating a message on one touchpoint versus saturating staff and store changes comfort and visit intent among your actual customer base — noting these are hypothetical coffee shop scenarios, not till receipts.",
+      "story_angle_secondary": "Shoppers do read the pins, posters and flags in a cafe as statements about who belongs there, and the research suggests the discomfort comes less from disagreement itself than from feeling surrounded by the message.",
+      "caveats": "Scenario-based experiments with stated intentions rather than observed purchases, as the authors explicitly note; single service category (coffee shops); cue content is likely to be culturally specific and the sample's political composition shapes what \"political\" means here.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-14",
+      "doi": "10.1016/j.jretconser.2026.105160",
+      "paper_title": "When service environments signal ideology: Customer responses to ideological cues",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7222498555",
+      "headline": "A smiley face on the packaging makes dieters think the food is more fattening",
+      "the_study": "Across five studies, researchers tested how smile cues — smiling faces in food marketing and packaging — affect consumers' calorie estimates. For indulgent foods, or foods that could be framed as indulgent, smile cues raised perceived indulgence, which in turn raised calorie estimates, and this effect was strongest among consumers high in dietary restraint or whose restraint had been situationally activated. When restraint was activated, participants were less likely to choose the smile-cued food.",
+      "why_it_matters": "A cheerful, friendly design element that is supposed to make food more appealing can backfire with exactly the health-conscious segment many brands are courting, by making the product read as a guilty pleasure.",
+      "story_angle_primary": "If you market to health-minded or calorie-tracking shoppers, run a packaging test in which the only variable is the smiling face or cheerful mascot — it may be inflating perceived calories and suppressing choice in that segment while helping with indulgence-seeking buyers.",
+      "story_angle_secondary": "Your calorie guesses are being nudged by graphics, not nutrition: the same snack can feel heavier simply because the wrapper looks happy, and people on diets are the most susceptible.",
+      "caveats": "Experimental studies, likely online panels, with perceptions and choice measures rather than real retail purchases; effect is specific to foods that can be construed as indulgent; sample sizes and country not specified in the abstract.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-16",
+      "doi": "10.1002/mar.70279",
+      "paper_title": "The Effect of Smile Cues on Food Calorie Perception: The Moderating Role of Dietary Restraint",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7221805592",
+      "headline": "People invest less money when they are in a crowd",
+      "the_study": "Three studies examined how the physical environment around a person using a mobile trading app affects their investing. Crowded surroundings were associated with both a lower likelihood of investing and smaller amounts invested, with the effect running through reduced feelings of pleasure; feelings of dominance additionally shaped the amount invested.",
+      "why_it_matters": "Neo-brokers have moved investing onto phones used on trains, in cafes and in offices, meaning the ambient environment — not just the interface — may now be a variable in financial decisions and conversion rates.",
+      "story_angle_primary": "For app-based financial and high-consideration purchases, consider context-aware, privacy-conscious design — the implication worth testing is whether reducing felt exposure (screen privacy, simplified flows, resumable sessions) recovers conversions among users transacting in public, while being careful not to manipulate people into larger trades.",
+      "story_angle_secondary": "If you have ever felt oddly reluctant to hit \"buy\" on your phone in a packed train carriage, that instinct is measurable — crowding dampens the pleasure of the decision and shrinks the sums people are willing to commit.",
+      "caveats": "Crowding was likely manipulated via imagined or depicted scenarios rather than observed in real trading environments; investment amounts are stated rather than actual money at risk in at least some studies; sample composition and country not specified in the abstract.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-14",
+      "doi": "10.1002/mar.70286",
+      "paper_title": "Crowded Decisions: How Environmental Density Shapes Mobile Investment Behavior",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7220357245",
+      "headline": "Webrooming wins the next sale; online-to-offline wins the relationship",
+      "the_study": "Researchers ran a quasi-experiment in an omnichannel sports retail setting with 166 sports-product consumers, comparing how different channel configurations (such as webrooming — researching online, buying in store — and online-to-offline journeys) affected repurchase intention, satisfaction and brand loyalty. Outcomes differed sharply by strategy (partial eta-squared of 0.45–0.52): webrooming scored highest for repurchase intention (M=4.94), while the online-to-offline configuration produced the highest satisfaction and loyalty (both M=4.96). Customer experience and brand trust moderated every effect, and the gaps between strategies were widest among shoppers with less experience and lower trust. Results held after post-stratification weighting.",
+      "why_it_matters": "It suggests the channel mix a retailer pushes should depend on the goal: digital research paths drive the next transaction, while integrated physical touchpoints do the heavier work of building satisfaction and loyalty.",
+      "story_angle_primary": "Retailers running a single omnichannel playbook may be optimizing for the wrong outcome. The pattern here is worth testing in your own data: route high-intent, already-loyal shoppers through efficient webrooming flows, but steer new or low-trust customers into journeys that end in a store or physical touchpoint, where the study found the biggest relational payoff.",
+      "story_angle_secondary": "For shoppers, this maps a familiar habit — scouting online then buying in person — onto what retailers get out of it, and hints that the in-store leg of a purchase is what actually builds attachment to a brand rather than just completing a transaction.",
+      "caveats": "Small sample (N=166) spread across multiple channel conditions; quasi-experimental rather than fully randomized; outcomes are self-reported intentions and attitudes, not observed repurchases; limited to sports products and a single retail context.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-05",
+      "doi": "10.1016/j.jretconser.2026.105147",
+      "paper_title": "The impact of omni-channel strategies on consumer behavior in sport product purchases",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7223280000",
+      "headline": "Push notifications work — until they don't: the point where reminders start backfiring",
+      "the_study": "Researchers analyzed more than 200 push campaigns and 60 million user-campaign observations from a leading U.S. mobile-offer marketplace, pairing the observational data with controlled experiments on the same platform. Push notifications sharply lifted same-day click-throughs to the advertised merchant, with results varying by merchant type, user type, message wording and send timing. Notifications also lifted engagement with merchants that weren't advertised, inside and outside the promoted category — the nudge redirected attention across the whole marketplace. But repeated exposure produced diminishing returns, and at high frequencies engagement actually fell.",
+      "why_it_matters": "Push is one of the few attention levers a retailer or platform owns outright, and this is rare large-scale evidence on both its spillover benefits and its tipping point into fatigue.",
+      "story_angle_primary": "The halo finding is the commercial story: a push promoting one merchant appears to warm up traffic to others, which means notification value should be measured at portfolio level, not just by the advertised partner's click-through. Equally important, test your own saturation curve — the study suggests there is a frequency beyond which each extra message costs engagement rather than buying it.",
+      "story_angle_secondary": "Those phone buzzes do two different jobs: some genuinely inform you about an offer, others simply remind you the app exists. Knowing which is which — and noticing when a brand has crossed from helpful into noise — is a decent rule for deciding whose notifications to switch off.",
+      "caveats": "Single platform (a U.S. mobile-offer marketplace) and single country; observational analysis plus platform experiments, so results may not generalize to other app categories; same-day click-through is a short measurement window.",
+      "journal": "Information Systems Research",
+      "published": "2026-10-23",
+      "doi": "10.1287/isre.2024.0917",
+      "paper_title": "Campaigns That Click: Unleashing the Power of Push Notifications on Mobile Apps",
+      "source_id": "S202812398"
+    },
+    {
+      "work_id": "W7223392067",
+      "headline": "Consumers are barely better than a coin flip at spotting a dishonest ad claim",
+      "the_study": "In a large randomized experiment, participants judged marketing claims as honest or deceptive. They defaulted to believing: claims were judged honest 56.4% of the time, and overall accuracy at separating truth from lies was just 58.9%, with better accuracy on truthful claims than deceptive ones. Two marketing-specific factors — the presence of a brand name and the belief that a claim could be verified before purchase — both increased this truth bias and shifted detection accuracy.",
+      "why_it_matters": "The regulatory and industry assumption that an alert consumer can police deceptive advertising doesn't hold up; branding and the mere feeling that a claim is checkable make people more credulous, not less.",
+      "story_angle_primary": "If audiences accept claims by default, the risk calculus around aggressive copy changes: the market will not catch you, but regulators and class actions might, and brand presence amplifies the trust you are borrowing. Worth pressure-testing whether your substantiation standards match the credulity your brand actually commands rather than the skepticism marketers assume.",
+      "story_angle_secondary": "\"Buyer beware\" is poor consumer advice, because people believe claims by default and believe them even more when a familiar brand is attached or when they assume they could check later — a check most shoppers never actually make.",
+      "caveats": "Experimental judgments of claims rather than real purchase decisions; sample composition and recruitment source are not specified in the abstract.",
+      "journal": "Journal of Marketing Communications",
+      "published": "2026-10-22",
+      "doi": "10.1080/13527266.2026.2751068",
+      "paper_title": "Can buyers really beware? Limits to detecting deception in marketing messages",
+      "source_id": "S158451771"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7223707755",
+      "headline": "Mobile coupons work harder before shoppers reach the mall than inside it",
+      "verdict": "minor",
+      "notes": "Study description, free-riding result and caveats track the abstract closely; one consumer-facing claim about coupon generosity is not supported.",
+      "issues": [
+        {
+          "label": "Unsupported claim about coupon value",
+          "severity": "Minor",
+          "as_written": "which is also why the ones you receive on the way can be the more generous",
+          "abstract_says": "The abstract reports only that outside-mall coupon clicks are associated with a stronger purchase response for experiential-product stores, and models whether and where to issue coupons; it says nothing about the size or generosity of outside-targeted offers.",
+          "problem": "Adds a specific consumer-facing claim (pre-arrival coupons are more generous) that the abstract does not test or report.",
+          "suggested_fix": "Drop the generosity claim or reword to 'the first are designed to get you to come at all, rather than just to close a sale you were already going to make.'"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7223071223",
+      "headline": "The shoppers who use cross-border platforms most are the ones who most oppose regulating them",
+      "verdict": "minor",
+      "notes": "Sample, methods and the 9-11 percentage point figure are reported correctly, and the digest flags the correlational limits; headline and 'Why it matters' stretch the finding beyond what was measured.",
+      "issues": [
+        {
+          "label": "Headline implies a usage gradient",
+          "severity": "Minor",
+          "as_written": "The shoppers who use cross-border platforms most are the ones who most oppose regulating them",
+          "abstract_says": "\"direct purchase experience is associated with approximately 9–11 percentage points higher regulatory opposition\"",
+          "problem": "The abstract reports a comparison between consumers with and without direct purchase experience, not a dose-response relationship between intensity of use and intensity of opposition.",
+          "suggested_fix": "Reword to 'Shoppers who have actually bought from cross-border platforms are the most likely to oppose regulating them.'"
+        },
+        {
+          "label": "'Most organized opposition' overstates the data",
+          "severity": "Moderate",
+          "as_written": "the heaviest users of a channel form the most organized opposition to restricting it, which helps explain how a safety-framed measure can collapse in days",
+          "abstract_says": "The study measures survey-reported opposition among adults with and without direct purchase experience; it describes the 2024 initiative as \"substantially revised within days amid consumer opposition\" and reports associations, not collective action or organization.",
+          "problem": "Converts an attitudinal association into a claim about organized political mobilization and about the mechanism by which the policy was withdrawn, neither of which the study tested.",
+          "suggested_fix": "Reframe as 'consumers with the most direct experience of a channel are the most likely to oppose restricting it, which may help explain the speed of the backlash.'"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7222049986",
+      "headline": "Shoppers Can't Measure Air Quality — But Their Noses Decide How Long They Stay",
+      "verdict": "minor",
+      "notes": "Study structure, the 26-item scale and the café/supermarket findings match the abstract; headline is more causal than the predictive evidence, and one caveat detail is not verifiable.",
+      "issues": [
+        {
+          "label": "Causal headline for predictive finding",
+          "severity": "Minor",
+          "as_written": "But Their Noses Decide How Long They Stay",
+          "abstract_says": "\"perceived air quality predicts dwell time, which predicts spending, whereas an objective air quality indicator predicts neither\"",
+          "problem": "'Decide' asserts causation for what the abstract describes as a predictive relationship in a validation study (although Study 4 provides experimental validation of the scale, not of the dwell-time chain).",
+          "suggested_fix": "Soften to 'But How the Air Feels Predicts How Long They Stay.'"
+        },
+        {
+          "label": "Country limitation not in abstract",
+          "severity": "Minor",
+          "as_written": "the broader program is concentrated in a limited set of categories and countries",
+          "abstract_says": "The abstract names café and supermarket customers but does not identify any country or set of countries.",
+          "problem": "Unverifiable from abstract only — the geographic scope of the studies is not stated.",
+          "suggested_fix": "Limit the caveat to the categories tested (cafés and supermarkets) or mark the country point as not reported in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7223652730",
+      "headline": "Loyalty Members Write Glowing Reviews — and Less Useful Ones",
+      "verdict": "accurate",
+      "notes": "Dataset size, platform, the two-pathway structure and the net negative result are all reported correctly, and the correlational and single-platform limits are flagged.",
+      "issues": []
+    },
+    {
+      "number": 5,
+      "work_id": "W7223672553",
+      "headline": "Bank Branches Earn Their Keep as Reassurance, Not Technology Showrooms",
+      "verdict": "minor",
+      "notes": "All three study components and sample sizes match, as does the SOCIALIZE/SURROUND/SITUATE result; one causal verb overstates a mixed correlational and scenario-based evidence base.",
+      "issues": [
+        {
+          "label": "Causal verb across mixed designs",
+          "severity": "Minor",
+          "as_written": "Staff competence and human interaction (SOCIALIZE), professional atmospherics (SURROUND) and local embeddedness (SITUATE) consistently drove loyalty and word of mouth",
+          "abstract_says": "\"Across the studies, SURROUND, SOCIALIZE and SITUATE emerge as the most consequential dimensions\" and \"In consumer reviews, SOCIALIZE is the strongest predictor of ratings.\"",
+          "problem": "'Drove' implies established causation, but the evidence combines focus groups, hypothetical scenarios and observational review data.",
+          "suggested_fix": "Use 'were the dimensions most strongly associated with loyalty and word of mouth.'"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7223898707",
+      "headline": "\"Would You Like to Donate?\" Works Better When the Charity Is Local",
+      "verdict": "minor",
+      "notes": "Sample (356 U.S. consumers), PLS-SEM, mediators and the local-identity moderator are all correctly reported; the design label and one consumer-angle assertion go beyond the abstract.",
+      "issues": [
+        {
+          "label": "Design described as a survey",
+          "severity": "Minor",
+          "as_written": "Researchers surveyed 356 U.S. consumers about checkout charity campaigns",
+          "abstract_says": "\"Using partial least squares structural equation modeling with data from 356 U.S. consumers\" — the abstract does not state whether data came from a cross-sectional survey or a scenario-based design.",
+          "problem": "Unverifiable from abstract only; the digest commits to a survey design (and a cross-sectional caveat) that the abstract does not specify.",
+          "suggested_fix": "Say 'collected data from 356 U.S. consumers' and note that the abstract does not specify the data-collection design."
+        },
+        {
+          "label": "Claim that local causes are objectively less impactful",
+          "severity": "Minor",
+          "as_written": "a cause you can picture down the road feels more impactful than one halfway around the world, even when the opposite is true",
+          "abstract_says": "The abstract reports that local charities strengthen perceived social connection and perceived donation impact; it makes no claim about actual relative impact of local versus global causes.",
+          "problem": "Adds an editorial factual claim about real-world charitable impact that the study did not examine.",
+          "suggested_fix": "Delete 'even when the opposite is true' or replace with 'whatever the actual need.'"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7223671637",
+      "headline": "For Gen Z, Talking to the Shopping App Beats Typing — Especially for Treats",
+      "verdict": "accurate",
+      "notes": "Two lab experiments, the convenience/enjoyment/perceived value chain and the hedonic-versus-utilitarian moderation are reported accurately, with intention-not-behavior and unreported sample sizes flagged.",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "work_id": "W7223273403",
+      "headline": "Smart Shopping Carts Don't Empower Everyone — and Can Tire People Out",
+      "verdict": "minor",
+      "notes": "Three-study design, both sample sizes and the empowerment/trust/flow pattern match the abstract, including the authors' own replication caveat; one extrapolation beyond DIY.",
+      "issues": [
+        {
+          "label": "Generalization to 'high-choice categories'",
+          "severity": "Minor",
+          "as_written": "control may not be the mechanism that drives satisfaction and loyalty, and may backfire in high-choice categories",
+          "abstract_says": "The research is confined to the do-it-yourself (DIY) sector in China and Australia; the abstract makes no claim about high-choice categories as a class.",
+          "problem": "Extends a DIY-specific finding to an unstudied category type.",
+          "suggested_fix": "Say 'may backfire, at least in a category as choice-heavy as DIY.'"
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7223280551",
+      "headline": "The teaser ad that only works if people finish it",
+      "verdict": "accurate",
+      "notes": "Field experiment size, null average effect, the 46.6% complier lift, the 437-completions figure and the creative-design results all match, and the IV/complier basis is flagged.",
+      "issues": []
+    },
+    {
+      "number": 10,
+      "work_id": "W7221815419",
+      "headline": "Political signals in a store make customers more uncomfortable than rainbow flags or religious symbols",
+      "verdict": "significant",
+      "notes": "Body text and caveats are faithful to the abstract, but the headline asserts a difference the abstract explicitly reports as non-significant, and 'riskiest category' repeats the overstatement.",
+      "issues": [
+        {
+          "label": "Headline reverses a null result",
+          "severity": "Major",
+          "as_written": "Political signals in a store make customers more uncomfortable than rainbow flags or religious symbols",
+          "abstract_says": "\"Study 1 shows that political cues generate greater discomfort than environmental and lifestyle cues, although they do not differ significantly from religious or LGBTQ + cues.\"",
+          "problem": "The headline states as a finding precisely the comparison the study found non-significant, and the digest's own body text contradicts it. A reader scanning headlines would take away the opposite of what was found.",
+          "suggested_fix": "Rewrite as 'Political signals in a store unsettle customers more than green or lifestyle cues — and stacking them makes it worse.'"
+        },
+        {
+          "label": "'Riskiest category' overstates the comparison",
+          "severity": "Moderate",
+          "as_written": "political signaling appears to be the riskiest category",
+          "abstract_says": "Political cues generated greater discomfort than environmental and lifestyle cues only; they did not differ significantly from religious or LGBTQ + cues.",
+          "problem": "Implies political cues ranked riskiest against all cue types tested, when they were statistically indistinguishable from two of them.",
+          "suggested_fix": "Say 'political signaling carried more discomfort than environmental or lifestyle signalling, and was no less uncomfortable than religious or LGBTQ+ cues.'"
+        },
+        {
+          "label": "Mechanism claim not tested",
+          "severity": "Minor",
+          "as_written": "the discomfort comes less from disagreement itself than from feeling surrounded by the message",
+          "abstract_says": "The abstract reports that discomfort statistically accounts for part of the association between cue conditions and avoidance, and that perceived authenticity does not account for the multi-touchpoint effect; it does not test agreement or disagreement with the cue.",
+          "problem": "Presents an untested mechanism (disagreement versus saturation) as a research conclusion.",
+          "suggested_fix": "Reword to 'discomfort rose when the same message appeared across both staff and the store environment.'"
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7222498555",
+      "headline": "A smiley face on the packaging makes dieters think the food is more fattening",
+      "verdict": "minor",
+      "notes": "Core findings and five-study count match; small overreach in extending \"food marketing\" to packaging and in claiming a benefit among indulgence-seeking buyers.",
+      "issues": [
+        {
+          "label": "Packaging specified beyond abstract",
+          "severity": "Minor",
+          "as_written": "researchers tested how smile cues — smiling faces in food marketing and packaging — affect consumers' calorie estimates",
+          "abstract_says": "Although smile cues are widely used in food marketing, little is known about how consumers' dietary restraint shapes the calorie-related inferences they draw from such cues.",
+          "problem": "The abstract refers to smile cues in food marketing generally and does not specify packaging as the stimulus; the headline builds on this by putting the smiley face \"on the packaging\".",
+          "suggested_fix": "Say \"smile cues in food marketing\" and note that the specific stimuli (packaging vs. ads) are not identified in the abstract."
+        },
+        {
+          "label": "Unsupported upside for indulgence seekers",
+          "severity": "Minor",
+          "as_written": "it may be inflating perceived calories and suppressing choice in that segment while helping with indulgence-seeking buyers",
+          "abstract_says": "smile cues increase perceived indulgence, which in turn leads to higher calorie perceptions more strongly when dietary restraint is higher or situationally activated ... consumers were less likely to choose foods with a smile cue when dietary restraint is activated than not",
+          "problem": "The abstract reports a weaker effect among low-restraint consumers, not a positive effect; nothing shows smile cues \"help\" with indulgence-seeking buyers.",
+          "suggested_fix": "Change to \"while having a weaker effect among shoppers who are not dieting\"."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7221805592",
+      "headline": "People invest less money when they are in a crowd",
+      "verdict": "accurate",
+      "notes": "Three studies, direction of effect, pleasure mediation and dominance on amount all match; digest correctly uses associational wording in the body and flags unverifiable design details in Caveats.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7220357245",
+      "headline": "Webrooming wins the next sale; online-to-offline wins the relationship",
+      "verdict": "accurate",
+      "notes": "N, design, effect sizes, means, moderators and post-stratification robustness check all match the abstract; caveats appropriately note self-reported outcomes and quasi-experimental design.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7223280000",
+      "headline": "Push notifications work — until they don't: the point where reminders start backfiring",
+      "verdict": "minor",
+      "notes": "Data scale, platform and saturation finding match; the spillover and high-frequency results are stated more firmly than the abstract's hedged wording.",
+      "issues": [
+        {
+          "label": "Spillover stated causally",
+          "severity": "Minor",
+          "as_written": "Notifications also lifted engagement with merchants that weren't advertised, inside and outside the promoted category — the nudge redirected attention across the whole marketplace.",
+          "abstract_says": "notifications are associated with increased engagement with non-advertised merchants both within and across categories, suggesting that push notifications reshape attention across the marketplace ecosystem",
+          "problem": "The abstract explicitly frames the cross-merchant result as an association and a suggestion, while the digest asserts it as a demonstrated lift and redirection.",
+          "suggested_fix": "Use \"were associated with increased engagement with non-advertised merchants, suggesting attention is redirected across the marketplace\"."
+        },
+        {
+          "label": "Hedge dropped on high-frequency drop",
+          "severity": "Minor",
+          "as_written": "at high frequencies engagement actually fell",
+          "abstract_says": "repeated exposure produces diminishing responsiveness and may even reduce engagement at high notification frequencies",
+          "problem": "The abstract says engagement \"may even\" fall at high frequencies; the digest states it as an established outcome.",
+          "suggested_fix": "Add the hedge: \"and at high frequencies engagement may even fall\"."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7223392067",
+      "headline": "Consumers are barely better than a coin flip at spotting a dishonest ad claim",
+      "verdict": "minor",
+      "notes": "Design, percentages and both moderators reported correctly; one boundary condition from the abstract (accuracy varies with the proportion of truthful messages) is omitted.",
+      "issues": [
+        {
+          "label": "Omitted boundary condition on accuracy",
+          "severity": "Minor",
+          "as_written": "claims were judged honest 56.4% of the time, and overall accuracy at separating truth from lies was just 58.9%, with better accuracy on truthful claims than deceptive ones",
+          "abstract_says": "Accuracy varied systematically with the proportion of truthful messages and was higher for truthful than deceptive claims, consistent with the veracity effect.",
+          "problem": "The digest reports the headline accuracy figure without noting that accuracy depended on the base rate of truthful messages in the stimulus set, which conditions how the 58.9% should be read.",
+          "suggested_fix": "Add that accuracy varied systematically with the proportion of truthful claims presented."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 15,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7223707755": {
+        "query": "Mobile coupons work harder before shoppers reach mall than inside",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223071223": {
+        "query": "shoppers who use cross border platforms most ones who most",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222049986": {
+        "query": "Shoppers Measure Air Quality But Their Noses Decide Long They",
+        "returned": 3,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223652730": {
+        "query": "Loyalty Members Write Glowing Reviews Useful Ones",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223672553": {
+        "query": "Bank Branches Earn Their Keep Reassurance Not Technology Showrooms",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223898707": {
+        "query": "Would Like Donate Works Better Charity Local",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223671637": {
+        "query": "Gen Talking Shopping App Beats Typing Especially Treats",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223273403": {
+        "query": "Smart Shopping Carts Don Empower Everyone Tire People Out",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223280551": {
+        "query": "teaser only works people finish",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221815419": {
+        "query": "Political signals store make customers uncomfortable than rainbow flags religious",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7222498555": {
+        "query": "smiley face packaging makes dieters think food fattening",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221805592": {
+        "query": "People invest money they crowd",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220357245": {
+        "query": "Webrooming wins next sale online offline wins relationship",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223280000": {
+        "query": "Push notifications work until they don point where reminders start",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223392067": {
+        "query": "Consumers barely better than coin flip spotting dishonest claim",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- The review ecosystem keeps turning out to be shaped by who is writing, not just what is written. \"Loyalty Members Write Glowing Reviews — and Less Useful Ones\" (W7223652730) lands squarely alongside the previous digest's \"AI review summaries didn't silence shoppers — they wrote more reviews, and better ones\" (W7220470690): both show platform design choices quietly changing the diagnosticity of user content, in opposite directions.\n- Badges as credibility cues recur. The visible membership badge in W7223652730 raised perceived reviewer expertise, echoing the attention-and-selection effect of the platform verification badge in \"A little blue check moved eyeballs — and choices\" (W7221510551) — and in both cases the badge carries no quality information of its own.\n- Technology-forward customer experience keeps underdelivering against the plainer alternative. \"Bank Branches Earn Their Keep as Reassurance, Not Technology Showrooms\" (W7223672553) and \"Smart Shopping Carts Don't Empower Everyone\" (W7223273403) extend the pattern set by \"Simple beats smart: basic rule-based chatbots outperformed LLM bots\" (W7214950393) and the modest, conditional avatar lift in \"Giving your shopping assistant a face\" (W7215066966).\n- Channel investments substitute rather than compound. \"Webrooming wins the next sale; online-to-offline wins the relationship\" (W7220357245) sits naturally beside \"On B2B platforms, a strong online reputation and a strong trade-show presence cancel each other out\" (W7220830415): different channel combinations produce different outcomes, and more is not additive.\n\n**Advances**\n- Spillover measurement gets harder evidence. Last run's \"paid search carried e-commerce revenue\" (W7220946924) argued that one channel's spend feeds another's credit. This run pushes the same idea across firms: \"Mobile coupons work harder before shoppers reach the mall than inside it\" (W7223707755) shows coupons generating traffic that neighboring tenants capture, and \"Push notifications work — until they don't\" (W7223280000) shows a push for one merchant lifting engagement with unadvertised merchants across a marketplace.\n- Engagement-versus-sales divergence moves from observational to randomized. \"In live shopping, the host's mood moves sales — and the sidekick may be costing you money\" (W7220454801) flagged that engagement and revenue can pull apart; \"The teaser ad that only works if people finish it\" (W7223280551) is a 109,000-customer field experiment showing a flat average conversion result concealing a 46.6% lift among completers.\n- Consumer vulnerability gets a number. The conceptual case in \"Scams are now a marketing problem\" (W7211892755) rested on persuasion knowledge and vulnerability theory; \"Consumers are barely better than a coin flip at spotting a dishonest ad claim\" (W7223392067) supplies the empirical floor — 58.9% accuracy, with brand presence increasing credulity rather than skepticism.\n\n**Counterpoints**\n- On who should do the protecting: W7211892755 argued for consumer empowerment as a complement to regulation. \"The shoppers who use cross-border platforms most are the ones who most oppose regulating them\" (W7223071223) suggests the people with the most platform experience actively resist protective rules, which complicates any policy built on the assumption that informed users welcome guardrails.\n- On friction: \"Tell shoppers they're building a collection\" (W7221306245) found that effortful search can add value, while \"Smart Shopping Carts Don't Empower Everyone\" (W7223273403) found piling information and control onto DIY shoppers produced fatigue, with absorption (\"flow\") working better than empowerment. Together they sharpen the distinction between pleasurable effort and cognitive load.\n\n**New themes**\n- Sensory and ambient conditions as commercial variables: \"Shoppers Can't Measure Air Quality — But Their Noses Decide How Long They Stay\" (W7222049986), \"People invest less money when they are in a crowd\" (W7221805592), and \"A smiley face on the packaging makes dieters think the food is more fattening\" (W7222498555) have no antecedent in the previous digest.\n- Values and cause signaling inside the store: \"Political signals in a store make customers more uncomfortable than rainbow flags or religious symbols\" (W7221815419) and \"'Would You Like to Donate?' Works Better When the Charity Is Local\" (W7223898707) open a servicescape-politics thread the prior run touched only historically, via the khadi case (W7214900383).\n- Voice commerce gets its first entry: \"For Gen Z, Talking to the Shopping App Beats Typing\" (W7223671637).",
+    "feature_pitch": "**The pattern:** Five studies in this batch find that the environment surrounding a shopper — not the product, price or interface — is doing measurable work on how long they stay and how much they commit, and that retailers are measuring it with the wrong instruments. Perceived air quality predicted café dwell time and spend while the actual sensor reading predicted neither (W7222049986); crowded physical surroundings cut both the likelihood and the size of mobile investments (W7221805592); political cues stacked across staff and store raised discomfort and lowered store choice (W7221815419); smart carts produced fatigue rather than empowerment in DIY aisles (W7223273403); and bank branches earned loyalty through staff competence and a credible professional space, not interactive displays (W7223672553).\n\n**Why pitch this now:** Banks and chains are mid-cycle on branch closures and \"experiential\" refits justified by footfall and transactions per square foot, and at the same time phone-based buying and trading have moved high-stakes decisions into train carriages and coffee shops — so ambient context is now a variable in channels that were designed as if it weren't.\n\n**Angle:** A reported feature on atmospherics as an underinstrumented P&L line: what retail and facilities teams currently measure (sensor compliance numbers, feature checklists, square-foot productivity) versus what appears to move dwell, basket size and loyalty — written for retail, banking and marketing decision-makers planning store and branch capital spend, with the honest caveat that much of this evidence is correlational or scenario-based and needs replication in live estates.\n\n**Potential headlines:**\n- What stores measure about their own environment, and what actually moves spending\n- The air in your store beats the gadgets in it\n- Your next refit budget is probably funding the wrong half of the experience\n\n**Potential outlets:**\n- **Retail Dive** — store-format capital spending and experiential refits are its operational beat, and this gives a measurement-based challenge to both.\n- **American Banker** — the branch study speaks directly to its audience's live argument about whether to close, shrink or \"reimagine\" branches, and the reassurance framing is a fresh case for keeping them.\n- **Fast Company** — design-led readership that will run the sensory and servicescape material, including the political-cue dose-response finding.\n- **MIT Sloan Management Review** — built for the gap between what managers instrument and what the evidence shows, and tolerant of the correlational caveats this batch requires.",
+    "pitch_ideas": "- **Mobile coupons work harder before shoppers reach the mall than inside it (Work ID W7223707755):** Geofencing radius as a strategic choice rather than a setting, plus the free-riding case for landlord-funded coupon programs, for a retail trade explainer or a shopping-center/property trade piece.\n- **The shoppers who use cross-border platforms most are the ones who most oppose regulating them (Work ID W7223071223):** Why a safety-framed e-commerce rule collapsed in days, and what it says about the political constituency platforms can mobilize, for a policy-and-commerce feature or a business news analysis section.\n- **Shoppers Can't Measure Air Quality — But Their Noses Decide How Long They Stay (Work ID W7222049986):** Perceived freshness predicted dwell and spend while the sensor reading didn't — air as an atmospherics budget line next to lighting and music, for a retail operations trade piece, with a consumer-psychology explainer version on why some stores make you bolt.\n- **Loyalty Members Write Glowing Reviews — and Less Useful Ones (Work ID W7223652730):** Paid membership tiers appear to inflate ratings and hollow out review usefulness, a direct conflict between retention design and the review ecosystem, for a marketing-trade news brief or an e-commerce platform column.\n- **Bank Branches Earn Their Keep as Reassurance, Not Technology Showrooms (Work ID W7223672553):** The branch works as a trust signal from the outside in, which makes coffee bars and tablets the wrong place to spend, for a banking trade feature or a CMO-audience column on experience investment.\n- **\"Would You Like to Donate?\" Works Better When the Charity Is Local (Work ID W7223898707):** Swapping a national charity partner for store-level beneficiaries as a cheap fix for the most irritating moment in retail, for a retail marketing trade brief or a cause-marketing/nonprofit sector piece.\n- **For Gen Z, Talking to the Shopping App Beats Typing — Especially for Treats (Work ID W7223671637):** After years of voice commerce disappointment, a narrow place it may actually pay — young shoppers, low-stakes and pleasure purchases — for a commerce-tech trade piece or a digital retail column.\n- **Smart Shopping Carts Don't Empower Everyone — and Can Tire People Out (Work ID W7223273403):** The control-and-self-service rationale for in-store tech may be the wrong mechanism, with flow outperforming empowerment and market differences in whether trust substitutes for it, for a retail technology trade explainer.\n- **The teaser ad that only works if people finish it (Work ID W7223280551):** A flat average conversion result hiding a 46.6% lift among completers, and the creative design choices that determine who gets there — plus the brutal 437-completions-per-sale math — for a performance-marketing or ad-measurement column.\n- **Political signals in a store make customers more uncomfortable than rainbow flags or religious symbols (Work ID W7221815419):** Values signaling as a dose-response servicescape decision, where saturating staff and store compounds discomfort more than the message itself, for a brand-strategy column or a consumer-culture explainer in a general-interest outlet.\n- **A smiley face on the packaging makes dieters think the food is more fattening (Work ID W7222498555):** A cheerful mascot inflating calorie estimates with precisely the health-conscious segment brands are chasing, for a food-and-beverage marketing brief or a consumer-psychology piece in a health or general-interest outlet.\n- **People invest less money when they are in a crowd (Work ID W7221805592):** Ambient crowding as a variable in app-based financial decisions, and the uncomfortable design question of whether brokers should try to \"fix\" it, for a personal-finance column or a fintech trade piece.\n- **Webrooming wins the next sale; online-to-offline wins the relationship (Work ID W7220357245):** Different channel journeys serve different goals, so a single omnichannel playbook optimizes for the wrong outcome, especially for new and low-trust customers, for a retail strategy trade piece (noting the small sample).\n- **Push notifications work — until they don't (Work ID W7223280000):** The cross-merchant halo means notification value should be judged at portfolio level, while the saturation curve says there is a frequency where each message costs you engagement, for a mobile marketing or app-economy trade column, with a consumer version on which notifications to switch off.\n- **Consumers are barely better than a coin flip at spotting a dishonest ad claim (Work ID W7223392067):** \"Buyer beware\" fails as consumer protection because brand presence and the feeling that a claim is checkable both make people more credulous, for a consumer-affairs or advertising-regulation piece, and a general-interest explainer on why we believe claims by default."
+  }
+}
