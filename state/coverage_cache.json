@@ -1,11 +1,31 @@
 {
   "studies": {
+    "W7204606942": {
+      "checked_at": "2026-10-29T17:01:13.883249+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "141 000 Consumer Complaints Reveal About Disputes Escalate Poorer Neighborhoods",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7204928019": {
       "checked_at": "2026-10-27T15:55:30.444073+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "Price sensitive brand aware four quadrant map launching products across",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7206212528": {
+      "checked_at": "2026-10-29T17:01:59.314043+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "hashtag gets hijacked angriest posts aren ones spread",
         "returned": 0,
         "state": "unreported"
       }
@@ -70,6 +90,36 @@
         "state": "unreported"
       }
     },
+    "W7215042272": {
+      "checked_at": "2026-10-29T17:01:55.095134+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Corner shops win speed game without any quick commerce infrastructure",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7215042510": {
+      "checked_at": "2026-10-29T17:01:47.231352+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "small business clients getting order right beats having slickest logistics",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7216405737": {
+      "checked_at": "2026-10-29T17:02:18.354065+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Faith aligned features won save glitchy app evidence Islamic mobile",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7220357245": {
       "checked_at": "2026-10-28T16:40:44.171221+00:00",
       "result": {
@@ -80,12 +130,42 @@
         "state": "unreported"
       }
     },
+    "W7220440663": {
+      "checked_at": "2026-10-29T17:02:06.789282+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Rude customers make staff caring boss favorites take hardest",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7220660112": {
+      "checked_at": "2026-10-29T17:01:39.279038+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Customers find humanoid service robots creepy except service embarrassing",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7220917637": {
       "checked_at": "2026-10-23T17:11:06.689549+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "short sustainability class changed students responded green advertising",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7220919414": {
+      "checked_at": "2026-10-29T17:02:11.588258+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Speed luxury killer million Google reviews say about high end",
         "returned": 0,
         "state": "unreported"
       }
@@ -107,6 +187,36 @@
         "outlets": [],
         "query": "Chatbots keep customers ecosystem but only they make people feel",
         "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7221159140": {
+      "checked_at": "2026-10-29T17:01:25.296745+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Fixing Bad Meal Compensate Friend Too but Only Right Dose",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7221524554": {
+      "checked_at": "2026-10-29T17:01:45.311150+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "close disaster feels decides whether tourists boycott destination",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7221546035": {
+      "checked_at": "2026-10-29T17:02:12.576415+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Foreign branded universities students say country ties matter than price",
+        "returned": 1,
         "state": "unreported"
       }
     },
@@ -187,6 +297,16 @@
         "outlets": [],
         "query": "Letting fans they like logo quietly cost brand its status",
         "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7221728768": {
+      "checked_at": "2026-10-29T17:01:30.647250+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Asking Service Staff Sell Whether Energizes Burns Them Out Depends",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -280,6 +400,16 @@
         "state": "unreported"
       }
     },
+    "W7221898122": {
+      "checked_at": "2026-10-29T17:01:36.164013+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Not all workplace stress bad kind makes staff steal kind",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7221947266": {
       "checked_at": "2026-10-27T15:55:11.898214+00:00",
       "result": {
@@ -368,6 +498,16 @@
         "state": "unreported"
       }
     },
+    "W7222470326": {
+      "checked_at": "2026-10-29T17:01:40.509893+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Gluten free shoppers aren asking choice they want bread tastes",
+        "returned": 5,
+        "state": "unreported"
+      }
+    },
     "W7222483887": {
       "checked_at": "2026-10-23T17:11:53.970740+00:00",
       "result": {
@@ -384,6 +524,16 @@
         "articles": [],
         "outlets": [],
         "query": "smiley face packaging makes dieters think food fattening",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7222527276": {
+      "checked_at": "2026-10-29T17:02:03.608728+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "million words app store griping reveals about fintech users well",
         "returned": 0,
         "state": "unreported"
       }
@@ -828,6 +978,16 @@
         "state": "unreported"
       }
     },
+    "W7223658951": {
+      "checked_at": "2026-10-29T17:01:34.548990+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Devout Customers Reported Willingness Rude Staff Unless Karma Their Minds",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7223671637": {
       "checked_at": "2026-10-28T16:40:26.541585+00:00",
       "result": {
@@ -845,6 +1005,16 @@
         "outlets": [],
         "query": "Bank Branches Earn Their Keep Reassurance Not Technology Showrooms",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223706258": {
+      "checked_at": "2026-10-29T17:01:15.266772+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Rival Airlines Share Same Big Investors Service Gets Worse Fares",
+        "returned": 2,
         "state": "unreported"
       }
     },

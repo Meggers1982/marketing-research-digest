@@ -1,25 +1,27 @@
 # Topic Memory: Customer Experience & Service
-_Last updated: 2026-10-01_
+_Last updated: 2026-10-29_
 
 ## Established findings
-- Anthropomorphism and lifelike design are weak or negative levers: human-like cues are punished at failure and photorealism is only peripheral to shared experience (W7203488123 2026-08-13; W7204275888 2026-08-26; W7204579696 2026-08-28). Counter-cases (child-like voice W7203856104; user-named bots W7202216162) appear hedonic-context bound.
-- What makes AI service work is competence, authority and visible governance rather than machine-vs-human identity or warmth (W7203673228 2026-08-18; W7171856573 2026-07-31; W7214671269 2026-09-28; W7214318124 2026-09-25); trust is the carrying mechanism to brand outcomes, including for older segments where technical quality showed nulls (W7204434854 2026-08-27).
-- Recovery should be triaged by severity and remedy type: bots for minor/psychological remedies, humans for compensation and severe failures (W7201883691 2026-08-07; W7203609438 2026-08-17).
-- Frontline employees are the gating variable in service tech payoff; benefit flows through adaptation, crafting and improvisation under supportive management, not adoption rates (W7168115520 2026-08-18; W7203840311 2026-08-20; W7213983383 2026-09-22; W7214497259 2026-09-26).
-- Customer feedback is systematically biased by silence, self-image, language access and inertia (W7171377067 2026-07-27; W7202198898 2026-08-11; W7203645795 2026-08-17; W7206172982 2026-09-02); review engagement itself splits into social amplification vs perceived usefulness (W7214683938 2026-09-28).
-- Tenure and retention are poor proxies for loyalty in both B2B and consumer settings (W7202159462 2026-08-11; W7206172982 2026-09-02).
-- Employment conditions and incentive design surface in customer-facing quality (W7203686382 2026-08-18; W7204989107 2026-09-02; W7204562935 2026-08-28).
+- Anthropomorphic and lifelike service interfaces are weak or negative levers, punished hardest at failure and extending to bystanders (W7203488123 2026-08-13; W7204275888 2026-08-26; W7203866299 2026-08-21; W7220660112 2026-10-05). Boundary condition now identified: robots gain an edge in embarrassing service contexts (W7220660112).
+- AI service works through competence, authority and governance rather than warmth or machine-vs-human identity (W7203673228 2026-08-18; W7214671269 2026-09-28; W7214318124 2026-09-25; W7203477409 2026-08-14).
+- Recovery should be triaged, not standardized — by failure severity and remedy type (W7201883691; W7203609438), and now by social context and loyalty tier (W7221159140 2026-10-09).
+- Frontline staff are the gating variable in service outcomes: discretion, climate framing, stressor type and protection from abuse decide whether identical demands energize or degrade performance (W7214671269 2026-09-28; W7221728768 2026-10-13; W7221898122 2026-10-15; W7220440663 2026-10-05).
+- Customer feedback corpora (reviews, complaints, app-store text) are now the default CX measurement instrument across contexts (W7202253581 2026-08-12; W7203443165 2026-08-14; W7222527276 2026-10-16; W7216405737 2026-10-02; W7220919414 2026-10-08; W7204606942 2026-10-17).
+- Generative AI reads service feedback well operationally but misses relational and interactional nuance (W7214601318 2026-09-27; W7220919414 2026-10-08).
+- Customer feedback is systematically biased by silence, self-image, language access and inertia (W7171377067; W7202198898; W7203645795; W7206172982).
 
 ## Emerging threads
-- Honesty erosion under automation: reduced social presence increases customer claim inflation (W7202155921 2026-08-11) while also unlocking candid disclosure (W7202198898) — same mechanism, opposite valences; needs field data.
-- AI agents moving upstream from recovery into consideration, with trust transferring from agent to recommended product (W7203638544 2026-08-17) — watch for replication with observed purchases.
-- Sustainability claims as a credibility/detection problem: green language unrewarded and concentrated on deep-discount listings, with automated greenwashing detection now viable (W7203821753 2026-08-20).
-- Immersive retail reality gap: low installed phygital maturity (W7202296676 2026-08-12) plus context-dependent mechanisms explaining divergent outcomes from identical tech (W7213352682 2026-09-15); AR reframed as identity work where flattery destroys value (W7203598766 2026-08-17).
-- Collective customer counter-power: supportive emotion inside affected-customer communities fuels boycotts and complaints (W7208731674 2026-09-04), extending individual attribution work (W7202074508; W7213665568).
-- Transparency limits and service exclusion/dignity threads still open (W7172357977; W7212038717; W7197051994; W7204466776) — awaiting further evidence.
+- Transparency reframed from volume to comprehensibility: silence can protect the retailer and extra tracking detail has diminishing returns (W7172357977; W7212038717), while ambiguity and comprehension burden actively harm well-being and drive escalation (W7222527276; W7204606942).
+- Service exclusion and capability inequality accumulating evidence: self-checkout design gaps (W7197051994), dignity violations (W7204466776), comprehension/action burden in disadvantaged areas (W7204606942).
+- Negative WOM diffusion depends on who carries it and the surrounding sentiment mix, not message valence — involvement beats follower count (W7213665568), and the negativity effect breaks down inside already-hostile threads (W7206212528); social proximity of the victim grades reputational cost (W7221524554).
+- Values-based positioning raises expectations of category-standard execution rather than creating a separate scorecard (W7216405737 vs W7203443165); same logic in specialty food, where quality and safety beat assortment (W7222470326).
+- Market structure as a CX variable: common institutional ownership tracks with worse service and higher prices, buffered by customer-asset value (W7223706258) — watch for replication outside airlines.
+- Execution over features in B2B and micro-retail: order accuracy and human contact beat platforms for SME buyers (W7215042510); perceived immediacy rivals quick-commerce logistics (W7215042272).
+- Luxury service erosion via efficiency and extension: reversed conspicuousness (W7214625896) plus automation stripping relational time (W7220919414).
 
 ## Feature ideas already pitched
-- 2026-09-17: "The complaints your customers never file" — voice-of-the-customer data biased by silence, inertia, self-image (W7171377067, W7202198898, W7203645795, W7206172982, W7207820376). MIT SMR, Marketing Week, Retail Dive, The Atlantic.
-- 2026-10-01 (a): "The empathy tax" — humanizing AI service backfires at failure while competence/autonomy works (W7214318124, W7204275888, W7203477409, W7203609438, W7203866299). Marketing Brew, The Drum, HBR, WIRED.
-- 2026-10-01 (b): "Nobody is checking" — verification breaking down on both sides of automated commerce: customer claim inflation, greenwashing detection, flattering AR, review-credibility split, AI-agent trust transfer (W7202155921, W7203821753, W7203598766, W7214683938, W7203638544). Digiday, Modern Retail, Fast Company, The Guardian.
-- Still unpitched: AI-authority and severity-triage configuration feature (W7203673228, W7171856573, W7201883691, W7214671269); "the smart store that never arrived" built on phygital audit + context mechanisms (W7202296676, W7213352682, W7169838255); service exclusion/dignity thread if evidence accumulates.
+- 2026-09-17: "The complaints your customers never file" — voice-of-the-customer biased by silence, inertia, self-image (W7171377067, W7202198898, W7203645795, W7206172982).
+- 2026-10-01 (a): "The empathy tax" — humanizing AI service backfires at failure while competence works (W7214318124, W7204275888, W7203477409, W7203609438, W7203866299).
+- 2026-10-01 (b): "Nobody is checking" — verification breaking down on both sides of automated commerce (W7202155921, W7203821753, W7203598766, W7214683938, W7203638544).
+- 2026-10-29: "The uncosted frontline" — customer abuse, dual sell-and-serve roles, stressor type and theft/sabotage as the hidden input to experience (W7220440663, W7221728768, W7221898122, W7223658951). Retail Dive, MIT SMR, Restaurant Business, Vox.
+- Still unpitched: service exclusion/comprehension-burden feature (W7204606942, W7197051994, W7204466776, W7222527276); "who owns your options" market-structure angle (W7223706258); AI-authority and severity-triage configuration feature (W7203673228, W7201883691, W7214671269).
