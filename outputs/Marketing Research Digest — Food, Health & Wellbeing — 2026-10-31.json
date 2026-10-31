@@ -1,0 +1,893 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-10-31",
+  "days_back": 60,
+  "window_from": "2026-09-01",
+  "window_to": "2026-10-31",
+  "focus": "Food, Health & Wellbeing",
+  "topic": "food, health & wellbeing",
+  "query": "food OR nutrition OR \"healthy eating\" OR alcohol OR tobacco OR vaping OR \"health communication\" OR wellbeing OR \"well-being\" OR obesity",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 346,
+    "not_research": 7,
+    "no_abstract": 58,
+    "off_topic": 5,
+    "already_covered": 63,
+    "over_journal_cap": 73,
+    "over_cap": 100,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7223232846",
+      "headline": "A popular \"brain training\" fix for junk food cravings just failed its biggest online test",
+      "the_study": "In a pre-registered randomized controlled trial, 512 UK adults (47.6% female, mean age 41.7) completed either food-specific inhibitory control training — a computerized task that repeatedly trains people to withhold a response to unhealthy food cues — or a control version, then placed a hypothetical order on a mock pizza delivery site modeled on a popular UK chain. Trained participants ordered an average of 1,270 calories versus 1,287 in the control group, a difference indistinguishable from zero, and were no less likely to order a pizza dish. Bayesian analysis actively favored the null hypothesis rather than merely failing to detect an effect.",
+      "why_it_matters": "Inhibitory control training has been marketed and studied as a scalable digital nudge for healthier eating; this well-powered test suggests it does nothing to food ordering on its own, which matters for anyone building app-based behavior change products.",
+      "story_angle_primary": "Wellness and health-tech brands licensing \"cue devaluation\" games should demand evidence from realistic ordering environments, not single-session lab tasks — and treat this as a warning that lab-validated nudges often evaporate once delivered online at scale.",
+      "story_angle_secondary": "If you have tried a tap-to-resist food game on your phone, this is a reason to be skeptical: the training did not change what people put in their basket at all.",
+      "caveats": "Hypothetical orders on a mock delivery site rather than real purchases; online panel; single session with immediate measurement only; single country (UK) and a single food category (pizza delivery).",
+      "journal": "Appetite",
+      "published": "2026-10-22",
+      "doi": "10.1016/j.appet.2026.108805",
+      "paper_title": "A failure of food-specific inhibitory control training to affect food choices via a hypothetical food delivery platform",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7223275804",
+      "headline": "Consumers rate the green policies that work least as the ones most likely to work",
+      "the_study": "Researchers ran three choice-based conjoint experiments with Australian student and general-population samples, asking people to judge which environmental policies would be most effective across informational, economic and regulatory policy types, in three contexts: plant-based food, electric vehicles and sustainably sourced clothing. Respondents consistently judged \"facilitating\" policies (incentives, information, enabling rules) as more effective than \"constraining\" ones (taxes, bans, restrictions) — the reverse of what the empirical evidence on policy impact suggests. Conditional multinomial logit models showed the pattern held across all three policy types and all three categories.",
+      "why_it_matters": "It identifies a predictable gap between what the public believes works and what actually shifts behavior, which maps exactly onto where sustainability regulation faces resistance.",
+      "story_angle_primary": "Brands lobbying on or communicating about sustainability rules can expect carrots to be read as effective and sticks as ineffective regardless of evidence — a cue to test message framing that explains why restrictive measures work before they land.",
+      "story_angle_secondary": "Our instincts about which green policies will move the needle are systematically off: we overrate being nudged and underrate being constrained, even though constraint tends to deliver more change.",
+      "caveats": "Australian samples only, including students; hypothetical policy choices rather than real political or purchase behavior; perceived effectiveness is self-reported judgment.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-23",
+      "doi": "10.1108/ejm-05-2025-0383",
+      "paper_title": "Investigating pro-environmental policy effectiveness from a consumer perspective",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7223010138",
+      "headline": "Thinking about death makes people want less stuff — but only the right kind of thinking",
+      "the_study": "Across five studies with 1,831 participants, combining experimental manipulations, surveys and a field intervention, researchers separated two ways of confronting mortality: reflective contemplation of life's transience versus anxious fear of death. Death reflection increased people's inclination toward voluntary simplicity (buying and owning less), while death anxiety pushed the opposite way. A sense of personal authenticity explained both effects, and the reflection route in turn predicted greater flourishing.",
+      "why_it_matters": "Mortality salience has long been assumed to trigger defensive, status-seeking consumption; this evidence says the reflective version does the reverse, with implications for how minimalism, sustainability and wellbeing programs are framed.",
+      "story_angle_primary": "Brands in sustainability, wellness and financial services could test reflective, legacy-and-meaning framing rather than anxiety-based urgency — but note that the lever here is calm contemplation, and fear-based messaging may backfire into more consumption.",
+      "story_angle_secondary": "The difference between dreading death and reflecting on it appears to shape how much you want to own: the reflective version leaves people feeling more authentic, buying less, and reporting they are flourishing more.",
+      "caveats": "Largely self-reported simplicity rather than observed purchases; the authors note a narrow age range; mechanism evidence is mediational, not experimentally isolated.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-20",
+      "doi": "10.1108/ejm-03-2025-0215",
+      "paper_title": "From surviving to thriving: the effect of death reflection on voluntary simplicity and flourishing",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7224627412",
+      "headline": "Fussy eating starts earlier than you think: babies' feeding patterns in month one predict pickiness at a year",
+      "the_study": "Australian parents of infants aged four months or younger were followed across five waves to 12 months, with 330 complete cases (327 of them mothers). Group-based trajectory analysis of parent-reported satiety responsiveness and slowness in eating identified three stable groups — least, intermediate and most food-avoidant — with avoidance declining only slightly over the first year. Infants in the most avoidant group showed significantly higher food fussiness at 12 months, though trajectory group was unrelated to vegetable intake at that age.",
+      "why_it_matters": "Avoidant feeding styles appear to be established and persistent within the first months of life, suggesting that interventions and baby-food marketing aimed at \"fixing\" pickiness at toddlerhood may be arriving late.",
+      "story_angle_primary": "Infant nutrition brands and health programs could look at the earliest months, not the toddler years, as the window for support — and should be cautious about claiming vegetable-intake benefits, since this study found no link between early avoidance and how many vegetables babies actually ate.",
+      "story_angle_secondary": "For new parents: a baby who eats slowly and fills up fast is showing a trait that tends to persist, not a phase — but it did not translate into eating fewer vegetables by their first birthday.",
+      "caveats": "All measures are parent-reported; sample is almost entirely mothers, Australian, and likely skewed toward engaged volunteers; observational design cannot establish causation; modest sample (N=330) with attrition; horizon limited to 12 months.",
+      "journal": "Appetite",
+      "published": "2026-10-29",
+      "doi": "10.1016/j.appet.2026.108804",
+      "paper_title": "Australian infants’ food avoidance trajectory groups across the first year of life and associations with food fussiness and vegetable intake at 12 months",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7224916875",
+      "headline": "Before the first puff: what makes teenagers open to vaping, across 63 studies",
+      "the_study": "A systematic review screened Scopus, Web of Science and PubMed and synthesized 63 empirical studies on what makes 11- to 25-year-olds who have never vaped open to starting. The most consistently supported risk factors were positive beliefs and attitudes about e-cigarettes, peer vaping and exposure to e-cigarette marketing; the most consistent protective factor was holding negative risk beliefs. The authors map these into a framework linking the commercial marketing-mix environment to the prevention and information environment.",
+      "why_it_matters": "It pinpoints marketing exposure as one of only three robust pre-initiation risk factors, strengthening the evidentiary case for restrictions on how vapes are promoted, packaged and placed.",
+      "story_angle_primary": "For brand and policy teams across regulated categories, this is a template for how pre-initiation evidence gets assembled into regulatory argument — watch for marketing-mix exposure, not just advertising, becoming the unit of restriction.",
+      "story_angle_secondary": "Openness to vaping forms before anyone tries it, shaped largely by friends, beliefs about harm, and the promotional environment young people move through.",
+      "caveats": "A systematic review rather than new primary data or a quantitative meta-analysis; included studies are largely cross-sectional and measure susceptibility, intention or willingness rather than actual initiation; pooled across varied countries and measurement approaches.",
+      "journal": "Journal of Public Policy & Marketing",
+      "published": "2026-10-29",
+      "doi": "10.1177/07439156261505782",
+      "paper_title": "EXPRESS: Early Vaping Openness among Adolescent and Young Adult Never-Users: A Systematic Review and Conceptual Framework",
+      "source_id": "S37376905"
+    },
+    {
+      "work_id": "W7220360145",
+      "headline": "Meditation seems to change what people buy — but mainly for beginners",
+      "the_study": "Two studies tested whether mindfulness improves wellbeing by changing consumption. A two-month guided meditation intervention with postgraduate students raised both mindfulness and self-reported \"mindful consumption\" relative to a control group. A follow-up survey of 503 consumers (74% non-students) found that the route from mindfulness to life satisfaction ran through mindful consumption among new meditators, but not among regular meditators, for whom mindfulness fed life satisfaction directly.",
+      "why_it_matters": "It suggests that the window in which mindfulness practice reshapes buying behavior is early, and that experienced meditators get their wellbeing gains elsewhere — relevant to anyone positioning products around intentional or conscious consumption.",
+      "story_angle_primary": "Wellness and sustainable-consumption brands targeting mindfulness audiences may find behavior change leverage among newcomers rather than committed practitioners; worth testing whether \"conscious consumption\" messaging lands differently by practice experience.",
+      "story_angle_secondary": "If you have just started meditating, changes in how you shop may be part of why you feel better; long-time practitioners appear to get the benefit more directly.",
+      "caveats": "Study 1 used postgraduate students; mindful consumption and life satisfaction are self-reported, not observed purchasing; Study 2 is a cross-sectional survey and cannot establish causation; the mediation evidence rests on post-intervention associations rather than randomized tests of the mechanism.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-05",
+      "doi": "10.1002/mar.70274",
+      "paper_title": "When Does Mindfulness Translate Into Consumer Well‐Being? The Role of Mindful Consumption and Meditation Regularity",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7223189021",
+      "headline": "\"Natural\" beats \"tastes like chicken\": what really sells meat alternatives",
+      "the_study": "Researchers ran an online experimental survey with 300 UK consumers, testing acceptance of three meat alternatives — plant-based chicken, tofu and chickpeas — against three product characteristics: sensory similarity to meat, perceived nutritional equivalence, and perceived naturalness. All three predicted acceptance, but perceived naturalness had by far the strongest effect; the model explained 33% of the variance in acceptance. Notably, participants did not perceive any nutritional differences between the three very different products.",
+      "why_it_matters": "The plant-based category has spent years engineering meat mimicry, but this suggests the bigger lever may be convincing people the product is natural and minimally processed — and that consumers are largely unable to judge nutrition for themselves.",
+      "story_angle_primary": "Worth testing whether naturalness cues — short ingredient lists, whole-food framing, visible legumes — move trial more than \"indistinguishable from meat\" claims in your category. This is a UK online study, so treat it as a hypothesis to validate with real shelf tests rather than a repositioning mandate.",
+      "story_angle_secondary": "Shoppers believe they're making nutritional judgments in the meat-alternative aisle, but in this study they rated chickpeas, tofu and processed plant-based chicken as nutritionally equivalent — a useful reminder to read the label rather than trust the vibe.",
+      "caveats": "Online survey with hypothetical product stimuli rather than real purchases; single country (UK); N=300 across three product conditions; self-reported acceptance rather than observed behavior.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-10-22",
+      "doi": "10.1016/j.foodqual.2026.106149",
+      "paper_title": "More than taste or nutrition: How perceived naturalness shapes acceptance of meat alternatives",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7223183113",
+      "headline": "People who think they're green shoppers tune out green products",
+      "the_study": "Across four studies using biometric attention measures alongside experiments, researchers tracked how consumers process sustainability cues on food products moment by moment. They found that noticing sustainability information is not enough: purchase intention depended on emotional engagement with the product. Consumers with an illusory superiority bias — those who believed they were more sustainable than other people — showed reduced emotional engagement, apparently feeling they had already done enough. Correcting that illusion produced contempt in response to the feedback, which then increased engagement as a form of self-affirmation.",
+      "why_it_matters": "It reframes the sustainability intention–behavior gap as a multi-stage attention and emotion problem, and identifies self-flattery as an active barrier rather than a neutral trait.",
+      "story_angle_primary": "Eye-tracking data showing shoppers looked at your eco-label may be measuring nothing useful; consider testing emotional engagement metrics instead. Also worth examining whether messaging that flatters already-committed green consumers inadvertently licenses them to disengage.",
+      "story_angle_secondary": "The belief that you're greener than average may be the very thing stopping you from buying the greener product — a quiet form of moral licensing playing out in the supermarket aisle.",
+      "caveats": "Abstract does not report sample sizes, composition or country; the corrective-feedback mechanism (contempt driving self-affirmation) is counterintuitive and needs replication; lab and biometric settings rather than real purchase environments.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-10-22",
+      "doi": "10.1002/mar.70289",
+      "paper_title": "Attend But Disengage: How Illusory Superiority Disrupts Sustainable Food Decision‐Making",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7223125428",
+      "headline": "Knowing where food comes from doesn't make people buy local — effort does",
+      "the_study": "Researchers surveyed quota-controlled samples of urban consumers in Brazil (N=1,003) and Portugal (N=408) about motivational, cognitive, attitudinal and contextual drivers of regularly eating local and seasonal food. Self-reported effort was the only factor consistently tied to regular consumption in both countries. Knowledge of provenance or seasonality failed to predict behavior at all. Beyond that, drivers diverged: perceived quality and income mattered in Brazil, while local identity and education mattered in Portugal.",
+      "why_it_matters": "It undercuts the dominant public-policy and marketing assumption that educating consumers about seasonality and provenance will change what they buy, and shows that the persuasive levers differ sharply even between two Portuguese-speaking urban markets.",
+      "story_angle_primary": "If your local-sourcing campaign is built on consumer education, this suggests the money may be better spent reducing friction — availability, convenience, distribution. And it argues against copy-pasting one market's positioning (quality in Brazil, identity in Portugal) across borders.",
+      "story_angle_secondary": "Buying local turns out to be less about what you know and more about how much hassle you're willing to absorb — a structural problem dressed up as a values problem.",
+      "caveats": "Cross-sectional survey, so it cannot establish causation; self-reported consumption rather than observed purchases; unbalanced samples across two countries; urban consumers only.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-10-21",
+      "doi": "10.1016/j.foodqual.2026.106157",
+      "paper_title": "Perceptions and attitudes of Brazilian and Portuguese urban consumers towards local and seasonal foods",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7224137779",
+      "headline": "A premium price tag won't make your organic claim more believable",
+      "the_study": "Two quota-aligned web samples of Japanese adults (N=6,500 total) were shown either values-oriented or business-oriented producer messaging for organic food, with premium presentation randomized within each. Message framing drove the clearest differences in what motives consumers attributed to producers — egoistic, values-driven or strategic — and in their skepticism. Premium presentation had only selective effects, and the predicted framing-by-premium interaction did not hold.",
+      "why_it_matters": "It suggests that how an organic producer explains its motives matters more to trust than how upmarket the product looks, and that premium cues can't paper over an unconvincing claim.",
+      "story_angle_primary": "Test whether your sustainability and organic copy survives the \"why are you really telling me this\" question; the study's practical conclusion is that motive-relevant claims need verifiable evidence rather than premium design cues. Note that premium presentation wasn't fully randomized against framing, so the interaction null is weaker than it looks.",
+      "story_angle_secondary": "Consumers are running a quiet attribution test on every organic label — asking whether the producer believes it or is selling it — and premium packaging doesn't settle the question.",
+      "caveats": "Not a fully randomized 2×2 factorial; stated purchase intention rather than actual purchase; single country (Japan); online panel; four-motive framework's distinctiveness was itself only partly supported.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-28",
+      "doi": "10.1111/ijcs.70274",
+      "paper_title": "Motive Attributions in Organic Food Communication: Message Framing, Premium Presentation, Scepticism and Purchase Intention",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7224129116",
+      "headline": "Shoppers don't read every label — a third use them all, and 42% mostly chase price",
+      "the_study": "Researchers ran a cross-country discrete choice experiment in Denmark (n=502) and Slovenia (n=508), showing consumers sweet snacks and ready meals carrying combinations of a binary eco-label, an Eco-Score, a Nutri-Score and price. Latent class analysis found three consistent segments: price-conscious (42%), all-labels (32%) and nutrition-conscious (26%). The same person could fall into a different segment depending on the product category, and the price-conscious group stood apart on environmental consciousness and sustainability knowledge rather than demographics.",
+      "why_it_matters": "Regulators and brands keep adding front-of-pack labels on the assumption more information helps, but the largest segment effectively ignores them and uses price as a shortcut — meaning label stacking may raise clutter without changing most choices.",
+      "story_angle_primary": "Before adding another badge to the front of pack, test whether your category's shoppers actually trade off labels or default to a single cue; the study suggests label effects are segment- and category-specific, so A/B testing by category and tailored digital or app-based label delivery may beat a universal on-pack solution.",
+      "story_angle_secondary": "Most of us think we read labels, but this research suggests people quietly pick one cue — often price — and stop there, and which cue we use changes between a frozen dinner and a packet of biscuits.",
+      "caveats": "Hypothetical choice experiment rather than observed purchases; two countries and two product categories only; segments are statistically inferred, not directly observed.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-10-27",
+      "doi": "10.1111/ijcs.70276",
+      "paper_title": "The More, the Merrier? Effects of the Joint Presence of Eco‐Score, Nutri‐Score and Binary Eco‐Labels on Consumer Food Choices Across Two Countries",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7224004846",
+      "headline": "Holding something heavy made ice cream taste crispier",
+      "the_study": "In a two-part sensory experiment, 24 participants first rated the tactile properties of eight materials (including lead, felt, sandpaper, cotton and double-sided tape), then tasted monaka ice cream — a crispy wafer shell with a smooth vanilla interior — while holding each material. Crispness ratings were significantly higher in the lead (heavy) condition than with cotton or an antislip sheet, while smoothness and softness rose in the cotton condition versus sandpaper. Overall preference was highest with felt and lowest with double-sided tape and the antislip sheet, even when specific texture ratings didn't differ.",
+      "why_it_matters": "It extends 'sensation transference' to multilayered foods: what a package feels like in the hand may shift how crisp or smooth the product inside seems, and how much people like it.",
+      "story_angle_primary": "Treat packaging tactility as a product attribute, not just a graphics decision — worth testing whether substrate weight and surface finish measurably move crispness, creaminess and liking scores in your own sensory panels before chasing thinner, cheaper films.",
+      "story_angle_secondary": "Your senses leak into each other: the wrapper in your fingers is quietly editing the dessert in your mouth.",
+      "caveats": "Exploratory study with only 24 participants, one product and a lab tasting setting; several materials (lead, double-sided tape) are not realistic packaging; findings are associations between hand-feel and ratings, not a demonstrated packaging effect at retail.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-10-27",
+      "doi": "10.1016/j.foodqual.2026.106156",
+      "paper_title": "Extrinsic hand-feel textures and oral-somatosensory texture ratings of a composite food: A study with monaka ice cream",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7223008126",
+      "headline": "Americans aren't just vaping more — they're vaping far more often",
+      "the_study": "Using seven waves of the nationally representative PATH study (2013–14 through 2022–23), researchers calculated total population 'vaping days' — combining how many people vape with how frequently. Past-30-day vaping rose 45%, but total vaping days rose 183% and daily vaping rose 230%. Among people under the legal purchase age of 21 who had vaped in the past month, vaping days more than quadrupled (+337%), accounting for 16% of all vaping days in 2022–23; adult vaping days have kept rising since the pandemic.",
+      "why_it_matters": "Prevalence headlines understate the problem: the shift is toward heavier, more habitual use, which matters more for nicotine dependence, health burden and the economics of the category than headcounts alone.",
+      "story_angle_primary": "For anyone tracking nicotine, wellness or harm-reduction categories, intensity metrics — frequency and consumption volume, not just penetration — are the leading indicator regulators and investors will increasingly look at.",
+      "story_angle_secondary": "Vaping has quietly moved from occasional to daily for a large share of users, including many under 21, which is the pattern that makes quitting hardest.",
+      "caveats": "Repeated cross-sectional, self-reported survey data from a single country; descriptive trends cannot attribute causes such as policy changes or product design.",
+      "journal": "Tobacco Control",
+      "published": "2026-10-20",
+      "doi": "10.1136/tc-2026-060142",
+      "paper_title": "Trends in vaping in the US population between 2013 and 2023: changes in vaping days among youth versus adults",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7224750355",
+      "headline": "Small talk still restores hybrid workers — unless it's over chat",
+      "the_study": "A one-week experience sampling study tracked 26 employees in hybrid settings across 549 surveys about specific communication episodes with coworkers. Episodes that were more informal than that person's norm were linked to higher 'striving potential' (pleasantness, meaningfulness), which in turn predicted greater satisfaction of relatedness needs and a better relatedness-to-energy ratio. Text-based exchanges cost less energy but also delivered significantly less relatedness than audio-visual ones.",
+      "why_it_matters": "It suggests informal chatter is a genuine well-being resource at work, but the channel matters: typing is cheap and low-connection, while voice and video buy belonging at an energy cost.",
+      "story_angle_primary": "Internal communications and employer-brand teams can treat channel choice as a well-being lever — test whether deliberately moving some informal interaction to short audio or video formats improves team relatedness without burning people out.",
+      "story_angle_secondary": "If remote work leaves you feeling oddly lonely despite constant messaging, this study offers an explanation: text keeps you informed but barely touches the need to feel connected.",
+      "caveats": "Only 26 participants over one week, self-reported momentary measures, and within-person associations rather than experimental causation; single-study design with no industry partner named.",
+      "journal": "Corporate Communications An International Journal",
+      "published": "2026-10-30",
+      "doi": "10.1108/ccij-03-2026-0101",
+      "paper_title": "Connected or drained? An experience sampling study on informal communication and well-being in hybrid work settings",
+      "source_id": "S193408319"
+    },
+    {
+      "work_id": "W7221437963",
+      "headline": "At stadium concerts, fans buy the T-shirt before the beer",
+      "the_study": "Researchers observed retail behavior at 19 live music concerts across 10 UK sports stadiums, combining participant observation with informal conversations with 375 attendees, then analyzed the material thematically. Concertgoers consistently prioritized merchandise over food and beverages: tour shirts and other branded goods were valued as lasting identity markers and as props for smartphone photos and social posts, and they were easy to carry through crowded, time-pressured spaces. Food and drink, by contrast, were seen as fleeting, overpriced, and awkward to consume in dense standing crowds with limited time.",
+      "why_it_matters": "Stadiums and promoters typically build operations around food and beverage capacity, but this suggests the merchandise line is where discretionary spending and emotional value concentrate during high-density, time-bound events.",
+      "story_angle_primary": "Venue and tour retail teams could test reallocating floor space, staffing and queue design toward merchandise, and test pre-order or seat-delivery models for food and drink. Treat merchandise as a photographable identity product, not just inventory, and watch whether \"spatial compatibility\" — can a customer actually carry and use this here? — predicts category performance in other crowded retail settings such as festivals, airports and sports events.",
+      "story_angle_secondary": "It explains a familiar experience: why you'll happily queue 20 minutes for a tour shirt but resent paying for a warm beer. What fans are buying at a concert is proof they were there, and that makes merchandise far less price-sensitive than refreshments.",
+      "caveats": "Qualitative observation and informal conversations, not measured purchases or sales data; single country (UK) and a specific event type; findings are interpretive patterns rather than quantified effects.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-10-28",
+      "doi": "10.1108/ijrdm-12-2025-0931",
+      "paper_title": "Merchandise and retail behaviour at music concerts in sports stadiums",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7223696657",
+      "headline": "There is such a thing as too much ESG publicity, food and beverage stock data suggests",
+      "the_study": "Researchers analyzed publicly listed US food and beverage firms, linking the volume of ESG-related media coverage (\"ESG media buzz\") to firm value and firm risk. They found an inverted U-shaped relationship with firm value — visibility helps up to a point, then starts to hurt — and a U-shaped relationship with risk, meaning both very low and very high ESG visibility are associated with greater risk. The value benefit of ESG buzz was weaker for firms whose strategy emphasized value appropriation (extracting margin) over value creation.",
+      "why_it_matters": "It suggests communications teams should manage ESG visibility as a dose with an optimum, not a volume to maximize, and that loud sustainability messaging can backfire for firms investors see as more focused on extraction than on creating value.",
+      "story_angle_primary": "Benchmark your ESG share of voice against peers rather than chasing more coverage, and pressure-test whether your operating story supports the claims: the data indicates heavy ESG buzz pays off less for firms perceived as margin-first. Worth examining whether your own media peaks coincide with investor skepticism or greenwashing accusations.",
+      "story_angle_secondary": "When a food brand suddenly seems to be talking about sustainability everywhere, markets can read it as noise or even as a red flag rather than as proof of substance — a useful filter for shoppers trying to judge which corporate green claims mean anything.",
+      "caveats": "Observational archival analysis of one sector (US food and beverage) and one country, so causality cannot be established and findings may not generalize to other industries; media buzz measures visibility, not the quality or sincerity of ESG activity.",
+      "journal": "Journal of Marketing Management",
+      "published": "2026-10-26",
+      "doi": "10.1080/0267257x.2026.2752144",
+      "paper_title": "ESG media buzz and firm performance: the moderating effect of firms’ strategic emphasis",
+      "source_id": "S14291815"
+    },
+    {
+      "work_id": "W7221783757",
+      "headline": "Call it \"veggie\" and the health-conscious will buy your indulgent snack — guilt, not taste, does the selling",
+      "the_study": "Across three experiments, researchers labeled the same indulgent (\"vice\") food product with either a vegetable-based cue or a meat-based cue and measured purchase intentions, perceived tastiness and guilt. Health-conscious consumers were significantly more likely to buy the vegetable-labeled version even though they expected it to taste worse — the label lowered their guilt. Less health-conscious consumers went the other way, buying on the taste promise of meat-based labels, and extra claims such as \"reduced sodium\" or \"natural and additive-free\" could actually backfire with them over fears the product would taste flat.",
+      "why_it_matters": "It suggests health language on indulgent food works less as information than as guilt relief, and that the same claim can lift one segment and repel another on the same shelf.",
+      "story_angle_primary": "Food brands could test health cues as permission devices rather than nutrition messaging — but the segmentation risk is real, so A/B the same SKU with and without claims across audiences before rolling a label change out nationally. These were purchase-intention experiments, so what they show is a plausible mechanism, not a guaranteed sales lift.",
+      "story_angle_secondary": "A reminder for shoppers: a vegetable or \"additive-free\" cue on a treat may be quieting your conscience more than it is changing what is actually in the package.",
+      "caveats": "Experimental stimuli with stated purchase intentions rather than real purchases; sample composition and country not specified in the abstract; single product framing.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-14",
+      "doi": "10.1002/cb.70258",
+      "paper_title": "Tempting the Palate, Testing the Conscience: How Health Cues Shape the Allure of Vice Foods",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7220842762",
+      "headline": "Students said they knew better — then left 51 grams of food on the plate anyway",
+      "the_study": "Researchers in a university dining hall surveyed 422 diners with a 31-item questionnaire and then physically weighed each person's avoidable plate waste after the meal. Average waste was 51.5 grams per person, higher at lunch and higher among female diners. Sensory satisfaction, self-perceived waste behavior and intention to reduce waste tracked actual measured waste, while knowledge about food waste, portion-size perception and available eating time affected only what people *thought* they wasted — not what they actually left behind.",
+      "why_it_matters": "It is direct evidence that awareness campaigns can move perceptions without moving the bin, and that how good the food tastes may matter more than how informed the diner is.",
+      "story_angle_primary": "For food service and institutional catering brands, the lever here is product quality and portion control rather than posters about waste — worth testing whether recipe and serving changes cut measured waste more than educational signage does.",
+      "story_angle_secondary": "People systematically misjudge how much food they throw away; the study's pairing of surveys with scales shows the gap between the waste we admit to and the waste we create.",
+      "caveats": "Single dining hall in one country; cross-sectional design so causal claims are limited; PLS-SEM on self-report linked to one-off waste measurement; short time horizon.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-10-07",
+      "doi": "10.1016/j.jretconser.2026.105154",
+      "paper_title": "When perception meets reality: explaining measured food waste through consumer behavior in a university dining hall",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7224090846",
+      "headline": "Plain cigarette packs dull the appeal and lift quit intentions — and the illicit-trade warning never materialized",
+      "the_study": "An overview of systematic reviews pulled together five systematic reviews published between 2017 and 2022 on tobacco plain packaging, covering pack appeal, warning effectiveness, attitudes, and smoking, cessation and purchasing behavior. The evidence consistently showed plain packaging reduces pack appeal and positive perceptions of smoking, and does not increase illicit tobacco trade — the tobacco industry's central counterargument. Effects on actual smoking prevalence, consumption and quitting remained inconclusive, though quit intentions rose among smokers.",
+      "why_it_matters": "It tightens the evidence base behind one of the most aggressive branding restrictions ever imposed on an industry, and is a reference point as regulators eye similar packaging rules for alcohol, vapes and high-sugar foods.",
+      "story_angle_primary": "Brand leaders in regulated or regulation-adjacent categories should read this as the template: packaging is being treated as advertising, and the strongest demonstrated effect is on appeal and perception rather than on measured consumption — which is exactly the standard future rules may be judged by.",
+      "story_angle_secondary": "Packaging design does real work on desire. Strip the colors, fonts and logo from a product and people find it less attractive — a tidy illustration of how much of what we want is the wrapper.",
+      "caveats": "Evidence synthesis rather than new primary data (a review of reviews); included reviews span only to 2022; English-language peer-reviewed publications only; behavioral outcomes remain inconclusive.",
+      "journal": "Tobacco Control",
+      "published": "2026-10-28",
+      "doi": "10.1136/tc-2026-060399",
+      "paper_title": "Effectiveness of plain packaging for tobacco products: an overview of systematic reviews",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7220982864",
+      "headline": "Shoppers judge near-expiry canned goods more harshly than near-expiry fresh food",
+      "the_study": "Two experiments (N=111 and N=210) tested how the perceived nearness of a product's expiry date shapes willingness to buy, and why. Perceived health risk explained the drop in purchase intentions. The surprise: the health-risk penalty was stronger for *non-perishable* foods than for perishable ones — the opposite of what the researchers predicted, suggesting consumers may treat a looming date on a shelf-stable item as a signal that something is wrong.",
+      "why_it_matters": "Retailers discounting near-expiry stock to cut food waste may be misallocating effort if the hardest category to shift is the pantry aisle rather than the chiller.",
+      "story_angle_primary": "Grocery retailers running markdown or \"rescue\" programs could test category-specific reassurance messaging — explaining what best-before actually means on shelf-stable goods — and watch whether non-perishables need deeper discounts than fresh to move.",
+      "story_angle_secondary": "Many people quietly assume a date on a can or packet signals safety rather than peak quality, which may be why perfectly good pantry food gets passed over and binned.",
+      "caveats": "Online/lab experiments with hypothetical purchase intentions rather than observed buying; small samples (study 1 N=111 across conditions); single-country context; no real discount or price manipulation reported.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-10-08",
+      "doi": "10.1108/apjml-01-2026-0151",
+      "paper_title": "How and when perceived nearness to the expiry date influences purchase intentions for near-expiry food products",
+      "source_id": "S191031105"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7223232846",
+      "headline": "A popular \"brain training\" fix for junk food cravings just failed its biggest online test",
+      "verdict": "minor",
+      "notes": "Numbers and null-result framing match the abstract; participants' nationality and the generalization about lab nudges go slightly beyond it.",
+      "issues": [
+        {
+          "label": "Participant nationality not stated in abstract",
+          "severity": "Minor",
+          "as_written": "512 UK adults (47.6% female, mean age 41.7)",
+          "abstract_says": "we administered ICT online (vs a control group) to 512 individuals (47.6% female, mean age = 41.68)",
+          "problem": "The abstract reports 512 individuals and a mock site \"based on a popular UK chain\" but never states the sample was UK-based. Unverifiable from abstract only.",
+          "suggested_fix": "Say \"512 adults\" and note the mock site was modelled on a UK chain, or confirm sample nationality from the full text."
+        },
+        {
+          "label": "Generalization beyond the single trial",
+          "severity": "Minor",
+          "as_written": "treat this as a warning that lab-validated nudges often evaporate once delivered online at scale",
+          "abstract_says": "Whilst single-session laboratory evidence suggests ICT may be a promising intervention, online studies show equivocal results... findings of this study suggest ICT delivered online is unlikely to be an effective stand-alone intervention",
+          "problem": "The abstract supports a conclusion about inhibitory control training specifically (and calls prior online results \"equivocal\"), not a general rule that lab-validated nudges \"often evaporate\" online.",
+          "suggested_fix": "Limit the claim to inhibitory control training, e.g. \"a reminder that this particular lab-validated task did not transfer to an online ordering context.\""
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7223275804",
+      "headline": "Consumers rate the green policies that work least as the ones most likely to work",
+      "verdict": "minor",
+      "notes": "Design, analysis and the perceived-effectiveness finding are reported accurately; the claim that constraining policies actually deliver more change is an inference the abstract only gestures at.",
+      "issues": [
+        {
+          "label": "Strength of the \"what actually works\" claim",
+          "severity": "Minor",
+          "as_written": "we overrate being nudged and underrate being constrained, even though constraint tends to deliver more change",
+          "abstract_says": "Findings highlight a fundamental misalignment between consumer-perceived and empirically assessed policy effectiveness.",
+          "problem": "The abstract reports a misalignment with empirical effectiveness but does not itself quantify or assert that constraining policies deliver more behaviour change; the digest states it as established fact.",
+          "suggested_fix": "Attribute the comparison to the external evidence base the authors cite, e.g. \"which the authors note runs counter to empirical assessments of policy effectiveness.\""
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7223010138",
+      "headline": "Thinking about death makes people want less stuff — but only the right kind of thinking",
+      "verdict": "minor",
+      "notes": "Five studies, n=1,831, methods and the reflection/anxiety contrast all match; the flourishing link is labelled exploratory in the abstract.",
+      "issues": [
+        {
+          "label": "Flourishing result was exploratory",
+          "severity": "Minor",
+          "as_written": "and the reflection route in turn predicted greater flourishing",
+          "abstract_says": "Exploratory analyses further reveal that death reflection promotes voluntary simplicity by enhancing authenticity, which, in turn, fosters flourishing.",
+          "problem": "The digest presents the flourishing pathway on the same footing as the main hypothesised effects, while the abstract flags it as exploratory.",
+          "suggested_fix": "Add \"in exploratory analyses\" before the flourishing claim."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7224627412",
+      "headline": "Fussy eating starts earlier than you think: babies' feeding patterns in month one predict pickiness at a year",
+      "verdict": "significant",
+      "notes": "Sample, trajectory groups, fussiness and the vegetable-intake null are all correct, but the headline misstates the predictor as a single first-month measure.",
+      "issues": [
+        {
+          "label": "Headline misstates the predictor",
+          "severity": "Moderate",
+          "as_written": "babies' feeding patterns in month one predict pickiness at a year",
+          "abstract_says": "Australian parents of infants aged ≤4 months were recruited... Food avoidance was measured via parent report of satiety responsiveness and slowness in eating using the Baby Eating Behaviour Questionnaire at waves 1-4... Group-based trajectory analysis identified food avoidance groups from waves 1-4.",
+          "problem": "The predictor is trajectory-group membership estimated across four waves of infants recruited at up to four months old — not feeding patterns measured in the first month of life. Readers could take away that a one-month snapshot forecasts fussiness.",
+          "suggested_fix": "Reword to something like \"infants' food-avoidance trajectory over the first year predicts pickiness at 12 months.\""
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7224916875",
+      "headline": "Before the first puff: what makes teenagers open to vaping, across 63 studies",
+      "verdict": "minor",
+      "notes": "Databases, 63 studies, age range, risk and protective factors and the framework all match; one caveat detail is not checkable from the abstract.",
+      "issues": [
+        {
+          "label": "Study-design characterization in caveats",
+          "severity": "Minor",
+          "as_written": "included studies are largely cross-sectional and measure susceptibility, intention or willingness rather than actual initiation; pooled across varied countries and measurement approaches",
+          "abstract_says": "Across these studies, we examined determinants and consumer decision constructs, including how susceptibility, intention, and willingness were operationalized.",
+          "problem": "The susceptibility/intention/willingness point is supported, but \"largely cross-sectional\" and \"varied countries\" are not stated in the abstract. Unverifiable from abstract only.",
+          "suggested_fix": "Keep the susceptibility/intention point and either source the cross-sectional and country-mix claims to the full text or drop them."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7220360145",
+      "headline": "Meditation seems to change what people buy — but mainly for beginners",
+      "verdict": "minor",
+      "notes": "Both studies, N=503 and the 74% non-student figure are correct; one nuance about how meditation regularity operates is dropped.",
+      "issues": [
+        {
+          "label": "Dropped nuance on the moderator",
+          "severity": "Minor",
+          "as_written": "the route from mindfulness to life satisfaction ran through mindful consumption among new meditators, but not among regular meditators, for whom mindfulness fed life satisfaction directly",
+          "abstract_says": "meditation regularity, which strengthens both the mindfulness to mindful consumption association and the direct mindfulness to life satisfaction association, whereas the indirect effect through mindful consumption is significant among new meditators and non-significant among regular meditators",
+          "problem": "The digest implies regular meditators show no mindfulness–mindful consumption link, whereas the abstract says regularity strengthens that association; it is the indirect effect on life satisfaction that is non-significant for them.",
+          "suggested_fix": "Note that regularity strengthened both associations, but the indirect route to life satisfaction via mindful consumption was significant only for new meditators."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7223189021",
+      "headline": "\"Natural\" beats \"tastes like chicken\": what really sells meat alternatives",
+      "verdict": "minor",
+      "notes": "N=300, UK online experimental survey, all three predictors significant and 33% variance explained are accurate; two small embellishments.",
+      "issues": [
+        {
+          "label": "\"By far\" overstates effect comparison",
+          "severity": "Minor",
+          "as_written": "perceived naturalness had by far the strongest effect",
+          "abstract_says": "with perceived naturalness of the product being responsible for the strongest effect",
+          "problem": "The abstract says naturalness had the strongest effect but gives no magnitude comparison supporting \"by far.\"",
+          "suggested_fix": "Drop \"by far\" and say naturalness had the strongest effect of the three."
+        },
+        {
+          "label": "Inference about nutritional ability",
+          "severity": "Minor",
+          "as_written": "and that consumers are largely unable to judge nutrition for themselves",
+          "abstract_says": "results regarding the perception of nutritional properties of meat alternatives revealed that the participants did not perceive differences in nutritional profiles between the stimuli used in the experiment. This highlights the necessity of further research on consumer nutritional assessment of food",
+          "problem": "Not perceiving differences between three specific stimuli is evidence that prompts further research, not a demonstration that consumers are generally unable to assess nutrition.",
+          "suggested_fix": "Reframe as \"participants in this study did not distinguish the nutritional profiles of the three products.\""
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7223183113",
+      "headline": "People who think they're green shoppers tune out green products",
+      "verdict": "minor",
+      "notes": "Four studies, the attention-vs-emotional-engagement sequence and the illusory superiority findings match; the abstract's hedged language and the \"necessary but insufficient\" point are hardened slightly.",
+      "issues": [
+        {
+          "label": "Attention dismissed as uninformative",
+          "severity": "Minor",
+          "as_written": "Eye-tracking data showing shoppers looked at your eco-label may be measuring nothing useful",
+          "abstract_says": "initial attention to sustainability cues is necessary but insufficient to elicit positive emotional responses or support sustainable food purchase decisions",
+          "problem": "The abstract treats attention as necessary, just not sufficient; saying it measures \"nothing useful\" overshoots that and could push readers to abandon a measure the study still treats as a required first stage.",
+          "suggested_fix": "Say attention is a necessary but insufficient signal — pair eye-tracking with emotional engagement measures rather than replacing it."
+        },
+        {
+          "label": "Hedged mechanism stated as fact",
+          "severity": "Minor",
+          "as_written": "Correcting that illusion produced contempt in response to the feedback, which then increased engagement as a form of self-affirmation.",
+          "abstract_says": "when this illusion is corrected, consumers may experience contempt in response to the corrective feedback and in turn, increase emotional engagement with sustainable products as a form of self-affirmation",
+          "problem": "The abstract uses \"may\"; the digest's body text reports the contempt pathway as an established result (the caveat does flag replication need).",
+          "suggested_fix": "Mirror the hedge: \"correcting the illusion may produce contempt, which the authors argue then increases engagement.\""
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7223125428",
+      "headline": "Knowing where food comes from doesn't make people buy local — effort does",
+      "verdict": "minor",
+      "notes": "Sample sizes, country-specific drivers and the knowledge null all match; the headline reads causally for a cross-sectional survey, though the caveat flags this.",
+      "issues": [
+        {
+          "label": "Causal headline for survey data",
+          "severity": "Minor",
+          "as_written": "Knowing where food comes from doesn't make people buy local — effort does",
+          "abstract_says": "The comparative analysis showed that self-reported effort was consistently associated with regular consumption in both countries... Knowledge of provenance or seasonality failed to predict behaviour",
+          "problem": "The abstract reports associations from structured surveys with self-reported consumption; \"effort does\" asserts causation the design cannot support.",
+          "suggested_fix": "Reword to \"effort is the factor that tracks it\" or similar associational phrasing."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7224137779",
+      "headline": "A premium price tag won't make your organic claim more believable",
+      "verdict": "minor",
+      "notes": "N=6,500, the two Japanese web samples, the selective premium effects and the unsupported interaction are reported correctly; the randomization note is garbled and some phrasing is more causal than the abstract.",
+      "issues": [
+        {
+          "label": "Randomization detail reversed",
+          "severity": "Minor",
+          "as_written": "Note that premium presentation wasn't fully randomized against framing, so the interaction null is weaker than it looks.",
+          "abstract_says": "Within each message-specific sample, premium presentation was randomised, yielding four analytical cells rather than a fully randomised 2 × 2 factorial experiment.",
+          "problem": "Premium presentation was randomized; what was not randomized was message framing, which was assigned via two separate samples. As written it misdescribes which factor lacked randomization.",
+          "suggested_fix": "Say premium presentation was randomized within each message sample but framing was not randomized across samples, so the design is not a full 2×2."
+        },
+        {
+          "label": "Causal verb for a non-randomized factor",
+          "severity": "Minor",
+          "as_written": "Message framing drove the clearest differences in what motives consumers attributed to producers",
+          "abstract_says": "Message framing was associated with the clearest differences in egoistic, values-driven and strategic-driven motive attributions and in scepticism",
+          "problem": "Framing was manipulated between two separately recruited samples, not randomized, and the abstract uses \"associated with\"; \"drove\" implies a causal test.",
+          "suggested_fix": "Use \"was associated with the clearest differences.\""
+        },
+        {
+          "label": "Headline says price, study manipulated presentation",
+          "severity": "Minor",
+          "as_written": "A premium price tag won't make your organic claim more believable",
+          "abstract_says": "whether such inferences vary with message framing and premium presentation... premium presentation showed more selective differences",
+          "problem": "The manipulation was premium presentation, not price; and the result was \"more selective differences,\" not a flat null on believability.",
+          "suggested_fix": "Reword to \"premium presentation does little to shift scepticism about an organic claim.\""
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7224129116",
+      "headline": "Shoppers don't read every label — a third use them all, and 42% mostly chase price",
+      "verdict": "minor",
+      "notes": "Segment names, shares and sample sizes all match; small overreaches in the profiling description, the \"ignores labels\" gloss and the app-label recommendation.",
+      "issues": [
+        {
+          "label": "Profiling contrast with demographics not in abstract",
+          "severity": "Minor",
+          "as_written": "the price-conscious group stood apart on environmental consciousness and sustainability knowledge rather than demographics",
+          "abstract_says": "A further profiling analysis clarifies that the price‐conscious segment is distinct in terms of environmental consciousness, sustainability knowledge and other psychographics.",
+          "problem": "The abstract mentions distinctiveness on psychographics but never contrasts this with demographics or says demographics did not differentiate the segment.",
+          "suggested_fix": "Drop \"rather than demographics\" or replace with \"and other psychographics\"."
+        },
+        {
+          "label": "\"Effectively ignores\" labels overstates the segment finding",
+          "severity": "Minor",
+          "as_written": "the largest segment effectively ignores them and uses price as a shortcut — meaning label stacking may raise clutter without changing most choices",
+          "abstract_says": "consumers appear to vary in whether they use labels as focal cues for simplified decision‐making (e.g., lexicographic heuristics) or as input in an information gathering process (compensatory decision‐making)",
+          "problem": "The abstract describes heterogeneous label use and a price-conscious segment, but does not report that this segment ignores labels altogether or that added labels produce clutter without changing choices.",
+          "suggested_fix": "Say the largest segment weighted price most heavily and placed less weight on the labels, rather than that it \"effectively ignores\" them."
+        },
+        {
+          "label": "Tailored digital labels framed as a replacement",
+          "severity": "Minor",
+          "as_written": "tailored digital or app-based label delivery may beat a universal on-pack solution",
+          "abstract_says": "Such heterogeneity in the uses of eco‐labels could be addressed by supplementing product labels with virtual, individually tailored label solutions.",
+          "problem": "The authors suggest supplementing on-pack labels, not that digital solutions outperform or replace them.",
+          "suggested_fix": "Reword to \"supplementing on-pack labels with tailored digital solutions\"."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7224004846",
+      "headline": "Holding something heavy made ice cream taste crispier",
+      "verdict": "minor",
+      "notes": "Design, N, materials and the significant contrasts are reported correctly; preference described as \"highest/lowest\" overstates pairwise contrasts, and the headline is more causal than the abstract's \"associated with\".",
+      "issues": [
+        {
+          "label": "Preference ranking overstated",
+          "severity": "Minor",
+          "as_written": "Overall preference was highest with felt and lowest with double-sided tape and the antislip sheet",
+          "abstract_says": "Preference ratings were higher in the Felt condition than in the Double-sided tape and Antislip sheet conditions, without accompanying differences in specific oral texture ratings.",
+          "problem": "The abstract reports only that felt beat two specific materials, not that felt ranked highest overall or that those two ranked lowest across all eight materials.",
+          "suggested_fix": "Say preference was higher with felt than with double-sided tape and the antislip sheet."
+        },
+        {
+          "label": "Causal headline for an exploratory associational finding",
+          "severity": "Minor",
+          "as_written": "Holding something heavy made ice cream taste crispier",
+          "abstract_says": "These differences suggest that extrinsic hand–feel cues are associated with static oral texture ratings of a composite food.",
+          "problem": "The authors frame the results as associations from an exploratory study and refer to texture ratings rather than taste; the headline asserts causation and uses \"taste\".",
+          "suggested_fix": "Reframe as \"Holding something heavy went with higher crispness ratings for ice cream\"."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7223008126",
+      "headline": "Americans aren't just vaping more — they're vaping far more often",
+      "verdict": "accurate",
+      "notes": "All percentages, waves, age thresholds and the 16% share match the abstract; caveats correctly note the repeated cross-sectional, self-reported design.",
+      "issues": []
+    },
+    {
+      "number": 14,
+      "work_id": "W7224750355",
+      "headline": "Small talk still restores hybrid workers — unless it's over chat",
+      "verdict": "significant",
+      "notes": "Sample and the informality/striving-potential chain are reported correctly, but the digest drops the finding that text-based exchanges had a *more favorable* relatedness-to-energy ratio, which cuts against the headline and \"Why it matters\" gloss; the modality non-moderation is also omitted.",
+      "issues": [
+        {
+          "label": "Dropped finding that text had a better relatedness-to-energy ratio",
+          "severity": "Moderate",
+          "as_written": "Text-based exchanges cost less energy but also delivered significantly less relatedness than audio-visual ones.",
+          "abstract_says": "text-based (vs audio-visual) exchanges were significantly associated with lower relatedness and energy expenditure and a higher relatedness-to-energy ratio",
+          "problem": "The abstract reports that text was associated with a *higher* (more favorable) relatedness-to-energy ratio, which the digest omits; the headline (\"unless it's over chat\") and the \"typing is cheap and low-connection\" framing imply text fares worse overall than the data show.",
+          "suggested_fix": "Add that text exchanges, while lower on relatedness, showed a more favorable relatedness-to-energy ratio, and soften the headline accordingly."
+        },
+        {
+          "label": "Omitted non-moderation by modality",
+          "severity": "Minor",
+          "as_written": "It suggests informal chatter is a genuine well-being resource at work, but the channel matters",
+          "abstract_says": "Communication modality did not moderate these associations.",
+          "problem": "The abstract explicitly reports that modality did not moderate the informality–well-being chain; the digest presents channel as conditioning the effect.",
+          "suggested_fix": "Note that modality did not moderate the main associations and only showed direct links with relatedness and energy."
+        },
+        {
+          "label": "Causal verb for within-person associations",
+          "severity": "Minor",
+          "as_written": "which in turn predicted greater satisfaction of relatedness needs and a better relatedness-to-energy ratio",
+          "abstract_says": "higher striving potential was associated with more relatedness need satisfaction and a more favorable relatedness-to-energy ratio, though not with energy expenditure",
+          "problem": "\"Predicted\" implies directionality in a correlational experience-sampling design, and the null link with energy expenditure is dropped.",
+          "suggested_fix": "Use \"was associated with\" and mention the null association with energy expenditure."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7221437963",
+      "headline": "At stadium concerts, fans buy the T-shirt before the beer",
+      "verdict": "minor",
+      "notes": "Concert count, stadium count, attendee count and the symbolic value/spatial compatibility themes are faithful; \"overpriced\" and the spending-concentration claim go slightly beyond the qualitative findings.",
+      "issues": [
+        {
+          "label": "\"Overpriced\" substituted for \"price sensitive\"",
+          "severity": "Minor",
+          "as_written": "Food and drink, by contrast, were seen as fleeting, overpriced, and awkward to consume",
+          "abstract_says": "food and beverages are perceived as short-lived, more price sensitive and less compatible with immersive, high-density event conditions",
+          "problem": "The abstract reports greater price sensitivity in the category, not that attendees judged food and drink to be overpriced.",
+          "suggested_fix": "Use \"more price sensitive\" or \"judged more on price\"."
+        },
+        {
+          "label": "Spending concentration not measured",
+          "severity": "Minor",
+          "as_written": "this suggests the merchandise line is where discretionary spending and emotional value concentrate during high-density, time-bound events",
+          "abstract_says": "Findings reveal a strong pattern in which merchandise is prioritised relative to food and beverages.",
+          "problem": "The study observed and discussed prioritization in a qualitative design; no spending data were collected, so claims about where discretionary spend concentrates go beyond the evidence (the Caveats note this, but the body states it as a finding).",
+          "suggested_fix": "Say attendees prioritized merchandise in how they talked about and approached on-site retail, without implying measured spend."
+        },
+        {
+          "label": "Unsupported claim about venue operations",
+          "severity": "Minor",
+          "as_written": "Stadiums and promoters typically build operations around food and beverage capacity",
+          "abstract_says": "merchandise, food and beverage sales represent key revenue streams",
+          "problem": "Unverifiable from abstract only; the abstract treats both as key revenue streams and does not characterize current operational priorities.",
+          "suggested_fix": "Attribute this industry characterization or remove it."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "work_id": "W7223696657",
+      "headline": "There is such a thing as too much ESG publicity, food and beverage stock data suggests",
+      "verdict": "accurate",
+      "notes": "Inverted-U with value, U-shape with risk, and the value-appropriation moderator are all reported correctly, with appropriate observational caveats.",
+      "issues": []
+    },
+    {
+      "number": 17,
+      "work_id": "W7221783757",
+      "headline": "Call it \"veggie\" and the health-conscious will buy your indulgent snack — guilt, not taste, does the selling",
+      "verdict": "minor",
+      "notes": "Three experiments, the guilt mechanism and the segment reversal are accurate; the digest omits that extra health claims *raised* intentions among highly health-conscious consumers.",
+      "issues": [
+        {
+          "label": "Half of the additional-claims finding dropped",
+          "severity": "Minor",
+          "as_written": "extra claims such as \"reduced sodium\" or \"natural and additive-free\" could actually backfire with them over fears the product would taste flat",
+          "abstract_says": "when additional health‐related claims such as \"reduced sodium\" or \"natural and additive‐free\" are appended to the same product label, they also enhance purchase intentions among highly health‐conscious consumers by lowering perceived guilt. However, for low health‐conscious consumers, such claims may backfire",
+          "problem": "Only the backfire half is reported; the positive effect of extra claims among highly health-conscious consumers is omitted, which understates the segmentation result.",
+          "suggested_fix": "Add that the same extra claims lifted intentions among highly health-conscious consumers by lowering guilt."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "work_id": "W7220842762",
+      "headline": "Students said they knew better — then left 51 grams of food on the plate anyway",
+      "verdict": "minor",
+      "notes": "N=422, the 31-item questionnaire, 51.5 g average, lunch/female differences and the perception-vs-measurement split are all accurate; the \"awareness campaigns\" inference is a step beyond what was tested.",
+      "issues": [
+        {
+          "label": "Awareness campaigns not tested",
+          "severity": "Minor",
+          "as_written": "It is direct evidence that awareness campaigns can move perceptions without moving the bin",
+          "abstract_says": "consumer knowledge, portion size perception, and available eating time influenced only perceived waste behavior, revealing a disconnect between awareness and objectively measured PW",
+          "problem": "The study measured self-reported knowledge in a cross-sectional survey; it did not evaluate any awareness campaign or intervention, so \"direct evidence\" about campaigns overstates the design.",
+          "suggested_fix": "Reframe as evidence that self-reported knowledge tracked perceived but not measured waste, implying campaigns built on knowledge alone may not be enough."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "work_id": "W7224090846",
+      "headline": "Plain cigarette packs dull the appeal and lift quit intentions — and the illicit-trade warning never materialized",
+      "verdict": "accurate",
+      "notes": "Number of included reviews, publication window, outcome domains and the inconclusive behavioral findings all match; caveats correctly flag the review-of-reviews design and English-language restriction.",
+      "issues": []
+    },
+    {
+      "number": 20,
+      "work_id": "W7220982864",
+      "headline": "Shoppers judge near-expiry canned goods more harshly than near-expiry fresh food",
+      "verdict": "minor",
+      "notes": "Both sample sizes, the mediation by perceived health risk and the unexpected perishability moderation are accurate; the moderation applied to the health-risk path specifically, and the single-country caveat is not verifiable from the abstract.",
+      "issues": [
+        {
+          "label": "Moderation path slightly simplified",
+          "severity": "Minor",
+          "as_written": "the health-risk penalty was stronger for *non-perishable* foods than for perishable ones",
+          "abstract_says": "perishability moderates the relationship between perceived nearness to the expiry date and perceived health risk... the positive effect of perceived nearness to the expiry date on perceived health risk is stronger for non-perishable than for perishable food products",
+          "problem": "The moderation was tested on the nearness-to-health-risk path, not on purchase intentions directly; readers may infer a stronger purchase-intention penalty was demonstrated for non-perishables.",
+          "suggested_fix": "Specify that perishability moderated the effect on perceived health risk, which in turn mediated purchase intentions."
+        },
+        {
+          "label": "Country claim not in abstract",
+          "severity": "Minor",
+          "as_written": "single-country context",
+          "abstract_says": "Two experimental studies were conducted to test the proposed effects. The first study (N = 111)... The second study (N = 210)...",
+          "problem": "Unverifiable from abstract only; the abstract does not state where participants were recruited.",
+          "suggested_fix": "Note that sample composition and country are not reported in the abstract."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 20,
+    "cached": 0,
+    "skipped": 0,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {
+      "W7223232846": {
+        "query": "popular brain training fix junk food cravings just failed its",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223275804": {
+        "query": "Consumers rate green policies work least ones most likely work",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223010138": {
+        "query": "Thinking about death makes people want stuff but only right",
+        "returned": 20,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224627412": {
+        "query": "Fussy eating starts earlier than think babies feeding patterns month",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224916875": {
+        "query": "Before first puff makes teenagers open vaping across",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220360145": {
+        "query": "Meditation seems change people buy but mainly beginners",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223189021": {
+        "query": "Natural beats tastes like chicken really sells meat alternatives",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223183113": {
+        "query": "People who think they green shoppers tune out green products",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223125428": {
+        "query": "Knowing where food comes doesn make people buy local effort",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224137779": {
+        "query": "premium price tag won make organic claim believable",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224129116": {
+        "query": "Shoppers don read every label third use them all mostly",
+        "returned": 2,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224004846": {
+        "query": "Holding something heavy made ice cream taste crispier",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223008126": {
+        "query": "Americans aren just vaping they vaping far often",
+        "returned": 1,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224750355": {
+        "query": "Small talk still restores hybrid workers unless over chat",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221437963": {
+        "query": "stadium concerts fans buy shirt before beer",
+        "returned": 5,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7223696657": {
+        "query": "There such thing too much ESG publicity food beverage stock",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7221783757": {
+        "query": "Call veggie health conscious will buy indulgent snack guilt not",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220842762": {
+        "query": "Students said they knew better then left grams food plate",
+        "returned": 4,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7224090846": {
+        "query": "Plain cigarette packs dull appeal lift quit intentions illicit trade",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      },
+      "W7220982864": {
+        "query": "Shoppers judge near expiry canned goods harshly than near expiry",
+        "returned": 0,
+        "outlets": [],
+        "articles": [],
+        "state": "unreported"
+      }
+    }
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **Knowledge does not move behavior; friction, emotion and price do.** The previous batch's strongest thread — repeat exposure not breeding liking (\"Eating the same meal for years doesn't make you like it,\" W7210275208) and nutrition knowledge mattering only at the margins (\"Bright packaging makes kids nag harder,\" W7215082714) — is reinforced hard here. \"Knowing where food comes from doesn't make people buy local — effort does\" (W7223125428) found provenance knowledge predicted nothing in either Brazil or Portugal; \"Students said they knew better — then left 51 grams of food on the plate anyway\" (W7220842762) found waste knowledge moved only perceived waste, never the weighed kind; and \"Shoppers don't read every label\" (W7224129116) found the largest segment, 42%, defaulting to price.\n- **Measurement proxies keep failing.** Last run's methods thread — rating frequency altering experience (W7214937598), review silence as a weak signal (W7215031814), awareness diverging from regard (W7214439490) — now gains two more instruments. \"People who think they're green shoppers tune out green products\" (W7223183113) finds that biometric attention to an eco-label predicts nothing without emotional engagement, and W7220842762 pairs surveys with scales to show self-reported waste and actual waste are different variables.\n- **Cheap sensory cues do real work.** Following short brand names signaling warmth (W7214622498) and package color routing pressure through children (W7215082714), this batch adds \"Holding something heavy made ice cream taste crispier\" (W7224004846) and \"Plain cigarette packs dull the appeal and lift quit intentions\" (W7224090846) — hand-feel editing perceived texture, and stripped-back design measurably reducing appeal.\n- **Workplace wellbeing comes from micro-episodes, not job redesign.** \"Twenty days of diaries from naval cadets\" (W7214901172) showed playful framing cutting same-day exhaustion in rigid roles; \"Small talk still restores hybrid workers — unless it's over chat\" (W7224750355) finds the same shape in hybrid work, with episode-level informality buying relatedness and channel choice setting the price.\n\n**Advances**\n- **Tobacco research moves from supply to demand intensity.** The previous digest covered channel migration (W7214949285), subsidy dependency (W7214928046) and industry conduct (W7215133135) — all supply-side. \"Americans aren't just vaping more — they're vaping far more often\" (W7223008126) shifts to consumption volume, showing vaping days up 183% against prevalence up 45%, while \"Before the first puff\" (W7224916875) pushes upstream of initiation entirely, and \"Plain cigarette packs dull the appeal\" (W7224090846) consolidates the packaging-restriction evidence those earlier policy pieces assumed.\n- **Infant feeding moves earlier.** \"Mothers rarely eat in front of their babies\" (W7213662492) located the lever at the point of food introduction; \"Fussy eating starts earlier than you think\" (W7224627412) finds avoidant feeding patterns already stable in the first month and persisting to 12 months, implying the intervention window opens before solids do.\n- **From welfare labels to label saturation.** \"Put the animal welfare label on the veggie burger too\" (W7216368733) showed an added label redrawing the choice set; W7224129116 now tests several at once in Denmark and Slovenia and finds most shoppers using a single cue, which bounds how far label extension scales.\n\n**Counterpoints**\n- **Intention-based waste research takes a hit.** \"Anger at other people's food waste predicts who actually eats their leftovers\" (W7208792358) built its case on stated intentions among students; W7220842762 weighed plates from 422 diners and found intention and sensory satisfaction tracked real waste while knowledge and portion perception tracked only self-perception — a reminder that the earlier result sits on the softer side of that line.\n- **A scalable digital nudge fails outright.** Against a run of studies finding small cheap cues that work, \"A popular 'brain training' fix for junk food cravings just failed its biggest online test\" (W7223232846) returns a Bayesian-supported null in a realistic ordering environment — useful ballast for a topic whose literature skews positive.\n\n**New themes**\n- **Green claim credibility and ESG dosage.** Nothing in the previous digest anticipated \"Consumers rate the green policies that work least as the ones most likely to work\" (W7223275804), \"A premium price tag won't make your organic claim more believable\" (W7224137779) or \"There is such a thing as too much ESG publicity\" (W7223696657).\n- **Mortality, mindfulness and buying less.** \"Thinking about death makes people want less stuff\" (W7223010138) and \"Meditation seems to change what people buy — but mainly for beginners\" (W7220360145) open an anti-consumption and wellbeing strand absent last run.\n- **Event and pantry retail.** \"At stadium concerts, fans buy the T-shirt before the beer\" (W7221437963) and \"Shoppers judge near-expiry canned goods more harshly than near-expiry fresh food\" (W7220982864) bring physical retail context — crowd density, date labels — into a topic that has lately been dominated by labels and messaging.",
+    "feature_pitch": "**The pattern:** Five studies in this batch, from consumer psychology through finance, all point to sustainability communication hitting a saturation point where more signal produces less effect. \"People who think they're green shoppers tune out green products\" (W7223183113) finds self-flattering consumers disengaging because they feel they've done enough; \"Shoppers don't read every label\" (W7224129116) finds 42% of shoppers ignoring stacked eco and nutrition labels in favor of price; \"A premium price tag won't make your organic claim more believable\" (W7224137779) finds upmarket presentation can't buy credibility that the motive story doesn't earn; \"There is such a thing as too much ESG publicity\" (W7223696657) finds an inverted-U in firm value, with heavy ESG coverage actually raising risk; and \"Consumers rate the green policies that work least as the ones most likely to work\" (W7223275804) shows the public systematically misjudging which interventions do anything at all.\n\n**Why pitch this now:** Front-of-pack eco-labeling is expanding across European grocery just as green claims rules tighten and ESG messaging has become politically contested, so the question of whether another badge, another claim or another sustainability press release adds anything is an immediate budget decision rather than a philosophical one.\n\n**Angle:** A reported feature arguing that the green communications stack has reached diminishing — and in places negative — returns, mapping where each layer stops working: label clutter, motive skepticism, moral self-licensing among the committed, and investor reading of ESG volume. Written for CMOs, sustainability and corporate-affairs leads, with enough supermarket-aisle texture to work for a general business audience.\n\n**Potential headlines:**\n- Five new studies find the green marketing stack has stopped adding value\n- The shoppers most certain they're green are the ones who stop buying green\n- When another sustainability badge starts costing you credibility and share price\n\n**Potential outlets:**\n- **The Drum** — runs sharp, evidence-led critiques of sustainability advertising and would take the \"more green messaging, less effect\" argument to the agency and brand side.\n- **Trellis** — its practitioner readership makes exactly the ESG-visibility decisions the inverted-U finding complicates, and it covers claim credibility closely.\n- **Grocery Dive** — the label-stacking and segment findings are directly operational for retailers weighing Eco-Score and Nutri-Score rollouts against shelf clutter.\n- **Vox** — the moral-licensing turn, where believing you're greener than average suppresses green buying, is the kind of counterintuitive consumer-behavior story its explainer desk runs well.",
+    "pitch_ideas": "- **A popular \"brain training\" fix for junk food cravings just failed its biggest online test (Work ID W7223232846):** A pre-registered trial of 512 adults where Bayesian analysis actively favored the null — a reality check on the app-based behavior-change market, for a health-tech trade news brief or a skeptical consumer-wellness explainer.\n- **Consumers rate the green policies that work least as the ones most likely to work (Work ID W7223275804):** The public reliably overrates carrots and underrates sticks, which maps onto exactly where sustainability regulation stalls, for a public-affairs or policy-communications column.\n- **Thinking about death makes people want less stuff — but only the right kind of thinking (Work ID W7223010138):** Reflective mortality framing pushes people toward owning less while fear-based urgency pushes the other way, reversing decades of mortality-salience assumptions, for a consumer-psychology explainer in a general-interest outlet or a brand-strategy column.\n- **Fussy eating starts earlier than you think (Work ID W7224627412):** Avoidant feeding patterns appear in month one and persist to a year, which puts toddler-stage \"fix the fussiness\" products and programs late to the problem — and the vegetable-intake link didn't hold, for a parenting and family-health section plus an infant-nutrition trade brief.\n- **Before the first puff: what makes teenagers open to vaping, across 63 studies (Work ID W7224916875):** Marketing exposure sits among only three robust pre-initiation risk factors, with the marketing mix, not just advertising, emerging as the unit of restriction, for a public-health policy news piece or a regulated-categories brand column.\n- **Meditation seems to change what people buy — but mainly for beginners (Work ID W7220360145):** The window where mindfulness reshapes buying appears to be early, with experienced practitioners getting wellbeing gains directly — a segmentation point for conscious-consumption marketing, for a wellness-industry trade feature.\n- **\"Natural\" beats \"tastes like chicken\": what really sells meat alternatives (Work ID W7223189021):** After years of engineering meat mimicry, naturalness is the stronger lever — and consumers rated chickpeas, tofu and processed plant-based chicken as nutritionally identical, for a food and grocery trade explainer with a consumer-affairs sidebar.\n- **People who think they're green shoppers tune out green products (Work ID W7223183113):** Eye-tracking proof that shoppers saw your eco-label may be measuring nothing, because purchase intention hinges on emotional engagement that self-flattery suppresses, for an insights and measurement column aimed at CMOs.\n- **Knowing where food comes from doesn't make people buy local — effort does (Work ID W7223125428):** Provenance education predicted nothing in two countries while self-reported effort predicted everything, arguing for spending on availability and convenience instead, for a food-policy trade explainer or a retail-strategy piece.\n- **A premium price tag won't make your organic claim more believable (Work ID W7224137779):** Shoppers run an attribution test on every organic claim — does the producer believe this or is it selling me something — and premium design doesn't settle it, for a packaging and brand-communications trade feature.\n- **Shoppers don't read every label — a third use them all, and 42% mostly chase price (Work ID W7224129116):** Three stable shopper segments, with the same person switching segment by category, so label stacking may add clutter rather than choice, for a grocery trade explainer or a regulatory-affairs brief on front-of-pack schemes.\n- **Holding something heavy made ice cream taste crispier (Work ID W7224004846):** Sensation transference extends to multilayered foods, meaning substrate weight and finish may be a product attribute before they're a graphics decision — a cautionary note for brands switching to thinner films, for a packaging trade brief or a quirky consumer-science item (flag the 24-person sample).\n- **Americans aren't just vaping more — they're vaping far more often (Work ID W7223008126):** Prevalence rose 45% while total vaping days rose 183% and under-21 vaping days quadrupled — the intensity metric regulators and investors should be watching, for a business or health news feature and a nicotine-category analysis.\n- **Small talk still restores hybrid workers — unless it's over chat (Work ID W7224750355):** Text is energy-cheap and connection-poor while audio-video buys belonging at a cost, making channel choice a wellbeing lever for internal comms, for an HR or workplace-culture column (flag the 26-person sample).\n- **At stadium concerts, fans buy the T-shirt before the beer (Work ID W7221437963):** Venues build operations around food and beverage while discretionary spend and emotional value concentrate in merchandise shoppers can carry and photograph, for a retail or live-events trade feature with a consumer-culture angle on buying proof you were there.\n- **There is such a thing as too much ESG publicity (Work ID W7223696657):** ESG media visibility shows an inverted-U with firm value and a U-shape with risk, and pays off least for firms investors read as margin-first, for a corporate-communications or investor-relations trade analysis.\n- **Call it \"veggie\" and the health-conscious will buy your indulgent snack (Work ID W7221783757):** Health cues on treats work as guilt relief rather than nutrition information, and the same claim lifts one segment while repelling another on the same shelf, for a food-marketing trade feature or a consumer-affairs explainer on health halos.\n- **Students said they knew better — then left 51 grams of food on the plate anyway (Work ID W7220842762):** Surveys paired with scales show awareness campaigns moving perceptions but not the bin, while taste and portion quality moved the measured waste, for a food-service and institutional-catering trade explainer.\n- **Plain cigarette packs dull the appeal and lift quit intentions — and the illicit-trade warning never materialized (Work ID W7224090846):** The industry's central counterargument fails across five reviews, just as regulators eye similar rules for alcohol, vapes and high-sugar food, for a policy news piece or a branding column on packaging treated as advertising.\n- **Shoppers judge near-expiry canned goods more harshly than near-expiry fresh food (Work ID W7220982864):** The health-risk penalty was larger for shelf-stable goods than for perishables, the reverse of what researchers expected, which reframes where markdown and food-rescue programs struggle, for a grocery retail trade brief or a personal-finance piece on what best-before actually means."
+  }
+}
