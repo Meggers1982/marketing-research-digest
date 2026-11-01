@@ -140,6 +140,16 @@
         "state": "unreported"
       }
     },
+    "W7220422914": {
+      "checked_at": "2026-11-01T16:51:16.962034+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "cybersecurity paradox small low tech firms protection spending cancel out",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7220440663": {
       "checked_at": "2026-10-29T17:02:06.789282+00:00",
       "result": {
@@ -237,6 +247,16 @@
         "outlets": [],
         "query": "stadium concerts fans buy shirt before beer",
         "returned": 5,
+        "state": "unreported"
+      }
+    },
+    "W7221500893": {
+      "checked_at": "2026-11-01T16:51:14.627951+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Malls becoming schedules not maps order activities changes shoppers buy",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -450,6 +470,16 @@
         "state": "unreported"
       }
     },
+    "W7221884200": {
+      "checked_at": "2026-11-01T16:51:11.473571+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Advice friends pushes people into crypto advice professionals pulls them",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7221898122": {
       "checked_at": "2026-10-29T17:01:36.164013+00:00",
       "result": {
@@ -628,6 +658,16 @@
         "state": "unreported"
       }
     },
+    "W7222602776": {
+      "checked_at": "2026-11-01T16:51:26.172555+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "million government contracts show who really wins procurement decentralized",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7222624740": {
       "checked_at": "2026-10-23T17:11:01.818033+00:00",
       "result": {
@@ -785,6 +825,16 @@
         "outlets": [],
         "query": "Americans aren just vaping they vaping far often",
         "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7223008621": {
+      "checked_at": "2026-11-01T16:51:28.072360+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "lifetime price tag smoking quitting versus worth",
+        "returned": 3,
         "state": "unreported"
       }
     },
@@ -1068,6 +1118,16 @@
         "state": "unreported"
       }
     },
+    "W7223381933": {
+      "checked_at": "2026-11-01T16:51:21.163548+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "app recommends algorithmic visibility actually does local restaurant",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7223392067": {
       "checked_at": "2026-10-28T16:40:54.081065+00:00",
       "result": {
@@ -1075,6 +1135,16 @@
         "outlets": [],
         "query": "Consumers barely better than coin flip spotting dishonest claim",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223447670": {
+      "checked_at": "2026-11-01T16:51:31.413701+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "People falling companions but they aren letting them shopping",
+        "returned": 1,
         "state": "unreported"
       }
     },
@@ -1104,6 +1174,16 @@
         "articles": [],
         "outlets": [],
         "query": "Devout Customers Reported Willingness Rude Staff Unless Karma Their Minds",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223666241": {
+      "checked_at": "2026-11-01T16:51:03.669026+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Charging penny second item beats giving away free",
         "returned": 0,
         "state": "unreported"
       }
@@ -1224,6 +1304,16 @@
         "articles": [],
         "outlets": [],
         "query": "Small talk still restores hybrid workers unless over chat",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7224889302": {
+      "checked_at": "2026-11-01T16:50:55.629853+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "customary leave tip beats appeals reciprocity doesn scare customers away",
         "returned": 0,
         "state": "unreported"
       }

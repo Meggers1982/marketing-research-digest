@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 35,
+  "run_count": 36,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -17,6 +17,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-money-spending-2026-11-01",
+      "title": "Marketing Research Digest — Money & Spending — 2026-11-01",
+      "topic": "money & spending",
+      "run_date": "2026-11-01",
+      "study_count": 9,
+      "total_issues": "15 (12 Minor, 3 Moderate, 0 Major)",
+      "lead_count": 4,
+      "top_score": 90
+    },
     {
       "id": "marketing-research-digest-food-health-wellbeing-2026-10-31",
       "title": "Marketing Research Digest — Food, Health & Wellbeing — 2026-10-31",
