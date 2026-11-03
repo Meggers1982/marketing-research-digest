@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 37,
+  "run_count": 38,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -17,6 +17,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-public-relations-reputation-2026-11-03",
+      "title": "Marketing Research Digest — Public Relations & Reputation — 2026-11-03",
+      "topic": "public relations & reputation",
+      "run_date": "2026-11-03",
+      "study_count": 14,
+      "total_issues": "16 (12 Minor, 4 Moderate, 0 Major)",
+      "lead_count": 2,
+      "top_score": 95
+    },
     {
       "id": "marketing-research-digest-b2b-sales-2026-11-02",
       "title": "Marketing Research Digest — B2B & Sales — 2026-11-02",

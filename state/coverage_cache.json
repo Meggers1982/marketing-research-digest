@@ -40,6 +40,26 @@
         "state": "unreported"
       }
     },
+    "W7208830817": {
+      "checked_at": "2026-11-03T18:43:29.832106+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Talking wins positive sentiment but loses audience unless tie social",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7211909650": {
+      "checked_at": "2026-11-03T18:43:28.450728+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "makes communicators feel like crisis leaders ethics support equity resources",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7212042826": {
       "checked_at": "2026-10-27T15:55:57.066638+00:00",
       "result": {
@@ -77,6 +97,16 @@
         "outlets": [],
         "query": "Capable People Feel Willing They Misuse",
         "returned": 3,
+        "state": "unreported"
+      }
+    },
+    "W7214508893": {
+      "checked_at": "2026-11-03T18:43:00.426966+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "populism rises green packaging quietly disappears",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -470,6 +500,16 @@
         "state": "unreported"
       }
     },
+    "W7221812755": {
+      "checked_at": "2026-11-03T18:43:25.501619+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "agencies quietly using but Arabic humans still doing hard part",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7221815419": {
       "checked_at": "2026-10-28T16:40:34.734578+00:00",
       "result": {
@@ -698,6 +738,16 @@
         "state": "unreported"
       }
     },
+    "W7222613543": {
+      "checked_at": "2026-11-03T18:43:32.855403+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "practitioners say using longer choice price staying competitive",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7222624740": {
       "checked_at": "2026-10-23T17:11:01.818033+00:00",
       "result": {
@@ -905,6 +955,16 @@
         "outlets": [],
         "query": "cities where white Americans longer majority they receptive multicultural ads",
         "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223028679": {
+      "checked_at": "2026-11-03T18:43:45.577930+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Students say they care about sustainable eating but convenience company",
+        "returned": 7,
         "state": "unreported"
       }
     },
@@ -1178,6 +1238,16 @@
         "state": "unreported"
       }
     },
+    "W7223321733": {
+      "checked_at": "2026-11-03T18:43:36.567903+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "CSR posts inviting people beats who doing talking",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7223381933": {
       "checked_at": "2026-11-01T16:51:21.163548+00:00",
       "result": {
@@ -1298,6 +1368,16 @@
         "state": "unreported"
       }
     },
+    "W7223808860": {
+      "checked_at": "2026-11-03T18:43:42.962884+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "terroir paradox famous local food still invisible nearest big city",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7223898707": {
       "checked_at": "2026-10-28T16:40:23.105917+00:00",
       "result": {
@@ -1305,6 +1385,16 @@
         "outlets": [],
         "query": "Would Like Donate Works Better Charity Local",
         "returned": 20,
+        "state": "unreported"
+      }
+    },
+    "W7223996694": {
+      "checked_at": "2026-11-03T18:43:10.544693+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Big Pharma pandemic tweets dry facts beat upbeat framing",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1358,6 +1448,16 @@
         "state": "unreported"
       }
     },
+    "W7224156801": {
+      "checked_at": "2026-11-03T18:43:14.374922+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "companies cannot count emissions hiding their supply base",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7224407372": {
       "checked_at": "2026-11-02T20:21:40.559799+00:00",
       "result": {
@@ -1398,6 +1498,16 @@
         "state": "unreported"
       }
     },
+    "W7224854055": {
+      "checked_at": "2026-11-03T18:43:19.302906+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Green business models scale just well ordinary kind but only",
+        "returned": 6,
+        "state": "unreported"
+      }
+    },
     "W7224889302": {
       "checked_at": "2026-11-01T16:50:55.629853+00:00",
       "result": {
@@ -1425,6 +1535,36 @@
         "outlets": [],
         "query": "sales ethics problem isn lying gets mentioned last",
         "returned": 4,
+        "state": "unreported"
+      }
+    },
+    "W7225053690": {
+      "checked_at": "2026-11-03T18:43:37.717012+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Who really built golf league brand Content creators league doesn",
+        "returned": 2,
+        "state": "unreported"
+      }
+    },
+    "W7225111854": {
+      "checked_at": "2026-11-03T18:43:15.873975+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Consumers say they rather regulated than lectured plastic",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7225126842": {
+      "checked_at": "2026-11-03T18:43:40.070889+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "century NFL marketing read through Black owned magazines",
+        "returned": 0,
         "state": "unreported"
       }
     }
