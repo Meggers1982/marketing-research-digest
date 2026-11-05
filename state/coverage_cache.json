@@ -1,5 +1,15 @@
 {
   "studies": {
+    "W4406862001": {
+      "checked_at": "2026-11-05T18:02:06.800818+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "One swap save nudge rewire shopper habit trips",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7204606942": {
       "checked_at": "2026-10-29T17:01:13.883249+00:00",
       "result": {
@@ -306,6 +316,16 @@
         "articles": [],
         "outlets": [],
         "query": "Malls becoming schedules not maps order activities changes shoppers buy",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7221515577": {
+      "checked_at": "2026-11-05T18:02:36.902973+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Lonely shoppers reach busier packaging",
         "returned": 0,
         "state": "unreported"
       }
@@ -728,6 +748,16 @@
         "state": "unreported"
       }
     },
+    "W7222569592": {
+      "checked_at": "2026-11-05T18:02:14.360867+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "rival products end nearly identical advertising way compete",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
     "W7222602776": {
       "checked_at": "2026-11-01T16:51:26.172555+00:00",
       "result": {
@@ -845,6 +875,16 @@
         "outlets": [],
         "query": "creators talk about themselves product stops selling",
         "returned": 16,
+        "state": "unreported"
+      }
+    },
+    "W7222938044": {
+      "checked_at": "2026-11-05T18:02:43.012424+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Sustainability labels moved shoppers flour did nothing shoes",
+        "returned": 0,
         "state": "unreported"
       }
     },
@@ -1298,6 +1338,16 @@
         "state": "unreported"
       }
     },
+    "W7223653038": {
+      "checked_at": "2026-11-05T18:02:23.743465+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Typing beats talking text recommendations get adopted than voice",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7223658951": {
       "checked_at": "2026-10-29T17:01:34.548990+00:00",
       "result": {
@@ -1368,12 +1418,32 @@
         "state": "unreported"
       }
     },
+    "W7223786954": {
+      "checked_at": "2026-11-05T18:02:16.699397+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Cool colors excite too use than one",
+        "returned": 18,
+        "state": "unreported"
+      }
+    },
     "W7223808860": {
       "checked_at": "2026-11-03T18:43:42.962884+00:00",
       "result": {
         "articles": [],
         "outlets": [],
         "query": "terroir paradox famous local food still invisible nearest big city",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7223841933": {
+      "checked_at": "2026-11-05T18:02:26.450744+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Eye tracking shows bad brand news wins attention battle specific",
         "returned": 0,
         "state": "unreported"
       }
@@ -1418,6 +1488,26 @@
         "state": "unreported"
       }
     },
+    "W7224022072": {
+      "checked_at": "2026-11-05T18:02:52.504454+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Body positive ads land women backfire men",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7224077478": {
+      "checked_at": "2026-11-05T18:03:05.737887+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Shoppers let their guard down influencers but only low stakes",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
     "W7224090846": {
       "checked_at": "2026-10-31T15:47:48.068819+00:00",
       "result": {
@@ -1426,6 +1516,24 @@
         "query": "Plain cigarette packs dull appeal lift quit intentions illicit trade",
         "returned": 0,
         "state": "unreported"
+      }
+    },
+    "W7224107456": {
+      "checked_at": "2026-11-05T18:02:40.095666+00:00",
+      "result": {
+        "articles": [
+          {
+            "link": "https://www.consumerreports.org/cars/suvs/reasons-not-to-buy-a-toyota-rav4-a1045893819/",
+            "outlet": "Consumer Reports",
+            "title": "5 Reasons Not to Buy a Toyota RAV4 Now"
+          }
+        ],
+        "outlets": [
+          "Consumer Reports"
+        ],
+        "query": "Buy experiences not things only works want them right reasons",
+        "returned": 12,
+        "state": "lightly_reported"
       }
     },
     "W7224129116": {
@@ -1528,6 +1636,16 @@
         "state": "unreported"
       }
     },
+    "W7224935301": {
+      "checked_at": "2026-11-05T18:02:19.450942+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Clustering few bad reviews together makes them feel like majority",
+        "returned": 3,
+        "state": "unreported"
+      }
+    },
     "W7224954966": {
       "checked_at": "2026-11-02T20:21:48.074592+00:00",
       "result": {
@@ -1535,6 +1653,16 @@
         "outlets": [],
         "query": "sales ethics problem isn lying gets mentioned last",
         "returned": 4,
+        "state": "unreported"
+      }
+    },
+    "W7224997542": {
+      "checked_at": "2026-11-05T18:02:38.900833+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "unequal people think their society they buy self improvement",
+        "returned": 6,
         "state": "unreported"
       }
     },
@@ -1564,6 +1692,66 @@
         "articles": [],
         "outlets": [],
         "query": "century NFL marketing read through Black owned magazines",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7225152811": {
+      "checked_at": "2026-11-05T18:02:47.597232+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Business schools say AACSB accreditation puts them top like half",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7225171472": {
+      "checked_at": "2026-11-05T18:03:01.206926+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Instagram commenters running their own forensic audits influencers",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7225196252": {
+      "checked_at": "2026-11-05T18:02:13.144252+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Lonely shoppers aren just buying they buying impulsively",
+        "returned": 1,
+        "state": "unreported"
+      }
+    },
+    "W7225201218": {
+      "checked_at": "2026-11-05T18:02:10.271033+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "Japanese shoppers trust made here far than they trust awards",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7225239935": {
+      "checked_at": "2026-11-05T18:02:33.944744+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "livestream selling chatting viewers outsells hard hook",
+        "returned": 0,
+        "state": "unreported"
+      }
+    },
+    "W7225263524": {
+      "checked_at": "2026-11-05T18:02:55.775424+00:00",
+      "result": {
+        "articles": [],
+        "outlets": [],
+        "query": "People who check receipts not memory weather financial shocks better",
         "returned": 0,
         "state": "unreported"
       }
