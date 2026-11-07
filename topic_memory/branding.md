@@ -1,23 +1,25 @@
 # Topic Memory: Branding
-_Last updated: 2026-10-24_
+_Last updated: 2026-11-07_
 
 ## Established findings
-- Perceived motive and register govern persuasion: modest/self-effacing framing lowers skepticism and raises trust (W7203440056, 2026-08; downgrading a rival's praise W7222792356, 2026-10; nickname apologies W7221623615, 2026-10) — but the modesty advantage is culturally bounded (null in US sample, W7222792356).
-- Brand positioning flips the sign of the same lever: indulgent imagery (W7212008823), boastful copy (W7203440056), symbolic packaging (W7220832664), negative-awe imagery and tonal palettes for luxury (W7223173986, W7222224863, 2026-10), participatory sustainability for large brands only (W7222271096).
-- Perceptual brand assets are commercially inert without a relational mediator: image protects only via satisfaction/love (W7214968251); authenticity predicts sales only via customer-company identification (W7222626184, 2026-10).
-- Values-based crises and political stances outweigh competence failures; reaction depends on alignment, not merits — boycotts/spillover (W7221118815), retaliatory defection (W7204024551), partisan-contingent policy stances with stalling as lower-risk default (W7223133219, 2026-10).
-- AI disclosure penalties are motive- and content-contingent, not quality-based: activism (W7203997372), passion- vs profit-driven brands (W7202384182), penalty concentrated on emotionally involving work via perceived legitimacy (W7221671230, 2026-10).
-- Cultural/individual moderators repeatedly decide which signal works: power distance (W7220958293, W7221623615), uncertainty avoidance (W7221048994), epistemic motives (W7203651996), involvement (W7222764702, W7222327973).
+- Positioning flips the sign of the same lever: indulgent/negative-awe imagery and tonal palettes for luxury (W7212008823, W7223173986, W7222224863), participatory sustainability for large brands only (W7222271096), third-person narrative for luxury only (W7225002492, 2026-10), functional/performance claims turning negative for status-sensitive buyers (W7225421568, 2026-11), AI imagery helping low-authenticity and harming high-authenticity brands (W7225395232, 2026-11).
+- AI disclosure penalties are contingent, not quality-based — concentrated on emotionally involving work via perceived legitimacy (W7221671230) and on authenticity-positioned brands (W7225395232); unlabeled AI creative can still outperform human work in field tests (W7221827692).
+- Perceptual brand assets are inert without a relational mediator: image via satisfaction/love (W7214968251), authenticity via customer–company identification (W7222626184).
+- Fit is not required for persuasion: mixed emotions aid low-fit extensions via dialectical thinking (W7221759726), moderate brand–cause misfit raises authenticity via paradoxical thinking and perceived risk (W7211957883, 2026-09).
+- Brand activism outcomes track audience alignment and the source of the conviction, not the merits: partisan-contingent stances with stalling as lower-risk default (W7223133219), founder-embodied SME activism surviving the 2025 corporate retreat (W7222731158, 2026-10).
+- Sustainability claims pay only in specific markets and brand sizes (W7222271096; W7225148461, 2026-11 — perceived sustainability converts to WTP in Italy, not Türkiye).
+- Effect heterogeneity remains the dominant result across the literature; expert curation of creative performs no better than chance against performance-trained prediction (W7221827692).
 
 ## Emerging threads
-- Effect heterogeneity as the dominant finding across the literature — few reliable main effects; machine prediction outperforms expert curation in selecting creative (W7221827692, 2026-10).
-- Status and identity as the engine of refusal and desire: open IP posture lowers status (W7221673714), identity threat blocks "old people" categories (W7223121676), control loss drives status buying (W7223173986), packaging upcycling sustains symbolic value (W7222986365).
-- Timing and spatial spillover of brand effects — NPS payback at 8-12 months with neighboring-store effects (W7223096881, 2026-10); challenges quarterly CX measurement.
-- Discounting orthodoxy under revision from two directions: promotions more incremental than models assume (W7220913319); defensive cuts against discounters mostly unrewarded, deepest where response is weakest (W7221809005).
-- Brand love being disaggregated — love vs addiction, with only addiction tied to compulsive/impulsive buying (W7221758843, 2026-10).
-- Brand semantics as moral inference: ironic names depress perceived healthiness in virtue categories (W7221599533).
+- Scarcity and limited-run tactics underdelivering or backfiring: LTO trial without repeat (W7225424538), collab scarcity weakening advocacy routes (W7224853290), only demand-side scarcity aiding luxury narratives (W7225002492), loyalists routing around premiums via counterfeits (W7223684627).
+- Authenticity as a manufactured production spec rather than a discovered quality: engineered imperfection and "para-authenticity" in virtual influencers (W7225296753), off-template social creative outperforming on-brand palettes (W7224579614).
+- Brand love disaggregated into specific functions — vs addiction (W7221758843), queue tolerance (W7222807396), self-acceptance for disabled metaverse users (W7221050035), coexisting with fakes (W7223684627).
+- Creator economy valuation and ownership: exposure priced at ~one week of growth (W4412752420), audiences co-constructing influencer brand meaning (W7224833109), influencer credibility substituting for private-label heritage (W7225259429).
+- Engagement-metric orthodoxy under challenge: likes predicting loyalty while comments/shares don't (W7225177897); color consistency negatively associated with engagement (W7224579614).
+- Underexplored: employee-side branding with gendered effects (W7221327304); B2B "coherence drift" in resource-poor scaling firms (W7214118345); immersive retail psychology — autonomy and variety seeking (W7224784284).
 
 ## Feature ideas already pitched
-- 2026-10-10: "The economics of sincerity" — consumers infer brand motive and discount messages accordingly; timely via AI disclosure rules and endorsement crackdowns (W7203440056, W7216479640, W7203997372, W7202384182, W7221130306). Outlets: Marketing Week, Digiday, MIT SMR, The Atlantic.
-- 2026-10-24: "The death of the best practice" — pervasive moderators mean tactics work only for specific markets/segments, while AI makes variant production free and prediction, not expert judgment, becomes the scarce skill (W7221827692, W7222792356, W7222764702, W7222271096, W7221599533, W7222327973, W7221809005). Outlets: Adweek, Marketing Brew, HBR, Retail Dive.
-- Held in reserve, not yet pitched: the "backlash economy" (co-branding fatigue, values-crisis boycotts, retaliatory defection, platform ambivalence); and a "status anxiety" angle (control loss, quiet luxury neuroscience, identity threat, brand addiction).
+- 2026-10-10: "The economics of sincerity" — consumers infer brand motive and discount messages accordingly (W7203440056, W7216479640, W7203997372, W7202384182). Outlets: Marketing Week, Digiday, MIT SMR, The Atlantic.
+- 2026-10-24: "The death of the best practice" — pervasive moderators plus free AI variant production make prediction, not expert judgment, the scarce skill (W7221827692, W7222792356, W7222764702, W7222271096, W7221599533, W7221809005). Outlets: Adweek, Marketing Brew, HBR, Retail Dive.
+- 2026-11-07: "The exhaustion of the scarcity playbook" — limited editions and drops buying trial and frustration rather than loyalty (W7225424538, W7224853290, W7225002492, W7223684627). Outlets: Marketing Brew, Retail Dive, Business of Fashion, Fast Company.
+- Held in reserve: the "backlash economy" (co-branding fatigue, values-crisis boycotts, retaliatory defection); "status anxiety" (control loss, quiet luxury neuroscience, identity threat, brand addiction); and a fresh one — "authenticity as a manufactured product feature" (para-authenticity, engineered misfit, off-brand creative, founder-as-proof).
