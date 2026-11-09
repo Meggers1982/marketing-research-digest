@@ -1,0 +1,525 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-11-09",
+  "days_back": 60,
+  "window_from": "2026-09-10",
+  "window_to": "2026-11-09",
+  "focus": "AI & Marketing Technology",
+  "topic": "ai & marketing technology",
+  "query": "\"artificial intelligence\" OR \"generative AI\" OR chatbot OR ChatGPT OR \"large language model\" OR algorithm OR \"machine learning\" OR robot OR \"voice assistant\" OR personalization",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 374,
+    "not_research": 13,
+    "no_abstract": 71,
+    "off_topic": 35,
+    "already_covered": 84,
+    "over_journal_cap": 3,
+    "over_cap": 128,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7224849080",
+      "headline": "Your voice assistant should sound deferential, not authoritative",
+      "the_study": "Across six experiments, researchers tested how consumers react when AI voice assistants use dominant language (directive, authoritative phrasing) versus submissive language (deferential, accommodating phrasing) across different service settings. Submissive language consistently raised intentions to use the assistant and the perceived value of the interaction, working through a chain of greater rapport and then greater comfort — and it won even in authority-oriented service contexts where a confident, expert-sounding agent might be expected to perform better. The one exception: under time pressure, dominant and submissive phrasing built rapport equally well, breaking the comfort pathway.",
+      "why_it_matters": "Voice interface scripts are usually written for clarity and brand tone, not for power dynamics, yet this research suggests the dominance register of a single phrasing choice moves usage intent and perceived value.",
+      "story_angle_primary": "Audit the phrasing in your voice and chat scripts for implicit power signaling — \"You should choose X\" versus \"Would you like me to look at X?\" — and A/B test a deferential register even in categories like banking or health advice where authority seems warranted. Treat time-pressured contexts (drive-thru, in-car, checkout) as a separate design problem, since the comfort mechanism appears to drop out there.",
+      "story_angle_secondary": "It reveals something about how we relate to machines that talk: people appear to want a servant, not a boss, and feel more comfortable with an assistant that defers — even when they're asking it for expert guidance.",
+      "caveats": "All six studies are experiments rather than field deployments, so they show what can happen in controlled settings rather than what will happen at scale; the abstract does not report sample sizes, participant sources, or country.",
+      "journal": "Journal of Service Research",
+      "published": "2026-10-29",
+      "doi": "10.1177/10946705261492116",
+      "paper_title": "The Sound of Good Service: How Dominant and Submissive Language in AI Voice Assistants Shapes Consumer Responses Across Service Settings",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W4395015967",
+      "headline": "When you ask an AI to stand in for consumers, the answer depends on how you asked — this method fixes that",
+      "the_study": "Marketing Science researchers tackled a growing practice: using large language models as synthetic survey respondents to measure preferences and opinions. Because LLM outputs shift across prompts, assigned personas, and model versions, analysts end up with multiple noisy versions of the same \"answer\" and no principled way to combine them. The authors built Human Mimicry Calibration (HuMCal), a post-hoc method that learns credibility weights across elicitation variants using only aggregate benchmark data, and tested it on U.S. bank-card transaction data (revealed market structure) and Pew public opinion survey data. It beat uniform averaging, post-stratification, and best-single-subgroup selection on the calibration data, and the learned weights mostly held up out of sample across time, geography, industry, and topic.",
+      "why_it_matters": "Synthetic respondents are being sold into insights workflows as a cheap substitute for fieldwork, and this is direct evidence that naive aggregation of LLM outputs stays misaligned with real human benchmarks unless it is explicitly calibrated.",
+      "story_angle_primary": "If your insights team or vendor is using LLM personas to simulate consumer response, ask what they calibrate against and how weights were learned — and keep a real human benchmark in the loop, since the paper also finds that recalibrating against newer model checkpoints often improves alignment, meaning calibration is ongoing maintenance, not a one-off.",
+      "story_angle_secondary": "A useful reality check on AI-generated \"what consumers think\" claims: the same model, asked slightly differently, gives materially different readings of public opinion, and getting it to match real people takes deliberate statistical correction against actual human data.",
+      "caveats": "Validated in two U.S. settings (bank-card transactions and Pew data); the authors note out-of-sample transfer of learned weights is empirical rather than guaranteed. This is a measurement-methods paper, not a consumer behavior finding.",
+      "journal": "Marketing Science",
+      "published": "2026-10-30",
+      "doi": "10.1287/mksc.2024.0983",
+      "paper_title": "Frontiers: Reducing Disparity Between LLMs and Humans: Optimal LLM Sample Calibration",
+      "source_id": "S163534328"
+    },
+    {
+      "work_id": "W7225314486",
+      "headline": "Empathetic chatbot language only pays off if customers know it's a bot — and think it's competent",
+      "the_study": "Two experiments examined whether anthropomorphic language from a service chatbot — empathetic phrasing and emojis — drives electronic word-of-mouth, and under what conditions. Study 1 found directional evidence that human-like language was associated with more eWOM when the customer's \"chatbot schema\" was active (they were framing the interaction as a bot interaction), but not when it was inactive. Study 2 found the effects on perceived authenticity and eWOM depended on the chatbot's competence: warm language appears to help only when the bot actually handles the request well.",
+      "why_it_matters": "It suggests the common fix of bolting empathy and emojis onto a service bot can be inert or counterproductive, and that disclosure and performance quality are prerequisites rather than separate issues.",
+      "story_angle_primary": "Test warmth cues and bot disclosure together rather than separately, and resist adding empathetic language to a bot that frequently fails to resolve queries — the evidence here points to competence as the gate through which authenticity and advocacy flow. The payoff is in language, not avatars, which is cheaper to iterate on.",
+      "story_angle_secondary": "Consumers may be more forgiving of a bot that sounds like a bot than of one that performs badly while sounding caring — warmth without resolution reads as inauthentic.",
+      "caveats": "Only two experiments, with the first described by the authors themselves as \"directional\"; sample sizes, participant source, and country are not reported in the abstract; measures outcomes as stated word-of-mouth intent rather than observed sharing behavior.",
+      "journal": "Australasian Marketing Journal (AMJ)",
+      "published": "2026-11-04",
+      "doi": "10.1177/14413582261499475",
+      "paper_title": "Chatbot Schema Activation: When Anthropomorphic Language Leverages Word-of-Mouth",
+      "source_id": "S11782782"
+    },
+    {
+      "work_id": "W7223791943",
+      "headline": "A head-to-head test of ChatGPT, Gemini and Perplexity on real B2B market research tasks",
+      "the_study": "Researchers ran an exploratory pilot comparing three LLM tools — ChatGPT, Gemini and Perplexity AI — across three benchmark B2B market research tasks and three prompt types (basic, context-augmented, role-specific), generating 81 outputs in total. A 27-output subset was scored with automated metrics (relevance via cosine similarity, reference overlap, cross-run semantic stability, latency, readability) and blinded human ratings on relevance, completeness, factuality, instruction-following and insightfulness. Role-specific prompts scored best overall; Gemini showed the strongest profile on relevance, reference overlap and stability with lower latency, ChatGPT produced longer and less readable drafts, and Perplexity was concise and readable but least aligned with the brief. The authors also propose a \"switch-point\" rule set — accept, judge, review/redo, rewrite — mapping confidence signals to escalation actions.",
+      "why_it_matters": "Insight teams are already pushing LLM drafts into decision documents, and this offers a concrete, replicable way to screen outputs and assign human review rather than trusting fluent prose.",
+      "story_angle_primary": "Borrow the governance idea even if you discount the model rankings: standardize role-specific prompts, run the same prompt multiple times and treat cross-run inconsistency as a red flag that triggers human review before an AI-generated insight reaches a decision-maker.",
+      "story_angle_secondary": "Limited direct relevance for general readers, beyond the reminder that the most readable AI answer is not the most accurate one — Perplexity's concise summaries were the least faithful to the underlying brief.",
+      "caveats": "The authors explicitly label this an exploratory pilot, not confirmatory: three observations per tool in the statistical tests, a small task bank, and a small rater pool. Model rankings are likely to shift with new versions and should not be read as a procurement recommendation; single B2B context.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-10-28",
+      "doi": "10.1108/jbim-07-2025-0700",
+      "paper_title": "Advancing value creation in B2B market research – a human–AI collaboration framework for large language model",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7225245070",
+      "headline": "Wall Street likes your AI announcement. ESG watchers don't.",
+      "the_study": "Researchers assembled 500 corporate generative-AI adoption events from 2019–2024 and ran a staggered difference-in-differences analysis with propensity-score matching, then followed up with a system GMM analysis of 1,274 firm-year observations (2016–2024). Announcing GenAI adoption was associated with a 2.7% rise in cumulative abnormal stock returns — a market read of efficiency gains — but also a 1.9% decline in ESG sentiment, a reputational signal. Firms with stronger digital dynamic capability converted the short-term gain into durable performance, and those with a declared responsible-AI orientation blunted the reputational hit.",
+      "why_it_matters": "It quantifies a tension executives have mostly argued about in the abstract: the same AI announcement that pleases investors can cost a company standing with sustainability and governance audiences, unless governance messaging arrives alongside the technology.",
+      "story_angle_primary": "Treat the AI announcement itself as a communications decision with two audiences, not one. Brand and investor-relations teams could test pairing deployment news with explicit responsible-AI governance commitments and watch whether the ESG sentiment penalty narrows — this is archival evidence of an association, so the mechanism is worth validating inside your own reputation tracking.",
+      "story_angle_secondary": "When a company trumpets a new AI system, the stock market and the sustainability raters are reading opposite stories out of the same press release — a useful reminder that \"efficiency\" and \"responsibility\" are scored separately.",
+      "caveats": "Relies on archival market data and text-derived governance and ESG sentiment measures rather than audited sustainability outcomes; ESG sentiment is explicitly a reputational, not substantive, indicator. Event-study associations around announcements can reflect expectations rather than realized performance. Authors note no survey or internal audit corroboration.",
+      "journal": "Internet Research",
+      "published": "2026-11-04",
+      "doi": "10.1108/intr-10-2025-1679",
+      "paper_title": "Balancing efficiency and responsibility in generative AI adoption",
+      "source_id": "S63576417"
+    },
+    {
+      "work_id": "W7225414092",
+      "headline": "Customers are abusing service robots — and the human staff watching are taking it personally",
+      "the_study": "A multistudy program examined what happens when frontline employees witness customers being rude or degrading toward service robots. A randomized experiment tested whether observing robot-directed mistreatment triggers vicarious moral emotions and \"deontic injustice\" perceptions; a boundary experiment compared robot-directed mistreatment, human-directed mistreatment and respectful interaction; a 10-day experience-sampling study tracked within-person spillover from daily observed mistreatment to evening rumination and next-day service behavior; and a field quasi-experiment tested a structured managerial intervention protocol. Witnessing robot abuse raised employees' sense that a norm had been violated, which was linked to evening rumination and limited next-day service withdrawal — even though nobody believes the robot suffers.",
+      "why_it_matters": "Companies deploying service robots have planned for robot breakdowns and customer frustration, but not for the morale cost to human staff who watch customers mistreat the machines; the study suggests that cost is real and that visible managerial response partially repairs it.",
+      "story_angle_primary": "If you are rolling out robots in stores, hotels or restaurants, add a protocol for how managers respond when customers abuse them — the field comparison links a formal intervention to modestly better proactive service and less withdrawal. Test it as a staff-retention and service-quality lever, not just a robot-protection policy.",
+      "story_angle_secondary": "People get morally offended on behalf of a machine they know can't feel anything. The offense is about the conduct, not the victim — which says something about why rudeness in public spaces bothers bystanders at all.",
+      "caveats": "The field test of the intervention protocol was a nonrandomized quasi-experiment, so selection effects can't be ruled out; effects are repeatedly described as modest or limited. Sample sizes and countries are not reported in the abstract, and the experience-sampling window was only 10 days.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-11-06",
+      "doi": "10.1108/jsm-04-2026-0351",
+      "paper_title": "When customers mistreat service robots: employee moral appraisals and managerial intervention",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7223132093",
+      "headline": "The hidden cost of letting AI make your marketing calls: your marketers forget how",
+      "the_study": "This Journal of the Academy of Marketing Science paper builds a \"Return on AI\" (RoAI) framework for valuing AI investments in marketing organizations, grounded in marketing accountability and resource-based theory. Rather than measuring AI by tool cost, it accounts for the people, processes and governance capabilities required to deploy it, plus value retention, evidence durability and full lifetime deployment costs. Its central argument: delegating judgment to AI can lift current performance while eroding the hands-on practice through which marketers build the judgment needed to evaluate and correct the AI — which the authors propose explains why AI returns vary so widely across firms and decay over time.",
+      "why_it_matters": "It reframes AI ROI from a procurement question to a capability question, and names a plausible reason that early AI wins fade: the organization loses the expertise required to supervise the system.",
+      "story_angle_primary": "Audit how you measure AI returns — are you counting only incremental lift, or also the cost of governance, retraining and the skills your team stops exercising? The paper offers seven testable predictions; it is a framework, not evidence, so the actionable move is to instrument your own AI deployments to see whether judgment atrophy shows up over a few years.",
+      "story_angle_secondary": "Limited direct relevance for consumers, though it hints at why brand decisions may get blander over time: if the humans checking the algorithm lose the instinct to overrule it, the algorithm's defaults win by attrition.",
+      "caveats": "Purely conceptual — no new empirical data; the delegated-judgment mechanism and all seven predictions remain untested. No sample, firm or category evidence is presented.",
+      "journal": "Journal of the Academy of Marketing Science",
+      "published": "2026-10-21",
+      "doi": "10.1007/s11747-026-01217-6",
+      "paper_title": "Return on AI (RoAI): A framework for assessing AI investments in the marketing organization",
+      "source_id": "S92522684"
+    },
+    {
+      "work_id": "W7224957158",
+      "headline": "Service robots win customers over by feeling present — not by looking human",
+      "the_study": "Across two online studies and one laboratory study, researchers tested how a service robot's \"social presence\" — the sense that something is really there with you — affects customer satisfaction with a service encounter. Social presence consistently raised satisfaction, and the effect ran partly through customers perceiving the service as innovative, but only among customers who were themselves more open to innovation. Critically, anthropomorphism worked against this: the more human-like the robot was made to look, the weaker the link between social presence and satisfaction.",
+      "why_it_matters": "Firms deploying robots in customer-facing roles often assume more human-like equals more likable; this suggests the payoff comes from presence and responsiveness, while piling on human features can actively undercut it.",
+      "story_angle_primary": "If you are piloting service robots or embodied AI agents, treat social presence and human likeness as separate design dials rather than one. Worth A/B testing a warm, attentive but clearly machine-like agent against a more humanoid version in a live service setting, and segmenting results by how innovation-receptive your customer base is.",
+      "story_angle_secondary": "The uncanny valley shows up in everyday service: people seem to warm to a robot that acts attentive but stays visibly a robot, and cool toward one that tries too hard to pass as a person.",
+      "caveats": "Two of the three studies used online samples and the third was a laboratory study, so these are controlled encounters rather than observed behavior in real service settings; satisfaction was self-reported; single research program with no field validation reported.",
+      "journal": "Journal of Business Research",
+      "published": "2026-10-30",
+      "doi": "10.1016/j.jbusres.2026.116607",
+      "paper_title": "“So you got the brain but have you got the touch?”: the impact of the social presence of service robot and service innovativeness on customer satisfaction",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7224113183",
+      "headline": "The travelers most comfortable with AI are the ones who trust its itineraries least",
+      "the_study": "Researchers combined a two-wave panel of 433 Chinese and European travelers, a validation wave of 372 more, and 42 interviews to examine what makes tourists trust generative AI travel planning and keep using it. Data transparency and content authenticity lifted both cognitive and affective trust, and affective trust was the strongest driver of continued use. The surprise: technology readiness flipped the expected pattern — more tech-ready travelers scrutinized fluent AI output instead of leaning on it, weakening the link between trust and actual continued usage.",
+      "why_it_matters": "It challenges the assumption that tech-savvy early adopters are the easiest audience for generative AI features; they may be the most demanding, wanting verification tools rather than smoother prose.",
+      "story_angle_primary": "Test segmented AI interfaces: verification affordances such as checkable citations and in-context data-use disclosures for high-readiness users, reassurance and guidance for everyone else. And stop treating polished, fluent output as a proxy for credibility — fluency may buy less trust from your most sophisticated customers than from your least.",
+      "story_angle_secondary": "If you have ever double-checked a chatbot's hotel recommendation against a map, you are the pattern: comfort with AI tends to come bundled with skepticism, not blind faith.",
+      "caveats": "Self-reported trust and usage intentions via survey panels rather than observed booking behavior; limited to travel planning; two broad regional samples (Chinese and European travelers) that may not generalize elsewhere; relatively short panel horizon.",
+      "journal": "Journal of Travel Research",
+      "published": "2026-10-28",
+      "doi": "10.1177/00472875261499734",
+      "paper_title": "Trust or Scrutiny? The Technology Readiness Paradox in Travel Planning With Generative Artificial Intelligence",
+      "source_id": "S157485431"
+    },
+    {
+      "work_id": "W7225383427",
+      "headline": "When AI explains its recommendations, more reasons aren't better — a moderate dose wins",
+      "the_study": "Researchers tested five escalating \"explanation packages\" that an AI shopping assistant could attach to a product recommendation, measuring how much nonredundant product information was shown. A randomized mobile-retail experiment in China found an inverted-U pattern: trust, perceived usefulness and decision comfort rose with more explanation up to a point, then fell as information overload and what the authors call \"algorithmic over-justification\" took over. A companion study showed the same messages attributed to a human salesperson rather than an AI, and a behavioral analysis of 51,248 recommendation impressions across 5,000 distinct users confirmed that moderate packages performed best among the sets tested.",
+      "why_it_matters": "Explainable AI is often treated as \"more transparency is always better,\" but this suggests over-explaining a recommendation can read as a sales pitch and erode the very trust it is meant to build.",
+      "story_angle_primary": "Recommendation explanations are a tunable default, not a fixed setting — brands running AI assistants could A/B test explanation length by category (complex, high-functionality or safety-relevant products may tolerate more) rather than shipping one verbosity level across the catalog. Note that the study identifies effects of whole assigned packages, not of word count alone.",
+      "story_angle_secondary": "If a shopping app feels like it's working too hard to justify a suggestion, that instinct has some research behind it: piling on reasons can trigger suspicion that you're being sold to rather than advised.",
+      "caveats": "Single country (China) and largely a single retail environment; the experiments vary amount, content and diagnostic priority together, so they do not isolate pure information quantity; the authors note same-session measurement cannot establish causal mediation; the mechanism is not shown to be uniquely algorithmic, since human-attributed messages behaved similarly.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-11-07",
+      "doi": "10.1016/j.jretconser.2026.105205",
+      "paper_title": "Too little, too much, or just right? How AI recommendation information volume shapes trust and consumer behavior",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7224875273",
+      "headline": "What banking app reviews actually reveal: speed and security complaints hurt more than good design helps",
+      "the_study": "Researchers mined a large corpus of user reviews of mobile banking apps using topic modeling, sentiment analysis, large language model–assisted interpretation and semantic similarity matching, mapping user-written complaints and praise onto the ISO/IEC 25010:2023 software quality dimensions. Functional suitability, interaction capability and maintainability pushed ratings up, while performance efficiency, reliability, flexibility, safety and security problems drove ratings down; compatibility had no measurable effect. The quality–satisfaction link was asymmetric and moderated by review sentiment — under positive sentiment, negative quality issues bit harder.",
+      "why_it_matters": "It gives banks an evidence-based triage order for app roadmaps: fixing failure modes is not symmetric with adding features, and the same defect costs more among otherwise satisfied users.",
+      "story_angle_primary": "App teams can treat public review corpora as a continuous, free quality-measurement instrument — but the practical lesson is prioritization: reliability, speed and security read as dissatisfiers that destroy ratings, while usability improvements are the ones that build them. Worth testing whether the same asymmetry holds in your own review data across digital-only versus branch-based brands.",
+      "story_angle_secondary": "Your one-star review about a slow login is doing more work than a five-star review about a nice interface — ratings data shows failures are punished more sharply than strengths are rewarded.",
+      "caveats": "Observational analysis of user-generated reviews, not an experiment, so causal claims are limited; reviewers are a self-selected and typically polarized subset of users; findings depend on how text topics were mapped to the ISO quality framework; app categories and markets covered are not specified in detail.",
+      "journal": "International Journal of Bank Marketing",
+      "published": "2026-10-30",
+      "doi": "10.1108/ijbm-02-2026-0158",
+      "paper_title": "Analysing software quality attributes and user satisfaction in mobile banking applications",
+      "source_id": "S170810187"
+    },
+    {
+      "work_id": "W7223652225",
+      "headline": "Don't target the customers most likely to leave — target the ones your offer can actually change",
+      "the_study": "Researchers analyzed proprietary season-ticket-holder records from an NCAA collegiate athletics program (n=23,565), comparing the traditional binary logistic regression approach to churn prediction against random forest and support vector machine models. The machine learning models predicted renewal more accurately than the logit benchmark. The team then applied an uplift model, which estimates not who will churn but who will respond to a retention offer, and found that targeting people who are both at risk and persuadable is substantially more efficient and economically beneficial than blanket targeting of likely churners.",
+      "why_it_matters": "Most retention programs still spend incentive budget on customers flagged as \"at risk,\" including many who would have renewed anyway or who are unreachable at any price; uplift modeling reallocates that budget to the subset where the offer changes the outcome.",
+      "story_angle_primary": "Audit how your retention budget is allocated: if campaigns are triggered by churn probability alone, run a holdout test comparing churn-score targeting against uplift (incremental-response) targeting on the same list and measure incremental renewals, not total renewals. The gain here came from real ticketing records at one athletic program, so treat it as a strong proof of concept to replicate in your own category — subscriptions, gyms, telecom, SaaS — rather than a transferable coefficient.",
+      "story_angle_secondary": "It helps explain why some loyal customers never get a \"please stay\" discount while wavering ones get showered with offers: increasingly, the discount goes to whoever the algorithm thinks it can sway, not whoever is most valuable or most loyal.",
+      "caveats": "Single organization, single category (US collegiate athletics season tickets); proprietary data not independently verifiable; results are predictive modeling on historical records rather than a live randomized test of the uplift targeting strategy.",
+      "journal": "Sport Marketing Quarterly",
+      "published": "2026-10-26",
+      "doi": "10.1177/10616934261499880",
+      "paper_title": "Lifting the Veil: A Fresh Look at Churn Management for Season Ticket Holders Using Machine Learning",
+      "source_id": "S2765057658"
+    },
+    {
+      "work_id": "W7225100007",
+      "headline": "Telling people your influencer is AI makes them like the post less — and buy less",
+      "the_study": "Two between-subjects online experiments with US consumers who did not follow the influencer in question (n=303 and n=316, recruited via CloudResearch Connect) tested what happens when a human-looking influencer is disclosed as AI-generated. Disclosure significantly reduced perceived authenticity, which in turn produced negative expectation disconfirmation and lower engagement intentions; in Study 2 the chain extended to lower purchase intentions.",
+      "why_it_matters": "As AI disclosure rules tighten on social platforms, brands relying on human-presenting virtual influencers need to know the disclosure itself carries a measurable cost with cold audiences encountered through algorithmic feeds.",
+      "story_angle_primary": "If you use virtual influencers, the test worth running is timing and framing of disclosure: labeling the account as AI from the very first exposure sets category expectations rather than breaking them later, and overtly stylized or non-human-presenting avatars may avoid the authenticity penalty altogether. These are stated intentions from online panelists, so treat the direction as a warning signal to validate with live creative tests and actual click and conversion data.",
+      "story_angle_secondary": "The finding shows how much of influencer persuasion rests on believing a real person stands behind the recommendation — the same post lands worse the moment you learn no one actually used the product.",
+      "caveats": "Online panel sample; stated engagement and purchase intentions rather than observed behavior; single country (US); first-exposure, non-follower context only, so results may not apply to established virtual influencers with existing fan bases.",
+      "journal": "Journal of Product & Brand Management",
+      "published": "2026-11-02",
+      "doi": "10.1108/jpbm-09-2025-6354",
+      "paper_title": "Artificially influential: examining the impact of virtual influencers on non-followers’ behavior",
+      "source_id": "S58171247"
+    },
+    {
+      "work_id": "W7225315132",
+      "headline": "Plain-language data policies and outside audits both lifted willingness to adopt smart energy devices",
+      "the_study": "A 2x2 vignette experiment with 620 Vietnamese adults manipulated whether a household low-carbon technology provider offered a clear versus vague bundled governance disclosure, and whether data assurance came from an external body or the company itself. Both richer disclosure and external assurance independently raised all four focal outcomes, including adoption intention and willingness to join a pilot, with no interaction between them; survey measures showed trust in data handling and perceived legitimacy of using household data for climate purposes as the connecting perceptions.",
+      "why_it_matters": "For connected home and energy products, environmental benefit alone does not close the sale — how the data governance is explained and who vouches for it moves stated adoption on its own.",
+      "story_angle_primary": "Treat data-governance copy as conversion creative, not legal boilerplate: test intelligible transparency, explicit user controls and explainability claims against vague standard language, and test third-party certification against self-assurance. The authors explicitly caution that the disclosure effect came from a bundle, so isolate which component does the work before rebuilding your privacy page around any single claim.",
+      "story_angle_secondary": "Smart thermostats and home energy systems cut carbon by collecting detailed data about your household; this study suggests people are willing to make that trade, but mainly when someone independent has checked the company's homework.",
+      "caveats": "Single country (Vietnam); hypothetical vignettes and stated adoption intentions rather than real purchases; mediating mechanisms are measured perceptions in a cross-sectional structural model, so the trust-legitimacy pathway is associational even though the two cues were randomized.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-11-01",
+      "doi": "10.1111/ijcs.70278",
+      "paper_title": "Responsible Green Datafication in Household Low‐Carbon Technologies: Trust, Legitimacy, and Consumer Adoption",
+      "source_id": "S173807628"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7224849080",
+      "headline": "Your voice assistant should sound deferential, not authoritative",
+      "verdict": "accurate",
+      "notes": "Design (six experiments), mechanism chain (rapport → comfort), outcomes (usage intentions, perceived interaction value), and the time-pressure boundary condition all match the abstract; caveats correctly note no sample details are reported.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W4395015967",
+      "headline": "When you ask an AI to stand in for consumers, the answer depends on how you asked — this method fixes that",
+      "verdict": "accurate",
+      "notes": "HuMCal description, both validation settings (U.S. bank-card transactions, Pew data), the comparison baselines, the out-of-sample hedging, and the recalibration point all track the abstract closely.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7225314486",
+      "headline": "Empathetic chatbot language only pays off if customers know it's a bot — and think it's competent",
+      "verdict": "minor",
+      "notes": "Two-experiment design and the directional framing of Study 1 are reported faithfully; the headline equates schema activation with disclosure, and the eWOM-intent caveat is not verifiable from the abstract.",
+      "issues": [
+        {
+          "label": "Schema activation framed as disclosure/knowing it's a bot",
+          "severity": "Minor",
+          "as_written": "Empathetic chatbot language only pays off if customers know it's a bot — and think it's competent",
+          "abstract_says": "anthropomorphic language and chatbot schema (a customer's cognitive framework for understanding and interacting with a chatbot) jointly influence customer electronic word-of-mouth (eWOM)",
+          "problem": "An active chatbot schema is a cognitive frame, not necessarily explicit disclosure that the agent is a bot. The abstract does mention implications for \"chatbot disclosure,\" but the headline treats schema activation as equivalent to the customer knowing they are talking to a bot.",
+          "suggested_fix": "Reword to \"only pays off when customers are already framing the interaction as a chatbot interaction\" or note that the authors link this to disclosure as an implication rather than a manipulation."
+        },
+        {
+          "label": "Direction of the competence contingency specified beyond the abstract",
+          "severity": "Minor",
+          "as_written": "Study 2 found the effects on perceived authenticity and eWOM depended on the chatbot's competence: warm language appears to help only when the bot actually handles the request well.",
+          "abstract_says": "Study 2 demonstrates that the effects of anthropomorphic language on authenticity and eWOM are contingent on the chatbot's competence.",
+          "problem": "The abstract states contingency but does not specify the shape or direction (help only under high competence vs. backfire under low competence). The digest hedges with \"appears,\" but still supplies a direction the abstract doesn't give.",
+          "suggested_fix": "Say the effects were contingent on competence without asserting which side of the contingency drove the result."
+        },
+        {
+          "label": "eWOM measured as stated intent",
+          "severity": "Minor",
+          "as_written": "measures outcomes as stated word-of-mouth intent rather than observed sharing behavior",
+          "abstract_says": "Across two experiments, we examine how anthropomorphic language (such as empathetic language and emojis) impacts customers' engagement with chatbots.",
+          "problem": "The abstract does not specify whether eWOM was measured as intention or behavior; the caveat, while conservative, asserts a detail not verifiable from the abstract alone.",
+          "suggested_fix": "Note that the abstract does not specify how eWOM was operationalized."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7223791943",
+      "headline": "A head-to-head test of ChatGPT, Gemini and Perplexity on real B2B market research tasks",
+      "verdict": "minor",
+      "notes": "Pilot design, 81 outputs, 27-output subset, metrics, tool profiles and the switch-point matrix are all reported accurately, with the exploratory status flagged; one small slide from \"alignment with the brief\" to \"accuracy.\"",
+      "issues": [
+        {
+          "label": "Alignment conflated with accuracy",
+          "severity": "Minor",
+          "as_written": "the reminder that the most readable AI answer is not the most accurate one — Perplexity's concise summaries were the least faithful to the underlying brief",
+          "abstract_says": "Perplexity generated concise and readable summaries, but its outputs were less aligned with the reference brief and decision-facing requirements.",
+          "problem": "Lower alignment with a reference brief is not the same as lower factual accuracy; the abstract reports no tool-level factuality ranking.",
+          "suggested_fix": "Change \"most accurate\" to \"most on-brief\" or \"most aligned with the research brief.\""
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7225245070",
+      "headline": "Wall Street likes your AI announcement. ESG watchers don't.",
+      "verdict": "minor",
+      "notes": "Samples, designs and both headline effect sizes (2.7% CAR, −1.9% ESG sentiment) match; the digest drops the abstract's \"partially\" when describing the digital dynamic capability effect.",
+      "issues": [
+        {
+          "label": "Dropped hedge on the capability mediation",
+          "severity": "Minor",
+          "as_written": "Firms with stronger digital dynamic capability converted the short-term gain into durable performance",
+          "abstract_says": "Over time, DDC helped partially translate these short-term gains into sustainable performance",
+          "problem": "The abstract describes partial translation; the digest states it as full conversion into durable performance.",
+          "suggested_fix": "Add the hedge: \"partially translated the short-term gain into more durable performance.\""
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7225414092",
+      "headline": "Customers are abusing service robots — and the human staff watching are taking it personally",
+      "verdict": "accurate",
+      "notes": "All four study designs, the deontic-injustice finding, the modest/limited effect language and the nonrandomized field comparison are reported as the abstract states them.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7223132093",
+      "headline": "The hidden cost of letting AI make your marketing calls: your marketers forget how",
+      "verdict": "accurate",
+      "notes": "Correctly presented as a conceptual framework paper with seven untested predictions; theoretical grounding and the delegated-judgment mechanism match the abstract.",
+      "issues": []
+    },
+    {
+      "number": 8,
+      "work_id": "W7224957158",
+      "headline": "Service robots win customers over by feeling present — not by looking human",
+      "verdict": "minor",
+      "notes": "Design and the mediation/moderation structure are right, but the consumer-facing angle reads a negative moderation as customers actively disliking humanlike robots, and \"made to look\" implies anthropomorphism was manipulated.",
+      "issues": [
+        {
+          "label": "Moderation read as a main negative effect",
+          "severity": "Moderate",
+          "as_written": "people seem to warm to a robot that acts attentive but stays visibly a robot, and cool toward one that tries too hard to pass as a person",
+          "abstract_says": "robot anthropomorphism negatively moderates the relationship between social presence and satisfaction",
+          "problem": "A negative moderation means the social presence–satisfaction link is weaker when anthropomorphism is high; it does not establish that customers are less satisfied with (i.e., \"cool toward\") more humanlike robots overall.",
+          "suggested_fix": "Say that the satisfaction benefit of social presence shrinks as the robot looks more humanlike, rather than implying customers dislike humanlike robots."
+        },
+        {
+          "label": "Anthropomorphism described as manipulated appearance",
+          "severity": "Minor",
+          "as_written": "the more human-like the robot was made to look, the weaker the link between social presence and satisfaction",
+          "abstract_says": "robot anthropomorphism negatively moderates the relationship between social presence and satisfaction",
+          "problem": "The abstract does not say anthropomorphism was experimentally manipulated or limited to visual appearance; it could be a measured perception.",
+          "suggested_fix": "Use \"the more human-like the robot was (perceived to be)\" and note the abstract doesn't specify whether this was manipulated or measured."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7224113183",
+      "headline": "The travelers most comfortable with AI are the ones who trust its itineraries least",
+      "verdict": "significant",
+      "notes": "Sample details and main trust findings are accurate, but the headline converts a weakened trust→usage link into lower trust among tech-ready travelers, and the body calls a self-reported outcome \"actual continued usage.\"",
+      "issues": [
+        {
+          "label": "Headline misstates the technology readiness effect",
+          "severity": "Moderate",
+          "as_written": "The travelers most comfortable with AI are the ones who trust its itineraries least",
+          "abstract_says": "Technology readiness reversed the expected pattern: readier travelers scrutinized fluent output rather than relying on it, weakening the behavioral effect of trust.",
+          "problem": "The finding is that readiness weakens the translation of trust into continued usage, not that tech-ready travelers hold less trust. The headline tells readers something the abstract does not report.",
+          "suggested_fix": "Reframe as \"The travelers most comfortable with AI are the ones whose trust translates least into reliance on it.\""
+        },
+        {
+          "label": "Self-reported usage described as actual usage",
+          "severity": "Minor",
+          "as_written": "weakening the link between trust and actual continued usage",
+          "abstract_says": "weakening the behavioral effect of trust",
+          "problem": "Continued usage here comes from a self-report panel, as the digest's own caveat acknowledges; the body text's \"actual\" contradicts that caveat.",
+          "suggested_fix": "Drop \"actual\" and say \"self-reported continued usage.\""
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7225383427",
+      "headline": "When AI explains its recommendations, more reasons aren't better — a moderate dose wins",
+      "verdict": "minor",
+      "notes": "Five packages, inverted-U, the AI-vs-human comparison, 51,248 impressions/5,000 users and the assigned-package caveat are all faithful; the mediator findings from Study 2 are folded into the description of Study 1.",
+      "issues": [
+        {
+          "label": "Mediators attributed to the inverted-U experiment",
+          "severity": "Minor",
+          "as_written": "A randomized mobile-retail experiment in China found an inverted-U pattern: trust, perceived usefulness and decision comfort rose with more explanation up to a point, then fell as information overload and what the authors call \"algorithmic over-justification\" took over.",
+          "abstract_says": "Study 1 identifies an inverted-U response in a randomized Chinese mobile-retail experiment... Study 2 reports conditional positive indirect associations through perceived usefulness, trust in AI, and decision comfort, and conditional negative indirect associations through information overload and algorithmic over-justification.",
+          "problem": "The mediators belong to Study 2's conditional indirect associations, not to Study 1's inverted-U result; combining them implies the mediating pathways were themselves shown to be curvilinear in the randomized experiment.",
+          "suggested_fix": "Separate the two: report the inverted-U from Study 1, then note Study 2's conditional positive and negative indirect pathways."
+        },
+        {
+          "label": "Companion study described one-sidedly",
+          "severity": "Minor",
+          "as_written": "A companion study showed the same messages attributed to a human salesperson rather than an AI",
+          "abstract_says": "Study S1 compares identical messages attributed to an AI assistant or a human salesperson, with separate source-neutral measurement validation.",
+          "problem": "It was a comparison of AI versus human attribution, not a re-run with human attribution only; the digest's phrasing also stops short of saying what the comparison found (the caveat later implies similarity).",
+          "suggested_fix": "Say the companion study compared identical messages attributed to an AI assistant versus a human salesperson."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7224875273",
+      "headline": "What banking app reviews actually reveal: speed and security complaints hurt more than good design helps",
+      "verdict": "minor",
+      "notes": "Core findings match the abstract. Small slips: the abstract's caveat that moderation of positive effects varies across dimensions is dropped, 'positive sentiment' is reinterpreted as 'otherwise satisfied users', and the digest treats the digital-only vs. branch-bank comparison as untested when the abstract says it was covered.",
+      "issues": [
+        {
+          "label": "Dropped nuance in sentiment moderation",
+          "severity": "Minor",
+          "as_written": "The quality–satisfaction link was asymmetric and moderated by review sentiment — under positive sentiment, negative quality issues bit harder.",
+          "abstract_says": "Sentiment polarity moderates these associations: under positive sentiment, negative quality effects intensify, while the moderation of positive effects varies across dimensions.",
+          "problem": "The digest reports only half the moderation result, omitting that the moderation of positive quality effects varies by dimension — which makes the asymmetry look cleaner than the abstract claims.",
+          "suggested_fix": "Add: 'while the moderation of the positive dimensions varied from one quality dimension to another.'"
+        },
+        {
+          "label": "Review sentiment recast as user satisfaction",
+          "severity": "Minor",
+          "as_written": "the same defect costs more among otherwise satisfied users",
+          "abstract_says": "Under positive sentiment, negatively associated quality dimensions exert stronger adverse effects on satisfaction",
+          "problem": "The moderator is the sentiment polarity of the review text, not a measure of whether the reviewer is an 'otherwise satisfied user'; the gloss attributes a user-level trait to a text-level variable.",
+          "suggested_fix": "Reword to 'the same defect weighs more heavily in otherwise positively worded reviews.'"
+        },
+        {
+          "label": "Bank type described as unspecified",
+          "severity": "Minor",
+          "as_written": "Worth testing whether the same asymmetry holds in your own review data across digital-only versus branch-based brands.",
+          "abstract_says": "demonstrating how sentiment polarity moderates the relationship between perceived software quality dimensions and user ratings across both fully digital and hybrid digital–physical banks",
+          "problem": "The abstract states the analysis already spanned fully digital and hybrid digital–physical banks, so presenting that comparison as an open question (and the caveat that app categories 'are not specified in detail') understates what the paper reports.",
+          "suggested_fix": "Note that the study already covered both digital-only and branch-based banks, and frame the angle as replicating rather than first testing that split."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7223652225",
+      "headline": "Don't target the customers most likely to leave — target the ones your offer can actually change",
+      "verdict": "minor",
+      "notes": "Design, N, data source and findings all match the abstract. Only the intensifier 'substantially' is an addition.",
+      "issues": [
+        {
+          "label": "Unsupported intensifier",
+          "severity": "Minor",
+          "as_written": "found that targeting people who are both at risk and persuadable is substantially more efficient and economically beneficial than blanket targeting of likely churners",
+          "abstract_says": "Findings highlight that targeting individuals who are both likely to churn and receptive to retention efforts is a more efficient and economically beneficial strategy",
+          "problem": "The abstract reports no effect magnitude; 'substantially' adds a size claim the abstract does not make.",
+          "suggested_fix": "Drop 'substantially' or say the abstract reports greater efficiency without quantifying it."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7225100007",
+      "headline": "Telling people your influencer is AI makes them like the post less — and buy less",
+      "verdict": "minor",
+      "notes": "Sample sizes, recruitment platform, design and the serial mediation chain are reported accurately. The headline's 'buy less' implies behavior where only purchase intention was measured (the caveats do flag this), and one story-angle suggestion about stylized avatars is not tested in the abstract.",
+      "issues": [
+        {
+          "label": "Headline implies behavior, not intention",
+          "severity": "Minor",
+          "as_written": "Telling people your influencer is AI makes them like the post less — and buy less",
+          "abstract_says": "In Study 2, this serial process extended to lower purchase intentions.",
+          "problem": "'Buy less' reads as actual purchasing; only stated purchase intentions were measured. The body and caveats are correct, so the mismatch is confined to the headline.",
+          "suggested_fix": "Change to '...and say they'll buy less' or '...and lowers purchase intentions'."
+        },
+        {
+          "label": "Untested design recommendation",
+          "severity": "Minor",
+          "as_written": "overtly stylized or non-human-presenting avatars may avoid the authenticity penalty altogether",
+          "abstract_says": "Two between-subjects online experiments with US non-followers (n = 303 and n = 316) ... tests whether disclosure that a seemingly human influencer is AI-generated lowers perceived authenticity",
+          "problem": "Only human-presenting virtual influencers were studied; the stylized-avatar alternative is an extrapolation. Unverifiable from abstract only.",
+          "suggested_fix": "Label it explicitly as a hypothesis the study does not test."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7225315132",
+      "headline": "Plain-language data policies and outside audits both lifted willingness to adopt smart energy devices",
+      "verdict": "minor",
+      "notes": "Design, N, country, the two randomized cues, the four outcomes and the no-interaction result are all accurate, and the digest echoes the authors' bundle caution. It omits the named moderators (digital literacy, institutional trust, environmental concern), and the consumer angle over-weights external assurance relative to disclosure.",
+      "issues": [
+        {
+          "label": "Named moderators omitted",
+          "severity": "Moderate",
+          "as_written": "Both richer disclosure and external assurance independently raised all four focal outcomes, including adoption intention and willingness to join a pilot, with no interaction between them; survey measures showed trust in data handling and perceived legitimacy of using household data for climate purposes as the connecting perceptions.",
+          "abstract_says": "Digital literacy strengthened two of the three proposed governance‐cue relationships; institutional trust strengthened the provider‐credibility relationship, and environmental concern strengthened the legitimacy–adoption relationships.",
+          "problem": "The abstract names three boundary conditions on the trust and legitimacy pathways; the digest drops all of them, presenting the mechanism as uniform across consumers.",
+          "suggested_fix": "Add a sentence noting the pathways were stronger among more digitally literate, institutionally trusting and environmentally concerned respondents."
+        },
+        {
+          "label": "Overweights external assurance",
+          "severity": "Minor",
+          "as_written": "this study suggests people are willing to make that trade, but mainly when someone independent has checked the company's homework",
+          "abstract_says": "Randomized factorial tests showed positive main effects of richer governance disclosure and external assurance on all four focal outcomes, with no significant interaction.",
+          "problem": "Both cues had independent main effects of comparable standing in the abstract; 'mainly when someone independent has checked' implies external assurance is the dominant or necessary condition.",
+          "suggested_fix": "Reword to note that clearer disclosure and independent assurance each helped on their own."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 0,
+    "cached": 0,
+    "skipped": 14,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {}
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **The AI disclosure penalty keeps running through perceived authenticity.** \"Telling people your influencer is AI makes them like the post less — and buy less\" (W7225100007) reproduces, in the influencer context, the exact mediation chain found in the previous digest's \"'Designed by AI' costs you money — 'designed with AI' doesn't\" (W7222531871) and \"Labeling a souvenir 'AI-generated' hurt sales intent with Americans — but Chinese shoppers didn't blink\" (W7223005232): disclosure lowers authenticity, authenticity lowers intent. Three studies in two consecutive digests now put the damage in the same place.\n- **Human likeness is a separate dial from warmth or presence — and the wrong one to turn up.** \"Service robots win customers over by feeling present — not by looking human\" (W7224957158) and \"Empathetic chatbot language only pays off if customers know it's a bot — and think it's competent\" (W7225314486) extend the conditional-humanness thread from \"When should a chatbot sound cheerful? Only when the task is subjective\" (W7221784971) and \"A less human chatbot may be exactly what stigmatized customers want\" (W7222997881). W7224957158 is the cleanest statement yet: anthropomorphism actively weakened the presence-to-satisfaction link.\n- **Transparency acts as reassurance rather than caution.** \"Plain-language data policies and outside audits both lifted willingness to adopt smart energy devices\" (W7225315132) is the constructive mirror of the previous digest's \"Disclosure Warnings on AI Therapy Bots May Boost Use Rather Than Protect Users\" (W7223088624) — in both, clearer disclosure increased adoption rather than tempering it. The policy implication differs by context, but the behavioral direction is the same.\n- **Owning AI is still not the payoff.** \"The hidden cost of letting AI make your marketing calls: your marketers forget how\" (W7223132093) theorizes the mechanism that \"AI Patents Don't Create Value — Marketing Execution Does\" (W7222898245) found in panel data: capability inside the commercial organization is the conversion step, and W7223132093 proposes that AI delegation erodes exactly that capability over time.\n- **Side effects nobody instrumented.** \"Customers are abusing service robots — and the human staff watching are taking it personally\" (W7225414092) and W7223132093 join \"Daily motivational texts lifted sales — and made agents stop checking their numbers\" (W7222957362) and \"The More Capable People Feel with AI, the More Willing They Are to Misuse It\" (W7213767799): each documents a human cost sitting outside the deployment's own success metric.\n\n**Advances**\n- **From \"explanations help\" to \"explanations have a dose.\"** The previous digest's \"Whether an AI recommender should decide for you or with you depends on how the green product is pitched\" (W7221585809) found that attribute-based explanations erased a recommender penalty; \"When AI explains its recommendations, more reasons aren't better — a moderate dose wins\" (W7225383427) adds the curve, with trust falling once over-justification sets in — and adds behavioral scale (51,248 impressions) to what was scenario evidence.\n- **From AI as a market instrument to AI instruments that need calibration.** \"An AI web crawler found five times more nicotine pouch brands than Nielsen or national surveys\" (W7223205040) showed LLM tooling outperforming incumbent trackers; \"When you ask an AI to stand in for consumers, the answer depends on how you asked — this method fixes that\" (W4395015967) and \"A head-to-head test of ChatGPT, Gemini and Perplexity on real B2B market research tasks\" (W7223791943) move the thread from capability to quality control — credibility weights and escalation rules rather than raw coverage.\n- **Trust segmentation gets sharper.** \"Chatbots keep customers in the ecosystem — but only if they make people feel sure of their decision\" (W7221013951) named decision confidence as the gate; \"The travelers most comfortable with AI are the ones who trust its itineraries least\" (W7224113183) identifies who the gate is hardest to pass with, finding technology readiness weakens rather than strengthens the trust-to-use link.\n\n**Counterpoints**\n- **Tone register versus emotional valence.** \"Your voice assistant should sound deferential, not authoritative\" (W7224849080) finds submissive phrasing wins even in authority-oriented service contexts, which sits awkwardly beside W7221784971's finding that a neutral, competence-signaling tone wins on objective, data-driven tasks. They are probably measuring different dimensions — dominance versus warmth — but anyone writing bot scripts from both papers will hit the conflict.\n- **Are sophisticated users the easy audience?** \"Shoppers Will Hand the Credit Card to an AI Agent — If It Can Prove It Understands Them\" (W7222787541) framed capability signals as the unlock and found expertise merely moderated responses; W7224113183 argues the most technology-ready users scrutinize fluent output instead of relying on it. The two disagree on whether sophistication is a tailwind or a hurdle for AI delegation.\n\n**New themes**\n- **AI announcements as a two-audience communications problem** — \"Wall Street likes your AI announcement. ESG watchers don't.\" (W7225245070) is the first study in this run of digests to price the reputational side of adoption news against the market side.\n- **Bystander morale around service robots** (W7225414092) — employees as the affected party in robot deployment, with no prior-run antecedent.\n- **Incremental-response targeting** — \"Don't target the customers most likely to leave — target the ones your offer can actually change\" (W7223652225) opens a retention-economics strand distinct from anything in the previous digest.\n- **User-review corpora as a continuous quality instrument** — \"What banking app reviews actually reveal: speed and security complaints hurt more than good design helps\" (W7224875273), including the asymmetry between dissatisfiers and satisfiers.",
+    "feature_pitch": "**The pattern:** The consumer-insight function is being quietly automated, and three studies in this batch independently show the quality controls are not in place yet. \"When you ask an AI to stand in for consumers, the answer depends on how you asked — this method fixes that\" (W4395015967) shows LLM synthetic respondents give materially different readings of public opinion depending on prompt, persona and model version, and only match real human benchmarks after deliberate statistical calibration; \"A head-to-head test of ChatGPT, Gemini and Perplexity on real B2B market research tasks\" (W7223791943) finds the most readable AI research output was the least faithful to the brief and proposes escalation rules for when a human must intervene; and \"The hidden cost of letting AI make your marketing calls: your marketers forget how\" (W7223132093) argues that the judgment needed to catch these failures atrophies in exactly the teams that delegate most. \"What banking app reviews actually reveal\" (W7224875273) sits alongside as the counterexample — real user text, machine-read, producing findings a synthetic panel could not have invented.\n\n**Why pitch this now:** Synthetic respondent panels and AI-drafted insight decks are being sold into brand and agency research budgets as a cheap substitute for fieldwork right as those budgets are under cost pressure, and this is the first cluster of peer-reviewed evidence on what the substitution actually costs in accuracy and in institutional skill.\n\n**Angle:** A reported feature on the machine-generated consumer — who is buying synthetic research, what the calibration and governance evidence says it takes to make those outputs trustworthy, and what happens to a research department that stops practicing the judgment required to audit them. Written for insights leaders, CMOs and agency strategy teams, with enough bite for a general business reader who wants to know whether the \"consumers say\" line in a press release came from any consumers.\n\n**Potential headlines:**\n- The consumers in your research may not exist, and the evidence says that takes work to fix\n- The most readable AI research answer was the least accurate one\n- Who in your company will still be able to tell when the AI gets consumers wrong?\n\n**Potential outlets:**\n- **Research Live** — its readership is the market research industry deciding right now whether synthetic samples belong in a client deliverable, and the calibration-versus-naive-averaging distinction is their core argument.\n- **Marketing Brew** — well suited to an explainer on how AI personas entered the insights workflow and what brand teams should be asking vendors.\n- **Ad Age** — covers the commercial squeeze on research and strategy functions, which is the economic engine behind this substitution.\n- **Harvard Business Review** — the capability-atrophy argument, that delegating judgment erodes the ability to supervise the system, is an organizational governance piece in their register.",
+    "pitch_ideas": "- **Your voice assistant should sound deferential, not authoritative (Work ID W7224849080):** Six experiments arguing that voice scripts carry a power register nobody writes for, with deference winning even in banking- and health-style authority contexts, for a customer-experience or conversation-design trade piece, with a consumer-psychology sidebar on wanting a servant rather than a boss.\n- **When you ask an AI to stand in for consumers, the answer depends on how you asked (Work ID W4395015967):** A *Marketing Science* method for weighting LLM survey outputs against real human benchmarks, and the questions a brand should put to any synthetic-sample vendor, for a market research trade lead or an insights-leadership column.\n- **Empathetic chatbot language only pays off if customers know it's a bot — and think it's competent (Work ID W7225314486):** Competence as the gate through which warmth cues flow, meaning empathy bolted onto a failing bot is inert or worse, for a customer-service technology trade brief.\n- **A head-to-head test of ChatGPT, Gemini and Perplexity on real B2B market research tasks (Work ID W7223791943):** Skip the rankings and take the governance idea — run the same prompt repeatedly and treat cross-run inconsistency as a trigger for human review, for a B2B marketing or insights-operations explainer, flagged clearly as an exploratory pilot.\n- **Wall Street likes your AI announcement. ESG watchers don't. (Work ID W7225245070):** 500 adoption events showing a 2.7% abnormal return paired with a 1.9% drop in ESG sentiment, and responsible-AI messaging blunting the second, for a corporate communications or investor-relations trade feature, or a business-section piece on the two scoreboards reading one press release.\n- **Customers are abusing service robots — and the human staff watching are taking it personally (Work ID W7225414092):** Robot rollouts need a managerial response protocol as a staff-retention lever, not just a hardware-protection policy, for a retail or hospitality operations trade piece, with a strong general-interest angle on moral offense on behalf of a machine that cannot suffer.\n- **The hidden cost of letting AI make your marketing calls: your marketers forget how (Work ID W7223132093):** Reframing AI ROI from procurement cost to capability cost, including the skills a team stops exercising, for a CMO-audience column — with the caveat that it is a framework offering testable predictions rather than evidence.\n- **Service robots win customers over by feeling present — not by looking human (Work ID W7224957158):** Presence and human likeness as separate design dials, with anthropomorphism weakening the payoff, for a service-design or retail technology trade explainer, plus a consumer piece on the uncanny valley at the hotel front desk.\n- **The travelers most comfortable with AI are the ones who trust its itineraries least (Work ID W7224113183):** Early adopters as the most demanding audience, wanting checkable citations rather than smoother prose, for a travel trade analysis or a product-marketing column on segmenting AI interfaces by readiness.\n- **When AI explains its recommendations, more reasons aren't better — a moderate dose wins (Work ID W7225383427):** Explanation length as a tunable default by product category, with over-justification reading as a sales pitch, for an e-commerce or personalization trade brief, and a consumer explainer on why an over-eager shopping app feels suspicious.\n- **What banking app reviews actually reveal (Work ID W7224875273):** An evidence-based triage order for app roadmaps — reliability, speed and security destroy ratings while usability builds them, and defects cost most among otherwise satisfied users, for a banking or fintech trade explainer, with a consumer angle on the asymmetric power of a one-star review.\n- **Don't target the customers most likely to leave — target the ones your offer can actually change (Work ID W7223652225):** Uplift modeling against churn-score targeting on 23,565 season-ticket records, and the holdout test any subscription business could run, for a CRM/retention marketing trade piece, with a consumer-facing spin on why loyal customers never get the \"please stay\" discount.\n- **Telling people your influencer is AI makes them like the post less — and buy less (Work ID W7225100007):** Disclosure timing and avatar styling as the variables worth testing, since labeling from first exposure sets expectations rather than breaking them, for an influencer marketing or social platform trade news piece.\n- **Plain-language data policies and outside audits both lifted willingness to adopt smart energy devices (Work ID W7225315132):** Data-governance copy as conversion creative, with third-party assurance working independently of disclosure clarity, for a connected-device or sustainability marketing trade explainer, plus a consumer piece on trading household data for lower carbon."
+  }
+}

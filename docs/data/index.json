@@ -1,6 +1,6 @@
 {
   "generated_from": "outputs/*.json",
-  "run_count": 41,
+  "run_count": 42,
   "topics": [
     "advertising",
     "ai & marketing technology",
@@ -17,6 +17,16 @@
     "sustainability & ethical consumption"
   ],
   "runs": [
+    {
+      "id": "marketing-research-digest-ai-marketing-technology-2026-11-09",
+      "title": "Marketing Research Digest — AI & Marketing Technology — 2026-11-09",
+      "topic": "ai & marketing technology",
+      "run_date": "2026-11-09",
+      "study_count": 14,
+      "total_issues": "19 (16 Minor, 3 Moderate, 0 Major)",
+      "lead_count": 0,
+      "top_score": 89
+    },
     {
       "id": "marketing-research-digest-branding-2026-11-07",
       "title": "Marketing Research Digest — Branding — 2026-11-07",
