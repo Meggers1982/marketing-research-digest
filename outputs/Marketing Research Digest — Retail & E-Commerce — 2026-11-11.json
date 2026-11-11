@@ -1,0 +1,538 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-11-11",
+  "days_back": 60,
+  "window_from": "2026-09-12",
+  "window_to": "2026-11-11",
+  "focus": "Retail & E-Commerce",
+  "topic": "retail & e-commerce",
+  "query": "retail OR retailer OR \"e-commerce\" OR \"online shopping\" OR omnichannel OR marketplace OR \"private label\" OR \"store\" OR \"live streaming commerce\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 262,
+    "not_research": 8,
+    "no_abstract": 70,
+    "off_topic": 0,
+    "already_covered": 99,
+    "over_journal_cap": 14,
+    "over_cap": 31,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7225751353",
+      "headline": "Boomers, Gen Z and online reviews: the generation gap barely exists",
+      "the_study": "Researchers surveyed 1,028 Czech online panelists spanning Baby Boomers, Gen X, Millennials and Gen Z, asking each to rate purchase intentions after reading ten fictitious product reviews built around classic decision biases — anchoring, attribute emphasis, positive framing, review recency and hindsight cues. A handful of cohort differences reached nominal significance (mostly Boomers versus Gen Y and Z on positive anchoring and design-focused reviews), but every effect size was vanishingly small (η²H = 0.005–0.009), and the positive-framing difference disappeared after correcting for multiple comparisons. The authors' own conclusion: generational membership tells you almost nothing about how someone responds to review cues.",
+      "why_it_matters": "Generation-based segmentation is a staple of retail and e-commerce strategy, yet this study finds no basis for building separate review interfaces or persuasion tactics for Boomers versus Gen Z. Budget spent on age-cohort targeting of review presentation may be better spent on cues that move everyone.",
+      "story_angle_primary": "Audit where your team assumes a \"Gen Z shops differently\" premise and ask what evidence supports it. This study suggests review-interface personalization by birth cohort is unlikely to pay off; test behavioral or need-state segments against age cohorts in a live A/B experiment before committing design resources.",
+      "story_angle_secondary": "The stereotype that older shoppers are more gullible about online reviews — or that younger ones are savvier — gets little support here. Anchoring on a high first number, glowing framing and design-focused praise nudge people of all ages in broadly similar ways.",
+      "caveats": "Online panel with hypothetical purchase-intention measures rather than real purchases; single country (Czech Republic) quota sample; stimuli were fictitious reviews and the attribute-emphasis conditions confounded information content with framing, so no clean causal mechanism; the authors themselves describe it as exploratory descriptive evidence.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-11-10",
+      "doi": "10.1016/j.jretconser.2026.105208",
+      "paper_title": "Cognitive bias across generations: The influence of online reviews on consumer decision-making in E-commerce",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7225231563",
+      "headline": "Head office calls it \"augmentation.\" Store staff hear \"replacement.\"",
+      "the_study": "Researchers conducted 52 expert interviews across a retail hierarchy — 27 headquarters managers, 11 store managers and 14 frontline employees — to understand how customer-facing service digitalization is understood at each level. The framing gap was systematic: HQ described digital service as an ongoing journey that augments human staff, while frontline employees described the same initiatives as a fixed destination that substitutes for them. Store managers sat in between as translators who could either reinforce or defuse the mismatch, and the study identifies four alignment mechanisms (including psychological safety, deliberate redundancies and nudging) that buffer the damage to service interaction quality.",
+      "why_it_matters": "Retailers routinely blame failed self-service and digital service rollouts on technology or customers, when the breakdown may start with how differently stores and head office interpret the same project. Diagnosing that gap before launch is cheaper than relaunching.",
+      "story_angle_primary": "Before the next self-checkout, clienteling app or in-store AI rollout, survey what frontline staff believe the project is for — and whether they think it ends with them. Practical levers worth testing: HQ staff working store days, temporary staffing redundancies during transition, and formally resourcing store managers as translators rather than just enforcers.",
+      "story_angle_secondary": "When the in-store tech feels half-hearted or staff seem reluctant to help you use it, the problem is often not laziness but a workforce that reads the same device as a notice of its own obsolescence.",
+      "caveats": "Qualitative interview study with no quantitative outcome measures and no causal test of the proposed alignment mechanisms; participant firms and countries are not specified in the abstract; findings are retail-specific and reflect expert accounts rather than observed customer service outcomes.",
+      "journal": "Journal of Service Research",
+      "published": "2026-11-03",
+      "doi": "10.1177/10946705261498173",
+      "paper_title": "Rethinking Customer Service Digitalization: Incongruent Frames and Alignment Mechanisms in Retailing",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7225122614",
+      "headline": "Get the omnichannel journey right and satisfaction with the whole retailer is still higher a year later",
+      "the_study": "Combining a survey of 420 shoppers with omnichannel experience, a follow-up measurement one year later, and a supplementary experiment with 80 participants, researchers tested a chain running from a retailer's omnichannel capability through three experience outcomes — fulfillment, fluency (how seamless the journey feels) and flexibility (switching channels at will) — to satisfaction with the specific journey. Satisfaction with a single journey at the first time point predicted broader satisfaction with the retailer as a whole a year later.",
+      "why_it_matters": "It supports treating channel integration as one organizational capability with measurable downstream payoff, rather than a set of separate channel projects, and suggests journey-level satisfaction scores have predictive value for brand-level standing.",
+      "story_angle_primary": "Consider instrumenting journey-level satisfaction (fulfillment, fluency, flexibility) as a leading indicator rather than relying on annual retailer-level satisfaction tracking — but validate the one-year link in your own customer base before using it in forecasting or incentives.",
+      "story_angle_secondary": "A single frustrating click-and-collect or returns experience may color how you feel about a retailer long after you have forgotten the specific order.",
+      "caveats": "Primarily cross-sectional survey with structural equation modeling, so causal direction is inferred rather than established; the supplementary experiment is small (N=80 total); country and retail category not specified in the abstract; self-reported satisfaction rather than observed spending or retention.",
+      "journal": "International Journal of Retail & Distribution Management",
+      "published": "2026-11-02",
+      "doi": "10.1108/ijrdm-09-2025-0731",
+      "paper_title": "Exploring the capability–experience–satisfaction (CES) pathway in omnichannel retailing",
+      "source_id": "S65353606"
+    },
+    {
+      "work_id": "W7224921670",
+      "headline": "Subsidize pickup, not delivery: airport e-commerce data shows where discounts actually pay off",
+      "the_study": "Researchers analyzed six months of transaction data from the online shopping channel of a major international airport in China, building an unbalanced panel of 88 stores and estimating fixed-effects models of how sales responded to subsidy intensity across three fulfillment modes. Channel subsidies lifted online sales overall, but the effect was strongest for in-store pickup, next strongest for instant delivery, and weakest for home delivery. Dining outlets responded more strongly than retail stores for pickup and instant delivery, and spatial spillovers between stores were statistically insignificant.",
+      "why_it_matters": "Promotional budgets in omnichannel retail are usually set at the channel level, but this field evidence suggests the same discount buys very different sales depending on how the order is fulfilled.",
+      "story_angle_primary": "Retail and marketplace operators could break subsidy performance out by fulfillment mode rather than treating online promotion as one line item, and test whether shifting spend toward pickup and fast local delivery produces more incremental sales; the paper also suggests reducing fulfillment uncertainty by displaying preparation times, store congestion and historical delivery times.",
+      "story_angle_secondary": "For travelers and shoppers, it shows discounts are not neutral: platforms price-steer you toward the fulfillment method that is cheapest and fastest for them, which is often walking to the counter yourself.",
+      "caveats": "Single platform, single airport in China, 88 stores over six months; a time- and space-constrained captive-audience setting that may not generalize to mainstream e-commerce; observational panel data rather than a randomized subsidy experiment.",
+      "journal": "Internet Research",
+      "published": "2026-10-30",
+      "doi": "10.1108/intr-09-2025-1430",
+      "paper_title": "The effects of channel subsidies on sales performance across fulfillment modes in airport e-commerce",
+      "source_id": "S63576417"
+    },
+    {
+      "work_id": "W7225631783",
+      "headline": "Seven years of survey waves suggest shoppers who notice a retailer's inclusion efforts trust it more",
+      "the_study": "Using a repeated cross-sectional survey fielded annually across seven waves from 2019 to 2025, researchers tested whether consumer awareness of retailers' diversity, equity, inclusion and accessibility (DEIA) initiatives was linked to trust and loyalty. Awareness was positively associated with trust in every annual sample, and trust was strongly associated with loyalty throughout, though the size of the awareness effect varied by year and by the form of diversity in question. The authors interpret DEIA as a market signal whose effects reach beyond the groups the initiatives target.",
+      "why_it_matters": "As many retailers quietly retreat from DEI commitments, this gives a longitudinal counterpoint: the trust pathway held up across seven years of shifting political climate, but only among consumers who were actually aware of the initiatives.",
+      "story_angle_primary": "Visibility is the variable: the association runs through awareness, so brands maintaining DEIA programs may need to embed them in the customer experience rather than in corporate reports, and the authors warn that different forms of diversity are not interchangeable in consumer response.",
+      "story_angle_secondary": "For shoppers, it is a reminder that trust in a store is built out of small signals you may barely register consciously, from accessible store layouts to who is visible on staff.",
+      "caveats": "Repeated cross-sectional survey, not a panel, so it cannot establish causation and cannot track individuals over time; self-reported awareness, trust and loyalty rather than observed spending; country and retailer context not fully specified in the abstract.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-11-09",
+      "doi": "10.1016/j.jretconser.2026.105203",
+      "paper_title": "Do inclusive retailers build stronger customer relationships? Evidence from a multi-wave repeated cross-sectional study",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7221486834",
+      "headline": "Vague DEI statements win shoppers over directly; specific ones work through a different route",
+      "the_study": "Across two experiments, researchers tested how consumers react to retailers' diversity, equity and inclusion statements that varied in specificity. Unspecific DEI statements produced a directly positive consumer response, whereas specific statements worked indirectly, by reducing the psychological distance consumers felt and lowering dissociative concerns about being linked with a group they do not identify with.",
+      "why_it_matters": "It suggests the wording choice retailers agonize over is not a simple safe-versus-bold trade-off: specificity can still pay off, but only if the messaging first closes the perceived distance between the shopper and the group being named.",
+      "story_angle_primary": "Worth testing in live creative: pair specific DEI commitments with cues that reduce psychological distance, and compare against broad inclusive language, rather than assuming named-group messaging will alienate the general customer base.",
+      "story_angle_secondary": "The finding exposes a quiet piece of shopper psychology: people often respond less to the cause itself than to whether it makes them feel close to, or set apart from, the people it is about.",
+      "caveats": "Two scenario-based experiments measuring responses to statements rather than real shopping behavior; sample sizes, country and recruitment source are not reported in the abstract.",
+      "journal": "Journal of Marketing Management",
+      "published": "2026-11-04",
+      "doi": "10.1080/0267257x.2026.2757003",
+      "paper_title": "Specific or not? - Consumer response to diversity, equity, and inclusion initiatives in retail service settings",
+      "source_id": "S14291815"
+    },
+    {
+      "work_id": "W7224102790",
+      "headline": "\"You must buy this\": pushy livestream sellers work better when viewers feel ignored",
+      "the_study": "Five studies, including three using a 2 (assertive vs. non-assertive language) by continuous (perceived interactivity) between-subjects design plus a fully factorial fourth study and a boundary-condition web study, tested how livestream shoppers react to commanding sales language. When viewers perceived low interactivity with the streamer, assertive language increased trust in the product and downstream purchase responses; when interactivity was high, the advantage disappeared. Trust in the product mediated the effect, and time pressure acted as a theory-driven boundary condition.",
+      "why_it_matters": "Livestream selling is a large and fast-growing e-commerce format, and this suggests the familiar hard-sell script is not universally effective but contingent on how connected viewers feel to the host.",
+      "story_angle_primary": "Streamers and the brands hiring them could match tone to room size and engagement level, testing assertive scripts in large, low-interaction broadcasts and softer language when hosts are actively responding to comments.",
+      "story_angle_secondary": "For viewers, it is a useful self-check: commanding language is most persuasive precisely when you are a passive member of a big audience, which is exactly when you have least ability to question the claim.",
+      "caveats": "All five studies are experiments, apparently online, using simulated livestream stimuli rather than real purchases; sample sizes and country not stated in the abstract; stated responses rather than observed sales.",
+      "journal": "Journal of Research in Interactive Marketing",
+      "published": "2026-10-28",
+      "doi": "10.1108/jrim-03-2026-0146",
+      "paper_title": "You must buy it: an interaction effect of assertive language and interactivity in live-streaming commerce",
+      "source_id": "S45224653"
+    },
+    {
+      "work_id": "W7225744799",
+      "headline": "Not all small brands are small in the same way: what wine data says about stocking the long tail",
+      "the_study": "Researchers linked Wine Enthusiast critic review data with US household panel purchase data covering roughly 80 winery brands per year from 2017 to 2021, then applied the established NBD-Dirichlet classification framework to sort brands into filler, niche, and change-of-pace roles based on penetration and purchase frequency. Brands that got reviewed tended to sit in more peripheral market positions and were bought disproportionately by heavy category buyers. Critically, review activity itself showed no association with stronger market share.",
+      "why_it_matters": "Retailers and category managers face a crowded tail of small brands and little guidance on which to stock; the finding that critical acclaim does not translate into share, and that peripheral brands play distinct behavioral roles, gives buyers a cleaner basis for assortment decisions than press coverage.",
+      "story_angle_primary": "For category managers: treat critic reviews as a signal of who a brand appeals to (heavy, engaged buyers) rather than as a predictor of volume, and consider classifying tail brands by purchase-behavior role — filler, niche, change-of-pace — before culling or expanding the assortment. Worth replicating in your own category with your own panel or loyalty data before rewriting planograms.",
+      "story_angle_secondary": "For shoppers: the wine that scored 92 points is not necessarily the wine most people are buying. Critical praise clusters around brands that serve enthusiastic, high-frequency buyers looking for variety — which is a different thing from a brand being broadly popular or widely available.",
+      "caveats": "Single category (US wine) and a single review source; about 80 brands per year over five years; observational panel data, so the link between reviews and market position is associational, not causal.",
+      "journal": "Journal of Marketing Management",
+      "published": "2026-11-10",
+      "doi": "10.1080/0267257x.2026.2760838",
+      "paper_title": "Selling from the market sidelines: how do peripheral brands vary in their category role?",
+      "source_id": "S14291815"
+    },
+    {
+      "work_id": "W7225100025",
+      "headline": "When a traditional B2B firm launches a marketplace, two very different futures follow",
+      "the_study": "Researchers conducted a comparative case study of five marketplace platforms launched by established business-to-business firms in the European industrial products industry, examining how managers interpreted and executed the shift from a conventional pipeline model. They found two divergent pathways: \"pipeline-enhancing\" transitions, where managers saw the platform as a way to strengthen the existing business and ended up with interconnected models, and \"pipeline-transcending\" transitions, where managers used consumer marketplaces like Amazon as their mental reference point, creating tensions that resolved into two separate, independent businesses. Which path unfolded depended largely on which customer segments the firm served.",
+      "why_it_matters": "Incumbents across industrial and wholesale sectors are launching marketplaces without a clear view of whether the platform will feed the core business or compete with it; this work shows the outcome is substantially shaped by how leadership frames the opportunity at the outset.",
+      "story_angle_primary": "For B2B leaders planning a marketplace: audit the reference point your team is using. If executives are benchmarking against consumer marketplaces, expect cognitive tension with the legacy sales model and plan for organizational separation rather than assuming integration will work. The customer segment you serve is an early predictor of which path you are on.",
+      "story_angle_secondary": "Limited direct relevance for consumers, though it helps explain why some manufacturers' online storefronts now stock rivals' products while others stay strictly own-brand.",
+      "caveats": "Five qualitative cases in one industry and one region (European industrial products); no quantitative outcome measures, so the framework is descriptive rather than predictive of financial performance.",
+      "journal": "Journal of Product Innovation Management",
+      "published": "2026-11-01",
+      "doi": "10.1111/jpim.70063",
+      "paper_title": "Enhancing or Transcending the Pipeline? How Incumbents Transition Toward Marketplace Platforms",
+      "source_id": "S93630570"
+    },
+    {
+      "work_id": "W7225714650",
+      "headline": "How you announce your relationship online may shape what you buy next",
+      "the_study": "Across four experiments, researchers tested whether the way people disclose a romantic relationship on social media — a \"soft launch\" (subtle, partially obscured) versus a \"hard launch\" (explicit announcement) — spills over into consumption preferences. Soft launches increased preference for minimalist products, apparently because they activate a broader preference for subtle self-presentation. The effect strengthened among people with higher relationship privacy orientation and disappeared when a marketplace urgency cue was present.",
+      "why_it_matters": "It suggests that a consumer's self-presentation mindset, primed by something as incidental as a social media post, can carry over into aesthetic and product choices — a potentially targetable state rather than a fixed trait.",
+      "story_angle_primary": "For brands in fashion, beauty, home and jewelry: minimalist versus maximalist appeals may land differently depending on the self-presentation mode a consumer is in. The finding that an urgency cue wiped out the effect is the most actionable detail — scarcity messaging appears to override subtle-aesthetic preferences, which is testable in live creative and promotional experiments.",
+      "story_angle_secondary": "A reminder of how porous our choices are: the register in which you present yourself online — understated or declarative — appears to bleed into what you find appealing in a shop window shortly afterward.",
+      "caveats": "Four experiments with likely online panel participants; preferences and scenarios rather than observed purchases; sample sizes and nationality not stated in the abstract; effect sizes and durability beyond the lab unknown.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-11-10",
+      "doi": "10.1002/mar.70305",
+      "paper_title": "Less Disclosed, More Minimal: How Soft Launches of Romantic Relationships Promote Minimalist Consumption",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7224526178",
+      "headline": "China's ESG gap: firms follow the public on social issues and ignore regulators on the environment",
+      "the_study": "Researchers built a \"structural deviation index\" measuring the distance between three things: what Chinese policy documents emphasize, what the public actually searches for (using Baidu Index data), and what companies actually do. They applied it to ESG ratings for 3,030 listed firms from 2019 to 2023, across the environmental, social and governance dimensions separately. The Policy–Corporate gap was consistently the widest, and the environmental dimension showed the greatest misalignment despite being the loudest policy priority — while firms tracked public attention much more closely on social issues.",
+      "why_it_matters": "It gives a data-backed picture of where corporate sustainability claims are substantive and where they are symbolic: companies appear to pick the cheapest legitimacy available, favoring governance tweaks and visible social initiatives over costly environmental transformation.",
+      "story_angle_primary": "For retail and consumer brands operating in or sourcing from China, the finding is a warning about the credibility of partners' ESG scores — and an opportunity. If most firms are concentrating effort where public attention is, brands that invest in the under-served environmental dimension have a differentiation claim few competitors can match. Worth auditing whether your own ESG communications track search-driven public concern rather than actual impact.",
+      "story_angle_secondary": "Public attention appears to function as a real governance force: the issues people search for are the issues companies move on. That suggests consumer concern is not wasted noise, but it also means the problems nobody is searching about — often the environmental ones — quietly go unaddressed.",
+      "caveats": "Single country (China) and a single five-year window; relies on third-party ESG ratings and Baidu search volume as proxies for corporate performance and public concern, both imperfect; observational and correlational — it documents gaps rather than proving why firms behave this way.",
+      "journal": "The International Review of Retail Distribution and Consumer Research",
+      "published": "2026-10-29",
+      "doi": "10.1080/09593969.2026.2749003",
+      "paper_title": "ESG legitimacy games in retail management: balancing symbolic compliance and entrepreneurial legitimacy under policy and public pressure in China",
+      "source_id": "S4210205650"
+    },
+    {
+      "work_id": "W7222556775",
+      "headline": "Household mess isn't a failure — researchers find families use clutter as a working tool",
+      "the_study": "Researchers conducted photo-elicitation interviews with 22 households, asking family members to document and discuss order and disorder in their own homes. They found that mess is not a static condition or a personal shortcoming but an emergent state produced by the interplay of people, objects, spaces and daily rhythms — and identified three recurring types (transient, functional and conducive disorder) along with three ways families handle them: restoring, tolerating and concealing.",
+      "why_it_matters": "Much of the home-organization and storage industry sells against mess as a problem to be eliminated, but this evidence suggests some disorder is actively useful — supporting household flow, efficiency and family harmony — which reframes what \"good\" storage and organizing products should actually do.",
+      "story_angle_primary": "For home, storage and organization retailers: there may be a product and messaging gap around designing for mess rather than against it — flexible storage, designated \"functional mess zones,\" and concealment solutions that let families tolerate disorder without shame. Guilt-based marketing (\"get organized\") may be addressing a need customers don't actually have in parts of their homes.",
+      "story_angle_secondary": "The pile on the kitchen counter may be doing a job. The study suggests families often leave things out because it keeps the household running, and that the tidiest home isn't necessarily the best-functioning one — useful permission for anyone who feels judged by organizing content online.",
+      "caveats": "Small qualitative sample (22 households) in a single study; interpretive rather than statistical, so findings cannot be generalized to populations or quantified; no purchase behavior observed, and practical retail implications are the authors' inference rather than tested outcomes.",
+      "journal": "Journal of Business Research",
+      "published": "2026-10-16",
+      "doi": "10.1016/j.jbusres.2026.116581",
+      "paper_title": "The upside of Mess: conceptualising (dis)order as a dynamic family resource",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7223000149",
+      "headline": "Why people rent luxury handbags: status in Australia, sustainability in China",
+      "the_study": "Researchers surveyed current luxury rental customers in two markets — 251 Australian renters and 348 Chinese renters — and used PLS-SEM with multi-group comparison to test what drives repeat rentals. Both sustainability motivation (intrinsic) and social recognition motivation (extrinsic) fed into consumers' sense of fit with the brand's personality and user imagery, which in turn drove brand experience and intention to rent again. The cross-country split was the striking part: sustainability motivation mattered more to brand experience among Chinese renters, while social recognition drove brand congruity more strongly among Australians.",
+      "why_it_matters": "Luxury brands weighing whether to enter or expand rental channels get a concrete signal that the same service needs different positioning by market — green credentials in one, visible status in another.",
+      "story_angle_primary": "If you are building a rental or resale arm, consider testing market-specific messaging rather than a single global sustainability narrative; this survey suggests the status pitch and the eco pitch are not interchangeable across countries, though it measures stated intentions rather than booked rentals.",
+      "story_angle_secondary": "Renting a designer bag is not purely a thrift move — people are still buying into the brand's identity, and what they tell themselves about why they are doing it differs sharply depending on where they live.",
+      "caveats": "Cross-sectional survey of self-selected renters, so causation cannot be established; outcome is re-rental intention, not observed behavior; only two countries; structural model results.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-19",
+      "doi": "10.1002/cb.70249",
+      "paper_title": "From Conspicuous to Conscious Consumption: A Cross‐Cultural Study of Motivation, Self‐Congruity and Luxury Rentals",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7225315487",
+      "headline": "Shoppers' mood changes how much augmented reality actually sells",
+      "the_study": "Nearly 1,000 respondents (N=956) were randomly assigned to use one of three real augmented reality apps — Lesslens, Room Planner, or Wanna Kicks — and then surveyed about continued use and purchase intention. Using a combination of PLS-SEM, multi-group analysis, necessary condition analysis, and fsQCA, the authors found that intention to keep using the AR tool was the key link to purchase intention, and that the shopper's mood moderated the relationship between AR features and buying intent.",
+      "why_it_matters": "AR try-on is expensive to build, and this suggests its commercial payoff depends less on feature richness than on whether users want to come back to the tool — and on their emotional state while using it.",
+      "story_angle_primary": "Rather than benchmarking AR purely on realism or feature count, consider instrumenting your own app for repeat usage and testing whether placement in a positive, low-pressure browsing moment lifts conversion; the evidence here is intention-based, so treat it as a hypothesis for A/B testing.",
+      "story_angle_secondary": "Virtual try-on feels like an objective tool for checking fit, but the research suggests your mood while using it quietly shapes whether you end up buying.",
+      "caveats": "Outcome is stated purchase intention, not actual purchases; randomized app assignment but a survey-based measurement model; single study, apps span unrelated categories (eyewear, furniture, sneakers); country context not clearly specified.",
+      "journal": "Journal of Global Marketing",
+      "published": "2026-11-05",
+      "doi": "10.1080/08911762.2026.2754739",
+      "paper_title": "How AR Shapes Buying Intention: Mood, Cognition, and a Multi-Analytical Perspective Using PLS-SEM, MGA, NCA, and fsQCA",
+      "source_id": "S121852782"
+    },
+    {
+      "work_id": "W7225430644",
+      "headline": "The wedding purchase retailers keep getting wrong: bridal lingerie in India",
+      "the_study": "Fifteen engaged or recently married Indian women who had recently shopped for bridal lingerie were interviewed in depth, face-to-face or online, and analyzed through the Cognitive-Motivational-Relational Theory of Emotion. Shoppers described feeling anticipation and confidence alongside embarrassment generated by cultural taboos, conservative family involvement, and the retail environment itself — appraisals that ran simultaneously rather than sequentially, producing emotional ambivalence.",
+      "why_it_matters": "It identifies the store experience as an active source of shopper discomfort in a high-margin category, pointing to fixes — private fitting, trained staff, discreet online fulfillment — that are operational rather than promotional.",
+      "story_angle_primary": "If you sell in an emotionally loaded category, audit the in-store journey for moments that trigger embarrassment rather than only optimizing assortment and price; this qualitative work suggests retail design, not demand, is the binding constraint in some markets.",
+      "story_angle_secondary": "A purchase meant to feel celebratory often arrives tangled with family expectations and shop-floor awkwardness — a reminder of how much of shopping is social negotiation rather than personal choice.",
+      "caveats": "Small qualitative sample (n=15), single country, no quantification or causal claim; findings are interpretive and not generalizable.",
+      "journal": "Qualitative Market Research An International Journal",
+      "published": "2026-11-06",
+      "doi": "10.1108/qmr-06-2026-0170",
+      "paper_title": "The dynamics of bridal intimate apparel consumption: a qualitative study of women’s decision-making",
+      "source_id": "S139289085"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7225751353",
+      "headline": "Boomers, Gen Z and online reviews: the generation gap barely exists",
+      "verdict": "accurate",
+      "notes": "Design, N, cohorts, effect sizes and the Holm-adjustment detail all match the abstract; caveats mirror the authors' own stated limitations.",
+      "issues": []
+    },
+    {
+      "number": 2,
+      "work_id": "W7225231563",
+      "headline": "Head office calls it \"augmentation.\" Store staff hear \"replacement.\"",
+      "verdict": "accurate",
+      "notes": "Interview counts (27/11/14 = 52), the HQ-vs-frontline framing contrast and the four mechanisms are faithfully reported; qualitative, non-causal nature is flagged.",
+      "issues": []
+    },
+    {
+      "number": 3,
+      "work_id": "W7225122614",
+      "headline": "Get the omnichannel journey right and satisfaction with the whole retailer is still higher a year later",
+      "verdict": "accurate",
+      "notes": "N=420 survey plus N=80 supplementary experiment, the fulfilment/fluency/flexibility chain and the T0-to-T1 one-year link all match; caveats already flag the inferential limits of the SEM design.",
+      "issues": []
+    },
+    {
+      "number": 4,
+      "work_id": "W7224921670",
+      "headline": "Subsidize pickup, not delivery: airport e-commerce data shows where discounts actually pay off",
+      "verdict": "minor",
+      "notes": "Panel size, period, coefficient ordering, dining-vs-retail difference and insignificant spatial effects are all correct; the headline and the consumer angle stretch slightly beyond the abstract.",
+      "issues": [
+        {
+          "label": "Headline understates instant delivery",
+          "severity": "Minor",
+          "as_written": "Subsidize pickup, not delivery: airport e-commerce data shows where discounts actually pay off",
+          "abstract_says": "The estimated subsidy coefficient is largest for in-store pickup, followed by instant delivery and home delivery... Airport operators may prioritize subsidies for in-store pickup and instant delivery",
+          "problem": "The headline's \"not delivery\" implies delivery subsidies do not pay, but the authors recommend prioritising both pickup and instant delivery; only home delivery showed the weakest response.",
+          "suggested_fix": "Reword to something like \"Subsidize pickup and fast local delivery over home delivery\"."
+        },
+        {
+          "label": "Imputed platform motive",
+          "severity": "Minor",
+          "as_written": "platforms price-steer you toward the fulfillment method that is cheapest and fastest for them, which is often walking to the counter yourself",
+          "abstract_says": "This study examines how the relationship between subsidy intensity and store sales varies across fulfillment modes in airport e-commerce... The estimated subsidy coefficient is largest for in-store pickup",
+          "problem": "The study measured how sales responded to subsidies by fulfilment mode; it did not test platform intent or whether subsidies were deliberately set to steer shoppers.",
+          "suggested_fix": "Reframe as an observation about where discounts generate the most sales, not about platforms' deliberate steering strategy."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7225631783",
+      "headline": "Seven years of survey waves suggest shoppers who notice a retailer's inclusion efforts trust it more",
+      "verdict": "minor",
+      "notes": "Wave structure, dates and the awareness-trust-loyalty pattern match; two framing phrases slightly overreach a repeated cross-sectional design.",
+      "issues": [
+        {
+          "label": "\"longitudinal\" label for repeated cross-sections",
+          "severity": "Minor",
+          "as_written": "this gives a longitudinal counterpoint: the trust pathway held up across seven years of shifting political climate",
+          "abstract_says": "Using a multi-wave repeated cross-sectional survey fielded across seven annual waves from 2019 to 2025",
+          "problem": "Repeated cross-sections of different respondents are not a longitudinal design; the body text uses a label the caveats correctly disown.",
+          "suggested_fix": "Say \"repeated annual snapshots\" or \"evidence across seven annual waves\" in the body text."
+        },
+        {
+          "label": "Subgroup claim not in abstract",
+          "severity": "Minor",
+          "as_written": "but only among consumers who were actually aware of the initiatives",
+          "abstract_says": "results show that awareness of DEIA initiatives is positively associated with trust, and trust is strongly associated with loyalty",
+          "problem": "The abstract reports an association between awareness and trust; it does not report a conditional test showing the pathway holds only for aware consumers.",
+          "suggested_fix": "Rephrase as \"the pathway runs through awareness of the initiatives\" rather than implying a tested subgroup boundary."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7221486834",
+      "headline": "Vague DEI statements win shoppers over directly; specific ones work through a different route",
+      "verdict": "accurate",
+      "notes": "Two experiments, the direct effect of unspecific statements and the indirect route via psychological distance and dissociative concern are all reported as in the abstract; missing sample details are flagged.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7224102790",
+      "headline": "\"You must buy this\": pushy livestream sellers work better when viewers feel ignored",
+      "verdict": "minor",
+      "notes": "Study structure, the interaction effect, trust mediation and the time-pressure boundary condition are correct; two small wording stretches on the outcome and on what happens at high interactivity.",
+      "issues": [
+        {
+          "label": "\"disappeared\" at high interactivity",
+          "severity": "Minor",
+          "as_written": "when interactivity was high, the advantage disappeared",
+          "abstract_says": "when consumers perceive lower (vs higher) interactivity, live-streamers' assertive language enhances trust toward the product and downstream consumer responses",
+          "problem": "The abstract describes an interaction in which the benefit is present at lower interactivity, but does not state that the effect falls to zero at high interactivity.",
+          "suggested_fix": "Say \"the advantage was not evident at higher interactivity\" or \"weakened as perceived interactivity rose\"."
+        },
+        {
+          "label": "Outcome narrowed to purchase",
+          "severity": "Minor",
+          "as_written": "assertive language increased trust in the product and downstream purchase responses",
+          "abstract_says": "assertive language enhances trust toward the product and downstream consumer responses",
+          "problem": "The abstract refers to unspecified downstream consumer responses; the digest specifies purchase responses.",
+          "suggested_fix": "Use \"downstream consumer responses\" as in the abstract."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7225744799",
+      "headline": "Not all small brands are small in the same way: what wine data says about stocking the long tail",
+      "verdict": "accurate",
+      "notes": "Data sources, ~80 brands per year 2017-2021, the NBD-Dirichlet classification and the null link between review activity and market share all match the abstract.",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7225100025",
+      "headline": "When a traditional B2B firm launches a marketplace, two very different futures follow",
+      "verdict": "minor",
+      "notes": "Case count, setting and the two pathways are accurately described; one illustrative detail is added that the abstract does not contain.",
+      "issues": [
+        {
+          "label": "Named example not in abstract",
+          "severity": "Minor",
+          "as_written": "where managers used consumer marketplaces like Amazon as their mental reference point",
+          "abstract_says": "managers locate future value in the marketplace platform and use business-to-consumer marketplaces as a reference point",
+          "problem": "The abstract names no specific platform; \"like Amazon\" is an added illustration readers may take as a study finding.",
+          "suggested_fix": "Drop the example or mark it clearly as the digest's own illustration of a B2C marketplace reference point."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7225714650",
+      "headline": "How you announce your relationship online may shape what you buy next",
+      "verdict": "minor",
+      "notes": "Four experiments, the soft-launch effect and the subtle self-presentation mechanism are correct, but the urgency-cue moderator is strengthened from \"diminishes\" to \"wiped out\" and then used as the lead recommendation.",
+      "issues": [
+        {
+          "label": "Urgency moderator overstated",
+          "severity": "Moderate",
+          "as_written": "The finding that an urgency cue wiped out the effect is the most actionable detail — scarcity messaging appears to override subtle-aesthetic preferences",
+          "abstract_says": "A marketplace urgency cue also moderates this process, such that the indirect effect holds when the cue is absent but diminishes when it is present.",
+          "problem": "The abstract says the indirect effect diminishes with an urgency cue, not that it is eliminated; the digest builds its headline recommendation on the stronger claim.",
+          "suggested_fix": "Say the effect \"was weakened when a marketplace urgency cue was present\" and soften the accompanying recommendation."
+        },
+        {
+          "label": "Moderators attached to total rather than indirect effect",
+          "severity": "Minor",
+          "as_written": "The effect strengthened among people with higher relationship privacy orientation and disappeared when a marketplace urgency cue was present.",
+          "abstract_says": "the indirect effect of soft launch on minimalist consumption via preference for subtle self-presentation strengthens as relation privacy increases... the indirect effect holds when the cue is absent but diminishes when it is present",
+          "problem": "Both moderators in the abstract apply specifically to the indirect (mediated) effect, not to the overall effect as the digest implies.",
+          "suggested_fix": "Specify that the moderators qualify the indirect effect running through preference for subtle self-presentation."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7224526178",
+      "headline": "China's ESG gap: firms follow the public on social issues and ignore regulators on the environment",
+      "verdict": "minor",
+      "notes": "Study facts and core findings match the abstract closely; one consumer-facing line edges into causal language about public search attention driving corporate behavior.",
+      "issues": [
+        {
+          "label": "Causal framing of a correlational index",
+          "severity": "Minor",
+          "as_written": "Public attention appears to function as a real governance force: the issues people search for are the issues companies move on.",
+          "abstract_says": "The results show that Policy–Corporate Distance is consistently the largest... while firms align more closely with public attention in social issues.",
+          "problem": "The study measures structural distance/alignment between policy, public search and firm ESG ratings; it does not establish that public search attention causes firms to act. The digest's own caveat says the work 'documents gaps rather than proving why firms behave this way', which this line partly contradicts.",
+          "suggested_fix": "Reword to alignment language, e.g. 'Corporate behaviour lines up most closely with public attention on social issues — though the study cannot show that public concern is what moved firms.'"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7222556775",
+      "headline": "Household mess isn't a failure — researchers find families use clutter as a working tool",
+      "verdict": "accurate",
+      "notes": "Method (photo-elicitation interviews, 22 households), the three capacities (transient, functional, conducive) and three strategies (restoring, tolerating, concealing) all match; practical implications are correctly hedged.",
+      "issues": []
+    },
+    {
+      "number": 13,
+      "work_id": "W7223000149",
+      "headline": "Why people rent luxury handbags: status in Australia, sustainability in China",
+      "verdict": "minor",
+      "notes": "Samples (251 Australian, 348 Chinese renters), method (PLS-SEM with MGA) and the cross-country path differences are reported correctly; the headline narrows the category to handbags, which the abstract never specifies.",
+      "issues": [
+        {
+          "label": "Category narrowed to handbags",
+          "severity": "Minor",
+          "as_written": "Why people rent luxury handbags: status in Australia, sustainability in China",
+          "abstract_says": "access‐based consumption such as luxury rental having gained momentum as an alternative retail channel... among current luxury renters",
+          "problem": "The abstract refers to luxury rental generally, not handbags; the product category of the rentals studied is not stated.",
+          "suggested_fix": "Change to 'Why people rent luxury goods' or 'luxury rental'."
+        },
+        {
+          "label": "Headline implies categorical motive split",
+          "severity": "Minor",
+          "as_written": "status in Australia, sustainability in China",
+          "abstract_says": "both motivations act as antecedents of self‐congruity... sustainability motivation has stronger effects on brand experience among Chinese renters, while social recognition motivation has stronger effects on brand personality congruity and brand user imagery congruity among Australian renters",
+          "problem": "Both motivations operated in both markets; the difference is in the relative strength of specific paths, not an either/or split by country. The body text handles this correctly, but the headline reads as a clean dichotomy.",
+          "suggested_fix": "Soften to e.g. 'status weighs more heavily in Australia, sustainability in China'."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7225315487",
+      "headline": "Shoppers' mood changes how much augmented reality actually sells",
+      "verdict": "minor",
+      "notes": "N=956, random assignment to Lesslens/Room Planner/Wanna Kicks and the four analytic methods are all accurate; the headline treats intention as sales, and the specific moderation path and 'feature richness' comparison go slightly beyond the abstract.",
+      "issues": [
+        {
+          "label": "Intention framed as sales in headline",
+          "severity": "Minor",
+          "as_written": "Shoppers' mood changes how much augmented reality actually sells",
+          "abstract_says": "AR features leading to continuous usage intention (CUI) and online purchase intention (OPI)",
+          "problem": "The measured outcome is stated online purchase intention, not sales. The body and caveats make this clear, but the headline implies actual revenue effects.",
+          "suggested_fix": "Reword to 'changes how much augmented reality moves buying intent'."
+        },
+        {
+          "label": "Specific moderation path not stated in abstract",
+          "severity": "Minor",
+          "as_written": "the shopper's mood moderated the relationship between AR features and buying intent",
+          "abstract_says": "The results demonstrate the important role of CUI, the moderating role of mood, and the configurations of variables",
+          "problem": "The abstract reports 'the moderating role of mood' without specifying which relationship it moderates; the digest fills in the path. Unverifiable from abstract only.",
+          "suggested_fix": "Say 'mood acted as a moderator in the model' without specifying the path, or attribute the detail to the full text."
+        },
+        {
+          "label": "Feature-richness comparison not tested in abstract",
+          "severity": "Minor",
+          "as_written": "its commercial payoff depends less on feature richness than on whether users want to come back to the tool",
+          "abstract_says": "The results demonstrate the important role of CUI, the moderating role of mood...",
+          "problem": "The abstract does not report a comparison that ranks continued-usage intention above AR feature richness; this is the digest's inference.",
+          "suggested_fix": "Rephrase as 'continued-usage intention emerged as an important link to purchase intention' without the implied ranking against features."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "work_id": "W7225430644",
+      "headline": "The wedding purchase retailers keep getting wrong: bridal lingerie in India",
+      "verdict": "minor",
+      "notes": "Sample (n=15 Indian women), interview mode and the CMRT framing match; a few practical fixes and the 'binding constraint' claim are extrapolations beyond a 15-person interpretive study.",
+      "issues": [
+        {
+          "label": "Specific retail fixes not in abstract",
+          "severity": "Minor",
+          "as_written": "pointing to fixes — private fitting, trained staff, discreet online fulfillment — that are operational rather than promotional",
+          "abstract_says": "Insights from this study can help lingerie brands to gradually break societal taboos surrounding this category, delivering a superior retail experience and adopt inclusive retail practices",
+          "problem": "The named fixes are the digest's own suggestions, not implications stated in the abstract. Unverifiable from abstract only.",
+          "suggested_fix": "Attribute them explicitly as the digest's suggestions, e.g. 'possible responses — private fitting, trained staff, discreet fulfilment — follow from, rather than being tested in, the study.'"
+        },
+        {
+          "label": "Overreach from 15 interviews",
+          "severity": "Moderate",
+          "as_written": "this qualitative work suggests retail design, not demand, is the binding constraint in some markets",
+          "abstract_says": "While the purchase evoked anticipation and confidence; cultural taboos, family conservatism and retail barriers also generated embarrassment.",
+          "problem": "The abstract lists retail barriers as one of three sources of embarrassment alongside cultural taboos and family conservatism; it makes no claim about retail design being the limiting factor on demand, and an interpretive 15-person study cannot support that.",
+          "suggested_fix": "Reframe as 'the retail environment was one source of discomfort shoppers described, alongside cultural taboos and family involvement'."
+        },
+        {
+          "label": "Unsupported margin claim",
+          "severity": "Minor",
+          "as_written": "an active source of shopper discomfort in a high-margin category",
+          "abstract_says": "(no information on category margins)",
+          "problem": "The abstract says nothing about bridal lingerie margins. Unverifiable from abstract only.",
+          "suggested_fix": "Drop 'high-margin' or source it separately."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 0,
+    "cached": 0,
+    "skipped": 15,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {}
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- Technology-led customer experience keeps underperforming against the human and behavioral basics. \"Head office calls it 'augmentation.' Store staff hear 'replacement.'\" (W7225231563) and \"Shoppers' mood changes how much augmented reality actually sells\" (W7225315487) extend the pattern from \"Smart Shopping Carts Don't Empower Everyone\" (W7223273403) and \"Bank Branches Earn Their Keep as Reassurance, Not Technology Showrooms\" (W7223672553): the constraint is rarely feature richness, it is whether staff and shoppers want to use the thing at all.\n- Review signals keep failing to mean what the industry assumes. \"Not all small brands are small in the same way\" (W7225744799) finds critic acclaim unrelated to market share, sitting alongside \"Loyalty Members Write Glowing Reviews — and Less Useful Ones\" (W7223652730): in both, the loudest voices in a review ecosystem map onto a narrow, highly engaged buyer segment rather than the broad market.\n- Values signaling inside the store continues to be a measurable commercial variable. \"Seven years of survey waves suggest shoppers who notice a retailer's inclusion efforts trust it more\" (W7225631783) and \"Vague DEI statements win shoppers over directly; specific ones work through a different route\" (W7221486834) pick up where \"Political signals in a store make customers more uncomfortable than rainbow flags or religious symbols\" (W7221815419) and \"'Would You Like to Donate?' Works Better When the Charity Is Local\" (W7223898707) left off — with psychological distance surfacing again as the mechanism in both W7221486834 and W7223898707.\n- Ambient and incidental states keep moving purchase decisions. Mood moderating AR conversion (W7225315487) and soft-launch self-presentation spilling into minimalist product preference (W7225714650) continue the thread from \"People invest less money when they are in a crowd\" (W7221805592) and \"Shoppers Can't Measure Air Quality\" (W7222049986).\n\n**Advances**\n- Omnichannel moves from cross-sectional snapshot to a one-year horizon. \"Get the omnichannel journey right and satisfaction with the whole retailer is still higher a year later\" (W7225122614) adds a longitudinal link to the channel-configuration comparison in \"Webrooming wins the next sale; online-to-offline wins the relationship\" (W7220357245), and supports treating journey-level satisfaction as a leading indicator rather than a channel-by-channel score.\n- Promotion measurement gets a fulfillment-level cut. \"Subsidize pickup, not delivery\" (W7224921670) refines the portfolio-level logic of \"Mobile coupons work harder before shoppers reach the mall than inside it\" (W7223707755) and \"Push notifications work — until they don't\" (W7223280000): the same discount buys different volumes depending on how the order is filled.\n- Live commerce gains a boundary condition. \"'You must buy this': pushy livestream sellers work better when viewers feel ignored\" (W7224102790) specifies when the hard sell pays, adding to the engagement-versus-sales divergence established by the mall-coupon and push-notification work and by earlier live-shopping findings.\n\n**Counterpoints**\n- Spillovers do not always appear. W7223707755 and W7223280000 both found promotion in one place lifting traffic elsewhere; the airport study (W7224921670) found spatial spillovers between stores statistically insignificant, which suggests the halo depends on the physical and competitive layout rather than being a general property of promotion.\n- Cohort segmentation takes a direct hit. \"Boomers, Gen Z and online reviews: the generation gap barely exists\" (W7225751353) finds effect sizes near zero for age cohort, which complicates the framing of \"For Gen Z, Talking to the Shopping App Beats Typing\" (W7223671637) — the voice-commerce result may be about low-involvement, hedonic baskets rather than about Gen Z as such.\n- On friction and control: the previous run's smart-cart fatigue result (W7223273403) argued against piling effort on shoppers, while \"Household mess isn't a failure\" (W7222556775) finds consumers actively tolerating disorder because it works — both point away from \"optimize everything\" as a design default, from opposite directions.\n\n**New themes**\n- Qualitative work on emotionally loaded consumption: bridal lingerie shopping in India (W7225430644) and household clutter as a working tool (W7222556775) have no antecedent in the previous digest.\n- Platformization of incumbent B2B firms: \"When a traditional B2B firm launches a marketplace, two very different futures follow\" (W7225100025).\n- Cross-country motivation splits in access-based luxury: \"Why people rent luxury handbags: status in Australia, sustainability in China\" (W7223000149).\n- Corporate sustainability credibility as a sourcing and partnership question: \"China's ESG gap\" (W7224526178).",
+    "feature_pitch": "**The pattern:** This batch quietly dismantles the demographic premise of retail segmentation and replaces it with situational state. Generational membership explained almost nothing about response to review cues, with effect sizes near zero (W7225751353), while what did predict behavior in other studies was transient context: mood moderated whether AR try-on converted (W7225315487), perceived interactivity decided whether assertive livestream selling worked or backfired (W7224102790), and how someone had just presented a relationship online shifted their preference toward minimalist products (W7225714650) — with cross-market differences in luxury rental motivation (W7223000149) suggesting that where someone shops matters more than how old they are.\n\n**Why pitch this now:** Cohort targeting is being rebuilt into retail media networks and AI-driven personalization engines just as signal loss pushes brands toward whatever demographic proxies they can still buy, making this the moment to ask whether the variable being bought has any predictive power at all.\n\n**Angle:** A reported feature on the evidence gap under age-cohort targeting — what \"Gen Z shops differently\" is actually based on, what the state-based alternatives would require retailers to measure, and why state-based targeting is harder to buy and easier to abuse — written for marketing and retail decision-makers, with a consumer-facing strand on how much of what you buy is set by the mood you happened to be in.\n\n**Potential headlines:**\n- Age cohort predicts almost nothing about how people shop online\n- The most useful thing to know about a shopper is their mood, not their birth year\n- Your segmentation model may be sorting customers by the one variable that doesn't move\n\n**Potential outlets:**\n- **Marketing Week** — runs sustained, evidence-led arguments about segmentation and effectiveness orthodoxy, and its readers buy cohort targeting every quarter.\n- **MIT Sloan Management Review** — suited to the gap between what managers instrument and what the research supports, and tolerant of the exploratory caveats in the generational study.\n- **Marketing Brew** — covers the mechanics of audience buying and retail media, where cohort segments are the product being sold.\n- **Vox** — its consumer-behavior reporting would carry the general-reader version on how situational the \"self\" marketers target really is.",
+    "pitch_ideas": "- **Boomers, Gen Z and online reviews: the generation gap barely exists (Work ID W7225751353):** Near-zero effect sizes undercut the premise of cohort-targeted review design, so run it as a challenge to a budget line marketers rarely question, for a marketing-trade news brief or a CMO-audience column.\n- **Head office calls it \"augmentation.\" Store staff hear \"replacement.\" (Work ID W7225231563):** Why self-checkout and in-store AI rollouts stall at the shop floor, and the store manager's underpaid role as translator, for a retail trade feature or a workplace/management section.\n- **Get the omnichannel journey right and satisfaction with the whole retailer is still higher a year later (Work ID W7225122614):** Journey-level satisfaction as a leading indicator with a one-year tail, for a retail strategy trade piece or a customer-experience measurement column.\n- **Subsidize pickup, not delivery (Work ID W7224921670):** The same discount buys very different sales by fulfillment mode, with pickup the best buy and home delivery the worst, for a commerce operations or last-mile trade explainer.\n- **Seven years of survey waves suggest shoppers who notice a retailer's inclusion efforts trust it more (Work ID W7225631783):** A rare longitudinal counterpoint to the corporate DEI retreat, with the sharp caveat that the association runs entirely through awareness, for a business news analysis section or a brand-strategy column.\n- **Vague DEI statements win shoppers over directly; specific ones work through a different route (Work ID W7221486834):** Specificity isn't the risk marketers think — it just needs distance-closing cues to work, for a marketing-trade piece on inclusive messaging or a creative-strategy column.\n- **\"You must buy this\": pushy livestream sellers work better when viewers feel ignored (Work ID W7224102790):** Hard-sell scripts pay off precisely in big, low-interaction broadcasts, for a live-commerce or creator-economy trade piece, with a consumer self-defense version for a general-interest outlet.\n- **Not all small brands are small in the same way (Work ID W7225744799):** Critic scores predict who buys a brand, not how much sells, giving category managers a behavioral basis for tail assortment decisions, for a grocery/drinks trade explainer or a wine-and-spirits business column.\n- **When a traditional B2B firm launches a marketplace, two very different futures follow (Work ID W7225100025):** Benchmarking against Amazon quietly commits an industrial incumbent to spinning out a separate business, for a B2B commerce trade feature or a corporate-strategy column.\n- **How you announce your relationship online may shape what you buy next (Work ID W7225714650):** Self-presentation mode spilling into aesthetic preference, with an urgency cue wiping the effect out, for a consumer-psychology explainer in a general-interest outlet or a fashion/beauty marketing brief.\n- **China's ESG gap (Work ID W7224526178):** Firms move on what the public searches for and skip the costly environmental work regulators demand, which is a credibility warning for any brand relying on supplier ESG scores, for a supply-chain or sustainability trade piece and a business-analysis section.\n- **Household mess isn't a failure (Work ID W7222556775):** Guilt-based \"get organized\" marketing may be selling against a need customers don't have, with a product gap in designing for useful mess, for a home and housewares trade piece, plus a lifestyle-section consumer story.\n- **Why people rent luxury handbags: status in Australia, sustainability in China (Work ID W7223000149):** One global sustainability narrative won't carry a rental or resale arm across markets, for a luxury/fashion business column.\n- **Shoppers' mood changes how much augmented reality actually sells (Work ID W7225315487):** AR's payoff tracks repeat usage and emotional state rather than realism or feature count, for a commerce-tech trade explainer.\n- **The wedding purchase retailers keep getting wrong: bridal lingerie in India (Work ID W7225430644):** Store design, not demand, as the binding constraint in an emotionally loaded high-margin category, for a retail-design trade piece or an international consumer-culture feature."
+  }
+}
