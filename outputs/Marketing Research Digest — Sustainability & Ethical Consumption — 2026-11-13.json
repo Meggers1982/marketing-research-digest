@@ -1,0 +1,543 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-11-13",
+  "days_back": 60,
+  "window_from": "2026-09-14",
+  "window_to": "2026-11-13",
+  "focus": "Sustainability & Ethical Consumption",
+  "topic": "sustainability & ethical consumption",
+  "query": "sustainability OR sustainable OR \"green consumption\" OR \"ethical consumption\" OR \"corporate social responsibility\" OR greenwashing OR \"circular economy\" OR secondhand OR \"plastic\"",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 408,
+    "not_research": 6,
+    "no_abstract": 60,
+    "off_topic": 20,
+    "already_covered": 68,
+    "over_journal_cap": 22,
+    "over_cap": 192,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7225260260",
+      "headline": "Talking about your social-impact programs pays off — especially if you have a CMO",
+      "the_study": "Researchers ran automated content analysis of sustainability reports, cross-checked against annual reports, for U.S. S&P 500 firms from 2010 to 2019, identifying three types of disclosure about \"corporate transformative service initiatives\" aimed at vulnerable communities: corporate commitments, corporate giving, and employee volunteering. Using dynamic panel models to track firms over time, they found that disclosing these initiatives was associated with better financial outcomes (Total q and return on equity). The effect was stronger in firms that had a chief marketing officer on the executive team, and it held for service and non-service firms alike.",
+      "why_it_matters": "It puts a financial argument behind social-impact reporting at a moment when many firms are quietly shrinking their ESG communications, and it suggests the marketing function is what converts those programs into market-visible signals.",
+      "story_angle_primary": "If your company runs community or well-being programs but buries them in a CSR appendix, this is a reason to test more deliberate disclosure — and to ask who owns that narrative internally. The CMO-presence result is correlational, but it supports the argument that social-impact work needs a marketing voice to register with investors rather than being treated purely as compliance.",
+      "story_angle_secondary": "The corporate good deeds you read about in sustainability reports are not only charity; markets appear to reward the telling as much as the doing, which is worth remembering when judging how sincere a company's community program really is.",
+      "caveats": "Observational panel data, not an experiment — association rather than proven causation; U.S. large-cap firms only, covering 2010 to 2019, so it predates the recent ESG backlash; disclosure quality is measured from company-authored reports, which may reflect communication skill as much as actual impact.",
+      "journal": "Journal of Service Research",
+      "published": "2026-11-03",
+      "doi": "10.1177/10946705261490028",
+      "paper_title": "Do Disclosures of Corporate Transformative Service Initiatives Signal Enhanced Financial Outcomes? Moderating Roles of Firm-Level Factors",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7225570405",
+      "headline": "\"Show people you're the kind of person who does this\": social-signaling ad beat the sustainability pitch by 40%",
+      "the_study": "A two-part study tested why consumers choose sustainable luxury services. Study 1 surveyed a Prolific panel and found that \"social expressiveness\" — the desire to signal identity to others — predicted willingness to use sustainable luxury services, working through identification with the service and then well-being. Study 2 ran two Facebook ads for a sustainable luxury hotel: the socially expressive version earned a click-through rate more than 40% higher than the non-expressive one. Notably, consumers with high psychological ownership of the service showed weaker, not stronger, effects — the predicted boost reversed.",
+      "why_it_matters": "Sustainable luxury marketing often leans on virtue and impact claims, but the behavioral evidence here says identity signaling is the sharper hook.",
+      "story_angle_primary": "A cheap, replicable test: run paired creative for your sustainable premium offer — one framed around environmental impact, one around what choosing it says about the customer — and compare click-through. The Facebook result is a single campaign for a single hotel concept, so treat the 40% gap as a hypothesis worth re-testing in your own category rather than a benchmark.",
+      "story_angle_secondary": "The eco-friendly luxury hotel or service you clicked on may have caught you less because of the planet and more because of the version of yourself it let you picture — a useful thing to notice before booking.",
+      "caveats": "Study 1 is a cross-sectional online panel survey (Prolific) measuring stated willingness, not purchases; Study 2 measures click-through, not bookings or revenue, for one hotel advertiser on one platform; the moderation result contradicted the authors' own hypothesis, so it needs replication.",
+      "journal": "Journal of Services Marketing",
+      "published": "2026-11-09",
+      "doi": "10.1108/jsm-12-2025-0925",
+      "paper_title": "The social self in sustainable luxury services: psychological ownership, identification and willingness to use",
+      "source_id": "S180851279"
+    },
+    {
+      "work_id": "W7225785168",
+      "headline": "Programs built to help refugees start businesses can quietly recreate the harm they target",
+      "the_study": "Researchers interviewed 42 managers across 33 organizations offering entrepreneurship support to refugees, then spent three years embedded in one provider (70 interviews, 144 observation sessions). They identified three service models — access-dominant, balanced-constrained and control-dominant — that each cast participants differently, as passive recipients, conditional agents or autonomous strivers, and each produced a distinct recurring pattern of vulnerability, from constrained agency to unmet need. The ethnography traced how participants pushed back, either by making the hidden costs of participation visible or by demonstrating what more enabling support could achieve, and how that pressure sometimes reshaped the service model.",
+      "why_it_matters": "Social-impact and inclusion programs are usually audited on reach and funding, but this shows design choices about control and access systematically determine whether beneficiaries are empowered or trapped.",
+      "story_angle_primary": "For brands and service firms running inclusion, financial-wellness or community-entrepreneurship programs, the typology is a diagnostic: map how much control you retain over how recipients use resources, and look for the specific vulnerability pattern that structure tends to produce. The practical test is whether your program has any mechanism for participants to contest their assigned role — and whether anyone acts on it.",
+      "story_angle_secondary": "Help with strings attached can be its own burden. The study documents how people in support programs become skilled at performing the role the program expects of them, which is a useful lens on everything from job-training schemes to customer hardship programs.",
+      "caveats": "Qualitative and interpretive — no quantified effect sizes or causal estimates; focused on refugee entrepreneurship support, with the deep ethnography covering a single provider; findings describe patterns in that sector rather than generalizing to all social programs.",
+      "journal": "Journal of Service Research",
+      "published": "2026-11-11",
+      "doi": "10.1177/10946705261502647",
+      "paper_title": "The Rose and Its Hidden Thorn: Patterning and Evolution of Consumer Vulnerability in Transformative Service Initiatives",
+      "source_id": "S125608309"
+    },
+    {
+      "work_id": "W7223382174",
+      "headline": "Slack in the supply chain hurts green performance—unless it buys resilience",
+      "the_study": "Researchers analyzed 2,067 Chinese A-share-listed manufacturing firms through the COVID-19 period, testing how supply chain slack (extra inventory, spare capacity, buffer suppliers) related to sustainable performance. Slack had a direct negative effect on sustainability outcomes, but positive indirect effects when it translated into operational resilience—both the ability to resist disruption and the ability to recover from it. Environmental complexity made the direct penalty worse while strengthening the resilience payoff.",
+      "why_it_matters": "Buffer stock and redundant capacity are usually framed as either waste or insurance; this says they are both, and that the deciding factor is whether a firm actually converts slack into resilience capability rather than letting it sit idle.",
+      "story_angle_primary": "For supply chain and sustainability leaders: audit whether your buffers are doing resilience work or just absorbing cost and carbon. The data suggest slack only pays off sustainably when paired with explicit resistance and recovery routines—and that in volatile, complex operating environments the case for slack gets stronger, not weaker.",
+      "story_angle_secondary": "The \"just-in-case\" stockpiling that kept shelves full during the pandemic came with an environmental and efficiency bill. The firms that came out ahead were those that used the buffer to bounce back faster, not those that simply hoarded.",
+      "caveats": "Single country (China) and a single sector (listed manufacturers); the window is dominated by the COVID-19 shock, which may not generalize to normal conditions; archival measures of \"sustainable performance\" depend on disclosure quality.",
+      "journal": "Journal of Business and Industrial Marketing",
+      "published": "2026-10-23",
+      "doi": "10.1108/jbim-05-2025-0468",
+      "paper_title": "Bright against dark: how supply chain slack influences sustainable performance",
+      "source_id": "S119587767"
+    },
+    {
+      "work_id": "W7223667129",
+      "headline": "Why green industry coalitions die before they start: a front-row look at a cruise shipbuilding network",
+      "the_study": "Rather than studying successful sustainability transitions after the fact, researchers ran a real-time qualitative case study of a European cruise shipbuilding network during the messy early phase, when no shared green vision or coordinated action had yet emerged. They tracked the tensions participants perceived coming from their business context and how those tensions played out. Accumulated tensions blocked the micro-processes needed to get collective market shaping off the ground, surfacing as open conflict, scattered uncoordinated activity, and outright inactivity.",
+      "why_it_matters": "Most case evidence on industry-wide sustainability initiatives is drawn from the ones that worked, which flatters the playbook; this documents the failure mode most managers actually encounter.",
+      "story_angle_primary": "For B2B and sustainability leads convening cross-company green initiatives: the research suggests diagnosing and surfacing commercial tensions among partners before pushing for a shared vision or roadmap. Watch for the three warning signs—conflict, scattered pilot activity, and stalling—as symptoms of unresolved business-context friction rather than lack of commitment.",
+      "story_angle_secondary": "When an industry announces it is going green together, the hard part is rarely the technology. It is that the companies involved compete with each other, and nobody wants to move first.",
+      "caveats": "Single qualitative case in one industry (European cruise shipbuilding); findings are interpretive and not statistically generalizable; no outcome data on whether the initiative eventually succeeded.",
+      "journal": "Journal of Business Research",
+      "published": "2026-10-26",
+      "doi": "10.1016/j.jbusres.2026.116625",
+      "paper_title": "Going green but seeing red: Tensions in initiating collective market shaping for sustainability",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7223696417",
+      "headline": "Entertaining sustainability content didn't move anyone: a UK–Malaysia comparison of green fashion marketing",
+      "the_study": "Researchers surveyed 468 fashion consumers (UK n=245; Malaysia n=223) and used partial least squares structural equation modeling with multi-group comparison to test which social media marketing activities predicted mindful consumption. Entertainment, electronic word-of-mouth and trendiness showed no significant effect in either country. Interactivity and personalization mattered for British consumers only, while environmental concern and consumer knowledge predicted mindful consumption in both markets; sustainable consumption in turn predicted brand pride, more strongly in Malaysia.",
+      "why_it_matters": "It challenges the default sustainability playbook of entertaining, trend-led, influencer-amplified content, pointing instead to consumer education and two-way interaction as the levers that correlate with mindful buying.",
+      "story_angle_primary": "For fashion and lifestyle brands: worth testing whether your sustainability content is informing or just entertaining. The pattern here suggests knowledge-building and interactive formats may do more work than trend-chasing creative—and that the same content strategy is unlikely to transfer across markets, since the British and Malaysian results diverged sharply.",
+      "story_angle_secondary": "What makes shoppers buy less and buy better appears to be knowing more—not seeing another fun sustainability reel.",
+      "caveats": "Cross-sectional survey, so no causal claims; self-reported consumption rather than observed purchases; two countries and one category (fashion); country samples are moderate in size for multi-group comparison; results are a set of significant and non-significant paths in a structural model.",
+      "journal": "European Journal of Marketing",
+      "published": "2026-10-26",
+      "doi": "10.1108/ejm-11-2024-0970",
+      "paper_title": "Mindful consumption: how social media shapes fashion choices and brand pride",
+      "source_id": "S89389284"
+    },
+    {
+      "work_id": "W7225778945",
+      "headline": "Sweetness beats sustainability: what a taste-and-choose coffee experiment found in Jakarta and Copenhagen",
+      "the_study": "Researchers ran a discrete choice experiment on iced coffee lattes that varied coffee profile (light-roasted Arabica vs. dark-roasted Robusta), sweetness (none, reduced, normal) and sustainability label (none, Fairtrade, Organic), with 197 respondents based in Indonesia and 109 based in Denmark. Crucially, they built actual tasting into the design rather than relying on product descriptions alone, then compared expected liking with liking after tasting. Sweetness level was the single most influential attribute in both countries, and the sweetness patterns diverged sharply between them; sustainability labels added positive value in both markets, with Fairtrade and Organic rated roughly equally. Latent class analysis surfaced three segments per country, including a health-and-sustainability group, a sweetness-driven group and conventional drinkers.",
+      "why_it_matters": "Ethical certification reliably adds value, but it does not override the core sensory decision—how sweet and what roast—which varies enormously by market. Brands that export one certified recipe across countries may be optimizing the least decisive attribute.",
+      "story_angle_primary": "For category managers in coffee and packaged beverages: this suggests sustainability labels function as a tiebreaker rather than a driver, and that roast and sugar formulation should be localized before certification messaging is scaled. It also makes the case for adding tasting to concept tests—claims-only research can overstate what people will like once the product is in their mouth.",
+      "story_angle_secondary": "Shoppers may believe they are choosing coffee on ethics or roast provenance, but in this test sweetness did most of the work. It is a reminder that the Fairtrade or Organic logo often confirms a choice already made on taste rather than driving it.",
+      "caveats": "Modest sample sizes (n=197 Indonesia, n=109 Denmark) spread across segments; a single product category and two countries; choice experiment rather than observed retail purchases; latent class segments described by the authors as exploratory.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-11-01",
+      "doi": "10.1016/j.foodqual.2026.106183",
+      "paper_title": "Discrete choice experiment on coffee choice: Effects of sensory input and differences between Indonesia-based and Denmark-based respondents",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7225401845",
+      "headline": "The more distinctive a company's CSR language, the less likely it is backed by anything concrete",
+      "the_study": "Researchers hand-coded 2,090 segments of corporate social responsibility text from 15 European media companies published between 2018 and 2020, then used multilevel analysis to test how two features of the writing—how distinctive the language was relative to peers, and how many different topics it covered—related to symbolic legitimation (broad values and aspirations) versus substantive legitimation (claims tied to specific practices, events or resource commitments). Distinctive, differentiated CSR language was more often symbolic. Breadth of topics, by contrast, was more often associated with substantive, action-anchored claims.",
+      "why_it_matters": "It offers a cheap diagnostic for sorting CSR talk from CSR action: standout, proprietary-sounding sustainability language is a weaker signal of real commitment than unglamorous coverage of many concrete topics.",
+      "story_angle_primary": "For comms and sustainability leads: the instinct to make your CSR report sound different from everyone else's may be pushing you toward vagueness. Audit your own report for the ratio of aspirational statements to claims tied to a named program, budget or date—and consider whether distinctiveness is coming from substance or from style.",
+      "story_angle_secondary": "For readers trying to judge whether a company means it: beautifully written, unusual-sounding sustainability prose is not the reassuring sign it appears to be. Dull reports that plod through many specific issues tend to be the ones anchored in actual practices.",
+      "caveats": "Observational text analysis, not causal; 15 firms in a single sector (European media) over three years; the coding of \"symbolic\" versus \"substantive\" is a researcher judgment applied to company-authored text, and says nothing about whether the concrete claims were actually delivered.",
+      "journal": "Journal of Business Research",
+      "published": "2026-11-06",
+      "doi": "10.1016/j.jbusres.2026.116630",
+      "paper_title": "Symbolic or substantive? Discursive features of moral legitimation in CSR communication",
+      "source_id": "S93284759"
+    },
+    {
+      "work_id": "W7225451567",
+      "headline": "Gen Z shoppers who say they care about sustainability are also loyal to ultra-fast fashion",
+      "the_study": "Researchers surveyed 208 Gen Z consumers of ultra-fast fashion brands and analyzed the data in two passes—partial least squares structural equation modeling, then qualitative comparative analysis of the configurations that produce high versus low loyalty. Consumer sustainability consciousness was positively associated with brand loyalty, both directly and through brand equity, while social media peer communication mattered only indirectly via brand equity. The authors interpret the configurations as evidence of psychological mechanisms that let shoppers resolve the dissonance between their stated values and their buying behavior.",
+      "why_it_matters": "It documents the attitude–behavior gap at its most extreme: the very consumers most likely to describe themselves as sustainability-minded are not defecting from the fastest, most disposable end of fashion, and brand equity is what holds them.",
+      "story_angle_primary": "For fashion and retail brands: treat declared sustainability consciousness in your segmentation data with suspicion—it may predict loyalty rather than defection in low-price, high-velocity categories. The more useful question to test is whether sustainability claims are functioning as dissonance relief for existing customers rather than as a reason to switch.",
+      "story_angle_secondary": "A mirror for shoppers: caring about the environment and buying a lot of cheap clothes coexist comfortably, and brands supply the narrative that makes that comfortable. Worth asking what a recycling bin at the till or a \"conscious\" tag is actually doing for your conscience.",
+      "caveats": "Cross-sectional self-report survey (N=208) measuring stated loyalty and stated sustainability consciousness, not purchases—no causal claims possible; sample size is modest for configurational analysis; single generational cohort and category.",
+      "journal": "Psychology and Marketing",
+      "published": "2026-11-07",
+      "doi": "10.1002/mar.70302",
+      "paper_title": "Analyzing Consumer Loyalty to Ultra‐Fast Fashion: An Integrative Analysis Based on the Stimulus‐Organism‐Response Model",
+      "source_id": "S102896891"
+    },
+    {
+      "work_id": "W7224942359",
+      "headline": "Audiences know their favorite influencer is run by an agency—and have decided they don't mind",
+      "the_study": "Through 20 in-depth interviews with Chinese social media users, researchers examined how audiences react when influencers disclose affiliation with a Multi-Channel Network, a visible marker of professionalization. Viewers read the disclosure as a sign of technical expertise and corporate backing, and believed it reduced the influencer's intrinsic motivation and honesty. But rather than disengaging, they normalized professionalization, drew personal boundaries around what they would tolerate, and shifted their evaluation toward whether the content was useful or entertaining.",
+      "why_it_matters": "Disclosure of commercial infrastructure appears to cost creators perceived authenticity without necessarily costing them audience—provided the content still delivers.",
+      "story_angle_primary": "For brands building creator programs: this suggests the authenticity penalty from visible professionalization is real but survivable, and that content utility is the hedge. Worth testing whether your own creators' agency affiliations and production polish move engagement metrics at all, rather than assuming raw and unmanaged always wins.",
+      "story_angle_secondary": "Viewers are more sophisticated than the \"authenticity\" debate assumes: they can simultaneously believe a creator is a corporate product and keep watching, because they have quietly renegotiated what they expect from the relationship.",
+      "caveats": "Small exploratory qualitative study (20 interviews); one country and platform ecosystem (China); self-reported interpretations rather than observed viewing or purchase behavior; findings are not generalizable in a statistical sense.",
+      "journal": "Journal of Marketing Management",
+      "published": "2026-10-30",
+      "doi": "10.1080/0267257x.2026.2754408",
+      "paper_title": "How audiences navigate the tension between influencer professionalisation and authenticity: an exploration from the context of Multi-Channel Network disclosure",
+      "source_id": "S14291815"
+    },
+    {
+      "work_id": "W7225780096",
+      "headline": "When a multinational goes green, its overseas suppliers' emissions fall too",
+      "the_study": "Researchers assembled a global panel of 675 multinational–supplier pairs spanning 2006 to 2022 and tested whether a multinational's own environmental innovation (green patents, products and process investment) was linked to the carbon emissions of its suppliers in other countries. Higher environmental innovation at the buying firm was associated with measurably lower carbon emissions at its foreign suppliers. The effect was strongest when the institutional environments of the buyer's country and the supplier's country were in sync — similar regulatory and normative pressure on both ends of the relationship.",
+      "why_it_matters": "Most corporate carbon sits in Scope 3 — the supply chain — and this is evidence that investing in your own green capability, not just auditing vendors, travels down the chain across borders. It also suggests the payoff from supplier decarbonization programs depends heavily on where the supplier is based.",
+      "story_angle_primary": "If you report Scope 3 targets, the question to put to your own R&D and procurement teams is whether internal environmental innovation is being used as a supplier-development tool — the study suggests capability transfer, not just compliance pressure, is doing the work. Worth testing whether your lowest-performing supplier countries are the ones where local institutions are least aligned with your home market, and budgeting more hands-on support there.",
+      "story_angle_secondary": "A brand's environmental credentials may say something real about factories you will never see. The research suggests the companies that innovate at home tend to pull their overseas suppliers along with them — but mostly in countries where local rules already push in the same direction.",
+      "caveats": "Observational panel data, so the relationship is associational rather than proven causal; results reflect firms large enough to appear in global emissions and patent databases, and emissions reporting quality varies by country.",
+      "journal": "Journal of International Marketing",
+      "published": "2026-11-11",
+      "doi": "10.1177/1069031x261509136",
+      "paper_title": "EXPRESS: Global Diffusion of Environmental Innovation: Supply Chain Carbon Emissions Under Institutional Synchronization",
+      "source_id": "S119908498"
+    },
+    {
+      "work_id": "W7225100539",
+      "headline": "\"Only a few days left\" works on frugal donors — and can backfire on everyone else",
+      "the_study": "Across three studies, researchers tested whether scarcity-framed charity appeals (limited time, limited matching funds) help sustain giving when people are asked repeatedly. Scarcity framing slowed the usual decline in donations among people with a strong frugal identity, but did nothing for non-frugal donors. A second study found the effect vanished for causes already defined by chronic shortage, and a third replicated the identity–message fit effect using real donation behavior rather than stated intentions.",
+      "why_it_matters": "Scarcity appeals are everywhere in fundraising, and this suggests they are not a universal motivator — they work by signaling efficient use of resources, which only resonates with donors who prize that themselves.",
+      "story_angle_primary": "Fundraising and cause-marketing teams could test segmenting scarcity language by donor profile rather than blasting deadline framing to the whole file, and watch for the boundary condition: for causes about chronic deprivation, urgency framing lost its edge entirely. The repeated-exposure design is the useful part — this is about donor fatigue, not single-ask lift.",
+      "story_angle_secondary": "If deadline-driven charity emails reliably move you, it may be less about urgency than about a feeling that your money is going to be used efficiently — and that instinct can be engineered by whoever writes the appeal.",
+      "caveats": "Two of three studies rely on experimental donation scenarios; sample composition and country not specified in the abstract; frugal identity is self-reported; short time horizon relative to real donor lifecycles.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-11-01",
+      "doi": "10.1002/cb.70276",
+      "paper_title": "When Scarcity Backfires: Identity–Message Fit and Donation Resilience Under Repeated Appeals",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7225693773",
+      "headline": "Make people feel small: awe nudged shoppers toward buying less",
+      "the_study": "Three scenario-based experiments with Chinese participants (632 recruited, 546 usable) manipulated feelings of awe — the emotion triggered by vast or overwhelming stimuli — and measured willingness to engage in minimalist consumption. Participants in awe conditions reported greater willingness to consume minimally than those in control conditions. The authors trace the effect through a chain of self-transcendence and then pursuit of an authentic self, with the effect moderated by participants' power distance beliefs.",
+      "why_it_matters": "Brands built on intentional living, ethical consumption or minimalist design have an emotional lever most advertising ignores: awe-inducing imagery, rather than guilt or frugality messaging, may shift consumers toward buying less and better.",
+      "story_angle_primary": "For brands whose positioning depends on 'buy less, buy better,' this is a cue to test awe-evoking creative — vast landscapes, scale, the sublime — against the usual guilt or value framings, bearing in mind that lab-measured willingness is a long way from checkout behavior.",
+      "story_angle_secondary": "That urge to declutter after a hike or a planetarium visit may be a real psychological effect: awe appears to shift attention away from possessions and toward who you actually are.",
+      "caveats": "Scenario-based experiments with stated willingness, not observed purchases; a single country (China) and a culturally specific moderator; sample split across three studies means modest cell sizes; no evidence on durability beyond the session.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-11-10",
+      "doi": "10.1108/apjml-06-2026-1479",
+      "paper_title": "How awe promotes minimalist consumption: the serial mediation of self-transcendence and authentic-self pursuit",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7224110232",
+      "headline": "CSR alone doesn't build your brand — trust is the switch that turns it on",
+      "the_study": "Researchers surveyed 350 customers of leading telecom providers in India and modeled the relationship between perceived corporate social responsibility and corporate brand image using partial least squares structural equation modeling. Perceived CSR had no significant direct effect on brand image; its influence ran entirely through two channels — brand familiarity (recognition and cognitive accessibility) and brand equity (value-based and emotional evaluations). Customer trust acted as a boundary condition: where trust in the provider was high, CSR perceptions translated strongly into brand benefits; where trust was low, the effect faded.",
+      "why_it_matters": "It suggests that sustainability and social-responsibility communications don't pay reputational dividends on their own — they amplify brands customers already know and trust, and may do little for those they don't.",
+      "story_angle_primary": "If your category is low-trust or your brand is unfamiliar, test whether CSR spend actually moves brand metrics before scaling it; the pattern here implies fixing service reliability and trust first may be the precondition for responsibility messaging to land at all. Worth running holdout tests that separate CSR exposure from general brand-awareness effects.",
+      "story_angle_secondary": "For consumers, this is a reminder of how corporate good deeds are processed: a brand you already trust gets credit for its sustainability claims, while the same claim from a company you're skeptical of barely registers — which is also why trusted brands can get more mileage out of modest commitments.",
+      "caveats": "Cross-sectional survey, so causal direction cannot be established; single country (India), single sector (telecommunications), and self-reported perceptions rather than observed purchase behavior.",
+      "journal": "International Journal of Quality and Service Sciences",
+      "published": "2026-10-28",
+      "doi": "10.1108/ijqss-07-2026-0202",
+      "paper_title": "From responsibility to reputation: how perceived corporate social responsibility shapes corporate brand image",
+      "source_id": "S103309803"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7225260260",
+      "headline": "Talking about your social-impact programs pays off — especially if you have a CMO",
+      "verdict": "minor",
+      "notes": "Design, sample frame, outcomes and the CMO moderator are reported accurately and causal hedging is appropriate; the abstract's relative-firm-size moderator is dropped, and one 'Why it matters' sentence reads more causally than a panel association supports.",
+      "issues": [
+        {
+          "label": "Dropped moderator (relative firm size)",
+          "severity": "Minor",
+          "as_written": "The effect was stronger in firms that had a chief marketing officer on the executive team, and it held for service and non-service firms alike.",
+          "abstract_says": "the moderating roles of chief marketing officer (CMO) presence, relative firm size, and firm type... Relative firm size matters, with firms with greater relative asset size benefiting more strongly when a CMO is present, and smaller firms showing broader gains across CTSIs disclosure dimensions.",
+          "problem": "One of the three moderators the abstract reports — relative firm size, which interacts with CMO presence — is omitted entirely, so readers get a simpler 'CMO helps' story than the study found.",
+          "suggested_fix": "Add a clause noting that firm size also conditioned the effect: larger-asset firms gained most when a CMO was present, while smaller firms gained across more disclosure types."
+        },
+        {
+          "label": "Causal phrasing in 'Why it matters'",
+          "severity": "Minor",
+          "as_written": "it suggests the marketing function is what converts those programs into market-visible signals",
+          "abstract_says": "Dynamic panel analyses show that CTSIs disclosures and their components positively impact firms' financial outcomes (Total q , return on equity), with stronger effects when a CMO is present.",
+          "problem": "'is what converts' states a mechanism as established; the evidence is a moderation in observational panel data. The story angle later concedes this is correlational, so the two passages sit awkwardly.",
+          "suggested_fix": "Soften to 'it is consistent with the marketing function helping convert those programs into market-visible signals.'"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7225570405",
+      "headline": "\"Show people you're the kind of person who does this\": social-signaling ad beat the sustainability pitch by 40%",
+      "verdict": "significant",
+      "notes": "The 40% CTR figure and Study 1 design are reported correctly, but the headline and marketer angle recast the comparison condition as a sustainability/environmental-impact ad, which the abstract does not describe; the moderation result is also characterized as a reversal rather than attenuation.",
+      "issues": [
+        {
+          "label": "Comparison condition misdescribed",
+          "severity": "Moderate",
+          "as_written": "social-signaling ad beat the sustainability pitch by 40%",
+          "abstract_says": "Study 2 provides field-based evidence using two Facebook advertisements for a sustainable luxury hotel and click-through rate (CTR) as the behavioral outcome... the social-expressiveness advertisement generated a CTR more than 40% higher than the non-social-expressiveness advertisement.",
+          "problem": "The control ad is described in the abstract only as 'non-social-expressiveness', not as a sustainability or environmental-impact pitch. Both ads were for a sustainable luxury hotel. The headline frames the test as identity framing versus green framing, which is not what the abstract reports.",
+          "suggested_fix": "Reword to 'social-signaling ad drew 40% more clicks than the non-signaling version' and drop the implication that the comparison ad was a sustainability appeal."
+        },
+        {
+          "label": "Story angle repeats the misframing",
+          "severity": "Moderate",
+          "as_written": "run paired creative for your sustainable premium offer — one framed around environmental impact, one around what choosing it says about the customer — and compare click-through",
+          "abstract_says": "two Facebook advertisements for a sustainable luxury hotel... the social-expressiveness advertisement generated a CTR more than 40% higher than the non-social-expressiveness advertisement.",
+          "problem": "The recommended test is presented as a replication of what the study did, but the study did not pit environmental-impact framing against identity framing.",
+          "suggested_fix": "Present the environmental-versus-identity test as an extension the study did not run, or restate it as social-expressive versus non-social-expressive creative."
+        },
+        {
+          "label": "Attenuation described as reversal",
+          "severity": "Minor",
+          "as_written": "consumers with high psychological ownership of the service showed weaker, not stronger, effects — the predicted boost reversed",
+          "abstract_says": "the negative interaction terms indicate attenuation rather than the hypothesized strengthening... high psychological ownership can reduce the marginal importance of other drivers",
+          "problem": "The abstract describes attenuation of the relationships, not a reversal of the effect; 'the predicted boost reversed' can read as the effect flipping sign.",
+          "suggested_fix": "Say the hypothesized strengthening did not appear — high psychological ownership weakened rather than amplified the links."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7225785168",
+      "headline": "Programs built to help refugees start businesses can quietly recreate the harm they target",
+      "verdict": "minor",
+      "notes": "Sample counts, the three-model typology, the ethnography and the two repositioning practices all match the abstract; only the 'Why it matters' line is stated more deterministically than the qualitative evidence supports.",
+      "issues": [
+        {
+          "label": "Deterministic phrasing for qualitative findings",
+          "severity": "Minor",
+          "as_written": "design choices about control and access systematically determine whether beneficiaries are empowered or trapped",
+          "abstract_says": "sustaining each position makes a distinct CV pattern likely: a recurrent form of constrained agency or unmet need",
+          "problem": "The abstract frames the link probabilistically ('makes likely', 'recurrent'); 'systematically determine' upgrades an interpretive pattern to a deterministic rule.",
+          "suggested_fix": "Rewrite as 'design choices about control and access make particular vulnerability patterns more likely'."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7223382174",
+      "headline": "Slack in the supply chain hurts green performance—unless it buys resilience",
+      "verdict": "minor",
+      "notes": "Sample, direct/indirect effects and the moderation direction are reported correctly, but the marketer angle draws a net conclusion about complex environments that the abstract's opposing moderation effects do not establish.",
+      "issues": [
+        {
+          "label": "Unsupported net conclusion about environmental complexity",
+          "severity": "Moderate",
+          "as_written": "and that in volatile, complex operating environments the case for slack gets stronger, not weaker",
+          "abstract_says": "environmental complexity negatively moderates the direct effect and positively moderates the two indirect effects",
+          "problem": "Complexity simultaneously deepens the direct penalty and strengthens the resilience pathway; the abstract reports no net effect, so claiming the overall case for slack gets stronger goes beyond the evidence (and sits against the digest's own body text).",
+          "suggested_fix": "State that complexity sharpens both sides — a bigger direct penalty and a bigger resilience payoff — so the net result depends on whether slack is converted into resilience."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7223667129",
+      "headline": "Why green industry coalitions die before they start: a front-row look at a cruise shipbuilding network",
+      "verdict": "minor",
+      "notes": "Design, setting and the three manifestations of tension match the abstract; headline and one verb are slightly stronger than 'hinder... delaying progress'.",
+      "issues": [
+        {
+          "label": "'Blocked' / 'die' overstates 'hinder' and 'delay'",
+          "severity": "Minor",
+          "as_written": "Accumulated tensions blocked the micro-processes needed to get collective market shaping off the ground",
+          "abstract_says": "accumulated tensions hinder the microprocesses required for initiating collective market shaping... delaying progress towards collective market shaping",
+          "problem": "The abstract describes hindrance and delay, not outright blockage or failure; the headline's 'die before they start' pushes a single in-progress case toward a verdict the abstract does not give (the digest's own caveat notes no outcome data).",
+          "suggested_fix": "Use 'hindered' or 'stalled' in the body and soften the headline to 'why green industry coalitions stall before they start'."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7223696417",
+      "headline": "Entertaining sustainability content didn't move anyone: a UK–Malaysia comparison of green fashion marketing",
+      "verdict": "minor",
+      "notes": "Sample sizes, method and the full pattern of significant and non-significant paths are reported accurately; one gloss turns electronic word-of-mouth into 'influencer-amplified' content.",
+      "issues": [
+        {
+          "label": "eWOM recast as influencer content",
+          "severity": "Minor",
+          "as_written": "It challenges the default sustainability playbook of entertaining, trend-led, influencer-amplified content",
+          "abstract_says": "social media marketing activities (entertainment, electronic word-of-mouth, trendiness, interactivity and personalisation)",
+          "problem": "The null path was for electronic word-of-mouth, which is consumer-to-consumer sharing, not influencer marketing; the substitution implies the study tested influencer activity.",
+          "suggested_fix": "Replace 'influencer-amplified' with 'word-of-mouth-driven' or 'peer-sharing-led'."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "work_id": "W7225778945",
+      "headline": "Sweetness beats sustainability: what a taste-and-choose coffee experiment found in Jakarta and Copenhagen",
+      "verdict": "minor",
+      "notes": "Attributes, sample sizes, the tasting component, the sweetness result and the three exploratory segments per country all match; the 'tiebreaker not a driver' gloss goes modestly beyond the reported utilities, and the headline's city names are not in the abstract.",
+      "issues": [
+        {
+          "label": "'Tiebreaker rather than a driver' overstates the ranking result",
+          "severity": "Minor",
+          "as_written": "this suggests sustainability labels function as a tiebreaker rather than a driver",
+          "abstract_says": "Sustainability labels generated positive utilities in both countries, with a similar preference for Fairtrade and Organic certification... the sweetness level was the most influential attribute across both countries",
+          "problem": "The abstract reports labels as positively valued but less influential than sweetness; recasting them as a 'tiebreaker' assigns them a role the choice model did not test.",
+          "suggested_fix": "Say labels added value but mattered less than sweetness in driving choice."
+        },
+        {
+          "label": "Cities not specified in abstract",
+          "severity": "Minor",
+          "as_written": "what a taste-and-choose coffee experiment found in Jakarta and Copenhagen",
+          "abstract_says": "among Indonesia-based ( n = 197) and Denmark-based ( n = 109) respondents",
+          "problem": "The abstract specifies country of residence, not the cities; Jakarta and Copenhagen are unverifiable from the abstract alone.",
+          "suggested_fix": "Use 'Indonesia and Denmark' in the headline unless the full text confirms the recruitment cities."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7225401845",
+      "headline": "The more distinctive a company's CSR language, the less likely it is backed by anything concrete",
+      "verdict": "accurate",
+      "notes": "Corpus size, firm count, period, method and both directional findings match the abstract, and the caveat correctly notes that substantive coding reflects textual anchoring, not verified delivery.",
+      "issues": []
+    },
+    {
+      "number": 9,
+      "work_id": "W7225451567",
+      "headline": "Gen Z shoppers who say they care about sustainability are also loyal to ultra-fast fashion",
+      "verdict": "minor",
+      "notes": "N, two-phase PLS-SEM plus QCA design and the dissonance interpretation match; two small specifics — the sign of the association and the named mediator for the sustainability-consciousness path — are not stated in the abstract.",
+      "issues": [
+        {
+          "label": "Mediator and direction stated more precisely than the abstract",
+          "severity": "Minor",
+          "as_written": "Consumer sustainability consciousness was positively associated with brand loyalty, both directly and through brand equity",
+          "abstract_says": "consumer sustainability consciousness is associated with brand loyalty directly and under mediation, whereas social media peer communication is associated with brand loyalty only under mediation by brand equity",
+          "problem": "The abstract names brand equity as the mediator only for the peer-communication path and does not specify the sign of the sustainability-consciousness association; the digest supplies both details.",
+          "suggested_fix": "Write 'associated with brand loyalty directly and through mediation' and flag the mediator and direction as unverifiable from the abstract."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7224942359",
+      "headline": "Audiences know their favorite influencer is run by an agency—and have decided they don't mind",
+      "verdict": "minor",
+      "notes": "Interview count, the Chinese MCN-disclosure setting, the perceived loss of intrinsic motivation and honesty, and the three negotiation practices all match; the headline's 'don't mind' understates the authenticity tension the abstract describes.",
+      "issues": [
+        {
+          "label": "'Don't mind' flattens an active negotiation",
+          "severity": "Minor",
+          "as_written": "and have decided they don't mind",
+          "abstract_says": "rather than rejecting professionalised influencers, audiences negotiate authenticity loss by normalising professionalisation, setting boundaries of acceptance, and prioritising content usefulness and entertainment",
+          "problem": "The abstract describes audiences actively working to reconcile a perceived authenticity loss within limits they set, not indifference.",
+          "suggested_fix": "Reword to 'and have found ways to live with it' or 'and tolerate it within limits'."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7225780096",
+      "headline": "When a multinational goes green, its overseas suppliers' emissions fall too",
+      "verdict": "minor",
+      "notes": "Sample, period and institutional-synchronization moderator all match the abstract; the headline reads causally and one measurement detail cannot be checked.",
+      "issues": [
+        {
+          "label": "Unverifiable measurement detail",
+          "severity": "Minor",
+          "as_written": "a multinational's own environmental innovation (green patents, products and process investment)",
+          "abstract_says": "higher levels of MNC environmental innovation are associated with lower carbon emissions among foreign suppliers",
+          "problem": "The abstract never specifies how environmental innovation was operationalized; the parenthetical list of green patents, products and process investment cannot be confirmed. Unverifiable from abstract only.",
+          "suggested_fix": "Drop the parenthetical or attribute it explicitly to the full paper rather than presenting it as established detail."
+        },
+        {
+          "label": "Causal headline for panel association",
+          "severity": "Minor",
+          "as_written": "When a multinational goes green, its overseas suppliers' emissions fall too",
+          "abstract_says": "higher levels of MNC environmental innovation are associated with lower carbon emissions among foreign suppliers",
+          "problem": "The headline states a cause-and-effect sequence while the abstract reports an association in observational dyadic panel data. The body and caveats correct this, but the headline alone implies proven causation.",
+          "suggested_fix": "Reframe as e.g. 'Multinationals that innovate on green tech have lower-emitting overseas suppliers'."
+        },
+        {
+          "label": "Mechanism emphasis",
+          "severity": "Minor",
+          "as_written": "the study suggests capability transfer, not just compliance pressure, is doing the work",
+          "abstract_says": "MNCs' environmental innovation reduces foreign suppliers' carbon emissions by strengthening MNCs' incentives to govern suppliers and enhancing their capabilities to empower suppliers",
+          "problem": "The abstract gives equal theoretical weight to governance incentives and capability empowerment; the digest tilts the reading toward capability transfer. The abstract also does not report a test isolating which mechanism dominates.",
+          "suggested_fix": "Say the authors argue both stronger governance incentives and greater capability to empower suppliers are at work."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "work_id": "W7225100539",
+      "headline": "\"Only a few days left\" works on frugal donors — and can backfire on everyone else",
+      "verdict": "significant",
+      "notes": "Body matches the three-study structure and boundary condition well, but the headline claims a backfire effect for non-frugal donors that the abstract does not report.",
+      "issues": [
+        {
+          "label": "Headline claims a backfire not in the abstract",
+          "severity": "Moderate",
+          "as_written": "\"Only a few days left\" works on frugal donors — and can backfire on everyone else",
+          "abstract_says": "Study 1 demonstrates that scarcity appeals increase donation resilience among frugal individuals but not among nonfrugal individuals.",
+          "problem": "A null effect among non-frugal donors is reported, not a negative one. 'Backfire on everyone else' tells readers scarcity framing actively reduces giving in that group, which the abstract does not support (and the digest's own body says it 'did nothing for non-frugal donors').",
+          "suggested_fix": "Change to something like 'works on frugal donors — and does nothing for everyone else'."
+        },
+        {
+          "label": "Unverifiable manipulation detail",
+          "severity": "Minor",
+          "as_written": "scarcity-framed charity appeals (limited time, limited matching funds)",
+          "abstract_says": "Scarcity-framed donation appeals are common, but their ability to sustain donor engagement over time remains unclear.",
+          "problem": "The abstract does not describe the specific scarcity cues used in the stimuli. Unverifiable from abstract only.",
+          "suggested_fix": "Remove the parenthetical examples or mark them as illustrative."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7225693773",
+      "headline": "Make people feel small: awe nudged shoppers toward buying less",
+      "verdict": "minor",
+      "notes": "Design, sample and serial-mediation chain match; headline implies purchase behavior and the 'Why it matters' implies an untested comparison with guilt framing.",
+      "issues": [
+        {
+          "label": "Headline implies behavior",
+          "severity": "Minor",
+          "as_written": "awe nudged shoppers toward buying less",
+          "abstract_says": "individuals experiencing awe demonstrating a higher willingness to engage in minimalist consumption compared to those in non-awe conditions",
+          "problem": "The outcome was stated willingness in scenario-based experiments with recruited Chinese participants, not purchases by shoppers. The body and caveats make this clear, but the headline does not.",
+          "suggested_fix": "Reframe as 'awe raised willingness to buy less' or 'awe moved participants toward minimalist intentions'."
+        },
+        {
+          "label": "Untested comparison with guilt messaging",
+          "severity": "Minor",
+          "as_written": "awe-inducing imagery, rather than guilt or frugality messaging, may shift consumers toward buying less and better",
+          "abstract_says": "The results indicate that awe exerted a significant facilitating effect on minimalist consumption ... compared to those in non-awe conditions",
+          "problem": "The comparison condition was non-awe, not guilt or frugality appeals, so the abstract gives no basis for ranking awe above those alternatives.",
+          "suggested_fix": "State that awe outperformed a neutral control, and that comparison with guilt or frugality framing remains untested."
+        },
+        {
+          "label": "Moderator described imprecisely",
+          "severity": "Minor",
+          "as_written": "with the effect moderated by participants' power distance beliefs",
+          "abstract_says": "power distance belief moderates the predictive effect of self-transcendence and authentic-self pursuit on minimalist consumption",
+          "problem": "Power distance belief moderates the mediating path (from self-transcendence and authentic-self pursuit to minimalist consumption), not the overall awe effect as the phrasing suggests.",
+          "suggested_fix": "Specify that power distance belief moderates the link from self-transcendence and authentic-self pursuit to minimalist consumption."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7224110232",
+      "headline": "CSR alone doesn't build your brand — trust is the switch that turns it on",
+      "verdict": "accurate",
+      "notes": "Sample, method, non-significant direct effect, dual mediation and trust moderation all match the abstract; cross-sectional limitation is flagged in Caveats.",
+      "issues": []
+    }
+  ],
+  "coverage": {
+    "checked": 0,
+    "cached": 0,
+    "skipped": 14,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {}
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- Audiences hold skepticism and engagement at the same time. \"Audiences know their favorite influencer is run by an agency—and have decided they don't mind\" (W7224942359) is a close cousin of \"Why green influencers get called out — and why followers keep watching anyway\" (W7214725050): in both, viewers downgrade the messenger's sincerity, separate messenger from message, and keep watching if the content delivers. The new study extends the pattern from green claims to commercial infrastructure generally.\n- Taste and familiarity outrank ethics in food choice. \"Sweetness beats sustainability\" (W7225778945) lands in the same place as \"Students will eat the climate-friendly lunch — just don't call it a vegetarian day\" (W7214091952): the sensory and normative core of the product does the deciding, while sustainability credentials add value only at the margin. It also reprises the pattern from the earlier WTP work — labels earn approval, not the purchase.\n- Service programs for vulnerable people offload work and risk onto them. \"Programs built to help refugees start businesses can quietly recreate the harm they target\" (W7225785168) runs parallel to \"The invisible labor of shopping for healthcare across a border\" (W7204439549): both document how fragmented or conditional service design converts institutional constraint into unpaid labor and performance by the people being served.\n- Donor response is identity- and state-contingent, not universal. \"'Only a few days left' works on frugal donors — and can backfire on everyone else\" (W7225100539) sits directly alongside \"Hungry donors respond better to thank-you messages\" (W7215072413): repeat giving is moved by message–donor fit rather than by any inherently superior appeal, and both studies focus on sustaining giving across repeated asks.\n\n**Advances**\n- The governance thread moves from monitoring to payoff. \"Talking about your social-impact programs pays off — especially if you have a CMO\" (W7225260260) advances \"When big investors spread themselves thin, companies' social responsibility slips\" (W7214208660): where the earlier work showed that unwatched CSR decays, the new work shows that disclosed, marketing-owned CSR is associated with financial upside — implying the market rewards the firms that make the work legible, which is exactly the capacity investors lack.\n- A diagnostic for separating CSR talk from CSR action. \"The more distinctive a company's CSR language, the less likely it is backed by anything concrete\" (W7225401845) puts a measurable text signal behind last run's observation (W7214208660) that CSR is harder to verify than earnings — distinctive prose is symbolic, unglamorous topical breadth is substantive.\n- CSR's consumer payoff gets a boundary condition. \"CSR alone doesn't build your brand — trust is the switch that turns it on\" (W7224110232) sharpens the prior finding that CSR effects are indirect and contingent on perceived sincerity (W7214208660 and earlier runs): here CSR has no direct effect at all, running only through familiarity and brand equity, and fading where trust is low.\n\n**Counterpoints**\n- Identity appeals win this time. \"'Show people you're the kind of person who does this': social-signaling ad beat the sustainability pitch by 40%\" (W7225570405) cuts against \"'Experts recommend it' beat 'you said you cared' — in both Ecuador and Norway\" (W7214115221), which found expert authority outperforming identity-consistency framing. The reconciliation may be audience-facing versus self-facing identity — signaling to others, not reminding yourself of your values — but the two sit in open tension.\n- Self-blame, system-blame, and now no blame at all. \"Gen Z shoppers who say they care about sustainability are also loyal to ultra-fast fashion\" (W7225451567) adds a third attribution pattern to the split between internalized guilt (W7211935268) and structural blame (W7213447462): here stated sustainability consciousness predicts loyalty rather than defection, with brand equity supplying the dissonance relief.\n- Visible sustainability in premium categories cuts both ways. W7225570405's expressive-framing win complicates \"Visible sustainability can make luxury look less fashionable\" (W7215083585) — flagged sustainability can depress perceived fashionability, yet copy that makes the choice socially legible lifted click-through sharply.\n- Entertainment is not the lever. \"Entertaining sustainability content didn't move anyone\" (W7223696417) argues against trend-led, eWOM-amplified green creative and for knowledge-building — a different prescription from the creator-led route implied by W7214725050, and aligned instead with the expertise logic of W7214115221.\n\n**New themes**\n- The supply-chain and operations side of sustainability, absent last run: \"Slack in the supply chain hurts green performance—unless it buys resilience\" (W7223382174) and \"When a multinational goes green, its overseas suppliers' emissions fall too\" (W7225780096), the latter being the first Scope 3 / institutional-alignment evidence in this topic.\n- Collective industry action and its failure modes: \"Why green industry coalitions die before they start\" (W7223667129) opens a B2B market-shaping line with no counterpart in the previous digest.\n- Emotion as a de-consumption lever: \"Make people feel small: awe nudged shoppers toward buying less\" (W7225693773) is new territory — awe rather than guilt or frugality as the route to minimalism.",
+    "feature_pitch": "**The pattern:** Across this batch, sustainability claims almost never function as the thing that moves people — they act as a multiplier on something else that is already there. CSR has no direct effect on brand image and works only through familiarity, equity and existing trust (\"CSR alone doesn't build your brand,\" W7224110232); Fairtrade and Organic labels add value but sweetness decides the coffee (\"Sweetness beats sustainability,\" W7225778945); entertaining green content does nothing while knowledge and interactivity correlate with mindful buying (\"Entertaining sustainability content didn't move anyone,\" W7223696417); identity signaling outperforms the impact pitch (\"'Show people you're the kind of person who does this,'\" W7225570405); stated sustainability consciousness predicts loyalty to ultra-fast fashion rather than defection from it (\"Gen Z shoppers who say they care about sustainability are also loyal to ultra-fast fashion,\" W7225451567); and the most distinctive-sounding CSR prose is the least likely to be anchored in anything concrete (\"The more distinctive a company's CSR language,\" W7225401845).\n\n**Why pitch this now:** Green-claims rules in Europe and the UK are forcing brands to substantiate or drop environmental messaging just as ESG budgets are being cut and ultra-fast fashion keeps growing — so the question of what sustainability communication is actually buying, and for whom, is being decided in budget meetings right now.\n\n**Angle:** A reported feature arguing that the sustainability claim is a tiebreaker, an amplifier and sometimes a conscience-soother, but almost never the reason anyone buys — and what that means for brands rebuilding green strategy around trust, product quality and identity rather than virtue. For marketing and brand strategy readers, with a consumer thread on how shoppers quietly use green labels to feel better about choices they had already made.\n\n**Potential headlines:**\n- Green labels rarely change what people buy. They change how people feel about what they already bought.\n- The shoppers who care most about sustainability are the ones keeping ultra-fast fashion alive\n- Your sustainability budget is buying a tiebreaker, not a tiebreaker-proof brand\n\n**Potential outlets:**\n- **The Drum** — would run a provocative, evidence-led challenge to green creative orthodoxy, especially the finding that entertaining sustainability content moved nothing.\n- **Vogue Business** — has both the ultra-fast fashion loyalty story and the luxury identity-signaling result squarely in its remit, and its readers are making exactly this spend decision.\n- **MIT Sloan Management Review** — the trust-as-precondition and CSR-language-distinctiveness findings give executives a sequencing argument: fix trust and substance before scaling responsibility messaging.\n- **Vox** — the dissonance-relief angle (what a \"conscious\" tag actually does for your conscience) is a natural consumer-psychology explainer for a general audience.",
+    "pitch_ideas": "- **Talking about your social-impact programs pays off — especially if you have a CMO (Work ID W7225260260):** A financial case for social-impact disclosure at the moment firms are greenhushing, plus the internal politics of who owns the narrative, for a CMO-audience column or business-strategy section.\n- **\"Show people you're the kind of person who does this\": social-signaling ad beat the sustainability pitch by 40% (Work ID W7225570405):** A cheap, replicable creative test — impact framing versus identity framing — with a real click-through gap behind it, for a marketing-trade news brief or an ad-effectiveness column.\n- **Programs built to help refugees start businesses can quietly recreate the harm they target (Work ID W7225785168):** A typology showing how control-heavy support design manufactures new vulnerabilities, usable as a diagnostic for any hardship, inclusion or financial-wellness program, for a service-design or social-impact feature, with a general-interest version on help with strings attached.\n- **Slack in the supply chain hurts green performance—unless it buys resilience (Work ID W7223382174):** Buffer stock as both carbon cost and insurance, with the payoff hinging on whether firms convert slack into recovery capability, for a supply chain or operations trade explainer.\n- **Why green industry coalitions die before they start (Work ID W7223667129):** A rare real-time account of a sustainability coalition failing, and the three warning signs — conflict, scattered pilots, stalling — for a B2B marketing or sustainability-strategy feature.\n- **Entertaining sustainability content didn't move anyone (Work ID W7223696417):** Entertainment, trendiness and eWOM showed no effect on mindful consumption in two markets while knowledge and interactivity did, for a social-media marketing trade piece or a fashion-brand strategy column.\n- **Sweetness beats sustainability (Work ID W7225778945):** Ethical labels act as tiebreakers while sweetness and roast — which diverge sharply by market — do the real work, plus a methods angle on why claims-only concept tests mislead, for a food and beverage trade explainer.\n- **The more distinctive a company's CSR language, the less likely it is backed by anything concrete (Work ID W7225401845):** A free greenwashing-detection heuristic any reader can apply to a sustainability report, for a PR/comms trade analysis or a consumer-affairs explainer.\n- **Gen Z shoppers who say they care about sustainability are also loyal to ultra-fast fashion (Work ID W7225451567):** Declared sustainability consciousness predicting loyalty rather than defection, with brand equity doing the dissonance work, for a retail or fashion-business piece, or a general-interest consumer-psychology explainer.\n- **Audiences know their favorite influencer is run by an agency—and have decided they don't mind (Work ID W7224942359):** Viewers price in professionalization, downgrade authenticity and keep watching anyway — the authenticity penalty is real but survivable, for a creator-economy trade feature.\n- **When a multinational goes green, its overseas suppliers' emissions fall too (Work ID W7225780096):** Evidence that internal green innovation travels down the supply chain across borders, but mainly where institutions align — reframing Scope 3 work as capability transfer rather than audit pressure, for a sustainability or supply chain business feature.\n- **\"Only a few days left\" works on frugal donors — and can backfire on everyone else (Work ID W7225100539):** Deadline framing as a segment-specific tool that fails entirely for chronic-shortage causes, tested on repeat giving rather than single asks, for a nonprofit and fundraising trade piece.\n- **Make people feel small: awe nudged shoppers toward buying less (Work ID W7225693773):** Awe-evoking creative as an untested alternative to guilt and frugality messaging for \"buy less, buy better\" brands, for a brand-strategy column or a consumer-psychology explainer on the post-hike declutter urge.\n- **CSR alone doesn't build your brand — trust is the switch that turns it on (Work ID W7224110232):** CSR spend producing no direct brand lift and evaporating where trust is low — an argument for fixing service reliability before scaling responsibility messaging, for a CMO-audience column or telecom/services trade piece."
+  }
+}
