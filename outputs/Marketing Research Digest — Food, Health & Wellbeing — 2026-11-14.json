@@ -1,0 +1,559 @@
+{
+  "schema": 1,
+  "model": "claude-opus-5",
+  "run_date": "2026-11-14",
+  "days_back": 60,
+  "window_from": "2026-09-15",
+  "window_to": "2026-11-14",
+  "focus": "Food, Health & Wellbeing",
+  "topic": "food, health & wellbeing",
+  "query": "food OR nutrition OR \"healthy eating\" OR alcohol OR tobacco OR vaping OR \"health communication\" OR wellbeing OR \"well-being\" OR obesity",
+  "journals_searched": 177,
+  "journals_not_indexed": [
+    "Journal of Consumer Satisfaction, Dissatisfaction and Complaining Behavior",
+    "Journal of Services Research",
+    "Journal of Selling",
+    "Journal of Empirical Generalisations in Marketing Science",
+    "Journal of Public Relations Education",
+    "Asian Journal of Marketing (SING)",
+    "Journal of Marketing Trends",
+    "Admap",
+    "Kantar Perspectives / BrandZ",
+    "Marketing Science Institute Working Paper Series",
+    "Nielsen / NIQ Insights",
+    "Think with Google"
+  ],
+  "screening": {
+    "found": 316,
+    "not_research": 8,
+    "no_abstract": 54,
+    "off_topic": 6,
+    "already_covered": 76,
+    "over_journal_cap": 73,
+    "over_cap": 59,
+    "sent": 40
+  },
+  "primary_audience": "marketers and brand leaders",
+  "secondary_audience": "general readers and consumers",
+  "studies": [
+    {
+      "work_id": "W7226018155",
+      "headline": "Giving food waste a face: talking carrots and smiling nuggets make upcycled food feel better-made",
+      "the_study": "Three randomized between-subjects experiments with 595 participants tested whether anthropomorphized advertising helps sell upcycled food. Study 1 (N=211) showed Vietnamese consumers, recruited via Facebook and supermarket intercepts, ads for upcycled ice cream with or without humanlike framing; Study 2 (N=205) replicated with upcycled chicken nuggets among English-speaking participants on CloudResearch Connect; Study 3 (N=179) crossed anthropomorphism with a uniqueness versus popularity cue. Humanizing the product raised perceived warmth or competence, which in turn lifted perceived product quality, purchase intention, willingness to pay, and self-reported coupon use — with the effect strongest among people high in need to belong.",
+      "why_it_matters": "Quality doubt is the main brake on upcycled food, a category built on rescuing waste streams; a mascot or humanlike packaging voice is a cheap creative lever that appears to work through perceived quality rather than guilt or sustainability appeals.",
+      "story_angle_primary": "Brands launching upcycled or \"ugly\" food lines could A/B test humanlike packaging voices and mascots against conventional sustainability claims — and watch whether the quality lift survives contact with real shelves, since these were ad exposures in panels, not purchases.",
+      "story_angle_secondary": "A reminder of how easily a face or a first-person voice on a package shifts your judgment of what's inside — especially, the data suggest, when you're feeling socially disconnected.",
+      "caveats": "Online and intercept samples with hypothetical purchase measures rather than observed sales; modest cell sizes, particularly Study 3 (N=179 across four conditions); the uniqueness-versus-popularity contrasts were not individually significant; two product categories only.",
+      "journal": "International Journal of Consumer Studies",
+      "published": "2026-11-01",
+      "doi": "10.1111/ijcs.70289",
+      "paper_title": "Voices of Waste: How Anthropomorphism Shapes Consumer Responses to Upcycled Foods",
+      "source_id": "S173807628"
+    },
+    {
+      "work_id": "W7225292747",
+      "headline": "The raw carrot test: a 50-person study finds one simple food predicts how fast older adults eat everything else",
+      "the_study": "Researchers video-recorded 50 community-dwelling adults aged 70 and over eating two standardized carrot textures (raw and boiled) plus four everyday foods varying in difficulty — mashed and roast potato, minced and roast beef — and annotated their oral processing behavior frame by frame. Eating rate was highly consistent within individuals across foods, and raw carrot eating rate predicted eating rate on the other foods, especially the harder ones; boiled carrot was a weaker but more feasible fallback for people with compromised oral ability. Self-reported oral comfort scores tracked faster eating of challenging textures and correlated with better perceived oral health and lower frailty risk.",
+      "why_it_matters": "Eating rate drives how much people eat and how full they feel, and a cheap standardized test food gives food companies, care homes and clinicians a way to screen older consumers' chewing capability before designing or recommending products.",
+      "story_angle_primary": "Food and nutrition brands targeting older consumers could use a simple test food to segment by oral capability rather than age bracket — and should note that textures that look identical on a menu can take dramatically different amounts of work to eat.",
+      "story_angle_secondary": "How fast you chew a raw carrot says something broader about your oral health, and possibly your frailty risk — a low-tech self-check hiding in the vegetable drawer.",
+      "caveats": "Small sample (N=50), single country, community-dwelling and relatively healthy older adults only, lab-style meal setting, and cross-sectional associations with frailty risk rather than causal evidence.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-11-01",
+      "doi": "10.1016/j.foodqual.2026.106165",
+      "paper_title": "The “Carrot Test” adapted for older adults: Associations of eating rate of a standardised food and self-reported oral processing abilities with eating rate of different food textures",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7225801646",
+      "headline": "Fusion products don't just get rated — they may make consumers feel better, and Chinese shoppers want to know you did it respectfully",
+      "the_study": "A four-study mixed-methods project tested whether buying culturally hybrid products (think Chinese-flavored Western snacks, East-meets-West design) affects well-being, not just liking. In-depth interviews in China grounded the framework; a cross-national survey in China and the US confirmed three routes — self-expression, self-expansion, and pragmatic ease; and two experiments manipulated culture-mixing exposure across five product categories and manipulated concerns about cultural respect. Concern about cultural respect amplified the self-expression pathway for Chinese consumers but not for Americans.",
+      "why_it_matters": "It reframes culture-mixing from a product-evaluation question into a consumer well-being one, and shows the same hybrid product may need different justification in different markets.",
+      "story_angle_primary": "Global brands building hybrid or localized products could test messaging that signals respectful sourcing of cultural elements in Asian markets while leading with ease and novelty elsewhere — treating cultural-respect framing as a variable to test, not a universal rule.",
+      "story_angle_secondary": "Why a fusion dish or hybrid design can feel personally meaningful rather than gimmicky: it lets people express who they are and feel their world expand, not just enjoy the taste.",
+      "caveats": "Two countries only; survey component is cross-sectional and self-reported; experiments measure responses to exposure rather than actual purchases; well-being is self-reported and measured over a short horizon.",
+      "journal": "Journal of International Marketing",
+      "published": "2026-11-11",
+      "doi": "10.1177/1069031x261509140",
+      "paper_title": "EXPRESS: Culture-mixing consumption and well-being: A mixed-methods approach",
+      "source_id": "S119908498"
+    },
+    {
+      "work_id": "W7222525261",
+      "headline": "\"Natural\" food beats \"medicinal\" shakes: why older adults resist nutrition supplements",
+      "the_study": "Researchers surveyed 454 adults in the UK (mean age 47, 230 women) about their willingness to use \"food-first\" approaches (adding energy-dense ingredients to ordinary meals) versus oral nutritional supplements to prevent and treat malnutrition, for themselves and for a relative. Willingness was measured on visual analogue scales alongside food neophobia, food choice motives, attitudes, and open-ended responses to care scenarios. Participants consistently preferred food-first to supplements, and older participants were far less willing than younger ones to use either method preventively rather than as a treatment. Content analysis showed food-first is framed as \"natural\" while supplements read as \"medicinal\"; the strongest predictors of willingness were simply whether people \"saw the point\" or \"valued the benefits\" — not food neophobia or food choice motives.",
+      "why_it_matters": "The oral nutritional supplement category is losing sales to a positioning problem, not a taste or novelty problem: people reject the medicine framing before they ever try the product. Repositioning supplements as everyday nutrition support rather than clinical treatment is a testable lever for a market serving a rapidly aging population.",
+      "story_angle_primary": "For brands in medical nutrition and functional foods: test whether moving away from clinical, treatment-oriented packaging and messaging toward \"supports your nutrition and health\" framing raises stated willingness — and then whether it survives contact with real purchase and consumption. The finding that perceived pointlessness, not fear of unfamiliar food, drives refusal suggests benefit communication deserves more budget than sensory reformulation.",
+      "story_angle_secondary": "Many of us will one day be deciding how to help an elderly parent who has stopped eating enough — and this study shows most people instinctively reach for enriched home cooking over a supplement drink, because one feels like food and the other feels like medication. It also reveals a blind spot: older adults are especially reluctant to act before a problem becomes serious.",
+      "caveats": "Survey of a general adult population with a mean age of 47 — not a sample of actually malnourished older adults; stated willingness on scales rather than observed consumption; hypothetical scenarios; single country.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-10-16",
+      "doi": "10.1016/j.foodqual.2026.106147",
+      "paper_title": "Understanding “resistance” to using oral nutritional supplements in older adults",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7162453624",
+      "headline": "Consumers judge how \"processed\" a food is by counting the ingredients list",
+      "the_study": "In German-speaking Switzerland, researchers ran a think-aloud ranking task in which 150 participants sorted 26 packaged foods, with half (n=75) ranking them on naturalness and half (n=75) on degree of processing. Processing and naturalness judgments correlated very highly, suggesting laypeople treat them as the same concept, and participants used identical cues for both. The number of ingredients on the label strongly predicted both ratings, while the number of additives mattered much less.",
+      "why_it_matters": "Shoppers appear to run a crude heuristic — short list equals natural equals good — that food companies can either exploit through ingredient-list minimization or be penalized by when a genuinely nutritious or sustainable reformulation adds line items.",
+      "story_angle_primary": "Packaging and R&D teams should treat ingredient count as a visible brand attribute in its own right: test whether consolidating or simplifying declarations changes naturalness perceptions independent of actual recipe changes, and recognize that \"clean label\" pressure may push formulators away from additives that improve shelf life or sustainability. The effect is from a ranking task, so it signals what can drive perception on shelf, not a guaranteed sales effect.",
+      "story_angle_secondary": "Next time you flip a package over, notice what you are actually doing: most people are counting, not reading. A long ingredients list is not automatically worse for you — and a short one does not make a product nutritious or better for the planet.",
+      "caveats": "Small sample (n=75 per condition); single country and language region; ranking task with packaged products rather than actual purchases; findings concern perception, not choice or consumption.",
+      "journal": "Appetite",
+      "published": "2026-10-28",
+      "doi": "10.1016/j.appet.2026.108810",
+      "paper_title": "Consumer association between food processing and naturalness: The role of number of ingredients",
+      "source_id": "S126804734"
+    },
+    {
+      "work_id": "W7225340314",
+      "headline": "When another shopper does something kind, the store gets the credit",
+      "the_study": "Researchers surveyed 1,008 bystander-customers about witnessing \"positive customer deviance\" — altruistic acts by other shoppers that go beyond normal store etiquette — and modeled how those perceptions related to trust in and commitment to the retailer. Using structural equation modeling grounded in Lewin's life field theory, they found perceived virtuous behavior by fellow customers was positively associated with bystanders' affective responses, enjoyment, trust, and commitment to the retailer. The strength of those associations varied with the shopping experience and with how effective customers felt their own shopping was.",
+      "why_it_matters": "Retail research has focused heavily on how badly behaved customers ruin the experience; this suggests the opposite dynamic is also a lever — the social atmosphere among shoppers may be an underused contributor to store loyalty.",
+      "story_angle_primary": "Retailers might test whether deliberately enabling customer-to-customer helpfulness — layout, staffing, queue design, community programming, recognition of good deeds — moves trust and commitment metrics, treating in-store social climate as a manageable asset rather than ambient noise. Because this is correlational survey evidence, the causal direction is untested: loyal, happy customers may simply notice more kindness.",
+      "story_angle_secondary": "Holding a door, helping someone reach a top shelf, letting a shopper with two items go ahead — these small acts appear to color how everyone nearby feels about the store itself. The shopping environment is partly something customers create for each other.",
+      "caveats": "Cross-sectional survey, so causation cannot be established; self-reported perceptions rather than observed behavior; relies on recalled or perceived incidents; context and country detail limited in the abstract.",
+      "journal": "Journal of Retailing and Consumer Services",
+      "published": "2026-11-06",
+      "doi": "10.1016/j.jretconser.2026.105206",
+      "paper_title": "Good customers, good experience? The impact of perceived virtuous behaviour in retailing",
+      "source_id": "S25235501"
+    },
+    {
+      "work_id": "W7225230645",
+      "headline": "Vapes that act like smartphones are linked to heavier use and stronger nicotine dependence in young people",
+      "the_study": "Researchers surveyed a convenience sample of 4,719 US respondents aged 15–25 who had vaped in the past 30 days (July–September 2024), asking which digital features their device had and scoring them on the Nicotine Dependence Scale. Nearly 60% were using a 'smart vape' with a digital screen. After adjusting for demographics, financial situation and other tobacco use, nearly every feature was tied to more frequent vaping — e-liquid level indicators (OR 3.12), battery level indicators (OR 2.76), nicotine-level customization (OR 2.19) and puff counters (OR 1.85) — with most features also linked to higher dependence scores, including proximity notifications and built-in video games.",
+      "why_it_matters": "It suggests product design features borrowed from consumer electronics — status bars, push notifications, personalization, gamification — may function as engagement engines for an addictive product, which puts them squarely in regulators' sights.",
+      "story_angle_primary": "The same interface patterns that marketers prize for driving engagement (progress indicators, low-supply alerts, customization) are now being cited as grounds for regulatory restriction in nicotine products. Brand leaders in any habit-forming category should watch how 'engagement by design' arguments migrate from social media to physical products, and consider how their own replenishment nudges would read in a hearing room.",
+      "story_angle_secondary": "If your device tells you it's running low, congratulates you on charging, and lets you tune nicotine strength to taste, it's doing more than reporting status — this survey links each of those features to vaping more often and scoring higher on dependence.",
+      "caveats": "Convenience sample, not nationally representative; cross-sectional and self-reported, so it cannot establish that the features caused heavier use rather than heavier users choosing feature-rich devices; single country.",
+      "journal": "Tobacco Control",
+      "published": "2026-11-04",
+      "doi": "10.1136/tc-2026-060227",
+      "paper_title": "Digital design features of ‘smart vapes’ and nicotine dependence among youth and young adults in the USA",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7225723597",
+      "headline": "Thais who read food labels and seek out nutrition information ate more high-sodium food, not less",
+      "the_study": "A 2022–23 national cross-sectional survey of an estimated 10,752 Thai adults aged 15–69 measured food literacy across 62 statements (knowledge, attitude, skills, behavior) alongside three high-sodium behaviors: instant foods, packaged snacks, and adding salty condiments to prepared meals. Adding discretionary condiments was the most common behavior (32%). Associations with food literacy ran in both directions: a positive attitude toward intending to eat healthily predicted lower odds of high-sodium intake, but attitudes about the benefits of healthy eating — and label-reading and information-seeking behaviors — predicted higher odds.",
+      "why_it_matters": "Public health and food marketing both lean heavily on 'inform the consumer' strategies, and this suggests label literacy alone does not translate into lower sodium — intention and ingrained habit matter more than knowledge.",
+      "story_angle_primary": "Front-of-pack labeling and nutrition education are the default levers for reformulation-era food marketing, yet here they track with worse outcomes, plausibly because concerned eaters read labels more. Brands making low-sodium claims should test whether labels actually shift behavior in their category or just attract people who were already worried.",
+      "story_angle_secondary": "The salt that matters most may be the salt you add yourself: the single most common high-sodium behavior was reaching for fish sauce, soy sauce or seasoning at the table — a habit no package label addresses.",
+      "caveats": "Cross-sectional survey, so no causal inference and reverse causation is plausible (health-concerned people seek more information); sodium intake was estimated from self-reported frequencies rather than measured; single country with culturally specific condiment habits.",
+      "journal": "Health Promotion International",
+      "published": "2026-10-16",
+      "doi": "10.1093/heapro/daag163",
+      "paper_title": "Prevalence of food literacy and its association with high-sodium diet consumption in Thais: findings from a national cross-sectional survey, 2022–23",
+      "source_id": "S94746221"
+    },
+    {
+      "work_id": "W7223553671",
+      "headline": "Fear of new foods — not taste sensitivity — is the trait that best predicts what alcohol people like and drink",
+      "the_study": "Researchers surveyed 3,021 Italian adults, splitting the sample by sex and into two halves for replication, and measured liking and familiarity for alcoholic drinks grouped by sensory profile (mild, astringent, bitter, sweet), weekly consumption, and a battery of traits including food neophobia, reward and punishment sensitivity, disgust sensitivity, alexithymia and emotional eating, plus PROP bitter-taste responsiveness. Food neophobia was the most consistent predictor of alcohol liking, familiarity and recent consumption, especially among women; emotional eating and reward sensitivity were tied to sweet and socially consumed drinks. PROP responsiveness — the classic 'supertaster' marker — predicted nothing.",
+      "why_it_matters": "It reframes drink preference as a food-acceptance and personality question rather than a tongue-biology question, and the associations differ by sex, which matters for how alcohol brands and health campaigns segment.",
+      "story_angle_primary": "Drinks marketers often lean on taste-physiology stories ('bitter blockers', supertasters) to explain category preference; this large sample found that marker inert while openness to unfamiliar food and reward-seeking did the work. Worth testing whether neophobia-style and reward-sensitivity measures outperform sensory segmentation in your own consumer panels — and whether the pattern differs for men and women.",
+      "story_angle_secondary": "Whether you like a bitter amaro or a sweet spritz may say more about how adventurous you are with food in general, and whether you eat when emotional, than about how your taste buds are wired.",
+      "caveats": "Cross-sectional and correlational; self-reported liking and weekly consumption rather than observed drinking; single country (Italy), where drinking norms are distinctive.",
+      "journal": "Food Quality and Preference",
+      "published": "2026-10-25",
+      "doi": "10.1016/j.foodqual.2026.106160",
+      "paper_title": "Personality traits and emotional eating are associated with alcohol liking, familiarity and recent consumption: Evidence of sex-specific patterns in a large population study",
+      "source_id": "S194662844"
+    },
+    {
+      "work_id": "W7225611263",
+      "headline": "For 'adopt-a-farm' food services, upbeat framing beat warning framing — and trust mattered more than either",
+      "the_study": "In a between-subjects advertising experiment with Chinese consumers, researchers tested gain-framed versus loss-framed ads for 'adoption agriculture' — services where consumers sponsor a specific tree, plot or animal and receive its output. Gain-framed ads produced higher short-term, long-term and recommendation intentions with small-to-moderate effect sizes, mediated jointly by perceived functional benefits and emotional-social benefits. The predicted moderators failed: neither regulatory focus nor context-specific trust interacted with framing, though trust had a strong direct effect on perceived benefits.",
+      "why_it_matters": "In a category built on buying something you cannot yet see, credibility appears to be a stronger lever on perceived value than the rhetorical frame of the ad.",
+      "story_angle_primary": "Direct-to-consumer agri-food and subscription models may get more from traceability, fulfillment guarantees and third-party certification than from copy optimization — the framing effect here was real but modest while trust moved benefit perceptions strongly. A worthwhile test: hold creative constant and vary verification signals.",
+      "story_angle_secondary": "'Adopt a tree and we'll ship you the harvest' is a growing way to buy food, and it asks you to pay before anything exists — so the question to ask is not how good the ad sounds but what happens if the crop fails.",
+      "caveats": "Single-exposure online experiment measuring stated intentions, not actual participation or payment; sample size not reported in the abstract; single country (China) and one emerging service category; regulatory focus and trust were measured after exposure in the same session, limiting causal interpretation.",
+      "journal": "Asia Pacific Journal of Marketing and Logistics",
+      "published": "2026-11-09",
+      "doi": "10.1108/apjml-05-2026-1145",
+      "paper_title": "Framing the harvest: advertising message framing, perceived benefits and consumer participation in adoption agriculture",
+      "source_id": "S191031105"
+    },
+    {
+      "work_id": "W7222315143",
+      "headline": "When households cut back to cope, the poorest feel worse — evidence from Finland after Russia's invasion",
+      "the_study": "Researchers analyzed a nationally representative survey of 4,394 Finnish consumers collected during the first six months after Russia's 2022 invasion of Ukraine, testing how perceived threat from the war translated into reduced wellbeing. The path ran mainly through financial worry and the postponement of consumption rather than through security fears directly. Crucially, cutting back was not a neutral coping strategy: among lower-income respondents, postponing purchases further eroded wellbeing, suggesting that routine, needs-based consumption helps stabilize people during a crisis.",
+      "why_it_matters": "It challenges the assumption that belt-tightening is simply prudent behavior under economic stress — for financially stretched households, the act of going without appears to compound the psychological damage. For policymakers and retailers, it argues for protecting access to ordinary, everyday consumption rather than treating all spending restraint as a win.",
+      "story_angle_primary": "Brands serving lower-income shoppers during inflationary or geopolitical shocks may want to test whether messaging and pricing that preserve normal routines — affordable pack sizes, predictable staples, loyalty protection on essentials — do more for customer relationships than austerity-framed value appeals. Worth watching whether categories tied to daily routine hold up better than discretionary ones when consumer anxiety spikes.",
+      "story_angle_secondary": "The finding reframes a familiar instinct: when the news gets frightening and prices rise, most people's reflex is to stop spending — yet for those with the least slack, each postponed purchase chips away at a sense of normal life. Small routine purchases may be doing more emotional work than we assume.",
+      "caveats": "Cross-sectional survey data, so causal direction cannot be established; single country (Finland) at one unusual moment in time; self-reported wellbeing and consumption postponement rather than observed spending.",
+      "journal": "Journal of Consumer Policy",
+      "published": "2026-10-15",
+      "doi": "10.1007/s10603-026-09635-3",
+      "paper_title": "How Concern About War and Finances Shapes Consumer Well-being: Evidence From Finland",
+      "source_id": "S99990550"
+    },
+    {
+      "work_id": "W7154486028",
+      "headline": "Australia's black market now moves most of its tobacco — and modeling says crackdowns could cut smoking nearly in half",
+      "the_study": "Researchers used the SHINE Tobacco simulation model — a Markov model of year-to-year smoking, vaping and dual-use transitions linked to a multi-state lifetable of tobacco-related diseases — to project Australian smoking and vaping out to 2044. Against a business-as-usual baseline in which illicit product stays widely available (50-60% of the tobacco market is already illicit), they tested four enforcement scenarios beginning in 2025. Hard enforcement against illicit tobacco combined with blocking illicit e-cigarettes only for never-smokers, while leaving legal vapes available for quitting, produced the biggest drop: daily smoking falling to 3% by 2044 versus 5.7% under business as usual, and an estimated 4,840 deaths averted over 20 years. Enforcing against all illicit vaping cut total nicotine use more but left smoking higher, at 4.5%.",
+      "why_it_matters": "It quantifies a trade-off regulators and the nicotine industry are fighting over in real time: squeezing the illicit vape market hardest may suppress vaping numbers while leaving more people smoking cigarettes, the far deadlier product.",
+      "story_angle_primary": "For anyone marketing regulated or age-restricted products, this is a case study in what happens when enforcement lags: a majority-illicit market makes legal branding, pricing and compliance investment nearly worthless. Watch how Australia's pharmacy-only vape model plays out as a precedent for other restricted categories, and note that the modeled best outcome preserved a legal cessation channel rather than closing it.",
+      "story_angle_secondary": "If you buy cheap cigarettes or vapes under the counter in Australia, you are part of a market that is now bigger than the legal one — and the modeling suggests the shape of that black market, not just tax rates or health campaigns, will determine how fast the country's smoking rate keeps falling.",
+      "caveats": "This is a simulation study, not observed behavior: outcomes depend entirely on assumed transition rates and hypothetical enforcement intensities (up to a 90% reduction in illicit supply), which no country has demonstrated. Single country, and the authors note moderate sensitivity to baseline transition assumptions, though scenario rankings held.",
+      "journal": "Tobacco Control",
+      "published": "2026-10-25",
+      "doi": "10.1136/tc-2026-060331",
+      "paper_title": "Modelling the impacts of illicit tobacco and e-cigarette market enforcement: Australian case study",
+      "source_id": "S149729710"
+    },
+    {
+      "work_id": "W7222560284",
+      "headline": "Why an unmet need makes a product feel suddenly, vividly desirable",
+      "the_study": "Across a series of experiments, researchers tested why consumers value objects more when those objects address a current need. They find the mechanism is concrete construal: an unfulfilled need makes people think about need-relevant objects in concrete, specific terms, which makes the object's usefulness for solving the problem easier to see and drives up its perceived value. Notably, the need did not make people think more abstractly, and it did not change how they construed objects irrelevant to the need — meaning shoppers can hold different items in mind at different levels of abstraction at the same time.",
+      "why_it_matters": "It suggests that when a consumer is hungry, tired, cold or otherwise in a state of need, concrete, feature-and-use-level messaging about the relevant product should land harder than aspirational framing — and that the same consumer may still respond to abstract positioning for unrelated categories in the same session.",
+      "story_angle_primary": "Worth testing in-market: pair need-state targeting (time of day, weather, location, context signals) with deliberately concrete copy that spells out how the product solves the problem, rather than defaulting to brand-level abstraction. The flip side is a reputational risk the authors raise themselves — the same mechanism can push people toward maladaptive overconsumption, which matters for food, alcohol and anything habit-forming.",
+      "story_angle_secondary": "That moment when a sandwich in a shop window looks unreasonably good is not just appetite — your mind has switched into a concrete, 'how exactly does this fix my problem' mode that inflates what the thing seems to be worth. Noticing the switch is the cheapest defense against spending driven by a temporary state.",
+      "caveats": "The abstract does not specify sample sizes, populations or whether purchases were real or hypothetical; these appear to be lab or online experiments rather than field data, so they show what can happen under controlled conditions rather than what happens in stores.",
+      "journal": "Journal of Consumer Behaviour",
+      "published": "2026-10-16",
+      "doi": "10.1002/cb.70270",
+      "paper_title": "From Need to Deed: A Concrete Construal Account of Need‐Based Object Valuation",
+      "source_id": "S41958068"
+    },
+    {
+      "work_id": "W7221082334",
+      "headline": "Smart gym kit doesn't make members happier directly — it works by making them love the gym",
+      "the_study": "Researchers ran a three-wave panel survey of 372 new members of a fitness center equipped with Technogym smart treadmills, tracking perceptions over time and analyzing the data with structural equation modeling. Three attributes of the equipment — intelligence, connectivity and aesthetics — were each linked to higher perceived value of the overall fitness-center experience, which in turn predicted brand love toward the center and subjective well-being. Brand love acted as a mediator: the well-being payoff ran through emotional attachment to the club, not from the machines alone.",
+      "why_it_matters": "Gyms and fitness operators justify large capital spending on connected equipment on the assumption members will feel better and stay; this suggests the equipment pays off mainly as a signal that lifts the perceived value of the whole venue and builds attachment to the brand.",
+      "story_angle_primary": "If you run a service venue, treat high-tech equipment as a servicescape and brand-building asset, not a standalone feature — the measured route to member well-being ran through perceived value and brand love. Test whether cheaper design and staff-experience investments move perceived value as much as connected hardware does before committing capex.",
+      "story_angle_secondary": "The connected treadmill may do less for you than the fact that it makes your gym feel like a place worth belonging to — attachment to the club, rather than the technology itself, tracked with members feeling better overall.",
+      "caveats": "Self-reported survey measures across three waves rather than observed attendance or health outcomes; correlational, so causal direction is not established. Single fitness center, single country context and one equipment brand (Technogym), which is named in the study; no funder disclosure is given in the abstract.",
+      "journal": "International Journal of Sports Marketing and Sponsorship",
+      "published": "2026-10-09",
+      "doi": "10.1108/ijsms-04-2026-0256",
+      "paper_title": "Smart fitness equipment and subjective well-being: the roles of perceived value and brand love",
+      "source_id": "S205950374"
+    }
+  ],
+  "fact_check": [
+    {
+      "number": 1,
+      "work_id": "W7226018155",
+      "headline": "Giving food waste a face: talking carrots and smiling nuggets make upcycled food feel better-made",
+      "verdict": "minor",
+      "notes": "Design, Ns and mediation chain match the abstract; headline invents a carrot product and the \"rather than guilt or sustainability appeals\" contrast is not tested.",
+      "issues": [
+        {
+          "label": "Headline product not in study",
+          "severity": "Minor",
+          "as_written": "talking carrots and smiling nuggets make upcycled food feel better-made",
+          "abstract_says": "Study 1 (N = 211) compared anthropomorphized and nonanthropomorphized advertisements for upcycled ice cream... Study 2 (N = 205) replicated this design using upcycled chicken nuggets",
+          "problem": "The stimuli were upcycled ice cream and chicken nuggets; no carrot product was tested, so the headline invents a category.",
+          "suggested_fix": "Swap \"talking carrots\" for the actual stimuli, e.g. \"chatty ice cream and smiling nuggets\"."
+        },
+        {
+          "label": "Untested comparison in Why it matters",
+          "severity": "Minor",
+          "as_written": "a mascot or humanlike packaging voice is a cheap creative lever that appears to work through perceived quality rather than guilt or sustainability appeals",
+          "abstract_says": "Studies 1 and 2 revealed significant indirect effects of anthropomorphism on purchase intention, willingness to pay, and self-reported coupon usage through perceived warmth or competence and perceived quality.",
+          "problem": "The studies compared anthropomorphized vs. non-anthropomorphized ads; they did not test guilt or sustainability appeals as an alternative route, so the contrast is unsupported.",
+          "suggested_fix": "Say the effect ran through warmth/competence and perceived quality, without implying a comparison to guilt or sustainability appeals."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "work_id": "W7225292747",
+      "headline": "The raw carrot test: a 50-person study finds one simple food predicts how fast older adults eat everything else",
+      "verdict": "minor",
+      "notes": "Sample, foods and results closely track the abstract; two small wording upgrades (\"drives\", \"highly consistent\") and an unverifiable annotation detail.",
+      "issues": [
+        {
+          "label": "Causal wording on eating rate",
+          "severity": "Minor",
+          "as_written": "Eating rate drives how much people eat and how full they feel",
+          "abstract_says": "Eating rate (ER) is a significant predictor of food intake and satiety",
+          "problem": "The abstract describes eating rate as a predictor, not an established cause of intake and satiety.",
+          "suggested_fix": "\"Eating rate predicts how much people eat and how full they feel\"."
+        },
+        {
+          "label": "Strength of consistency overstated",
+          "severity": "Minor",
+          "as_written": "Eating rate was highly consistent within individuals across foods",
+          "abstract_says": "ER showed good consistency across all foods.",
+          "problem": "\"Highly consistent\" upgrades the abstract's \"good consistency\".",
+          "suggested_fix": "Use \"showed good consistency across foods\"."
+        },
+        {
+          "label": "Method detail not in abstract",
+          "severity": "Minor",
+          "as_written": "annotated their oral processing behavior frame by frame",
+          "abstract_says": "while video-recorded for behavioural annotation of oral processing, including ER",
+          "problem": "Frame-by-frame annotation is not specified in the abstract.",
+          "suggested_fix": "Say \"video-recorded for behavioural annotation of oral processing\" or mark as unverifiable from the abstract."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "work_id": "W7225801646",
+      "headline": "Fusion products don't just get rated — they may make consumers feel better, and Chinese shoppers want to know you did it respectfully",
+      "verdict": "minor",
+      "notes": "Four-study structure and the China-only moderation are correct; the two experiments are slightly conflated and the headline generalizes the moderator to \"Chinese shoppers\".",
+      "issues": [
+        {
+          "label": "Experiments conflated",
+          "severity": "Minor",
+          "as_written": "two experiments manipulated culture-mixing exposure across five product categories and manipulated concerns about cultural respect",
+          "abstract_says": "Study 3, an experiment manipulating culture-mixing exposure across five product categories... Study 4 additionally manipulates concerns about cultural respect",
+          "problem": "The five-category manipulation belongs to Study 3 only; Study 4 added the cultural-respect manipulation. The digest reads as if both experiments did both.",
+          "suggested_fix": "Describe Study 3 and Study 4 separately."
+        },
+        {
+          "label": "Moderator generalized in headline",
+          "severity": "Minor",
+          "as_written": "Chinese shoppers want to know you did it respectfully",
+          "abstract_says": "reveals that concerns about cultural respect selectively amplify the self-expression pathway in China but not in the U.S.",
+          "problem": "The finding is that respect concerns amplify one pathway among Chinese survey respondents, not that Chinese shoppers in general demand respectful sourcing.",
+          "suggested_fix": "Reframe as \"cultural-respect concerns amplified the self-expression route in China but not the US\"."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "work_id": "W7222525261",
+      "headline": "\"Natural\" food beats \"medicinal\" shakes: why older adults resist nutrition supplements",
+      "verdict": "significant",
+      "notes": "Sample stats and predictor findings are right, but the age finding is restated as an older-vs-younger comparison the abstract does not make, and \"losing sales\" claims market evidence the study has none of.",
+      "issues": [
+        {
+          "label": "Age comparison misstated",
+          "severity": "Moderate",
+          "as_written": "older participants were far less willing than younger ones to use either method preventively rather than as a treatment",
+          "abstract_says": "with older adults much less willing to consume either method to prevent malnutrition than to treat it",
+          "problem": "The abstract's comparison is within older adults (prevention vs. treatment), not older adults versus younger participants.",
+          "suggested_fix": "\"Older participants were much less willing to use either method to prevent malnutrition than to treat it.\""
+        },
+        {
+          "label": "Sales claim unsupported",
+          "severity": "Moderate",
+          "as_written": "The oral nutritional supplement category is losing sales to a positioning problem, not a taste or novelty problem",
+          "abstract_says": "Willingness to consume was assessed using visual analogue scales... Specific attitudes relating to \"not seeing the point\" or \"valuing the benefits\" of each method were the strongest predictors of willingness to consume",
+          "problem": "The study measured stated willingness in a hypothetical survey; no sales or market data were collected, so a claim about the category losing sales goes beyond the evidence.",
+          "suggested_fix": "\"Stated willingness to use supplements is driven by framing and perceived benefit, not by taste or fear of novelty — a positioning hypothesis worth testing in market.\""
+        },
+        {
+          "label": "Country not stated",
+          "severity": "Minor",
+          "as_written": "Researchers surveyed 454 adults in the UK (mean age 47, 230 women)",
+          "abstract_says": "this study examined healthy adults' ( n = 454, M age = 47, female = 230) views",
+          "problem": "The abstract does not identify the country. Unverifiable from abstract only.",
+          "suggested_fix": "Drop \"in the UK\" or attribute the location to the full text."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "work_id": "W7162453624",
+      "headline": "Consumers judge how \"processed\" a food is by counting the ingredients list",
+      "verdict": "minor",
+      "notes": "Design, Ns and the ingredient-count heuristic are reported accurately; only small wording slips on correlation vs. prediction and an added valence (\"equals good\").",
+      "issues": [
+        {
+          "label": "Correlation described as prediction plus added valence",
+          "severity": "Minor",
+          "as_written": "Shoppers appear to run a crude heuristic — short list equals natural equals good",
+          "abstract_says": "we observed strong correlations between the products' number of ingredients and their processing and naturalness assessments... the use of the number of ingredients can be viewed as a heuristic",
+          "problem": "The abstract reports correlations between ingredient count and naturalness/processing ratings; it does not measure whether shorter lists are judged \"good\" or healthier.",
+          "suggested_fix": "\"short list equals natural\" — and note the correlational ranking-task basis."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "work_id": "W7225340314",
+      "headline": "When another shopper does something kind, the store gets the credit",
+      "verdict": "accurate",
+      "notes": "Sample size, SEM approach, theory base and the moderating conditions all match the abstract, and the correlational nature is flagged in both the angle and caveats.",
+      "issues": []
+    },
+    {
+      "number": 7,
+      "work_id": "W7225230645",
+      "headline": "Vapes that act like smartphones are linked to heavier use and stronger nicotine dependence in young people",
+      "verdict": "minor",
+      "notes": "Sample, prevalence and odds ratios are reported correctly; the consumer angle implies every named feature raised dependence, which the abstract contradicts for one of them.",
+      "issues": [
+        {
+          "label": "Dependence link overgeneralized",
+          "severity": "Minor",
+          "as_written": "this survey links each of those features to vaping more often and scoring higher on dependence",
+          "abstract_says": "Positive associations were similarly observed for the aforementioned features and NDS scores, with the exception of no significant relationship for e-liquid level indicator (β=0.03, p=0.481) and coil temperature controls (β=0.03, p=0.590)",
+          "problem": "E-liquid level indicators and coil temperature controls were not significantly associated with dependence scores, so \"each of those features\" overstates the dependence link.",
+          "suggested_fix": "Add \"most of those features\" or note the two exceptions."
+        },
+        {
+          "label": "Adjustment set incomplete",
+          "severity": "Minor",
+          "as_written": "After adjusting for demographics, financial situation and other tobacco use",
+          "abstract_says": "adjusting for demographics, financial situation, other tobacco use and downloading a smart vape app",
+          "problem": "One covariate (downloading a smart vape app) is omitted.",
+          "suggested_fix": "Add \"and whether they had downloaded a smart vape app\"."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "work_id": "W7225723597",
+      "headline": "Thais who read food labels and seek out nutrition information ate more high-sodium food, not less",
+      "verdict": "minor",
+      "notes": "Survey size, constructs and the mixed-direction associations are accurate; the \"intention and habit matter more than knowledge\" claim is not something the abstract tests.",
+      "issues": [
+        {
+          "label": "Untested ranking of constructs",
+          "severity": "Minor",
+          "as_written": "intention and ingrained habit matter more than knowledge",
+          "abstract_says": "attitude towards intention to eat healthy food, were associated with lower odds of consumption, while attitude towards the benefits of healthy eating and behaviour related to food label use and information-seeking, were associated with higher odds",
+          "problem": "The abstract reports direction of associations for specific food-literacy dimensions; it does not compare the relative importance of intention, habit and knowledge.",
+          "suggested_fix": "Say that different food-literacy dimensions pointed in opposite directions, without ranking intention/habit against knowledge."
+        },
+        {
+          "label": "Behavioural wording in headline",
+          "severity": "Minor",
+          "as_written": "ate more high-sodium food, not less",
+          "abstract_says": "Sodium intake was assessed using the frequencies of self-reported eating instant food, packaged snack and adding high-sodium discretionary condiments",
+          "problem": "The outcome is self-reported frequency in a cross-sectional survey, so \"ate more\" reads as a measured behavioural difference.",
+          "suggested_fix": "\"report eating more high-sodium food, not less\"."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "work_id": "W7223553671",
+      "headline": "Fear of new foods — not taste sensitivity — is the trait that best predicts what alcohol people like and drink",
+      "verdict": "minor",
+      "notes": "Sample, trait battery and the null PROP result are reported correctly; \"best predicts\" upgrades \"most consistently associated\" and the sex-varying pattern for emotional eating is smoothed over.",
+      "issues": [
+        {
+          "label": "Prediction wording",
+          "severity": "Minor",
+          "as_written": "Food neophobia was the most consistent predictor of alcohol liking, familiarity and recent consumption",
+          "abstract_says": "Food neophobia emerged as the factor most consistently associated with alcohol liking, familiarity, and recent consumption",
+          "problem": "Cross-sectional associations are described as prediction, and the headline's \"best predicts\" goes further.",
+          "suggested_fix": "Use \"most consistently associated with\" in both headline and body."
+        },
+        {
+          "label": "Sex-variation caveat dropped",
+          "severity": "Minor",
+          "as_written": "emotional eating and reward sensitivity were tied to sweet and socially consumed drinks",
+          "abstract_says": "Emotional eating and sensitivity to reward were also associated with alcohol-related behaviors, especially for sweet and alcoholic beverages typically consumed in social settings, although the pattern of associations differed across the sex-stratified analyses",
+          "problem": "The abstract notes these patterns were not stable across the sex-stratified samples; the digest presents them as uniform.",
+          "suggested_fix": "Add that the emotional-eating and reward patterns differed between the sex-stratified analyses."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "work_id": "W7225611263",
+      "headline": "For 'adopt-a-farm' food services, upbeat framing beat warning framing — and trust mattered more than either",
+      "verdict": "minor",
+      "notes": "Framing effects, mediators, null moderators and limitations all match the abstract; only the \"direct effect\" of trust is firmer than the abstract's hedged wording.",
+      "issues": [
+        {
+          "label": "Trust effect stated more firmly than abstract",
+          "severity": "Minor",
+          "as_written": "though trust had a strong direct effect on perceived benefits",
+          "abstract_says": "context-specific trust has a strong positive main effect on perceived benefits, suggesting a general positive association with benefit appraisals rather than a framing-specific moderating effect",
+          "problem": "The authors explicitly hedge this as a contemporaneous association (trust was measured post-exposure in the same session), not a clean causal effect.",
+          "suggested_fix": "\"though trust was strongly associated with perceived benefits\" — consistent with the caveat already noted."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "work_id": "W7222315143",
+      "headline": "When households cut back to cope, the poorest feel worse — evidence from Finland after Russia's invasion",
+      "verdict": "accurate",
+      "notes": "Sample (n=4,394, nationally representative Finnish survey), timing, mediation path through financial concern and postponed consumption, and the lower-income moderation all match the abstract. Caveats correctly note the cross-sectional, self-reported design.",
+      "issues": []
+    },
+    {
+      "number": 12,
+      "work_id": "W7154486028",
+      "headline": "Australia's black market now moves most of its tobacco — and modeling says crackdowns could cut smoking nearly in half",
+      "verdict": "minor",
+      "notes": "Model description, scenario structure and all headline figures (3% vs 5.7% daily smoking by 2044; 4,840 deaths averted; 4.5% under full-enforcement scenario) match the abstract. Only the \"most of its tobacco\"/\"bigger than the legal one\" phrasing slightly hardens a 50–60% range.",
+      "issues": [
+        {
+          "label": "Illicit share stated as a clear majority",
+          "severity": "Minor",
+          "as_written": "Australia's black market now moves most of its tobacco",
+          "abstract_says": "50-60% of the tobacco market is now illicit",
+          "problem": "The abstract gives a range whose lower bound is exactly half, so \"most\" (and the consumer angle's \"a market that is now bigger than the legal one\") presents an estimate range as a settled majority.",
+          "suggested_fix": "Use the abstract's range, e.g. \"roughly half to 60% of Australia's tobacco market is now illicit\"."
+        },
+        {
+          "label": "Uncertainty interval on deaths averted omitted",
+          "severity": "Minor",
+          "as_written": "an estimated 4,840 deaths averted over 20 years",
+          "abstract_says": "averting 4,840 deaths over 20 years (95% uncertainty interval 4,050–5,800)",
+          "problem": "A modelled point estimate is reported without its uncertainty interval, making the projection look more precise than it is.",
+          "suggested_fix": "Add \"(95% uncertainty interval 4,050–5,800)\"."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "work_id": "W7222560284",
+      "headline": "Why an unmet need makes a product feel suddenly, vividly desirable",
+      "verdict": "minor",
+      "notes": "Mechanism (concrete construal), both null results and the simultaneous-levels-of-abstraction conclusion are faithfully reported, as is the authors' own overconsumption caveat. Study design and count are not in the abstract.",
+      "issues": [
+        {
+          "label": "Design and number of studies not in abstract",
+          "severity": "Minor",
+          "as_written": "Across a series of experiments, researchers tested why consumers value objects more when those objects address a current need.",
+          "abstract_says": "This research examines concrete construal level as one mechanism of need-based object valuation. We show that an unfulfilled need instantiates a concrete construal of need-relevant objects…",
+          "problem": "The abstract never states that the work comprised experiments or how many; the digest asserts a multi-experiment design. Unverifiable from abstract only (the caveat hedges this but the body text states it flatly).",
+          "suggested_fix": "Soften to \"the researchers report evidence that…\" or note explicitly that the abstract does not specify the number or type of studies."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "work_id": "W7221082334",
+      "headline": "Smart gym kit doesn't make members happier directly — it works by making them love the gym",
+      "verdict": "minor",
+      "notes": "Design (three-wave panel, n=372 new members, SEM), the three equipment attributes and the perceived-value/brand-love chain match the abstract; Technogym is correctly flagged. The headline's claim of no direct effect goes beyond the stated mediation result.",
+      "issues": [
+        {
+          "label": "Mediation presented as full mediation",
+          "severity": "Moderate",
+          "as_written": "Smart gym kit doesn't make members happier directly — it works by making them love the gym",
+          "abstract_says": "each of the three attributes (intelligence, connectivity and aesthetics) was positively associated with perceived value, which in turn was linked to brand love and subjective well-being. Moreover, brand love served as a positive mediator between perceived value and subjective well-being.",
+          "problem": "The abstract reports perceived value linked to subjective well-being as well as brand love acting as a mediator; it does not say the direct path is absent. The headline (and \"not from the machines alone\") implies full mediation that the abstract does not establish.",
+          "suggested_fix": "Rephrase to \"Smart gym kit lifts well-being partly by making members love the gym\" or \"the well-being link runs largely through perceived value and brand love\"."
+        },
+        {
+          "label": "Country context not stated",
+          "severity": "Minor",
+          "as_written": "Single fitness center, single country context and one equipment brand (Technogym)",
+          "abstract_says": "The study included a three-wave panel design, where new members of a fitness center (n = 372) participated in a survey.",
+          "problem": "The abstract does not name a country, so the single-country framing is unverifiable from abstract only (though it is listed as a caveat, not a finding).",
+          "suggested_fix": "Say the abstract does not report the country or setting beyond a single fitness center."
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "checked": 0,
+    "cached": 0,
+    "skipped": 14,
+    "skipped_reason": "",
+    "partial_reason": "",
+    "by_work": {}
+  },
+  "sections": {
+    "trends": "**Convergent findings**\n- **The naturalness heuristic keeps getting more concrete.** Last run's \"'Natural' beats 'tastes like chicken': what really sells meat alternatives\" (W7223189021) found perceived naturalness the strongest driver of meat-alternative acceptance without specifying what shoppers read it from. \"Consumers judge how 'processed' a food is by counting the ingredients list\" (W7162453624) now supplies the mechanism — ingredient count, not additive count, drives both naturalness and processing judgments, which laypeople treat as the same thing — and \"'Natural' food beats 'medicinal' shakes\" (W7222525261) shows the same heuristic sorting whole categories, with food-first enrichment read as natural and oral nutritional supplements read as medication. It also rhymes with \"Call it 'veggie' and the health-conscious will buy your indulgent snack\" (W7221783757): naturalness language functions as permission, not nutrition information.\n- **Information failure, now in a perverse direction.** The previous batch established that knowledge does not move behavior — \"Knowing where food comes from doesn't make people buy local — effort does\" (W7223125428), \"Students said they knew better\" (W7220842762), \"Shoppers don't read every label\" (W7224129116). \"Thais who read food labels and seek out nutrition information ate more high-sodium food, not less\" (W7225723597) pushes past null into positive association, with reverse causation plausible, and locates the real behavior where no label reaches: the condiment bottle on the table.\n- **Another physiological proxy comes up empty.** Last run, biometric attention to an eco-label predicted nothing without emotional engagement (\"People who think they're green shoppers tune out green products,\" W7223183113). This run, PROP bitter-taste responsiveness — the classic supertaster marker — predicted nothing about alcohol liking or consumption in 3,021 Italians, while food neophobia did (\"Fear of new foods — not taste sensitivity,\" W7223553671).\n- **Credibility beats execution.** \"A premium price tag won't make your organic claim more believable\" (W7224137779) found motive framing mattering more than upmarket presentation; \"For 'adopt-a-farm' food services, upbeat framing beat warning framing — and trust mattered more than either\" (W7225611263) finds the same ordering in a category where the product does not yet exist, with trust moving benefit perceptions strongly while the framing effect stayed modest.\n- **Cheap cues keep doing disproportionate work.** \"Giving food waste a face\" (W7226018155) joins \"Holding something heavy made ice cream taste crispier\" (W7224004846) and \"Plain cigarette packs dull the appeal\" (W7224090846) — a mascot or first-person packaging voice lifting perceived quality on a category whose real problem is quality doubt.\n\n**Advances**\n- **Nicotine research moves from how much to what the device does.** The previous digest shifted the frame from prevalence to intensity (\"Americans aren't just vaping more — they're vaping far more often,\" W7223008126) and upstream to susceptibility (\"Before the first puff,\" W7224916875). \"Vapes that act like smartphones\" (W7225230645) advances it again to hardware and interface design — e-liquid gauges, battery indicators, puff counters, proximity notifications — as the correlate of heavier use and dependence.\n- **Plain packaging evidence meets enforcement reality.** \"Plain cigarette packs dull the appeal — and the illicit-trade warning never materialized\" (W7224090846) settled the industry's core counterargument on review evidence; \"Australia's black market now moves most of its tobacco\" (W7154486028) shows what happens when illicit supply arrives anyway for other reasons, and models enforcement scenarios in which preserving a legal vaping channel outperforms shutting it.\n- **The lifecourse frame extends to the other end.** Last run pushed the feeding window earlier into infancy (\"Fussy eating starts earlier than you think,\" W7224627412). This run adds the opposite pole: \"The raw carrot test\" (W7225292747) offers a screening tool for older adults' oral capability, and W7222525261 shows older adults are the least willing group to act preventively on malnutrition.\n\n**Counterpoints**\n- **Buying less is not automatically wellbeing-positive.** \"Thinking about death makes people want less stuff\" (W7223010138) and \"Meditation seems to change what people buy — but mainly for beginners\" (W7220360145) framed reduced consumption as a route to flourishing. \"When households cut back to cope, the poorest feel worse\" (W7222315143) sets a sharp income boundary on that: for lower-income Finns, postponing purchases eroded wellbeing further, suggesting routine consumption stabilizes people under stress.\n- **Consumption as a wellbeing source, not a wellbeing problem.** Against the same anti-consumption strand, \"Fusion products don't just get rated\" (W7225801646) argues that buying culturally hybrid products raises wellbeing through self-expression and self-expansion — the first study in two runs to treat a purchase as the wellbeing mechanism rather than the thing to reduce.\n\n**New themes**\n- **The social climate among shoppers as a loyalty asset.** \"When another shopper does something kind, the store gets the credit\" (W7225340314) has no antecedent in the previous digest, which treated store context physically (crowd density in W7221437963, date labels in W7220982864) rather than socially.\n- **Mechanism work on need states.** \"Why an unmet need makes a product feel suddenly, vividly desirable\" (W7222560284) brings construal-level theory into this topic for the first time, with the authors themselves flagging overconsumption risk.\n- **Connected hardware and the wellbeing claim.** \"Smart gym kit doesn't make members happier directly\" (W7221082334) opens a strand on whether smart equipment delivers wellbeing or merely signals venue value.",
+    "feature_pitch": "**The pattern:** Three studies in this batch examine the same design playbook — status indicators, connectivity, personalization, gamification — and reach opposite moral conclusions depending on the category it is attached to. \"Vapes that act like smartphones are linked to heavier use and stronger nicotine dependence in young people\" (W7225230645) ties e-liquid gauges, battery indicators, puff counters and built-in games to more frequent vaping and higher dependence scores, while \"Smart gym kit doesn't make members happier directly\" (W7221082334) finds intelligence, connectivity and aesthetics raising perceived value and brand love in a fitness center; \"Why an unmet need makes a product feel suddenly, vividly desirable\" (W7222560284) supplies the mechanism that joins them, showing how a live need state switches consumers into concrete, problem-solving construal that inflates what the relevant object seems to be worth — with the authors naming maladaptive overconsumption as the flip side.\n\n**Why pitch this now:** Addictive-design arguments built for apps and feeds are migrating into physical products just as regulators move on vape hardware and enforcement, and the smart-device wellness market — connected gym kit, trackers, smart kitchen appliances — is selling the identical feature set as a health benefit.\n\n**Angle:** A reported feature on how one engagement toolkit is being simultaneously banned in one aisle and sold as wellbeing in another, asking what evidence a brand would need to defend its own progress bars and low-supply alerts in front of a regulator. Written for product and brand leaders, with enough consumer texture for a general business or technology audience.\n\n**Potential headlines:**\n- Puff counters and smart treadmills are running the same design playbook\n- The features that make a gym feel worth joining are the ones making vapes harder to put down\n- Your product's progress bar is becoming a regulatory question\n\n**Potential outlets:**\n- **Fast Company** — its design and product desk covers persuasive-design controversies and would take the gym-versus-vape symmetry as a design-ethics story rather than a policy one.\n- **WIRED** — connected hardware with notifications and gamification embedded in a nicotine device is squarely in its \"what the device is actually doing to you\" territory.\n- **MIT Sloan Management Review** — the governance question, what evidence a firm needs before shipping engagement features into a habit-forming category, suits its management-practice format.\n- **Marketing Brew** — brand teams borrowing app engagement patterns for physical goods is a readable trade story with an immediate cautionary turn for its CMO-side readership.",
+    "pitch_ideas": "- **Giving food waste a face: talking carrots and smiling nuggets make upcycled food feel better-made (Work ID W7226018155):** Upcycled food's barrier is quality doubt, not ethics, and a mascot appears to fix it through perceived quality rather than guilt — with the strongest effect among people high in need to belong, for a food and grocery trade feature plus a consumer-psychology sidebar on packaging voices.\n- **The raw carrot test: one simple food predicts how fast older adults eat everything else (Work ID W7225292747):** A low-tech chewing screen that segments older consumers by oral capability rather than age bracket, and tracks with perceived oral health and frailty risk, for a health and aging section in a general-interest outlet plus a food-innovation trade brief (flag the 50-person sample).\n- **Fusion products don't just get rated — they may make consumers feel better (Work ID W7225801646):** Hybrid products deliver self-expression and self-expansion, but Chinese consumers want evidence the borrowing was respectful while Americans do not — a concrete test agenda for global brands, for an international brand-strategy column.\n- **\"Natural\" food beats \"medicinal\" shakes: why older adults resist nutrition supplements (Work ID W7222525261):** Refusal is driven by not seeing the point rather than by fear of unfamiliar food, which puts the budget on benefit communication rather than reformulation — and lands on anyone making decisions for an elderly parent, for a medical-nutrition trade analysis and a family-health piece in a general-interest outlet.\n- **Consumers judge how \"processed\" a food is by counting the ingredients list (Work ID W7162453624):** Ingredient count is effectively a visible brand attribute, which means clean-label pressure can punish reformulations that improve shelf life or sustainability, for a packaging and R&D trade explainer with a consumer-affairs sidebar on what a short label does and doesn't tell you.\n- **When another shopper does something kind, the store gets the credit (Work ID W7225340314):** In-store social climate treated as a manageable loyalty asset rather than ambient noise — layout, queue design, community programming — for a retail-operations trade piece (flag that it is correlational survey evidence and loyal customers may simply notice more kindness).\n- **Vapes that act like smartphones are linked to heavier use and stronger nicotine dependence (Work ID W7225230645):** Nearly 60% of young vapers are using screened devices, and almost every digital feature tracked with more frequent use — the sharpest news item in this batch, for a health or regulatory news brief and a nicotine-category analysis.\n- **Thais who read food labels ate more high-sodium food, not less (Work ID W7225723597):** Label literacy tracking with worse outcomes while the biggest sodium source — condiments added at the table — sits outside any labeling scheme, for a public-health policy explainer or a food-policy trade piece (flag reverse causation).\n- **Fear of new foods — not taste sensitivity — predicts what alcohol people like and drink (Work ID W7223553671):** A 3,021-person sample where the supertaster marker predicted nothing while food neophobia and reward sensitivity did, with the pattern differing by sex, for a drinks-trade segmentation piece and a consumer-science explainer debunking the supertaster story.\n- **For 'adopt-a-farm' food services, upbeat framing beat warning framing — and trust mattered more than either (Work ID W7225611263):** In a category where you pay before the product exists, verification signals look like a better investment than copy optimization, for a direct-to-consumer or agri-food trade analysis, with a consumer-affairs angle on what happens if the crop fails.\n- **When households cut back to cope, the poorest feel worse (Work ID W7222315143):** Belt-tightening is not psychologically neutral — for low-income households each postponed purchase eroded wellbeing further, which complicates austerity-framed value messaging, for a personal-finance or economics column and a retail-strategy piece on protecting routine purchases during shocks.\n- **Australia's black market now moves most of its tobacco (Work ID W7154486028):** The modeled best case cut daily smoking to 3% by 2044 by hitting illicit tobacco hard while keeping a legal vaping route open for quitters — a live policy fight with a counterintuitive result, for a policy news feature or an analysis of Australia's pharmacy-only vape model as a precedent (flag that it is simulation, with enforcement intensities no country has achieved).\n- **Why an unmet need makes a product feel suddenly, vividly desirable (Work ID W7222560284):** Need states flip shoppers into concrete, how-does-this-fix-my-problem thinking that inflates perceived value — an argument for pairing contextual targeting with deliberately specific copy, and a tidy consumer-psychology explainer on the shop-window sandwich effect (note the abstract omits sample details).\n- **Smart gym kit doesn't make members happier directly (Work ID W7221082334):** Connected equipment paid off as a servicescape signal that lifted perceived value and brand love rather than as a wellbeing intervention in itself, which is a capex question for operators, for a fitness or leisure-industry trade feature."
+  }
+}
